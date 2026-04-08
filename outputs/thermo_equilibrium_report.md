@@ -5,7 +5,7 @@
 
 ## Extraction Statistics
 - Raw extracted records: **74634**
-- Merged unique records: **66535**
+- Merged unique records: **66509**
 
 ### Records By Source Family
 - `GWB`: 13409
