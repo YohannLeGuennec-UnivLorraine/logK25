@@ -1,0 +1,1086 @@
+dataset of thermodynamic data for gwb programs
+dataset format: jul22
+activity model: h-m-w
+fugacity model: tsonopoulos
+* 
+* -- based harvie et al. (1984)
+*    data file data0.3245r46
+*             1 atm steam saturation curve data
+*    last modified  13aug86   (da0r)
+
+* temperatures
+         0.0000     25.0000     60.0000    100.0000
+       150.0000    200.0000    250.0000    300.0000
+* pressures
+         1.0134      1.0134      1.0134      1.0134
+         4.7600     15.5490     39.7760     85.9270
+* debye huckel a (adh)
+          .4913       .5092       .5450       .5998
+          .6898       .8099       .9785      1.2555
+* debye huckel b (bdh)
+          .3247       .3283       .3343       .3422
+          .3533       .3655       .3792       .3965
+
+   9 elements
+
+Carbon          (C )          mole wt.=   12.0110 g
+Calcium         (Ca)          mole wt.=   40.0800 g
+Chlorine        (Cl)          mole wt.=   35.4530 g
+Hydrogen        (H )          mole wt.=    1.0079 g
+Potassium       (K )          mole wt.=   39.0983 g
+Magnesium       (Mg)          mole wt.=   24.3050 g
+Sodium          (Na)          mole wt.=   22.9898 g
+Oxygen          (O )          mole wt.=   15.9994 g
+Sulfur          (S )          mole wt.=   32.0600 g
+
+-end-
+
+   9 basis species
+
+H2O
+     charge=  0      ion size=  0.0 A      mole wt.=   18.0152 g
+     2 elements in species
+        2.000 H               1.000 O       
+
+Ca++
+     charge=  2      ion size=  6.0 A      mole wt.=   40.0800 g
+     1 elements in species
+        1.000 Ca      
+
+Cl-
+     charge= -1      ion size=  3.0 A      mole wt.=   35.4530 g
+     1 elements in species
+        1.000 Cl      
+
+H+
+     charge=  1      ion size=  9.0 A      mole wt.=    1.0079 g
+     1 elements in species
+        1.000 H       
+
+HCO3-
+     charge= -1      ion size=  4.5 A      mole wt.=   61.0171 g
+     3 elements in species
+        1.000 C               1.000 H               3.000 O       
+
+K+
+     charge=  1      ion size=  3.0 A      mole wt.=   39.0983 g
+     1 elements in species
+        1.000 K       
+
+Mg++
+     charge=  2      ion size=  8.0 A      mole wt.=   24.3050 g
+     1 elements in species
+        1.000 Mg      
+
+Na+
+     charge=  1      ion size=  4.0 A      mole wt.=   22.9898 g
+     1 elements in species
+        1.000 Na      
+
+SO4--
+     charge= -2      ion size=  4.0 A      mole wt.=   96.0576 g
+     2 elements in species
+        4.000 O               1.000 S       
+
+-end-
+
+   0 redox couples
+
+-end-
+
+   7 aqueous species
+
+CaCO3
+     charge=  0      ion size=  4.0 A      mole wt.=  100.0892 g
+     3 species in reaction
+        1.000 Ca++            1.000 HCO3-          -1.000 H+      
+       500.0000      7.1882    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+CO2(aq)
+     charge=  0      ion size=  4.0 A      mole wt.=   44.0098 g
+     3 species in reaction
+       -1.000 H2O             1.000 H+              1.000 HCO3-   
+       500.0000     -6.3372    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+CO3--
+     charge= -2      ion size=  4.5 A      mole wt.=   60.0092 g
+     2 species in reaction
+        1.000 HCO3-          -1.000 H+      
+       500.0000     10.3395    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+HSO4-
+     charge= -1      ion size=  4.0 A      mole wt.=   97.0655 g
+     2 species in reaction
+        1.000 SO4--           1.000 H+      
+       500.0000     -1.9789    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+MgCO3
+     charge=  0      ion size=  4.0 A      mole wt.=   84.3142 g
+     3 species in reaction
+        1.000 Mg++            1.000 HCO3-          -1.000 H+      
+       500.0000      7.4114    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+MgOH+
+     charge=  1      ion size=  4.0 A      mole wt.=   41.3123 g
+     3 species in reaction
+       -1.000 H+              1.000 Mg++            1.000 H2O     
+       500.0000     11.8090    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+OH-
+     charge= -1      ion size=  3.5 A      mole wt.=   17.0073 g
+     2 species in reaction
+        1.000 H2O            -1.000 H+      
+       500.0000     13.9970    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+-end-
+
+   0 free electron
+
+-end-
+
+   51 minerals
+
+Anhydrite                          type= sulfate
+     formula= CaSO4
+     mole vol.=   45.9400 cc      mole wt.=  136.1376 g
+     2 species in reaction
+        1.000 Ca++            1.000 SO4--   
+       500.0000     -4.3617    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Antarcticite                       type= halide
+     formula= CaCl2:6H2O
+     mole vol.=  128.1200 cc      mole wt.=  219.0772 g
+     3 species in reaction
+        1.000 Ca++            2.000 Cl-             6.000 H2O     
+       500.0000      4.1436    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Aragonite                          type= carbonate
+     formula= CaCO3
+     mole vol.=   34.1500 cc      mole wt.=  100.0892 g
+     3 species in reaction
+        1.000 Ca++            1.000 HCO3-          -1.000 H+      
+       500.0000      2.1200    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Arcanite                           type= sulfate
+     formula= K2SO4
+     mole vol.=   65.5000 cc      mole wt.=  174.2542 g
+     2 species in reaction
+        2.000 K+              1.000 SO4--   
+       500.0000     -1.7760    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Bischofite                         type= chloride
+     formula= MgCl2:6H2O
+     mole vol.=  127.8120 cc      mole wt.=  203.3022 g
+     3 species in reaction
+        1.000 Mg++            2.000 Cl-             6.000 H2O     
+       500.0000      4.4551    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Bloedite                           type= sulfate
+     formula= Na2Mg(SO4)2:4H2O
+     mole vol.=  150.0000 cc      mole wt.=  334.4606 g
+     4 species in reaction
+        2.000 Na+             1.000 Mg++            2.000 SO4--   
+        4.000 H2O     
+       500.0000     -2.3470    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Brucite                            type= hydroxide
+     formula= Mg(OH)2
+     mole vol.=   24.6300 cc      mole wt.=   58.3196 g
+     3 species in reaction
+        1.000 Mg++            2.000 H2O            -2.000 H+      
+       500.0000     17.1100    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Burkeite                           type= sulfide
+     formula= Na6CO3(SO4)2
+     mole vol.=  151.3000 cc      mole wt.=  390.0632 g
+     4 species in reaction
+        6.000 Na+             2.000 SO4--           1.000 HCO3-   
+       -1.000 H+      
+       500.0000      9.5675    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Ca2Cl2(OH)2:H2O                    type= halide
+     formula= 
+     mole vol.=    0.0000 cc      mole wt.=  203.0958 g
+     4 species in reaction
+        2.000 Ca++            2.000 Cl-             3.000 H2O     
+       -2.000 H+      
+       500.0000     26.5313    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Ca4Cl2(OH)6:13H2O                  type= halide
+     formula= 
+     mole vol.=    0.0000 cc      mole wt.=  567.4674 g
+     4 species in reaction
+        4.000 Ca++            2.000 Cl-            19.000 H2O     
+       -6.000 H+      
+       500.0000     68.7343    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+CaCl2:4H2O                         type= halide
+     formula= 
+     mole vol.=    0.0000 cc      mole wt.=  183.0468 g
+     3 species in reaction
+        1.000 Ca++            2.000 Cl-             4.000 H2O     
+       500.0000      5.7171    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Calcite                            type= carbonate
+     formula= CaCO3
+     mole vol.=   36.9340 cc      mole wt.=  100.0892 g
+     3 species in reaction
+        1.000 Ca++            1.000 HCO3-          -1.000 H+      
+       500.0000      1.9333    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Carnallite                         type= halide
+     formula= KMgCl3:6H2O
+     mole vol.=  172.6000 cc      mole wt.=  277.8535 g
+     4 species in reaction
+        1.000 K+              1.000 Mg++            3.000 Cl-     
+        6.000 H2O     
+       500.0000      4.3300    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Dolomite                           type= carbonate
+     formula= CaMg(CO3)2
+     mole vol.=   64.3650 cc      mole wt.=  184.4034 g
+     4 species in reaction
+        1.000 Ca++            1.000 Mg++            2.000 HCO3-   
+       -2.000 H+      
+       500.0000      3.5960    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Epsomite                           type= sulfate
+     formula= MgSO4:7H2O
+     mole vol.=  614.3400 cc      mole wt.=  246.4690 g
+     3 species in reaction
+        1.000 Mg++            1.000 SO4--           7.000 H2O     
+       500.0000     -1.8809    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Gaylussite                         type= carbonate
+     formula= CaNa2(CO3)2:5H2O
+     mole vol.=  148.4000 cc      mole wt.=  296.1540 g
+     5 species in reaction
+        1.000 Ca++            5.000 H2O             2.000 Na+     
+        2.000 HCO3-          -2.000 H+      
+       500.0000     11.2580    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Glaserite                          type= 
+     formula= NaK3(SO4)2
+     mole vol.=    0.0000 cc      mole wt.=  332.3999 g
+     3 species in reaction
+        2.000 SO4--           3.000 K+              1.000 Na+     
+       500.0000     -3.8030    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Glauberite                         type= 
+     formula= Na2Ca(SO4)2
+     mole vol.=  100.8000 cc      mole wt.=  278.1748 g
+     3 species in reaction
+        2.000 SO4--           2.000 Na+             1.000 Ca++    
+       500.0000     -5.2450    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Gypsum                             type= sulfate
+     formula= CaSO4:2H2O
+     mole vol.=   74.6900 cc      mole wt.=  172.1680 g
+     3 species in reaction
+        1.000 Ca++            1.000 SO4--           2.000 H2O     
+       500.0000     -4.5805    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Halite                             type= halide
+     formula= NaCl
+     mole vol.=   27.0150 cc      mole wt.=   58.4428 g
+     2 species in reaction
+        1.000 Na+             1.000 Cl-     
+       500.0000      1.5700    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Hexahydrite                        type= sulfate
+     formula= MgSO4:6H2O
+     mole vol.=  132.6000 cc      mole wt.=  228.4538 g
+     3 species in reaction
+        1.000 Mg++            1.000 SO4--           6.000 H2O     
+       500.0000     -1.6346    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+K2CO3:1.5H2O                       type= carbonate
+     formula= 
+     mole vol.=   80.8800 cc      mole wt.=  165.2286 g
+     4 species in reaction
+        1.500 H2O             2.000 K+              1.000 HCO3-   
+       -1.000 H+      
+       500.0000     13.3723    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+K3H(SO4)2                          type= sulfate
+     formula= 
+     mole vol.=    0.0000 cc      mole wt.=  310.4180 g
+     3 species in reaction
+        1.000 H+              3.000 K+              2.000 SO4--   
+       500.0000     -3.5425    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+K8H4(CO3)6:3H2O                    type= carbonate
+     formula= 
+     mole vol.=    0.0000 cc      mole wt.=  730.9188 g
+     4 species in reaction
+       -2.000 H+              8.000 K+              3.000 H2O     
+        6.000 HCO3-   
+       500.0000     27.6892    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Kainite                            type= sulfate
+     formula= KMgClSO4:3H2O
+     mole vol.=  115.3000 cc      mole wt.=  248.9595 g
+     5 species in reaction
+        1.000 K+              1.000 Mg++            1.000 Cl-     
+        1.000 SO4--           3.000 H2O     
+       500.0000      -.1930    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Kalicinite                         type= carbonate
+     formula= KHCO3
+     mole vol.=   46.1400 cc      mole wt.=  100.1154 g
+     2 species in reaction
+        1.000 K+              1.000 HCO3-   
+       500.0000       .2815    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Kieserite                          type= sulfate
+     formula= MgSO4:H2O
+     mole vol.=   56.6000 cc      mole wt.=  138.3778 g
+     3 species in reaction
+        1.000 Mg++            1.000 SO4--           1.000 H2O     
+       500.0000      -.1230    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+KNaCO3:6H2O                        type= carbonate
+     formula= 
+     mole vol.=    0.0000 cc      mole wt.=  230.1885 g
+     5 species in reaction
+        1.000 K+              6.000 H2O             1.000 Na+     
+        1.000 HCO3-          -1.000 H+      
+       500.0000     10.2236    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Labile salt                        type= 
+     formula= Na4Ca(SO4)3^2H2O
+     mole vol.=    0.0000 cc      mole wt.=  456.2424 g
+     4 species in reaction
+        4.000 Na+             1.000 Ca++            3.000 SO4--   
+        2.000 H2O     
+       500.0000     -5.6720    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Leonite                            type= 
+     formula= K2Mg(SO4)2^4H2O
+     mole vol.=  166.3000 cc      mole wt.=  366.6776 g
+     4 species in reaction
+        2.000 K+              1.000 Mg++            2.000 SO4--   
+        4.000 H2O     
+       500.0000     -3.9790    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Magnesite                          type= carbonate
+     formula= MgCO3
+     mole vol.=   28.0180 cc      mole wt.=   84.3142 g
+     3 species in reaction
+        1.000 Mg++            1.000 HCO3-          -1.000 H+      
+       500.0000      2.5055    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Mercallite                         type= sulfate
+     formula= KHSO4
+     mole vol.=   58.5900 cc      mole wt.=  136.1638 g
+     3 species in reaction
+        1.000 H+              1.000 K+              1.000 SO4--   
+       500.0000     -1.4015    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Mirabilite                         type= sulfate
+     formula= Na2SO4:10H2O
+     mole vol.=  219.8000 cc      mole wt.=  322.1892 g
+     3 species in reaction
+        2.000 Na+             1.000 SO4--          10.000 H2O     
+       500.0000     -1.2135    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Misenite                           type= sulfate
+     formula= K8H6(SO4)7
+     mole vol.=    0.0000 cc      mole wt.=  991.2370 g
+     3 species in reaction
+        8.000 K+              6.000 H+              7.000 SO4--   
+       500.0000    -10.8060    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Na2CO3:7H2O                        type= carbonate
+     formula= 
+     mole vol.=  153.7100 cc      mole wt.=  232.0952 g
+     4 species in reaction
+        2.000 Na+             7.000 H2O             1.000 HCO3-   
+       -1.000 H+      
+       500.0000      9.8794    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Na3H(SO4)2                         type= sulfate
+     formula= 
+     mole vol.=    0.0000 cc      mole wt.=  262.0925 g
+     3 species in reaction
+        1.000 H+              2.000 SO4--           3.000 Na+     
+       500.0000      -.8143    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Nahcolite                          type= 
+     formula= NaHCO3
+     mole vol.=   38.6300 cc      mole wt.=   84.0069 g
+     2 species in reaction
+        1.000 Na+             1.000 HCO3-   
+       500.0000      -.4025    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Natron                             type= 
+     formula= Na2CO3^10H2O
+     mole vol.=  196.0000 cc      mole wt.=  286.1408 g
+     4 species in reaction
+        2.000 Na+            10.000 H2O             1.000 HCO3-   
+       -1.000 H+      
+       500.0000      9.5145    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Nesquehonite                       type= carbonate
+     formula= Mg(HCO3)(OH):2H2O
+     mole vol.=   74.7900 cc      mole wt.=  138.3598 g
+     4 species in reaction
+        3.000 H2O             1.000 Mg++            1.000 HCO3-   
+       -1.000 H+      
+       500.0000      5.1725    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Oxychloride-Mg                     type= halide
+     formula= Mg2Cl(OH)3:4H2O
+     mole vol.=    0.0000 cc      mole wt.=  207.1457 g
+     4 species in reaction
+       -3.000 H+              7.000 H2O             1.000 Cl-     
+        2.000 Mg++    
+       500.0000     26.0297    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Pirssonite                         type= carbonate
+     formula= Na2Ca(CO3)2:2H2O
+     mole vol.=  102.3000 cc      mole wt.=  242.1084 g
+     5 species in reaction
+        2.000 Na+             2.000 H2O             1.000 Ca++    
+        2.000 HCO3-          -2.000 H+      
+       500.0000     11.4450    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Polyhalite                         type= 
+     formula= K2MgCa2(SO4)4^2H2O
+     mole vol.=  218.0000 cc      mole wt.=  602.9224 g
+     5 species in reaction
+        2.000 K+              1.000 Mg++            2.000 Ca++    
+        4.000 SO4--           2.000 H2O     
+       500.0000    -13.7440    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Portlandite                        type= hydroxide
+     formula= Ca(OH)2
+     mole vol.=   33.0560 cc      mole wt.=   74.0946 g
+     3 species in reaction
+        1.000 Ca++            2.000 H2O            -2.000 H+      
+       500.0000     22.8040    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Schoenite                          type= 
+     formula= K2Mg(SO4)2^6H2O
+     mole vol.=    0.0000 cc      mole wt.=  402.7080 g
+     4 species in reaction
+        2.000 K+              1.000 Mg++            2.000 SO4--   
+        6.000 H2O     
+       500.0000     -4.3280    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Sylvite                            type= halide
+     formula= KCl
+     mole vol.=   37.5240 cc      mole wt.=   74.5513 g
+     2 species in reaction
+        1.000 K+              1.000 Cl-     
+       500.0000       .8998    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Syngenite                          type= 
+     formula= K2Ca(SO4)2^H2O
+     mole vol.=  124.2000 cc      mole wt.=  328.4070 g
+     4 species in reaction
+        2.000 K+              1.000 Ca++            2.000 SO4--   
+        1.000 H2O     
+       500.0000     -7.4480    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Tachyhydrite                       type= halide
+     formula= Mg2CaCl6:12H2O
+     mole vol.=  203.7800 cc      mole wt.=  517.5904 g
+     4 species in reaction
+       12.000 H2O             6.000 Cl-             2.000 Mg++    
+        1.000 Ca++    
+       500.0000     17.3839    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Thenardite                         type= sulfate
+     formula= Na2SO4
+     mole vol.=   53.3300 cc      mole wt.=  142.0372 g
+     2 species in reaction
+        1.000 SO4--           2.000 Na+     
+       500.0000      -.2875    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Thermonatrite                      type= carbonate
+     formula= Na2CO3:H2O
+     mole vol.=   54.9200 cc      mole wt.=  124.0040 g
+     4 species in reaction
+        2.000 Na+             1.000 H2O             1.000 HCO3-   
+       -1.000 H+      
+       500.0000     10.8214    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Trona                              type= 
+     formula= Na3H(CO3)2^2H2O
+     mole vol.=    0.0000 cc      mole wt.=  226.0261 g
+     4 species in reaction
+        3.000 Na+            -1.000 H+              2.000 H2O     
+        2.000 HCO3-   
+       500.0000      9.2950    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+Trona-K                            type= carbonate
+     formula= K2NaH(CO3)2:2H2O
+     mole vol.=    0.0000 cc      mole wt.=  258.2431 g
+     5 species in reaction
+        1.000 Na+            -1.000 H+              2.000 H2O     
+        2.000 K+              2.000 HCO3-   
+       500.0000     11.5763    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+-end-
+
+*    Use TEdit to add solid solutions here globally, or add them locally
+*     from the Solid Solutions... dialog in any of the GWB modeling apps.
+
+   0 solid solutions
+
+-end-
+
+   1 gases
+
+CO2(g)
+     mole wt.=   44.0098 g
+     chi=       -1430.87       3.598  -.00227376     3.47644   -.0104247  8.46271e-6
+     Pcrit=    73.74 bar      Tcrit=    304.12 K      omega=        .225
+     3 species in reaction
+       -1.000 H2O             1.000 H+              1.000 HCO3-   
+       500.0000     -7.8051    500.0000    500.0000
+       500.0000    500.0000    500.0000    500.0000
+
+-end-
+
+   6 oxides
+
+CaO
+     mole wt.=   56.0794 g
+     3 species in reaction
+       -2.000 H+              1.000 Ca++            1.000 H2O     
+
+HCl
+     mole wt.=   36.4609 g
+     2 species in reaction
+        1.000 H+              1.000 Cl-     
+
+K2O
+     mole wt.=   94.1960 g
+     3 species in reaction
+       -2.000 H+              2.000 K+              1.000 H2O     
+
+MgO
+     mole wt.=   40.3044 g
+     3 species in reaction
+       -2.000 H+              1.000 Mg++            1.000 H2O     
+
+Na2O
+     mole wt.=   61.9790 g
+     3 species in reaction
+       -2.000 H+              2.000 Na+             1.000 H2O     
+
+SO3
+     mole wt.=   80.0582 g
+     3 species in reaction
+       -1.000 H2O             1.000 SO4--           2.000 H+      
+
+-end-
+
+*    Virial coefficients from the HMW dataset.  Entered by CMB, 10/26/94.
+*    Source:  Harvie et al., 1984.
+* 
+*    The first value on a data line ("val25") is the virial coefficient
+*    value at 25 C.
+* 
+*    The temperature dependence of the virial coefficients beta0, beta1,
+*    beta2, cphi, theta, lambda, and psi may be specified by appending as many
+*    as five coefficients c1-c5 to a data line.  The correlation equation is
+* 
+*    val = val25 + c1*(Tk-Tr) + c2*(1/Tk - 1/Tr) + c3*ln(Tk/Tr) + c4(Tk2-Tr2)
+*    + c5*(1/Tk2 - 1/Tr2)
+* 
+*    where Tk is absolute temperature and Tr is 298.15 K.  Hence, if c2-c5 are
+*    zero (or omitted), then c1 is the first temperature derivative.
+* 
+*    Note, however, that the HMW model as originally published is limited
+*    to 25 C.
+* 
+*    Input is parsed word-by-word; therefore, there is no need to align data
+*    by column.
+
+Ca++        Cl-         
+     beta0  = .3159 
+     beta1  = 1.614 
+     beta2  = 0.0  
+     cphi   = -.00034 
+     alpha1 = 2.0         
+     alpha2 = 0.0         
+
+Ca++        HCO3-       
+     beta0  = .4   
+     beta1  = 2.977 
+     beta2  = 0.0  
+     cphi   = 0.0  
+     alpha1 = 2.0         
+     alpha2 = 0.0         
+
+Ca++        HSO4-       
+     beta0  = .2145 
+     beta1  = 2.53 
+     beta2  = 0.0  
+     cphi   = 0.0  
+     alpha1 = 2.0         
+     alpha2 = 0.0         
+
+Ca++        OH-         
+     beta0  = -.1747 
+     beta1  = -.2303 
+     beta2  = -5.72 
+     cphi   = 0.0  
+     alpha1 = 2.0         
+     alpha2 = 12.0        
+
+Ca++        SO4--       
+     beta0  = .2   
+     beta1  = 3.1973 
+     beta2  = -54.24 
+     cphi   = 0.0  
+     alpha1 = 1.4         
+     alpha2 = 12.0        
+
+Cl-         H+          
+     beta0  = .1775 
+     beta1  = .2945 
+     beta2  = 0.0  
+     cphi   = 8e-4 
+     alpha1 = 2.0         
+     alpha2 = 0.0         
+
+Cl-         K+          
+     beta0  = .04835 
+     beta1  = .2122 
+     beta2  = 0.0  
+     cphi   = -.00084 
+     alpha1 = 2.0         
+     alpha2 = 0.0         
+
+Cl-         Mg++        
+     beta0  = .35235 
+     beta1  = 1.6815 
+     beta2  = 0.0  
+     cphi   = .00519 
+     alpha1 = 2.0         
+     alpha2 = 0.0         
+
+Cl-         MgOH+       
+     beta0  = -.1  
+     beta1  = 1.658 
+     beta2  = 0.0  
+     cphi   = 0.0  
+     alpha1 = 2.0         
+     alpha2 = 0.0         
+
+Cl-         Na+         
+     beta0  = .0765 
+     beta1  = .2664 
+     beta2  = 0.0  
+     cphi   = .00127 
+     alpha1 = 2.0         
+     alpha2 = 0.0         
+
+CO3--       K+          
+     beta0  = .1488 
+     beta1  = 1.43 
+     beta2  = 0.0  
+     cphi   = -.0015 
+     alpha1 = 2.0         
+     alpha2 = 0.0         
+
+CO3--       Na+         
+     beta0  = .0399 
+     beta1  = 1.389 
+     beta2  = 0.0  
+     cphi   = .0044 
+     alpha1 = 2.0         
+     alpha2 = 0.0         
+
+H+          HSO4-       
+     beta0  = .2065 
+     beta1  = .5556 
+     beta2  = 0.0  
+     cphi   = 0.0  
+     alpha1 = 2.0         
+     alpha2 = 0.0         
+
+H+          SO4--       
+     beta0  = .0298 
+     beta1  = 0.0  
+     beta2  = 0.0  
+     cphi   = .0438 
+     alpha1 = 2.0         
+     alpha2 = 0.0         
+
+HCO3-       K+          
+     beta0  = .0296 
+     beta1  = -.013 
+     beta2  = 0.0  
+     cphi   = -.008 
+     alpha1 = 2.0         
+     alpha2 = 0.0         
+
+HCO3-       Mg++        
+     beta0  = .329 
+     beta1  = .6072 
+     beta2  = 0.0  
+     cphi   = 0.0  
+     alpha1 = 2.0         
+     alpha2 = 0.0         
+
+HCO3-       Na+         
+     beta0  = .0277 
+     beta1  = .0411 
+     beta2  = 0.0  
+     cphi   = 0.0  
+     alpha1 = 2.0         
+     alpha2 = 0.0         
+
+HSO4-       K+          
+     beta0  = -3e-4 
+     beta1  = .1735 
+     beta2  = 0.0  
+     cphi   = 0.0  
+     alpha1 = 2.0         
+     alpha2 = 0.0         
+
+HSO4-       Mg++        
+     beta0  = .4746 
+     beta1  = 1.729 
+     beta2  = 0.0  
+     cphi   = 0.0  
+     alpha1 = 2.0         
+     alpha2 = 0.0         
+
+HSO4-       Na+         
+     beta0  = .0454 
+     beta1  = .398 
+     beta2  = 0.0  
+     cphi   = 0.0  
+     alpha1 = 2.0         
+     alpha2 = 0.0         
+
+K+          OH-         
+     beta0  = .1298 
+     beta1  = .32  
+     beta2  = 0.0  
+     cphi   = .0041 
+     alpha1 = 2.0         
+     alpha2 = 0.0         
+
+K+          SO4--       
+     beta0  = .04995 
+     beta1  = .7793 
+     beta2  = 0.0  
+     cphi   = 0.0  
+     alpha1 = 2.0         
+     alpha2 = 0.0         
+
+Mg++        SO4--       
+     beta0  = .221 
+     beta1  = 3.343 
+     beta2  = -37.23 
+     cphi   = .025 
+     alpha1 = 1.4         
+     alpha2 = 12.0        
+
+Na+         OH-         
+     beta0  = .0864 
+     beta1  = .253 
+     beta2  = 0.0  
+     cphi   = .0044 
+     alpha1 = 2.0         
+     alpha2 = 0.0         
+
+Na+         SO4--       
+     beta0  = .01958 
+     beta1  = 1.113 
+     beta2  = 0.0  
+     cphi   = .00497 
+     alpha1 = 2.0         
+     alpha2 = 0.0         
+
+-end- end of beta set, begin with theta set of 2nd virial coefficients
+
+Ca++        H+          
+     theta  = .092 
+
+Ca++        K+          
+     theta  = .032 
+
+Ca++        Mg++        
+     theta  = .007 
+
+Ca++        Na+         
+     theta  = .07  
+
+Cl-         CO3--       
+     theta  = -.02 
+
+Cl-         HCO3-       
+     theta  = .03  
+
+Cl-         HSO4-       
+     theta  = -.006 
+
+Cl-         OH-         
+     theta  = -.05 
+
+Cl-         SO4--       
+     theta  = .02  
+
+CO3--       HCO3-       
+     theta  = -.04 
+
+CO3--       OH-         
+     theta  = .1   
+
+CO3--       SO4--       
+     theta  = .02  
+
+H+          K+          
+     theta  = .005 
+
+H+          Mg++        
+     theta  = .1   
+
+H+          Na+         
+     theta  = .036 
+
+HCO3-       SO4--       
+     theta  = .01  
+
+K+          Na+         
+     theta  = -.012 
+
+Mg++        Na+         
+     theta  = .07  
+
+OH-         SO4--       
+     theta  = -.013 
+
+-end- end of theta set, begin with lambda set
+
+Ca++        CO2(aq)     
+     lambda  = .183 
+
+Cl-         CO2(aq)     
+     lambda  = -.005 
+
+CO2(aq)     HSO4-       
+     lambda  = -.003 
+
+CO2(aq)     K+          
+     lambda  = .051 
+
+CO2(aq)     Mg++        
+     lambda  = .183 
+
+CO2(aq)     Na+         
+     lambda  = .1   
+
+CO2(aq)     SO4--       
+     lambda  = .097 
+
+-end- end of lambda set, begin with psi set
+
+Ca++        Cl-         H+          
+     psi  = -.015 
+
+Ca++        Cl-         K+          
+     psi  = -.025 
+
+Ca++        Cl-         Mg++        
+     psi  = -.012 
+
+Ca++        Cl-         Na+         
+     psi  = -.007 
+
+Ca++        Cl-         OH-         
+     psi  = -.025 
+
+Ca++        Cl-         SO4--       
+     psi  = -.018 
+
+Ca++        Mg++        SO4--       
+     psi  = .024 
+
+Ca++        Na+         SO4--       
+     psi  = -.055 
+
+Cl-         CO3--       K+          
+     psi  = .004 
+
+Cl-         CO3--       Na+         
+     psi  = .0085 
+
+Cl-         H+          HSO4-       
+     psi  = .013 
+
+Cl-         H+          K+          
+     psi  = -.011 
+
+Cl-         H+          Mg++        
+     psi  = -.011 
+
+Cl-         H+          Na+         
+     psi  = -.004 
+
+Cl-         HCO3-       Mg++        
+     psi  = -.096 
+
+Cl-         HCO3-       Na+         
+     psi  = -.015 
+
+Cl-         HSO4-       Na+         
+     psi  = -.006 
+
+Cl-         K+          Mg++        
+     psi  = -.022 
+
+Cl-         K+          Na+         
+     psi  = -.0018 
+
+Cl-         K+          OH-         
+     psi  = -.006 
+
+Cl-         Mg++        MgOH+       
+     psi  = .028 
+
+Cl-         Mg++        Na+         
+     psi  = -.012 
+
+Cl-         Mg++        SO4--       
+     psi  = -.004 
+
+Cl-         Na+         OH-         
+     psi  = -.006 
+
+Cl-         Na+         SO4--       
+     psi  = .0014 
+
+CO3--       HCO3-       K+          
+     psi  = .012 
+
+CO3--       HCO3-       Na+         
+     psi  = .002 
+
+CO3--       K+          Na+         
+     psi  = .003 
+
+CO3--       K+          OH-         
+     psi  = -.01 
+
+CO3--       K+          SO4--       
+     psi  = -.009 
+
+CO3--       Na+         OH-         
+     psi  = -.017 
+
+CO3--       Na+         SO4--       
+     psi  = -.005 
+
+H+          HSO4-       K+          
+     psi  = -.0265 
+
+H+          HSO4-       Mg++        
+     psi  = -.0178 
+
+H+          HSO4-       Na+         
+     psi  = -.0129 
+
+H+          K+          SO4--       
+     psi  = .197 
+
+HCO3-       K+          Na+         
+     psi  = -.003 
+
+HCO3-       Mg++        SO4--       
+     psi  = -.161 
+
+HCO3-       Na+         SO4--       
+     psi  = -.005 
+
+HSO4-       K+          SO4--       
+     psi  = -.0677 
+
+HSO4-       Mg++        SO4--       
+     psi  = -.0425 
+
+HSO4-       Na+         SO4--       
+     psi  = -.0094 
+
+K+          Mg++        SO4--       
+     psi  = -.048 
+
+K+          Na+         SO4--       
+     psi  = -.01 
+
+K+          OH-         SO4--       
+     psi  = -.05 
+
+Mg++        Na+         SO4--       
+     psi  = -.015 
+
+Na+         OH-         SO4--       
+     psi  = -.009 
+
+-end- end of psi set

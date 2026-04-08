@@ -1,0 +1,4182 @@
+dataset of thermodynamic data for gwb programs
+dataset format: jul22
+activity model: phreeqc
+fugacity model: peng-robinson
+* 
+* +++++++++++++++++++++++++++++++++++++++++++++++
+* +++++++++++++++++++++++++++++++++++++++++++++++
+* 
+* Cemdata18: A chemical thermodynamic database for hydrated  
+*   Portland cements and alkali-activated materials
+* 
+* Authors: Barbara Lothenbach, Dmitrii Kulik, Thomas Matschei, 
+*   Magdalena Balonis, Luis Baquerizo, Belay Dilnesa, 
+*   George Dan Miron, Rupert J. Myers
+* 
+* For questions contact: 
+*   Barbara Lothenbach (barbara.lothenbach@empa.ch)
+*   G. Dan Miron (dan.miron@psi.ch)
+* 
+* This file, thermo_cemdata.tdat, is the GWB-format Cemdata18 dataset
+*   supplemented with thermodynamic data for Mg-, Ca-, and Al-phosphates
+*   and the zeolite21 database for Na-, Ca-, and K-zeolites, as recommended
+*   by Empa and cited at the end of this document.
+* 
+* CEMDATA18 version 18.11 (31.03.2022), phosphate (25.05.2022), and zeolite21
+*   databases were downloaded in PhreeqC format from
+*   https://www.empa.ch/web/s308/cemdata. The phosphate and zeolite
+*   databases were copied into the main cemdata dataset and then
+*   converted to GWB format using TEdit in GWB Release 16.
+* 
+* Notes:
+* 
+* The temperature dependence of log Ks and Debye-Huckel variables A and B
+*   is described with a polynomial containing up to six coefficients a-f 
+*   spread over two lines:
+* 
+*   log K = a + b*(TK-Tr) + c*(TK^2-Tr^2) 
+*   + d*(1/TK - 1/Tr) + e*(1/TK^2 - 1/Tr^2) + f*ln(TK/Tr)
+* 
+*   where TK is absolute temperature and Tr is 298.15 K. Hence, if c-f are
+*   zero (or omitted), then b is the first temperature derivative.
+*  
+* GWB Log K polynomial coefficients a-f were converted from coefficients
+*   A1-A6 in PhreeqC's analytic expression as follows:
+*   
+*   a= log10 K(298.15 K) = A1 + A2*Tr + A3/Tr + A4*log10(Tr) + A5/Tr^2 + A6*Tr^2
+*   b= A2
+*   c= A6
+*   d= A3
+*   e= A5
+*   f= A4/ln(10)
+* 
+* A temperature range of validity may optionally be set for each reaction.
+*   If no range is set, the span of the principal temperatures is assumed.
+* 
+* The polynomial coefficients for Debye-Huckel A and B are taken from 
+*   the THEREDA project's 2020 release GWB-format dataset.
+* 
+* Cement shorthand notation is used: 
+*   A=Al2O3; C=CaO; F=Fe2O3; H=H2O; K=K2O; M=MgO; N=Na2O; S=SiO2; 
+*   c=CO2; s=SO3; P=P2O5.
+* 
+* Redox coupling has been adjusted from the PhreeqC version to better 
+*   support redox disequilibrium. The secondary aqueous species Fe++, 
+*   HCN, and SCN- have been decoupled. Redox reactions within the 
+*   aqueous species, minerals, and gases sections have been rebalanced
+*   in terms of these and other redox species, in place of basis species.
+*   For example, NH3 has been rebalanced in terms of NH4+ in place of 
+*   NO3-, siderite (Sd) has been rebalanced in terms of Fe++ in place
+*   of FeO2-, and CH4(g) has been rebalanced in terms of CH4 in place
+*   of CO3--. 
+* 
+* No attempt was made to rebalance reactions to more closely match
+*   Table 2 (e.g. using the aqueous species OH- in place of the basis 
+*   species H+), although this is allowed beginning with GWB 15. 
+* 
+* No attempt was made to change the represenation of species to 
+*   more closely match Table 2 (e.g. Fe(OH)4- vs. FeO2- + 2 H2O). 
+*  
+* Aqueous species' names have been converted to the GWB format. For 
+*   example, Ca++ replaces Ca+2. Suffixes (e.g. (aq) and (s)) have been
+*   added where species names were duplicated.
+* 
+* Many minerals in the PhreeqC dataset use different names than the
+*   reference. Some names appear to indicate composition as a chemical
+*   formula or in cement notation, but do not match their actual
+*   compositions. For example, the name might refer to a factored form,
+*   subscripts might be left out, standard and cement notations might be
+*   mixed, some other convention might be used for names, or there may be
+*   typos. For example, in CA the name is the composition in cement
+*   notation but in 5CA it is not. For another example, C3AFS0.84H4.32
+*   might be represented more clearly as C3(A,F)S0.84H4.32 or
+*   C3A0.5F0.5S0.84H4.32. In the GWB dataset, only AlOHam and AlOHmic
+*   (renamed Al(OH)3(am) and Al(OH)3(mic), respectively) were changed.
+*   Common names, chemical formulae, and cement notation have been added
+*   as annotations to help clarify such cases.
+* 
+* Phosphate and zeolite additions to the original Cemdata18 compilation
+*   have been noted. The zeolites included in the original compilation
+*   can be suppressed in the GWB apps to avoid considering the same solid
+*   twice. The original and updated entries are named, respectively:
+* 
+*   natrolite   -> NAT
+*   zeoliteP_Ca -> GIS-LS-P(Ca)
+*   chabazite   -> CHA(Ca)
+*   zeoliteX    -> FAU-X(Na)
+*   zeoliteY    -> FAU-Y(Na)
+* 
+* Binary solid solutions have been added, following Tables 1 and 4.
+*   Multicomponent solid solutions have been added following Tables 3 and
+*   4, although they are not currently supported and have been commented out.
+*   Some solid solutions (e.g. ettringite 30-32H) do not form an independent
+*   basis set with H2O, which must always be in the basis. These solid
+*   solutions cannot be swapped into the basis or allowed to precipitate
+*   as equilibrium minerals in continuous mode. Similarly, certain
+*   solid solution and mineral assemblages (e.g. CSH-II + Portlandite)
+*   cannot coexist with H2O in continuous mode. These solid solutions can
+*   be used in discrete mode or can be set to react kinetically. Many
+*   minerals in the compilation are fictive end members and are only
+*   intended to be used as part of solid solutions. Some solid solutions
+*   use downscaled versions of minerals as end members (e.g. ettringite
+*   vs. 1/3 ettringite). In Table 1, only solid solution "a" was described
+*   as such, but usage in the literature may differ.
+* 
+* Oxide components have been added.
+*   
+* Factors have been added for evaluating gas fugacity coefficients. 
+* 
+* To the best of our knowledge, this dataset is not subject to copyright.
+* 
+* +++++++++++++++++++++++++++++++++++++++++++++++
+* +++++++++++++++++++++++++++++++++++++++++++++++
+
+* temperatures
+         0.0000     12.5000     25.0000     40.0000
+        55.0000     70.0000     85.0000    100.0000
+* pressures
+         1.0134      1.0134      1.0134      1.0134
+         1.0134      1.0134      1.0134      1.0134
+* debye huckel a (adh)
+     a=       0.5115893   b=      -0.5540435   c=     0.000192716
+     d=        72830.44   e=        -3267700   f=        301.9127
+* debye huckel b (bdh)
+     a=       0.3285246   b=     -0.01600781   c=    5.455436e-06
+     d=        2293.334   e=       -106171.4   f=        9.152884
+
+   15 elements
+
+Aluminum        (Al)          mole wt.=   26.9815 g
+Carbon          (C )          mole wt.=   12.0108 g
+Calcium         (Ca)          mole wt.=   40.0780 g
+Chlorine        (Cl)          mole wt.=   35.4530 g
+Iron            (Fe)          mole wt.=   55.8450 g
+Hydrogen        (H )          mole wt.=    1.0079 g
+Potassium       (K )          mole wt.=   39.0983 g
+Magnesium       (Mg)          mole wt.=   24.3050 g
+Nitrogen        (N )          mole wt.=   14.0067 g
+Sodium          (Na)          mole wt.=   22.9898 g
+Oxygen          (O )          mole wt.=   15.9994 g
+Sulfur          (S )          mole wt.=   32.0670 g
+Silicon         (Si)          mole wt.=   28.0855 g
+Strontium       (Sr)          mole wt.=   87.6200 g
+Phosphorus      (P )          mole wt.=   30.9738 g
+
+-end-
+
+   16 basis species
+
+H2O
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=   18.0152 g
+     2 elements in species
+        2.000 H               1.000 O       
+
+AlO2-
+     charge= -1      ion size=  4.0 A b=      .0640      mole wt.=   58.9803 g
+     2 elements in species
+        1.000 Al              2.000 O       
+
+Ca++
+     charge=  2      ion size= 4.86 A b=      .1500      mole wt.=   40.0780 g
+     1 elements in species
+        1.000 Ca      
+
+Cl-
+     charge= -1      ion size= 3.71 A b=      .0100      mole wt.=   35.4530 g
+     1 elements in species
+        1.000 Cl      
+
+CO3--
+     charge= -2      ion size=  5.4 A b=      .0640      mole wt.=   60.0090 g
+     2 elements in species
+        1.000 C               3.000 O       
+
+FeO2-
+     charge= -1      ion size=  4.0 A b=      .0640      mole wt.=   87.8438 g
+     2 elements in species
+        1.000 Fe              2.000 O       
+
+H+
+     charge=  1      ion size=  9.0 A b=      .0640      mole wt.=    1.0079 g
+     1 elements in species
+        1.000 H       
+
+K+
+     charge=  1      ion size= 3.71 A b=      .0100      mole wt.=   39.0983 g
+     1 elements in species
+        1.000 K       
+
+Mg++
+     charge=  2      ion size= 5.46 A b=      .2200      mole wt.=   24.3050 g
+     1 elements in species
+        1.000 Mg      
+
+Na+
+     charge=  1      ion size= 4.32 A b=      .0600      mole wt.=   22.9898 g
+     1 elements in species
+        1.000 Na      
+
+NO3-
+     charge= -1      ion size=  3.0 A b=     0.0000      mole wt.=   62.0049 g
+     2 elements in species
+        1.000 N               3.000 O       
+
+SiO2
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=   60.0843 g
+     2 elements in species
+        2.000 O               1.000 Si      
+
+SO4--
+     charge= -2      ion size= 5.31 A b=     -.0700      mole wt.=   96.0646 g
+     2 elements in species
+        4.000 O               1.000 S       
+
+Sr++
+     charge=  2      ion size= 5.48 A b=      .1100      mole wt.=   87.6200 g
+     1 elements in species
+        1.000 Sr      
+
+O2(aq)
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=   31.9988 g
+     1 elements in species
+        2.000 O       
+
+PO4---
+     charge= -3      ion size=  4.0 A b=      .0640      mole wt.=   94.9714 g
+     2 elements in species
+        4.000 O               1.000 P       
+* from phosphate database
+
+-end-
+
+   11 redox couples
+
+H2(aq)
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=    2.0158 g
+     2 species in reaction
+        2.000 e-              2.000 H+      
+*    log10 K(298 K) = 3.1060
+     a=     3.106032254   b=               0   c=               0
+     d=     -2359.24879   e=               0   f=    -7.209039983
+
+CH4
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=   16.0424 g
+     4 species in reaction
+       -3.000 H2O             1.000 CO3--           8.000 e-      
+       10.000 H+      
+*    log10 K(298 K) = -38.1782
+     a=    -38.17823875   b=               0   c=               0
+     d=    -24658.58708   e=               0   f=    -35.37944602
+
+HCN
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=   27.0254 g
+     5 species in reaction
+       -6.000 H2O             1.000 CO3--           1.000 NO3-    
+       10.000 e-             13.000 H+      
+*    log10 K(298 K) = -117.3526
+     a=    -117.3526005   b=               0   c=               0
+     d=    -48438.20341   e=               0   f=     -34.6891193
+
+SCN-
+     charge= -1      ion size=  4.0 A b=      .0640      mole wt.=   58.0845 g
+     6 species in reaction
+      -10.000 H2O             1.000 CO3--           1.000 NO3-    
+        1.000 SO4--          16.000 e-             20.000 H+      
+*    log10 K(298 K) = -156.9208
+     a=    -156.9208024   b=               0   c=               0
+     d=    -68953.38924   e=               0   f=    -57.74141959
+
+Fe++
+     charge=  2      ion size= 5.08 A b=      .1600      mole wt.=   55.8450 g
+     4 species in reaction
+       -2.000 H2O             1.000 e-              4.000 H+      
+        1.000 FeO2-   
+*    log10 K(298 K) = -34.6201
+     a=    -34.62014162   b=               0   c=               0
+     d=    -16777.04876   e=               0   f=     -17.6963245
+
+NH4+
+     charge=  1      ion size=  2.5 A b=      .0640      mole wt.=   18.0383 g
+     4 species in reaction
+       -3.000 H2O             1.000 NO3-            8.000 e-      
+       10.000 H+      
+*    log10 K(298 K) = -119.1370
+     a=    -119.1369822   b=               0   c=               0
+     d=    -44761.47698   e=               0   f=    -12.77872731
+
+N2
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=   28.0134 g
+     4 species in reaction
+       -6.000 H2O             2.000 NO3-           10.000 e-      
+       12.000 H+      
+*    log10 K(298 K) = -207.2682
+     a=    -207.2681769   b=               0   c=               0
+     d=    -79047.23892   e=               0   f=    -35.29631641
+
+HS-
+     charge= -1      ion size=  3.5 A b=      .0640      mole wt.=   33.0749 g
+     4 species in reaction
+       -4.000 H2O             1.000 SO4--           8.000 e-      
+        9.000 H+      
+*    log10 K(298 K) = -33.6902
+     a=    -33.69021447   b=               0   c=               0
+     d=    -18639.97124   e=               0   f=    -18.71320592
+
+S2O3--
+     charge= -2      ion size=  4.0 A b=      .0640      mole wt.=  112.1322 g
+     4 species in reaction
+       -5.000 H2O             2.000 SO4--           8.000 e-      
+       10.000 H+      
+*    log10 K(298 K) = -38.0143
+     a=    -38.01425222   b=               0   c=               0
+     d=    -22219.58552   e=               0   f=    -28.99856088
+
+SO3--
+     charge= -2      ion size=  4.5 A b=     0.0000      mole wt.=   80.0652 g
+     4 species in reaction
+       -1.000 H2O             1.000 SO4--           2.000 e-      
+        2.000 H+      
+*    log10 K(298 K) = 3.3970
+     a=     3.397045767   b=               0   c=               0
+     d=    -1175.143358   e=               0   f=    -1.651698351
+
+ClO4-
+     charge= -1      ion size=  3.0 A b=     0.0000      mole wt.=   99.4506 g
+     4 species in reaction
+       -8.000 e-             -8.000 H+              1.000 Cl-     
+        4.000 H2O     
+*    log10 K(298 K) = 187.7177
+     a=     187.7176547   b=               0   c=               0
+     d=     63068.03826   e=               0   f=     4.576208728
+
+-end-
+
+   84 aqueous species
+
+FeO2H
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=   88.8517 g
+     2 species in reaction
+        1.000 H+              1.000 FeO2-   
+*    log10 K(298 K) = -9.0400
+     a=    -9.039972124   b=               0   c=               0
+     d=     -737.003635   e=               0   f=     4.032934995
+
+SiO3--
+     charge= -2      ion size=  4.0 A b=      .0640      mole wt.=   76.0837 g
+     3 species in reaction
+       -2.000 H+              1.000 H2O             1.000 SiO2    
+*    log10 K(298 K) = 23.1400
+     a=     23.14001584   b=               0   c=               0
+     d=     3917.496558   e=               0   f=               0
+
+HSiO3-
+     charge= -1      ion size=  4.0 A b=      .0640      mole wt.=   77.0916 g
+     3 species in reaction
+       -1.000 H+              1.000 H2O             1.000 SiO2    
+*    log10 K(298 K) = 9.8094
+     a=     9.809376954   b=               0   c=               0
+     d=     4741.842127   e=               0   f=     10.81364944
+
+Mg(OH)+
+     charge=  1      ion size=  4.0 A b=      .0640      mole wt.=   41.3123 g
+     3 species in reaction
+       -1.000 H+              1.000 Mg++            1.000 H2O     
+*    log10 K(298 K) = 11.4400
+     a=     11.43997384   b=               0   c=               0
+     d=     2051.344448   e=               0   f=     -3.94518536
+
+Mg(HSiO3)+
+     charge=  1      ion size=  4.0 A b=      .0640      mole wt.=  101.3966 g
+     4 species in reaction
+       -1.000 H+              1.000 Mg++            1.000 H2O     
+        1.000 SiO2    
+*    log10 K(298 K) = 8.3092
+     a=     8.309188433   b=               0   c=               0
+     d=      403.475592   e=               0   f=    -3.159346867
+
+NH3
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=   17.0304 g
+     2 species in reaction
+       -1.000 H+              1.000 NH4+    
+*    log10 K(298 K) = 9.2369
+     a=        9.236946   b=               0   c=               0
+     d=      2549.47302   e=               0   f=     -0.51115244
+
+NaOH
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=   39.9971 g
+     3 species in reaction
+       -1.000 H+              1.000 Na+             1.000 H2O     
+*    log10 K(298 K) = 14.1801
+     a=     14.18005918   b=               0   c=               0
+     d=     4902.375428   e=               0   f=     6.627373315
+
+KOH
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=   56.1056 g
+     3 species in reaction
+       -1.000 H+              1.000 H2O             1.000 K+      
+*    log10 K(298 K) = 14.4600
+     a=     14.46001542   b=               0   c=               0
+     d=     5964.687625   e=               0   f=     8.815483546
+
+OH-
+     charge= -1      ion size= 10.65 A b=      .0640      mole wt.=   17.0073 g
+     2 species in reaction
+       -1.000 H+              1.000 H2O     
+*    log10 K(298 K) = 14.0001
+     a=     14.00007914   b=               0   c=               0
+     d=     6215.240028   e=               0   f=     11.05772207
+
+Sr(CO3)
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=  147.6290 g
+     2 species in reaction
+        1.000 CO3--           1.000 Sr++    
+*    log10 K(298 K) = -2.8054
+     a=    -2.805361139   b=               0   c=               0
+     d=    -2074.553325   e=               0   f=    -10.26762706
+
+SrHCO3+
+     charge=  1      ion size=  4.0 A b=      .0640      mole wt.=  148.6369 g
+     3 species in reaction
+        1.000 CO3--           1.000 Sr++            1.000 H+      
+*    log10 K(298 K) = -11.5137
+     a=     -11.5137477   b=               0   c=               0
+     d=    -9094.004136   e=               0   f=    -28.25618614
+
+FeOH+
+     charge=  1      ion size=  4.0 A b=      .0640      mole wt.=   72.8523 g
+     3 species in reaction
+        1.000 H2O            -1.000 H+              1.000 Fe++    
+*    log10 K(298 K) = 9.5000
+     a=      9.50001175   b=               0   c=               0
+     d=      2426.80714   e=               0   f=     -1.05186688
+
+Mg(SO4)
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=  120.3696 g
+     2 species in reaction
+        1.000 SO4--           1.000 Mg++    
+*    log10 K(298 K) = -2.3701
+     a=    -2.370078088   b=               0   c=               0
+     d=    -2716.841523   e=               0   f=    -10.31326837
+
+KSO4-
+     charge= -1      ion size=  4.0 A b=      .0640      mole wt.=  135.1629 g
+     2 species in reaction
+        1.000 SO4--           1.000 K+      
+*    log10 K(298 K) = -0.8499
+     a=   -0.8499171721   b=               0   c=               0
+     d=    -3150.048361   e=               0   f=    -11.10315144
+
+HSO4-
+     charge= -1      ion size=  4.0 A b=      .0640      mole wt.=   97.0725 g
+     2 species in reaction
+        1.000 SO4--           1.000 H+      
+*    log10 K(298 K) = -1.9878
+     a=    -1.987759544   b=               0   c=               0
+     d=    -3428.229466   e=               0   f=    -15.08345516
+
+Na(SO4)-
+     charge= -1      ion size=  4.0 A b=      .0640      mole wt.=  119.0544 g
+     2 species in reaction
+        1.000 SO4--           1.000 Na+     
+*    log10 K(298 K) = -0.7001
+     a=   -0.7000735375   b=               0   c=               0
+     d=    -2908.645146   e=               0   f=    -10.33622821
+
+Sr(SO4)
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=  183.6846 g
+     2 species in reaction
+        1.000 SO4--           1.000 Sr++    
+*    log10 K(298 K) = -2.2900
+     a=    -2.290025302   b=               0   c=               0
+     d=    -2594.980137   e=               0   f=     -10.2927675
+
+SrSiO3
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=  163.7037 g
+     4 species in reaction
+       -2.000 H+              1.000 Sr++            1.000 H2O     
+        1.000 SiO2    
+*    log10 K(298 K) = 18.7693
+     a=     18.76927711   b=               0   c=               0
+     d=     5596.700024   e=               0   f= -0.006340699436
+
+Sr(OH)+
+     charge=  1      ion size=  4.0 A b=      .0640      mole wt.=  104.6273 g
+     3 species in reaction
+       -1.000 H+              1.000 Sr++            1.000 H2O     
+*    log10 K(298 K) = 13.2900
+     a=     13.29004152   b=               0   c=               0
+     d=     5334.855026   e=               0   f=     3.419051059
+
+FeHSO4+
+     charge=  1      ion size=  4.0 A b=      .0640      mole wt.=  152.9175 g
+     3 species in reaction
+        1.000 SO4--           1.000 H+              1.000 Fe++    
+*    log10 K(298 K) = -3.0679
+     a=     -3.06793695   b=               0   c=               0
+     d=     -9316.91389   e=               0   f=    -33.26010458
+
+Fe(SO4)
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=  151.9096 g
+     2 species in reaction
+        1.000 SO4--           1.000 Fe++    
+*    log10 K(298 K) = -2.2500
+     a=     -2.24995651   b=               0   c=               0
+     d=     -2644.89137   e=               0   f=    -10.28603029
+
+Fe(SO4)+
+     charge=  1      ion size=  4.0 A b=      .0640      mole wt.=  151.9096 g
+     4 species in reaction
+       -2.000 H2O             1.000 SO4--           4.000 H+      
+        1.000 FeO2-   
+*    log10 K(298 K) = -25.6402
+     a=    -25.64017797   b=               0   c=               0
+     d=    -16269.57338   e=               0   f=    -26.42023575
+
+HSO3-
+     charge= -1      ion size=  4.0 A b=      .0640      mole wt.=   81.0731 g
+     2 species in reaction
+        1.000 H+              1.000 SO3--   
+*    log10 K(298 K) = -7.2201
+     a=     -7.22005279   b=               0   c=               0
+     d=    -3812.539819   e=               0   f=    -14.39645427
+
+FeHSO4++
+     charge=  2      ion size=  4.0 A b=      .0640      mole wt.=  152.9175 g
+     4 species in reaction
+       -2.000 H2O             1.000 SO4--           5.000 H+      
+        1.000 FeO2-   
+*    log10 K(298 K) = -26.0681
+     a=    -26.06806266   b=               0   c=               0
+     d=    -27250.33275   e=               0   f=    -56.33122328
+
+Al(SO4)+
+     charge=  1      ion size=  4.0 A b=      .0640      mole wt.=  123.0461 g
+     4 species in reaction
+       -2.000 H2O             1.000 SO4--           1.000 AlO2-   
+        4.000 H+      
+*    log10 K(298 K) = -26.7792
+     a=    -26.77921619   b=               0   c=               0
+     d=     -12391.4612   e=               0   f=    -13.67700551
+
+H2S
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=   34.0828 g
+     2 species in reaction
+        1.000 H+              1.000 HS-     
+*    log10 K(298 K) = -6.9898
+     a=     -6.98983282   b=               0   c=               0
+     d=     -5444.38927   e=               0   f=    -14.26480529
+
+NaHCO3
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=   84.0067 g
+     3 species in reaction
+        1.000 CO3--           1.000 Na+             1.000 H+      
+*    log10 K(298 K) = -10.0792
+     a=     -10.0792043   b=               0   c=               0
+     d=    -7758.548881   e=               0   f=     -23.5855631
+
+NaCO3-
+     charge= -1      ion size=  4.0 A b=      .0640      mole wt.=   82.9988 g
+     2 species in reaction
+        1.000 CO3--           1.000 Na+     
+*    log10 K(298 K) = -1.2702
+     a=    -1.270231816   b=               0   c=               0
+     d=    -4313.391269   e=               0   f=    -10.44321362
+
+Fe+++
+     charge=  3      ion size=  9.0 A b=     0.0000      mole wt.=   55.8450 g
+     3 species in reaction
+       -2.000 H2O             4.000 H+              1.000 FeO2-   
+*    log10 K(298 K) = -21.6001
+     a=    -21.60013894   b=               0   c=               0
+     d=    -14084.09698   e=               0   f=     -16.1367348
+
+Fe(OH)++
+     charge=  2      ion size=  4.0 A b=      .0640      mole wt.=   72.8523 g
+     3 species in reaction
+       -1.000 H2O             3.000 H+              1.000 FeO2-   
+*    log10 K(298 K) = -19.4101
+     a=      -19.410138   b=               0   c=               0
+     d=    -11351.45841   e=               0   f=    -14.44753903
+
+FeCl3
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=  162.2040 g
+     4 species in reaction
+       -2.000 H2O             3.000 Cl-             4.000 H+      
+        1.000 FeO2-   
+*    log10 K(298 K) = -22.7133
+     a=    -22.71332169   b=               0   c=               0
+     d=     -27439.5147   e=               0   f=    -58.57119696
+
+AlO+
+     charge=  1      ion size=  4.0 A b=      .0640      mole wt.=   42.9809 g
+     3 species in reaction
+       -1.000 H2O             1.000 AlO2-           2.000 H+      
+*    log10 K(298 K) = -12.2851
+     a=    -12.28510841   b=               0   c=               0
+     d=    -3851.729324   e=               0   f=   0.03681166888
+
+Al(OH)++
+     charge=  2      ion size=  4.0 A b=      .0640      mole wt.=   43.9888 g
+     3 species in reaction
+       -1.000 H2O             1.000 AlO2-           3.000 H+      
+*    log10 K(298 K) = -17.9218
+     a=    -17.92183396   b=               0   c=               0
+     d=      -9473.0536   e=               0   f=    -9.421505449
+
+AlSiO5---
+     charge= -3      ion size=  4.0 A b=      .0640      mole wt.=  135.0640 g
+     4 species in reaction
+       -2.000 H+              1.000 AlO2-           1.000 H2O     
+        1.000 SiO2    
+*    log10 K(298 K) = 22.6100
+     a=     22.61000367   b=               0   c=               0
+     d=     3759.481479   e=               0   f=               0
+
+AlHSiO3++
+     charge=  2      ion size=  4.0 A b=      .0640      mole wt.=  104.0731 g
+     4 species in reaction
+       -1.000 H2O             1.000 AlO2-           3.000 H+      
+        1.000 SiO2    
+*    log10 K(298 K) = -20.4698
+     a=     -20.4697867   b=               0   c=               0
+     d=    -3459.291193   e=               0   f=     7.101587711
+
+Al+++
+     charge=  3      ion size= 6.65 A b=      .1900      mole wt.=   26.9815 g
+     3 species in reaction
+       -2.000 H2O             1.000 AlO2-           4.000 H+      
+*    log10 K(298 K) = -22.8792
+     a=    -22.87916415   b=               0   c=               0
+     d=    -10342.69485   e=               0   f=    -3.712046094
+
+Al(SO4)2-
+     charge= -1      ion size=  4.0 A b=      .0640      mole wt.=  219.1107 g
+     4 species in reaction
+       -2.000 H2O             2.000 SO4--           1.000 AlO2-   
+        4.000 H+      
+*    log10 K(298 K) = -28.7791
+     a=    -28.77912186   b=               0   c=               0
+     d=    -15848.17509   e=               0   f=    -24.21394248
+
+Si4O10----
+     charge= -4      ion size=  4.0 A b=      .0640      mole wt.=  272.3360 g
+     3 species in reaction
+       -4.000 H+              2.000 H2O             4.000 SiO2    
+*    log10 K(298 K) = 36.3001
+     a=     36.30009571   b=               0   c=               0
+     d=     10822.83716   e=               0   f=               0
+
+FeO+
+     charge=  1      ion size=  4.0 A b=      .0640      mole wt.=   71.8444 g
+     3 species in reaction
+       -1.000 H2O             2.000 H+              1.000 FeO2-   
+*    log10 K(298 K) = -15.9301
+     a=    -15.93009742   b=               0   c=               0
+     d=     -6777.47262   e=               0   f=    -5.711557432
+
+Fe2(OH)2++++
+     charge=  4      ion size=  4.0 A b=      .0640      mole wt.=  145.7046 g
+     3 species in reaction
+       -2.000 H2O             2.000 FeO2-           6.000 H+      
+*    log10 K(298 K) = -40.2503
+     a=    -40.25029812   b=               0   c=               0
+     d=    -25217.74248   e=               0   f=     -32.2734696
+
+FeHSiO3++
+     charge=  2      ion size=  4.0 A b=      .0640      mole wt.=  132.9366 g
+     4 species in reaction
+       -1.000 H2O             1.000 FeO2-           3.000 H+      
+        1.000 SiO2    
+*    log10 K(298 K) = -21.4908
+     a=    -21.49076107   b=               0   c=               0
+     d=    -9342.250604   e=               0   f=    -5.323071029
+
+Fe3(OH)4+++++
+     charge=  5      ion size=  4.0 A b=      .0640      mole wt.=  235.5642 g
+     3 species in reaction
+       -2.000 H2O             3.000 FeO2-           8.000 H+      
+*    log10 K(298 K) = -58.5004
+     a=    -58.50043928   b=               0   c=               0
+     d=    -39126.96264   e=               0   f=    -48.41020527
+
+Fe(SO4)2-
+     charge= -1      ion size=  4.0 A b=      .0640      mole wt.=  247.9742 g
+     4 species in reaction
+       -2.000 H2O             2.000 SO4--           4.000 H+      
+        1.000 FeO2-   
+*    log10 K(298 K) = -26.9801
+     a=    -26.98005092   b=               0   c=               0
+     d=    -19527.88967   e=               0   f=    -36.95292446
+
+S--
+     charge= -2      ion size=  4.0 A b=      .0640      mole wt.=   32.0670 g
+     2 species in reaction
+       -1.000 H+              1.000 HS-     
+*    log10 K(298 K) = 19.0000
+     a=      18.9999759   b=               0   c=               0
+     d= -2.999999924e-05   e=               0   f=               0
+
+AlO2H
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=   59.9882 g
+     2 species in reaction
+        1.000 AlO2-           1.000 H+      
+*    log10 K(298 K) = -6.4467
+     a=    -6.446713653   b=               0   c=               0
+     d=     1368.552981   e=               0   f=     8.366225013
+
+Ca(OH)+
+     charge=  1      ion size=  4.0 A b=      .0640      mole wt.=   57.0853 g
+     3 species in reaction
+       -1.000 H+              1.000 Ca++            1.000 H2O     
+*    log10 K(298 K) = 12.7802
+     a=     12.78018933   b=               0   c=               0
+     d=      4635.53095   e=               0   f=     2.005174972
+
+FeCO3
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=  115.8540 g
+     2 species in reaction
+        1.000 CO3--           1.000 Fe++    
+*    log10 K(298 K) = -4.3801
+     a=      -4.3801093   b=               0   c=               0
+     d=     -2884.16422   e=               0   f=    -10.38113209
+
+Ca(HCO3)+
+     charge=  1      ion size=  4.0 A b=      .0640      mole wt.=  101.0949 g
+     3 species in reaction
+        1.000 CO3--           1.000 Ca++            1.000 H+      
+*    log10 K(298 K) = -11.4346
+     a=    -11.43461418   b=               0   c=               0
+     d=    -9335.338708   e=               0   f=    -28.93493326
+
+CaCO3
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=  100.0870 g
+     2 species in reaction
+        1.000 CO3--           1.000 Ca++    
+*    log10 K(298 K) = -3.2243
+     a=    -3.224321494   b=               0   c=               0
+     d=    -2198.635138   e=               0   f=    -10.25825976
+
+FeHCO3+
+     charge=  1      ion size=  4.0 A b=      .0640      mole wt.=  116.8619 g
+     3 species in reaction
+        1.000 CO3--           1.000 H+              1.000 Fe++    
+*    log10 K(298 K) = -12.3291
+     a=    -12.32914131   b=               0   c=               0
+     d=    -10001.77274   e=               0   f=    -28.89442749
+
+HCO3-
+     charge= -1      ion size=  5.4 A b=     0.0000      mole wt.=   61.0169 g
+     2 species in reaction
+        1.000 CO3--           1.000 H+      
+*    log10 K(298 K) = -10.3291
+     a=    -10.32912443   b=               0   c=               0
+     d=    -4730.952703   e=               0   f=     -13.2925537
+
+Mg(HCO3)+
+     charge=  1      ion size=  4.0 A b=      .0640      mole wt.=   85.3219 g
+     3 species in reaction
+        1.000 CO3--           1.000 Mg++            1.000 H+      
+*    log10 K(298 K) = -11.3973
+     a=    -11.39725204   b=               0   c=               0
+     d=    -9470.015117   e=               0   f=    -29.53327554
+
+Mg(CO3)
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=   84.3140 g
+     2 species in reaction
+        1.000 CO3--           1.000 Mg++    
+*    log10 K(298 K) = -2.9799
+     a=    -2.979856416   b=               0   c=               0
+     d=    -2552.360636   e=               0   f=    -10.15910599
+
+CO2
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=   44.0096 g
+     3 species in reaction
+       -1.000 H2O             1.000 CO3--           2.000 H+      
+*    log10 K(298 K) = -16.6811
+     a=    -16.68108873   b=               0   c=               0
+     d=     -10740.0203   e=               0   f=     -31.7461323
+
+CaSiO3
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=  116.1617 g
+     4 species in reaction
+       -2.000 H+              1.000 Ca++            1.000 H2O     
+        1.000 SiO2    
+*    log10 K(298 K) = 18.5400
+     a=     18.53999001   b=               0   c=               0
+     d=     2546.007503   e=               0   f=               0
+
+Ca(HSiO3)+
+     charge=  1      ion size=  4.0 A b=      .0640      mole wt.=  117.1696 g
+     4 species in reaction
+       -1.000 H+              1.000 Ca++            1.000 H2O     
+        1.000 SiO2    
+*    log10 K(298 K) = 8.6094
+     a=     8.609356374   b=               0   c=               0
+     d=        822.7361   e=               0   f=    -2.553807465
+
+CaSO4
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=  136.1426 g
+     2 species in reaction
+        1.000 Ca++            1.000 SO4--   
+*    log10 K(298 K) = -2.3000
+     a=    -2.299988143   b=               0   c=               0
+     d=    -2770.028075   e=               0   f=    -10.05034953
+
+MgSiO3
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=  100.3887 g
+     4 species in reaction
+       -2.000 H+              1.000 Mg++            1.000 H2O     
+        1.000 SiO2    
+*    log10 K(298 K) = 17.4393
+     a=     17.43927058   b=               0   c=               0
+     d=     10098.72079   e=               0   f=     18.95807592
+
+FeCl+
+     charge=  1      ion size=  4.0 A b=      .0640      mole wt.=   91.2980 g
+     2 species in reaction
+        1.000 Cl-             1.000 Fe++    
+*    log10 K(298 K) = -0.1401
+     a=     -0.14009634   b=               0   c=               0
+     d=     -3692.02174   e=               0   f=    -12.61014939
+
+FeCl++
+     charge=  2      ion size=  4.0 A b=      .0640      mole wt.=   91.2980 g
+     4 species in reaction
+       -2.000 H2O             1.000 Cl-             4.000 H+      
+        1.000 FeO2-   
+*    log10 K(298 K) = -23.0801
+     a=    -23.08008127   b=               0   c=               0
+     d=    -17206.94882   e=               0   f=    -27.31632685
+
+FeCl2+
+     charge=  1      ion size=  4.0 A b=      .0640      mole wt.=  126.7510 g
+     4 species in reaction
+       -2.000 H2O             2.000 Cl-             4.000 H+      
+        1.000 FeO2-   
+*    log10 K(298 K) = -23.7302
+     a=    -23.73023527   b=               0   c=               0
+     d=    -23878.59439   e=               0   f=    -48.64741822
+
+CaH2PO4+
+     charge=  1      ion size=  0.0 A b=     0.0000      mole wt.=  137.0652 g
+     3 species in reaction
+        1.000 PO4---          2.000 H+              1.000 Ca++    
+*    log10 K(298 K) = -20.4920
+     a=    -20.49198184   b=               0   c=               0
+     d=    -9797.776555   e=               0   f=    -32.25744603
+* from phosphate database
+
+CaHPO4
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=  136.0573 g
+     3 species in reaction
+        1.000 PO4---          1.000 H+              1.000 Ca++    
+*    log10 K(298 K) = -14.7720
+     a=    -14.77198184   b=               0   c=               0
+     d=    -8092.358555   e=               0   f=    -32.25744603
+* from phosphate database
+
+CaPO4-
+     charge= -1      ion size=  0.0 A b=     0.0000      mole wt.=  135.0494 g
+     2 species in reaction
+        1.000 PO4---          1.000 Ca++    
+*    log10 K(298 K) = -6.4519
+     a=    -6.451938402   b=               0   c=               0
+     d=    -4696.647995   e=               0   f=    -25.60407412
+* from phosphate database
+
+H2PO4-
+     charge= -1      ion size=  4.5 A b=     0.0000      mole wt.=   96.9872 g
+     2 species in reaction
+        1.000 PO4---          2.000 H+      
+*    log10 K(298 K) = -19.5619
+     a=     -19.5619384   b=               0   c=               0
+     d=    -8605.394495   e=               0   f=    -25.60407412
+* from phosphate database
+
+H3PO4
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=   97.9951 g
+     2 species in reaction
+        1.000 PO4---          3.000 H+      
+*    log10 K(298 K) = -21.7020
+     a=    -21.70198184   b=               0   c=               0
+     d=    -10158.53806   e=               0   f=    -32.25744603
+* from phosphate database
+
+HP2O7---
+     charge= -3      ion size=  0.0 A b=     0.0000      mole wt.=  174.9513 g
+     3 species in reaction
+       -1.000 H2O             2.000 PO4---          3.000 H+      
+*    log10 K(298 K) = -30.7098
+     a=     -30.7097765   b=               0   c=               0
+     d=    -10109.53721   e=               0   f=    -28.87675706
+* from phosphate database
+
+HPO4--
+     charge= -2      ion size=  4.0 A b=      .0640      mole wt.=   95.9793 g
+     2 species in reaction
+        1.000 PO4---          1.000 H+      
+*    log10 K(298 K) = -12.3499
+     a=    -12.34988834   b=               0   c=               0
+     d=    -5054.768657   e=               0   f=    -14.43837871
+* from phosphate database
+
+KHPO4-
+     charge= -1      ion size=  0.0 A b=     0.0000      mole wt.=  135.0776 g
+     3 species in reaction
+        1.000 PO4---          1.000 K+              1.000 H+      
+*    log10 K(298 K) = -13.4000
+     a=    -13.39995125   b=               0   c=               0
+     d=    -6768.191548   e=               0   f=    -25.60407312
+* from phosphate database
+
+KP2O7---
+     charge= -3      ion size=  0.0 A b=     0.0000      mole wt.=  213.0417 g
+     4 species in reaction
+       -1.000 H2O             2.000 PO4---          1.000 K+      
+        2.000 H+      
+*    log10 K(298 K) = -23.4098
+     a=     -23.4098217   b=               0   c=               0
+     d=    -11125.29113   e=               0   f=    -40.04245507
+* from phosphate database
+
+MgH2P2O7
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=  200.2642 g
+     4 species in reaction
+       -1.000 H2O             2.000 PO4---          1.000 Mg++    
+        4.000 H+      
+*    log10 K(298 K) = -40.6200
+     a=    -40.61996139   b=               0   c=               0
+     d=    -19487.03132   e=               0   f=    -64.51491014
+* from phosphate database
+
+MgH2PO4+
+     charge=  1      ion size=  0.0 A b=     0.0000      mole wt.=  121.2922 g
+     3 species in reaction
+        1.000 PO4---          1.000 Mg++            2.000 H+      
+*    log10 K(298 K) = -20.7720
+     a=    -20.77197828   b=               0   c=               0
+     d=    -9881.256684   e=               0   f=    -32.25744342
+* from phosphate database
+
+MgHP2O7-
+     charge= -1      ion size=  0.0 A b=     0.0000      mole wt.=  199.2563 g
+     4 species in reaction
+       -1.000 H2O             2.000 PO4---          1.000 Mg++    
+        3.000 H+      
+*    log10 K(298 K) = -34.8239
+     a=    -34.82391845   b=               0   c=               0
+     d=    -16843.84547   e=               0   f=    -57.86151816
+* from phosphate database
+
+MgHP2O8---
+     charge= -3      ion size=  0.0 A b=     0.0000      mole wt.=  215.2557 g
+     3 species in reaction
+        2.000 PO4---          1.000 Mg++            1.000 H+      
+*    log10 K(298 K) = -11.9700
+     a=    -11.97002224   b=               0   c=               0
+     d=     -8616.43622   e=               0   f=    -36.20264575
+* from phosphate database
+
+MgHPO4
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=  120.2843 g
+     3 species in reaction
+        1.000 PO4---          1.000 Mg++            1.000 H+      
+*    log10 K(298 K) = -14.8030
+     a=    -14.80297879   b=               0   c=               0
+     d=    -8101.599485   e=               0   f=    -32.25744342
+* from phosphate database
+
+MgP2O7--
+     charge= -2      ion size=  0.0 A b=     0.0000      mole wt.=  198.2484 g
+     4 species in reaction
+       -1.000 H2O             2.000 PO4---          1.000 Mg++    
+        2.000 H+      
+*    log10 K(298 K) = -28.5119
+     a=    -28.51188432   b=               0   c=               0
+     d=    -14046.82619   e=               0   f=    -51.20815763
+* from phosphate database
+
+MgPO4-
+     charge= -1      ion size=  0.0 A b=     0.0000      mole wt.=  119.2764 g
+     2 species in reaction
+        1.000 PO4---          1.000 Mg++    
+*    log10 K(298 K) = -4.9219
+     a=      -4.9219448   b=               0   c=               0
+     d=    -4240.479936   e=               0   f=    -25.60407276
+* from phosphate database
+
+NaHPO4-
+     charge= -1      ion size=  0.0 A b=     0.0000      mole wt.=  118.9691 g
+     3 species in reaction
+        1.000 PO4---          1.000 Na+             1.000 H+      
+*    log10 K(298 K) = -13.1949
+     a=    -13.19493924   b=               0   c=               0
+     d=     -6707.07368   e=               0   f=    -25.60407427
+* from phosphate database
+
+NaP2O7---
+     charge= -3      ion size=  0.0 A b=     0.0000      mole wt.=  196.9332 g
+     4 species in reaction
+       -1.000 H2O             2.000 PO4---          1.000 Na+     
+        2.000 H+      
+*    log10 K(298 K) = -23.5998
+     a=    -23.59983448   b=               0   c=               0
+     d=    -11181.93679   e=               0   f=    -40.04243293
+* from phosphate database
+
+P2O7----
+     charge= -4      ion size=  0.0 A b=     0.0000      mole wt.=  173.9434 g
+     3 species in reaction
+       -1.000 H2O             2.000 PO4---          2.000 H+      
+*    log10 K(298 K) = -21.3098
+     a=    -21.30977654   b=               0   c=               0
+     d=    -10109.53721   e=               0   f=    -28.87675706
+* from phosphate database
+
+AlH2PO4++
+     charge=  2      ion size=  0.0 A b=     0.0000      mole wt.=  123.9687 g
+     3 species in reaction
+        1.000 PO4---          1.000 Al+++           2.000 H+      
+*    log10 K(298 K) = -22.2000
+     a=    -22.20000067   b=               0   c=               0
+     d=      -6618.9302   e=               0   f=               0
+* from phosphate database
+
+AlH4P2O8+
+     charge=  1      ion size=  0.0 A b=     0.0000      mole wt.=  220.9559 g
+     3 species in reaction
+        2.000 PO4---          1.000 Al+++           4.000 H+      
+*    log10 K(298 K) = -45.4999
+     a=    -45.49991615   b=               0   c=               0
+     d=        -13565.8   e=               0   f=               0
+* from phosphate database
+
+AlHPO4+
+     charge=  1      ion size=  0.0 A b=     0.0000      mole wt.=  122.9608 g
+     3 species in reaction
+        1.000 PO4---          1.000 Al+++           1.000 H+      
+*    log10 K(298 K) = -21.6000
+     a=           -21.6   b=               0   c=               0
+     d=        -6440.04   e=               0   f=               0
+* from phosphate database
+
+AlPO4
+     charge=  0      ion size=  0.0 A b=     0.0000      mole wt.=  121.9529 g
+     2 species in reaction
+        1.000 PO4---          1.000 Al+++   
+*    log10 K(298 K) = -20.5000
+     a=    -20.50001711   b=               0   c=               0
+     d=      -6112.0801   e=               0   f=               0
+* from phosphate database
+
+-end-
+
+   1 free electron
+
+e-
+     charge= -1      ion size=  0.0 A b=      .0640      mole wt.=    0.0000 g
+     3 species in reaction
+        -.250 O2(aq)         -1.000 H+               .500 H2O     
+*    log10 K(298 K) = 21.4965
+     a=     21.49650198   b=               0   c=               0
+     d=     6757.174919   e=               0   f=    -1.842319319
+
+-end-
+
+   208 minerals
+
+5CA                                type= C-S-H
+     formula= (CaO)1.25(SiO2)1(Al2O3)0.125(H2O)1.625
+     mole vol.=   57.3000 cc      mole wt.=  172.2009 g
+     5 species in reaction
+       -2.250 H+              1.250 Ca++             .250 AlO2-   
+        2.750 H2O             1.000 SiO2    
+*    log10 K(298 K) = 15.8915
+     a=     15.89145647   b=               0   c=               0
+     d=      5225.70552   e=               0   f=     1.236583182
+* cement notation: C5/4A1/8S1H13/8
+* 
+* End member of multicomponent CNASH solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+5CNA                               type= C-S-H
+     formula= (CaO)1.25(SiO2)1(Al2O3)0.125(Na2O)0.25(H2O)1.375
+     mole vol.=   64.5100 cc      mole wt.=  183.1919 g
+     6 species in reaction
+       -2.750 H+              1.250 Ca++             .500 Na+     
+         .250 AlO2-           2.750 H2O             1.000 SiO2    
+*    log10 K(298 K) = 23.2414
+     a=     23.24142647   b=               0   c=               0
+     d=     7769.891839   e=               0   f=     2.278121671
+* cement notation: C5/4N1/4A1/8S1H11/8
+* 
+* End member of multicomponent CNASH solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+Al(OH)3(am)                        type= hydroxide
+     formula= Al(OH)3
+     mole vol.=   31.9560 cc      mole wt.=   78.0034 g
+     3 species in reaction
+        1.000 AlO2-           1.000 H+              1.000 H2O     
+*    log10 K(298 K) = -13.7589
+     a=    -13.75887112   b=               0   c=               0
+     d=    -4668.909881   e=               0   f=    -3.486949961
+* amorphous Al(OH)3 (renamed from AlOHam)
+* cement notation: .5 AH3
+
+Al(OH)3(mic)                       type= hydroxide
+     formula= Al(OH)3
+     mole vol.=   31.9560 cc      mole wt.=   78.0034 g
+     3 species in reaction
+        1.000 AlO2-           1.000 H+              1.000 H2O     
+*    log10 K(298 K) = -14.6689
+     a=    -14.66885929   b=               0   c=               0
+     d=    -3851.361281   e=               0   f=    -3.486939538
+* microcrystalline Al(OH)3 (renamed from AlOHmic)
+* cement notation: .5 AH3
+
+Amor-Sl                            type= oxide
+     formula= SiO2
+     mole vol.=   29.0000 cc      mole wt.=   60.0843 g
+     1 species in reaction
+        1.000 SiO2    
+*    log10 K(298 K) = -2.7140
+     a=    -2.714035727   b=               0   c=               0
+     d=     -809.189752   e=               0   f=               0
+* Amorphous silica
+* cement notation: S
+* 
+* End member of binary CSH-I solid solution from older versions of Cemdata, but CSH-I is no longer recommended in Cemdata18. 
+
+Anh                                type= sulfate
+     formula= CaSO4
+     mole vol.=   45.9400 cc      mole wt.=  136.1426 g
+     2 species in reaction
+        1.000 Ca++            1.000 SO4--   
+*    log10 K(298 K) = -4.3574
+     a=    -4.357423147   b=               0   c=               0
+     d=    -5228.525356   e=               0   f=    -20.71891204
+* Anhydrite
+* cement notation: Cs
+
+Arg                                type= carbonate
+     formula= CaCO3
+     mole vol.=   34.1500 cc      mole wt.=  100.0870 g
+     2 species in reaction
+        1.000 CO3--           1.000 Ca++    
+*    log10 K(298 K) = -8.3362
+     a=    -8.336158237   b=               0   c=               0
+     d=    -5675.517045   e=               0   f=    -20.97339471
+* Aragonite
+* cement notation: Cc
+
+Brc                                type= hydroxide
+     formula= Mg(OH)2
+     mole vol.=   24.6300 cc      mole wt.=   58.3196 g
+     3 species in reaction
+       -2.000 H+              1.000 Mg++            2.000 H2O     
+*    log10 K(298 K) = 16.8401
+     a=     16.84005492   b=               0   c=               0
+     d=     6782.887663   e=               0   f=     2.704689186
+* Brucite
+* cement notation: MH
+
+C2AClH5                            type= AFm
+     formula= Ca2AlCl(OH)6(H2O)2
+     mole vol.=  136.1500 cc      mole wt.=  280.6647 g
+     5 species in reaction
+       -2.000 H+              2.000 Ca++            1.000 Cl-     
+        1.000 AlO2-           6.000 H2O     
+*    log10 K(298 K) = 14.4436
+     a=     14.44361275   b=               0   c=               0
+     d=     1762.591495   e=               0   f=     -10.2244204
+* Friedel's salt factored by 1/2 
+* cement notation (modified): C1.5A0.5 (CaCl2)0.5 H5
+
+C2AH7.5                            type= AFm
+     formula= Ca2Al2(OH)10(H2O)2.5
+     mole vol.= 179.71001 cc      mole wt.=  349.2300 g
+     4 species in reaction
+       -2.000 H+              2.000 Ca++            2.000 AlO2-   
+        8.500 H2O     
+*    log10 K(298 K) = 14.2054
+     a=     14.20540088   b=               0   c=               0
+     d=     3827.297306   e=               0   f=    -2.885464698
+
+C2AH65                             type= AFm
+     formula= Ca2Al(OH)7(H2O)3
+     mole vol.=  137.2350 cc      mole wt.=  280.2342 g
+     4 species in reaction
+       -3.000 H+              2.000 Ca++            1.000 AlO2-   
+        8.000 H2O     
+*    log10 K(298 K) = 29.3794
+     a=     29.37938598   b=               0   c=               0
+     d=     7522.207466   e=               0   f=    -4.126693528
+* C4AH13 factored by 1/2 
+* cement notation: C2A.5H6.5 
+
+C2S                                type= clinker
+     formula= (CaO)2SiO2
+     mole vol.=   51.7900 cc      mole wt.=  172.2391 g
+     4 species in reaction
+       -4.000 H+              2.000 Ca++            2.000 H2O     
+        1.000 SiO2    
+*    log10 K(298 K) = 38.4663
+     a=     38.46629777   b=               0   c=               0
+     d=     12467.43799   e=               0   f=    0.2472421114
+* belite
+
+C3A                                type= clinker
+     formula= (CaO)3Al2O3
+     mole vol.=   89.2170 cc      mole wt.=  270.1934 g
+     4 species in reaction
+       -4.000 H+              3.000 Ca++            2.000 AlO2-   
+        2.000 H2O     
+*    log10 K(298 K) = 70.6786
+     a=     70.67855898   b=               0   c=               0
+     d=     21788.24805   e=               0   f=    -13.03317219
+* tricalcium aluminate
+
+C3AFS0.84H4.32                     type= hydrogarnet
+     formula= (AlFeO3)(Ca3O3(SiO2)0.84(H2O)4.32)
+     mole vol.=  145.5100 cc      mole wt.=  427.3534 g
+     6 species in reaction
+       -4.000 H+              1.000 FeO2-           3.000 Ca++    
+        1.000 AlO2-           6.320 H2O              .840 SiO2    
+*    log10 K(298 K) = 22.2849
+     a=     22.28490284   b=               0   c=               0
+     d=     6813.298737   e=               0   f=    -14.98594519
+* cement notation: C3A0.5F0.5S0.84H4.32
+* alt formula: Ca3AlFe(SiO4)0.84(OH)8.64
+* 
+* Possible end member of Al-Fe siliceous hydrogarnet (Al-Fe SHG) solid solution (Table 1, e). 
+
+C3AH6                              type= hydrogarnet
+     formula= Ca3Al2O6(H2O)6
+     mole vol.=  149.7020 cc      mole wt.=  378.2846 g
+     4 species in reaction
+       -4.000 H+              3.000 Ca++            2.000 AlO2-   
+        8.000 H2O     
+*    log10 K(298 K) = 35.5054
+     a=     35.50541723   b=               0   c=               0
+     d=     11498.86501   e=               0   f=    -1.753219029
+* Katoite
+* 
+* End member of Al-siliceous hydrogarnet (Al-SHG) solid solution (Table 1, d).
+
+C3AS0.41H5.18                      type= hydrogarnet
+     formula= Ca3Al2O6(SiO2)0.41(H2O)5.18
+     mole vol.=  146.1200 cc      mole wt.=  388.1467 g
+     5 species in reaction
+       -4.000 H+              3.000 Ca++            2.000 AlO2-   
+        7.180 H2O              .410 SiO2    
+*    log10 K(298 K) = 28.9372
+     a=       28.937163   b=               0   c=               0
+     d=     9382.192907   e=               0   f=    -3.215179331
+* a silica-poor hydrogrossular, siliceous Al-hydrogarnet
+* alt formula: Ca3Al2(SiO4)0.41(OH)10.36
+* 
+* End member of Al-siliceous hydrogarnet (Al-SHG) solid solution (Table 1, d).
+
+C3AS0.84H4.32                      type= hydrogarnet
+     formula= AlCa3AlO6(SiO2)0.84(H2O)4.32
+     mole vol.=  142.4920 cc      mole wt.=  398.4899 g
+     5 species in reaction
+       -4.000 H+              3.000 Ca++            2.000 AlO2-   
+        6.320 H2O              .840 SiO2    
+*    log10 K(298 K) = 25.7851
+     a=     25.78508697   b=               0   c=               0
+     d=     8272.186752   e=               0   f=    -4.748506378
+* a silica-rich hydrogrossular, siliceous Al-hydrogarnet
+* alt formula: Ca3Al2(SiO4)0.84(OH)8.64
+* 
+* Possible end member of Al-Fe siliceous hydrogarnet (Al-Fe SHG) solid solution (Table 1, e). 
+
+C3FH6                              type= hydrogarnet
+     formula= Ca3Fe2O6(H2O)6
+     mole vol.=  155.2870 cc      mole wt.=  436.0116 g
+     4 species in reaction
+       -4.000 H+              2.000 FeO2-           3.000 Ca++    
+        8.000 H2O     
+*    log10 K(298 K) = 29.7051
+     a=     29.70507401   b=               0   c=               0
+     d=     8307.518545   e=               0   f=    -22.28393129
+* Fe-katoite
+* 
+* End member of Fe siliceous hydrogarnet (Fe-SHG) solid solution (Table 1, f).
+
+C3FS0.84H4.32                      type= hydrogarnet
+     formula= (FeFeO3)(Ca3O3(SiO2)0.84(H2O)4.32)
+     mole vol.=  148.5230 cc      mole wt.=  456.2169 g
+     5 species in reaction
+       -4.000 H+              2.000 FeO2-           3.000 Ca++    
+        6.320 H2O              .840 SiO2    
+*    log10 K(298 K) = 19.9847
+     a=     19.98472613   b=               0   c=               0
+     d=     5354.444017   e=               0   f=    -25.22337966
+* a hydroandradite, siliceous Fe-hydrogarnet
+* alt formula: Ca3Fe2(SiO4)0.84(OH)8.64
+* 
+* End member of Al-Fe siliceous hydrogarnet (Al-Fe SHG) solid solution with fixed silica content (Table 1, e). 
+* End member of Fe siliceous hydrogarnet (Fe SHG) solid solution (Table 1, f).
+
+C3FS1.34H3.32                      type= hydrogarnet
+     formula= Ca3Fe2O6(SiO2)1.34(H2O)3.32
+     mole vol.=  148.5230 cc      mole wt.=  468.2438 g
+     5 species in reaction
+       -4.000 H+              2.000 FeO2-           3.000 Ca++    
+        5.320 H2O             1.340 SiO2    
+*    log10 K(298 K) = 16.1893
+     a=     16.18930078   b=               0   c=               0
+     d=     4156.512613   e=               0   f=    -26.97386784
+* a hydroandradite, siliceous Fe-hydrogarnet
+* alt formula: Ca3Fe2(SiO4)1.34(OH)6.64
+
+C3S                                type= clinker
+     formula= (CaO)3SiO2
+     mole vol.=   73.1800 cc      mole wt.=  228.3165 g
+     4 species in reaction
+       -6.000 H+              3.000 Ca++            3.000 H2O     
+        1.000 SiO2    
+*    log10 K(298 K) = 73.2616
+     a=     73.26155716   b=               0   c=               0
+     d=     23294.17509   e=               0   f=    0.3252796182
+* alite
+
+C4AClH10                           type= AFm
+     formula= Ca4Al2Cl2(OH)12(H2O)4
+     mole vol.=  272.3000 cc      mole wt.=  561.3294 g
+     5 species in reaction
+       -4.000 H+              2.000 Cl-             4.000 Ca++    
+        2.000 AlO2-          12.000 H2O     
+*    log10 K(298 K) = 28.8872
+     a=     28.88722796   b=               0   c=               0
+     d=     3525.182989   e=               0   f=    -20.44884037
+* Friedel's salt, named C4ACl2H10 in paper
+* cement notation (modified): C3A CaCl2 H10
+* 
+* End member of Al-Fe Friedel's salt solid solution.
+
+C4FeCl2H10                         type= AFm
+     formula= Ca4Fe2Cl2(OH)12(H2O)4
+     mole vol.=  278.0400 cc      mole wt.=  619.0564 g
+     5 species in reaction
+       -4.000 H+             12.000 H2O             2.000 FeO2-   
+        2.000 Cl-             4.000 Ca++    
+*    log10 K(298 K) = 27.3978
+     a=     27.39781202   b=               0   c=               0
+     d=     3211.111209   e=               0   f=    -41.20917513
+* Fe-Friedel's salt, named C4FCl2H10 paper
+* cement notation (modified): C3F CaCl2 H10
+* 
+* End member of Al-Fe Friedel's salt solid solution.
+
+C4AF                               type= clinker
+     formula= (CaO)4(Al2O3)(Fe2O3)
+     mole vol.=  130.2020 cc      mole wt.=  485.9590 g
+     5 species in reaction
+       -4.000 H+              2.000 FeO2-           4.000 Ca++    
+        2.000 AlO2-           2.000 H2O     
+*    log10 K(298 K) = 50.4656
+     a=     50.46562873   b=               0   c=               0
+     d=     6436.091359   e=               0   f=    -48.94478486
+* ferrite
+
+C4AH11                             type= AFm
+     formula= Ca4Al2(OH)14(H2O)4
+     mole vol.=  257.3460 cc      mole wt.=  524.4380 g
+     4 species in reaction
+       -6.000 H+              4.000 Ca++            2.000 AlO2-   
+       14.000 H2O     
+*    log10 K(298 K) = 60.4940
+     a=     60.49397746   b=               0   c=               0
+     d=     15723.56435   e=               0   f=    -11.94035612
+
+C4AH13                             type= AFm
+     formula= Ca4Al2(OH)14(H2O)6
+     mole vol.= 274.47001 cc      mole wt.=  560.4684 g
+     4 species in reaction
+       -6.000 H+              4.000 Ca++            2.000 AlO2-   
+       16.000 H2O     
+*    log10 K(298 K) = 58.7604
+     a=     58.76040273   b=               0   c=               0
+     d=     15044.85553   e=               0   f=    -8.253591174
+* OH-AFm
+* 
+* End member of SO4-OH-AFm solid solution (Table 1, g).
+
+C4AH19                             type= AFm
+     formula= Ca4Al2(OH)14(H2O)12
+     mole vol.= 368.69999 cc      mole wt.=  668.5596 g
+     4 species in reaction
+       -6.000 H+              4.000 Ca++            2.000 AlO2-   
+       22.000 H2O     
+*    log10 K(298 K) = 58.5614
+     a=     58.56142021   b=               0   c=               0
+     d=      16241.7182   e=               0   f=     2.805855914
+
+C4AsClH12                          type= AFm
+     formula= Ca4Al2Cl(SO4)0.5(OH)12(H2O)6
+     mole vol.= 288.60001 cc      mole wt.=  609.9391 g
+     6 species in reaction
+       -4.000 H+              1.000 Cl-             4.000 Ca++    
+         .500 SO4--           2.000 AlO2-          14.000 H2O     
+*    log10 K(298 K) = 27.5805
+     a=     27.58046749   b=               0   c=               0
+     d=      3706.96797   e=               0   f=    -18.34825177
+* Kuzel's salt
+* cement notation (modified): C3A .5Cs .5CaCl2 H12
+
+C4FH13                             type= AFm
+     formula= Ca4Fe2(OH)14(H2O)6
+     mole vol.=  285.9400 cc      mole wt.=  618.1954 g
+     4 species in reaction
+       -6.000 H+              2.000 FeO2-           4.000 Ca++    
+       16.000 H2O     
+*    log10 K(298 K) = 53.2586
+     a=     53.25860085   b=               0   c=               0
+     d=     5051.345155   e=               0   f=    -17.95458119
+
+C12A7                              type= clinker
+     formula= (CaO)12(Al2O3)7
+     mole vol.= 517.79999 cc      mole wt.= 1386.6572 g
+     4 species in reaction
+      -10.000 H+             12.000 Ca++           14.000 AlO2-   
+        5.000 H2O     
+*    log10 K(298 K) = 167.1958
+     a=     167.1958227   b=               0   c=               0
+     d=     50319.49813   e=               0   f=    -92.22732903
+* mayenite
+
+CA2                                type= clinker
+     formula= CaO(Al2O3)2
+     mole vol.=   89.0400 cc      mole wt.=  259.9998 g
+     4 species in reaction
+       -1.000 H2O             1.000 Ca++            4.000 AlO2-   
+        2.000 H+      
+*    log10 K(298 K) = -30.0628
+     a=    -30.06277247   b=               0   c=               0
+     d=    -10161.80484   e=               0   f=    -26.22253969
+* calcium dialuminate
+
+CA                                 type= clinker
+     formula= CaOAl2O3
+     mole vol.=   53.6600 cc      mole wt.=  158.0386 g
+     2 species in reaction
+        1.000 Ca++            2.000 AlO2-   
+*    log10 K(298 K) = -0.3076
+     a=   -0.3076326555   b=               0   c=               0
+     d=     -458.174791   e=               0   f=    -13.30153057
+* calcium aluminate
+
+CAH10                              type= AFm
+     formula= CaOAl2O3(H2O)10
+     mole vol.=  193.9850 cc      mole wt.=  338.1906 g
+     3 species in reaction
+        1.000 Ca++            2.000 AlO2-          10.000 H2O     
+*    log10 K(298 K) = -7.5942
+     a=    -7.594203732   b=               0   c=               0
+     d=    -2505.455035   e=               0   f=    -2.254537309
+
+Cal                                type= carbonate
+     formula= CaCO3
+     mole vol.=   36.9340 cc      mole wt.=  100.0870 g
+     2 species in reaction
+        1.000 CO3--           1.000 Ca++    
+*    log10 K(298 K) = -8.4800
+     a=    -8.479990532   b=               0   c=               0
+     d=    -5689.203921   e=               0   f=    -21.00440941
+* Calcite
+* cement notation: Cc
+
+Cls                                type= sulfate
+     formula= SrSO4
+     mole vol.=   46.2500 cc      mole wt.=  183.6846 g
+     2 species in reaction
+        1.000 SO4--           1.000 Sr++    
+*    log10 K(298 K) = -6.6318
+     a=    -6.631839054   b=               0   c=               0
+     d=    -6425.421539   e=               0   f=    -21.70058303
+* Celestite
+
+CSH3T-T2C                          type= C-S-H
+     formula= ((CaO)0.75(SiO2)0.5(H2O)1.25)2
+     mole vol.=   80.5584 cc      mole wt.=  189.2384 g
+     4 species in reaction
+       -3.000 H+              1.500 Ca++            4.000 H2O     
+        1.000 SiO2    
+*    log10 K(298 K) = 25.2726
+     a=     25.27261165   b=               0   c=               0
+     d=     7428.082891   e=               0   f=     3.264777499
+* Ca/Si = 1.5
+* cement notation: C3/2S1H5/2
+* 
+* End member of multicomponent CSH3T solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+CSH3T-T5C                          type= C-S-H
+     formula= ((CaO)1(SiO2)1(H2O)2)1.25
+     mole vol.=   79.2605 cc      mole wt.=  190.2401 g
+     4 species in reaction
+       -2.500 H+              1.250 Ca++            3.750 H2O     
+        1.250 SiO2    
+*    log10 K(298 K) = 18.1390
+     a=     18.13899854   b=               0   c=               0
+     d=      5127.78826   e=               0   f=     3.415358687
+* Ca/Si = 1.0
+* cement notation: C5/4S5/4H5/2
+* 
+* End member of multicomponent CSH3T solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+CSH3T-TobH                         type= C-S-H
+     formula= (CaO)1(SiO2)1.5(H2O)2.5
+     mole vol.=   84.9600 cc      mole wt.=  191.2419 g
+     4 species in reaction
+       -2.000 H+              1.000 Ca++            3.500 H2O     
+        1.500 SiO2    
+*    log10 K(298 K) = 12.5304
+     a=     12.53035258   b=               0   c=               0
+     d=     3282.489718   e=               0   f=      3.57032625
+* Ca/Si = 0.67
+* cement notation: C1S3/2H5/2
+* 
+* End member of multicomponent CSH3T solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+CSHQ-JenD                          type= C-S-H
+     formula= (CaO)1.5(SiO2)0.6667(H2O)2.5
+     mole vol.=   81.0000 cc      mole wt.=  169.2123 g
+     4 species in reaction
+       -3.000 H+              1.500 Ca++            4.000 H2O     
+        .6667 SiO2    
+*    log10 K(298 K) = 28.7321
+     a=     28.73213649   b=               0   c=               0
+     d=     8609.739692   e=               0   f=     2.711087646
+* Ca/Si = 2.25
+* cement notation: C1.5S0.67H2.5
+* 
+* End member of multicomponent CSHQ solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+CSHQ-JenH                          type= C-S-H
+     formula= (CaO)1.3333(SiO2)1(H2O)2.1667
+     mole vol.=   76.0000 cc      mole wt.=  173.8858 g
+     4 species in reaction
+      -2.6666 H+             1.3333 Ca++            3.500 H2O     
+        1.000 SiO2    
+*    log10 K(298 K) = 22.1808
+     a=     22.18080846   b=               0   c=               0
+     d=     6470.553982   e=               0   f=      3.08689873
+* Ca/Si = 1.33
+* cement notation: C1.33SH2.17
+* 
+* End member of multicomponent CSHQ solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+CSHQ-TobD                          type= C-S-H
+     formula= ((CaO)1.25(SiO2)1(H2O)2.75)0.6667
+     mole vol.=   48.0000 cc      mole wt.=  119.8212 g
+     4 species in reaction
+     -1.66675 H+            .833375 Ca++           2.6668 H2O     
+        .6667 SiO2    
+*    log10 K(298 K) = 13.6565
+     a=     13.65648368   b=               0   c=               0
+     d=     3959.367696   e=               0   f=     1.982071374
+* Ca/Si = 1.25
+* cement notation: C5/6S2/3H1.83
+* 
+* End member of multicomponent CSHQ solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+CSHQ-TobH                          type= C-S-H
+     formula= (CaO)0.6667(SiO2)1(H2O)1.5
+     mole vol.=   55.0000 cc      mole wt.=  124.4939 g
+     4 species in reaction
+      -1.3334 H+              .6667 Ca++           2.1667 H2O     
+        1.000 SiO2    
+*    log10 K(298 K) = 8.2876
+     a=     8.287587462   b=               0   c=               0
+     d=     2163.381583   e=               0   f=     2.378340334
+* Ca/Si = 0.67
+* cement notation: C2/3SH1.5
+* 
+* End member of multicomponent CSHQ solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+Dis-Dol                            type= carbonate
+     formula= CaMg(CO3)2
+     mole vol.=   64.3900 cc      mole wt.=  184.4010 g
+     3 species in reaction
+        2.000 CO3--           1.000 Ca++            1.000 Mg++    
+*    log10 K(298 K) = -16.5402
+     a=    -16.54018582   b=               0   c=               0
+     d=    -10035.25018   e=               0   f=    -41.21054605
+* Disordered dolomite
+* cement notation: CMc2
+
+ECSH1-KSH                          type= C-S-H
+     formula= ((KOH)2.5SiO2H2O)0.2
+     mole vol.=   12.4000 cc      mole wt.=   43.6727 g
+     4 species in reaction
+        -.500 H+               .700 H2O              .200 SiO2    
+         .500 K+      
+*    log10 K(298 K) = 5.4999
+     a=     5.499886291   b=               0   c=               0
+     d=     1108.807169   e=               0   f=     1.318361267
+* cement notation: K0.25S0.2H0.45
+* 
+* End member of multicomponent ESCH-1 solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+ECSH1-NaSH                         type= C-S-H
+     formula= ((NaOH)2.5SiO2H2O)0.2
+     mole vol.=   10.5000 cc      mole wt.=   35.6185 g
+     4 species in reaction
+        -.500 H+               .500 Na+              .700 H2O     
+         .200 SiO2    
+*    log10 K(298 K) = 5.4104
+     a=     5.410358898   b=               0   c=               0
+     d=     1575.198378   e=               0   f=     2.235302407
+* cement notation: N0.25S0.2H0.45
+* 
+* End member of multicomponent ESCH-1 solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+ECSH1-SH                           type= C-S-H
+     formula= (SiO2H2O)1
+     mole vol.=   33.8000 cc      mole wt.=   78.0995 g
+     2 species in reaction
+        1.000 H2O             1.000 SiO2    
+*    log10 K(298 K) = -2.5996
+     a=    -2.599589492   b=               0   c=               0
+     d=     -775.067607   e=               0   f=               0
+* cement notation: SH
+* 
+* End member of multicomponent ESCH-1 solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+ECSH1-SrSH                         type= C-S-H
+     formula= ((Sr(OH)2)1SiO2H2O)1
+     mole vol.=   64.0000 cc      mole wt.=  199.7341 g
+     4 species in reaction
+       -2.000 H+              1.000 Sr++            3.000 H2O     
+        1.000 SiO2    
+*    log10 K(298 K) = 15.4012
+     a=     15.40122359   b=               0   c=               0
+     d=     4225.657132   e=               0   f=      2.83028107
+* cement notation (modified): SrO SH2
+* 
+* End member of multicomponent ESCH-1 solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+ECSH1-TobCa                        type= C-S-H
+     formula= ((Ca(OH)2)0.8333SiO2H2O)1
+     mole vol.=   68.0000 cc      mole wt.=  139.8409 g
+     4 species in reaction
+      -1.6666 H+              .8333 Ca++           2.6666 H2O     
+        1.000 SiO2    
+*    log10 K(298 K) = 11.0212
+     a=      11.0211651   b=               0   c=               0
+     d=      3023.19863   e=               0   f=     2.572703184
+* cement notation: C0.83SH1.83
+* 
+* End member of multicomponent ESCH-1 solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+ECSH2-JenCa                        type= C-S-H
+     formula= ((Ca(OH)2)1.6667SiO2H2O)0.6
+     mole vol.=   36.0000 cc      mole wt.=  120.9538 g
+     4 species in reaction
+     -2.00004 H+            1.00002 Ca++          2.60004 H2O     
+         .600 SiO2    
+*    log10 K(298 K) = 17.6047
+     a=      17.6047303   b=               0   c=               0
+     d=     5250.037507   e=               0   f=     4.032229266
+* cement notation: CS0.6H1.6 
+* 
+* End member of multicomponent ESCH-2 solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+ECSH2-KSH                          type= C-S-H
+     formula= ((KOH)2.5SiO2H2O)0.2
+     mole vol.=   12.4000 cc      mole wt.=   43.6727 g
+     4 species in reaction
+        -.500 H+               .700 H2O              .200 SiO2    
+         .500 K+      
+*    log10 K(298 K) = 6.0002
+     a=     6.000232992   b=               0   c=               0
+     d=     1257.985538   e=               0   f=     1.318361267
+* cement notation: K0.25S0.2H0.45
+* 
+* End member of multicomponent ESCH-2 solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+ECSH2-NaSH                         type= C-S-H
+     formula= ((NaOH)2.5SiO2H2O)0.2
+     mole vol.=   10.5000 cc      mole wt.=   35.6185 g
+     4 species in reaction
+        -.500 H+               .500 Na+              .700 H2O     
+         .200 SiO2    
+*    log10 K(298 K) = 5.9095
+     a=     5.909479261   b=               0   c=               0
+     d=     1724.011114   e=               0   f=     2.235302407
+* cement notation: N0.25S0.2H0.45
+* 
+* End member of multicomponent ESCH-2 solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+ECSH2-SrSH                         type= C-S-H
+     formula= ((Sr(OH)2)1SiO2H2O)1
+     mole vol.=   64.0000 cc      mole wt.=  199.7341 g
+     4 species in reaction
+       -2.000 H+              1.000 Sr++            3.000 H2O     
+        1.000 SiO2    
+*    log10 K(298 K) = 16.2004
+     a=     16.20044686   b=               0   c=               0
+     d=     4463.945549   e=               0   f=      2.83028107
+* cement notation (modified): SrO SH2
+* 
+* End member of multicomponent ESCH-2 solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+ECSH2-TobCa                        type= C-S-H
+     formula= ((Ca(OH)2)0.8333SiO2H2O)1
+     mole vol.=   68.0000 cc      mole wt.=  139.8409 g
+     4 species in reaction
+      -1.6666 H+              .8333 Ca++           2.6666 H2O     
+        1.000 SiO2    
+*    log10 K(298 K) = 11.0212
+     a=      11.0211651   b=               0   c=               0
+     d=      3023.19863   e=               0   f=     2.572703184
+* cement notation: C0.83SH1.83
+* 
+* End member of multicomponent ESCH-2 solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+ettringite                         type= AFt
+     formula= ((H2O)2)Ca6Al2(SO4)3(OH)12(H2O)24
+     mole vol.= 707.03003 cc      mole wt.= 1255.1076 g
+     5 species in reaction
+       -4.000 H+              6.000 Ca++            3.000 SO4--   
+        2.000 AlO2-          34.000 H2O     
+*    log10 K(298 K) = 11.1611
+     a=     11.16105306   b=               0   c=               0
+     d=    -9575.448133   e=               0   f=    -36.24958976
+* (Al-)ettringite, Ett32, SO4-AFt
+* cement notation: C6As3H32
+* 
+* End member of Fe-Al AFt solid solution (Table 1, b).
+* End member of ettringite 30-32H solid solution (Table 1, c).
+
+ettringite03_ss                    type= AFt
+     formula= (SO4)Ca2Al0.6666667(OH)4(H2O)8.6666667
+     mole vol.= 235.67699 cc      mole wt.=  418.3692 g
+     5 species in reaction
+   -1.3333332 H+              2.000 Ca++            1.000 SO4--   
+     .6666667 AlO2-      11.3333333 H2O     
+*    log10 K(298 K) = 3.7195
+     a=     3.719542483   b=               0   c=               0
+     d=    -3192.056993   e=               0   f=    -12.08317863
+* ettringite factored by 1/3
+* cement notation: C2As1H32/3
+* 
+* End member of SO4-CO3-AFt solid solution (Table 1, a).
+
+ettringite05                       type= AFt
+     formula= Ca3Al(SO4)1.5(OH)6(H2O)13
+     mole vol.= 353.51501 cc      mole wt.=  627.5538 g
+     5 species in reaction
+       -2.000 H+              3.000 Ca++            1.500 SO4--   
+        1.000 AlO2-          17.000 H2O     
+*    log10 K(298 K) = 5.5802
+     a=     5.580185741   b=               0   c=               0
+     d=     -4787.82619   e=               0   f=    -18.12479466
+* ettringite factored by 1/2
+* cement notation: C3A0.5s1.5H16
+
+ettringite9                        type= AFt
+     formula= Ca6Al2(SO4)3(OH)12(H2O)3
+     mole vol.= 360.99998 cc      mole wt.=  840.7580 g
+     5 species in reaction
+       -4.000 H+              6.000 Ca++            3.000 SO4--   
+        2.000 AlO2-          11.000 H2O     
+*    log10 K(298 K) = 47.9924
+     a=     47.99244409   b=               0   c=               0
+     d=    -5706.663308   e=               0   f=    -78.64068023
+* an amorphous ettringite/metaettringite, Met9
+* cement notation: C6As3H9
+
+Ettringite9_des                    type= AFt
+     formula= Ca6Al2(SO4)3(OH)12(H2O)3
+     mole vol.= 360.99998 cc      mole wt.=  840.7580 g
+     5 species in reaction
+       -4.000 H+              6.000 Ca++            3.000 SO4--   
+        2.000 AlO2-          11.000 H2O     
+*    log10 K(298 K) = 47.9924
+     a=     47.99244409   b=               0   c=               0
+     d=    -5706.663308   e=               0   f=    -78.64068023
+* an amorphous ettringite/metaettringite, Met9
+* cement notation: C6As3H9
+* 
+* duplicate of ettringite9
+
+ettringite13                       type= AFt
+     formula= Ca6Al2(SO4)3(OH)12(H2O)7
+     mole vol.= 410.60001 cc      mole wt.=  912.8188 g
+     5 species in reaction
+       -4.000 H+              6.000 Ca++            3.000 SO4--   
+        2.000 AlO2-          15.000 H2O     
+*    log10 K(298 K) = 38.9848
+     a=     38.98481821   b=               0   c=               0
+     d=     9912.899169   e=               0   f=    -71.26627046
+* an amorphous ettringite/metaettringite, Met13
+* cement notation: C6As3H13
+
+Ettringite13_des                   type= AFt
+     formula= Ca6Al2(SO4)3(OH)12(H2O)7
+     mole vol.= 410.60001 cc      mole wt.=  912.8188 g
+     5 species in reaction
+       -4.000 H+              6.000 Ca++            3.000 SO4--   
+        2.000 AlO2-          15.000 H2O     
+*    log10 K(298 K) = 38.9848
+     a=     38.98481821   b=               0   c=               0
+     d=     9912.899169   e=               0   f=    -71.26627046
+* an amorphous ettringite/metaettringite, Met13
+* cement notation: C6As3H13
+* 
+* duplicate of ettringite13
+
+ettringite30                       type= AFt
+     formula= Ca6Al2(SO4)3(OH)12(H2O)24
+     mole vol.= 707.79999 cc      mole wt.= 1219.0772 g
+     5 species in reaction
+       -4.000 H+              6.000 Ca++            3.000 SO4--   
+        2.000 AlO2-          32.000 H2O     
+*    log10 K(298 K) = 11.7617
+     a=       11.761677   b=               0   c=               0
+     d=    -9993.558256   e=               0   f=     -39.9363547
+* a crystalline ettringite, Ett30
+* cement notation: C6As3H30
+* 
+* End member of ettringite 30-32H solid solution (Table 1, c).
+
+Fe-ettringite05                    type= AFt
+     formula= Ca3Fe(SO4)1.5(OH)6(H2O)13
+     mole vol.= 358.77998 cc      mole wt.=  656.4173 g
+     5 species in reaction
+       -2.000 H+              1.000 FeO2-           3.000 Ca++    
+        1.500 SO4--          17.000 H2O     
+*    log10 K(298 K) = 6.0301
+     a=     6.030075881   b=               0   c=               0
+     d=    -8624.223942   e=               0   f=    -28.50471811
+* Fe-ettringite factored by 1/2
+* cement notation: C3F0.5s1.5H16
+
+Fe-ettringite                      type= AFt
+     formula= Ca6Fe2(SO4)3(OH)12(H2O)26
+     mole vol.= 717.55997 cc      mole wt.= 1312.8346 g
+     5 species in reaction
+       -4.000 H+              2.000 FeO2-           6.000 Ca++    
+        3.000 SO4--          34.000 H2O     
+*    log10 K(298 K) = 12.0608
+     a=     12.06078094   b=               0   c=               0
+     d=    -17248.22944   e=               0   f=    -57.00943665
+* Fe-Ett
+* cement notation: C6Fs3H32
+* 
+* End member of Fe-Al AFt solid solution (Table 1, b).
+
+Fe-hemicarbonate                   type= AFm
+     formula= Ca3O3Fe2O3(CaCO3)0.5(CaO2H2)0.5(H2O)9.5
+     mole vol.=  273.3930 cc      mole wt.=  586.1546 g
+     5 species in reaction
+       -5.000 H+              2.000 FeO2-            .500 CO3--   
+        4.000 Ca++           12.500 H2O     
+*    log10 K(298 K) = 39.1776
+     a=     39.17755799   b=               0   c=               0
+     d=     10447.41742   e=               0   f=    -33.29324559
+* Fe-Hc10
+* cement notation: C4Fc0.5H10
+
+Fe-monosulph05                     type= AFm
+     formula= Ca2FeS0.5O5(H2O)6
+     mole vol.= 160.56999 cc      mole wt.=  340.1227 g
+     5 species in reaction
+       -2.000 H+              1.000 FeO2-           2.000 Ca++    
+         .500 SO4--           7.000 H2O     
+*    log10 K(298 K) = 12.2269
+     a=     12.22694992   b=               0   c=               0
+     d=     2063.244429   e=               0   f=    -20.17984662
+* Fe-monosulfate factored by 1/2
+* cement notation: C2F0.5s0.5H6
+
+Fe-monosulphate                    type= AFm
+     formula= Ca4Fe2SO10(H2O)12
+     mole vol.= 321.13998 cc      mole wt.=  680.2454 g
+     5 species in reaction
+       -4.000 H+              2.000 FeO2-           4.000 Ca++    
+        1.000 SO4--          14.000 H2O     
+*    log10 K(298 K) = 24.4525
+     a=     24.45251389   b=               0   c=               0
+     d=     4126.078131   e=               0   f=    -40.35968715
+* Fe-monosulfate, Fe-Ms12
+* alt formula: Ca4Fe2(SO4)(OH)12(H2O)6
+* cement notation: C4FsH12
+* 
+* End member of Fe-Al monosulfate solid solution (Table 1, h).
+
+Fe                                 type= native
+     formula= Fe
+     mole vol.=    7.0920 cc      mole wt.=   55.8450 g
+     4 species in reaction
+       -2.000 H2O             1.000 FeO2-           3.000 e-      
+        4.000 H+      
+*    log10 K(298 K) = -18.5894
+     a=     -18.5894177   b=               0   c=               0
+     d=    -12404.07402   e=               0   f=    -19.18825112
+
+Femonocarbonate                    type= AFm
+     formula= Ca4O4Fe2O3CO2(H2O)12
+     mole vol.= 291.66599 cc      mole wt.=  644.1898 g
+     5 species in reaction
+       -4.000 H+              2.000 FeO2-           1.000 CO3--   
+        4.000 Ca++           14.000 H2O     
+*    log10 K(298 K) = 21.4186
+     a=     21.41856163   b=               0   c=               0
+     d=     1093.382606   e=               0   f=    -40.64584335
+* Fe-Mc12
+* cement notation: C4FcH12
+
+FeOOHmic                           type= hydroxide
+     formula= FeOOH
+     mole vol.=   34.3055 cc      mole wt.=   88.8517 g
+     2 species in reaction
+        1.000 FeO2-           1.000 H+      
+*    log10 K(298 K) = -19.5995
+     a=    -19.59945496   b=               0   c=               0
+     d=    -8235.848429   e=               0   f=    -16.15381126
+* microcrystalline FeOOH
+* cement notation: .5 FH, F.5H.5
+
+Fe(OH)3(am)                        type= hydroxide
+     formula= Fe(OH)3
+     mole vol.=   34.0000 cc      mole wt.=  106.8669 g
+     3 species in reaction
+        1.000 H2O             1.000 H+              1.000 FeO2-   
+*    log10 K(298 K) = -16.6001
+     a=    -16.60013894   b=               0   c=               0
+     d=    -14084.09687   e=               0   f=    -16.13673443
+* amorphous Fe(OH)3
+* cement notation: .5 FH3
+
+Fe(OH)3(mic)                       type= hydroxide
+     formula= Fe(OH)3
+     mole vol.=   34.0000 cc      mole wt.=  106.8669 g
+     3 species in reaction
+        1.000 H2O             1.000 H+              1.000 FeO2-   
+*    log10 K(298 K) = -18.6001
+     a=    -18.60013933   b=               0   c=               0
+     d=    -14084.09687   e=               0   f=    -16.13673443
+* microcrystalline Fe(OH)3
+* cement notation: .5 FH3
+
+FeCO3(pr)                          type= carbonate
+     formula= FeCO3
+     mole vol.=    0.0000 cc      mole wt.=  115.8540 g
+     5 species in reaction
+       -2.000 H2O             4.000 H+              1.000 FeO2-   
+        1.000 e-              1.000 CO3--   
+*    log10 K(298 K) = -45.0704
+     a=    -45.07041503   b=               0   c=               0
+     d=    -22598.47653   e=               0   f=    -37.25687675
+
+Gbs                                type= hydroxide
+     formula= Al(OH)3
+     mole vol.=   31.9560 cc      mole wt.=   78.0034 g
+     3 species in reaction
+        1.000 AlO2-           1.000 H+              1.000 H2O     
+*    log10 K(298 K) = -15.1231
+     a=    -15.12308795   b=               0   c=               0
+     d=    -5075.650047   e=               0   f=    -3.486947789
+* Gibbsite
+* cement notation: .5 AH3
+
+Gp                                 type= sulfate
+     formula= CaSO4(H2O)2
+     mole vol.=   74.6900 cc      mole wt.=  172.1730 g
+     3 species in reaction
+        1.000 Ca++            1.000 SO4--           2.000 H2O     
+*    log10 K(298 K) = -4.5806
+     a=    -4.580646993   b=               0   c=               0
+     d=    -5116.920989   e=               0   f=    -17.36668544
+* Gypsum
+* cement notation: CsH2
+
+Gr                                 type= native
+     formula= C
+     mole vol.=    5.2980 cc      mole wt.=   12.0108 g
+     4 species in reaction
+       -1.500 H2O              .500 CO3--           1.000 H+      
+         .500 CH4     
+*    log10 K(298 K) = -13.0706
+     a=    -13.07056954   b=               0   c=               0
+     d=     -4458.31044   e=               0   f=     -6.67317423
+* Graphite
+
+Gt                                 type= hydroxide
+     formula= FeO(OH)
+     mole vol.=   20.8200 cc      mole wt.=   88.8517 g
+     2 species in reaction
+        1.000 FeO2-           1.000 H+      
+*    log10 K(298 K) = -22.5989
+     a=    -22.59890201   b=               0   c=               0
+     d=    -11314.63377   e=               0   f=    -16.15232597
+* Goethite
+* cement notation: .5 FH, F.5H.5
+
+Hem                                type= oxide
+     formula= Fe2O3
+     mole vol.=   30.2740 cc      mole wt.=  159.6882 g
+     3 species in reaction
+       -1.000 H2O             2.000 FeO2-           2.000 H+      
+*    log10 K(298 K) = -42.0801
+     a=    -42.08013924   b=               0   c=               0
+     d=    -21596.77914   e=               0   f=    -33.95130206
+* Hematite
+* cement notation: F
+
+hemicarbonat10.5                   type= AFm
+     formula= (CaO)3Al2O3(CaCO3)0.5(CaO2H2)0.5(H2O)10
+     mole vol.=  261.2640 cc      mole wt.=  537.4352 g
+     5 species in reaction
+       -5.000 H+               .500 CO3--           4.000 Ca++    
+        2.000 AlO2-          13.000 H2O     
+*    log10 K(298 K) = 42.6100
+     a=     42.61001905   b=               0   c=               0
+     d=     10184.22042   e=               0   f=    -12.14093329
+* Hc10.5
+* cement notation: C4Ac0.5H10.5
+
+hemicarbonate                      type= AFm
+     formula= (CaO)3Al2O3(CaCO3)0.5(CaO2H2)0.5(H2O)11.5
+     mole vol.=  284.5150 cc      mole wt.=  564.4580 g
+     5 species in reaction
+       -5.000 H+               .500 CO3--           4.000 Ca++    
+        2.000 AlO2-          14.500 H2O     
+*    log10 K(298 K) = 40.8787
+     a=     40.87872234   b=               0   c=               0
+     d=     9549.770855   e=               0   f=    -9.376053926
+* Hemicarboaluminate, Hc12
+* alt formula: Ca4Al2(CO3)0.5(OH)13(H2O)7
+* cement notation: C4Ac0.5H12
+
+hemicarbonate9                     type= AFm
+     formula= (CaO)3Al2O3(CaCO3)0.5(CaO2H2)0.5(H2O)8.5
+     mole vol.= 249.26001 cc      mole wt.=  510.4124 g
+     5 species in reaction
+       -5.000 H+               .500 CO3--           4.000 Ca++    
+        2.000 AlO2-          11.500 H2O     
+*    log10 K(298 K) = 45.6090
+     a=     45.60898644   b=               0   c=               0
+     d=     11173.87179   e=               0   f=     -14.9057614
+* Hc9
+* cement notation: C4Ac0.5H9
+
+hemihydrate                        type= sulfate
+     formula= CaSO4(H2O)0.5
+     mole vol.=   61.7300 cc      mole wt.=  145.1502 g
+     3 species in reaction
+        1.000 Ca++            1.000 SO4--            .500 H2O     
+*    log10 K(298 K) = -3.5763
+     a=    -3.576250768   b=               0   c=               0
+     d=    -4904.135062   e=               0   f=    -20.02797861
+* cement notation: CsH0.5
+
+hydrotalcite                       type= LDH
+     formula= Mg4Al2O7(H2O)10
+     mole vol.=  220.2000 cc      mole wt.=  443.3308 g
+     4 species in reaction
+       -6.000 H+              4.000 Mg++            2.000 AlO2-   
+       13.000 H2O     
+*    log10 K(298 K) = 27.9877
+     a=     27.98765334   b=               0   c=               0
+     d=     14558.45083   e=               0   f=     7.646602097
+* cement notation: M4AH10
+* Mg/Al = 2
+* 
+* Note, the fixed-composition mineral here should be used for Portland cement systems. An end member of the same composition, M4A-OH-LDH, is part of the MgAl-OH-LDH solid solution, which is intended for alkali-activated materials. 
+
+INFCA                              type= C-S-H
+     formula= (CaO)1(SiO2)1.1875(Al2O3)0.15625(H2O)1.65625
+     mole vol.=   59.3100 cc      mole wt.=  173.1966 g
+     5 species in reaction
+      -1.6875 H+              1.000 Ca++            .3125 AlO2-   
+        2.500 H2O            1.1875 SiO2    
+*    log10 K(298 K) = 8.9551
+     a=     8.955089193   b=               0   c=               0
+     d=     2835.081302   e=               0   f=     0.735281404
+* cement notation: C1A5/32S38/32H53/32
+* 
+* End member of multicomponent CNASH solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+INFCN                              type= C-S-H
+     formula= (CaO)1(SiO2)1.5(Na2O)0.3125(H2O)1.1875
+     mole vol.=   71.0700 cc      mole wt.=  186.9653 g
+     5 species in reaction
+       -2.625 H+              1.000 Ca++             .625 Na+     
+        2.500 H2O             1.500 SiO2    
+*    log10 K(298 K) = 18.7610
+     a=     18.76103498   b=               0   c=               0
+     d=     6107.503138   e=               0   f=     3.356136989
+* cement notation: C1N5/16S3/2H19/16
+* 
+* End member of multicomponent CNASH solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+INFCNA                             type= C-S-H
+     formula= (CaO)1(SiO2)1.1875(Al2O3)0.15625(Na2O)0.34375(H2O)1.3125
+     mole vol.=   64.5100 cc      mole wt.=  188.3092 g
+     6 species in reaction
+       -2.375 H+              .3125 AlO2-           1.000 Ca++    
+        .6875 Na+             2.500 H2O            1.1875 SiO2    
+*    log10 K(298 K) = 17.2325
+     a=     17.23249672   b=               0   c=               0
+     d=       5861.4569   e=               0   f=     2.167168117
+* cement notation: C1A5/32N11/32S38/32H42/32
+* 
+* End member of multicomponent CNASH solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+Jennite                            type= C-S-H
+     formula= (SiO2)1(CaO)1.666667(H2O)2.1
+     mole vol.=   78.4000 cc      mole wt.=  191.3786 g
+     4 species in reaction
+    -3.333334 H+           1.666667 Ca++         3.766667 H2O     
+        1.000 SiO2    
+*    log10 K(298 K) = 29.3178
+     a=     29.31782389   b=               0   c=               0
+     d=     8669.561341   e=               0   f=     3.446374262
+* jennite-like gel phase
+* cement notation: C1.67SH2.1
+* 
+* End member of binary CSH-II solid solution (Table 4). 
+
+K2O                                type= clinker
+     formula= K2O
+     mole vol.=   40.3800 cc      mole wt.=   94.1960 g
+     3 species in reaction
+       -2.000 H+              1.000 H2O             2.000 K+      
+*    log10 K(298 K) = 84.0954
+     a=     84.09538589   b=               0   c=               0
+     d=     22428.26963   e=               0   f=    0.4201499449
+* cement notation: K
+
+K2SO4                              type= clinker
+     formula= K2SO4
+     mole vol.=   65.5000 cc      mole wt.=  174.2612 g
+     2 species in reaction
+        1.000 SO4--           2.000 K+      
+*    log10 K(298 K) = -1.7895
+     a=    -1.789452603   b=               0   c=               0
+     d=    -7146.619808   e=               0   f=    -19.81346363
+* Arcanite
+* cement notation Ks
+
+Kln                                type= clay
+     formula= Al2Si2O5(OH)4
+     mole vol.=   99.5200 cc      mole wt.=  258.1602 g
+     4 species in reaction
+        2.000 AlO2-           2.000 H+              1.000 H2O     
+        2.000 SiO2    
+*    log10 K(298 K) = -38.3245
+     a=    -38.32454554   b=               0   c=               0
+     d=    -12400.26564   e=               0   f=    -9.057181888
+* Kaolinite
+* cement notation: AS2H2
+
+KSiOH                              type= C-S-H
+     formula= ((KOH)2.5SiO2H2O)0.2
+     mole vol.=   12.4000 cc      mole wt.=   43.6727 g
+     4 species in reaction
+        -.500 H+               .700 H2O              .200 SiO2    
+         .500 K+      
+*    log10 K(298 K) = 5.7637
+     a=     5.763677329   b=               0   c=               0
+     d=     1187.456467   e=               0   f=     1.318361267
+* cement notation: K.25S.2H.45
+* 
+* End member of multicomponent CSHQ solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+Lim                                type= clinker
+     formula= CaO
+     mole vol.=   16.7640 cc      mole wt.=   56.0774 g
+     3 species in reaction
+       -2.000 H+              1.000 Ca++            1.000 H2O     
+*    log10 K(298 K) = 32.5886
+     a=     32.58857679   b=               0   c=               0
+     d=     10151.01523   e=               0   f=   0.08388745354
+* Lime
+* cement notation: C
+
+M4A-OH-LDH                         type= LDH
+     formula= Mg4Al2(OH)14(H2O)3
+     mole vol.=  219.1000 cc      mole wt.=  443.3308 g
+     4 species in reaction
+       -6.000 H+              4.000 Mg++            2.000 AlO2-   
+       13.000 H2O     
+*    log10 K(298 K) = 34.3070
+     a=     34.30698297   b=               0   c=               0
+     d=     16457.78162   e=               0   f=     7.698755652
+* cement notation: M4AH10
+* Mg/Al = 2
+* 
+* End member of multicomponent MgAl-OH-LDH solid solution (Table 3). Currently only binary solid solutions are supported in GWB.
+* 
+* Note, the MgAl-OH-LDH solid solution is intended for alkali-activated materials. The pure mineral named hydrotalcite (M4AH10) should be used for Portland cement systems.
+
+M6A-OH-LDH                         type= LDH
+     formula= Mg6Al2(OH)18(H2O)3
+     mole vol.= 305.44001 cc      mole wt.=  559.9700 g
+     4 species in reaction
+      -10.000 H+              6.000 Mg++            2.000 AlO2-   
+       17.000 H2O     
+*    log10 K(298 K) = 67.9888
+     a=     67.98880331   b=               0   c=               0
+     d=      30008.8348   e=               0   f=     13.05606081
+* cement notation: M6AH12
+* Mg/Al = 3
+* 
+* End member of multicomponent MgAl-OH-LDH solid solution (Table 3). Currently only binary solid solutions are supported in GWB.
+
+M8A-OH-LDH                         type= LDH
+     formula= Mg8Al2(OH)22(H2O)3
+     mole vol.=  392.3600 cc      mole wt.=  676.6092 g
+     4 species in reaction
+      -14.000 H+              8.000 Mg++            2.000 AlO2-   
+       21.000 H2O     
+*    log10 K(298 K) = 101.6705
+     a=      101.670518   b=               0   c=               0
+     d=      43575.1496   e=               0   f=     18.46555123
+* cement notation: M8AH14
+* Mg/Al = 4
+* 
+* End member of multicomponent MgAl-OH-LDH solid solution (Table 3). Currently only binary solid solutions are supported in GWB.
+
+Mag                                type= oxide
+     formula= FeFe2O4
+     mole vol.=   44.5240 cc      mole wt.=  231.5326 g
+     2 species in reaction
+        2.000 FeO2-           1.000 Fe++    
+*    log10 K(298 K) = -33.1801
+     a=     -33.1801378   b=               0   c=               0
+     d=    -17540.49918   e=               0   f=    -34.15891436
+* Magnetite
+
+Melanterite                        type= sulfate
+     formula= FeSO4(H2O)7
+     mole vol.=  146.5000 cc      mole wt.=  278.0160 g
+     3 species in reaction
+        1.000 SO4--           7.000 H2O             1.000 Fe++    
+*    log10 K(298 K) = -2.2089
+     a=     -2.20886342   b=               0   c=               0
+     d=      3013.02459   e=               0   f=     11.96118662
+
+Mg2Alc0.5OH                        type= 
+     formula= Mg2Al(OH)6(CO3)0.5(H2O)2
+     mole vol.=  110.6400 cc      mole wt.=  243.6702 g
+     5 species in reaction
+       -2.000 H+               .500 CO3--           2.000 Mg++    
+        1.000 AlO2-           6.000 H2O     
+*    log10 K(298 K) = 5.9135
+     a=     5.913535826   b=               0   c=               0
+     d=     2427.559551   e=               0   f=    -9.533075701
+* cement notation: M2A0.5c0.5H5 or 1/2 M4AcH10
+
+Mg2Fec0.5OH                        type= 
+     formula= Mg2Fe(OH)6(CO3)0.5(H2O)2
+     mole vol.=  118.2400 cc      mole wt.=  272.5337 g
+     5 species in reaction
+       -2.000 H+              1.000 FeO2-            .500 CO3--   
+        2.000 Mg++            6.000 H2O     
+*    log10 K(298 K) = 5.8206
+     a=     5.820566708   b=               0   c=               0
+     d=    -1619.112448   e=               0   f=    -19.69540372
+* cement notation: M2F0.5c0.5H5 or 1/2 M4FcH10
+
+Mg3Alc0.5OH                        type= LDH
+     formula= Mg3Al(OH)8(CO3)0.5(H2O)2.5
+     mole vol.=  114.9600 cc      mole wt.=  310.9974 g
+     5 species in reaction
+       -4.000 H+               .500 CO3--           3.000 Mg++    
+        1.000 AlO2-           8.500 H2O     
+*    log10 K(298 K) = 22.7189
+     a=     22.71889026   b=               0   c=               0
+     d=     9200.105421   e=               0   f=    -6.828472506
+* CO3-hydrotalcite
+* cement notation: 1/2M6AcH13
+* 
+* End member of hydrotalcite-pyroaurite (Htlc-Pyraur) solid solution (Table 1, p).
+
+Mg3Fec0.5OH                        type= LDH
+     formula= Mg3Fe(OH)8(CO3)0.5(H2O)2.5
+     mole vol.=  119.0400 cc      mole wt.=  339.8609 g
+     5 species in reaction
+       -4.000 H+              1.000 FeO2-            .500 CO3--   
+        3.000 Mg++            8.500 H2O     
+*    log10 K(298 K) = 22.3649
+     a=     22.36488489   b=               0   c=               0
+     d=     5075.604806   e=               0   f=      -16.990804
+* cement notation: 1/2M6FcH13
+* 
+* End member of hydrotalcite-pyroaurite (Htlc-Pyraur) solid solution (Table 1, p).
+
+Mgs                                type= carbonate
+     formula= MgCO3
+     mole vol.=   28.0200 cc      mole wt.=   84.3140 g
+     2 species in reaction
+        1.000 CO3--           1.000 Mg++    
+*    log10 K(298 K) = -8.2882
+     a=    -8.288227468   b=               0   c=               0
+     d=    -4543.697257   e=               0   f=    -20.20613707
+* Magnesite
+* cement notation: Mc
+
+monocarbonate05                    type= AFm
+     formula= Ca2AlC0.5O4.5(H2O)5.5
+     mole vol.=  130.9790 cc      mole wt.=  284.2238 g
+     5 species in reaction
+       -2.000 H+               .500 CO3--           2.000 Ca++    
+        1.000 AlO2-           6.500 H2O     
+*    log10 K(298 K) = 12.2692
+     a=     12.26921973   b=               0   c=               0
+     d=     1099.718617   e=               0   f=    -10.78076032
+* monocarbonate factored by 1/2
+* cement notation: C2A0.5c0.5H5.5
+
+monocarbonate9                     type= AFm
+     formula= Ca4Al2CO9(H2O)9
+     mole vol.= 233.56001 cc      mole wt.=  532.4172 g
+     5 species in reaction
+       -4.000 H+              1.000 CO3--           4.000 Ca++    
+        2.000 AlO2-          11.000 H2O     
+*    log10 K(298 K) = 28.5371
+     a=     28.53705426   b=               0   c=               0
+     d=     4217.516791   e=               0   f=    -25.24792251
+* Mc9
+* cement notation: C4AcH9
+
+monocarbonate                      type= AFm
+     formula= Ca4Al2CO9(H2O)11
+     mole vol.= 261.95801 cc      mole wt.=  568.4476 g
+     5 species in reaction
+       -4.000 H+              1.000 CO3--           4.000 Ca++    
+        2.000 AlO2-          13.000 H2O     
+*    log10 K(298 K) = 24.5385
+     a=     24.53850243   b=               0   c=               0
+     d=     2199.460032   e=               0   f=     -21.5614442
+* Monocarboaluminate, Mc11
+* alt formula: Ca4Al2(CO3)(OH)12(H2O)5
+* cement notation: C4AcH11
+
+mononitrate                        type= AFm
+     formula= Ca4Al2(OH)12N2O6(H2O)4
+     mole vol.=  296.6000 cc      mole wt.=  614.4332 g
+     5 species in reaction
+       -4.000 H+              4.000 Ca++            2.000 NO3-    
+        2.000 AlO2-          12.000 H2O     
+*    log10 K(298 K) = 27.3340
+     a=     27.33396468   b=               0   c=               0
+     d=     2205.916688   e=               0   f=    -18.59779911
+* NO3-AFm
+* cement notation (modified): C3A Ca(NO3)2 H10
+
+mononitrite                        type= AFm
+     formula= Ca4Al2(OH)12N2O4(H2O)4
+     mole vol.=  275.1000 cc      mole wt.=  582.4344 g
+     5 species in reaction
+        4.000 Ca++            2.000 NO3-            4.000 e-      
+        2.000 AlO2-          10.000 H2O     
+*    log10 K(298 K) = -25.7093
+     a=    -25.70925082   b=               0   c=               0
+     d=     -16841.3731   e=               0   f=    -21.94329415
+* NO2-AFm
+* cement notation (modified): C3A Ca(NO2)2 H10
+
+monosulphate9                      type= AFm
+     formula= Ca4Al2SO10(H2O)9
+     mole vol.= 274.59999 cc      mole wt.=  568.4728 g
+     5 species in reaction
+       -4.000 H+              4.000 Ca++            1.000 SO4--   
+        2.000 AlO2-          11.000 H2O     
+*    log10 K(298 K) = 30.1529
+     a=     30.15287269   b=               0   c=               0
+     d=     4550.796558   e=               0   f=    -25.44285863
+* Ms9
+* cement notation: C4AsH9
+
+monosulphate10_5                   type= AFm
+     formula= Ca4Al2SO10(H2O)10.5
+     mole vol.=  281.6000 cc      mole wt.=  595.4956 g
+     5 species in reaction
+       -4.000 H+              4.000 Ca++            1.000 SO4--   
+        2.000 AlO2-          12.500 H2O     
+*    log10 K(298 K) = 28.1339
+     a=     28.13394875   b=               0   c=               0
+     d=     3409.965469   e=               0   f=    -22.67750719
+* Ms10.5
+* cement notation: C4AsH10.5
+
+monosulphate12                     type= AFm
+     formula= Ca4Al2SO10(H2O)12
+     mole vol.=  310.1000 cc      mole wt.=  622.5184 g
+     5 species in reaction
+       -4.000 H+              4.000 Ca++            1.000 SO4--   
+        2.000 AlO2-          14.000 H2O     
+*    log10 K(298 K) = 26.7888
+     a=     26.78878413   b=               0   c=               0
+     d=     3298.866824   e=               0   f=    -19.91224565
+* monosulfoaluminate, Ms12, SO4-AFm
+* alt formula: Ca4Al2(SO4)(OH)12(H2O)4
+* cement notation: C4AsH12
+* 
+* End member of SO4-OH AFm solid solution (Table 1, g).
+* End member of Fe-Al monosulfate solid solution (Table 1, h).
+
+monosulphate14                     type= AFm
+     formula= Ca4Al2SO10(H2O)14
+     mole vol.=  331.6000 cc      mole wt.=  658.5488 g
+     5 species in reaction
+       -4.000 H+              4.000 Ca++            1.000 SO4--   
+        2.000 AlO2-          16.000 H2O     
+*    log10 K(298 K) = 26.7637
+     a=     26.76367306   b=               0   c=               0
+     d=     4849.121605   e=               0   f=    -16.22504033
+* Ms14
+* alt formula: Ca4Al2(SO4)(OH)12(H2O)6
+* cement notation: C4AsH14
+
+monosulphate16                     type= AFm
+     formula= Ca4Al2SO10(H2O)16
+     mole vol.= 350.49999 cc      mole wt.=  694.5792 g
+     5 species in reaction
+       -4.000 H+              4.000 Ca++            1.000 SO4--   
+        2.000 AlO2-          18.000 H2O     
+*    log10 K(298 K) = 26.8497
+     a=     26.84969555   b=               0   c=               0
+     d=     3920.996004   e=               0   f=    -12.86011105
+* Ms16
+* cement notation: C4AsH16
+
+monosulphate1205                   type= AFm
+     formula= Ca2AlS0.5O5(H2O)6
+     mole vol.=  155.0000 cc      mole wt.=  311.2592 g
+     5 species in reaction
+       -2.000 H+              2.000 Ca++             .500 SO4--   
+        1.000 AlO2-           7.000 H2O     
+*    log10 K(298 K) = 13.3941
+     a=     13.39407409   b=               0   c=               0
+     d=     1649.307718   e=               0   f=    -9.956200998
+* monosulfate12 factored by 1/2
+* cement notation: C2A0.5s0.5H6
+
+Na2O                               type= clinker
+     formula= Na2O
+     mole vol.=   25.0000 cc      mole wt.=   61.9790 g
+     3 species in reaction
+       -2.000 H+              2.000 Na+             1.000 H2O     
+*    log10 K(298 K) = 67.4386
+     a=     67.43864854   b=               0   c=               0
+     d=     19655.83593   e=               0   f=     4.321860256
+* cement notation: N
+
+Na2SO4                             type= sulfate
+     formula= Na2SO4
+     mole vol.=   53.3300 cc      mole wt.=  142.0442 g
+     2 species in reaction
+        1.000 SO4--           2.000 Na+     
+*    log10 K(298 K) = -0.2984
+     a=   -0.2984198327   b=               0   c=               0
+     d=    -3841.556012   e=               0   f=     -13.3150875
+* Thenardite
+* cement notation: Ns
+
+NaSiOH                             type= C-S-H
+     formula= ((NaOH)2.5SiO2H2O)0.2
+     mole vol.=   10.5000 cc      mole wt.=   35.6185 g
+     4 species in reaction
+        -.500 H+               .500 Na+              .700 H2O     
+         .200 SiO2    
+*    log10 K(298 K) = 5.6490
+     a=     5.648988248   b=               0   c=               0
+     d=      1646.66001   e=               0   f=     2.235831377
+* cement notation: N.25S.2H.45
+* 
+* End member of multicomponent CSHQ solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+Ord-Dol                            type= carbonate
+     formula= CaMg(CO3)2
+     mole vol.=   64.3400 cc      mole wt.=  184.4010 g
+     3 species in reaction
+        2.000 CO3--           1.000 Ca++            1.000 Mg++    
+*    log10 K(298 K) = -17.0902
+     a=    -17.09019646   b=               0   c=               0
+     d=     -10378.4231   e=               0   f=    -41.21054605
+* Ordered dolomite
+* cement notation: CMc2
+
+Portlandite                        type= hydroxide
+     formula= Ca(OH)2
+     mole vol.=   33.0600 cc      mole wt.=   74.0926 g
+     3 species in reaction
+       -2.000 H+              1.000 Ca++            2.000 H2O     
+*    log10 K(298 K) = 22.8002
+     a=     22.80023111   b=               0   c=               0
+     d=     7301.394065   e=               0   f=     1.686781093
+* cement notation: CH
+
+Py                                 type= sulfide
+     formula= FeSS
+     mole vol.=   23.9400 cc      mole wt.=  119.9790 g
+     5 species in reaction
+       -1.000 H2O              .250 SO4--            .250 H+      
+        1.000 Fe++            1.750 HS-     
+*    log10 K(298 K) = -26.9225
+     a=    -26.92245616   b=               0   c=               0
+     d=    -12638.88367   e=               0   f=    -20.93480472
+* Pyrite
+
+Qtz                                type= oxide
+     formula= SiO2
+     mole vol.=   22.6880 cc      mole wt.=   60.0843 g
+     1 species in reaction
+        1.000 SiO2    
+*    log10 K(298 K) = -3.7466
+     a=    -3.746614751   b=               0   c=               0
+     d=    -1117.053188   e=               0   f=               0
+* Quartz
+* cement notation: S
+
+Sd                                 type= carbonate
+     formula= FeCO3
+     mole vol.=   29.3780 cc      mole wt.=  115.8540 g
+     2 species in reaction
+        1.000 CO3--           1.000 Fe++    
+*    log10 K(298 K) = -10.8903
+     a=    -10.89026812   b=               0   c=               0
+     d=     -5473.77011   e=               0   f=    -21.09507925
+* Siderite
+
+straetlingite5_5                   type= AFm
+     formula= Ca2Al2SiO7(H2O)5.5
+     mole vol.= 212.80001 cc      mole wt.=  373.2839 g
+     5 species in reaction
+       -2.000 H+              2.000 Ca++            2.000 AlO2-   
+        6.500 H2O             1.000 SiO2    
+*    log10 K(298 K) = 7.0958
+     a=     7.095770747   b=               0   c=               0
+     d=     2181.475531   e=               0   f=    -6.692069295
+* cement notation: C2ASH5.5
+
+straetlingite7                     type= AFm
+     formula= Ca2Al2SiO7(H2O)7
+     mole vol.= 215.49999 cc      mole wt.=  400.3067 g
+     5 species in reaction
+       -2.000 H+              2.000 Ca++            2.000 AlO2-   
+        8.000 H2O             1.000 SiO2    
+*    log10 K(298 K) = 4.8138
+     a=      4.81376808   b=               0   c=               0
+     d=     1202.259407   e=               0   f=    -3.927278965
+* cement notation: C2ASH7
+* 
+* End member of straetlingite 7-8 H2O solid solution (Table 1, i). 
+
+straetlingite                      type= AFm
+     formula= Ca2Al2SiO7(H2O)8
+     mole vol.=  216.1100 cc      mole wt.=  418.3219 g
+     5 species in reaction
+       -2.000 H+              2.000 Ca++            2.000 AlO2-   
+        9.000 H2O             1.000 SiO2    
+*    log10 K(298 K) = 4.1134
+     a=     4.113387892   b=               0   c=               0
+     d=     1366.913776   e=               0   f=     -2.08403981
+* stratlingite8
+* alt formula: Ca2Al2SiO2(OH)10(H2O)3
+* cement notation: C2ASH8
+* 
+* End member of straetlingite 7-8 H2O solid solution (Table 1, i). 
+
+Str                                type= carbonate
+     formula= SrCO3
+     mole vol.=   39.0100 cc      mole wt.=  147.6290 g
+     2 species in reaction
+        1.000 CO3--           1.000 Sr++    
+*    log10 K(298 K) = -9.2707
+     a=    -9.270740495   b=               0   c=               0
+     d=    -6419.173204   e=               0   f=    -21.58677443
+* Strontianite
+* cement notation (modified): SrO c
+
+Sulfur                             type= native
+     formula= S
+     mole vol.=   15.6100 cc      mole wt.=   32.0670 g
+     4 species in reaction
+       -1.000 H2O              .250 SO4--           1.250 H+      
+         .750 HS-     
+*    log10 K(298 K) = -10.5060
+     a=    -10.50600024   b=               0   c=               0
+     d=      -6079.2525   e=               0   f=    -12.27960102
+
+syngenite                          type= sulfate
+     formula= K2Ca(SO4)2H2O
+     mole vol.=  127.5400 cc      mole wt.=  328.4190 g
+     4 species in reaction
+        1.000 Ca++            2.000 SO4--           1.000 H2O     
+        2.000 K+      
+*    log10 K(298 K) = -7.1965
+     a=    -7.196497103   b=               0   c=               0
+     d=    -12598.95271   e=               0   f=    -38.85627865
+* cement notation: KCs2H
+
+T2C-CNASHss                        type= C-S-H
+     formula= (CaO)1.5(SiO2)1(H2O)2.5
+     mole vol.=   80.6000 cc      mole wt.=  189.2384 g
+     4 species in reaction
+       -3.000 H+              1.500 Ca++            4.000 H2O     
+        1.000 SiO2    
+*    log10 K(298 K) = 25.5671
+     a=     25.56711262   b=               0   c=               0
+     d=     7517.243302   e=               0   f=     3.265822411
+* cement notation: C3/2S1H5/2
+* 
+* End member of multicomponent CNASH solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+T5C-CNASHss                        type= C-S-H
+     formula= (CaO)1.25(SiO2)1.25(H2O)2.5
+     mole vol.=   79.3000 cc      mole wt.=  190.2401 g
+     4 species in reaction
+       -2.500 H+              1.250 Ca++            3.750 H2O     
+        1.250 SiO2    
+*    log10 K(298 K) = 18.4471
+     a=     18.44711129   b=               0   c=               0
+     d=     5220.492792   e=               0   f=     3.417656539
+* cement notation: C5/4S5/4H5/2
+* 
+* End member of multicomponent CNASH solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+thaumasite                         type= AFt
+     formula= (CaSiO3)(CaSO4)(CaCO3)(H2O)15
+     mole vol.=  330.0000 cc      mole wt.=  622.6193 g
+     6 species in reaction
+       -2.000 H+              1.000 CO3--           3.000 Ca++    
+        1.000 SO4--          16.000 H2O             1.000 SiO2    
+*    log10 K(298 K) = -0.9173
+     a=    -0.917250943   b=               0   c=               0
+     d=    -8544.402669   e=               0   f=    -24.48275947
+* Ca3(SiO3)(SO4)(CO3)(H2O)15
+* cement notation: C3ScsH15
+
+Tob-I                              type= C-S-H
+     formula= (SiO2)2.4(CaO)2(H2O)3.2
+     mole vol.=  140.8000 cc      mole wt.=  314.0058 g
+     4 species in reaction
+       -4.000 H+              2.000 Ca++            5.200 H2O     
+        2.400 SiO2    
+*    log10 K(298 K) = 26.7477
+     a=     26.74767979   b=               0   c=               0
+     d=     7370.767991   e=               0   f=     6.218650526
+* tobermorite-like gel phase
+* cement notation: C2S2.4H3.2
+* 
+* End member of binary CSH-I solid solution from older versions of Cemdata, but CSH-I is no longer recommended in Cemdata18. 
+
+Tob-II                             type= C-S-H
+     formula= (SiO2)1(CaO)0.833333(H2O)1.333333
+     mole vol.=   58.7000 cc      mole wt.=  130.8357 g
+     4 species in reaction
+    -1.666666 H+            .833333 Ca++         2.166666 H2O     
+        1.000 SiO2    
+*    log10 K(298 K) = 11.1452
+     a=     11.14523295   b=               0   c=               0
+     d=     3071.259317   e=               0   f=     2.591092081
+* tobermorite-like gel phase
+* cement notation: C0.83SH1.3
+* 
+* End member of binary CSH-II solid solution (Table 4). 
+
+TobH-CNASHss                       type= C-S-H
+     formula= (CaO)1(SiO2)1.5(H2O)2.5
+     mole vol.=   85.0000 cc      mole wt.=  191.2419 g
+     4 species in reaction
+       -2.000 H+              1.000 Ca++            3.500 H2O     
+        1.500 SiO2    
+*    log10 K(298 K) = 12.7987
+     a=     12.79873363   b=               0   c=               0
+     d=     3362.507631   e=               0   f=     3.569491102
+* cement notation: C1S3/2H5/2
+* 
+* End member of multicomponent CNASH solid solution (Table 4). Currently only binary solid solutions are supported in GWB.
+
+tricarboalu03                      type= AFt
+     formula= (CO3)Ca2Al0.6666667(OH)4(H2O)8.6666667
+     mole vol.=  216.8000 cc      mole wt.=  382.3136 g
+     5 species in reaction
+   -1.3333332 H+              1.000 CO3--           2.000 Ca++    
+     .6666667 AlO2-      11.3333333 H2O     
+*    log10 K(298 K) = 3.1735
+     a=     3.173536199   b=               0   c=               0
+     d=    -2586.079211   e=               0   f=    -12.36850924
+* tricarboaluminate (factored by 1/3)
+* cement notation: C2A0.33cH10.67
+* 
+* End member of SO4-CO3-AFt solid solution (Table 1, a).
+
+Tro                                type= sulfide
+     formula= FeS
+     mole vol.=   18.2000 cc      mole wt.=   87.9120 g
+     3 species in reaction
+       -1.000 H+              1.000 Fe++            1.000 HS-     
+*    log10 K(298 K) = -5.3100
+     a=     -5.30997859   b=               0   c=               0
+     d=     -2811.88753   e=               0   f=     -9.23770551
+* Troilite
+
+zeoliteP_Ca                        type= zeolite
+     formula= Ca(Al2Si2)O8(H2O)4.5
+     mole vol.=  152.8500 cc      mole wt.=  359.2756 g
+     4 species in reaction
+        2.000 AlO2-           1.000 Ca++            2.000 SiO2    
+        4.500 H2O     
+*    log10 K(298 K) = -20.2997
+     a=    -20.29974652   b=               0   c=               0
+     d=        -5357.72   e=               0   f=        -23.7277
+* cement notation: CAS2H4.5
+* 
+* From original cemdata18 compilation.
+* GIS-LS-P(Ca) in zeolite21 database is an update to this entry.
+
+chabazite                          type= zeolite
+     formula= Ca(Al2Si4)O12(H2O)6
+     mole vol.=  251.1600 cc      mole wt.=  506.4670 g
+     4 species in reaction
+        2.000 AlO2-           1.000 Ca++            4.000 SiO2    
+        6.000 H2O     
+*    log10 K(298 K) = -25.8000
+     a=    -25.79997753   b=               0   c=               0
+     d=        -7737.68   e=               0   f=        -6.06643
+* cement notation: CAS4H6
+* 
+* From original cemdata18 compilation.
+* CHA(Ca) in zeolite21 database is an update to this entry.
+
+M075SH                             type= M-S-H
+     formula= Mg1.5Si2O5.5(H2O)2.5
+     mole vol.=   94.8850 cc      mole wt.=  225.6632 g
+     4 species in reaction
+        1.500 Mg++            2.000 SiO2            3.000 OH-     
+        1.000 H2O     
+*    log10 K(298 K) = -28.6341
+     a=    -28.63408828   b=               0   c=               0
+     d=        -12089.2   e=               0   f=        -31.0813
+* (MgO)1.5(SiO2)2(H2O)2.5
+* cement notation: M1.5S2H2.5
+* M-S-H with Mg/Si = 0.75
+* 
+* End member of binary M-S-H solid solution (Table 1, q)
+
+M15SH                              type= M-S-H
+     formula= Mg1.5SiO3.5(H2O)2.5
+     mole vol.=   74.3200 cc      mole wt.=  165.5789 g
+     4 species in reaction
+        1.500 Mg++            1.000 SiO2            3.000 OH-     
+        1.000 H2O     
+*    log10 K(298 K) = -23.4605
+     a=    -23.46049246   b=               0   c=               0
+     d=        -10396.4   e=               0   f=        -29.8608
+* (MgO)1.5SiO2(H2O)2.5
+* cement notation: M1.5SH2.5
+* M-S-H with Mg/Si = 1.5
+* 
+* End member of binary M-S-H solid solution (Table 1, q)
+
+zeoliteX                           type= zeolite
+     formula= Na2(Al2Si2.5)O9(H2O)6.2
+     mole vol.=  213.6000 cc      mole wt.=  425.8452 g
+     4 species in reaction
+        2.000 AlO2-           2.000 Na+             2.500 SiO2    
+        6.200 H2O     
+*    log10 K(298 K) = -20.0999
+     a=    -20.09994351   b=               0   c=               0
+     d=        -6871.84   e=               0   f=        -1.53947
+* cement notation: NAS2.5H6.2
+* 
+* From original cemdata18 compilation.
+* FAU-X(Na) in zeolite21 database is an update to this entry.
+
+natrolite                          type= zeolite
+     formula= Na2(Al2Si3)O10(H2O)2
+     mole vol.=  169.2000 cc      mole wt.=  380.2235 g
+     4 species in reaction
+        2.000 AlO2-           2.000 Na+             3.000 SiO2    
+        2.000 H2O     
+*    log10 K(298 K) = -30.2000
+     a=    -30.19999092   b=               0   c=               0
+     d=        -9899.44   e=               0   f=        -5.06454
+* cement notation: NAS3H2
+* 
+* From original cemdata18 compilation.
+* NAT in zeolite21 database is an update to this entry.
+
+zeoliteY                           type= zeolite
+     formula= Na2(Al2Si4)O12(H2O)8
+     mole vol.=  282.9300 cc      mole wt.=  548.3990 g
+     4 species in reaction
+        2.000 AlO2-           2.000 Na+             4.000 SiO2    
+        8.000 H2O     
+*    log10 K(298 K) = -25.0000
+     a=    -25.00000834   b=               0   c=               0
+     d=        -7863.67   e=               0   f=         1.06143
+* cement notation: NAS4H8
+* 
+* From original cemdata18 compilation.
+* FAU-Y(Na) in zeolite21 database is an update to this entry.
+
+Bobb                               type= phosphate
+     formula= Mg3(PO4)2(H2O)8
+     mole vol.=191.0996818543 cc      mole wt.=  406.9794 g
+     3 species in reaction
+        2.000 PO4---          3.000 Mg++            8.000 H2O     
+*    log10 K(298 K) = -25.3000
+     a=    -25.29999919   b=               0   c=               0
+     d=    -6514.822576   e=               0   f=    -53.99546405
+* Bobierrite, Bobbierite, MO8 (magnesium orthophosphate octahydrate)
+* cement notation: M3PH8
+* 
+* from phosphate database
+
+brushite                           type= phosphate
+     formula= CaH(PO4)(H2O)2
+     mole vol.=74.21000003815 cc      mole wt.=  172.0877 g
+     4 species in reaction
+        1.000 PO4---          2.000 H2O             1.000 H+      
+        1.000 Ca++    
+*    log10 K(298 K) = -18.9500
+     a=    -18.95000012   b=               0   c=               0
+     d=    -9829.029129   e=               0   f=    -31.14089776
+* cement notation: CP.5H2.5
+* 
+* from phosphate database
+
+Farring                            type= phosphate
+     formula= Mg3(PO4)2
+     mole vol.=95.20000457764 cc      mole wt.=  262.8578 g
+     2 species in reaction
+        2.000 PO4---          3.000 Mg++    
+*    log10 K(298 K) = -22.4100
+     a=          -22.41   b=               0   c=               0
+     d=    -10876.53884   e=               0   f=    -68.75420226
+* Farringtonite, MO (magnesium orthophosphate)
+* cement notation: M3P
+* 
+* from phosphate database
+
+HAP                                type= phosphate
+     formula= Ca5(PO4)3OH
+     mole vol.=159.6400547028 cc      mole wt.=  502.3115 g
+     4 species in reaction
+       -1.000 H+              3.000 PO4---          1.000 H2O     
+        5.000 Ca++    
+*    log10 K(298 K) = -43.9999
+     a=    -43.99992064   b=               0   c=               0
+     d=    -24845.56156   e=               0   f=     -105.572502
+* Hydroxyapatite
+* cement notation: C5P1.5H.5
+* 
+* from phosphate database
+
+HK3CaP2O8                          type= phosphate
+     formula= CaK3H(PO4)2
+     mole vol.=126.4896869659 cc      mole wt.=  348.3236 g
+     4 species in reaction
+        2.000 PO4---          3.000 K+              1.000 H+      
+        1.000 Ca++    
+*    log10 K(298 K) = -22.4000
+     a=           -22.4   b=               0   c=               0
+     d=    -19718.66796   e=               0   f=    -61.58883248
+* CaK3H(PO4)2
+* cement notation: CK1.5PH.5
+* 
+* from phosphate database
+
+Mg3P2_22H                          type= phosphate
+     formula= Mg3(PO4)2(H2O)22
+     mole vol.=401.9002532959 cc      mole wt.=  659.1922 g
+     3 species in reaction
+        2.000 PO4---          3.000 Mg++           22.000 H2O     
+*    log10 K(298 K) = -23.0300
+     a=     -23.0299984   b=               0   c=               0
+     d=    -8150.542983   e=               0   f=    -23.42758501
+* Cattiite, MO22 (magnesium orthophosphate docosahydrate)
+* cement notation: M3PH22
+* 
+* from phosphate database
+
+Mg3P2_4H                           type= phosphate
+     formula= Mg3(PO4)2(H2O)4
+     mole vol.=140.7001113892 cc      mole wt.=  334.9186 g
+     3 species in reaction
+        2.000 PO4---          3.000 Mg++            4.000 H2O     
+*    log10 K(298 K) = -23.5000
+     a=    -23.50000079   b=               0   c=               0
+     d=    -6180.357284   e=               0   f=     -61.3741541
+* MO4 (magnesium orthophosphate tetrahydrate)
+* cement notation: M3PH4
+* 
+* from phosphate database
+
+MKP                                type= phosphate
+     formula= MgKPO4(H2O)6
+     mole vol.=142.4997425079 cc      mole wt.=  266.4659 g
+     4 species in reaction
+        1.000 PO4---          1.000 Mg++            1.000 K+      
+        6.000 H2O     
+*    log10 K(298 K) = -10.9600
+     a=    -10.96000041   b=               0   c=               0
+     d=    -6622.927342   e=               0   f=    -21.14336864
+* K-struvite (magnesium potassium phosphate hexahydrate)
+* cement notation: MK.5P.5H6
+* 
+* from phosphate database
+
+MKPH                               type= phosphate
+     formula= MgKPO4H2O
+     mole vol.=66.0999584198 cc      mole wt.=  176.3899 g
+     4 species in reaction
+        1.000 PO4---          1.000 Mg++            1.000 K+      
+        1.000 H2O     
+*    log10 K(298 K) = -10.9500
+     a=    -10.94999998   b=               0   c=               0
+     d=    -7179.029913   e=               0   f=    -30.37299777
+* MgKPO4H2O (magnesium potassium phosphate monohydrate)
+* cement notation: MK.5P.5H
+* 
+* from phosphate database
+
+Newberyite                         type= phosphate
+     formula= MgHPO4(H2O)3
+     mole vol.=82.20001220703 cc      mole wt.=  174.3299 g
+     4 species in reaction
+        1.000 PO4---          1.000 Mg++            3.000 H2O     
+        1.000 H+      
+*    log10 K(298 K) = -17.9300
+     a=     -17.9299996   b=               0   c=               0
+     d=    -7699.619084   e=               0   f=    -25.96502732
+* cement notation: MP.5H3.5
+* 
+* from phosphate database
+
+OCP                                type= phosphate
+     formula= Ca4H(PO4)3(H2O)2.5
+     mole vol.=182.6300048828 cc      mole wt.=  491.2721 g
+     4 species in reaction
+        3.000 PO4---          2.500 H2O             1.000 H+      
+        4.000 Ca++    
+*    log10 K(298 K) = -48.4000
+     a=    -48.39999806   b=               0   c=               0
+     d=    -26474.72618   e=               0   f=    -88.79666672
+* octacalcium phosphate (factored by 1/2)
+* cement notation: C4P1.5H3
+* 
+* from phosphate database
+
+Phosphor                           type= phosphate
+     formula= MgHPO4(H2O)7
+     mole vol.=141.5999031067 cc      mole wt.=  246.3907 g
+     4 species in reaction
+        1.000 PO4---          1.000 Mg++            7.000 H2O     
+        1.000 H+      
+*    log10 K(298 K) = -17.0100
+     a=    -17.00999961   b=               0   c=               0
+     d=    -6997.832496   e=               0   f=    -18.58748975
+* Phosphorrosslerite
+* cement notation: MP.5H7.5
+* 
+* from phosphate database
+
+Mg2KH(PO4)2(H2O)15                 type= phosphate
+     formula= Mg2KH(PO4)2(H2O)15
+     mole vol.=  303.2000 cc      mole wt.=  548.8870 g
+     5 species in reaction
+        2.000 PO4---          2.000 Mg++            1.000 K+      
+       15.000 H2O             1.000 H+      
+*    log10 K(298 K) = -28.6700
+     a=    -28.67000001   b=               0   c=               0
+     d=    -13821.13302   e=               0   f=    -36.03895571
+* cement notation: M2K.5PH15.5
+* 
+* From phosphate database. Reaction was in wrong section of PhreeqC dataset dated 09.10.2020.
+
+Berlinite                          type= phosphate
+     formula= AlPO4
+     mole vol.=   46.5800 cc      mole wt.=  121.9529 g
+     2 species in reaction
+        1.000 PO4---          1.000 Al+++   
+*    log10 K(298 K) = -20.2396
+     a=    -20.23958851   b=               0   c=               0
+     d=      -7653.0098   e=               0   f=      -38.734798
+* cement notation = A.5P.5
+* 
+* from phosphate database
+
+Trolleite                          type= phosphate
+     formula= Al4(PO4)3(OH)3
+     mole vol.=  143.7100 cc      mole wt.=  443.8621 g
+     4 species in reaction
+       -3.000 H+              3.000 PO4---          4.000 Al+++   
+        3.000 H2O     
+*    log10 K(298 K) = -65.7224
+     a=    -65.72240653   b=               0   c=               0
+     d=        -22577.6   e=               0   f=        -115.856
+* cement notation = A2P1.5H1.5
+* 
+* from phosphate database
+
+Wavellite                          type= phosphate
+     formula= Al3(PO4)2(OH)3(H2O)5
+     mole vol.=  175.9000 cc      mole wt.=  411.9852 g
+     4 species in reaction
+       -3.000 H+              2.000 PO4---          3.000 Al+++   
+        8.000 H2O     
+*    log10 K(298 K) = -31.3298
+     a=    -31.32977129   b=               0   c=               0
+     d=           -9166   e=               0   f=      -67.938797
+* cement notation = A1.5PH6.5
+* 
+* from phosphate database
+
+Augellite                          type= phosphate
+     formula= Al2PO4(OH)3
+     mole vol.=   73.8903 cc      mole wt.=  199.9563 g
+     4 species in reaction
+       -3.000 H+              1.000 PO4---          2.000 Al+++   
+        3.000 H2O     
+*    log10 K(298 K) = -19.7103
+     a=     -19.7102987   b=               0   c=               0
+     d=        -4687.21   e=               0   f=      -38.466099
+* cement notation = AP.5H1.5
+* 
+* from phosphate database
+
+Senegalite                         type= phosphate
+     formula= Al2(PO4)(OH)3H2O
+     mole vol.= 85.670004 cc      mole wt.=  217.9715 g
+     4 species in reaction
+       -3.000 H+              1.000 PO4---          2.000 Al+++   
+        4.000 H2O     
+*    log10 K(298 K) = -19.7138
+     a=    -19.71377632   b=               0   c=               0
+     d=      -4602.6299   e=               0   f=      -36.624298
+* cement notation = C2AP1.5H7.5
+* 
+* from phosphate database
+
+am-AlP                             type= phosphate
+     formula= AlPO4(H2O)2
+     mole vol.= 60.960002 cc      mole wt.=  157.9833 g
+     3 species in reaction
+        1.000 PO4---          1.000 Al+++           2.000 H2O     
+*    log10 K(298 K) = -23.6997
+     a=    -23.69967108   b=               0   c=               0
+     d=        -8956.75   e=               0   f=      -34.624001
+* amorphous aluminum phosphate
+* cement notation = A.5P.5H2
+* 
+* from phosphate database
+
+Variscite                          type= phosphate
+     formula= AlPO4(H2O)2
+     mole vol.= 60.960002 cc      mole wt.=  157.9833 g
+     3 species in reaction
+        1.000 PO4---          1.000 Al+++           2.000 H2O     
+*    log10 K(298 K) = -25.0997
+     a=    -25.09967175   b=               0   c=               0
+     d=      -9374.1602   e=               0   f=      -34.624001
+* cement notation = A.5P.5H2
+* 
+* from phosphate database
+
+Bearthite                          type= phosphate
+     formula= Ca2Al(PO4)2OH
+     mole vol.=   95.2600 cc      mole wt.=  314.0876 g
+     5 species in reaction
+       -1.000 H+              2.000 Ca++            2.000 PO4---  
+        1.000 Al+++           1.000 H2O     
+*    log10 K(298 K) = -30.6495
+     a=    -30.64946131   b=               0   c=               0
+     d=        -14968.5   e=               0   f=      -73.153801
+* cement notation = C2A.5PH.5
+* 
+* from phosphate database
+
+Ca-Millisite                       type= phosphate
+     formula= Ca1.5Al6(PO4)4(OH)9(H2O)3
+     mole vol.= 281.29999 cc      mole wt.=  809.0029 g
+     5 species in reaction
+       -9.000 H+              1.500 Ca++            4.000 PO4---  
+        6.000 Al+++          12.000 H2O     
+*    log10 K(298 K) = -47.9117
+     a=    -47.91165429   b=               0   c=               0
+     d=          -14502   e=               0   f=        -145.793
+* cement notation = C1.5A3P2H7.5
+* 
+* from phosphate database
+
+CaAlPOH                            type= phosphate
+     formula= CaAlH(PO4)2(H2O)6
+     mole vol.= 163.60001 cc      mole wt.=  366.1014 g
+     5 species in reaction
+        1.000 Ca++            2.000 PO4---          1.000 Al+++   
+        1.000 H+              6.000 H2O     
+*    log10 K(298 K) = -45.1003
+     a=    -45.10026624   b=               0   c=               0
+     d=        -19358.4   e=               0   f=      -62.127399
+* cement notation = CA.5PH6.5
+* 
+* from phosphate database
+
+Crandallite                        type= phosphate
+     formula= CaAl3(PO4)2(OH)5H2O
+     mole vol.=  138.2000 cc      mole wt.=  414.0170 g
+     5 species in reaction
+       -5.000 H+              1.000 Ca++            2.000 PO4---  
+        3.000 Al+++           6.000 H2O     
+*    log10 K(298 K) = -35.9001
+     a=    -35.90006138   b=               0   c=               0
+     d=        -10617.9   e=               0   f=      -73.502296
+* cement notation = CA1.5PH3.5
+* 
+* from phosphate database
+
+Montgomeryite                      type= phosphate
+     formula= Ca2Al2(PO4)3(OH)(H2O)7
+     mole vol.=  454.3000 cc      mole wt.=  562.1469 g
+     5 species in reaction
+       -1.000 H+              2.000 Ca++            3.000 PO4---  
+        2.000 Al+++           8.000 H2O     
+*    log10 K(298 K) = -57.3902
+     a=    -57.39017349   b=               0   c=               0
+     d=      -23920.301   e=               0   f=      -98.553497
+* cement notation = C2AP1.5H7.5
+* 
+* from phosphate database
+
+Minyulite                          type= phosphate
+     formula= KAl2(PO4)2OH(H2O)2
+     mole vol.=  132.2000 cc      mole wt.=  336.0418 g
+     5 species in reaction
+       -1.000 H+              1.000 K+              2.000 PO4---  
+        2.000 Al+++           3.000 H2O     
+*    log10 K(298 K) = -46.3002
+     a=    -46.30021366   b=               0   c=               0
+     d=          -18529   e=               0   f=      -72.132103
+* minyulite-like basic potassium aluminum phosphate
+* cement notation = K.5APH2.5
+* 
+* from phosphate database
+
+Taranakite                         type= phosphate
+     formula= H6K3Al5(PO4)8(H2O)18
+     mole vol.=  625.7000 cc      mole wt.= 1342.2946 g
+     5 species in reaction
+        3.000 K+              8.000 PO4---          5.000 Al+++   
+       18.000 H2O             6.000 H+      
+*    log10 K(298 K) = -190.1006
+     a=    -190.1006246   b=               0   c=               0
+     d=      -82430.297   e=               0   f=        -255.711
+* cement notation = K1.5A2.5P4H21
+* 
+* from phosphate database
+
+Millisite                          type= phosphate
+     formula= KCaAl6(PO4)4(OH)9(H2O)3
+     mole vol.= 281.29999 cc      mole wt.=  828.0622 g
+     6 species in reaction
+       -9.000 H+              1.000 Ca++            1.000 K+      
+        4.000 PO4---          6.000 Al+++          12.000 H2O     
+*    log10 K(298 K) = -58.8206
+     a=    -58.82060166   b=               0   c=               0
+     d=        -19135.5   e=               0   f=        -145.118
+* cement notation = CK.5A3P2H7.5
+* 
+* from phosphate database
+
+Ht3_LDH_PO4                        type= phosphate
+     formula= Mg6Al2(OH)16(HPO4)(H2O)5
+     mole vol.= 300.99962 cc      mole wt.=  657.9651 g
+     5 species in reaction
+        6.000 Mg++            8.000 OH-             1.000 HPO4--  
+        2.000 AlO2-           9.000 H2O     
+*    log10 K(298 K) = -75.3000
+     a=    -75.29998059   b=               0   c=               0
+     d=      -32997.758   e=               0   f=      -98.324005
+* cement notation = M6AP.5H13.5
+* 
+* from phosphate database
+
+Ht4_LDH_PO4                        type= phosphate
+     formula= Mg8Al2(OH)20(HPO4)(H2O)6
+     mole vol.=  380.0000 cc      mole wt.=  792.6195 g
+     5 species in reaction
+        8.000 Mg++           12.000 OH-             1.000 HPO4--  
+        2.000 AlO2-          10.000 H2O     
+*    log10 K(298 K) = -97.6000
+     a=    -97.59999397   b=               0   c=               0
+     d=      -44320.398   e=               0   f=      -138.07201
+* cement notation = M8AP.5H16.5
+* 
+* from phosphate database
+
+Ht2_LDH_PO4                        type= phosphate
+     formula= Mg4Al2(OH)12(HPO4)(H2O)4
+     mole vol.= 222.00001 cc      mole wt.=  523.3107 g
+     5 species in reaction
+        4.000 Mg++            4.000 OH-             1.000 HPO4--  
+        2.000 AlO2-           8.000 H2O     
+*    log10 K(298 K) = -53.0002
+     a=    -53.00016805   b=               0   c=               0
+     d=          -21655   e=               0   f=        -59.7257
+* cement notation = M4AP.5H10.5
+* 
+* from phosphate database
+
+LEU                                type= zeolite
+     formula= K2(Al2Si4O12)
+     mole vol.=  177.3500 cc      mole wt.=  436.4944 g
+     3 species in reaction
+        2.000 AlO2-           2.000 K+              4.000 SiO2    
+*    log10 K(298 K) = -27.5999
+     a=    -27.59993557   b=               0   c=               0
+     d=        -11008.3   e=               0   f=        -12.0891
+* leucite with ANA framework
+* cement notation: KAS4
+* 
+* from zeolite21 database
+
+GIS-LSP(K)                         type= zeolite
+     formula= K2(Al2Si2O8)(H2O)2
+     mole vol.=  140.2600 cc      mole wt.=  352.3562 g
+     4 species in reaction
+        2.000 AlO2-           2.000 K+              2.000 SiO2    
+        2.000 H2O     
+*    log10 K(298 K) = -19.6000
+     a=    -19.60002142   b=               0   c=               0
+     d=         -8192.9   e=               0   f=        -7.86916
+* low-silica gismondine P with GIS framework
+* cement notation: KAS2H2
+* 
+* from zeolite21 database
+
+GIS-P1(K)                          type= zeolite
+     formula= K1.67(Al1.67Si2.33O8)(H2O)1.9
+     mole vol.=  140.3400 cc      mole wt.=  338.0166 g
+     4 species in reaction
+        1.670 AlO2-           1.670 K+              2.330 SiO2    
+        1.900 H2O     
+*    log10 K(298 K) = -21.2000
+     a=    -21.20003089   b=               0   c=               0
+     d=         -8198.4   e=               0   f=        -6.27327
+* gismondine P with GIS framework
+* cement notation: K.835A.835S2.33H1.9
+* 
+* from zeolite21 database
+
+PHI(K)                             type= zeolite
+     formula= K2.5(Al2.5Si5.5O16)(H2O)5
+     mole vol.=  312.1900 cc      mole wt.=  665.7361 g
+     4 species in reaction
+        2.500 AlO2-           2.500 K+              5.500 SiO2    
+        5.000 H2O     
+*    log10 K(298 K) = -42.6000
+     a=    -42.59997206   b=               0   c=               0
+     d=          -16989   e=               0   f=        -6.22987
+* phillipsite with PHI framework
+* cement notation: K1.25A1.25S5.5H5
+* 
+* from zeolite21 database
+
+LTA(K)                             type= zeolite
+     formula= K2(Al2Si2O8)(H2O)3.3
+     mole vol.=  186.8200 cc      mole wt.=  375.7760 g
+     4 species in reaction
+        2.000 AlO2-           2.000 K+              2.000 SiO2    
+        3.300 H2O     
+*    log10 K(298 K) = -20.5000
+     a=    -20.50003072   b=               0   c=               0
+     d=        -9301.14   e=               0   f=        -5.99043
+* Linde type A with LTA framework
+* cement notation: KAS2H3.3
+* 
+* from zeolite21 database
+
+CHA(K)                             type= zeolite
+     formula= K2(Al2Si4O12)(H2O)4
+     mole vol.=  252.9100 cc      mole wt.=  508.5552 g
+     4 species in reaction
+        2.000 AlO2-           2.000 K+              4.000 SiO2    
+        4.000 H2O     
+*    log10 K(298 K) = -32.2999
+     a=    -32.29985295   b=               0   c=               0
+     d=        -11899.5   e=               0   f=        -8.67089
+* chabazite with CHA framework
+* cement notation: KAS4H4
+* 
+* from zeolite21 database
+
+FAU-X(K)                           type= zeolite
+     formula= K2.03(Al2.03Si2.47O9)(H2O)6.04
+     mole vol.=  223.4800 cc      mole wt.=  456.3196 g
+     4 species in reaction
+        2.030 AlO2-           2.030 K+              2.470 SiO2    
+        6.040 H2O     
+*    log10 K(298 K) = -22.5000
+     a=    -22.50000537   b=               0   c=               0
+     d=        -8962.67   e=               0   f=        -4.93704
+* faujasite-X with FAU framework
+* cement notation: K1.015A1.015S2.47H6.04
+* 
+* from zeolite21 database
+
+FAU-Y(K)                           type= zeolite
+     formula= K2.18(Al2.18Si3.82O12)(H2O)7.72
+     mole vol.=  291.2700 cc      mole wt.=  582.4107 g
+     4 species in reaction
+        2.180 AlO2-           2.180 K+              3.820 SiO2    
+        7.720 H2O     
+*    log10 K(298 K) = -32.3500
+     a=    -32.35002117   b=               0   c=               0
+     d=        -12169.9   e=               0   f=        -4.28224
+* faujasite-Y with FAU framework
+* cement notation: K1.09A1.09S3.82H7.72
+* 
+* from zeolite21 database
+
+Tetra-NAT(K)                       type= zeolite
+     formula= K2(Al2Si3O10)(H2O)2
+     mole vol.=  186.5100 cc      mole wt.=  412.4405 g
+     4 species in reaction
+        2.000 AlO2-           2.000 K+              3.000 SiO2    
+        2.000 H2O     
+*    log10 K(298 K) = -25.2700
+     a=    -25.27001196   b=               0   c=               0
+     d=        -9974.88   e=               0   f=        -8.73284
+* tetranatrolite with NAT framework
+* cement notation: KAS3H2
+* 
+* from zeolite21 database
+
+NAT(K)                             type= zeolite
+     formula= K2(Al2Si3O10)(H2O)2
+     mole vol.=  186.5100 cc      mole wt.=  412.4405 g
+     4 species in reaction
+        2.000 AlO2-           2.000 K+              3.000 SiO2    
+        2.000 H2O     
+*    log10 K(298 K) = -26.3501
+     a=    -26.35007233   b=               0   c=               0
+     d=        -10296.9   e=               0   f=        -8.73284
+* natrolite with NAT framework
+* cement notation: KAS3H2
+* 
+* from zeolite21 database
+
+MOR(K)                             type= zeolite
+     formula= K0.65(Al0.65Si5.35O12)(H2O)2.3
+     mole vol.=  190.8700 cc      mole wt.=  426.6371 g
+     4 species in reaction
+         .650 AlO2-            .650 K+              5.350 SiO2    
+        2.300 H2O     
+*    log10 K(298 K) = -22.0000
+     a=    -22.00000928   b=               0   c=               0
+     d=         -7886.6   e=               0   f=   -0.1674079999
+* mordenite with MOR framework
+* cement notation: K.325A.325S5.35H2.3
+* 
+* from zeolite21 database
+
+STI(K)                             type= zeolite
+     formula= K2.20(Al2.20Si6.80O18)(H2O)4.8
+     mole vol.=  316.6700 cc      mole wt.=  710.8191 g
+     4 species in reaction
+        2.200 AlO2-           2.200 K+              6.800 SiO2    
+        4.800 H2O     
+*    log10 K(298 K) = -45.2000
+     a=    -45.19999241   b=               0   c=               0
+     d=        -17165.8   e=               0   f=         -4.9278
+* stilbite with STI framework
+* cement notation: K1.1A1.1S6.8H4.8
+* 
+* from zeolite21 database
+
+HEU(K)                             type= zeolite
+     formula= K2.22(Al2.22Si6.78O18)(H2O)4.7
+     mole vol.=  324.8000 cc      mole wt.=  709.7775 g
+     4 species in reaction
+        2.220 AlO2-           2.220 K+              6.780 SiO2    
+        4.700 H2O     
+*    log10 K(298 K) = -45.1499
+     a=    -45.14988741   b=               0   c=               0
+     d=          -17818   e=               0   f=        -5.20139
+* heulandite with HEU framework
+* cement notation: K1.11A1.11S6.78H4.7
+* 
+* from zeolite21 database
+
+CLI(K)                             type= zeolite
+     formula= K1.01(Al1.01Si4.99O12)(H2O)2.3
+     mole vol.=  191.2600 cc      mole wt.=  440.3150 g
+     4 species in reaction
+        1.010 AlO2-           1.010 K+              4.990 SiO2    
+        2.300 H2O     
+*    log10 K(298 K) = -26.8000
+     a=    -26.80002042   b=               0   c=               0
+     d=        -9570.96   e=               0   f=        -2.13363
+* clinoptilolite with HEU framework
+* cement notation: K.505A.505S4.99H2.3
+* 
+* from zeolite21 database
+
+GIS-LS-P(Ca)                       type= zeolite
+     formula= Ca(Al2Si2)O8(H2O)4.5
+     mole vol.=  157.5800 cc      mole wt.=  359.2756 g
+     4 species in reaction
+        2.000 AlO2-           1.000 Ca++            2.000 SiO2    
+        4.500 H2O     
+*    log10 K(298 K) = -23.5000
+     a=    -23.49997742   b=               0   c=               0
+     d=        -5844.44   e=               0   f=        -7.10128
+* gismondine low-silica P with GIS framework
+* cement notation: CAS2H4.5
+* 
+* From zeolite21 database. 
+* Update to zeoliteP_Ca in original cemdata18 compilation.
+
+SCO                                type= zeolite
+     formula= Ca(Al2Si3)O10(H2O)3
+     mole vol.=  172.4210 cc      mole wt.=  392.3371 g
+     4 species in reaction
+        2.000 AlO2-           1.000 Ca++            3.000 SiO2    
+        3.000 H2O     
+*    log10 K(298 K) = -24.6000
+     a=    -24.59999902   b=               0   c=               0
+     d=        -7372.02   e=               0   f=    -7.967099998
+* scolecite with NAT framework
+* cement notation: CAS3H3
+* 
+* from zeolite21 database
+
+CHA(Ca)                            type= zeolite
+     formula= Ca(Al2Si4)O12(H2O)6
+     mole vol.=  247.6100 cc      mole wt.=  506.4670 g
+     4 species in reaction
+        2.000 AlO2-           1.000 Ca++            4.000 SiO2    
+        6.000 H2O     
+*    log10 K(298 K) = -31.4000
+     a=    -31.40000485   b=               0   c=               0
+     d=        -9408.16   e=               0   f=        -6.05813
+* chabazite with CHA framework
+* cement notation: CAS4H6
+* 
+* From zeolite21 database.
+* Update to chabazite in original cemdata18 compilation.
+
+MOR(Ca)                            type= zeolite
+     formula= Ca0.34(Al0.68Si5.32)O12(H2O)2.9
+     mole vol.=  209.7200 cc      mole wt.=  425.6257 g
+     4 species in reaction
+         .680 AlO2-            .340 Ca++            5.320 SiO2    
+        2.900 H2O     
+*    log10 K(298 K) = -21.6427
+     a=    -21.64271378   b=               0   c=               0
+     d=        -6292.51   e=               0   f=    0.3781170002
+* mordenite with MOR framework
+* cement notation: C.34A.34S5.32H2.9
+* 
+* from zeolite21 database
+
+HEU(Ca)-1                          type= zeolite
+     formula= Ca1.07(Al2.14Si6.86)O18(H2O)4.4
+     mole vol.=  317.8800 cc      mole wt.=  660.5465 g
+     4 species in reaction
+        2.140 AlO2-           1.070 Ca++            6.860 SiO2    
+        4.400 H2O     
+*    log10 K(298 K) = -40.3849
+     a=    -40.38489309   b=               0   c=               0
+     d=        -12625.9   e=               0   f=    -5.871970001
+* heulandite with HEU framework
+* cement notation: C1.07A1.07S6.86H4.4
+* 
+* from zeolite21 database
+
+HEU(Ca)-2                          type= zeolite
+     formula= Ca1.07(Al2.14Si6.86)O18(H2O)4.5
+     mole vol.=  317.8800 cc      mole wt.=  662.3480 g
+     4 species in reaction
+        2.140 AlO2-           1.070 Ca++            6.860 SiO2    
+        4.500 H2O     
+*    log10 K(298 K) = -39.3214
+     a=    -39.32137173   b=               0   c=               0
+     d=          -11802   e=               0   f=    -5.896200002
+* heulandite with HEU framework
+* cement notation: C1.07A1.07S6.86H4.5
+* 
+* from zeolite21 database
+
+NAT                                type= zeolite
+     formula= Na2(Al2Si3)O10(H2O)2
+     mole vol.=  169.3560 cc      mole wt.=  380.2235 g
+     4 species in reaction
+        2.000 AlO2-           2.000 Na+             3.000 SiO2    
+        2.000 H2O     
+*    log10 K(298 K) = -26.6000
+     a=    -26.59996854   b=               0   c=               0
+     d=        -8818.32   e=               0   f=        -5.05253
+* natrolite with NAT framework
+* cement notation: NAS3H2
+* 
+* From zeolite21 database. 
+* Update to natrolite in original cemdata18 compilation.
+
+CHA(Na)                            type= zeolite
+     formula= Na2(Al2Si4)O12(H2O)6
+     mole vol.=  249.9510 cc      mole wt.=  512.3686 g
+     4 species in reaction
+        2.000 AlO2-           2.000 Na+             4.000 SiO2    
+        6.000 H2O     
+*    log10 K(298 K) = -31.9001
+     a=    -31.90014322   b=               0   c=               0
+     d=        -10493.9   e=               0   f=         1.57624
+* chabazite with CHA framework
+* cement notation: NAS4H6
+* 
+* from zeolite21 database
+
+PHI(Na)                            type= zeolite
+     formula= Na2.5(Al2.5Si5.5)O16(H2O)5
+     mole vol.=  304.7400 cc      mole wt.=  625.4649 g
+     4 species in reaction
+        2.500 AlO2-           2.500 Na+             5.500 SiO2    
+        5.000 H2O     
+*    log10 K(298 K) = -39.3749
+     a=    -39.37494721   b=               0   c=               0
+     d=        -11450.3   e=               0   f=         -1.3553
+* phillipsite with PHI framework
+* cement notation: N1.25A1.25S5.5H5
+* 
+* from zeolite21 database
+
+GIS-LS-P(Na)                       type= zeolite
+     formula= Na2(Al2Si2)O8(H2O)3.8
+     mole vol.=  153.4900 cc      mole wt.=  352.5666 g
+     4 species in reaction
+        2.000 AlO2-           2.000 Na+             2.000 SiO2    
+        3.800 H2O     
+*    log10 K(298 K) = -19.6000
+     a=    -19.59996903   b=               0   c=               0
+     d=        -6798.85   e=               0   f=        -1.59557
+* low-silica gismondine P with GIS framework
+* cement notation: NAS2H3.8
+* 
+* from zeolite21 database
+
+FAU-X(Na)                          type= zeolite
+     formula= Na2(Al2Si2.5)O9(H2O)6.2
+     mole vol.=  195.8000 cc      mole wt.=  425.8452 g
+     4 species in reaction
+        2.000 AlO2-           2.000 Na+             2.500 SiO2    
+        6.200 H2O     
+*    log10 K(298 K) = -21.9000
+     a=    -21.89997609   b=               0   c=               0
+     d=        -7412.76   e=               0   f=        -1.53822
+* faujasite-X with FAU framework
+* cement notation: NAS2.5H6.2
+* 
+* From zeolite21 database. 
+* Update to zeoliteX in original cemdata18 compilation.
+
+ANA                                type= zeolite
+     formula= Na2(Al2Si4)O12(H2O)2
+     mole vol.=  194.8400 cc      mole wt.=  440.3078 g
+     4 species in reaction
+        2.000 AlO2-           2.000 Na+             4.000 SiO2    
+        2.000 H2O     
+*    log10 K(298 K) = -26.8000
+     a=    -26.79996199   b=               0   c=               0
+     d=        -8159.59   e=               0   f=    -6.177370002
+* analcime with ANA framework
+* cement notation: NAS4H2
+* 
+* from zeolite21 database
+
+FAU-Y(Na)                          type= zeolite
+     formula= Na2(Al2Si4)O12(H2O)8
+     mole vol.=  282.9400 cc      mole wt.=  548.3990 g
+     4 species in reaction
+        2.000 AlO2-           2.000 Na+             4.000 SiO2    
+        8.000 H2O     
+*    log10 K(298 K) = -29.5000
+     a=    -29.49998329   b=               0   c=               0
+     d=        -9219.61   e=               0   f=         1.03934
+* faujasite-Y with FAU framework
+* cement notation: NAS4H8
+* 
+* From zeolite21 database. 
+* Update to zeoliteY in original cemdata18 compilation.
+
+SOD(Cl)                            type= zeolite
+     formula= Na8(Al6Si6)O24Cl2
+     mole vol.=  421.5300 cc      mole wt.=  969.2120 g
+     4 species in reaction
+        6.000 AlO2-           8.000 Na+             6.000 SiO2    
+        2.000 Cl-     
+*    log10 K(298 K) = -69.4005
+     a=    -69.40053688   b=               0   c=               0
+     d=        -29708.7   e=               0   f=        -40.7156
+* sodalite with SOD framework
+* 
+* from zeolite21 database
+
+MOR(Na)                            type= zeolite
+     formula= Na0.72(Al0.72Si5.28)O12(H2O)2.7
+     mole vol.=  706.5760 cc      mole wt.=  425.0848 g
+     4 species in reaction
+         .720 AlO2-            .720 Na+             5.280 SiO2    
+        2.710 H2O     
+*    log10 K(298 K) = -22.5000
+     a=    -22.49997427   b=               0   c=               0
+     d=        -6925.17   e=               0   f=         1.36533
+* mordenite with MOR framework
+* cement notation: N.36A.36S5.28H2.71
+* 
+* from zeolite21 database
+
+LTA(Na)                            type= zeolite
+     formula= Na1.98Al1.98Si2.02O8(H2O)5.31
+     mole vol.=  186.9500 cc      mole wt.=  379.3318 g
+     4 species in reaction
+        1.980 AlO2-           1.980 Na+             2.020 SiO2    
+        5.310 H2O     
+*    log10 K(298 K) = -18.2000
+     a=    -18.19997299   b=               0   c=               0
+     d=        -4978.97   e=               0   f=         -2.3319
+* Linde type A with LTA framework
+* cement notation: N.99A.99S2.02H5.31
+* 
+* from zeolite21 database
+
+4A                                 type= zeolite
+     formula= Na2(Al2Si2)O8(H2O)4.5
+     mole vol.=  187.0000 cc      mole wt.=  365.1772 g
+     4 species in reaction
+        2.000 AlO2-           2.000 Na+             2.000 SiO2    
+        4.500 H2O     
+*    log10 K(298 K) = -20.5000
+     a=    -20.50004444   b=               0   c=               0
+     d=        -5902.19   e=               0   f=        -3.59334
+* Molecular sieve 4 angstrom (commercial zeolite from Sigma Aldrich)
+* cement notation: NAS2H4.5
+* 
+* from zeolite21 database
+
+CAN(NO3)                           type= zeolite
+     formula= Na8(Al6Si6)O24(NO3)2(H2O)4
+     mole vol.=  435.9600 cc      mole wt.= 1094.3766 g
+     5 species in reaction
+        6.000 AlO2-           8.000 Na+             6.000 SiO2    
+        2.000 NO3-            4.000 H2O     
+*    log10 K(298 K) = -64.8002
+     a=    -64.80015017   b=               0   c=               0
+     d=        -29167.2   e=               0   f=        -35.1885
+* nitrate-cancrinite with CAN framework
+* 
+* from zeolite21 database
+
+SOD(OH)                            type= zeolite
+     formula= Na8(Al6Si6)O24(OH)2(H2O)2
+     mole vol.=  424.7400 cc      mole wt.=  968.3510 g
+     5 species in reaction
+        6.000 AlO2-           8.000 Na+             6.000 SiO2    
+        2.000 OH-             2.000 H2O     
+*    log10 K(298 K) = -65.2008
+     a=    -65.20077637   b=               0   c=               0
+     d=        -26430.9   e=               0   f=        -38.6249
+* hydrosodalite with SOD framework
+* cement notation: N4A3S6H3
+* 
+* from zeolite21 database
+
+CLI(Ca)                            type= zeolite
+     formula= Ca0.52(Al1.04Si4.96)O12(H2O)3.1
+     mole vol.=  210.9100 cc      mole wt.=  436.0453 g
+     4 species in reaction
+        1.040 AlO2-            .520 Ca++            4.960 SiO2    
+        3.100 H2O     
+*    log10 K(298 K) = -23.6374
+     a=    -23.63742366   b=               0   c=               0
+     d=        -6563.58   e=               0   f=        -3.23413
+* clinoptilolite with HEU framework
+* cement notation: C.52A.52S4.96H3.1
+* 
+* from zeolite21 database
+
+STI(Ca)                            type= zeolite
+     formula= Ca1.11(Al2.22Si6.78)O18(H2O)6.8
+     mole vol.=  327.4300 cc      mole wt.=  705.2978 g
+     4 species in reaction
+        2.220 AlO2-           1.110 Ca++            6.780 SiO2    
+        6.800 H2O     
+*    log10 K(298 K) = -40.4307
+     a=    -40.43066087   b=               0   c=               0
+     d=        -11887.1   e=               0   f=          -5.812
+* stilbite with STI framework
+* cement notation: C1.1A1.1S6.78H6.8
+* 
+* from zeolite21 database
+
+PHI(NaK)                           type= zeolite
+     formula= Na1.5K(Al2.5Si5.5)O16(H2O)5
+     mole vol.=  304.7400 cc      mole wt.=  641.5734 g
+     5 species in reaction
+        2.500 AlO2-           1.500 Na+             1.000 K+      
+        5.500 SiO2            5.000 H2O     
+*    log10 K(298 K) = -39.8751
+     a=    -39.87505737   b=               0   c=               0
+     d=        -12586.2   e=               0   f=        -3.22154
+* phillipsite with PHI framework
+* cement notation: N.75K.5A1.25S5.5H5
+* 
+* from zeolite21 database
+
+-end-
+
+*    Use TEdit to add solid solutions here globally, or add them locally
+*     from the Solid Solutions... dialog in any of the GWB modeling apps.
+
+   13 solid solutions
+
+SO4-CO3-AFt                        type= guggenheim
+     formula= (SO4,CO3)Ca2Al0.67(OH)4(H2O)8.67
+     ettringite03_ss       tag= SO4-AFt      contains
+     tricarboalu03         tag= CO3-AFt      from 0.00 to 1.00
+     a0= 1.67              a1= .946          a2= 0.0
+* Table 1,  a
+* Miscibility gap: X CO3, solid = 0.45-0.90
+* End member order chosen to match expression of miscibility gap
+* 
+* Solid solution of ettringite and tricarboaluminate, each factored by 1/3
+
+Fe-Al-AFt                          type= guggenheim
+     formula= Ca6(Al,Fe)2(SO4)3(OH)12(H2O)26
+     Fe-ettringite         tag= Fe-ett       contains
+     ettringite            tag= ett32        from 0.00 to 1.00
+     a0= 2.1               a1= -.169         a2= 0.0
+* Table 1, b 
+* Miscibility gap: X Al, solid = 0.25-0.65
+* End member order chosen to match expression of miscibility gap
+* 
+* Solid solution of Al- and Fe-ettringites
+
+Ettringite 30-32H                  type= ideal
+     ettringite30          tag= ett30        contains
+     ettringite            tag= ett32        from 0.00 to 1.00
+* Table 1, c
+* 
+* Solid solution describing dehydration of crystalline ettringite.
+* This solid solution should be used in discrete mode.
+
+Al-SHG                             type= ideal
+     C3AH6                 tag= Kto          contains
+     C3AS0.41H5.18         tag= AS.41        from 0.00 to 1.00
+* Table 1, d
+* 
+* Solid solution between Katoite and a hydrogrossular (Al siliceous hydrogarnet)
+
+Al-Fe SHG                          type= ideal
+     formula= Ca3(Al,Fe)2(SiO4)0.84(OH)8.64
+     C3AFS0.84H4.32        tag= AFS.84       contains
+     C3FS0.84H4.32         tag= FS.84        from 0.00 to 1.00
+* Table 1, e
+* 
+* Mixed Al-Fe siliceous hydrogarnet solid solution with fixed silica content
+* 
+* Using end members C3AFS0.84H4.32 and C3FS0.84H4.32 causes the solid solution to take up iron and a part of the aluminum in hydrated cements (Al/Fe > 1 in solid not considered). Using end members C3AS0.84H4.32 and C3FS0.84H4.32 allows the full range of compositions.
+
+Fe-SHG                             type= ideal
+     C3FH6                 tag= Fe-Kto       contains
+     C3FS0.84H4.32         tag= FS.84        from 0.00 to 1.00
+* Table 1, f
+* 
+* Solid solution between Fe-katoite and a hydroandradite (Fe siliceous hydrogarnet)
+
+SO4-OH-AFm                         type= guggenheim
+     formula= Ca4Al2(SO4,2OH)(OH)12(H2O)6
+     monosulphate12        tag= SO4-AFm      contains
+     C4AH13                tag= OH-AFm       from 0.00 to 1.00
+     a0= .188              a1= 2.49          a2= 0.0
+* Table 1, g
+* Miscibility gap: X OH, solid = 0.5-0.97
+* End member order chosen to match expression of miscibility gap
+* 
+* Solid solution of SO4-AFm (Ms12) and OH-AFm
+
+Fe-Al monosulfate                  type= guggenheim
+     formula= Ca4(Fe,Al)2SO10(H2O)12
+     Fe-monosulphate       tag= Fe-Ms        contains
+     monosulphate12        tag= Ms           from 0.00 to 1.00
+     a0= 1.26              a1= 1.57          a2= 0.0
+* Table 1, h
+* Miscibility gap: X Al, solid = 0.45-0.95
+* End member order chosen to match expression of miscibility gap
+* 
+* Fe-Al SO4-AFm (monosulfate) solid solution
+
+Straetlingite 7-8H                 type= ideal
+     straetlingite         tag= sra8         contains
+     straetlingite7        tag= sra7         from 0.00 to 1.00
+* Table 1, i
+* 
+* Solid solution describing dehydration of crystalline straetlingite.
+* This solid solution should be used in discrete mode.
+
+Al-Fe Friedel's salt               type= ideal
+     formula= Ca4(Al,Fe)2Cl2(OH)12(H2O)4
+     C4AClH10              tag= FS           contains
+     C4FeCl2H10            tag= Fe-FS        from 0.00 to 1.00
+* Table 1, k
+* 
+* Solid solution of Al-Fe Friedel's salt
+
+Htlc-Pyraur                        type= ideal
+     formula= Mg3(Al,Fe)(OH)8(CO3)0.5(H2O)2.5
+     Mg3Alc0.5OH           tag= Htlc         contains
+     Mg3Fec0.5OH           tag= Pyraur       from 0.00 to 1.00
+* Table 1, p
+* 
+* Solid solution of (CO3)hydrotalcite and (CO3)pyroaurite
+
+M-S-H                              type= ideal
+     M15SH                 tag= M1.5         contains
+     M075SH                tag= M.75         from 0.00 to 1.00
+* Table 1, q
+* 
+* M-S-H solid solution, with Mg/Si ranging from 1.5 to 0.75
+
+CSH-II                             type= ideal
+     Jennite               tag= jen          contains
+     Tob-II                tag= tobII        from 0.00 to 1.00
+* Table 4
+* 
+* Solid solution of jennite-like and tobermorite-like gel phases
+* 
+* Currently unsupported solid solutions:
+* 
+* MgAl-OH-LDH                        type= ideal
+*     M4A-OH-LDH            tag= M4A          from 0.00 to 1.00
+*     M6A-OH-LDH            tag= M6A          from 0.00 to 1.00
+*     M8A-OH-LDH            tag= M8A          from 0.00 to 1.00
+* * Table 3
+* * 
+* * Currently only binary solid solutions are supported in GWB.
+* 
+* ECSH-1                             type= ideal
+*     ECSH1-TobCa           tag= E1-TobCa     from 0.00 to 1.00
+*     ECSH1-SH              tag= E1-SH        from 0.00 to 1.00
+*     ECSH1-NaSH            tag= E1-NaSH      from 0.00 to 1.00
+*     ECSH1-KSH             tag= E1-KSH       from 0.00 to 1.00
+*     ECSH1-SrSH            tag= E1-SrSH      from 0.00 to 1.00
+* * Table 4
+* * 
+* * Currently only binary solid solutions are supported in GWB.
+* 
+* ECSH-2                             type= ideal
+*     ECSH2-TobCa           tag= E2-TobCa     from 0.00 to 1.00
+*     ECSH2-JenCa           tag= E2-JenCa     from 0.00 to 1.00
+*     ECSH2-NaSH            tag= E2-NaSH      from 0.00 to 1.00
+*     ECSH2-KSH             tag= E2-KSH       from 0.00 to 1.00
+*     ECSH2-SrSH            tag= E2-SrSH      from 0.00 to 1.00
+* Table 4
+* 
+* Currently only binary solid solutions are supported in GWB.
+* 
+* CSHQ                               type= ideal
+*     CSHQ-TobH             tag= Q-TobH       from 0.00 to 1.00
+*     CSHQ-TobD             tag= Q-TobD       from 0.00 to 1.00
+*     CSHQ-JenH             tag= Q-JenH       from 0.00 to 1.00
+*     CSHQ-JenD             tag= Q-JenD       from 0.00 to 1.00
+*     NaSiOH                tag= Q-NaSH       from 0.00 to 1.00
+*     KSiOH                 tag= Q-KSH        from 0.00 to 1.00
+* * Table 4
+* * 
+* * Currently only binary solid solutions are supported in GWB.
+* 
+* CSH3T                              type= ideal
+*     CSH3T-TobH            tag= 3T-TobH      from 0.00 to 1.00
+*     CSH3T-T5C             tag= 3T-T5C       from 0.00 to 1.00
+*     CSH3T-T2C             tag= 3T-T2C       from 0.00 to 1.00
+* * Table 4
+* * 
+* * Currently only binary solid solutions are supported in GWB.
+* 
+* CNASH                              type= ideal
+*     TobH-CNASHss          tag= NA-TobH      from 0.00 to 1.00
+*     INFCA                 tag= NA-INFCA     from 0.00 to 1.00
+*     INFCN                 tag= NA-INFCN     from 0.00 to 1.00
+*     INFCNA                tag= NA-INFCNA    from 0.00 to 1.00
+*     T5C-CNASHss           tag= NA-T5C       from 0.00 to 1.00
+*     5CA                   tag= NA-5CA       from 0.00 to 1.00
+*     5CNA                  tag= NA-5CNA      from 0.00 to 1.00
+*     T2C-CNASHss           tag= NA-T2C       from 0.00 to 1.00
+* * Table 4
+* * 
+* * Currently only binary solid solutions are supported in GWB.
+
+-end-
+
+   7 gases
+
+CH4(g)
+     mole wt.=   16.0424 g
+     chi=       -537.779     1.54946 -.000927827     1.20861  -.00370814  3.33804e-6
+     Pcrit=    45.99 bar      Tcrit=    190.56 K      omega=        .011
+     1 species in reaction
+        1.000 CH4     
+*    log10 K(298 K) = -2.8651
+     a=     -2.86511307   b=               0   c=               0
+     d=      4440.08393   e=               0   f=     12.61532661
+
+CO2(g)
+     mole wt.=   44.0096 g
+     chi=       -1430.87       3.598  -.00227376     3.47644   -.0104247  8.46271e-6
+     Pcrit=    73.74 bar      Tcrit=    304.12 K      omega=        .225
+     3 species in reaction
+       -1.000 H2O             1.000 CO3--           2.000 H+      
+*    log10 K(298 K) = -18.1429
+     a=    -18.14288105   b=               0   c=               0
+     d=    -6471.092769   e=               0   f=    -20.98954568
+
+H2(g)
+     mole wt.=    2.0158 g
+     chi=       -12.5908     .259789  -7.2473e-5   .00471947 -2.69962e-5  2.15622e-8
+     Pcrit=    12.93 bar      Tcrit=     32.98 K      omega=       -.217
+     1 species in reaction
+        1.000 H2(aq)  
+*    log10 K(298 K) = -3.1062
+     a=     -3.10618932   b=               0   c=               0
+     d=     2359.534203   e=               0   f=     7.209997168
+
+H2O(g)
+     mole wt.=   18.0152 g
+     chi=       -6191.41     14.8528  -.00914267    -66.3326      .18277  -.00013274
+     Pcrit=   220.64 bar      Tcrit=    647.14 K      omega=        .344    a=-.0109    b=   0.0
+     1 species in reaction
+        1.000 H2O     
+*    log10 K(298 K) = 1.4891
+     a=      1.48911967   b=               0   c=               0
+     d=     2820.718831   e=               0   f=     1.843239155
+
+H2S(g)
+     mole wt.=   34.0828 g
+     Pcrit=    89.63 bar      Tcrit=     373.4 K      omega=        .090
+     2 species in reaction
+        1.000 H+              1.000 HS-     
+*    log10 K(298 K) = -7.9602
+     a=     -7.96018341   b=               0   c=               0
+     d=     -2226.00998   e=               0   f=     -6.69272682
+
+N2(g)
+     mole wt.=   28.0134 g
+     Pcrit=    33.98 bar      Tcrit=     126.2 K      omega=        .037
+     1 species in reaction
+        1.000 N2      
+*    log10 K(298 K) = -3.1874
+     a=      -3.1873596   b=               0   c=               0
+     d=      3734.41569   e=               0   f=     10.70890673
+
+O2(g)
+     mole wt.=   31.9988 g
+     Pcrit=    50.43 bar      Tcrit=    154.58 K      omega=        .025
+     1 species in reaction
+        1.000 O2(aq)  
+*    log10 K(298 K) = -2.8803
+     a=     -2.88027637   b=               0   c=               0
+     d=     3828.771504   e=               0   f=     10.69794514
+
+-end-
+
+   27 oxides
+
+C(ccn)
+     mole wt.=   56.0774 g
+     3 species in reaction
+        1.000 Ca++           -2.000 H+              1.000 H2O     
+
+A(ccn)
+     mole wt.=  101.9612 g
+     3 species in reaction
+        2.000 AlO2-           2.000 H+             -1.000 H2O     
+
+F(ccn)
+     mole wt.=  159.6882 g
+     3 species in reaction
+        2.000 FeO2-           2.000 H+             -1.000 H2O     
+
+H(ccn)
+     mole wt.=   18.0152 g
+     1 species in reaction
+        1.000 H2O     
+
+K(ccn)
+     mole wt.=   94.1960 g
+     3 species in reaction
+        2.000 K+             -2.000 H+              1.000 H2O     
+
+M(ccn)
+     mole wt.=   40.3044 g
+     3 species in reaction
+        1.000 Mg++           -2.000 H+              1.000 H2O     
+
+N(ccn)
+     mole wt.=   61.9790 g
+     3 species in reaction
+        2.000 Na+            -2.000 H+              1.000 H2O     
+
+S(ccn)
+     mole wt.=   60.0843 g
+     1 species in reaction
+        1.000 SiO2    
+
+c(ccn)
+     mole wt.=   44.0096 g
+     3 species in reaction
+        1.000 CO3--           2.000 H+             -1.000 H2O     
+
+s(ccn)
+     mole wt.=   80.0652 g
+     3 species in reaction
+        1.000 SO4--           2.000 H+             -1.000 H2O     
+
+P(ccn)
+     mole wt.=  141.9446 g
+     3 species in reaction
+        2.000 PO4---         -3.000 H2O             6.000 H+      
+
+Al2O3(ox)
+     mole wt.=  101.9612 g
+     3 species in reaction
+        2.000 AlO2-           2.000 H+             -1.000 H2O     
+
+CaO(ox)
+     mole wt.=   56.0774 g
+     3 species in reaction
+        1.000 Ca++           -2.000 H+              1.000 H2O     
+
+Fe2O3(ox)
+     mole wt.=  159.6882 g
+     3 species in reaction
+        2.000 FeO2-           2.000 H+             -1.000 H2O     
+
+H2O(ox)
+     mole wt.=   18.0152 g
+     1 species in reaction
+        1.000 H2O     
+
+K2O(ox)
+     mole wt.=   94.1960 g
+     3 species in reaction
+        2.000 K+             -2.000 H+              1.000 H2O     
+
+MgO(ox)
+     mole wt.=   40.3044 g
+     3 species in reaction
+        1.000 Mg++           -2.000 H+              1.000 H2O     
+
+Na2O(ox)
+     mole wt.=   61.9790 g
+     3 species in reaction
+        2.000 Na+            -2.000 H+              1.000 H2O     
+
+SiO2(ox)
+     mole wt.=   60.0843 g
+     1 species in reaction
+        1.000 SiO2    
+
+CO2(ox)
+     mole wt.=   44.0096 g
+     3 species in reaction
+        1.000 CO3--           2.000 H+             -1.000 H2O     
+
+SO3(ox)
+     mole wt.=   80.0652 g
+     3 species in reaction
+        1.000 SO4--           2.000 H+             -1.000 H2O     
+
+P2O5(ox)
+     mole wt.=  141.9446 g
+     3 species in reaction
+        2.000 PO4---         -3.000 H2O             6.000 H+      
+
+SrO(ox)
+     mole wt.=  103.6194 g
+     3 species in reaction
+        1.000 Sr++           -2.000 H+              1.000 H2O     
+
+N2O5(ox)
+     mole wt.=  108.0104 g
+     3 species in reaction
+        2.000 NO3-            2.000 H+             -1.000 H2O     
+
+Ca(NO3)2(ox)
+     mole wt.=  164.0878 g
+     2 species in reaction
+        1.000 Ca++            2.000 NO3-    
+
+CaCl2(ox)
+     mole wt.=  110.9840 g
+     2 species in reaction
+        1.000 Ca++            2.000 Cl-     
+
+HCl(ox)
+     mole wt.=   36.4609 g
+     2 species in reaction
+        1.000 H+              1.000 Cl-     
+
+-end-
+* 
+* Key reference:
+* 
+* Lothenbach, B., D.A. Kulik, T. Matschei, M. Balonis, L. Baquerizo, 
+*   B. Dilnesa, G.D. Miron, and R.J. Myers, 2019, Cemdata18: A chemical
+*   thermodynamic database for hydrated Portland cements and alkali-
+*   activated materials. Cement and Concrete Research 115, 472-506.
+* 
+* 
+* References for phosphate and zeolite data:
+* 
+* Lothenbach, B., Xu, B., and Winnefeld, F. (2019) Thermodynamic data for
+*   magnesium (potassium) phosphates. Applied Geochemistry, 111, 104-450.
+* 
+* Ma, B. and B. Lothenbach (2020) Synthesis, characterization, and 
+*   thermodynamic study of selected Na-based zeolites, Cement and 
+*   Concrete Research, 135, 106-111.
+* 
+* Ma, B. and B. Lothenbach (2020) Thermodynamic study of cement/rock
+*   interactions using experimentally generated solubility data of
+*   zeolites, Cement and Concrete Research, 135, 106-149.
+* 
+* Ma, B. and B. Lothenbach (2021) Synthesis, characterization, and
+*   thermodynamic study of selected K-based zeolites, Cement and
+*   Concrete Research, 148, 106-537.
+* 
+* Xu, B., B. Lothenbach, and F. Winnefeld, (2020) Influence of
+*   wollastonite on hydration and properties of magnesium potassium
+*   phosphate cements, Cement and Concrete Research, 131, 106-012.
+* 
+* Xu, B., F. Winnefeld, B. Ma, D. Rentsch, and B. Lothenbach (2022)
+*   Influence of aluminum sulfate on properties and hydration of
+*   magnesium potassium phosphate cements, Cement and Concrete Research,
+*   156, 106788. 
+* 
+* 
+* Sources for gas fugacity coefficient calculations:
+* 
+* Poling, B.E., J.M. Prausnitz, and J.P. O'Connell, 2001, The Properties
+*   of Gases and Liquids, 5th ed. McGraw Hill, New York.
+* 
+* Spycher, N.F. and M.H. Reed, Fugacity coefficients of H2, CO2, CH4, 
+*   H2O and of H2O-CO2-CH4 mixtures: A virial equation treatment for 
+*   moderate pressures and temperatures applicable to calculations of 
+*   hydrothermal boiling. Geochimica et Cosmochimica Acta 52, 739-749.
+* 
+* Tsonopoulos, C., 1974, An empirical correlation of second virial
+*   coefficients. AIChE Journal 20, 263-272.
+* 
+* Tsonopoulos, C., and J.L. Heidman, 1990, From the virial to the cubic
+*   equation of state. Fluid Phase Equilibria 57, 261-276
+* .

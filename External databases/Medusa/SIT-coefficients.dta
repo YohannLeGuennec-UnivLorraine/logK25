@@ -1,0 +1,484 @@
+/ SIT-coefficients.dta
+/ Specific Ion interaction model for activity coefficients
+/ This file contains parameters to calculate specific ion interactions
+/
+/ This file has three sections,
+/ terminated by a line containing: "end" (without quotes)
+/
+/ Format:
+/ 1- Text strings (chemical names) end with either a comma or
+/    an end-of-line. This means that names can not contain a comma.
+/ 2- Numbers are separated either by white space, a comma,
+/    or an end-of-line.
+/ 3- Comments may be entered after " /" (or after "/"
+/    if the slash is the first character of the line).
+/ 4- The Hydra/Medusa software is able to recognise names
+/    such as "Fe+2" in this file even if in the Hydra/Medusa file
+/    the species is written as "Fe 2+"
+/
+/ References are listed at the end of the file.
+/
+/ First section:
+/ Cation name, Anion name, E1, E2, E3
+/ Note: the Cation must be given 1st and the Anion 2nd.
+/ Note: the specific ion interaction coefficient is calcualted
+/       as epsilon = E1 + E2 * T + E3 * T*T
+/       where T is the temperature in Kelvin.
+/       If you have no T-dependence parameters enter: epsilon, 0,0,
+
+H+,     Cl-,        0.12, 0,0
+H+ ,    ClO4-,      0.14, 0,0
+H+,     NO3-,       0.07, 0,0
+NH4+,   Cl-,       -0.01, 0,0
+NH4+,   ClO4-,     -0.08, 0,0
+NH4+,   NO3-,      -0.06, 0,0
+H2gly+, Cl-,       -0.01, 0,0
+H5EDTA+,Cl-,       -0.23, 0,0
+H5EDTA+,ClO4-,     -0.23, 0,0
+H5EDTA+,NO3-,      -0.23, 0,0
+Tl+,    ClO4-,     -0.21, 0,0
+ZnHCO3+,Cl-,        0.2,  0,0
+CdCl+,  ClO4-,      0.25, 0,0
+CdI+,   ClO4-,      0.27, 0,0
+CdSCN+, ClO4-,      0.31, 0,0
+HgCl+,  ClO4-,      0.19, 0,0
+Cu+,    ClO4-,      0.11, 0,0  / Wang et al (1997)
+/CuCl+,  ClO4-,      0.31, 0,0  /Wang et al (1997)
+CuCl+,  ClO4-,      0.2, 0,0  /SKB-TR-00-13
+CuCl+,  Cl-,        0.2, 0,0  /SKB-TR-00-13
+
+Ag+,    ClO4-,      0.00, 0,0
+Ag+,    NO3-,      -0.12, 0,0
+NiOH+,  Cl-,       -0.01, 0,0
+NiOH+,  ClO4-,      0.14, 0,0
+NiF+,   ClO4-,      0.34, 0,0
+NiCl+,  ClO4-,      0.47, 0,0
+NiNO3+, ClO4-,      0.44, 0,0
+Ni(H2cit)+,ClO4-,   0.12, 0,0
+NiBr+,  ClO4-,      0.59, 0,0
+NiHS+,  ClO4-,     -0.85, 0,0
+NiSCN+, ClO4-,      0.31, 0,0
+YCO3+,  ClO4-,      0.17, 0,0
+Am(OH)2+,Cl-,      -0.27, 0,0
+Am(OH)2+,ClO4-,     0.17, 0,0
+AmF2+,  ClO4-,      0.17, 0,0
+AmSO4+, ClO4-,      0.22, 0,0
+AmCO3+, Cl-,        0.01, 0,0
+AmCO3+, ClO4-,      0.17, 0,0
+Am(ox)+,ClO4-,      0.08, 0,0
+PuO2+,  ClO4-,      0.24, 0,0
+PuO2F+, ClO4-,      0.29, 0,0
+PuO2Cl+,ClO4-,      0.50, 0,0
+NpO2+,  Cl-,        0.09, 0,0
+NpO2+,  ClO4-,      0.25, 0,0
+NpO2OH+,ClO4-,     -0.06, 0,0
+(NpO2)3(OH)5+,ClO4-, 0.45, 0,0
+NpO2F+, ClO4-,      0.29, 0,0
+NpO2Cl+,ClO4-,      0.50, 0,0
+NpO2IO3+,ClO4-,     0.33, 0,0
+Np(SCN)3+,ClO4-,    0.17, 0,0
+UO2+,   ClO4-,      0.26, 0,0
+UO2OH+, ClO4-,     -0.06, 0,0
+UO2OH+, NO3-,       0.51, 0,0
+(UO2)3(OH)5+,Cl-,   0.81, 0,0
+(UO2)3(OH)5+,ClO4-, 0.45, 0,0
+(UO2)3(OH)5+,NO3-,  0.41, 0,0
+UF3+,   Cl-,        0.1,  0,0
+UF3+,   ClO4-,      0.1,  0,0
+UO2F+,  Cl-,        0.04, 0,0
+UO2F+,  ClO4-,      0.28, 0,0
+UO2Cl+, ClO4-,      0.33, 0,0
+UO2ClO3+,ClO4-,     0.33, 0,0
+UO2Br+, ClO4-,      0.24, 0,0
+UO2BrO3+,ClO4-,     0.33, 0,0
+UO2IO3+,ClO4-,      0.33, 0,0
+UO2N3+, ClO4-,      0.3,  0,0
+UO2NO3+,ClO4-,      0.33, 0,0
+UO2SCN+,ClO4-,      0.22, 0,0
+Th(OH)3+,Cl-,       0.06, 0,0
+Th(OH)3+,ClO4-,     0.15, 0,0
+Th(OH)3+,NO3-,      0.05, 0,0
+ThF3+,  ClO4-,      0.1, 0,0
+ThF3+,  NO3-,       0.0, 0,0
+Th(NO3)3+,ClO4-,    0.15, 0,0
+Th(NO3)3+,NO3-,     0.25, 0,0
+CuOH+,ClO4-,       -0.13, 0,0, /Plyasunova et al. (1997)
+CuF+, ClO4-,        0.25, 0,0, /SKB-TR-00-13
+CuNO2+, ClO4-,      0.24, 0,0, /SKB-TR-00-13
+
+H6EDTA 2+,Cl-,     -0.2, 0,0
+H6EDTA 2+,ClO4-,   -0.2, 0,0
+H6EDTA 2+,NO3-,    -0.2, 0,0
+Pb+2,   ClO4-,      0.15, 0,0
+Pb+2,   NO3-,       0.20, 0,0
+AlOH+2, Cl-,        0.09, 0,0
+AlOH+2, ClO4-,      0.31, 0,0
+Al2CO3(OH)2+2,Cl-,  0.26, 0,0
+Zn+2,   ClO4-,      0.33, 0,0
+Zn+2,   NO3-,       0.16, 0,0
+ZnCO3+2,Cl-,        0.35, 0,0
+Cd+2,   NO3-,       0.09, 0,0
+Hg+2,   ClO4-,      0.34, 0,0
+Hg+2,   NO3-,      -0.1, 0,0
+Hg2+2,  ClO4-,      0.09, 0,0
+Hg2+2,  NO3-,      -0.2, 0,0
+Cu+2,   Cl-,        0.32, 0,0 /SKB-TR-00-13
+Cu+2,   ClO4-,      0.32, 0,0
+Cu+2,   NO3-,       0.11, 0,0
+Ni+2,   Cl-,        0.17, 0,0
+Ni+2,   ClO4-,      0.370, 0,0
+Ni+2,   NO3-,       0.182, 0,0
+Co+2,   Cl-,        0.16, 0,0
+Co+2,   ClO4-,      0.34, 0,0
+Co+2,   NO3-,       0.14, 0,0
+FeOH+2, ClO4-,      0.38, 0,0
+FeSCN+2,ClO4-,      0.45, 0,0
+Mn+2,   Cl-,        0.13, 0,0
+YHCO3+2,ClO4-,      0.39, 0,0
+AmOH+2, Cl-,       -0.04, 0,0
+AmOH+2, ClO4-,      0.39, 0,0
+AmF+2,  ClO4-,      0.39, 0,0
+AmCl+2, ClO4-,      0.39, 0,0
+AmN3+2, ClO4-,      0.39, 0,0
+AmNO2+2,ClO4-,      0.39, 0,0
+AmNO3+2,ClO4-,      0.39, 0,0
+AmH2PO4+2,ClO4-,    0.39, 0,0
+AmSCN+2,ClO4-,      0.39, 0,0
+PuO2+2, ClO4-,      0.46, 0,0
+PuF2+2, ClO4-,      0.36, 0,0
+PuCl+2, ClO4-,      0.39, 0,0
+PuI+2,  ClO4-,      0.39, 0,0
+PuSCN+2,ClO4-,      0.39, 0,0
+NpO2+2, ClO4-,      0.46, 0,0
+(NpO2)2(OH)2+2,ClO4-,0.57, 0,0
+NpF2+2, ClO4-,      0.38, 0,0
+NpSO4+2,ClO4-,      0.48, 0,0
+Np(SCN)2+2,ClO4-,   0.38, 0,0
+UO2+2,  Cl-,        0.21, 0,0
+UO2+2,  ClO4-,      0.46, 0,0
+UO2+2,  NO3-,       0.24, 0,0
+(UO2)2(OH)2+2,Cl-,  0.69, 0,0
+(UO2)2(OH)2+2,ClO4-,0.57, 0,0
+(UO2)2(OH)2+2,NO3-, 0.49, 0,0
+(UO2)3(OH)4+2,Cl-,  0.50, 0,0
+(UO2)3(OH)4+2,ClO4-,0.89, 0,0
+(UO2)3(OH)4+2,NO3-, 0.72, 0,0
+UF2+2,  ClO4-,      0.3,  0,0
+USO4+2, ClO4-,      0.3,  0,0
+U(NO3)2+2,ClO4-,    0.49, 0,0
+Th(OH)2+2,Cl-,      0.13, 0,0
+Th(OH)2+2,ClO4-,    0.33, 0,0
+Th(OH)2+2,NO3-,     0.10, 0,0
+ThF2+2, ClO4-,      0.33, 0,0
+ThF2+2, NO3-,       0.10, 0,0
+ThSO4+2,Cl-,        0.14, 0,0
+ThSO4+2,ClO4-,      0.3, 0,0
+Th(N3)2+2,ClO4-,    0.40, 0,0
+Th(NO3)2+2,ClO4-,   0.43, 0,0
+Th(NO3)2+2,NO3-,    0.43, 0,0
+Th(H2PO4)2+2,ClO4-, 0.4, 0,0
+Th(SCN)2+2,ClO4-,   0.38, 0,0
+Mg+2,   Cl-,        0.19, 0,0
+Mg+2,   ClO4-,      0.33, 0,0
+Mg+2,   NO3-,       0.17, 0,0
+Ca+2,   Cl-,        0.14, 0,0
+Ca+2,   ClO4-,      0.27, 0,0
+Ca+2,   NO3-,       0.02, 0,0
+Ba+2,   Cl-,        0.07, 0,0
+Ba+2,   ClO4-,      0.15, 0,0
+Ba+2,   NO3-,      -0.28, 0,0 /#
+Cu2(OH)2+2,ClO4-,   0.33, 0,0 /Plyasunova et al. (1997)
+
+Al+3,   Cl-,        0.33, 0,0
+Fe+3,   ClO4-,      0.56, 0,0
+Fe+3,   NO3-,       0.42, 0,0
+Cr+3,   Cl-,        0.30, 0,0
+Cr+3,   NO3-,       0.27, 0,0
+La+3,   Cl-,        0.22, 0,0
+La+3,   ClO4-,      0.47, 0,0
+Lu+3,   ClO4-,      0.52, 0,0
+Am+3,   Cl-,        0.23, 0,0
+Am+3,   ClO4-,      0.49, 0,0
+Pu+3,   ClO4-,      0.49, 0,0
+PuOH+3, ClO4-,      0.50, 0,0
+PuF+3,  ClO4-,      0.56, 0,0
+PuCl+3, ClO4-,      0.85, 0,0
+PuBr+3, ClO4-,      0.58, 0,0
+Np+3,   ClO4-,      0.49, 0,0
+NpOH+3, ClO4-,      0.50, 0,0
+NpF+3,  ClO4-,      0.58, 0,0
+NpCl+3, ClO4-,      0.81, 0,0
+NpI+3,  ClO4-,      0.77, 0,0
+NpSCN+3,Cl-,        0.76, 0,0
+U+3,    ClO4-,      0.49, 0,0
+UOH+3,  ClO4-,      0.48, 0,0
+UF+3,   ClO4-,      0.48, 0,0
+UCl+3,  ClO4-,      0.50, 0,0
+UBr+3,  ClO4-,      0.52, 0,0
+UI+3,   ClO4-,      0.55, 0,0
+UNO3+3, ClO4-,      0.62, 0,0
+ThOH+3, Cl-,        0.19, 0,0
+ThOH+3, ClO4-,      0.48, 0,0
+ThOH+3, NO3-,       0.20, 0,0
+ThF+3,  ClO4-,      0.48, 0,0
+ThF+3,  NO3-,       0.25, 0,0
+ThCl+3, Cl-,        0.62, 0,0
+ThCl+3, ClO4-,      0.62, 0,0
+ThClO3+3,ClO4-,     0.62, 0,0
+ThBr+3, ClO4-,      0.62, 0,0
+ThBrO3+3,ClO4-,     0.62, 0,0
+ThN3+3, ClO4-,      0.55, 0,0
+ThNO3+3,ClO4-,      0.56, 0,0
+ThNO3+3,ClO4-,      0.56, 0,0
+Th(H2PO4)+3,ClO4-,  0.5, 0,0
+Th(H2PO4)(H3PO4)+3,ClO4-, 0.5, 0,0
+ThSCN+3,ClO4-,      0.50, 0,0
+Be2OH+3,ClO4-,      0.50, 0,0
+Be3(OH)3+3,Cl-,     0.30, 0,0
+Be3(OH)3+3,ClO4-,   0.51, 0,0
+Be3(OH)3+3,NO3-,    0.29, 0,0
+
+Al3HCO3(OH)4+4,Cl-, 0.41, 0,0
+Ni4(OH)4+4, ClO4-,  1.08, 0,0
+Fe2(OH)2+4, ClO4-,  0.82, 0,0
+Y2CO3+4,    ClO4-,  0.80, 0,0
+Pu+4,       Cl-,    0.37, 0,0
+Pu+4,       ClO4-,  0.82, 0,0
+Np+4,       ClO4-,  0.84, 0,0
+U+4,        ClO4-,  0.76, 0,0
+Th+4,       Cl-,    0.25, 0,0
+Th+4,       ClO4-,  0.70, 0,0
+Th+4,       NO3-,   0.31, 0,0
+Th4(OH)12+4,Cl-,    0.25, 0,0
+Th4(OH)12+4,ClO4-,  0.56, 0,0
+Th4(OH)12+4,NO3-,   0.42, 0,0
+Th(H3PO4)+4,ClO4-,  0.7, 0,0
+
+Al3(OH)4+5,  Cl-,    0.66, 0,0
+Al3(OH)4+5,  ClO4-,  1.30, 0,0
+Th2(OH)3+5,  Cl-,    0.29, 0,0
+Th2(OH)3+5,  ClO4-,  0.91, 0,0
+Th2(OH)3+5,  NO3-,   0.69, 0,0
+
+Th2(OH)2+6,  Cl-,    0.40, 0,0
+Th2(OH)2+6,  ClO4-,  1.22, 0,0
+Th2(OH)2+6,  NO3-,   0.69, 0,0
+Th4(OH)8+8,  Cl-,    0.70, 0,0
+Th4(OH)8+8,  ClO4-,  1.69, 0,0
+Th4(OH)8+8,  NO3-,   1.59, 0,0
+Th6(OH)15+9, Cl-,    0.72, 0,0
+Th6(OH)15+9, ClO4-,  1.85, 0,0
+Th6(OH)15+9, NO3-,   2.20, 0,0
+Th6(OH)14+10,Cl-,    0.83, 0,0
+Th6(OH)14+10,ClO4-,  2.2, 0,0
+Th6(OH)14+10,NO3-,   2.9, 0,0
+
+Li+,  OH-,   -0.02, 0,0
+Na+,  OH-,    0.04, 0,0
+K+,   OH-,    0.09, 0,0
+Na+,  F-,     0.02, 0,0
+K+,   F-,     0.03, 0,0
+Na+,  HF2-,  -0.11, 0,0
+Li+,  Cl-,    0.10, 0,0
+Na+,  Cl-,    0.03, 0,0
+K+,   Cl-,    0.00, 0,0
+Na+,  ClO3-, -0.01, 0,0
+Li+,  ClO4-,  0.15, 0,0
+Na+,  ClO4-,  0.01, 0,0
+Li+,  Br-,    0.13, 0,0
+Na+,  Br-,    0.05, 0,0
+K+,   Br-,    0.01, 0,0
+Na+,  BrO3-, -0.06, 0,0
+Li+,  I-,     0.16, 0,0
+Na+,  I-,     0.08, 0,0
+K+,   I-,     0.02, 0,0
+Na+,  IO3-,  -0.06, 0,0
+Na+,  HSO4-, -0.01, 0,0
+Na+,  N3-,    0.015,0,0
+Li+,  NO2-,   0.06, 0,0
+Na+,  NO2-,   0.00, 0,0
+K+,   NO2-,  -0.04, 0,0
+Li+,  NO3-,   0.08, 0,0
+Na+,  NO3-,  -0.04, 0,0
+K+,   NO3-,  -0.11, 0,0
+Na+,  H2PO4-,-0.08, 0,0
+K+,   H2PO4-,-0.14, 0,0
+Na+,  HCO3-,  0.00, 0,0
+K+,   HCO3-, -0.06, 0,0
+Li+,  Hox-,  -0.28, 0,0
+Na+,  Hox-,  -0.07, 0,0
+K+,   Hox-,  -0.01, 0,0
+Li+,  H2cit-,-0.11, 0,0
+Na+,  H2cit-,-0.05, 0,0
+K+,   H2cit-,-0.04, 0,0
+Na+,  CN-,    0.07, 0,0
+Na+,  SCN-,   0.05, 0,0
+K+,   SCN-,  -0.01, 0,0
+Na+,  HCOO-,       0.03, 0,0
+Li+,  CH3COO-,     0.05, 0,0
+Na+,  CH3COO-,     0.08, 0,0
+K+,   CH3COO-,     0.09, 0,0
+Na+,  H3EDTA-,    -0.33, 0,0
+K+,   H3EDTA-,    -0.14, 0,0
+Na+,  SiO(OH)3-,  -0.08, 0,0
+Na+,  Si2O2(OH)5-,-0.08, 0,0
+Na+,  B(OH)4-,    -0.07, 0,0
+Na+,  Ni(SCN)3-,   0.66, 0,0
+Na+,  Ni(cit)-,    0.22, 0,0
+Na+,  Am(SO4)2-,  -0.05, 0,0
+Na+,  Am(CO3)2-,  -0.14, 0,0
+Na+,  Am(ox)2-,   -0.21, 0,0
+Na+,  AmEDTA-,     0.01, 0,0
+K+,   AmEDTA-,     0.01, 0,0
+Na+,  PuO2CO3-,   -0.18, 0,0
+K+,   PuEDTA-,     0.01, 0,0
+Na+,  NpO2(OH)2-, -0.01, 0,0
+Na+,  NpO2CO3-,   -0.18, 0,0
+Na+,  NpO2(ox)-,  -0.4, 0,0
+Na+,  NpO2(H2EDTA)-,-0.18, 0,0
+Na+,  (NpO2)2CO3(OH)3-,0.00, 0,0
+Na+,  UO2(OH)3-,  -0.09, 0,0
+Na+,  UO2F3-,     -0.14, 0,0
+Na+,  UO2(N3)3-,   0.0,  0,0
+Na+,  (UO2)CO3(OH)3-,0.00, 0,0
+Na+,  UO2cit-,    -0.11, 0,0
+Na+,  ThCO3(OH)3-,-0.05, 0,0
+Na+,  Mg(cit)-,    0.03, 0,0
+Na+,  UO2HEDTA-,  -0.18, 0,0
+Na+,  MgHEDTA-,   -0.11, 0,0
+K+,   Cu(OH)3-,    0.40, 0,0 /Plyasunova et al. (1997)
+H+,   CuCl2-,      0.18, 0,0  / Wang et al (1997)
+Na+,  CuCl2-,      0.07, 0,0  / Wang et al (1997)
+Na+,  CuCl3-,      0.0, 0,0  /SKB-TR-00-13
+
+Na+,  SO3-2,     -0.08, 0,0
+Li+,  SO4-2,     -0.03, 0,0
+Na+,  SO4-2,     -0.12, 0,0
+K+,   SO4-2,     -0.06, 0,0
+Na+,  S2O3-2,    -0.08, 0,0
+Na+,  HPO4-2,    -0.15, 0,0
+K+,   HPO4-2,    -0.10, 0,0
+Na+,  CO3-2,     -0.08, 0,0
+K+,   CO3-2,      0.02, 0,0
+Li+,  ox-2,      -0.51, 0,0
+Na+,  ox-2,      -0.08, 0,0
+K+,   ox-2,       0.07, 0,0
+Li+,  Hcit-2,    -0.17, 0,0
+Na+,  Hcit-2,    -0.04, 0,0
+K+,   Hcit-2,    -0.01, 0,0
+Na+,  H2EDTA 2-, -0.37, 0,0
+K+,   H2EDTA 2-, -0.17, 0,0
+Na+,  SiO2(OH)2-2, -0.10, 0,0
+Na+,  Si2O3(OH)4-2,-0.15, 0,0
+Na+,  Ni(ox)2-2,   -0.26, 0,0
+Na+,  Ni(CN)4-2,    0.185, 0,0
+Na+,  CrO4-2,      -0.06, 0,0
+K+,   CrO4-2,      -0.08, 0,0
+Na+,  NpO2(HPO4)2-2,-0.1, 0,0
+Na+,  NpO2(CO3)2-2,-0.02, 0,0
+Na+,  NpO2cit-2,   -0.06, 0,0
+Na+,  NpO2HEDTA-2,  0.07, 0,0
+Na+,  UO2F4-2,     -0.30, 0,0
+Na+,  UO2(SO4)2-2, -0.12, 0,0
+Na+,  UO2(N3)4-2,  -0.1,  0,0
+Na+,  UO2(ox)2-2,  -0.18,  0,0
+Na+,  UO2EDTA-2,   -0.22,  0,0
+Na+,  UO2(CO3)2-2,  0.02, 0,0
+Na+,  (UO2)2(OH)2(SO4)2-2,-0.14, 0,0
+Na+,  ThF6-2,      -0.30,  0,0
+Li+,  Th(SO4)3-2,  -0.068,  0,0
+Na+,  Th(SO4)3-2,  -0.091,  0,0
+K+,   Th(SO4)3-2,  -0.091,  0,0
+Na+,  Th(CO3)2(OH)2-2,-0.1,  0,0
+Na+,  ThCO3(OH)4-2,-0.1,  0,0
+Na+,  Mg(ox)2-2,   -0.15, 0,0
+K+,   Mg(ox)2-2,   -0.15, 0,0
+Na+,  MgEDTA-2,    -0.01, 0,0
+Na+,  Ca(ox)2-2,   -0.15, 0,0
+K+,   Ca(ox)2-2,   -0.15, 0,0
+Na+,  Cu(OH)4-2,    0.19, 0,0 /Plyasunova et al. (1997)
+K+,   Cu(OH)4-2,    0.29, 0,0 /Plyasunova et al. (1997)
+H+,   CuCl3-2,      0.28, 0,0  / Wang et al (1997)
+Na+,  CuCl4-2,     -0.05, 0,0  /SKB-TR-00-13
+
+Li+,  cit-3,       -0.44, 0,0
+Na+,  cit-3,       -0.076, 0,0
+K+,   cit-3,        0.02, 0,0
+Na+,  HEDTA 3-,    -0.10, 0,0
+K+,   HEDTA 3-,     0.31, 0,0
+Na+,  PO4-3,       -0.25, 0,0
+K+,   PO4-3,       -0.09, 0,0
+Na+,  Si3O6(OH)3-3,-0.25, 0,0
+Na+,  Si3O5(OH)5-3,-0.25, 0,0
+Na+,  Si4O7(OH)5-3,-0.25, 0,0
+Na+,  Ni(CN)5-3,    0.25, 0,0
+Na+,  Am(CO3)3-3,  -0.23, 0,0
+Na+,  Am(ox)3-3,   -0.23, 0,0
+K+,   Np(CO3)3-3,  -0.15, 0,0
+Na+,  NpO2(CO3)2-3,-0.33, 0,0
+Na+,  NpO2(ox)2-3, -0.3, 0,0
+Na+,  NpO2EDTA-3,   0.20, 0,0
+
+Na+,  EDTA 4-,      0.32, 0,0
+K+,   EDTA 4-,      1.07, 0,0
+Na+,  P2O7-4,      -0.26, 0,0
+K+,   P2O7-4,      -0.15, 0,0
+K+,   Fe(CN)6-4,   -0.17, 0,0
+Na+,  NpO2(CO3)3-4,-0.40, 0,0
+K+,   NpO2(CO3)3-4,-0.62, 0,0
+Na+,  NpO2OH(CO3)2-4,-0.40, 0,0
+Na+,  U(CO3)4-4,   -0.09, 0,0
+Na+,  UO2(CO3)3-4, -0.01, 0,0
+Na+,  UO2(ox)3-4,  -0.01, 0,0
+Na+,  (UO2)3(OH)4(SO4)3-4, 0.6, 0,0
+
+Na+,  NpO2(CO3)3-5, -0.53, 0,0
+K+,   NpO2(CO3)3-5, -0.22, 0,0
+Na+,  UO2(CO3)3-5,  -0.62, 0,0
+Na+,  Th(CO3)4OH-5, -0.22, 0,0
+
+K+,   Np(CO3)5-6,  -0.73, 0,0
+Na+,  (NpO2)3(CO3)6-6,-0.46, 0,0
+Na+,  U(CO3)5-6,   -0.30, 0,0
+K+,   U(CO3)5-6,   -0.70, 0,0
+Na+,  (UO2)3(CO3)6-6, 0.37, 0,0
+Na+,  (UO2)2NpO2(CO3)6-6, 0.09, 0,0
+Na+,  (UO2)5(OH)8(SO4)4-6, 1.10, 0,0
+Na+,  Th(CO3)5-6,  -0.30, 0,0
+
+Na+,  (UO2)4(OH)7(SO4)4-7, 2.80, 0,0
+
+end
+
+/
+/ 2nd section: specific interaction between neutral species and
+/ the background electrolyte. In this case no distinction is made
+/ between electrolytes, that is, the values here correspond to
+/ epsilon(n,MX) for any salt MX.
+/
+/ neutral species name,  E1, E2, E3
+H2S,       0.06, 0,0
+Si(OH)4,   0.10, 0,0
+FeCl3,     0.09, 0,0
+H4EDTA,   -0.29, 0,0
+H3cit,     0.03, 0,0
+Ni(ox),   -0.07, 0,0
+Ni(Hcit), -0.07, 0,0
+Ni(SCN)2,  0.38, 0,0
+NpEDTA,   -0.19, 0,0
+UO2ox,    -0.05, 0,0
+U(EDTA),  -0.19, 0,0
+Mg(Hcit),  0.02, 0,0
+CuCl2,     0.1,  0,0 /SKB-TR-00-13
+Cu(NO2)2,  0.23,  0,0 /SKB-TR-00-13
+
+end
+
+/
+/ 3rd section: specific interaction of a neutral species
+/ with itself (concentrated solutions of neutral molecules)
+/
+/ neutral species,  epsilon
+H3cit, 0.057, 0,0
+end
+
