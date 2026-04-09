@@ -59,17 +59,24 @@
       <table id="tbl">
         <thead>
           <tr>
-            <th data-k="p">Product</th>
-            <th data-k="e">Equation (as written)</th>
-            <th data-k="k">logK</th>
-            <th data-k="c">Contributing logK</th>
-            <th data-k="x">Experimental conditions</th>
+            <th>#</th>
+            <th data-k="p" class="hidden-col">Product</th>
+            <th data-k="h" class="hidden-col">Hill formulas</th>
+            <th data-k="e">Equation</th>
+            <th data-k="k">Average logK</th>
+            <th data-k="c">logK</th>
+            <th data-k="x">Exp. conditions</th>
             <th data-k="m">Database comments</th>
-            <th data-k="rf">Reference (consolidated)</th>
+            <th data-k="rf" class="hidden-col">Reference (consolidated)</th>
           </tr>
         </thead>
         <tbody></tbody>
       </table>
+    </div>
+    <div class="controls bottom-pager">
+      <button id="prevBtnBottom" type="button">Prev</button>
+      <span id="pageInfoBottom">Page 1/1</span>
+      <button id="nextBtnBottom" type="button">Next</button>
     </div>
 
     <footer class="footer-note">

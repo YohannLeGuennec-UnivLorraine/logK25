@@ -1,0 +1,4071 @@
+JESS Thermodynamic Database v8.9                                                Tin
+
+
+                 JESS Thermodynamic Database v8.9
+                 Chemical species in reactions with Tin
+
+                                        24-Jan-23
+
+Charge     CAS                Count   Molecular formula                   Mol. mass
+
+
+1BuAm
+Butylamine; n-Butylamine; 1-Aminobutane
+
+0          109-73-9           15      C(4)H(11)N(1)                       73.1380
+
+
+1BuAm_Sn(CH3)3+1
+1          ---                1       C(7)H(20)N(1)Sn(1)                  236.953
+
+
+1PentAm
+n-Pentylamine; Pentylamine; n-Amylamine; Amylamine; 1-Aminopentane; 1-Pentylamine
+
+0          110-58-7           5       C(5)H(13)N(1)                       87.1649
+
+
+1PentAm_Sn(CH3)3+1
+1          ---                1       C(8)H(22)N(1)Sn(1)                  250.979
+
+
+23DiCOOPrDiPhos-6
+2,3-Dicarboxypropane-1,1-diphosphonate ion
+
+-6         ---                14      C(5)H(4)O(10)P(2)                   286.029
+
+
+2BrPropan-1
+Bromo-2-propionate ion
+
+-1         ---                5       C(3)H(4)Br(1)O(2)                   151.968
+
+
+2ClPropan-1
+-1         ---                7       C(3)H(4)Cl(1)O(2)                   107.517
+
+
+2Me4NitrAniline
+2-Methyl-4-nitroaniline
+
+0          ---                4       C(7)H(8)N(2)O(2)                    152.153
+
+
+2SHAcet-2
+Thioglycolate ion
+
+-2         ---                140     C(2)H(2)O(2)S(1)                    90.0967
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                          Tin
+
+
+
+2SHEtol-1
+2-Mercaptoethanolate ion; Mercaptoethanolate ion
+
+-1        ---             66       C(2)H(5)O(1)S(1)                 77.1211
+
+
+2SHSuccin-3
+Thiomalate ion
+
+-3        ---             106      C(4)H(3)O(4)S(1)                 147.125
+
+
+35DiClAniline
+3,5-Dichloroaniline
+
+0         626-43-7        2        C(6)H(5)Cl(2)N(1)                162.018
+
+
+3BrPropan-1
+Bromo-3-propionate ion
+
+-1        ---             11       C(3)H(4)Br(1)O(2)                151.968
+
+
+3ClPropan-1
+-1        ---             24       C(3)H(4)Cl(1)O(2)                107.517
+
+
+3Me4NitrAniline
+3-Methyl-4-nitroaniline
+
+0         ---             3        C(7)H(8)N(2)O(2)                 152.153
+
+
+3NitrAniline
+3-Nitroaniline; 3-Nitrobenzenamine; m-Nitraniline; m-Nitroaniline
+
+0         99-09-2         11       C(6)H(6)N(2)O(2)                 138.126
+
+
+4Me3NitrAniline
+4-Methyl-3-nitroaniline
+
+0         ---             5        C(7)H(8)N(2)O(2)                 152.153
+
+
+4NitrAniline
+4-Nitroaniline; 4-Nitrobenzenamine; p-Nitraniline; p-Nitroaniline
+
+0         100-01-6        10       C(6)H(6)N(2)O(2)                 138.126
+
+
+5AMP-2
+Adenosine-5'-monophosphate ion
+
+-2        6042-43-9       105      C(10)H(12)N(5)O(7)P(1)           345.209
+
+
+
+
+                                      – Page 2 of 69 –
+JESS Thermodynamic Database v8.9                                                   Tin
+
+
+
+5IMP-2
+Inosine-5'-monophosphate; Inosinic acid; IMP; I-5'-P
+
+-2        131-99-7        34       C(10)H(11)N(4)O(8)P(1)                 346.193
+
+
+6Me3NitrAniline
+6-Methyl-3-nitroaniline
+
+0         ---             5        C(7)H(8)N(2)O(2)                       152.153
+
+
+Acetic-1
+Acetate ion
+
+-1        71-50-1         558      C(2)H(3)O(2)                           59.0446
+
+
+Acrylic-1
+Acrylate ion; Propenoate ion; 2-Propenoate ion
+
+-1        10344-93-1      6        C(3)H(3)O(2)                           71.0556
+
+
+Adipic-2
+Adipate ion
+
+-2        18667-07-7      94       C(6)H(8)O(4)                           144.127
+
+
+Ag(s)
+Silver; Silver, cubic
+
+0         7440-22-4       182      Ag(1)                                  107.870
+
+
+Ag6Sn4P12Ge6(s)
+Silver tin germanium phosphorous amalgam
+
+0         ---             1        Ag(6)Ge(6)P(12)Sn(4)                   1929.53
+
+
+Ala-1
+Alanine ion; L-Alanine ion; L-2-Aminopropanoate ion
+
+-1        ---             802      C(3)H(6)N(1)O(2)                       88.0861
+
+
+As(s)
+Arsenic; Arsenic, rhombohedral; Arsenic, grey/gray; Arsenic, alpha
+
+0         7440-38-2       179      As(1)                                  74.9220
+
+
+Asp-2
+Aspartate ion; Aminosuccinate ion; Asparagate ion; 2-Aminobutanedioate ion; L-2-
+Aminobutanedioate ion
+
+-2        63-71-8         776      C(4)H(5)N(1)O(4)                       131.088
+
+
+
+
+                                      – Page 3 of 69 –
+JESS Thermodynamic Database v8.9                                                Tin
+
+
+
+Ba+2_Sn+2_F-1(4)_(s)
+0         ---             1        Ba(1)F(4)Sn(1)                         332.034
+
+
+Ba(s)
+Barium; Barium, cubic; Barium, lambda trans.
+
+0         7440-39-3       64       Ba(1)                                  137.330
+
+
+BAL-2
+2,3-Dimercapto-1-propanolate ion; BAL ion
+
+-2        ---             38       C(3)H(6)O(1)S(2)                       122.200
+
+
+Benzoic-1
+Benzoate ion; Benzenecarboxylate ion
+
+-1        766-76-7        208      C(7)H(5)O(2)                           121.116
+
+
+Bipy
+2,2'-Bipyridyl; Bipyridine; 2,2'-Bipyridine; Dipyridyl; 2,2'-Dipyridyl; 2-(2-
+Pyridyl)pyridine; bipy; bpy; dip; dipy; alpha-alpha'-Bipyridyl
+
+0         366-18-7        823      C(10)H(8)N(2)                          156.187
+
+
+Bipy_Sn(C2H5)2+2
+2         ---             1        C(14)H(18)N(2)Sn(1)                    333.020
+
+
+Bipy_Sn(CH3)2+2
+2         ---             1        C(12)H(14)N(2)Sn(1)                    304.967
+
+
+Bipy(2)_Sn(C2H5)2+2
+2         ---             1        C(24)H(26)N(4)Sn(1)                    489.207
+
+
+Bipy(2)_Sn(CH3)2+2
+2         ---             1        C(22)H(22)N(4)Sn(1)                    461.154
+
+
+Br-1
+Bromide ion
+
+-1        24959-67-9      1213     Br(1)                                  79.9040
+
+
+Br2(l)
+Bromine, liquid
+
+0         ---             285      Br(2)                                  159.808
+
+
+
+
+                                       – Page 4 of 69 –
+JESS Thermodynamic Database v8.9                                                Tin
+
+
+
+BrAcet-1
+Bromoacetate ion
+
+-1        ---             10          C(2)H(2)Br(1)O(2)                   137.941
+
+
+BuXanthate-1
+-1        ---             14          C(5)H(9)O(1)S(2)                    149.246
+
+
+C(s)
+Carbon; Graphite; Carbon, hexagonal
+
+0         7440-44-0       530         C(1)                                12.0110
+
+
+Cat-2
+Catecholate ion; 1,2-Dihydroxybenzoate ion; 1,2-Benzenedioate ion; Pyrocatecholate
+ion; Oxyphenoxide
+
+-2        19021-48-8      333         C(6)H(4)O(2)                        108.097
+
+
+CDTA-4
+trans-1,2-cyclohexylenedinitrilotetraacetate ion; trans-1,2-
+diaminocyclohexanetetraacetate ion; CDTA ion
+
+-4        22005-54-5      301         C(14)H(18)N(2)O(8)                  342.306
+
+
+Citric-3
+Citrate ion
+
+-3        126-44-3        1347        C(6)H(5)O(7)                        189.102
+
+
+Cl-1
+Chloride ion
+
+-1        16887-00-6      2242        Cl(1)                               35.4530
+
+
+Cl2(g)
+Chlorine gas
+
+0         7782-50-5       589         Cl(2)                               70.9060
+
+
+ClAcet-1
+Chloroacetate ion; Monochloroacetate ion; 2-Chloroacetate
+
+-1        14526-03-5      76          C(2)H(2)Cl(1)O(2)                   93.4897
+
+
+Clodronic-4
+-4        ---             16          C(1)Cl(2)O(6)                       178.913
+
+
+
+
+                                         – Page 5 of 69 –
+JESS Thermodynamic Database v8.9                                                Tin
+
+
+
+CO3-2
+Carbonate ion
+
+-2        3812-32-6          1435   C(1)O(3)                              60.0092
+
+
+COOMeTartronic-3
+Carboxymethyltartronate ion
+
+-3        ---                27     C(5)H(3)O(7)                          175.075
+
+
+Cu(s)
+Copper; Copper, cubic
+
+0         7440-50-8          254    Cu(1)                                 63.5460
+
+
+Cu2Sn4S9(s)
+Copper-tin sulfide (low T)
+
+0         ---                1      Cu(2)S(9)Sn(4)                        890.472
+
+
+Cu2SnS3(s)
+Copper-tin sulfide (hi-T)
+
+0         ---                1      Cu(2)S(3)Sn(1)                        341.982
+
+
+Cu4SnS4(s)
+Copper-tin sulfide
+
+0         ---                1      Cu(4)S(4)Sn(1)                        501.134
+
+
+Cys-2
+Cysteinate ion; L-Cysteinate ion; beta-mercaptoalanate ion; 2-amino-3-
+mercaptopropanoate ion; 2-amino-3-mercaptopropionate ion; alpha-amino-beta-
+thiolpropionate ion
+
+-2        104170-20-9        673    C(3)H(5)N(1)O(2)S(1)                  119.138
+
+
+Cysam-1
+Cysteaminate ion
+
+-1        ---                52     C(2)H(6)N(1)S(1)                      76.1363
+
+
+Desfer-2
+Desferrioxaminate ion; Deferoxaminate ion
+
+-2        ---                105    C(25)H(46)N(6)O(8)                    558.676
+
+
+DiClMeDiPhos-4
+Dichloromethanediphosphonate ion
+
+-4        ---                14     C(1)Cl(2)O(6)P(2)                     240.861
+
+
+
+
+                                       – Page 6 of 69 –
+JESS Thermodynamic Database v8.9                                                Tin
+
+
+
+Dien
+Diethylenetriamine; Iminobis(2-ethylamine); Dien; 1,4,7-Triazaheptane; 3-Azapentane-
+1,5-diamine; N1-(2-Aminoethyl)-1,2-ethanediamine; 3NH-pd; 2,2-tri; 2,2'-
+Diaminodiethylamine; 2,2'-Iminobis(ethylamine)
+
+0          111-40-0       254       C(4)H(13)N(3)                         103.167
+
+
+Dien_Sn(CH3)3+1
+1          ---            1         C(7)H(22)N(3)Sn(1)                    266.982
+
+
+Diglycol-2
+Diglycolate ion
+
+-2         ---            130       C(4)H(4)O(5)                          132.073
+
+
+DiTartronic-4
+Ditartronate ion
+
+-4         ---            26        C(6)H(2)O(9)                          218.077
+
+
+Dithizone-1
+-1         ---            74        C(13)H(11)N(4)S(1)                    255.317
+
+
+DTPA-5
+Diethylenetrinitrilotetraacetate ion; 1,4,7-triazaheptane-1,1,7,7-pentaacetate ion;
+N,N-bis[2-[bis(carboxymethyl)amino]ethyl]glycinate ion; DTPA ion
+
+-5         ---            343       C(14)H(18)N(3)O(10)                   388.311
+
+
+e-1
+Electron
+
+-1         ---            3399      E(1)                                  0.000000
+
+
+EDDS-4
+Ethylenediamine-N,N'-disuccinate ion
+
+-4         ---            90        C(10)H(12)N(2)O(8)                    288.214
+
+
+EDTA-4
+Ethylenediaminetetraacetate anion
+
+-4         ---            1457      C(10)H(12)N(2)O(8)                    288.214
+
+
+EGTA-4
+Ethylenebis(oxyethylenenitrilo)tetraacetate ion; EGTA ion
+
+-4         370-65-0       132       C(14)H(20)N(2)O(10)                   376.320
+
+
+
+
+                                       – Page 7 of 69 –
+JESS Thermodynamic Database v8.9                                    Tin
+
+
+
+EtAm
+Ethylamine
+
+0            75-04-7      36       C(2)H(7)N(1)               45.0843
+
+
+EtAm_Sn(CH3)3+1
+1            ---          1        C(5)H(16)N(1)Sn(1)         208.899
+
+
+EtDiAm
+Ethylenediamine; 1,2-Ethanediamine; 1,2-Diaminoethane; en !
+
+0            107-15-3     879      C(2)H(8)N(2)               60.0989
+
+
+EtDiAm_Sn(CH3)3+1
+1            ---          1        C(5)H(17)N(2)Sn(1)         223.913
+
+
+F-1
+Fluoride ion
+
+-1           16984-48-8   1090     F(1)                       18.9984
+
+
+F2(g)
+Fluorine gas
+
+0            7782-41-4    259      F(2)                       37.9968
+
+
+Fe+3_CN-1(6)
+Hexacyanoferrate(III) ion; Ferricyanide ion
+
+-3           ---          29       C(6)Fe(1)N(6)              211.951
+
+
+Fe+3_Sn+2_CN-1(6)
+-1           ---          1        C(6)Fe(1)N(6)Sn(1)         330.661
+
+
+Formic-1
+Formate ion
+
+-1           71-47-6      176      C(1)H(1)O(2)               45.0177
+
+
+Ge(s)
+Germanium; Germanium, cubic; Germanium (diamond structure)
+
+0            7440-56-4    29       Ge(1)                      72.6300
+
+
+Gluconic-1
+Gluconate ion
+
+
+
+
+                                      – Page 8 of 69 –
+JESS Thermodynamic Database v8.9                                                Tin
+
+
+-1        ---             133      C(6)H(11)O(7)                          195.149
+
+
+Gly-1
+Glycinate ion; Aminoacetate ion
+
+-1        ---             1356     C(2)H(4)N(1)O(2)                       74.0593
+
+
+Glycolic-1
+Glycolate ion
+
+-1        57122-18-6      342      C(2)H(3)O(3)                           75.0440
+
+
+GSH-3
+Reduced Glutathionate ion; Glutathionate ion; gamma-L-glutamyl-L-cysteinylglycinate
+ion; L-Glutathionate ion; Glutathionate-SH ion; Deltathionate ion; Isethionate ion;
+Neuthionate ion; Tathionate ion
+
+-3        ---             105      C(10)H(14)N(3)O(6)S(1)                 304.298
+
+
+H+1
+Hydrogen ion; Proton
+
+1         12408-02-5      31679    H(1)                                   1.00794
+
+
+H+1_23DiCOOPrDiPhos-6
+-5        ---             5        C(5)H(5)O(10)P(2)                      287.037
+
+
+H+1_5AMP-2
+-1        ---             13       C(10)H(13)N(5)O(7)P(1)                 346.217
+
+
+H+1_CDTA-4
+-3        ---             39       C(14)H(19)N(2)O(8)                     343.313
+
+
+H+1_Citric-3
+-2        ---             93       C(6)H(6)O(7)                           190.109
+
+
+H+1_Clodronic-4
+-3        ---             6        C(1)H(1)Cl(2)O(6)                      179.921
+
+
+H+1_CO3-2
+-1        ---             253      C(1)H(1)O(3)                           61.0171
+
+
+H+1_Cys-2
+
+
+
+                                      – Page 9 of 69 –
+JESS Thermodynamic Database v8.9                                                Tin
+
+
+-1        ---             39       C(3)H(6)N(1)O(2)S(1)                   120.146
+
+
+H+1_DiClMeDiPhos-4
+-3        ---             5        C(1)H(1)Cl(2)O(6)P(2)                  241.869
+
+
+H+1_Dien_Sn(CH3)3+1
+2         ---             1        C(7)H(23)N(3)Sn(1)                     267.990
+
+
+H+1_DTPA-5
+-4        ---             44       C(14)H(19)N(3)O(10)                    389.319
+
+
+H+1_EDTA-4
+-3        ---             70       C(10)H(13)N(2)O(8)                     289.222
+
+
+H+1_EGTA-4
+-3        ---             22       C(14)H(21)N(2)O(10)                    377.328
+
+
+H+1_EtDiAm_Sn(CH3)3+1
+2         ---             1        C(5)H(18)N(2)Sn(1)                     224.921
+
+
+H+1_F-1
+0         ---             142      F(1)H(1)                               20.0063
+
+
+H+1_His-1
+Histidine; L-Histidine; (S)-alpha-Amino-1H-imidazole-4-propanoic acid; 2-Amino-3-(4'-
+imidazolyl)propanoic acid; Glyoxaline-5-alanine; Antirheuma
+
+0         ---             48       C(6)H(9)N(3)O(2)                       155.156
+
+
+H+1_Histamine_Sn(C2H5)2+2
+3         ---             1        C(9)H(20)N(3)Sn(1)                     288.988
+
+
+H+1_Histamine_Sn(CH3)2+2
+3         ---             1        C(7)H(16)N(3)Sn(1)                     260.934
+
+
+H+1_Histamine_Sn(CH3)3+1
+2         ---             1        C(8)H(19)N(3)Sn(1)                     275.969
+
+
+H+1_MeDiPhos-4
+
+
+                                      – Page 10 of 69 –
+JESS Thermodynamic Database v8.9                              Tin
+
+
+-3        ---           33    C(1)H(3)O(6)P(2)          172.979
+
+
+H+1_NTA-3
+-2        ---           33    C(6)H(7)N(1)O(6)          189.125
+
+
+H+1_OHEtDiPhos-4
+-3        ---           22    C(2)H(5)O(7)P(2)          203.006
+
+
+H+1_P3O10-5
+-4        ---           56    H(1)O(10)P(3)             253.924
+
+
+H+1_PO4-3
+Hydrogenphosphate ion
+
+-2        ---           317   H(1)O(4)P(1)              95.9795
+
+
+H+1_Pyrr55DiPhos-5
+-4        ---           4     C(4)H(5)N(1)O(7)P(2)      241.034
+
+
+H+1_S-2
+Hydrogensulfide ion
+
+-1        ---           140   H(1)S(1)                  33.0679
+
+
+H+1_Se-2
+-1        ---           54    H(1)Se(1)                 79.9709
+
+
+H+1_Sn(C2H5)2+2_His-1
+2         ---           1     C(10)H(19)N(3)O(2)Sn(1)   331.990
+
+
+H+1_Sn(C2H5)2+2_Lys-1
+2         ---           1     C(10)H(24)N(2)O(2)Sn(1)   323.023
+
+
+H+1_Sn(C2H5)2+2_Orn-1
+2         ---           1     C(9)H(22)N(2)O(2)Sn(1)    308.996
+
+
+H+1_Sn(CH3)2+2_Citric-3
+0         ---           2     C(8)H(12)O(7)Sn(1)        338.889
+
+
+H+1_Sn(CH3)2+2_His-1
+
+
+                                – Page 11 of 69 –
+JESS Thermodynamic Database v8.9                                 Tin
+
+
+2        ---          1      C(8)H(15)N(3)O(2)Sn(1)        303.936
+
+
+H+1_Sn(CH3)2+2_Lys-1
+2        ---          1      C(8)H(20)N(2)O(2)Sn(1)        294.969
+
+
+H+1_Sn(CH3)2+2_Malonic-2
+1        ---          1      C(5)H(9)O(4)Sn(1)             251.834
+
+
+H+1_Sn(CH3)2+2_NTA-3
+0        ---          2      C(8)H(13)N(1)O(6)Sn(1)        337.904
+
+
+H+1_Sn(CH3)2+2_Orn-1
+2        ---          1      C(7)H(18)N(2)O(2)Sn(1)        280.942
+
+
+H+1_Sn(CH3)2+2_P3O10-5
+-2       ---          2      C(2)H(7)O(10)P(3)Sn(1)        402.704
+
+
+H+1_Sn(CH3)2+2_Succinic-2
+1        ---          1      C(6)H(11)O(4)Sn(1)            265.861
+
+
+H+1_Sn(CH3)2+2_Succinic-2(2)
+-1       ---          1      C(10)H(15)O(8)Sn(1)           381.934
+
+
+H+1_Sn(CH3)2+2_ThioDiAcet-2
+1        ---          1      C(6)H(11)O(4)S(1)Sn(1)        297.921
+
+
+H+1_Sn(CH3)3+1_5AMP-2
+0        ---          2      C(13)H(22)N(5)O(7)P(1)Sn(1)   510.031
+
+
+H+1_Sn(CH3)3+1_5IMP-2
+0        ---          1      C(13)H(21)N(4)O(8)P(1)Sn(1)   511.016
+
+
+H+1_Sn(CH3)3+1_BAL-2
+0        ---          1      C(6)H(16)O(1)S(2)Sn(1)        287.022
+
+
+H+1_Sn(CH3)3+1_Cys-2
+0        ---          2      C(6)H(15)N(1)O(2)S(1)Sn(1)    283.961
+
+
+
+
+                               – Page 12 of 69 –
+JESS Thermodynamic Database v8.9                                 Tin
+
+
+
+H+1_Sn(CH3)3+1_Cysam-1
+1        ---          1      C(5)H(16)N(1)S(1)Sn(1)        240.959
+
+
+H+1_Sn(CH3)3+1_GSH-3
+-1       ---          1      C(13)H(24)N(3)O(6)S(1)Sn(1)   469.120
+
+
+H+1_Sn(CH3)3+1_His-1
+1        ---          2      C(9)H(18)N(3)O(2)Sn(1)        318.971
+
+
+H+1_Sn(CH3)3+1_Pen-2
+0        ---          1      C(8)H(19)N(1)O(2)S(1)Sn(1)    312.014
+
+
+H+1_Sn(CH3)3+1(2)_5IMP-2
+1        ---          1      C(16)H(30)N(4)O(8)P(1)Sn(2)   674.830
+
+
+H+1_SnO2-2
+-1       ---          4      H(1)O(2)Sn(1)                 151.717
+
+
+H+1(-1)_Sn(CH3)2+2_Acetic-1
+0        ---          1      C(4)H(8)O(2)Sn(1)             206.816
+
+
+H+1(-1)_Sn(CH3)2+2_Diglycol-2
+-1       ---          1      C(6)H(9)O(5)Sn(1)             279.845
+
+
+H+1(-1)_Sn(CH3)2+2_IDA-2
+-1       ---          1      C(6)H(10)N(1)O(4)Sn(1)        278.860
+
+
+H+1(-1)_Sn(CH3)2+2_Malonic-2
+-1       ---          1      C(5)H(7)O(4)Sn(1)             249.818
+
+
+H+1(-1)_Sn(CH3)2+2_Succinic-2
+-1       ---          1      C(6)H(9)O(4)Sn(1)             263.845
+
+
+H+1(-1)_Sn(CH3)2+2_ThioDiAcet-2
+-1       ---          1      C(6)H(9)O(4)S(1)Sn(1)         295.905
+
+
+
+
+                               – Page 13 of 69 –
+JESS Thermodynamic Database v8.9                                           Tin
+
+
+
+H+1(2)_23DiCOOPrDiPhos-6
+-4        ---             3        C(5)H(6)O(10)P(2)                 288.045
+
+
+H+1(2)_Cat-2
+Pyrocatechol; Catechol; 1,2-Benzenediol; 1,2-Dihydroxybenzene; CAT
+
+0         120-80-9        49       C(6)H(6)O(2)                      110.112
+
+
+H+1(2)_CDTA-4
+-2        ---             8        C(14)H(20)N(2)O(8)                344.321
+
+
+H+1(2)_Dien_Sn(CH3)3+1
+3         ---             1        C(7)H(24)N(3)Sn(1)                268.998
+
+
+H+1(2)_DTPA-5
+-3        ---             16       C(14)H(20)N(3)O(10)               390.327
+
+
+H+1(2)_EDTA-4
+-2        ---             37       C(10)H(14)N(2)O(8)                290.230
+
+
+H+1(2)_EGTA-4
+-2        ---             6        C(14)H(22)N(2)O(10)               378.336
+
+
+H+1(2)_OHEtDiPhos-4
+-2        ---             15       C(2)H(6)O(7)P(2)                  204.013
+
+
+H+1(2)_P3O10-5
+-3        ---             11       H(2)O(10)P(3)                     254.932
+
+
+H+1(2)_pClPhenMeDiPhos-4
+-2        ---             3        C(7)H(7)Cl(1)O(6)P(2)             284.530
+
+
+H+1(2)_PO4-3
+Dihydrogenphospate ion
+
+-1        14066-20-7      284      H(2)O(4)P(1)                      96.9875
+
+
+H+1(2)_Pyrr55DiPhos-5
+-3        ---             3        C(4)H(6)N(1)O(7)P(2)              242.042
+
+
+
+
+                                      – Page 14 of 69 –
+JESS Thermodynamic Database v8.9                                                   Tin
+
+
+
+H+1(2)_S-2
+Hydrogen sulphide; Hydrogen sulfide
+
+0         ---             58          H(2)S(1)                               34.0759
+
+
+H+1(2)_Sn(CH3)2+2_P3O10-5
+-1        ---             2           C(2)H(8)O(10)P(3)Sn(1)                 403.712
+
+
+H+1(2)_Sn(CH3)3+1_GSH-3
+0         ---             1           C(13)H(25)N(3)O(6)S(1)Sn(1)            470.128
+
+
+H+1(3)_23DiCOOPrDiPhos-6
+-3        ---             3           C(5)H(7)O(10)P(2)                      289.053
+
+
+H+1(3)_PyroCatV-4
+-1        ---             26          C(19)H(13)O(7)S(1)                     385.368
+
+
+H2(g)
+Hydrogen gas; Hydrogen
+
+0         1333-74-0       1564        H(2)                                   2.01588
+
+
+H2O
+Water
+
+0         7732-18-5       5947        H(2)O(1)                               18.0153
+
+
+His-1
+Histidinate ion; L-Histidinate ion; alpha-amino-4-imidazolepropionate ion;
+glyoxaline-5-alanate ion; L-2-amino-3-(4-imidazolyl)propanoate ion
+
+-1        26302-81-8      1164        C(6)H(8)N(3)O(2)                       154.148
+
+
+Histamine
+Histamine; 4-(2-Aminoethyl)imidazole; 1H-Imidazole-4-ethanamine; 2-(4-
+Imidazoyl)ethylamine
+
+0         51-45-6         531         C(5)H(9)N(3)                           111.147
+
+
+Histamine_Sn(C2H5)2+2
+2         ---             1           C(9)H(19)N(3)Sn(1)                     287.980
+
+
+Histamine_Sn(CH3)2+2
+2         ---             1           C(7)H(15)N(3)Sn(1)                     259.926
+
+
+
+
+                                        – Page 15 of 69 –
+JESS Thermodynamic Database v8.9                                                Tin
+
+
+
+Histamine_Sn(CH3)3+1
+1            ---          1        C(8)H(18)N(3)Sn(1)                     274.961
+
+
+Histamine(2)_Sn(C2H5)2+2
+2            ---          1        C(14)H(28)N(6)Sn(1)                    399.127
+
+
+Histamine(2)_Sn(CH3)2+2
+2            ---          1        C(12)H(24)N(6)Sn(1)                    371.073
+
+
+Hyp-1
+Hydroxyprolinate ion; L-Hydroxyprolinate ion; 4-hydroxy-2-pyrrolidinecarboxylate ion;
+L-4-hydroxypyrrolidine-2-carboxylate ion
+
+-1           ---          402      C(5)H(8)N(1)O(3)                       130.123
+
+
+I-1
+Iodide ion
+
+-1           20461-54-5   894      I(1)                                   126.900
+
+
+I2(s)
+Iodine; Iodine, orthorhombic
+
+0            7553-56-2    244      I(2)                                   253.800
+
+
+IAcet-1
+Iodoacetate ion
+
+-1           ---          8        C(2)H(2)I(1)O(2)                       184.937
+
+
+IDA-2
+Iminodiacetate ion
+
+-2           28528-43-0   428      C(4)H(5)N(1)O(4)                       131.088
+
+
+Imidazole
+Imidazole; 1,3-Diazole; 1H-Imidazole; im; Him
+
+0            288-32-4     422      C(3)H(4)N(2)                           68.0782
+
+
+Imidazole_Sn(CH3)3+1
+1            ---          1        C(6)H(13)N(2)Sn(1)                     231.893
+
+
+IO3-1
+Iodate ion
+
+
+
+
+                                      – Page 16 of 69 –
+JESS Thermodynamic Database v8.9                                                Tin
+
+
+-1           15454-31-6     291    I(1)O(3)                               174.898
+
+
+Lactic-1
+Lactate ion
+
+-1           ---            643    C(3)H(5)O(3)                           89.0709
+
+
+Leu-1
+Leucinate ion; L-Leucinate ion; 2-amino-4-methylvalerate ion; alpha-aminoisocaproate
+ion; 2-amino-4-methylpentanoate ion; L-2-amino-4-methylpentanoate ion
+
+-1           17332-93-3     511    C(6)H(12)N(1)O(2)                      130.167
+
+
+Lys-1
+Lysinate ion; L-Lysinate ion; 2,6-diaminohexanoate ion; alpha,epsilon-diaminocaproate
+ion; L-2,6-diaminohexanoate ion
+
+-1           17781-81-6     611    C(6)H(13)N(2)O(2)                      145.181
+
+
+Malic-2
+Malate ion
+
+-2           149-61-1       682    C(4)H(4)O(5)                           132.073
+
+
+Malonic-2
+Malonate ion
+
+-2           156-80-9       417    C(3)H(2)O(4)                           102.047
+
+
+MeAm
+Methylamine; Aminomethane
+
+0            74-89-5        61     C(1)H(5)N(1)                           31.0574
+
+
+MeAm_Sn(CH3)3+1
+1            ---            1      C(4)H(14)N(1)Sn(1)                     194.872
+
+
+MeDiPhos-4
+Methanediphosphonate ion
+
+-4           ---            76     C(1)H(2)O(6)P(2)                       171.971
+
+
+Met-1
+Methioninate ion; L-Methioninate ion; 2-amino-4-(methylthio)butyrate ion; alpha-
+amino-gamma-methylmercaptobutyrate ion; 2-amino-4-methylthiobutanoate ion; L-2-amino-
+4-(methylthio)butanoate ion; gamma-methylthio-alpha-aminobutyrate ion; Meonine ion;
+Methilanin ion; Neston ion
+
+-1           93375-49-6     527    C(5)H(10)N(1)O(2)S(1)                  148.200
+
+
+
+
+                                      – Page 17 of 69 –
+JESS Thermodynamic Database v8.9                                                   Tin
+
+
+
+N2(g)
+Nitrogen gas; Nitrogen
+
+0         7727-37-9       566      N(2)                                     28.0134
+
+
+Na+1
+Sodium(I) ion
+
+1         17341-25-2      617      Na(1)                                    22.9900
+
+
+NH3
+Ammonia, aqueous
+
+0         ---             1462     H(3)N(1)                                 17.0305
+
+
+NO3-1
+Nitrate ion
+
+-1        14797-55-8      573      N(1)O(3)                                 62.0049
+
+
+Norval-1
+Norvalinate ion
+
+-1        ---             60       C(5)H(10)N(1)O(2)                        116.140
+
+
+NTA-3
+Nitrilotriacetate ion; N,N-bis(carboxymethyl)glycinate ion; Triglycollamate ion;
+Triglycinate ion; NTA ion
+
+-3        28528-44-1      751      C(6)H(6)N(1)O(6)                         188.117
+
+
+O2(g)
+Oxygen gas; Oxygen
+
+0         7782-44-7       2559     O(2)                                     31.9988
+
+
+OH-1
+Hydroxide ion
+
+-1        14280-30-9      6558     H(1)O(1)                                 17.0073
+
+
+OHEtDiPhos-4
+-4        ---             77       C(2)H(4)O(7)P(2)                         201.998
+
+
+Orn-1
+Ornithinate ion; L-Ornithinate ion; alpha,delta-diaminovalerate ion; 2,5-
+diaminopentanoate ion; L-2,5-diaminopentanoate ion
+
+-1        17781-80-5      505      C(5)H(11)N(2)O(2)                        131.155
+
+
+
+
+                                      – Page 18 of 69 –
+JESS Thermodynamic Database v8.9                                                 Tin
+
+
+
+Oxalic-2
+Oxalate ion
+
+-2        338-70-5        1241     C(2)O(4)                               88.0196
+
+
+P(s)
+Phosphorus; Phosphorus, white; Phosphorous, alpha; Phosphorous, cubic
+
+0         7723-14-0       166      P(1)                                   30.9740
+
+
+P2O7-4
+Pyrophosphate ion; Pyrophosphate anion; Diphosphate ion
+
+-4        14000-31-8      285      O(7)P(2)                               173.944
+
+
+P3O10-5
+Triphosphate ion; Tripolyphosphate ion
+
+-5        14127-68-5      283      O(10)P(3)                              252.916
+
+
+Pb+2
+Lead(II) ion
+
+2         14280-50-3      2437     Pb(1)                                  207.200
+
+
+Pb+2_Sn+2_F-1(4)_(s)
+0         ---             1        F(4)Pb(1)Sn(1)                         401.904
+
+
+Pb(s)
+Lead; Lead, cubic
+
+0         7439-92-1       127      Pb(1)                                  207.200
+
+
+pClPhenMeDiPhos-4
+p-Chlorophenylmethanediphosphonate ion
+
+-4        ---             8        C(7)H(5)Cl(1)O(6)P(2)                  282.514
+
+
+Pen-2
+Penicillaminate ion
+
+-2        ---             187      C(5)H(9)N(1)O(2)S(1)                   147.192
+
+
+Phe-1
+Phenylalanate ion; L-Phenylalanate ion; beta-phenylalanate ion; alpha-
+aminohydrocinnamate ion; alpha-amino-beta-phenylpropionate ion; L-2-amino-3,5-
+phenylpropanoate ion
+
+-1        19701-97-4      562      C(9)H(10)N(1)O(2)                      164.184
+
+
+
+
+                                         – Page 19 of 69 –
+JESS Thermodynamic Database v8.9                                            Tin
+
+
+
+Phenanth
+1,10-Phenanthroline; phen; Phenanthroline; Orthophenathroline (sic)
+
+0         66-71-7         406        C(12)H(8)N(2)                    180.209
+
+
+Phenanth_Sn(C2H5)2+2
+2         ---             1          C(16)H(18)N(2)Sn(1)              357.042
+
+
+Phenanth_Sn(CH3)2+2
+2         ---             1          C(14)H(14)N(2)Sn(1)              328.989
+
+
+Phenanth(2)_Sn(C2H5)2+2
+2         ---             1          C(28)H(26)N(4)Sn(1)              537.251
+
+
+Phenanth(2)_Sn(CH3)2+2
+2         ---             1          C(26)H(22)N(4)Sn(1)              509.197
+
+
+Phenol-1
+Phenolate ion; Hydroxybenzoate ion
+
+-1        3229-70-7       154        C(6)H(5)O(1)                     93.1051
+
+
+Phthalic-2
+Phthalate ion
+
+-2        3198-29-6       134        C(8)H(4)O(4)                     164.117
+
+
+Picolinic-1
+Picolinate ion
+
+-1        3198-27-4       208        C(6)H(4)N(1)O(2)                 122.103
+
+
+PicolNOxid-1
+-1        ---             23         C(6)H(4)N(1)O(3)                 138.103
+
+
+PO4-3
+Phosphate ion; Phosfate ion
+
+-3        14265-44-2      1594       O(4)P(1)                         94.9716
+
+
+PrAm
+Propylamine; 1-Propanamine; 1-Aminopropane
+
+0         107-10-8        23         C(3)H(9)N(1)                     59.1112
+
+
+
+
+                                       – Page 20 of 69 –
+JESS Thermodynamic Database v8.9                                                  Tin
+
+
+
+PrAm_Sn(CH3)3+1
+1         ---               1       C(6)H(18)N(1)Sn(1)                    222.926
+
+
+Pro-1
+Prolinate ion; L-Prolinate ion; 2-pyrrolidinecarboxylate ion; L-pyrrolidine-2-
+carboxylate ion
+
+-1        17781-82-7        494     C(5)H(8)N(1)O(2)                      114.124
+
+
+Propanoic-1
+Propanoate ion; Propionate ion
+
+-1        72-03-7           176     C(3)H(5)O(2)                          73.0715
+
+
+Pyrid1Oxide
+Pyridine-1-oxide
+
+0         ---               4       C(5)H(5)N(1)O(1)                      95.1008
+
+
+S-2
+Sulfide ion; Sulphide ion
+
+-2        14127-58-3        466     S(1)                                  32.0600
+
+
+S(s)
+Sulphur, alpha; Sulphur, orthorhombic; Sulphur; Sulfur, alpha; Sulfur, orthorhombic;
+Sulfur; Sulfur-Rhmb
+
+0         7704-34-9         619     S(1)                                  32.0600
+
+
+SCN-1
+Thiocyanate ion; NCS-1 equivalent
+
+-1        302-04-5          785     C(1)N(1)S(1)                          58.0777
+
+
+Se-2
+Selenide ion
+
+-2        ---               98      Se(1)                                 78.9630
+
+
+Se(s)
+Selenium, trigonal; Selenium, grey; Selenium, black; Selenium, gamma; Selenium,
+hexagonal (sic)
+
+0         7782-49-2         140     Se(1)                                 78.9630
+
+
+Ser-1
+Serinate ion; L-Serinate ion; 2-amino-3-hydroxypropionate ion; beta-hydroxyalanate
+ion; 2-amino-3-hydroxypropanoate ion; alpha-amino-beta-hydroxypropionate ion; L-2-
+amino-3-hydroxypropanoate ion
+
+
+
+
+                                      – Page 21 of 69 –
+JESS Thermodynamic Database v8.9                            Tin
+
+
+-1        17807-54-4   708   C(3)H(6)N(1)O(3)         104.086
+
+
+Sn+2
+Tin(II) ion
+
+2         22541-90-8   337   Sn(1)                    118.710
+
+
+Sn+2_23DiCOOPrDiPhos-6
+-4        ---          2     C(5)H(4)O(10)P(2)Sn(1)   404.739
+
+
+Sn+2_2BrPropan-1
+1         ---          1     C(3)H(4)Br(1)O(2)Sn(1)   270.678
+
+
+Sn+2_2BrPropan-1_Oxalic-2
+-1        ---          1     C(5)H(4)Br(1)O(6)Sn(1)   358.697
+
+
+Sn+2_2ClPropan-1
+1         ---          1     C(3)H(4)Cl(1)O(2)Sn(1)   226.227
+
+
+Sn+2_2ClPropan-1_Oxalic-2
+-1        ---          1     C(5)H(4)Cl(1)O(6)Sn(1)   314.246
+
+
+Sn+2_2SHAcet-2
+0         ---          1     C(2)H(2)O(2)S(1)Sn(1)    208.807
+
+
+Sn+2_2SHAcet-2_Oxalic-2
+-2        ---          2     C(4)H(2)O(6)S(1)Sn(1)    296.826
+
+
+Sn+2_2SHAcet-2(2)
+-2        ---          1     C(4)H(4)O(4)S(2)Sn(1)    298.903
+
+
+Sn+2_3BrPropan-1
+1         ---          1     C(3)H(4)Br(1)O(2)Sn(1)   270.678
+
+
+Sn+2_3BrPropan-1_Oxalic-2
+-1        ---          2     C(5)H(4)Br(1)O(6)Sn(1)   358.697
+
+
+Sn+2_3BrPropan-1(2)
+
+
+
+                               – Page 22 of 69 –
+JESS Thermodynamic Database v8.9                            Tin
+
+
+0        ---          1      C(6)H(8)Br(2)O(4)Sn(1)   422.645
+
+
+Sn+2_3ClPropan-1
+1        ---          1      C(3)H(4)Cl(1)O(2)Sn(1)   226.227
+
+
+Sn+2_3ClPropan-1_Oxalic-2
+-1       ---          1      C(5)H(4)Cl(1)O(6)Sn(1)   314.246
+
+
+Sn+2_Acetic-1
+1        ---          2      C(2)H(3)O(2)Sn(1)        177.755
+
+
+Sn+2_Acetic-1_Oxalic-2
+-1       ---          1      C(4)H(3)O(6)Sn(1)        265.774
+
+
+Sn+2_Acetic-1(2)
+0        ---          2      C(4)H(6)O(4)Sn(1)        236.799
+
+
+Sn+2_Acetic-1(3)
+-1       ---          1      C(6)H(9)O(6)Sn(1)        295.844
+
+
+Sn+2_Acetic-1(4)
+-2       ---          1      C(8)H(12)O(8)Sn(1)       354.889
+
+
+Sn+2_Acrylic-1
+1        ---          1      C(3)H(3)O(2)Sn(1)        189.766
+
+
+Sn+2_Acrylic-1_Oxalic-2
+-1       ---          2      C(5)H(3)O(6)Sn(1)        277.785
+
+
+Sn+2_Acrylic-1(2)
+0        ---          1      C(6)H(6)O(4)Sn(1)        260.821
+
+
+Sn+2_Adipic-2
+0        ---          1      C(6)H(8)O(4)Sn(1)        262.837
+
+
+Sn+2_Asp-2
+0        ---          1      C(4)H(5)N(1)O(4)Sn(1)    249.798
+
+
+
+
+                               – Page 23 of 69 –
+JESS Thermodynamic Database v8.9                         Tin
+
+
+
+Sn+2_Benzoic-1
+1        ---          1      C(7)H(5)O(2)Sn(1)     239.826
+
+
+Sn+2_Benzoic-1(2)
+0        ---          1      C(14)H(10)O(4)Sn(1)   360.941
+
+
+Sn+2_Benzoic-1(3)
+-1       ---          1      C(21)H(15)O(6)Sn(1)   482.057
+
+
+Sn+2_Benzoic-1(4)
+-2       ---          1      C(28)H(20)O(8)Sn(1)   603.172
+
+
+Sn+2_Br-1
+1        ---          3      Br(1)Sn(1)            198.614
+
+
+Sn+2_Br-1_Cl-1
+0        ---          1      Br(1)Cl(1)Sn(1)       234.067
+
+
+Sn+2_Br-1_Cl-1(2)
+-1       ---          1      Br(1)Cl(2)Sn(1)       269.520
+
+
+Sn+2_Br-1_I-1
+0        ---          1      Br(1)I(1)Sn(1)        325.514
+
+
+Sn+2_Br-1_I-1(2)
+-1       ---          1      Br(1)I(2)Sn(1)        452.414
+
+
+Sn+2_Br-1_I-1(3)
+-2       ---          1      Br(1)I(3)Sn(1)        579.314
+
+
+Sn+2_Br-1_OH-1
+0        ---          2      Br(1)H(1)O(1)Sn(1)    215.621
+
+
+Sn+2_Br-1(2)
+0        ---          4      Br(2)Sn(1)            278.518
+
+
+
+
+                               – Page 24 of 69 –
+JESS Thermodynamic Database v8.9                                  Tin
+
+
+
+Sn+2_Br-1(2)_(g)
+Tin(II) bromide gas
+
+0         ---             2        Br(2)Sn(1)               278.518
+
+
+Sn+2_Br-1(2)_(s)
+Tin(II) bromide; Stannous bromide; Tin dibromide
+
+0         10031-24-0      2        Br(2)Sn(1)               278.518
+
+
+Sn+2_Br-1(2)_Cl-1
+-1        ---             1        Br(2)Cl(1)Sn(1)          313.971
+
+
+Sn+2_Br-1(2)_I-1
+-1        ---             1        Br(2)I(1)Sn(1)           405.418
+
+
+Sn+2_Br-1(2)_I-1(2)
+-2        ---             1        Br(2)I(2)Sn(1)           532.318
+
+
+Sn+2_Br-1(3)
+-1        ---             4        Br(3)Sn(1)               358.422
+
+
+Sn+2_Br-1(3)_I-1
+-2        ---             1        Br(3)I(1)Sn(1)           485.322
+
+
+Sn+2_Br-1(4)
+-2        ---             3        Br(4)Sn(1)               438.326
+
+
+Sn+2_Br-1(5)
+-3        ---             2        Br(5)Sn(1)               518.230
+
+
+Sn+2_Br-1(6)
+-4        ---             1        Br(6)Sn(1)               598.134
+
+
+Sn+2_BrAcet-1
+1         ---             1        C(2)H(2)Br(1)O(2)Sn(1)   256.651
+
+
+Sn+2_BrAcet-1_Oxalic-2
+-1        ---             1        C(4)H(2)Br(1)O(6)Sn(1)   344.670
+
+
+
+
+                                      – Page 25 of 69 –
+JESS Thermodynamic Database v8.9                             Tin
+
+
+
+Sn+2_BuXanthate-1(2)
+0        ---          1      C(10)H(18)O(2)S(4)Sn(1)   417.202
+
+
+Sn+2_Cat-2
+0        ---          1      C(6)H(4)O(2)Sn(1)         226.807
+
+
+Sn+2_Cat-2(2)
+-2       ---          1      C(12)H(8)O(4)Sn(1)        334.903
+
+
+Sn+2_CDTA-4
+-2       ---          2      C(14)H(18)N(2)O(8)Sn(1)   461.016
+
+
+Sn+2_Citric-3
+-1       ---          1      C(6)H(5)O(7)Sn(1)         307.812
+
+
+Sn+2_Citric-3(2)
+-4       ---          1      C(12)H(10)O(14)Sn(1)      496.913
+
+
+Sn+2_Cl-1
+1        ---          3      Cl(1)Sn(1)                154.163
+
+
+Sn+2_Cl-1_I-1
+0        ---          1      Cl(1)I(1)Sn(1)            281.063
+
+
+Sn+2_Cl-1_I-1(2)
+-1       ---          1      Cl(1)I(2)Sn(1)            407.963
+
+
+Sn+2_Cl-1_OH-1
+0        ---          4      Cl(1)H(1)O(1)Sn(1)        171.170
+
+
+Sn+2_Cl-1_OH-1_(s)
+0        ---          1      Cl(1)H(1)O(1)Sn(1)        171.170
+
+
+Sn+2_Cl-1_OH-1_H2O_(s)
+0        ---          2      Cl(1)H(3)O(2)Sn(1)        189.186
+
+
+
+
+                               – Page 26 of 69 –
+JESS Thermodynamic Database v8.9                                                Tin
+
+
+
+Sn+2_Cl-1(2)
+0         ---                6     Cl(2)Sn(1)                             189.616
+
+
+Sn+2_Cl-1(2)_(g)
+Tin(II) chloride gas
+
+0         ---                2     Cl(2)Sn(1)                             189.616
+
+
+Sn+2_Cl-1(2)_(s)
+Tin(II) chloride; Stannous chloride; Tin dichloride; Tin protochloride; Stannochlor
+
+0         7772-99-8          2     Cl(2)Sn(1)                             189.616
+
+
+Sn+2_Cl-1(2)_H2O(2)_(s)
+Tin(II) chloride dihydrate
+
+0         ---                1     Cl(2)H(4)O(2)Sn(1)                     225.647
+
+
+Sn+2_Cl-1(2)_I-1
+-1        ---                1     Cl(2)I(1)Sn(1)                         316.516
+
+
+Sn+2_Cl-1(2)_PicolNOxid-1
+-1        ---                1     C(6)H(4)Cl(2)N(1)O(3)Sn(1)             327.719
+
+
+Sn+2_Cl-1(3)
+-1        ---                4     Cl(3)Sn(1)                             225.069
+
+
+Sn+2_Cl-1(4)
+-2        ---                3     Cl(4)Sn(1)                             260.522
+
+
+Sn+2_ClAcet-1
+1         ---                1     C(2)H(2)Cl(1)O(2)Sn(1)                 212.200
+
+
+Sn+2_ClAcet-1_Oxalic-2
+-1        ---                1     C(4)H(2)Cl(1)O(6)Sn(1)                 300.219
+
+
+Sn+2_Clodronic-4
+-2        ---                2     C(1)Cl(2)O(6)Sn(1)                     297.623
+
+
+Sn+2_CO3-2
+
+
+
+                                      – Page 27 of 69 –
+JESS Thermodynamic Database v8.9                                   Tin
+
+
+0         ---             1        C(1)O(3)Sn(1)             178.719
+
+
+Sn+2_CO3-2_(s)
+Tin(II) carbonate; Tin monocarbonate
+
+0         ---             1        C(1)O(3)Sn(1)             178.719
+
+
+Sn+2_CO3-2(2)
+-2        ---             1        C(2)O(6)Sn(1)             238.728
+
+
+Sn+2_CO3-2(3)
+-4        ---             1        C(3)O(9)Sn(1)             298.738
+
+
+Sn+2_CO3-2(4)
+-6        ---             1        C(4)O(12)Sn(1)            358.747
+
+
+Sn+2_COOMeTartronic-3
+-1        ---             2        C(5)H(3)O(7)Sn(1)         293.785
+
+
+Sn+2_Desfer-2
+0         ---             1        C(25)H(46)N(6)O(8)Sn(1)   677.386
+
+
+Sn+2_DiClMeDiPhos-4
+-2        ---             2        C(1)Cl(2)O(6)P(2)Sn(1)    359.571
+
+
+Sn+2_Diglycol-2
+0         ---             1        C(4)H(4)O(5)Sn(1)         250.783
+
+
+Sn+2_DiTartronic-4
+-2        ---             2        C(6)H(2)O(9)Sn(1)         336.787
+
+
+Sn+2_Dithizone-1
+1         ---             1        C(13)H(11)N(4)S(1)Sn(1)   374.027
+
+
+Sn+2_Dithizone-1(2)
+0         ---             1        C(26)H(22)N(8)S(2)Sn(1)   629.344
+
+
+Sn+2_DTPA-5
+
+
+
+                                       – Page 28 of 69 –
+JESS Thermodynamic Database v8.9                                      Tin
+
+
+-3        ---             2        C(14)H(18)N(3)O(10)Sn(1)     507.021
+
+
+Sn+2_EDDS-4
+-2        ---             1        C(10)H(12)N(2)O(8)Sn(1)      406.924
+
+
+Sn+2_EDTA-4
+-2        ---             3        C(10)H(12)N(2)O(8)Sn(1)      406.924
+
+
+Sn+2_EGTA-4
+-2        ---             3        C(14)H(20)N(2)O(10)Sn(1)     495.030
+
+
+Sn+2_EGTA-4(2)
+-6        ---             2        C(28)H(40)N(4)O(20)Sn(1)     871.350
+
+
+Sn+2_EGTA-4(3)
+-10       ---             2        C(42)H(60)N(6)O(30)Sn(1)     1247.67
+
+
+Sn+2_EGTA-4(4)
+-14       ---             2        C(56)H(80)N(8)O(40)Sn(1)     1623.99
+
+
+Sn+2_EGTA-4(5)
+-18       ---             1        C(70)H(100)N(10)O(50)Sn(1)   2000.31
+
+
+Sn+2_EtDiAm
+2         ---             1        C(2)H(8)N(2)Sn(1)            178.809
+
+
+Sn+2_EtDiAm(2)
+2         ---             1        C(4)H(16)N(4)Sn(1)           238.908
+
+
+Sn+2_F-1
+1         ---             5        F(1)Sn(1)                    137.708
+
+
+Sn+2_F-1(2)
+0         ---             6        F(2)Sn(1)                    156.707
+
+
+Sn+2_F-1(2)_(g)
+Tin fluoride gas; Tin(II) fluoride gas
+
+
+
+
+                                         – Page 29 of 69 –
+JESS Thermodynamic Database v8.9                                 Tin
+
+
+0         ---             1        F(2)Sn(1)               156.707
+
+
+Sn+2_F-1(2)_(s)
+Tin(II) fluoride; Stannous fluoride; Tin difluoride
+
+0         7783-47-3       2        F(2)Sn(1)               156.707
+
+
+Sn+2_F-1(3)
+-1        ---             4        F(3)Sn(1)               175.705
+
+
+Sn+2_F-1(4)
+-2        ---             1        F(4)Sn(1)               194.704
+
+
+Sn+2_Formic-1_Oxalic-2
+-1        ---             1        C(3)H(1)O(6)Sn(1)       251.747
+
+
+Sn+2_Formic-1(2)
+0         ---             1        C(2)H(2)O(4)Sn(1)       208.746
+
+
+Sn+2_Gluconic-1
+1         ---             1        C(6)H(11)O(7)Sn(1)      313.859
+
+
+Sn+2_Gly-1
+1         ---             2        C(2)H(4)N(1)O(2)Sn(1)   192.769
+
+
+Sn+2_Gly-1_OH-1
+0         ---             2        C(2)H(5)N(1)O(3)Sn(1)   209.777
+
+
+Sn+2_Gly-1_Oxalic-2
+-1        ---             1        C(4)H(4)N(1)O(6)Sn(1)   280.789
+
+
+Sn+2_Gly-1(2)
+0         ---             1        C(4)H(8)N(2)O(4)Sn(1)   266.829
+
+
+Sn+2_Glycolic-1
+1         ---             1        C(2)H(3)O(3)Sn(1)       193.754
+
+
+Sn+2_Glycolic-1_Oxalic-2
+
+
+
+                                      – Page 30 of 69 –
+JESS Thermodynamic Database v8.9                                Tin
+
+
+-1       ---          2      C(4)H(3)O(7)Sn(1)            281.774
+
+
+Sn+2_Glycolic-1(2)
+0        ---          1      C(4)H(6)O(6)Sn(1)            268.798
+
+
+Sn+2_Glycolic-1(3)
+-1       ---          1      C(6)H(9)O(9)Sn(1)            343.842
+
+
+Sn+2_Glycolic-1(4)
+-2       ---          1      C(8)H(12)O(12)Sn(1)          418.886
+
+
+Sn+2_H+1_23DiCOOPrDiPhos-6
+-3       ---          1      C(5)H(5)O(10)P(2)Sn(1)       405.747
+
+
+Sn+2_H+1_2SHAcet-2_Oxalic-2
+-1       ---          1      C(4)H(3)O(6)S(1)Sn(1)        297.834
+
+
+Sn+2_H+1_3BrPropan-1_Oxalic-2
+0        ---          1      C(5)H(5)Br(1)O(6)Sn(1)       359.705
+
+
+Sn+2_H+1_Acrylic-1_Oxalic-2
+0        ---          1      C(5)H(4)O(6)Sn(1)            278.793
+
+
+Sn+2_H+1_CDTA-4
+-1       ---          4      C(14)H(19)N(2)O(8)Sn(1)      462.023
+
+
+Sn+2_H+1_Clodronic-4
+-1       ---          1      C(1)H(1)Cl(2)O(6)Sn(1)       298.631
+
+
+Sn+2_H+1_CO3-2
+1        ---          1      C(1)H(1)O(3)Sn(1)            179.727
+
+
+Sn+2_H+1_COOMeTartronic-3
+0        ---          1      C(5)H(4)O(7)Sn(1)            294.793
+
+
+Sn+2_H+1_DiClMeDiPhos-4
+-1       ---          1      C(1)H(1)Cl(2)O(6)P(2)Sn(1)   360.579
+
+
+
+
+                               – Page 31 of 69 –
+JESS Thermodynamic Database v8.9                              Tin
+
+
+
+Sn+2_H+1_DiTartronic-4
+-1       ---          1      C(6)H(3)O(9)Sn(1)          337.794
+
+
+Sn+2_H+1_DTPA-5
+-2       ---          3      C(14)H(19)N(3)O(10)Sn(1)   508.029
+
+
+Sn+2_H+1_EDTA-4
+-1       ---          4      C(10)H(13)N(2)O(8)Sn(1)    407.932
+
+
+Sn+2_H+1_EGTA-4
+-1       ---          3      C(14)H(21)N(2)O(10)Sn(1)   496.038
+
+
+Sn+2_H+1_Gly-1
+2        ---          1      C(2)H(5)N(1)O(2)Sn(1)      193.777
+
+
+Sn+2_H+1_Glycolic-1_Oxalic-2
+0        ---          1      C(4)H(4)O(7)Sn(1)          282.782
+
+
+Sn+2_H+1_MeDiPhos-4
+-1       ---          1      C(1)H(3)O(6)P(2)Sn(1)      291.689
+
+
+Sn+2_H+1_OHEtDiPhos-4
+-1       ---          1      C(2)H(5)O(7)P(2)Sn(1)      321.716
+
+
+Sn+2_H+1_P2O7-4
+-1       ---          1      H(1)O(7)P(2)Sn(1)          293.662
+
+
+Sn+2_H+1_P2O7-4(2)
+-5       ---          1      H(1)O(14)P(4)Sn(1)         467.606
+
+
+Sn+2_H+1_PO4-3
+0        ---          1      H(1)O(4)P(1)Sn(1)          214.690
+
+
+Sn+2_H+1_Propanoic-1_Oxalic-2
+0        ---          1      C(5)H(6)O(6)Sn(1)          280.809
+
+
+
+
+                               – Page 32 of 69 –
+JESS Thermodynamic Database v8.9                               Tin
+
+
+
+Sn+2_H+1_Pyrr55DiPhos-5
+-2       ---          1      C(4)H(5)N(1)O(7)P(2)Sn(1)   359.744
+
+
+Sn+2_H+1(-1)_P2O7-4(2)
+-7       ---          1      H(-1)O(14)P(4)Sn(1)         465.590
+
+
+Sn+2_H+1(-2)_P2O7-4
+-4       ---          1      H(-2)O(7)P(2)Sn(1)          290.638
+
+
+Sn+2_H+1(2)_23DiCOOPrDiPhos-6
+-2       ---          1      C(5)H(6)O(10)P(2)Sn(1)      406.755
+
+
+Sn+2_H+1(2)_CDTA-4
+0        ---          3      C(14)H(20)N(2)O(8)Sn(1)     463.031
+
+
+Sn+2_H+1(2)_CO3-2(2)
+0        ---          1      C(2)H(2)O(6)Sn(1)           240.744
+
+
+Sn+2_H+1(2)_DTPA-5
+-1       ---          2      C(14)H(20)N(3)O(10)Sn(1)    509.037
+
+
+Sn+2_H+1(2)_EDTA-4
+0        ---          4      C(10)H(14)N(2)O(8)Sn(1)     408.940
+
+
+Sn+2_H+1(2)_EGTA-4
+0        ---          2      C(14)H(22)N(2)O(10)Sn(1)    497.046
+
+
+Sn+2_H+1(2)_OHEtDiPhos-4
+0        ---          1      C(2)H(6)O(7)P(2)Sn(1)       322.723
+
+
+Sn+2_H+1(2)_P2O7-4
+0        ---          1      H(2)O(7)P(2)Sn(1)           294.670
+
+
+Sn+2_H+1(2)_P2O7-4(2)
+-4       ---          1      H(2)O(14)P(4)Sn(1)          468.614
+
+
+
+
+                               – Page 33 of 69 –
+JESS Thermodynamic Database v8.9                                Tin
+
+
+
+Sn+2_H+1(2)_pClPhenMeDiPhos-4
+0        ---          1      C(7)H(7)Cl(1)O(6)P(2)Sn(1)   403.240
+
+
+Sn+2_H+1(2)_PO4-3
+1        ---          1      H(2)O(4)P(1)Sn(1)            215.698
+
+
+Sn+2_H+1(2)_PO4-3(2)
+-2       ---          1      H(2)O(8)P(2)Sn(1)            310.669
+
+
+Sn+2_H+1(2)_Pyrr55DiPhos-5
+-1       ---          1      C(4)H(6)N(1)O(7)P(2)Sn(1)    360.752
+
+
+Sn+2_H+1(3)_23DiCOOPrDiPhos-6
+-1       ---          1      C(5)H(7)O(10)P(2)Sn(1)       407.763
+
+
+Sn+2_H+1(3)_CO3-2(3)
+-1       ---          1      C(3)H(3)O(9)Sn(1)            301.761
+
+
+Sn+2_H+1(3)_P2O7-4(2)
+-3       ---          1      H(3)O(14)P(4)Sn(1)           469.621
+
+
+Sn+2_H+1(3)_PO4-3(3)
+-4       ---          1      H(3)O(12)P(3)Sn(1)           406.649
+
+
+Sn+2_H+1(4)_CO3-2(4)
+-2       ---          1      C(4)H(4)O(12)Sn(1)           362.779
+
+
+Sn+2_H+1(4)_P2O7-4(2)
+-2       ---          1      H(4)O(14)P(4)Sn(1)           470.629
+
+
+Sn+2_H+1(4)_PO4-3(2)
+0        ---          1      H(4)O(8)P(2)Sn(1)            312.685
+
+
+Sn+2_H+1(4)_PO4-3(4)
+-6       ---          1      H(4)O(16)P(4)Sn(1)           502.628
+
+
+
+
+                               – Page 34 of 69 –
+JESS Thermodynamic Database v8.9                                 Tin
+
+
+
+Sn+2_H+1(6)_PO4-3(3)
+-1        ---             1        H(6)O(12)P(3)Sn(1)      409.672
+
+
+Sn+2_H+1(8)_PO4-3(4)
+-2        ---             1        H(8)O(16)P(4)Sn(1)      506.660
+
+
+Sn+2_I-1
+1         ---             1        I(1)Sn(1)               245.610
+
+
+Sn+2_I-1(2)
+0         ---             1        I(2)Sn(1)               372.510
+
+
+Sn+2_I-1(2)_(g)
+Tin(II) iodide gas
+
+0         ---             2        I(2)Sn(1)               372.510
+
+
+Sn+2_I-1(2)_(s)
+Tin(II) iodide; Stannous iodide; Tin diiodide
+
+0         10294-70-9      3        I(2)Sn(1)               372.510
+
+
+Sn+2_I-1(3)
+-1        ---             1        I(3)Sn(1)               499.410
+
+
+Sn+2_I-1(4)
+-2        ---             1        I(4)Sn(1)               626.310
+
+
+Sn+2_I-1(6)
+-4        ---             1        I(6)Sn(1)               880.110
+
+
+Sn+2_I-1(8)
+-6        ---             1        I(8)Sn(1)               1133.91
+
+
+Sn+2_IAcet-1
+1         ---             1        C(2)H(2)I(1)O(2)Sn(1)   303.647
+
+
+Sn+2_IO3-1
+1         ---             1        I(1)O(3)Sn(1)           293.608
+
+
+
+
+                                      – Page 35 of 69 –
+JESS Thermodynamic Database v8.9                           Tin
+
+
+
+Sn+2_IO3-1(2)
+0        ---          1      I(2)O(6)Sn(1)           468.506
+
+
+Sn+2_IO3-1(3)
+-1       ---          1      I(3)O(9)Sn(1)           643.405
+
+
+Sn+2_IO3-1(4)
+-2       ---          1      I(4)O(12)Sn(1)          818.303
+
+
+Sn+2_Lactic-1
+1        ---          1      C(3)H(5)O(3)Sn(1)       207.781
+
+
+Sn+2_Lactic-1(2)
+0        ---          1      C(6)H(10)O(6)Sn(1)      296.852
+
+
+Sn+2_Malic-2
+0        ---          2      C(4)H(4)O(5)Sn(1)       250.783
+
+
+Sn+2_Malic-2(2)
+-2       ---          2      C(8)H(8)O(10)Sn(1)      382.856
+
+
+Sn+2_Malonic-2
+0        ---          1      C(3)H(2)O(4)Sn(1)       220.757
+
+
+Sn+2_Malonic-2(2)
+-2       ---          1      C(6)H(4)O(8)Sn(1)       322.803
+
+
+Sn+2_MeDiPhos-4
+-2       ---          1      C(1)H(2)O(6)P(2)Sn(1)   290.681
+
+
+Sn+2_NH3
+2        ---          1      H(3)N(1)Sn(1)           135.741
+
+
+Sn+2_NH3(2)
+2        ---          1      H(6)N(2)Sn(1)           152.771
+
+
+
+
+                               – Page 36 of 69 –
+JESS Thermodynamic Database v8.9                                 Tin
+
+
+
+Sn+2_NH3(3)
+2         ---             1          H(9)N(3)Sn(1)         169.802
+
+
+Sn+2_NH3(4)
+2         ---             1          H(12)N(4)Sn(1)        186.832
+
+
+Sn+2_NO3-1
+1         ---             2          N(1)O(3)Sn(1)         180.715
+
+
+Sn+2_NO3-1(2)
+0         ---             2          N(2)O(6)Sn(1)         242.720
+
+
+Sn+2_NO3-1(3)
+-1        ---             1          N(3)O(9)Sn(1)         304.725
+
+
+Sn+2_NO3-1(4)
+-2        ---             1          N(4)O(12)Sn(1)        366.730
+
+
+Sn+2_OH-1
+1         ---             7          H(1)O(1)Sn(1)         135.717
+
+
+Sn+2_OH-1_P2O7-4
+-3        ---             1          H(1)O(8)P(2)Sn(1)     309.661
+
+
+Sn+2_OH-1(2)
+0         ---             3          H(2)O(2)Sn(1)         152.725
+
+
+Sn+2_OH-1(2)_(precip.,s)
+0         ---             1          H(2)O(2)Sn(1)         152.725
+
+
+Sn+2_OH-1(2)_(s)
+Tin(II) hydroxide; Tin dihydroxide
+
+0         ---             4          H(2)O(2)Sn(1)         152.725
+
+
+Sn+2_OH-1(3)
+-1        ---             6          H(3)O(3)Sn(1)         169.732
+
+
+
+
+                                       – Page 37 of 69 –
+JESS Thermodynamic Database v8.9                                Tin
+
+
+
+Sn+2_OH-1(4)
+-2       ---          2      H(4)O(4)Sn(1)                186.739
+
+
+Sn+2_OH-1(5)
+-3       ---          1      H(5)O(5)Sn(1)                203.747
+
+
+Sn+2_OH-1(6)
+-4       ---          1      H(6)O(6)Sn(1)                220.754
+
+
+Sn+2_OHEtDiPhos-4
+-2       ---          1      C(2)H(4)O(7)P(2)Sn(1)        320.708
+
+
+Sn+2_Oxalic-2_Tartaric-2
+-2       ---          1      C(6)H(4)O(10)Sn(1)           354.802
+
+
+Sn+2_Oxalic-2(2)
+-2       ---          1      C(4)O(8)Sn(1)                294.749
+
+
+Sn+2_P2O7-4
+-2       ---          1      O(7)P(2)Sn(1)                292.654
+
+
+Sn+2_P2O7-4(2)
+-6       ---          1      O(14)P(4)Sn(1)               466.598
+
+
+Sn+2_P2O7-4(3)
+-10      ---          1      O(21)P(6)Sn(1)               640.541
+
+
+Sn+2_pClPhenMeDiPhos-4
+-2       ---          1      C(7)H(5)Cl(1)O(6)P(2)Sn(1)   401.224
+
+
+Sn+2_Phenol-1
+1        ---          1      C(6)H(5)O(1)Sn(1)            211.815
+
+
+Sn+2_Phenol-1(2)
+0        ---          1      C(12)H(10)O(2)Sn(1)          304.920
+
+
+
+
+                               – Page 38 of 69 –
+JESS Thermodynamic Database v8.9                                                Tin
+
+
+
+Sn+2_Phenol-1(3)
+-1        ---             1        C(18)H(15)O(3)Sn(1)                    398.025
+
+
+Sn+2_Phenol-1(4)
+-2        ---             1        C(24)H(20)O(4)Sn(1)                    491.130
+
+
+Sn+2_PO4-3
+-1        ---             1        O(4)P(1)Sn(1)                          213.682
+
+
+Sn+2_Propanoic-1
+1         ---             1        C(3)H(5)O(2)Sn(1)                      191.782
+
+
+Sn+2_Propanoic-1_Oxalic-2
+-1        ---             2        C(5)H(5)O(6)Sn(1)                      279.801
+
+
+Sn+2_Propanoic-1(2)
+0         ---             1        C(6)H(10)O(4)Sn(1)                     264.853
+
+
+Sn+2_Pyrid1Oxide_Cl-1(2)
+0         ---             1        C(5)H(5)Cl(2)N(1)O(1)Sn(1)             284.717
+
+
+Sn+2_S-2_(s)
+Tin(II) sulfide; Stannous sulphide; Herzenbergite; Tin monosulfide; Tin protosulfide
+
+0         1314-95-0       6        S(1)Sn(1)                              150.770
+
+
+Sn+2_SCN-1
+1         ---             3        C(1)N(1)S(1)Sn(1)                      176.788
+
+
+Sn+2_SCN-1(2)
+0         ---             2        C(2)N(2)S(2)Sn(1)                      234.865
+
+
+Sn+2_SCN-1(3)
+-1        ---             1        C(3)N(3)S(3)Sn(1)                      292.943
+
+
+Sn+2_SCN-1(4)
+-2        ---             1        C(4)N(4)S(4)Sn(1)                      351.021
+
+
+
+
+                                      – Page 39 of 69 –
+JESS Thermodynamic Database v8.9                                   Tin
+
+
+
+Sn+2_Se-2_(s)
+Tin selenide, alpha
+
+0         ---             4          Se(1)Sn(1)              197.673
+
+
+Sn+2_SO4-2
+0         ---             2          O(4)S(1)Sn(1)           214.768
+
+
+Sn+2_SO4-2_(s)
+Tin(II) sulfate; Stannous sulphate
+
+0         7488-55-3       2          O(4)S(1)Sn(1)           214.768
+
+
+Sn+2_SO4-2(2)
+-2        ---             2          O(8)S(2)Sn(1)           310.825
+
+
+Sn+2_SO4-2(3)
+-4        ---             1          O(12)S(3)Sn(1)          406.883
+
+
+Sn+2_SO4-2(4)
+-6        ---             1          O(16)S(4)Sn(1)          502.940
+
+
+Sn+2_Sr+2_F-1(4)_(s)
+0         ---             1          F(4)Sn(1)Sr(1)          282.324
+
+
+Sn+2_Succinic-2
+0         ---             1          C(4)H(4)O(4)Sn(1)       234.783
+
+
+Sn+2_Tartaric-2
+0         ---             2          C(4)H(4)O(6)Sn(1)       266.782
+
+
+Sn+2_Tartaric-2(2)
+-2        ---             2          C(8)H(8)O(12)Sn(1)      414.854
+
+
+Sn+2_Te-2_(s)
+0         ---             2          Sn(1)Te(1)              246.313
+
+
+Sn+2_Thiourea
+2         ---             1          C(1)H(4)N(2)S(1)Sn(1)   194.826
+
+
+
+
+                                       – Page 40 of 69 –
+JESS Thermodynamic Database v8.9                                   Tin
+
+
+
+Sn+2_Thiourea(2)
+2         ---             1         C(2)H(8)N(4)S(2)Sn(1)    270.942
+
+
+Sn+2_Thiourea(3)
+2         ---             1         C(3)H(12)N(6)S(3)Sn(1)   347.059
+
+
+Sn+2_Thiourea(4)
+2         ---             1         C(4)H(16)N(8)S(4)Sn(1)   423.175
+
+
+Sn+2(2)_23DiCOOPrDiPhos-6
+-2        ---             1         C(5)H(4)O(10)P(2)Sn(2)   523.449
+
+
+Sn+2(2)_Clodronic-4
+0         ---             1         C(1)Cl(2)O(6)Sn(2)       416.333
+
+
+Sn+2(2)_DiClMeDiPhos-4
+0         ---             1         C(1)Cl(2)O(6)P(2)Sn(2)   478.281
+
+
+Sn+2(2)_OH-1(2)
+2         ---             2         H(2)O(2)Sn(2)            271.435
+
+
+Sn+2(2)_P2O7-4_(s)
+Tin(II) pyrophosphate; Stannous pyrophosphate
+
+0         15578-26-4      1         O(7)P(2)Sn(2)            411.364
+
+
+Sn+2(3)_AsO4-3(2)
+Tin(II) arsenate; Tritin arsenate
+
+0         ---             1         As(2)O(8)Sn(3)           633.969
+
+
+Sn+2(3)_OH-1(4)
+2         ---             3         H(4)O(4)Sn(3)            424.159
+
+
+Sn+2(3)_OH-1(5)
+1         ---             1         H(5)O(5)Sn(3)            441.167
+
+
+Sn+2(4)_OH-1(4)
+4         ---             1         H(4)O(4)Sn(4)            542.869
+
+
+
+
+                                      – Page 41 of 69 –
+JESS Thermodynamic Database v8.9                                Tin
+
+
+
+Sn+2(4)_OH-1(6)
+2           ---       1      H(6)O(6)Sn(4)                576.884
+
+
+Sn+2(6)_OH-1(8)
+4           ---       1      H(8)O(8)Sn(6)                848.319
+
+
+Sn+4
+Tin+4 ion
+
+4           ---       196    Sn(1)                        118.710
+
+
+Sn+4_2Me4NitrAniline_Cl-1(4)
+0           ---       1      C(7)H(8)Cl(4)N(2)O(2)Sn(1)   412.675
+
+
+Sn+4_35DiClAniline_Cl-1(4)
+0           ---       1      C(6)H(5)Cl(6)N(1)Sn(1)       422.540
+
+
+Sn+4_3Me4NitrAniline_Cl-1(4)
+0           ---       1      C(7)H(8)Cl(4)N(2)O(2)Sn(1)   412.675
+
+
+Sn+4_3NitrAniline_Cl-1(4)
+0           ---       1      C(6)H(6)Cl(4)N(2)O(2)Sn(1)   398.648
+
+
+Sn+4_4Me3NitrAniline_Cl-1(4)
+0           ---       1      C(7)H(8)Cl(4)N(2)O(2)Sn(1)   412.675
+
+
+Sn+4_4NitrAniline_Cl-1(4)
+0           ---       1      C(6)H(6)Cl(4)N(2)O(2)Sn(1)   398.648
+
+
+Sn+4_6Me3NitrAniline_Cl-1(4)
+0           ---       1      C(7)H(8)Cl(4)N(2)O(2)Sn(1)   412.675
+
+
+Sn+4_Acetic-1
+3           ---       1      C(2)H(3)O(2)Sn(1)            177.755
+
+
+Sn+4_Acetic-1(2)
+2           ---       1      C(4)H(6)O(4)Sn(1)            236.799
+
+
+
+
+                               – Page 42 of 69 –
+JESS Thermodynamic Database v8.9                           Tin
+
+
+
+Sn+4_Acetic-1(3)
+1        ---          1      C(6)H(9)O(6)Sn(1)       295.844
+
+
+Sn+4_Acetic-1(4)
+0        ---          1      C(8)H(12)O(8)Sn(1)      354.889
+
+
+Sn+4_Acetic-1(5)
+-1       ---          1      C(10)H(15)O(10)Sn(1)    413.933
+
+
+Sn+4_Acetic-1(6)
+-2       ---          1      C(12)H(18)O(12)Sn(1)    472.978
+
+
+Sn+4_BAL-2
+2        ---          1      C(3)H(6)O(1)S(2)Sn(1)   240.910
+
+
+Sn+4_Benzoic-1
+3        ---          1      C(7)H(5)O(2)Sn(1)       239.826
+
+
+Sn+4_Benzoic-1(2)
+2        ---          1      C(14)H(10)O(4)Sn(1)     360.941
+
+
+Sn+4_Benzoic-1(3)
+1        ---          1      C(21)H(15)O(6)Sn(1)     482.057
+
+
+Sn+4_Benzoic-1(4)
+0        ---          1      C(28)H(20)O(8)Sn(1)     603.172
+
+
+Sn+4_Benzoic-1(5)
+-1       ---          1      C(35)H(25)O(10)Sn(1)    724.288
+
+
+Sn+4_Benzoic-1(6)
+-2       ---          1      C(42)H(30)O(12)Sn(1)    845.403
+
+
+Sn+4_Br-1
+3        ---          1      Br(1)Sn(1)              198.614
+
+
+
+
+                               – Page 43 of 69 –
+JESS Thermodynamic Database v8.9                                Tin
+
+
+
+Sn+4_Br-1_I-1(3)
+0         ---             1         Br(1)I(3)Sn(1)        579.314
+
+
+Sn+4_Br-1(2)
+2         ---             1         Br(2)Sn(1)            278.518
+
+
+Sn+4_Br-1(2)_I-1(2)
+0         ---             3         Br(2)I(2)Sn(1)        532.318
+
+
+Sn+4_Br-1(3)
+1         ---             1         Br(3)Sn(1)            358.422
+
+
+Sn+4_Br-1(3)_I-1
+0         ---             1         Br(3)I(1)Sn(1)        485.322
+
+
+Sn+4_Br-1(4)
+0         ---             3         Br(4)Sn(1)            438.326
+
+
+Sn+4_Br-1(4)_(g)
+Tin(IV) bromide gas
+
+0         ---             2         Br(4)Sn(1)            438.326
+
+
+Sn+4_Br-1(4)_(s)
+Tin(IV) bromide; Tin tetrabromide
+
+0         7789-67-5       2         Br(4)Sn(1)            438.326
+
+
+Sn+4_Br-1(5)
+-1        ---             1         Br(5)Sn(1)            518.230
+
+
+Sn+4_Br-1(6)
+-2        ---             1         Br(6)Sn(1)            598.134
+
+
+Sn+4_Cat-2
+2         ---             1         C(6)H(4)O(2)Sn(1)     226.807
+
+
+Sn+4_Cat-2(2)
+0         ---             1         C(12)H(8)O(4)Sn(1)    334.903
+
+
+
+
+                                      – Page 44 of 69 –
+JESS Thermodynamic Database v8.9                                  Tin
+
+
+
+Sn+4_Cat-2(3)
+-2        ---             1           C(18)H(12)O(6)Sn(1)   443.000
+
+
+Sn+4_Cat-2(4)
+-4        ---             1           C(24)H(16)O(8)Sn(1)   551.096
+
+
+Sn+4_Citric-3
+1         ---             1           C(6)H(5)O(7)Sn(1)     307.812
+
+
+Sn+4_Cl-1
+3         ---             2           Cl(1)Sn(1)            154.163
+
+
+Sn+4_Cl-1(2)
+2         ---             3           Cl(2)Sn(1)            189.616
+
+
+Sn+4_Cl-1(3)
+1         ---             3           Cl(3)Sn(1)            225.069
+
+
+Sn+4_Cl-1(4)
+0         ---             10          Cl(4)Sn(1)            260.522
+
+
+Sn+4_Cl-1(4)_(g)
+Tin tetrachloride gas
+
+0         ---             2           Cl(4)Sn(1)            260.522
+
+
+Sn+4_Cl-1(4)_(l)
+Tin(IV) chloride liquid; Tin tetrachloride liquid
+
+0         ---             2           Cl(4)Sn(1)            260.522
+
+
+Sn+4_Cl-1(4)_(s)
+Tin(IV) chloride; Tin tetrachloride
+
+0         7646-78-8       1           Cl(4)Sn(1)            260.522
+
+
+Sn+4_Cl-1(5)
+-1        ---             2           Cl(5)Sn(1)            295.975
+
+
+Sn+4_Cl-1(6)
+
+
+
+                                        – Page 45 of 69 –
+JESS Thermodynamic Database v8.9                                     Tin
+
+
+-2        ---             2          Cl(6)Sn(1)                331.428
+
+
+Sn+4_CO3-2
+2         ---             1          C(1)O(3)Sn(1)             178.719
+
+
+Sn+4_CO3-2(2)
+0         ---             1          C(2)O(6)Sn(1)             238.728
+
+
+Sn+4_CO3-2(2)_(s)
+Tin(IV) carbonate; Tin dicarbonate
+
+0         ---             1          C(2)O(6)Sn(1)             238.728
+
+
+Sn+4_CO3-2(3)
+-2        ---             1          C(3)O(9)Sn(1)             298.738
+
+
+Sn+4_CO3-2(4)
+-4        ---             1          C(4)O(12)Sn(1)            358.747
+
+
+Sn+4_CO3-2(5)
+-6        ---             1          C(5)O(15)Sn(1)            418.756
+
+
+Sn+4_CO3-2(6)
+-8        ---             1          C(6)O(18)Sn(1)            478.765
+
+
+Sn+4_EDTA-4_(s)
+0         ---             1          C(10)H(12)N(2)O(8)Sn(1)   406.924
+
+
+Sn+4_EtDiAm
+4         ---             1          C(2)H(8)N(2)Sn(1)         178.809
+
+
+Sn+4_EtDiAm(2)
+4         ---             1          C(4)H(16)N(4)Sn(1)        238.908
+
+
+Sn+4_EtDiAm(3)
+4         ---             1          C(6)H(24)N(6)Sn(1)        299.007
+
+
+Sn+4_EtDiAm(4)
+
+
+
+                                       – Page 46 of 69 –
+JESS Thermodynamic Database v8.9                            Tin
+
+
+4        ---          1      C(8)H(32)N(8)Sn(1)       359.106
+
+
+Sn+4_F-1
+3        ---          1      F(1)Sn(1)                137.708
+
+
+Sn+4_F-1(2)
+2        ---          1      F(2)Sn(1)                156.707
+
+
+Sn+4_F-1(3)
+1        ---          1      F(3)Sn(1)                175.705
+
+
+Sn+4_F-1(4)
+0        ---          1      F(4)Sn(1)                194.704
+
+
+Sn+4_F-1(5)
+-1       ---          1      F(5)Sn(1)                213.702
+
+
+Sn+4_F-1(6)
+-2       ---          1      F(6)Sn(1)                232.700
+
+
+Sn+4_Gly-1
+3        ---          1      C(2)H(4)N(1)O(2)Sn(1)    192.769
+
+
+Sn+4_Gly-1(2)
+2        ---          1      C(4)H(8)N(2)O(4)Sn(1)    266.829
+
+
+Sn+4_Gly-1(3)
+1        ---          1      C(6)H(12)N(3)O(6)Sn(1)   340.888
+
+
+Sn+4_Gly-1(4)
+0        ---          1      C(8)H(16)N(4)O(8)Sn(1)   414.947
+
+
+Sn+4_Glycolic-1
+3        ---          1      C(2)H(3)O(3)Sn(1)        193.754
+
+
+Sn+4_Glycolic-1(2)
+2        ---          1      C(4)H(6)O(6)Sn(1)        268.798
+
+
+
+
+                               – Page 47 of 69 –
+JESS Thermodynamic Database v8.9                          Tin
+
+
+
+Sn+4_Glycolic-1(3)
+1        ---          1      C(6)H(9)O(9)Sn(1)      343.842
+
+
+Sn+4_Glycolic-1(4)
+0        ---          1      C(8)H(12)O(12)Sn(1)    418.886
+
+
+Sn+4_Glycolic-1(5)
+-1       ---          1      C(10)H(15)O(15)Sn(1)   493.930
+
+
+Sn+4_Glycolic-1(6)
+-2       ---          1      C(12)H(18)O(18)Sn(1)   568.974
+
+
+Sn+4_H+1_CO3-2
+3        ---          1      C(1)H(1)O(3)Sn(1)      179.727
+
+
+Sn+4_H+1_P2O7-4
+1        ---          1      H(1)O(7)P(2)Sn(1)      293.662
+
+
+Sn+4_H+1_P2O7-4(2)
+-3       ---          1      H(1)O(14)P(4)Sn(1)     467.606
+
+
+Sn+4_H+1_PO4-3
+2        ---          1      H(1)O(4)P(1)Sn(1)      214.690
+
+
+Sn+4_H+1(-1)_P2O7-4(2)
+-5       ---          1      H(-1)O(14)P(4)Sn(1)    465.590
+
+
+Sn+4_H+1(10)_PO4-3(5)
+-1       ---          1      H(10)O(20)P(5)Sn(1)    603.647
+
+
+Sn+4_H+1(12)_PO4-3(6)
+-2       ---          1      H(12)O(24)P(6)Sn(1)    700.635
+
+
+Sn+4_H+1(2)_CO3-2(2)
+2        ---          1      C(2)H(2)O(6)Sn(1)      240.744
+
+
+
+
+                               – Page 48 of 69 –
+JESS Thermodynamic Database v8.9                              Tin
+
+
+
+Sn+4_H+1(2)_OH-1(6)_(s)
+0        ---          1      H(8)O(6)Sn(1)              222.770
+
+
+Sn+4_H+1(2)_PO4-3
+3        ---          1      H(2)O(4)P(1)Sn(1)          215.698
+
+
+Sn+4_H+1(2)_PO4-3(2)
+0        ---          1      H(2)O(8)P(2)Sn(1)          310.669
+
+
+Sn+4_H+1(2)_PyroCatV-4
+2        ---          1      C(19)H(12)O(7)S(1)Sn(1)    503.070
+
+
+Sn+4_H+1(3)_CO3-2(3)
+1        ---          1      C(3)H(3)O(9)Sn(1)          301.761
+
+
+Sn+4_H+1(3)_PO4-3(3)
+-2       ---          1      H(3)O(12)P(3)Sn(1)         406.649
+
+
+Sn+4_H+1(4)_CO3-2(4)
+0        ---          1      C(4)H(4)O(12)Sn(1)         362.779
+
+
+Sn+4_H+1(4)_PO4-3(2)
+2        ---          1      H(4)O(8)P(2)Sn(1)          312.685
+
+
+Sn+4_H+1(4)_PO4-3(4)
+-4       ---          1      H(4)O(16)P(4)Sn(1)         502.628
+
+
+Sn+4_H+1(4)_PyroCatV-4(2)
+0        ---          1      C(38)H(24)O(14)S(2)Sn(1)   887.430
+
+
+Sn+4_H+1(5)_CO3-2(5)
+-1       ---          1      C(5)H(5)O(15)Sn(1)         423.796
+
+
+Sn+4_H+1(5)_PO4-3(5)
+-6       ---          1      H(5)O(20)P(5)Sn(1)         598.608
+
+
+
+
+                               – Page 49 of 69 –
+JESS Thermodynamic Database v8.9                              Tin
+
+
+
+Sn+4_H+1(6)_CO3-2(6)
+-2        ---             1       C(6)H(6)O(18)Sn(1)    484.813
+
+
+Sn+4_H+1(6)_PO4-3(3)
+1         ---             1       H(6)O(12)P(3)Sn(1)    409.672
+
+
+Sn+4_H+1(6)_PO4-3(6)
+-8        ---             1       H(6)O(24)P(6)Sn(1)    694.587
+
+
+Sn+4_H+1(8)_PO4-3(4)
+0         ---             1       H(8)O(16)P(4)Sn(1)    506.660
+
+
+Sn+4_I-1
+3         ---             1       I(1)Sn(1)             245.610
+
+
+Sn+4_I-1(2)
+2         ---             2       I(2)Sn(1)             372.510
+
+
+Sn+4_I-1(3)
+1         ---             2       I(3)Sn(1)             499.410
+
+
+Sn+4_I-1(4)
+0         ---             3       I(4)Sn(1)             626.310
+
+
+Sn+4_I-1(4)_(g)
+Tin(IV) iodide gas
+
+0         ---             2       I(4)Sn(1)             626.310
+
+
+Sn+4_I-1(4)_(s)
+Tin(IV) iodide; Tin tetraiodide
+
+0         ---             2       I(4)Sn(1)             626.310
+
+
+Sn+4_I-1(5)
+-1        ---             1       I(5)Sn(1)             753.210
+
+
+Sn+4_I-1(6)
+-2        ---             1       I(6)Sn(1)             880.110
+
+
+
+
+                                    – Page 50 of 69 –
+JESS Thermodynamic Database v8.9                         Tin
+
+
+
+Sn+4_IO3-1
+3        ---          1      I(1)O(3)Sn(1)         293.608
+
+
+Sn+4_IO3-1(2)
+2        ---          1      I(2)O(6)Sn(1)         468.506
+
+
+Sn+4_IO3-1(3)
+1        ---          1      I(3)O(9)Sn(1)         643.405
+
+
+Sn+4_IO3-1(4)
+0        ---          1      I(4)O(12)Sn(1)        818.303
+
+
+Sn+4_IO3-1(5)
+-1       ---          1      I(5)O(15)Sn(1)        993.201
+
+
+Sn+4_IO3-1(6)
+-2       ---          1      I(6)O(18)Sn(1)        1168.10
+
+
+Sn+4_Na+1(2)_OH-1(6)
+0        ---          1      H(6)Na(2)O(6)Sn(1)    266.734
+
+
+Sn+4_Na+1(2)_OH-1(6)_(s)
+0        ---          2      H(6)Na(2)O(6)Sn(1)    266.734
+
+
+Sn+4_NH3
+4        ---          1      H(3)N(1)Sn(1)         135.741
+
+
+Sn+4_NH3(2)
+4        ---          1      H(6)N(2)Sn(1)         152.771
+
+
+Sn+4_NH3(3)
+4        ---          1      H(9)N(3)Sn(1)         169.802
+
+
+Sn+4_NH3(4)
+4        ---          1      H(12)N(4)Sn(1)        186.832
+
+
+
+
+                               – Page 51 of 69 –
+JESS Thermodynamic Database v8.9                                  Tin
+
+
+
+Sn+4_NH3(5)
+4         ---             1        H(15)N(5)Sn(1)           203.863
+
+
+Sn+4_NH3(6)
+4         ---             1        H(18)N(6)Sn(1)           220.893
+
+
+Sn+4_NO3-1
+3         ---             1        N(1)O(3)Sn(1)            180.715
+
+
+Sn+4_NO3-1(2)
+2         ---             1        N(2)O(6)Sn(1)            242.720
+
+
+Sn+4_NO3-1(3)
+1         ---             1        N(3)O(9)Sn(1)            304.725
+
+
+Sn+4_NO3-1(4)
+0         ---             1        N(4)O(12)Sn(1)           366.730
+
+
+Sn+4_OH-1
+3         ---             5        H(1)O(1)Sn(1)            135.717
+
+
+Sn+4_OH-1(2)
+2         ---             7        H(2)O(2)Sn(1)            152.725
+
+
+Sn+4_OH-1(3)
+1         ---             5        H(3)O(3)Sn(1)            169.732
+
+
+Sn+4_OH-1(4)
+0         ---             9        H(4)O(4)Sn(1)            186.739
+
+
+Sn+4_OH-1(4)_(s)
+Tin(IV) hydroxide; Tin tetrahydroxide
+
+0         ---             6        H(4)O(4)Sn(1)            186.739
+
+
+Sn+4_OH-1(5)
+-1        ---             2        H(5)O(5)Sn(1)            203.747
+
+
+
+
+                                        – Page 52 of 69 –
+JESS Thermodynamic Database v8.9                                    Tin
+
+
+
+Sn+4_OH-1(6)
+-2        ---             7        H(6)O(6)Sn(1)              220.754
+
+
+Sn+4_Oxalic-2
+2         ---             1        C(2)O(4)Sn(1)              206.730
+
+
+Sn+4_P2O7-4
+0         ---             1        O(7)P(2)Sn(1)              292.654
+
+
+Sn+4_P2O7-4(2)
+-4        ---             1        O(14)P(4)Sn(1)             466.598
+
+
+Sn+4_Phenol-1
+3         ---             1        C(6)H(5)O(1)Sn(1)          211.815
+
+
+Sn+4_Phenol-1(2)
+2         ---             1        C(12)H(10)O(2)Sn(1)        304.920
+
+
+Sn+4_Phenol-1(3)
+1         ---             1        C(18)H(15)O(3)Sn(1)        398.025
+
+
+Sn+4_Phenol-1(4)
+0         ---             1        C(24)H(20)O(4)Sn(1)        491.130
+
+
+Sn+4_Phenol-1(5)
+-1        ---             1        C(30)H(25)O(5)Sn(1)        584.236
+
+
+Sn+4_Phenol-1(6)
+-2        ---             1        C(36)H(30)O(6)Sn(1)        677.341
+
+
+Sn+4_S-2(2)_(s)
+Tin(IV) sulfide; Stannic sulphide; Tin disulfide; Berndtite
+
+0         1315-01-1       2        S(2)Sn(1)                  182.830
+
+
+Sn+4_SCN-1
+3         ---             1        C(1)N(1)S(1)Sn(1)          176.788
+
+
+
+
+                                      – Page 53 of 69 –
+JESS Thermodynamic Database v8.9                               Tin
+
+
+
+Sn+4_SCN-1(2)
+2         ---             1        C(2)N(2)S(2)Sn(1)     234.865
+
+
+Sn+4_SCN-1(3)
+1         ---             1        C(3)N(3)S(3)Sn(1)     292.943
+
+
+Sn+4_SCN-1(4)
+0         ---             1        C(4)N(4)S(4)Sn(1)     351.021
+
+
+Sn+4_SCN-1(5)
+-1        ---             1        C(5)N(5)S(5)Sn(1)     409.099
+
+
+Sn+4_SCN-1(6)
+-2        ---             1        C(6)N(6)S(6)Sn(1)     467.176
+
+
+Sn+4_Se-2(2)_(s)
+Tin(IV) selenide; Tin diselenide
+
+0         ---             1        Se(2)Sn(1)            276.636
+
+
+Sn+4_SO4-2
+2         ---             3        O(4)S(1)Sn(1)         214.768
+
+
+Sn+4_SO4-2(2)
+0         ---             2        O(8)S(2)Sn(1)         310.825
+
+
+Sn+4_SO4-2(2)_(s)
+Tin(IV) sulfate; Tin disulfate
+
+0         ---             2        O(8)S(2)Sn(1)         310.825
+
+
+Sn+4_SO4-2(3)
+-2        ---             1        O(12)S(3)Sn(1)        406.883
+
+
+Sn+4_SO4-2(4)
+-4        ---             1        O(16)S(4)Sn(1)        502.940
+
+
+Sn+4_SO4-2(5)
+-6        ---             1        O(20)S(5)Sn(1)        598.998
+
+
+
+
+                                     – Page 54 of 69 –
+JESS Thermodynamic Database v8.9                             Tin
+
+
+
+Sn+4_SO4-2(6)
+-8        ---         1      O(24)S(6)Sn(1)            695.056
+
+
+Sn+4_Succinic-2
+2         ---         1      C(4)H(4)O(4)Sn(1)         234.783
+
+
+Sn+4_Thiourea(2)
+4         ---         1      C(2)H(8)N(4)S(2)Sn(1)     270.942
+
+
+Sn+4(2)_H+1(2)_PyroCatV-4
+6         ---         1      C(19)H(12)O(7)S(1)Sn(2)   621.780
+
+
+Sn(C2H5)2+2
+Diethyltin(IV) ion
+
+2         ---         43     C(4)H(10)Sn(1)            176.833
+
+
+Sn(C2H5)2+2_Ala-1
+1         ---         1      C(7)H(16)N(1)O(2)Sn(1)    264.920
+
+
+Sn(C2H5)2+2_Ala-1(2)
+0         ---         1      C(10)H(22)N(2)O(4)Sn(1)   353.006
+
+
+Sn(C2H5)2+2_Gly-1
+1         ---         1      C(6)H(14)N(1)O(2)Sn(1)    250.893
+
+
+Sn(C2H5)2+2_Gly-1(2)
+0         ---         1      C(8)H(18)N(2)O(4)Sn(1)    324.952
+
+
+Sn(C2H5)2+2_His-1
+1         ---         1      C(10)H(18)N(3)O(2)Sn(1)   330.982
+
+
+Sn(C2H5)2+2_His-1(2)
+0         ---         1      C(16)H(26)N(6)O(4)Sn(1)   485.130
+
+
+Sn(C2H5)2+2_Hyp-1
+1         ---         1      C(9)H(18)N(1)O(3)Sn(1)    306.957
+
+
+
+
+                               – Page 55 of 69 –
+JESS Thermodynamic Database v8.9                                 Tin
+
+
+
+Sn(C2H5)2+2_Hyp-1(2)
+0        ---          1      C(14)H(26)N(2)O(6)Sn(1)       437.080
+
+
+Sn(C2H5)2+2_Leu-1
+1        ---          1      C(10)H(22)N(1)O(2)Sn(1)       307.000
+
+
+Sn(C2H5)2+2_Leu-1(2)
+0        ---          1      C(16)H(34)N(2)O(4)Sn(1)       437.167
+
+
+Sn(C2H5)2+2_Lys-1
+1        ---          1      C(10)H(23)N(2)O(2)Sn(1)       322.015
+
+
+Sn(C2H5)2+2_Lys-1(2)
+0        ---          1      C(16)H(36)N(4)O(4)Sn(1)       467.196
+
+
+Sn(C2H5)2+2_Met-1
+1        ---          1      C(9)H(20)N(1)O(2)S(1)Sn(1)    325.033
+
+
+Sn(C2H5)2+2_Met-1(2)
+0        ---          1      C(14)H(30)N(2)O(4)S(2)Sn(1)   473.233
+
+
+Sn(C2H5)2+2_OH-1
+1        ---          3      C(4)H(11)O(1)Sn(1)            193.841
+
+
+Sn(C2H5)2+2_OH-1(2)
+0        ---          3      C(4)H(12)O(2)Sn(1)            210.848
+
+
+Sn(C2H5)2+2_Orn-1
+1        ---          1      C(9)H(21)N(2)O(2)Sn(1)        307.988
+
+
+Sn(C2H5)2+2_Orn-1(2)
+0        ---          1      C(14)H(32)N(4)O(4)Sn(1)       439.143
+
+
+Sn(C2H5)2+2_Phe-1
+1        ---          1      C(13)H(20)N(1)O(2)Sn(1)       341.017
+
+
+
+
+                               – Page 56 of 69 –
+JESS Thermodynamic Database v8.9                             Tin
+
+
+
+Sn(C2H5)2+2_Phe-1(2)
+0         ---         1      C(22)H(30)N(2)O(4)Sn(1)   505.201
+
+
+Sn(C2H5)2+2_Pro-1
+1         ---         1      C(9)H(18)N(1)O(2)Sn(1)    290.957
+
+
+Sn(C2H5)2+2_Pro-1(2)
+0         ---         1      C(14)H(26)N(2)O(4)Sn(1)   405.081
+
+
+Sn(C2H5)2+2_Ser-1
+1         ---         1      C(7)H(16)N(1)O(3)Sn(1)    280.919
+
+
+Sn(C2H5)2+2_Ser-1(2)
+0         ---         1      C(10)H(22)N(2)O(6)Sn(1)   385.005
+
+
+Sn(C2H5)2+2_Val-1
+1         ---         1      C(9)H(20)N(1)O(2)Sn(1)    292.973
+
+
+Sn(C2H5)2+2_Val-1(2)
+0         ---         1      C(14)H(30)N(2)O(4)Sn(1)   409.113
+
+
+Sn(C2H5)2+2(2)_OH-1(2)
+2         ---         2      C(8)H(22)O(2)Sn(2)        387.682
+
+
+Sn(C2H5)2+2(2)_OH-1(3)
+1         ---         2      C(8)H(23)O(3)Sn(2)        404.689
+
+
+Sn(C2H5)3+1
+Triethyltin ion
+
+1         ---         1      C(6)H(15)Sn(1)            205.895
+
+
+Sn(C2H5)3+1_OH-1
+0         ---         1      C(6)H(16)O(1)Sn(1)        222.902
+
+
+Sn(C3H7)2+2
+Dipropyltin ion
+
+2         ---         2      C(6)H(14)Sn(1)            204.887
+
+
+
+
+                               – Page 57 of 69 –
+JESS Thermodynamic Database v8.9                            Tin
+
+
+
+Sn(C3H7)2+2_OH-1
+1         ---          1     C(6)H(15)O(1)Sn(1)       221.895
+
+
+Sn(C3H7)2+2(2)_OH-1(2)
+2         ---          1     C(12)H(30)O(2)Sn(2)      443.789
+
+
+Sn(C6H5)3+1
+Tribenzyltin ion
+
+1         ---          1     C(18)H(15)Sn(1)          350.027
+
+
+Sn(C6H5)3+1_OH-1
+0         ---          1     C(18)H(16)O(1)Sn(1)      367.035
+
+
+Sn(CH3)2+2
+Dimethyl tin ion
+
+2         16408-14-3   113   C(2)H(6)Sn(1)            148.780
+
+
+Sn(CH3)2+2_Acetic-1
+1         ---          2     C(4)H(9)O(2)Sn(1)        207.824
+
+
+Sn(CH3)2+2_Acetic-1(2)
+0         ---          2     C(6)H(12)O(4)Sn(1)       266.869
+
+
+Sn(CH3)2+2_Ala-1
+1         ---          1     C(5)H(12)N(1)O(2)Sn(1)   236.866
+
+
+Sn(CH3)2+2_Ala-1(2)
+0         ---          1     C(8)H(18)N(2)O(4)Sn(1)   324.952
+
+
+Sn(CH3)2+2_Br-1
+1         ---          1     C(2)H(6)Br(1)Sn(1)       228.684
+
+
+Sn(CH3)2+2_Citric-3
+-1        ---          2     C(8)H(11)O(7)Sn(1)       337.881
+
+
+Sn(CH3)2+2_Cl-1
+1         ---          2     C(2)H(6)Cl(1)Sn(1)       184.233
+
+
+
+
+                               – Page 58 of 69 –
+JESS Thermodynamic Database v8.9                             Tin
+
+
+
+Sn(CH3)2+2_Cl-1_OH-1
+0        ---          1      C(2)H(7)Cl(1)O(1)Sn(1)    201.240
+
+
+Sn(CH3)2+2_Cl-1_OH-1(2)
+-1       ---          1      C(2)H(8)Cl(1)O(2)Sn(1)    218.247
+
+
+Sn(CH3)2+2_Cl-1(2)
+0        ---          2      C(2)H(6)Cl(2)Sn(1)        219.686
+
+
+Sn(CH3)2+2_Diglycol-2
+0        ---          1      C(6)H(10)O(5)Sn(1)        280.852
+
+
+Sn(CH3)2+2_F-1
+1        ---          1      C(2)H(6)F(1)Sn(1)         167.778
+
+
+Sn(CH3)2+2_F-1(2)
+0        ---          1      C(2)H(6)F(2)Sn(1)         186.776
+
+
+Sn(CH3)2+2_F-1(3)
+-1       ---          1      C(2)H(6)F(3)Sn(1)         205.775
+
+
+Sn(CH3)2+2_Gly-1
+1        ---          1      C(4)H(10)N(1)O(2)Sn(1)    222.839
+
+
+Sn(CH3)2+2_Gly-1(2)
+0        ---          1      C(6)H(14)N(2)O(4)Sn(1)    296.898
+
+
+Sn(CH3)2+2_His-1
+1        ---          1      C(8)H(14)N(3)O(2)Sn(1)    302.928
+
+
+Sn(CH3)2+2_His-1(2)
+0        ---          1      C(14)H(22)N(6)O(4)Sn(1)   457.076
+
+
+Sn(CH3)2+2_Hyp-1
+1        ---          1      C(7)H(14)N(1)O(3)Sn(1)    278.903
+
+
+
+
+                               – Page 59 of 69 –
+JESS Thermodynamic Database v8.9                                 Tin
+
+
+
+Sn(CH3)2+2_Hyp-1(2)
+0        ---          1      C(12)H(22)N(2)O(6)Sn(1)       409.027
+
+
+Sn(CH3)2+2_IDA-2
+0        ---          1      C(6)H(11)N(1)O(4)Sn(1)        279.868
+
+
+Sn(CH3)2+2_Leu-1
+1        ---          1      C(8)H(18)N(1)O(2)Sn(1)        278.946
+
+
+Sn(CH3)2+2_Leu-1(2)
+0        ---          1      C(14)H(30)N(2)O(4)Sn(1)       409.113
+
+
+Sn(CH3)2+2_Lys-1
+1        ---          1      C(8)H(19)N(2)O(2)Sn(1)        293.961
+
+
+Sn(CH3)2+2_Lys-1(2)
+0        ---          1      C(14)H(32)N(4)O(4)Sn(1)       439.143
+
+
+Sn(CH3)2+2_Malonic-2
+0        ---          2      C(5)H(8)O(4)Sn(1)             250.826
+
+
+Sn(CH3)2+2_Malonic-2(2)
+-2       ---          2      C(8)H(10)O(8)Sn(1)            352.873
+
+
+Sn(CH3)2+2_Met-1
+1        ---          1      C(7)H(16)N(1)O(2)S(1)Sn(1)    296.980
+
+
+Sn(CH3)2+2_Met-1(2)
+0        ---          1      C(12)H(26)N(2)O(4)S(2)Sn(1)   445.179
+
+
+Sn(CH3)2+2_NTA-3
+-1       ---          1      C(8)H(12)N(1)O(6)Sn(1)        336.896
+
+
+Sn(CH3)2+2_OH-1
+1        ---          3      C(2)H(7)O(1)Sn(1)             165.787
+
+
+
+
+                               – Page 60 of 69 –
+JESS Thermodynamic Database v8.9                             Tin
+
+
+
+Sn(CH3)2+2_OH-1_Citric-3
+-2       ---          4      C(8)H(12)O(8)Sn(1)        354.889
+
+
+Sn(CH3)2+2_OH-1_SO4-2
+-1       ---          2      C(2)H(7)O(5)S(1)Sn(1)     261.845
+
+
+Sn(CH3)2+2_OH-1(2)
+0        ---          4      C(2)H(8)O(2)Sn(1)         182.794
+
+
+Sn(CH3)2+2_OH-1(2)_SO4-2
+-2       ---          2      C(2)H(8)O(6)S(1)Sn(1)     278.852
+
+
+Sn(CH3)2+2_OH-1(3)
+-1       ---          3      C(2)H(9)O(3)Sn(1)         199.802
+
+
+Sn(CH3)2+2_OH-1(4)
+-2       ---          1      C(2)H(10)O(4)Sn(1)        216.809
+
+
+Sn(CH3)2+2_Orn-1
+1        ---          1      C(7)H(17)N(2)O(2)Sn(1)    279.934
+
+
+Sn(CH3)2+2_Orn-1(2)
+0        ---          1      C(12)H(28)N(4)O(4)Sn(1)   411.089
+
+
+Sn(CH3)2+2_Oxalic-2
+0        ---          1      C(4)H(6)O(4)Sn(1)         236.799
+
+
+Sn(CH3)2+2_P3O10-5
+-3       ---          2      C(2)H(6)O(10)P(3)Sn(1)    401.696
+
+
+Sn(CH3)2+2_P3O10-5(2)
+-8       ---          1      C(2)H(6)O(20)P(6)Sn(1)    654.612
+
+
+Sn(CH3)2+2_Phe-1
+1        ---          1      C(11)H(16)N(1)O(2)Sn(1)   312.964
+
+
+
+
+                               – Page 61 of 69 –
+JESS Thermodynamic Database v8.9                             Tin
+
+
+
+Sn(CH3)2+2_Phe-1(2)
+0        ---          1      C(20)H(26)N(2)O(4)Sn(1)   477.147
+
+
+Sn(CH3)2+2_Picolinic-1
+1        ---          1      C(8)H(10)N(1)O(2)Sn(1)    270.883
+
+
+Sn(CH3)2+2_Pro-1
+1        ---          1      C(7)H(14)N(1)O(2)Sn(1)    262.904
+
+
+Sn(CH3)2+2_Pro-1(2)
+0        ---          1      C(12)H(22)N(2)O(4)Sn(1)   377.028
+
+
+Sn(CH3)2+2_SCN-1
+1        ---          1      C(3)H(6)N(1)S(1)Sn(1)     206.857
+
+
+Sn(CH3)2+2_SCN-1(2)
+0        ---          1      C(4)H(6)N(2)S(2)Sn(1)     264.935
+
+
+Sn(CH3)2+2_Ser-1
+1        ---          1      C(5)H(12)N(1)O(3)Sn(1)    252.865
+
+
+Sn(CH3)2+2_Ser-1(2)
+0        ---          1      C(8)H(18)N(2)O(6)Sn(1)    356.951
+
+
+Sn(CH3)2+2_SO4-2
+0        ---          1      C(2)H(6)O(4)S(1)Sn(1)     244.837
+
+
+Sn(CH3)2+2_SO4-2(2)
+-2       ---          1      C(2)H(6)O(8)S(2)Sn(1)     340.895
+
+
+Sn(CH3)2+2_Succinic-2
+0        ---          1      C(6)H(10)O(4)Sn(1)        264.853
+
+
+Sn(CH3)2+2_ThioDiAcet-2
+0        ---          1      C(6)H(10)O(4)S(1)Sn(1)    296.913
+
+
+
+
+                               – Page 62 of 69 –
+JESS Thermodynamic Database v8.9                                       Tin
+
+
+
+Sn(CH3)2+2_Val-1
+1         ---             1        C(7)H(16)N(1)O(2)Sn(1)        264.920
+
+
+Sn(CH3)2+2_Val-1(2)
+0         ---             1        C(12)H(26)N(2)O(4)Sn(1)       381.059
+
+
+Sn(CH3)2+2(2)_H+1_5IMP-2
+3         ---             1        C(14)H(24)N(4)O(8)P(1)Sn(2)   644.761
+
+
+Sn(CH3)2+2(2)_OH-1_Citric-3
+0         ---             4        C(10)H(18)O(8)Sn(2)           503.668
+
+
+Sn(CH3)2+2(2)_OH-1(2)
+2         ---             2        C(4)H(14)O(2)Sn(2)            331.574
+
+
+Sn(CH3)2+2(2)_OH-1(2)_Citric-3
+-1        ---             2        C(10)H(19)O(9)Sn(2)           520.676
+
+
+Sn(CH3)2+2(2)_OH-1(3)
+1         ---             2        C(4)H(15)O(3)Sn(2)            348.581
+
+
+Sn(CH3)2+2(2)_P3O10-5
+-1        ---             2        C(4)H(12)O(10)P(3)Sn(2)       550.475
+
+
+Sn(CH3)2+2(2)_Succinic-2
+2         ---             1        C(8)H(16)O(4)Sn(2)            413.633
+
+
+Sn(CH3)2+2(2)_Tartaric-2
+2         ---             1        C(8)H(16)O(6)Sn(2)            445.631
+
+
+Sn(CH3)2+2(3)_OH-1(4)
+2         ---             1        C(6)H(22)O(4)Sn(3)            514.368
+
+
+Sn(CH3)3+1
+Trimethyl tin(IV) ion; Trimethyltin(IV) ion
+
+1         ---             59       C(3)H(9)Sn(1)                 163.815
+
+
+
+
+                                      – Page 63 of 69 –
+JESS Thermodynamic Database v8.9                                   Tin
+
+
+
+Sn(CH3)3+1_2SHAcet-2
+-1       ---          1      C(5)H(11)O(2)S(1)Sn(1)          253.911
+
+
+Sn(CH3)3+1_2SHEtol-1
+0        ---          1      C(5)H(14)O(1)S(1)Sn(1)          240.936
+
+
+Sn(CH3)3+1_2SHSuccin-3
+-2       ---          1      C(7)H(12)O(4)S(1)Sn(1)          310.940
+
+
+Sn(CH3)3+1_2SHSuccin-3(3)
+-8       ---          1      C(15)H(18)O(12)S(3)Sn(1)        605.191
+
+
+Sn(CH3)3+1_5AMP-2
+-1       ---          2      C(13)H(21)N(5)O(7)P(1)Sn(1)     509.023
+
+
+Sn(CH3)3+1_5AMP-2(2)
+-3       ---          2      C(23)H(33)N(10)O(14)P(2)Sn(1)   854.232
+
+
+Sn(CH3)3+1_5IMP-2
+-1       ---          2      C(13)H(20)N(4)O(8)P(1)Sn(1)     510.008
+
+
+Sn(CH3)3+1_BAL-2
+-1       ---          1      C(6)H(15)O(1)S(2)Sn(1)          286.015
+
+
+Sn(CH3)3+1_Cys-2
+-1       ---          1      C(6)H(14)N(1)O(2)S(1)Sn(1)      282.953
+
+
+Sn(CH3)3+1_Cys-2(2)
+-3       ---          1      C(9)H(19)N(2)O(4)S(2)Sn(1)      402.091
+
+
+Sn(CH3)3+1_F-1
+0        ---          1      C(3)H(9)F(1)Sn(1)               182.813
+
+
+Sn(CH3)3+1_F-1(2)
+-1       ---          1      C(3)H(9)F(2)Sn(1)               201.811
+
+
+
+
+                               – Page 64 of 69 –
+JESS Thermodynamic Database v8.9                                 Tin
+
+
+
+Sn(CH3)3+1_Formic-1
+0        ---          1      C(4)H(10)O(2)Sn(1)            208.832
+
+
+Sn(CH3)3+1_Gly-1
+0        ---          1      C(5)H(13)N(1)O(2)Sn(1)        237.874
+
+
+Sn(CH3)3+1_GSH-3
+-2       ---          1      C(13)H(23)N(3)O(6)S(1)Sn(1)   468.112
+
+
+Sn(CH3)3+1_His-1
+0        ---          1      C(9)H(17)N(3)O(2)Sn(1)        317.963
+
+
+Sn(CH3)3+1_Leu-1
+0        ---          1      C(9)H(21)N(1)O(2)Sn(1)        293.981
+
+
+Sn(CH3)3+1_Met-1
+0        ---          1      C(8)H(19)N(1)O(2)S(1)Sn(1)    312.014
+
+
+Sn(CH3)3+1_Norval-1
+0        ---          1      C(8)H(19)N(1)O(2)Sn(1)        279.954
+
+
+Sn(CH3)3+1_OH-1
+0        ---          2      C(3)H(10)O(1)Sn(1)            180.822
+
+
+Sn(CH3)3+1_Pen-2
+-1       ---          1      C(8)H(18)N(1)O(2)S(1)Sn(1)    311.006
+
+
+Sn(CH3)3+1_Phthalic-2
+-1       ---          1      C(11)H(13)O(4)Sn(1)           327.932
+
+
+Sn(CH3)3+1_Pro-1
+0        ---          1      C(8)H(17)N(1)O(2)Sn(1)        277.939
+
+
+Sn(CH3)3+1_SCN-1
+0        ---          1      C(4)H(9)N(1)S(1)Sn(1)         221.892
+
+
+
+
+                               – Page 65 of 69 –
+JESS Thermodynamic Database v8.9                                       Tin
+
+
+
+Sn(CH3)3+1_SCN-1(2)
+-1        ---             1        C(5)H(9)N(2)S(2)Sn(1)         279.970
+
+
+Sn(CH3)3+1_SCN-1(3)
+-2        ---             1        C(6)H(9)N(3)S(3)Sn(1)         338.048
+
+
+Sn(CH3)3+1_Ser-1
+0         ---             1        C(6)H(15)N(1)O(3)Sn(1)        267.900
+
+
+Sn(CH3)3+1_Thr-1
+0         ---             1        C(7)H(17)N(1)O(3)Sn(1)        281.927
+
+
+Sn(CH3)3+1(2)_5IMP-2
+0         ---             1        C(16)H(29)N(4)O(8)P(1)Sn(2)   673.822
+
+
+Sn(CH3)3+1(2)_OH-1
+1         ---             1        C(6)H(19)O(1)Sn(2)            344.636
+
+
+Sn(CH3)3+1(2)_OH-1(2)
+0         ---             1        C(6)H(20)O(2)Sn(2)            361.644
+
+
+Sn(g)
+0         ---             1        Sn(1)                         118.710
+
+
+Sn(gray,s)
+Tin, grey; Tin, gray; Tin, alpha
+
+0         ---             2        Sn(1)                         118.710
+
+
+Sn(s)
+Tin; Tin, white; Tin, tetragonal; Tin, beta
+
+0         7440-31-5       87       Sn(1)                         118.710
+
+
+Sn21Cl16(OH)14O6(s)
+0         ---             2        Cl(16)H(14)O(20)Sn(21)        3394.26
+
+
+Sn2S3(s)
+Ditin trisulfide
+
+
+
+
+                                      – Page 66 of 69 –
+JESS Thermodynamic Database v8.9                         Tin
+
+
+0         ---            1   S(3)Sn(2)             333.600
+
+
+Sn2Se2(g)
+0         ---            1   Se(2)Sn(2)            395.346
+
+
+Sn3(OH)2O+2_SO4-2_(s)
+Tin oxyhydroxy sulfate
+
+0         ---            1   H(2)O(7)S(1)Sn(3)     502.202
+
+
+Sn3S4(s)
+Tritin tetrasulfide
+
+0         ---            1   S(4)Sn(3)             484.370
+
+
+SnAs(s)
+Tin arsenic solid
+
+0         ---            1   As(1)Sn(1)            193.632
+
+
+SnCH3+3
+Methyltin(IV) cation
+
+3         ---            5   C(1)H(3)Sn(1)         133.745
+
+
+SnCH3+3_F-1
+2         ---            1   C(1)H(3)F(1)Sn(1)     152.743
+
+
+SnCH3+3_F-1(2)
+1         ---            1   C(1)H(3)F(2)Sn(1)     171.742
+
+
+SnCH3+3_F-1(3)
+0         ---            1   C(1)H(3)F(3)Sn(1)     190.740
+
+
+SnCH3+3_F-1(4)
+-1        ---            1   C(1)H(3)F(4)Sn(1)     209.738
+
+
+SnCH3+3_F-1(5)
+-2        ---            1   C(1)H(3)F(5)Sn(1)     228.737
+
+
+SnH4
+0         ---            1   H(4)Sn(1)             122.742
+
+
+
+
+                               – Page 67 of 69 –
+JESS Thermodynamic Database v8.9                                                Tin
+
+
+
+SnH4(g)
+Tin(IV) hydride; Tin tetrahydride
+
+0         ---               3       H(4)Sn(1)                             122.742
+
+
+SnO+2_Cat-2(2)
+-2        ---               1       C(12)H(8)O(5)Sn(1)                    350.903
+
+
+SnO+2_F-1_OH-1
+0         ---               1       F(1)H(1)O(2)Sn(1)                     170.715
+
+
+SnO+2_OH-1
+1         ---               2       H(1)O(2)Sn(1)                         151.717
+
+
+SnO(am.,s)
+Tin oxide, amorphous
+
+0         ---               2       O(1)Sn(1)                             134.709
+
+
+SnO(s)
+Tin oxide; Stannous oxide; Tin monoxide, tetragonal; Tin protoxide; Tin oxide, black
+
+0         21651-19-4        11      O(1)Sn(1)                             134.709
+
+
+SnO2(am.,s)
+Tin dioxide, amorphous
+
+0         ---               3       O(2)Sn(1)                             150.709
+
+
+SnO2(s)
+Cassiterite; Tin dioxide, tetragonal; Tin dioxide; Tin dioxide, white
+
+0         ---               12      O(2)Sn(1)                             150.709
+
+
+SnO3-2
+-2        ---               1       O(3)Sn(1)                             166.708
+
+
+SnSe(g)
+Tin selenide gas
+
+0         ---               2       Se(1)Sn(1)                            197.673
+
+
+SO4-2
+Sulfate ion; Sulphate ion
+
+-2        14808-79-8        1270    O(4)S(1)                              96.0576
+
+
+
+
+                                      – Page 68 of 69 –
+JESS Thermodynamic Database v8.9                                                Tin
+
+
+
+Sr(s)
+Strontium; Strontium, cubic; Strontium, alpha
+
+0         7440-24-6       55       Sr(1)                                  87.6200
+
+
+Succinic-2
+Succinate ion
+
+-2        56-14-4         635      C(4)H(4)O(4)                           116.073
+
+
+Tartaric-2
+Tartrate ion
+
+-2        ---             393      C(4)H(4)O(6)                           148.072
+
+
+Te-2
+Telluride ion
+
+-2        ---             61       Te(1)                                  127.603
+
+
+Te(s)
+Tellurium; Tellurium, hexagonal
+
+0         13494-80-9      71       Te(1)                                  127.603
+
+
+ThioDiAcet-2
+Thiodiacetate ion
+
+-2        73619-67-7      93       C(4)H(4)O(4)S(1)                       148.133
+
+
+Thiourea
+Thiocarbamide; Thiourea; tu
+
+0         62-56-6         261      C(1)H(4)N(2)S(1)                       76.1162
+
+
+Thr-1
+Threoninate ion; L-Threoninate ion; 2-amino-3-hydroxybutyrate ion; alpha-amino-beta-
+hydroxybutyrate ion; 2-amino-3-hydroxybutanoate ion; L-2-amino-3-hydroxybutanoate ion
+
+-1        68199-29-1      602      C(4)H(8)N(1)O(3)                       118.112
+
+
+Val-1
+L-Valinate ion; Valinate ion; L-2-Amino-3-methylbutanoate ion
+
+-1        ---             582      C(5)H(10)N(1)O(2)                      116.140
+
+
+
+
+                                      – Page 69 of 69 –
+

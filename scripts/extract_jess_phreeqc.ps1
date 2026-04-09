@@ -21,9 +21,10 @@ function Parse-Double([string]$s) {
 function Normalize-JessSpecies([string]$s) {
     $x = $s.Trim()
     $x = $x -replace '\s+', ' '
-    # Convert trailing charge notation like Fe+1 -> Fe+, SO4-1 -> SO4-
-    $x = [regex]::Replace($x, '(?<sp>[A-Za-z0-9\(\)]+)\+1\b', '${sp}+')
-    $x = [regex]::Replace($x, '(?<sp>[A-Za-z0-9\(\)]+)-1\b', '${sp}-')
+    # Convert only truly trailing charge notation like Fe+1 -> Fe+, SO4-1 -> SO4-.
+    # Keep explicit +/-1 when followed by a multiplicity block, e.g. OH-1(3).
+    $x = [regex]::Replace($x, '(?<sp>[A-Za-z0-9\(\)_-]+)\+1$', '${sp}+')
+    $x = [regex]::Replace($x, '(?<sp>[A-Za-z0-9\(\)_-]+)-1$', '${sp}-')
     return $x
 }
 

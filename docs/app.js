@@ -21,6 +21,9 @@ const pageSizeSelect = document.getElementById("pageSize");
 const prevBtn = document.getElementById("prevBtn");
 const nextBtn = document.getElementById("nextBtn");
 const pageInfo = document.getElementById("pageInfo");
+const prevBtnBottom = document.getElementById("prevBtnBottom");
+const nextBtnBottom = document.getElementById("nextBtnBottom");
+const pageInfoBottom = document.getElementById("pageInfoBottom");
 const statusEl = document.getElementById("status");
 const loadAllBtn = document.getElementById("loadAllBtn");
 const exportCsvBtn = document.getElementById("exportCsvBtn");
@@ -48,6 +51,38 @@ let manifestLoaded = false;
 let dataVersion = "";
 let searchText = "";
 const selectedSources = new Set();
+const defaultPageSize = Number(pageSizeSelect.value);
+
+function readUrlState() {
+  const p = new URLSearchParams(window.location.search || "");
+  const q = (p.get("q") || "").trim();
+  const atomsRaw = (p.get("a") || "").trim();
+  const srcRaw = (p.get("src") || "").trim();
+  const loadAll = p.get("all") === "1";
+  const psRaw = p.get("ps");
+  const ps = Number(psRaw);
+  return {
+    q,
+    atoms: atomsRaw ? atomsRaw.split(",").map(s => s.trim()).filter(Boolean) : [],
+    sources: srcRaw ? srcRaw.split(",").map(s => s.trim()).filter(Boolean) : [],
+    loadAll,
+    pageSize: Number.isFinite(ps) && ps > 0 ? ps : null
+  };
+}
+
+function writeUrlState() {
+  const p = new URLSearchParams();
+  if (searchText) p.set("q", searchText);
+  if (selectedAtoms.size > 0) p.set("a", [...selectedAtoms].sort().join(","));
+  if (loadAllMode) p.set("all", "1");
+  if (pageSize !== defaultPageSize) p.set("ps", String(pageSize));
+  if (manifest && manifest.sources && selectedSources.size > 0 && selectedSources.size < manifest.sources.length) {
+    p.set("src", [...selectedSources].sort().join(","));
+  }
+  const qs = p.toString();
+  const next = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
+  window.history.replaceState(null, "", next);
+}
 
 function setDbPanelCollapsed(collapsed) {
   if (!dbPanel || !dbToggleBtn) return;
@@ -116,21 +151,27 @@ function renderTable() {
   const end = Math.min(filteredRows.length, start + pageSize);
   const rows = filteredRows.slice(start, end);
 
-  tbody.innerHTML = rows.map(r => `
+  tbody.innerHTML = rows.map((r, idx) => `
     <tr>
-      <td class="mono">${escHtml(r.p)}</td>
+      <td class="mono">${start + idx + 1}</td>
+      <td class="mono hidden-col">${escHtml(r.p)}</td>
+      <td class="mono hidden-col">${escHtml(r.h || "")}</td>
       <td class="mono">${escHtml(r.e)}</td>
       <td class="mono">${escHtml(r.k)}</td>
       <td class="mono">${escHtml(r.c)}</td>
       <td>${escHtml(r.x)}</td>
       <td>${escHtml(r.m)}</td>
-      <td>${escHtml(r.rf)}</td>
+      <td class="hidden-col">${escHtml(r.rf)}</td>
     </tr>
   `).join("");
 
-  pageInfo.textContent = `Page ${page}/${totalPages}`;
+  const pageText = `Page ${page}/${totalPages}`;
+  pageInfo.textContent = pageText;
+  if (pageInfoBottom) pageInfoBottom.textContent = pageText;
   prevBtn.disabled = page <= 1;
   nextBtn.disabled = page >= totalPages;
+  if (prevBtnBottom) prevBtnBottom.disabled = page <= 1;
+  if (nextBtnBottom) nextBtnBottom.disabled = page >= totalPages;
   updateCounts();
 }
 
@@ -139,7 +180,7 @@ function applyFilterSortAndRender() {
     if (!rowHasAllAtoms(r, selectedAtoms)) return false;
     if (!rowHasSelectedSources(r, selectedSources)) return false;
     if (!searchText) return true;
-    const blob = [r.p, r.e, r.k, r.c, r.x, r.m, r.rf].join(" ").toLowerCase();
+    const blob = [r.p, r.h, r.e, r.k, r.c, r.x, r.m, r.rf].join(" ").toLowerCase();
     return blob.includes(searchText);
   });
   filteredRows.sort((a, b) => (sortAsc ? cmp(a, b, sortKey) : -cmp(a, b, sortKey)));
@@ -159,10 +200,10 @@ function exportCurrentViewCsv() {
     setStatus("No rows to export.");
     return;
   }
-  const headers = ["Product", "Equation (as written)", "logK", "Contributing logK", "Experimental conditions", "Database comments", "Reference (consolidated)"];
+  const headers = ["Product", "Hill formulas", "Equation", "Average logK", "logK", "Exp. conditions", "Database comments", "Reference (consolidated)"];
   const lines = [headers.map(escapeCsvField).join(",")];
   for (const r of filteredRows) {
-    const row = [r.p, r.e, r.k, r.c, r.x, r.m, r.rf].map(escapeCsvField).join(",");
+    const row = [r.p, r.h, r.e, r.k, r.c, r.x, r.m, r.rf].map(escapeCsvField).join(",");
     lines.push(row);
   }
   const csv = lines.join("\r\n");
@@ -290,6 +331,7 @@ function buildDatabaseFilters() {
       if (cb.checked) selectedSources.add(src);
       else selectedSources.delete(src);
       page = 1;
+      writeUrlState();
       await refreshDataFromSelection();
     });
     const text = document.createElement("span");
@@ -329,6 +371,7 @@ function buildPeriodic() {
           b.classList.add("sel");
         }
         loadAllMode = false;
+        writeUrlState();
         await refreshDataFromSelection();
       });
       periodic.appendChild(b);
@@ -347,6 +390,7 @@ function bindEvents() {
   pageSizeSelect.addEventListener("change", () => {
     pageSize = Number(pageSizeSelect.value);
     page = 1;
+    writeUrlState();
     renderTable();
   });
 
@@ -356,6 +400,14 @@ function bindEvents() {
       renderTable();
     }
   });
+  if (prevBtnBottom) {
+    prevBtnBottom.addEventListener("click", () => {
+      if (page > 1) {
+        page--;
+        renderTable();
+      }
+    });
+  }
 
   nextBtn.addEventListener("click", () => {
     const totalPages = Math.max(1, Math.ceil(filteredRows.length / pageSize));
@@ -364,6 +416,15 @@ function bindEvents() {
       renderTable();
     }
   });
+  if (nextBtnBottom) {
+    nextBtnBottom.addEventListener("click", () => {
+      const totalPages = Math.max(1, Math.ceil(filteredRows.length / pageSize));
+      if (page < totalPages) {
+        page++;
+        renderTable();
+      }
+    });
+  }
 
   loadAllBtn.addEventListener("click", async () => {
     if (!manifestLoaded) {
@@ -371,6 +432,7 @@ function bindEvents() {
       return;
     }
     loadAllMode = true;
+    writeUrlState();
     setStatus("Loading all data chunks...");
     await refreshDataFromSelection();
   });
@@ -383,6 +445,7 @@ function bindEvents() {
     searchInput.addEventListener("input", () => {
       searchText = (searchInput.value || "").trim().toLowerCase();
       page = 1;
+      writeUrlState();
       applyFilterSortAndRender();
     });
   }
@@ -395,6 +458,7 @@ function bindEvents() {
         selectedSources.add(el.dataset.source);
       });
       page = 1;
+      writeUrlState();
       await refreshDataFromSelection();
     });
   }
@@ -406,6 +470,7 @@ function bindEvents() {
         el.checked = false;
       });
       page = 1;
+      writeUrlState();
       await refreshDataFromSelection();
     });
   }
@@ -422,12 +487,14 @@ function bindEvents() {
 }
 
 async function init() {
+  const urlState = readUrlState();
   buildPeriodic();
   bindEvents();
   try {
-    setDbPanelCollapsed(localStorage.getItem("dbPanelCollapsed") === "1");
+    const saved = localStorage.getItem("dbPanelCollapsed");
+    setDbPanelCollapsed(saved === null ? true : saved === "1");
   } catch (_) {
-    setDbPanelCollapsed(false);
+    setDbPanelCollapsed(true);
   }
   try {
     manifest = await fetchJson("./data/manifest.json");
@@ -435,9 +502,41 @@ async function init() {
     dataVersion = manifest.generated_at || "";
     countTotal.textContent = String(manifest.total_rows || 0);
     buildDatabaseFilters();
+
+    if (urlState.pageSize) {
+      const allowed = [...pageSizeSelect.options].map(o => Number(o.value));
+      if (allowed.includes(urlState.pageSize)) {
+        pageSizeSelect.value = String(urlState.pageSize);
+        pageSize = urlState.pageSize;
+      }
+    }
+    if (urlState.q && searchInput) {
+      searchInput.value = urlState.q;
+      searchText = urlState.q.toLowerCase();
+    }
+    if (urlState.sources.length > 0) {
+      selectedSources.clear();
+      document.querySelectorAll("#dbFilters input[type='checkbox']").forEach(el => {
+        const keep = urlState.sources.includes(el.dataset.source);
+        el.checked = keep;
+        if (keep) selectedSources.add(el.dataset.source);
+      });
+    }
+    if (urlState.atoms.length > 0) {
+      urlState.atoms.forEach(a => selectedAtoms.add(a));
+      document.querySelectorAll("#periodic .el-btn").forEach(btn => {
+        if (selectedAtoms.has(btn.dataset.atom)) btn.classList.add("sel");
+      });
+    }
+    loadAllMode = urlState.loadAll || (!!searchText && selectedAtoms.size === 0);
+
+    writeUrlState();
     setStatus("Ready. Select atoms (fast cached mode) or click Load All Data for the full dataset.");
     filteredRows = [];
     renderTable();
+    if (loadAllMode || selectedAtoms.size > 0) {
+      await refreshDataFromSelection();
+    }
   } catch (err) {
     if (window.location.protocol === "file:") {
       setStatus("Cannot load data via file://. Use GitHub Pages or run a local HTTP server.");
