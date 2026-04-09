@@ -95,6 +95,11 @@ button:hover {
   padding: 8px;
   border-radius: 10px;
   background: #f0fdfa;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .el-btn {
@@ -119,6 +124,13 @@ button:hover {
 
 .periodic-spacer {
   min-height: 30px;
+}
+
+@media (max-width: 768px) {
+  .periodic {
+    grid-template-columns: repeat(18, 30px);
+    justify-content: start;
+  }
 }
 
 .note {
