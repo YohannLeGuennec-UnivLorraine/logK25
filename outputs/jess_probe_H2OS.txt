@@ -1,0 +1,51 @@
+JESS Thermodynamic Database v8.9                                    H2O
+
+
+                JESS Thermodynamic Database v8.9
+                Chemical species in reactions with H2O
+
+                                      24-Jan-23
+
+Charge       CAS              Count       Molecular formula   Mol. mass
+
+
+e-1
+Electron
+
+-1           ---              3399        E(1)                0.000000
+
+
+H+1
+Hydrogen ion; Proton
+
+1            12408-02-5       31679       H(1)                1.00794
+
+
+H2(g)
+Hydrogen gas; Hydrogen
+
+0            1333-74-0        1564        H(2)                2.01588
+
+
+H2O
+Water
+
+0            7732-18-5        5947        H(2)O(1)            18.0153
+
+
+O2(g)
+Oxygen gas; Oxygen
+
+0            7782-44-7        2559        O(2)                31.9988
+
+
+OH-1
+Hydroxide ion
+
+-1           14280-30-9       6558        H(1)O(1)            17.0073
+
+
+
+
+doi: 10.5281/zenodo.7700024
+

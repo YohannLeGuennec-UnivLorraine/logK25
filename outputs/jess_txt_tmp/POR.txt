@@ -1,0 +1,1931 @@
+                      JESS Thermodynamic Database v8.9
+                                         Polonium
+
+                                         24-Jan-23
+
+Reaction No. 9383
+PoO+2 + 2<H+1_NTA-3> = Po+4_NTA-3(2) + H2O
+  No       t     I-Str        Medium        Value (Dev)        W       Tech.     Ref. #
+  1     22         1          NaClO4       lgK:8.18(3SF)       0       MDS       1118
+  2     25        0.4         NaClO4       lgK:5.18(3SF)       3       MIX       1118
+
+
+Reaction No. 42861
+2<Oxalic-2> + PoO+2 = PoO+2_Oxalic-2(2)
+  No    t       I-Str         Medium         Value (Dev)       W       Tech.     Ref. #
+  1     22        1           NaClO4        lgK:7.78(3SF)      4        MDS       906
+  2     22        1           NaClO4        lgK:7.78(3SF)      3        MDS      22553
+  3     22        1           NaClO4        lgK:7.48(3SF)      3        MIX      22553
+  4     25       0.4          Unknown       lgK:7.48(3SF)      4        MIX       906
+
+
+Reaction No. 43263
+2<Tartaric-2> + PoO+2 = PoO+2_Tartaric-2(2)
+  No       t     I-Str        Medium        Value (Dev)        W       Tech.     Ref. #
+  1     22         1          NaClO4       lgK:7.30(3SF)       4       MDS        906
+  2     22         1          NaClO4       lgK:7.30(3SF)       3       MDS       22553
+  3     25        0.4         NaClO4       lgK:7.90(3SF)       4       MIX        906
+
+
+Reaction No. 43743
+PoO+2 + 2<H+1_Citric-3> = PoO+2_H+1(2)_Citric-3(2)
+  No    t       I-Str         Medium         Value (Dev)       W       Tech.     Ref. #
+  1     22        1           NaClO4        lgK:9.04(3SF)      3        MDS       906
+  2     22        1           NaClO4        lgK:9.04(3SF)      3        MDS      22553
+  3     25       0.4          Unknown       lgK:6.85(3SF)      0        MIX       906
+Note (3): Low wgt for internal consistency
+
+
+Reaction No. 44016
+PoO+2 + 2<H+1_NTA-3> = PoO+2_H+1(2)_NTA-3(2)
+ No    t       I-Str            Medium           Value (Dev)       W     Tech.   Ref. #
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                             Polonium
+
+
+ 1    22        1                NaClO4             lgK:5.78(3SF)       0      MDS        906
+ 2    22        1                NaClO4             lgK:8.18(3SF)       3      MDS        906
+ 3    22        1                NaClO4             lgK:8.18(3SF)       3      MDS       22553
+ 4    25        0             Inf. Dilution          lgK:8.2(2SF)       1      ESC
+
+
+Reaction No. 44569
+2ThenTriFAcone-1 + PoO+2 = PoO+2_2ThenTriFAcone-1
+ No    t        I-Str          Medium           Value (Dev)         W       Tech.       Ref. #
+  1    22           1          NaClO4          lgK:7.60(3SF)        1       MDS          906
+Note (1): Surely refers to same datum; difficult to know which in error
+  2    22           1          NaClO4          lgK:6.60(3SF)        1       MDS         22553
+
+
+Reaction No. 44570
+2<2ThenTriFAcone-1> + PoO+2 = PoO+2_2ThenTriFAcone-1(2)
+ No    t        I-Str          Medium           Value (Dev)         W       Tech.       Ref. #
+  1   22            1          NaClO4         lgK:13.11(4SF)        3        MDS         906
+  2   22            1          NaClO4         lgK:13.11(4SF)        3        MDS        22553
+
+
+Reaction No. 44870
+PoO+2 + H+1_EDTA-4 = PoO+2_H+1_EDTA-4
+ No    t        I-Str          Medium            Value (Dev)        W       Tech.       Ref. #
+  1   22            1          NaClO4           lgK:8.00(3SF)       3        MDS         906
+  2   22            1          NaClO4           lgK:8.00(3SF)       3        MDS        22553
+  3   25         0.4           Unknown          lgK:5.95(3SF)       0        MIX         906
+Note (3): Low wgt for internal consistency
+
+
+Reaction No. 54268
+Cl-1 + Po+4 = Po+4_Cl-1
+ No        t        I-Str          Medium             Value (Dev)       W     Tech.     Ref. #
+ 1    22:25              1          HClO4           lgK:2.34(3SF)       5      MCE        931
+ 2         23            1       H(Cl,ClO4)         lgK:2.34(3SF)       3      MDS       22556
+ 3         23           4:6             HCl         lgK:2.56(3SF)       4      MDS        931
+ 4         23           4:6             HCl         lgK:2.56(3SF)       3      MDS       22556
+
+
+Reaction No. 54269
+2<Cl-1> + Po+4 = Po+4_Cl-1(2)
+ No        t        I-Str          Medium             Value (Dev)       W     Tech.     Ref. #
+
+
+
+
+                                              – Page 2 of 38 –
+JESS Thermodynamic Database v8.9                                            Polonium
+
+
+ 1    22:25          1          HClO4            lgK:4.42(3SF)      5        MCE        931
+ 2      23           1       H(Cl,ClO4)          lgK:4.41(3SF)      3        MDS       22556
+ 3      23       4:6             HCl             lgK:4.80(3SF)      4        MDS        931
+ 4      23       4:6             HCl             lgK:4.80(3SF)      3        MDS       22556
+
+
+Reaction No. 54270
+3<Cl-1> + Po+4 = Po+4_Cl-1(3)
+ No     t       I-Str           Medium             Value (Dev)      W       Tech.      Ref. #
+ 1    22:25          1          HClO4            lgK:6.34(3SF)      5        MCE        931
+ 2      23           1       H(Cl,ClO4)          lgK:6.34(3SF)      3        MDS       22556
+ 3      23       4:6             HCl             lgK:6.88(3SF)      4        MDS        931
+ 4      23       4:6             HCl             lgK:6.88(3SF)      3        MDS       22556
+
+
+Reaction No. 54271
+4<Cl-1> + Po+4 = Po+4_Cl-1(4)
+ No     t       I-Str           Medium             Value (Dev)      W       Tech.      Ref. #
+ 1    22:25          1          HClO4            lgK:8.53(3SF)      5        MCE        931
+ 2      23           1       H(Cl,ClO4)          lgK:8.53(3SF)      3        MDS       22556
+ 3      23       4:6             HCl             lgK:8.85(3SF)      4        MDS        931
+ 4      23       4:6             HCl             lgK:8.85(3SF)      3        MDS       22556
+
+
+Reaction No. 54272
+5<Cl-1> + Po+4 = Po+4_Cl-1(5)
+ No     t      I-Str          Medium              Value (Dev)       W       Tech.      Ref. #
+ 1    22:25         1         HClO4              lgK:10.08(4SF)     5        MCE        931
+ 2      23          1       H(Cl,ClO4)           lgK:10.08(4SF)     3        MDS       22556
+ 3      23      4:6             HCl              lgK:10.60(4SF)     4        MDS        931
+ 4      23      4:6             HCl              lgK:10.60(4SF)     3        MDS       22556
+
+
+Reaction No. 54273
+Po+4 + 6<Cl-1> = Po+4_Cl-1(6)
+ No     t     I-Str           Medium                Value (Dev)         W    Tech.     Ref. #
+ 1    22:25     1               HClO4              lgK:11.57(4SF)       5     MCE       931
+ 2     23       0             Unknown               lgK:14.(2SF)        0     MEF      22537
+ 3     23       1           H(Cl,ClO4)             lgK:11.57(4SF)       3     MDS      22556
+ 4     25       0          Inf. Dilution            lgK:7.8(2SF)        5     CRV      31246
+Note (4): Table 2, p. 28
+
+
+
+
+                                           – Page 3 of 38 –
+JESS Thermodynamic Database v8.9                                               Polonium
+
+
+ 5        22           1           HCl                 lgR:14.(2SF)        3     MEF      22542
+ 6        23         4:6           HCl                lgR:11.92(4SF)       4     MDS       931
+ 7        23         4:6           HCl                lgR:11.92(4SF)       3     MDS      22556
+ 8        25           0      Inf. Dilution          dG:-44.5(3SF)kJ       5     CRV      31246
+
+
+Reaction No. 54274
+Po+4_Cl-1(5) + Cl-1 = Po+4_Cl-1(6)
+ No   t        I-Str           Medium                 Value (Dev)      W       Tech.      Ref. #
+ 1    23         0          Inf. Dilution            lgK:2.3(2SF)      0        MDS        931
+ 2    25         0          Inf. Dilution           lgK:-5.3(2SF)      1        ELC
+
+
+Reaction No. 71038
+Po+4 + 4<e-1> = Po(s)
+ No   t        I-Str          Medium                 Value (Dev)           W    Tech.     Ref. #
+ 1    25         0         Inf. Dilution            lgK:55.6(3SF)          0     ELC
+ 2    25         0         Inf. Dilution            lgK:50.2(3SF)          0     EOD
+Note (2): Personal communication FMEO
+ 3    25         0         Inf. Dilution           dG:293.(3SF)kJ          0     CRV       3006
+ 4    25         0         Inf. Dilution          dG:-276.5(4SF)kJ         3     CRV      31246
+Note (4): lgK "very poorly defined"; see also Table 2, p. 28
+ 5    22         1             HNO3                  E:0.76(2SF)           0     MEF      22542
+ 6    25         0         Inf. Dilution             E:0.87(2SF)           0     CRV      17631
+Note (6): See p. 26. Gives +0.6 wrt calomel electrode (+0.27)
+ 7    25         0         Inf. Dilution             E:0.76(2SF)           0     CRV      22519
+Note (7): States Po+4 but almost certainly refers to PoO+2 = Po(OH)2+2
+ 8    25         0         Inf. Dilution             E:0.765(3SF)          0     MEF      22521
+ 9    25         0         Inf. Dilution             E:0.76(2SF)           0     MEF      22523
+
+
+Reaction No. 71039
+Po+4 + 2<e-1> = Po+2
+ No   t        I-Str           Medium                 Value (Dev)      W       Tech.      Ref. #
+ 1    25         0          Inf. Dilution           lgK:26.2(3SF)      1        ELC
+ 2    25         0          Inf. Dilution           lgK:27.5(3SF)      0        EOD
+Note (2): Personal communication FMEO
+ 3    25         0          Inf. Dilution             E:0.9(1SF)       0        CRV       22519
+ 4    25         0          Inf. Dilution            E:0.727(3SF)      0        MEF       22522
+Note (4): From the values given for Po+4/Po+3 & Po+3/Po+2
+
+
+
+
+                                              – Page 4 of 38 –
+JESS Thermodynamic Database v8.9                                        Polonium
+
+
+ 5    25        0      Inf. Dilution           E:0.363(3SF)     0        CRV       22522
+Note (5): From the paper, p. 2870, evidently in error
+
+
+Reaction No. 73766
+Po(s) = Po(g)
+ No   t    I-Str           Medium              Value (Dev)          W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution          dG:109.410(6SF)kJ       4     CRV       3006
+ 2    25     0       Inf. Dilution           dG:109.4(4SF)kJ        4     CRV      17631
+ 3    25     0       Inf. Dilution           dH:147.0(4SF)kJ        4     CRV      17631
+
+
+Reaction No. 73767
+2<Po(s)> = Po2(g)
+ No   t    I-Str           Medium              Value (Dev)          W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution          dG:98.257(5SF)kJ        4     CRV       3006
+ 2    25     0       Inf. Dilution           dG:98.3(3SF)kJ         4     CRV      17631
+ 3    25     0       Inf. Dilution           dH:145.5(4SF)kJ        4     CRV      17631
+
+
+Reaction No. 73768
+Po(s) + 2<H+1> + 2<e-1> = H+1(2)_Po-2
+ No    t    I-Str             Medium            Value (Dev)     W       Tech.      Ref. #
+ 1    25         0     Inf. Dilution           E:-1.07(3SF)     4        CRV       17631
+ 2    25         0     Inf. Dilution            E:-1.0(2SF)     2        EOD       22537
+
+
+Reaction No. 73769
+H2(g) + Po(s) = H+1(2)_Po-2
+ No   t    I-Str           Medium              Value (Dev)          W    Tech.     Ref. #
+ 1    25        0     Inf. Dilution           lgK:-35.8(3SF)        1     ELC
+ 2    25        0     Inf. Dilution          dG:206.5(4SF)kJ        5     CRV      17631
+ 3    25        0     Inf. Dilution          dG:206.5(4SF)kJ        5     CRV      31246
+
+
+Reaction No. 73770
+H+1(2)_Po-2 = H+1_Po-2 + H+1
+ No   t    I-Str            Medium             Value (Dev)      W       Tech.      Ref. #
+ 1    25        0     Inf. Dilution           lgK:-0.55(2SF)    1        ELC
+ 2    25        0     Inf. Dilution           lgK:-0.49(2SF)    5        CRV       17631
+ 3    25        0     Inf. Dilution           lgK:-0.49(2SF)    5        CRV       31246
+Note (3): Table 2, p. 28
+
+
+
+
+                                        – Page 5 of 38 –
+JESS Thermodynamic Database v8.9                                    Polonium
+
+
+
+Reaction No. 73771
+0.5<H2(g)> + Po(s) + e-1 = H+1_Po-2
+ No   t    I-Str            Medium              Value (Dev)     W    Tech.     Ref. #
+ 1    25     0           Inf. Dilution        lgK:-36.35(4SF)   1     ELC
+ 2    25     0           Inf. Dilution        dG:209.3(4SF)kJ   5     CRV      17631
+ 3    25     0           Inf. Dilution        dG:209.3(4SF)kJ   5     CRV      31246
+
+
+Reaction No. 73772
+H+1_Po-2 = Po-2 + H+1
+ No   t    I-Str            Medium              Value (Dev)     W    Tech.     Ref. #
+ 1    25     0           Inf. Dilution        lgK:-11.33(4SF)   5     CRV      17631
+ 2    25     0           Inf. Dilution        lgK:-11.33(4SF)   5     CRV      31246
+Note (2): Table 2, p. 28
+
+
+Reaction No. 73773
+Po(s) + 2<e-1> = Po-2
+ No   t    I-Str            Medium              Value (Dev)     W    Tech.     Ref. #
+ 1    25     0           Inf. Dilution         lgK:-48.0(3SF)   1     EOD
+Note (1): Personal communication FMEO
+ 2    25     0           Inf. Dilution        dG:274.0(4SF)kJ   4     CRV      17631
+ 3    25     0           Inf. Dilution        dG:274.0(4SF)kJ   5     CRV      31246
+Note (3): Table 2, p. 28
+ 4    25     0           Inf. Dilution          E:-1.4(2SF)     3     CRV      3006
+Note (4): Sign changed
+ 5    25     0           Inf. Dilution          E:-1.42(3SF)    4     CRV      17631
+ 6    25     0           Inf. Dilution          E:-1.4(2SF)     3     EOD      22537
+ 7    25     0           Inf. Dilution          E:-1.4(2SF)     5     CRV      22551
+Note (7): Sign changed!
+
+
+Reaction No. 73774
+Po+2 + 2<e-1> = Po(s)
+ No   t    I-Str            Medium              Value (Dev)     W    Tech.     Ref. #
+ 1    25     0          Inf. Dilution         dG:-71.(2SF)kJ    0     CRV       3006
+Note (1): Sign changed (gives E0 = 0.37)
+ 2    25     0          Inf. Dilution        dG:-124.1(4SF)kJ   4     CRV      17631
+ 3    25     0          Inf. Dilution        dG:-124.1(4SF)kJ   5     CRV      31246
+
+
+
+
+                                         – Page 6 of 38 –
+JESS Thermodynamic Database v8.9                                       Polonium
+
+
+Note (3): Table 2, p. 28
+ 4    25    0        Inf. Dilution             E:0.368(3SF)        0     CRV       3006
+ 5    25    0        Inf. Dilution             E:0.643(3SF)        4     CRV      17631
+ 6    25    0        Inf. Dilution           E:0.68(0.01SD)        3     MEF      22521
+ 7    25    0        Inf. Dilution             E:0.65(2SF)         3     EOD      22537
+ 8    25    0        Inf. Dilution             E:0.37(2SF)         0     CRV      22551
+Note (8): This E0 refers to a measurement in (strongly complexing) HCl
+ 9    25    0        Inf. Dilution             E:0.643(3SF)        5     CRV      31246
+
+
+Reaction No. 73775
+PoO2(s) + 2<e-1> + 4<H+1> = Po+2 + 2<H2O>
+ No    t   I-Str              Medium            Value (Dev)    W       Tech.      Ref. #
+ 1    25        0      Inf. Dilution           E:1.095(4SF)    0        CRV       3006
+ 2    25        0      Inf. Dilution           E:0.819(3SF)    4        CRV       17631
+ 3    25        0      Inf. Dilution           E:0.798(3SF)    3        EOD       22537
+ 4    25        0      Inf. Dilution            E:1.1(2SF)     0        CRV       22551
+
+
+Reaction No. 73776
+PoO+2 + 2<H+1> + 2<e-1> = Po+2 + H2O
+ No   t    I-Str             Medium             Value (Dev)    W       Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:31.1(3SF)    1        ELC
+ 2    25     0         Inf. Dilution           E:0.935(3SF)    0        CRV       17631
+
+
+Reaction No. 73777
+PoO+2 + H2O = PoO+2_OH-1 + H+1
+ No   t    I-Str             Medium            Value (Dev)     W       Tech.      Ref. #
+ 1    23    0.1            (H,Na)ClO4         lgK:-1.06(3SF)   0        MDS       22552
+ 2    25     0        Inf. Dilution           lgK:-1.2(2SF)    1        ELC
+ 3    25     0        Inf. Dilution           lgK:-0.85(2SF)   0        CRV       17631
+
+
+Reaction No. 73778
+0.5<O2(g)> + Po(s) - 2<e-1> = PoO+2
+ No   t    I-Str             Medium            Value (Dev)     W       Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:-11.5(3SF)   1        ELC
+ 2    25     0        Inf. Dilution           dG:67.4(3SF)kJ   0        CRV       17631
+Note (2): Rejected by 17Hum_31246
+
+
+
+
+                                        – Page 7 of 38 –
+JESS Thermodynamic Database v8.9                                    Polonium
+
+
+Reaction No. 73779
+PoO+2_OH-1 + H2O = H+1(2)_PoO3-2 + H+1
+ No   t    I-Str             Medium             Value (Dev)     W   Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:-1.67(3SF)   4    CRV       17631
+
+
+Reaction No. 73780
+0.5<H2(g)> + O2(g) + Po(s) - e-1 = PoO+2_OH-1
+ No   t    I-Str            Medium              Value (Dev)     W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution           dG:-164.9(4SF)kJ   4     CRV      17631
+
+
+Reaction No. 73781
+PoO2(s) + H2O = H+1(2)_PoO3-2
+ No   t    I-Str             Medium             Value (Dev)     W   Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:-6.45(3SF)   2    CRV       17631
+Note (1): Deprecated by 17Hum_31246
+
+
+Reaction No. 73782
+H2(g) + 1.5<O2(g)> + Po(s) = H+1(2)_PoO3-2
+ No   t    I-Str            Medium              Value (Dev)     W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution           dG:-392.6(4SF)kJ   4     CRV      17631
+
+
+Reaction No. 73783
+PoO2(s) + OH-1 = H+1_PoO3-2
+ No   t    I-Str             Medium             Value (Dev)     W   Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:-4.98(3SF)   4    CRV       17631
+
+
+Reaction No. 73784
+0.5<H2(g)> + 1.5<O2(g)> + Po(s) + e-1 = H+1_PoO3-2
+ No   t    I-Str            Medium              Value (Dev)     W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution           dG:-321.1(4SF)kJ   4     CRV      17631
+
+
+Reaction No. 73785
+H+1(2)_PoO3-2 = H+1_PoO3-2 + H+1
+ No   t    I-Str            Medium              Value (Dev)     W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-12.52(4SF)   4     CRV      17631
+
+
+Reaction No. 73786
+H+1_PoO3-2 = PoO3-2 + H+1
+
+
+
+
+                                         – Page 8 of 38 –
+JESS Thermodynamic Database v8.9                                         Polonium
+
+
+ No   t    I-Str            Medium               Value (Dev)     W        Tech.     Ref. #
+ 1    25     0        Inf. Dilution            lgK:-13.45(4SF)   4         CRV      17631
+
+
+Reaction No. 73787
+PoO2(s) + 2<OH-1> = PoO3-2 + H2O
+ No   t    I-Str             Medium              Value (Dev)     W       Tech.      Ref. #
+ 1    25     0        Inf. Dilution             lgK:-4.43(3SF)   4        CRV       17631
+
+
+Reaction No. 73788
+1.5<O2(g)> + Po(s) + 2<e-1> = PoO3-2
+ No   t    I-Str           Medium                Value (Dev)         W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution             dG:-423.(3SF)kJ       0     CRV       3006
+ 2    25     0       Inf. Dilution            dG:-244.3(4SF)kJ       4     CRV      17631
+
+
+Reaction No. 73789
+PoO3-2 + 4<e-1> + 3<H2O> = Po(s) + 6<OH-1>
+ No   t    I-Str             Medium               Value (Dev)    W       Tech.      Ref. #
+ 1    25     0            Inf. Dilution         lgK:-2.3(2SF)    1        EOR
+ 2    25     0            Inf. Dilution         E:-0.494(3SF)    0        CRV       3006
+ 3    25     0            Inf. Dilution           E:-0.5(1SF)    0        CRV       14620
+Note (3): Zero wgt for inter-reaction consistency
+ 4    25     0            Inf. Dilution         E:-0.031(2SF)    3        CRV       17631
+ 5    25     0            Inf. Dilution          E:0.748(3SF)    0        CRV       22537
+ 6    25     0            Inf. Dilution           E:-0.5(1SF)    0        CRV       22551
+
+
+Reaction No. 73790
+PoO2(s) + 4<H+1> + 4<e-1> = Po(s) + 2<H2O>
+ No   t    I-Str             Medium              Value (Dev)     W       Tech.      Ref. #
+ 1    25     0        Inf. Dilution             lgK:49.43(4SF)   4        EOD       31246
+ 2    25     0        Inf. Dilution              E:0.731(3SF)    4        CRV       17631
+ 3    25     0        Inf. Dilution              E:0.724(3SF)    0        EOD       22537
+ 4    25     0        Inf. Dilution              E:0.73(2SF)     5        CRV       22551
+
+
+Reaction No. 73791
+O2(g) + Po(s) = PoO2(s)
+ No   t    I-Str           Medium                Value (Dev)         W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution             dG:-912.(3SF)kJ       0     CRV       3006
+
+
+
+
+                                          – Page 9 of 38 –
+JESS Thermodynamic Database v8.9                                          Polonium
+
+
+Note (1): Prob. just dyslexia
+ 2    25     0       Inf. Dilution             dG:-192.2(4SF)kJ       4     CRV      17631
+ 3    25     0       Inf. Dilution             dG:-192.1(4SF)kJ       5     CRV      31246
+Note (3): p. 14 & Table 2, p. 28
+ 4    25     0       Inf. Dilution             dH:-251.(3SF)kJ        4     MTD       3006
+ 5    25     0       Inf. Dilution             dH:-251.(3SF)kJ        4     CRV      17631
+
+
+Reaction No. 73792
+PoO3(s) + 2<e-1> + 2<H+1> = PoO2(s) + H2O
+ No    t    I-Str             Medium              Value (Dev)     W       Tech.      Ref. #
+ 1    25         0        Inf. Dilution           E:1.509(4SF)    3        CRV       3006
+ 2    25         0        Inf. Dilution           E:1.509(4SF)    4        CRV       17631
+ 3    25         0        Inf. Dilution           E:1.524(4SF)    3        EOD       22537
+ 4    25         0        Inf. Dilution           E:1.51(3SF)     5        CRV       22551
+
+
+Reaction No. 73793
+1.5<O2(g)> + Po(s) = PoO3(s)
+ No   t    I-Str            Medium                Value (Dev)         W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution             dG:-138.(3SF)kJ        4     CRV       3006
+ 2    25     0       Inf. Dilution             dG:-138.2(4SF)kJ       4     CRV      17631
+
+
+Reaction No. 73794
+PoO3(s) + 2<e-1> = PoO3-2
+
+Note: Caution advised - see [17Hum_31246, p. 26] (but noted "result in excellent
+agreement with literature")
+ No    t    I-Str            Medium              Value (Dev)      W       Tech.      Ref. #
+ 1    25         0        Inf. Dilution          E:1.477(4SF)     0        CRV       3006
+ 2    25         0        Inf. Dilution          E:0.550(3SF)     2        CRV       17631
+ 3    25         0        Inf. Dilution          E:1.474(4SF)     0        CRV       22537
+ 4    25         0        Inf. Dilution          E:1.48(3SF)      0        CRV       22551
+
+
+Reaction No. 73795
+Po+4_Cl-1(6) + 2<e-1> = Po+2_Cl-1(4) + 2<Cl-1>
+ No    t    I-Str             Medium              Value (Dev)     W       Tech.      Ref. #
+ 1    25         0        Inf. Dilution           E:0.775(3SF)    1        CRV       17631
+ 2    25         1             HCl                E:0.717(3SF)    0        EOD       31246
+Note (2): Reactive Cl-1
+
+
+
+
+                                          – Page 10 of 38 –
+JESS Thermodynamic Database v8.9                                          Polonium
+
+
+ 3    25     1.5               HCl                E:0.702(3SF)    0        EOD       31246
+Note (3): Reactive Cl-1
+
+
+Reaction No. 73796
+3<Cl2(g)> + Po(s) + 2<e-1> = Po+4_Cl-1(6)
+ No   t    I-Str           Medium                 Value (Dev)         W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution             dG:-577.(3SF)kJ        0     CRV       3006
+ 2    25     0       Inf. Dilution             dG:-554.0(4SF)kJ       2     CRV      17631
+ 3    25     0       Inf. Dilution             dG:-555.3(4SF)kJ       5     CRV      31246
+Note (3): Table 2, p. 28
+
+
+Reaction No. 73797
+PoO+2 + 2<H+1> + 6<Cl-1> = Po+4_Cl-1(6) + H2O
+ No   t    I-Str             Medium               Value (Dev)     W       Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:12.7(3SF)    5        CRV       17631
+ 2    25     0            Inf. Dilution          lgK:12.7(3SF)    5        CRV       31246
+
+
+Reaction No. 73798
+Po+4_Cl-1(6) + 4<e-1> = Po(s) + 6<Cl-1>
+ No    t    I-Str             Medium              Value (Dev)     W       Tech.      Ref. #
+ 1    25         0        Inf. Dilution           E:0.601(3SF)    4        CRV       17631
+
+
+Reaction No. 73799
+Po+2_Cl-1(4) + 2<e-1> = Po(s) + 4<Cl-1>
+ No    t    I-Str             Medium              Value (Dev)     W       Tech.      Ref. #
+ 1    25         0        Inf. Dilution           E:0.420(3SF)    4        CRV       17631
+
+
+Reaction No. 73800
+2<Cl2(g)> + Po(s) + 2<e-1> = Po+2_Cl-1(4)
+ No   t    I-Str           Medium                 Value (Dev)         W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution             dG:-443.0(4SF)kJ       5     CRV      17631
+ 2    25     0       Inf. Dilution             dG:-443.9(4SF)kJ       5     CRV      31246
+Note (2): Table 2, p. 28
+
+
+Reaction No. 73801
+4<Cl-1> + Po+2 = Po+2_Cl-1(4)
+ No   t    I-Str             Medium               Value (Dev)     W       Tech.      Ref. #
+
+
+
+
+                                          – Page 11 of 38 –
+JESS Thermodynamic Database v8.9                                          Polonium
+
+
+ 1    25     0            Inf. Dilution          lgK:7.55(3SF)    5        CRV       17631
+ 2    25     0            Inf. Dilution          lgK:7.55(3SF)    5        CRV       31246
+Note (2): Table 2, p. 28
+ 3    25     0               Unknown             lgK:7.55(3SF)    3        EIE       31585
+Note (3): Table Supp. 3
+
+
+Reaction No. 73802
+3<Cl-1> + Po+2 = Po+2_Cl-1(3)
+ No   t    I-Str             Medium               Value (Dev)     W       Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:7.02(3SF)    5        CRV       17631
+ 2    25     0            Inf. Dilution          lgK:7.02(3SF)    5        CRV       31246
+Note (2): Table 2, p. 28
+ 3    25     0               Unknown             lgK:7.39(3SF)    3        EIE       31585
+Note (3): Table Supp. 3
+
+
+Reaction No. 73803
+1.5<Cl2(g)> + Po(s) + e-1 = Po+2_Cl-1(3)
+ No   t    I-Str           Medium                 Value (Dev)         W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution             dG:-309.0(4SF)kJ       4     CRV      17631
+
+
+Reaction No. 73804
+2<Cl-1> + Po+2 = Po+2_Cl-1(2)
+ No   t    I-Str             Medium               Value (Dev)     W       Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:6.13(3SF)    5        CRV       17631
+ 2    25     0            Inf. Dilution          lgK:6.13(3SF)    5        CRV       31246
+Note (2): Table 2, p. 28
+ 3    25     0               Unknown             lgK:6.85(3SF)    3        EIE       31585
+Note (3): Table Supp. 3
+
+
+Reaction No. 73805
+Cl2(g) + Po(s) = Po+2_Cl-1(2)
+ No   t    I-Str           Medium                 Value (Dev)         W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution             dG:-172.9(4SF)kJ       4     CRV      17631
+
+
+Reaction No. 73806
+Cl-1 + Po+2 = Po+2_Cl-1
+ No   t    I-Str             Medium               Value (Dev)     W       Tech.      Ref. #
+
+
+
+
+                                          – Page 12 of 38 –
+JESS Thermodynamic Database v8.9                                          Polonium
+
+
+ 1    25     0            Inf. Dilution          lgK:3.75(3SF)    5        CRV       17631
+ 2    25     0            Inf. Dilution          lgK:3.75(3SF)    5        CRV       31246
+Note (2): Table 2, p. 28
+ 3    25     0               Unknown             lgK:4.26(3SF)    3        EIE       31585
+Note (3): Table Supp. 3
+
+
+Reaction No. 73807
+0.5<Cl2(g)> + Po(s) - e-1 = Po+2_Cl-1
+ No   t    I-Str            Medium                Value (Dev)     W        Tech.     Ref. #
+ 1    25     0        Inf. Dilution             dG:-28.3(3SF)kJ   4         CRV      17631
+
+
+Reaction No. 73808
+Po+4_Cl-1(4)_OH-1 + H+1 + 2<Cl-1> = Po+4_Cl-1(6) + H2O
+ No   t    I-Str             Medium               Value (Dev)     W       Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:2.16(3SF)    2        CRV       17631
+ 2    25     0            Inf. Dilution          lgK:2.16(3SF)    5        CRV       31246
+Note (2): Table 2, p. 28
+
+
+Reaction No. 73809
+2<Cl2(g)> + 0.5<H2(g)> + 0.5<O2(g)> + Po(s) + e-1 = Po+4_Cl-1(4)_OH-1
+ No   t    I-Str           Medium                 Value (Dev)         W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution              lgK:90.7(3SF)         1     ELC
+ 2    25     0       Inf. Dilution             dG:-516.9(4SF)kJ       0     CRV      17631
+
+
+Reaction No. 73810
+PoO+2_Cl-1(4) + 2<H2O> = H+1(2)_PoO3-2 + 2<H+1> + 4<Cl-1>
+ No   t    I-Str             Medium               Value (Dev)     W       Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:-8.9(2SF)    4        CRV       17631
+
+
+Reaction No. 73811
+2<Cl2(g)> + 0.5<O2(g)> + Po(s) + 2<e-1> = PoO+2_Cl-1(4)
+ No   t    I-Str           Medium                 Value (Dev)         W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution             dG:-493.1(4SF)kJ       4     CRV      17631
+
+
+Reaction No. 73812
+PoO+2_Cl-1(2)_OH-1 + H2O = H+1(2)_PoO3-2 + H+1 + 2<Cl-1>
+ No   t    I-Str             Medium               Value (Dev)     W       Tech.      Ref. #
+
+
+
+
+                                          – Page 13 of 38 –
+JESS Thermodynamic Database v8.9                                         Polonium
+
+
+ 1    25     0         Inf. Dilution          lgK:-4.8(2SF)      4        CRV       17631
+
+
+Reaction No. 73813
+Cl2(g) + 0.5<H2(g)> + O2(g) + Po(s) + e-1 = PoO+2_Cl-1(2)_OH-1
+ No   t    I-Str         Medium                Value (Dev)           W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution          dG:-444.8(4SF)kJ         4     CRV      17631
+
+
+Reaction No. 73814
+Cl2(g) + Po(s) = Po+2_Cl-1(2)_(s)
+
+Note: Reaction deliberately excluded from TDB 2020 [17Hum_31246, p. 8] (Data
+estimated by Brown (2001) for highly soluble solids)
+ No    t   I-Str        Medium                Value (Dev)        W       Tech.      Ref. #
+ 1    25     0       Inf. Dilution         dG:-130.9(4SF)kJ      5        CRV       17631
+ 2    25     0       Inf. Dilution         dG:-130.9(4SF)kJ      5        CRV       31246
+ 3    25     0       Inf. Dilution         dH:-177.4(4SF)kJ      4        CRV       17631
+
+
+Reaction No. 73815
+Br2(l) + Po(s) = Po+2_Br-1(2)_(s)
+
+Note: Reaction deliberately excluded from TDB 2020 [17Hum_31246, p. 8] (Data
+estimated by Brown (2001) for highly soluble solids)
+ No    t   I-Str         Medium               Value (Dev)        W       Tech.      Ref. #
+ 1    25     0       Inf. Dilution         dG:-50.4(3SF)kJ       5        CRV       17631
+ 2    25     0       Inf. Dilution         dG:-50.4(3SF)kJ       5        CRV       31246
+ 3    25     0       Inf. Dilution         dH:-68.3(3SF)kJ       4        CRV       17631
+
+
+Reaction No. 73816
+I2(s) + Po(s) = Po+2_I-1(2)_(s)
+
+Note: Reaction deliberately excluded from TDB 2020 [17Hum_31246, p. 8] (Species
+HYPOTHESISED by Brown (2001))
+ No    t   I-Str         Medium               Value (Dev)        W       Tech.      Ref. #
+ 1    25     0        Inf. Dilution         dG:56.7(3SF)kJ       4        CRV       17631
+ 2    25     0        Inf. Dilution         dH:76.3(3SF)kJ       4        CRV       17631
+
+
+Reaction No. 73817
+2<Cl2(g)> + Po(s) = Po+4_Cl-1(4)_(s)
+ No   t    I-Str         Medium                Value (Dev)           W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution          dG:-242.7(4SF)kJ         4     CRV      17631
+ 2    25     0       Inf. Dilution          dH:-332.7(4SF)kJ         4     CRV      17631
+
+
+
+
+                                       – Page 14 of 38 –
+JESS Thermodynamic Database v8.9                                          Polonium
+
+
+
+Reaction No. 73818
+Po+4_Cl-1(4)_(s) + 2<Cl-1> = Po+4_Cl-1(6)
+ No   t    I-Str           Medium                Value (Dev)      W       Tech.      Ref. #
+ 1    25     0         Inf. Dilution            lgK:8.63(3SF)     4        CRV       17631
+
+
+Reaction No. 73819
+Po+4_Cl-1(4)_(s) + H2O = PoO+2_Cl-1(4) + 2<H+1>
+ No   t    I-Str           Medium                Value (Dev)      W       Tech.      Ref. #
+ 1    25     0         Inf. Dilution            lgK:2.31(3SF)     4        CRV       17631
+
+
+Reaction No. 73820
+2<Br2(l)> + Po(s) = Po+4_Br-1(4)_(s)
+ No   t    I-Str         Medium                  Value (Dev)          W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution           dG:-153.4(4SF)kJ        4     CRV      17631
+ 2    25     0        Inf. Dilution           dH:-199.4(4SF)kJ        4     CRV      17631
+
+
+Reaction No. 73821
+2<I2(s)> + Po(s) = Po+4_I-1(4)_(s)
+ No   t    I-Str          Medium                 Value (Dev)      W        Tech.     Ref. #
+ 1    25     0        Inf. Dilution            dG:-49.4(3SF)kJ    4         CRV      17631
+ 2    25     0        Inf. Dilution            dH:-53.1(3SF)kJ    4         CRV      17631
+
+
+Reaction No. 73822
+Po+4_I-1(4)_(s) + 2<I-1> = Po+4_I-1(6)
+ No   t     I-Str            Medium                Value (Dev)        W    Tech.     Ref. #
+ 1    22   0.02:0.5         (H,Li)I              lgK:-2.23(3SF)       3     MSL      22541
+ 2    25         0       Inf. Dilution           lgK:-2.23(3SF)       4     CRV      17631
+
+
+Reaction No. 73823
+3<I2(s)> + Po(s) + 2<e-1> = Po+4_I-1(6)
+ No   t    I-Str         Medium                  Value (Dev)          W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution           dG:-139.9(4SF)kJ        4     CRV      17631
+
+
+Reaction No. 73824
+Po+4_I-1(4)_(s) + I-1 = Po+4_I-1(5)
+ No   t     I-Str            Medium                Value (Dev)        W    Tech.     Ref. #
+ 1    22   0.02:0.5         (H,Li)I              lgK:-4.17(3SF)       3     MSL      22541
+
+
+
+
+                                         – Page 15 of 38 –
+JESS Thermodynamic Database v8.9                                          Polonium
+
+
+ 2    25         0          Inf. Dilution        lgK:-4.17(3SF)       4     CRV      17631
+
+
+Reaction No. 73825
+2.5<I2(s)> + Po(s) + e-1 = Po+4_I-1(5)
+ No   t    I-Str            Medium               Value (Dev)      W        Tech.     Ref. #
+ 1    25     0        Inf. Dilution            dG:-77.2(3SF)kJ    4         CRV      17631
+
+
+Reaction No. 73826
+Po+2_SO4-2 + 2<e-1> = Po(s) + SO4-2
+ No   t    I-Str             Medium              Value (Dev)      W       Tech.      Ref. #
+ 1    25     0        Inf. Dilution             lgK:20.9(3SF)     1        ELC
+ 2    25     0        Inf. Dilution            lgK:20.62(4SF)     5        CRV       31246
+ 3    25     0        Inf. Dilution              E:0.61(2SF)      5        CRV       17631
+ 4    25     0        Inf. Dilution              E:0.61(2SF)      5        CRV       31246
+
+
+Reaction No. 73827
+SO4-2 + Po+2 = Po+2_SO4-2
+ No   t    I-Str             Medium              Value (Dev)      W       Tech.      Ref. #
+ 1    25     0         Inf. Dilution            lgK:1.12(3SF)     5        CRV       17631
+ 2    25     0         Inf. Dilution            lgK:1.12(3SF)     5        CRV       31246
+Note (2): Table 2, p. 28
+
+
+Reaction No. 73828
+2<O2(g)> + Po(s) + S(s) = Po+2_SO4-2
+ No   t    I-Str            Medium               Value (Dev)          W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution             lgK:110.0(4SF)         1     ELC
+ 2    25     0       Inf. Dilution            dG:-626.2(4SF)kJ        4     CRV      17631
+ 3    25     0       Inf. Dilution            dG:-626.3(4SF)kJ        5     CRV      31246
+Note (3): Table 2, p. 28
+
+
+Reaction No. 73829
+SO4-2 + PoO+2 = PoO+2_SO4-2
+ No   t    I-Str             Medium              Value (Dev)      W       Tech.      Ref. #
+ 1    25     0         Inf. Dilution            lgK:2.56(3SF)     4        CRV       17631
+
+
+Reaction No. 73830
+2.5<O2(g)> + Po(s) + S(s) = PoO+2_SO4-2
+
+
+
+
+                                         – Page 16 of 38 –
+JESS Thermodynamic Database v8.9                                         Polonium
+
+
+ No   t    I-Str           Medium               Value (Dev)          W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution            lgK:121.5(4SF)         1     ELC
+ 2    25     0       Inf. Dilution           dG:-691.1(4SF)kJ        0     CRV      17631
+
+
+Reaction No. 73831
+2<SO4-2> + PoO+2 = PoO+2_SO4-2(2)
+ No   t    I-Str            Medium              Value (Dev)      W       Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:4.50(3SF)     4        CRV       17631
+
+
+Reaction No. 73832
+4.5<O2(g)> + Po(s) + 2<S(s)> + 2<e-1> = PoO+2_SO4-2(2)
+ No   t    I-Str           Medium               Value (Dev)          W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution            lgK:254.2(4SF)         1     ELC
+ 2    25     0       Inf. Dilution           dG:-1446.1(5SF)kJ       0     CRV      17631
+
+
+Reaction No. 73833
+PoO+2_SO4-2(2) + SO4-2 = PoO+2_SO4-2(3)
+ No   t    I-Str            Medium              Value (Dev)      W       Tech.      Ref. #
+ 1    25     0         Inf. Dilution            lgK:0.4(1SF)     1        ELC
+ 2    25     0         Inf. Dilution           lgK:1.22(3SF)     0        CRV       17631
+Note (2): rejected by [17Hum_31246, p. 19]
+ 3    25     0         Inf. Dilution            lgK:2.2(2SF)     4        CRV       31246
+
+
+Reaction No. 73834
+6.5<O2(g)> + Po(s) + 3<S(s)> + 4<e-1> = PoO+2_SO4-2(3)
+ No   t    I-Str           Medium               Value (Dev)          W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution            lgK:385.5(4SF)         1     ELC
+ 2    25     0       Inf. Dilution           dG:-2197.0(5SF)kJ       0     CRV      17631
+
+
+Reaction No. 73835
+Po+2_SO4-2_(s) = Po+2 + SO4-2
+ No   t    I-Str            Medium              Value (Dev)      W       Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:-8.89(3SF)     3        CRV       17631
+ 2    25     0        Inf. Dilution           lgK:-9.97(3SF)     0        CRV       31246
+Note (2): Selected by Hummel (2002) but now rejected
+ 3    25     0        Inf. Dilution           lgK:-8.91(3SF)     5        CRV       31246
+Note (3): Table 2, p. 28
+
+
+
+
+                                       – Page 17 of 38 –
+JESS Thermodynamic Database v8.9                                       Polonium
+
+
+
+Reaction No. 73836
+2<O2(g)> + Po(s) + S(s) = Po+2_SO4-2_(s)
+ No   t    I-Str         Medium                Value (Dev)         W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution           lgK:117.8(4SF)        1     ELC
+ 2    25     0       Inf. Dilution          dG:-670.6(4SF)kJ       0     CRV      17631
+
+
+Reaction No. 73837
+PoO.PoO.OSO4(s) + H+1(2)_SO4-2 = 2<PoO+2_SO4-2> + H2O
+ No   t    I-Str          Medium               Value (Dev)     W       Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:-10.8(3SF)    1        ELC
+ 2    25     0        Inf. Dilution          lgK:-9.48(3SF)    0        CRV       17631
+Note (2): Zero wgt for inter-rxn consistency; select rxn ex H+1(2)_SO4-2
+
+
+Reaction No. 73838
+3.5<O2(g)> + 2<Po(s)> + S(s) = PoO.PoO.OSO4(s)
+ No   t    I-Str         Medium                Value (Dev)         W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution          dG:-937.3(4SF)kJ       4     CRV      17631
+
+
+Reaction No. 73839
+PoO.PoO.OSO4(s) + H2O = 2<PoO+2> + 2<OH-1> + SO4-2
+ No   t    I-Str          Medium               Value (Dev)     W       Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:-43.9(3SF)    4        CRV       17631
+
+
+Reaction No. 73840
+Po+4_SO4-2(2)_H2O_(s) + SO4-2 = PoO+2_SO4-2(3) + 2<H+1>
+ No   t    I-Str          Medium               Value (Dev)     W       Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:-3.5(2SF)    4        CRV       17631
+
+
+Reaction No. 73841
+H2(g) + 4.5<O2(g)> + Po(s) + 2<S(s)> = Po+4_SO4-2(2)_H2O_(s)
+ No   t    I-Str        Medium                Value (Dev)          W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution           lgK:259.3(4SF)        1     ELC
+ 2    25     0       Inf. Dilution         dG:-1473.1(5SF)kJ       0     CRV      17631
+
+
+Reaction No. 73842
+NO3-1 + PoO+2 = PoO+2_NO3-1
+
+Note: Data in doubt - see [17Hum_31246, p. 23]
+
+
+
+                                       – Page 18 of 38 –
+JESS Thermodynamic Database v8.9                                         Polonium
+
+
+ No   t    I-Str          Medium                Value (Dev)      W       Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:1.29(3SF)     1        CRV       17631
+
+
+Reaction No. 73843
+0.5<N2(g)> + 2<O2(g)> + Po(s) - e-1 = PoO+2_NO3-1
+ No   t    I-Str         Medium                 Value (Dev)      W        Tech.     Ref. #
+ 1    25     0        Inf. Dilution             lgK:9.3(2SF)     1         ELC
+ 2    25     0        Inf. Dilution           dG:-50.5(3SF)kJ    0         CRV      17631
+
+
+Reaction No. 73844
+2<NO3-1> + PoO+2 = PoO+2_NO3-1(2)
+
+Note: Data in doubt - see [17Hum_31246, p. 23]
+ No   t    I-Str          Medium                Value (Dev)      W       Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:2.31(3SF)     1        CRV       17631
+
+
+Reaction No. 73845
+N2(g) + 3.5<O2(g)> + Po(s) = PoO+2_NO3-1(2)
+ No   t    I-Str         Medium                 Value (Dev)          W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution             lgK:29.7(3SF)         1     ELC
+ 2    25     0       Inf. Dilution            dG:-166.8(4SF)kJ       0     CRV      17631
+
+
+Reaction No. 73846
+3<NO3-1> + PoO+2 = PoO+2_NO3-1(3)
+
+Note: Data in doubt - see [17Hum_31246, p. 23]
+ No   t    I-Str          Medium                Value (Dev)      W       Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:2.33(3SF)     1        CRV       17631
+
+
+Reaction No. 73847
+1.5<N2(g)> + 5<O2(g)> + Po(s) + e-1 = PoO+2_NO3-1(3)
+ No   t    I-Str         Medium                 Value (Dev)          W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution             lgK:49.2(3SF)         1     ELC
+ 2    25     0       Inf. Dilution            dG:-277.4(4SF)kJ       0     CRV      17631
+
+
+Reaction No. 73848
+PoO.PoO.(NO3)3.OH(s) + 3<H+1_NO3-1> = 2<PoO+2_NO3-1(3)> + H2O + 2<H+1 >
+ No   t    I-Str          Medium                Value (Dev)      W       Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:-6.5(2SF)     4        CRV       17631
+
+
+
+
+                                       – Page 19 of 38 –
+JESS Thermodynamic Database v8.9                                       Polonium
+
+
+
+Reaction No. 73849
+0.5<H2(g)> + 1.5<N2(g)> + 6<O2(g)> + 2<Po(s)> = PoO.PoO.(NO3)3.OH(s)
+ No   t    I-Str         Medium                Value (Dev)         W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution          dG:-521.0(4SF)kJ       4     CRV      17631
+
+
+Reaction No. 73850
+PoO.PoO.(NO3)3.OH(s) = 2<PoO+2> + OH-1 + 3<NO3-1>
+ No   t    I-Str          Medium               Value (Dev)     W       Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:-28.9(3SF)    1        ELC
+ 2    25     0        Inf. Dilution          lgK:-33.9(3SF)    0        CRV       17631
+Note (2): Zero wgt for inter-rxn consistency; other rxn gives better solubility
+
+
+Reaction No. 73851
+SeO4-2 + PoO+2 = PoO+2_SeO4-2
+
+Note: Data in doubt - see [17Hum_31246, p. 22]
+ No   t    I-Str          Medium               Value (Dev)     W       Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:2.1(2SF)    1        ELC
+ 2    25     0         Inf. Dilution          lgK:2.43(3SF)    0        CRV       17631
+Note (2): p. 80
+
+
+Reaction No. 73852
+2<SeO4-2> + PoO+2 = PoO+2_SeO4-2(2)
+
+Note: Data in doubt - see [17Hum_31246, p. 22]
+ No   t    I-Str          Medium               Value (Dev)     W       Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:3.5(2SF)    1        ELC
+ 2    25     0         Inf. Dilution          lgK:3.78(3SF)    0        CRV       17631
+Note (2): p. 80
+
+
+Reaction No. 73853
+2.5<O2(g)> + Po(s) + Se(s) = PoO+2_SeO4-2
+ No   t    I-Str         Medium                Value (Dev)         W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution          dG:-387.4(4SF)kJ       4     CRV      17631
+Note (1): p. 80
+
+
+Reaction No. 73854
+4.5<O2(g)> + Po(s) + 2<Se(s)> + 2<e-1> = PoO+2_SeO4-2(2)
+
+
+
+
+                                       – Page 20 of 38 –
+JESS Thermodynamic Database v8.9                                       Polonium
+
+
+ No   t    I-Str         Medium                 Value (Dev)        W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution         dG:-836.0(4SF)kJ        4     CRV      17631
+Note (1): p. 80
+
+
+Reaction No. 73855
+PoO.PoO.OSeO4(s) + H+1(2)_SeO4-2 = 2<PoO+2_SeO4-2> + H2O
+ No   t    I-Str          Medium                Value (Dev)    W       Tech.      Ref. #
+ 1    25     0        Inf. Dilution         lgK:-14.0(3SF)     1        ELC
+ 2    25     0        Inf. Dilution         lgK:-9.97(3SF)     0        CRV       17631
+Note (2): p. 81
+
+
+Reaction No. 73856
+PoO.PoO.OSeO4(s) + 3<H+1(2)_SeO4-2> = 2<PoO+2_SeO4-2(2)> + H2O + 4<H+1 >
+ No   t    I-Str          Medium                Value (Dev)    W       Tech.      Ref. #
+ 1    25     0        Inf. Dilution         lgK:-18.7(3SF)     1        ELC
+ 2    25     0        Inf. Dilution          lgK:-7.8(2SF)     0        CRV       17631
+Note (2): p. 82 (the sign on the p/c is unclear; neither way works)
+
+
+Reaction No. 73857
+PoO.PoO.OSeO4(s) + H2O = 2<PoO+2> + 2<OH-1> + SeO4-2
+ No   t    I-Str          Medium                Value (Dev)    W       Tech.      Ref. #
+ 1    25     0        Inf. Dilution         lgK:-43.6(3SF)     1        ELC
+ 2    25     0        Inf. Dilution         lgK:-43.1(3SF)     0        CRV       17631
+Note (2): p. 82
+
+
+Reaction No. 73858
+3.5<O2(g)> + 2<Po(s)> + Se(s) = PoO.PoO.OSeO4(s)
+
+Note: Data located on p. 82
+ No   t    I-Str         Medium                 Value (Dev)        W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution         dG:-628.0(4SF)kJ        4     CRV      17631
+ 2    25     0       Inf. Dilution         dG:-631.0(4SF)kJ        4     CRV      17631
+ 3    25     0       Inf. Dilution         dG:-629.5(4SF)kJ        4     CRV      17631
+
+
+Reaction No. 73859
+PoO+2 + 6<CN-1> + 2<H+1> = Po+4_CN-1(6) + H2O
+
+Note: Data in doubt - see [17Hum_31246, p. 26]
+ No   t    I-Str          Medium                Value (Dev)    W       Tech.      Ref. #
+
+
+
+
+                                      – Page 21 of 38 –
+JESS Thermodynamic Database v8.9                                         Polonium
+
+
+ 1    25     0         Inf. Dilution            lgK:53.8(3SF)    1        EES
+ 2    25     0         Inf. Dilution            lgK:49.8(3SF)    0        CRV       17631
+
+
+Reaction No. 73860
+6<C(s)> + 3<N2(g)> + Po(s) + 2<e-1> = Po+4_CN-1(6)
+ No   t    I-Str            Medium               Value (Dev)         W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution            dG:1013.8(5SF)kJ       4     CRV      17631
+
+
+Reaction No. 73861
+2<PoO+2_CN-1(2)_(s)> + 2<CN-1> = PoO2(s) + Po+4_CN-1(6)
+
+Note: Data in doubt - see [17Hum_31246, p. 26]
+ No   t    I-Str             Medium              Value (Dev)     W       Tech.      Ref. #
+ 1    25     0         Inf. Dilution            lgK:-3.9(2SF)    1        CRV       17631
+
+
+Reaction No. 73862
+2<PoO+2_CN-1(2)_(s)> + 2<CN-1> + OH-1 = H+1_PoO3-2 + Po+4_CN-1(6)
+
+Note: Data in doubt - see [17Hum_31246, p. 26]
+ No   t    I-Str             Medium              Value (Dev)     W       Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:-8.86(3SF)    1        CRV       17631
+
+
+Reaction No. 73863
+2<C(s)> + N2(g) + 0.5<O2(g)> + Po(s) = PoO+2_CN-1(2)_(s)
+
+Note: Data in doubt - see [17Hum_31246, p. 26]
+ No   t    I-Str            Medium               Value (Dev)     W        Tech.     Ref. #
+ 1    25     0        Inf. Dilution            dG:234.1(4SF)kJ   1         CRV      17631
+
+
+Reaction No. 73864
+Po+2_S-2_(s) = Po+2 + S-2
+
+Note: The species S-2 does not exist in aqueous solution See reaction: H+1 + S-2 =
+H+1_S-2
+ No   t    I-Str            Medium               Value (Dev)     W        Tech.     Ref. #
+ 1    25     0        Inf. Dilution            lgK:-28.3(3SF)    0         CRV      14620
+Note (1): p. 783, no correction for I
+ 2    25     0        Inf. Dilution           lgK:-27.26(4SF)    0         CRV      17631
+ 3    25     0        Inf. Dilution           lgK:-28.26(4SF)    0         EOD      22537
+Note (3): No correction for I it seems
+ 4    25     2                HCl             lgK:-28.27(4SF)    0         MSL      22543
+
+
+
+
+                                         – Page 22 of 38 –
+JESS Thermodynamic Database v8.9                                     Polonium
+
+
+
+Reaction No. 73865
+Po(s) + S(s) = Po+2_S-2_(s)
+ No   t    I-Str            Medium               Value (Dev)     W   Tech.      Ref. #
+ 1    25     0           Inf. Dilution          lgK:-9.9(2SF)    1    ELC
+ 2    25     0           Inf. Dilution         dG:218.(3SF)kJ    0    CRV       3006
+ 3    25     0           Inf. Dilution         dG:61.0(3SF)kJ    0    CRV       17631
+
+
+Reaction No. 73866
+Ag2PoO3(s) = 2<Ag+1> + PoO3-2
+
+Note: Caution advised - see [17Hum_31246, p. 26]
+ No   t    I-Str            Medium               Value (Dev)     W    Tech.     Ref. #
+ 1    25     0          Inf. Dilution          lgK:-24.40(4SF)   2     CRV      17631
+
+
+Reaction No. 73867
+2<Ag(s)> + 1.5<O2(g)> + Po(s) = Ag2PoO3(s)
+
+Note: Caution advised - see [17Hum_31246, p. 26]
+ No   t    I-Str           Medium                Value (Dev)     W    Tech.     Ref. #
+ 1    25     0          Inf. Dilution         dG:-228.2(4SF)kJ   2     CRV      17631
+
+
+Reaction No. 73868
+PbPo(s) = Pb+2 + Po-2
+ No   t    I-Str            Medium               Value (Dev)     W   Tech.      Ref. #
+ 1    25     0           Inf. Dilution         lgK:-55.2(3SF)    5    CRV       17631
+ 2    25     0           Inf. Dilution         lgK:-55.2(3SF)    5    CRV       31246
+
+
+Reaction No. 73869
+HgPo(s) = Hg+2 + Po-2
+ No   t    I-Str            Medium               Value (Dev)     W   Tech.      Ref. #
+ 1    25     0           Inf. Dilution         lgK:-76.8(3SF)    5    CRV       17631
+ 2    25     0           Inf. Dilution         lgK:-76.8(3SF)    5    CRV       31246
+
+
+Reaction No. 73870
+ZnPo(s) = Zn+2 + Po-2
+ No   t    I-Str            Medium               Value (Dev)     W   Tech.      Ref. #
+ 1    25     0           Inf. Dilution         lgK:-37.7(3SF)    5    CRV       17631
+ 2    25     0           Inf. Dilution         lgK:-37.7(3SF)    5    CRV       31246
+
+
+
+
+                                         – Page 23 of 38 –
+JESS Thermodynamic Database v8.9                                        Polonium
+
+
+
+Reaction No. 73871
+NiPo(s) = Ni+2 + Po-2
+ No   t    I-Str            Medium              Value (Dev)     W       Tech.      Ref. #
+ 1    25     0          Inf. Dilution         lgK:-46.1(3SF)    5        CRV       17631
+ 2    25     0          Inf. Dilution         lgK:-46.1(3SF)    5        CRV       31246
+
+
+Reaction No. 73872
+Pb(s) + Po(s) = PbPo(s)
+ No   t    I-Str           Medium               Value (Dev)     W        Tech.     Ref. #
+ 1    25     0          Inf. Dilution         dG:-65.3(3SF)kJ   4         CRV      17631
+
+
+Reaction No. 73873
+Hg(l) + Po(s) = HgPo(s)
+ No   t    I-Str            Medium              Value (Dev)     W       Tech.      Ref. #
+ 1    25     0          Inf. Dilution         dG:-0.8(1SF)kJ    4        CRV       17631
+
+
+Reaction No. 73874
+Po(s) + Zn(s) = ZnPo(s)
+ No   t    I-Str           Medium               Value (Dev)     W        Tech.     Ref. #
+ 1    25     0          Inf. Dilution         dG:-88.7(3SF)kJ   4         CRV      17631
+
+
+Reaction No. 73875
+Ni(s) + Po(s) = NiPo(s)
+ No   t    I-Str           Medium               Value (Dev)     W        Tech.     Ref. #
+ 1    25     0          Inf. Dilution         dG:-34.0(3SF)kJ   4         CRV      17631
+
+
+Reaction No. 73881
+Po+2_S-2_(s) + H+1 = Po+2 + H+1_S-2
+ No   t    I-Str            Medium              Value (Dev)     W       Tech.      Ref. #
+ 1    25     0          Inf. Dilution         lgK:-14.2(3SF)    1        ELC
+Note (1): Also accords better with lgK for analogous rxn with Pb+2
+ 2    25     0          Inf. Dilution          lgK:23.6(3SF)    0        CRV       5081
+Note (2): Zero wgt for inter-reaction consistency
+
+
+Reaction No. 73981
+PoO+2_OH-1(2)_(s) + 2<OH-1> = PoO3-2 + 2<H2O>
+ No   t    I-Str          Medium                Value (Dev)         W    Tech.     Ref. #
+
+
+
+
+                                        – Page 24 of 38 –
+JESS Thermodynamic Database v8.9                                               Polonium
+
+
+ 1    25    0        Inf. Dilution              lgK:-4.086(4SF)            3     CRV       14620
+ 2    25    0          K+1 salt               lgK:-4.086(0.02SD)           3     MSL       22534
+
+
+Reaction No. 73982
+Po+4_OH-1(4)_(s) = Po+4 + 4<OH-1>
+ No   t    I-Str            Medium                 Value (Dev)         W        Tech.     Ref. #
+ 1    25     0        Inf. Dilution              lgK:-37.9(3SF)        1         ELC
+ 2    25     0        Inf. Dilution              lgK:-38.22(4SF)       0         MSL      22536
+Note (2): Refers to Po+4 and should not
+
+
+Reaction No. 73983
+PoO3(s) + 6<H+1> + 4<e-1> = Po+2 + 3<H2O>
+ No    t    I-Str             Medium               Value (Dev)     W           Tech.      Ref. #
+ 1    25         0         Inf. Dilution           E:1.16(3SF)     5            CRV       22537
+ 2    25         0         Inf. Dilution            E:1.3(2SF)     0            CRV       22551
+
+
+Reaction No. 73984
+Po(s) + 2<e-1> + 2<H+1> = H+1(2)_Po-2_(g)
+ No    t    I-Str             Medium               Value (Dev)     W           Tech.      Ref. #
+ 1    25         0         Inf. Dilution             E:1.(1SF)     3            CRV       3006
+ 2    25         0         Inf. Dilution             E:1.(1SF)     3            CRV       22551
+
+
+Reaction No. 73985
+PoO3(s) + 6<e-1> + 6<H+1> = Po(s) + 3<H2O>
+ No    t    I-Str             Medium               Value (Dev)     W           Tech.      Ref. #
+ 1    25         0         Inf. Dilution           E:0.99(2SF)     1            ELC
+Note (1): Note lgK = 100 eqv. E = 1V
+ 2    25         0         Inf. Dilution           E:0.16(2SF)     0            CRV       22551
+
+
+Reaction No. 73992
+NO3-1 + Po+4 = Po+4_NO3-1
+ No   t    I-Str            Medium                 Value (Dev)         W        Tech.     Ref. #
+ 1    23     0              Unknown               lgK:0.56(2SF)        0         MIX      22552
+ 2    25     0        Inf. Dilution              lgK:2.0(0.45SD)       3         CRV      31246
+Note (2): Table 2, p. 28
+
+
+Reaction No. 73993
+
+
+
+
+                                           – Page 25 of 38 –
+JESS Thermodynamic Database v8.9                                    Polonium
+
+
+2<NO3-1> + Po+4 = Po+4_NO3-1(2)
+ No   t    I-Str             Medium           Value (Dev)      W    Tech.      Ref. #
+ 1    23     0              Unknown          lgK:1.15(3SF)     0     MIX       22552
+ 2    25     0        Inf. Dilution         lgK:3.7(0.2SD)     3     CRV       31246
+Note (2): Table 2, p. 28
+
+
+Reaction No. 73994
+3<NO3-1> + Po+4 = Po+4_NO3-1(3)
+ No   t    I-Str            Medium            Value (Dev)       W    Tech.     Ref. #
+ 1    23     0              Unknown          lgK:1.30(3SF)      0     MIX      22552
+ 2    25     0        Inf. Dilution         lgK:4.4(0.25SD)     3     CRV      31246
+Note (2): Table 2, p. 28
+
+
+Reaction No. 73995
+SO4-2 + Po+4 = Po+4_SO4-2
+
+Note: See comparisons with other M+4 cations [17Hum_31246, p. 18] which support
+confidence in this result
+ No   t    I-Str            Medium           Value (Dev)       W    Tech.      Ref. #
+ 1    23     0              Unknown          lgK:1.5(2SF)      0     MIX       22552
+ 2    25     0        Inf. Dilution        lgK:5.2(0.3SD)      4     CRV       31246
+Note (2): see remark above
+ 3    25     0        Inf. Dilution         lgK:2.56(3SF)      1     EOD       31246
+Note (3): "Shortcomings" in interpretation [17Hum_31246]
+ 4    25     2              Unknown         lgK:1.46(3SF)      1     EOD       31246
+Note (4): "Shortcomings" in interpretation [17Hum_31246]
+
+
+Reaction No. 73996
+2<SO4-2> + Po+4 = Po+4_SO4-2(2)
+
+Note: See comparisons with other M+4 cations [17Hum_31246, p. 18] which support
+confidence in this result
+ No   t    I-Str            Medium           Value (Dev)        W    Tech.     Ref. #
+ 1    23     0             Unknown          lgK:3.38(3SF)       0    MIX       22552
+ 2    25     0       Inf. Dilution         lgK:9.1(0.35SD)      3    CRV       31246
+Note (2): see cremark above
+ 3    25     0       Inf. Dilution          lgK:4.50(3SF)       0    EOD       31246
+Note (3): "Shortcomings" in interpretation [17Hum_31246]
+ 4    25     2             Unknown          lgK:3.40(3SF)       0    EOD       31246
+
+
+
+
+                                      – Page 26 of 38 –
+JESS Thermodynamic Database v8.9                                        Polonium
+
+
+Note (4): "Shortcomings" in interpretation [17Hum_31246]
+
+
+Reaction No. 73997
+Acetic-1 + Po+4 = Po+4_Acetic-1
+ No    t     I-Str       Medium             Value (Dev)        W       Tech.       Ref. #
+  1   23         0      Unknown            lgK:2.51(3SF)       1       MIX         22552
+Note (1): Prob. should be wrt PoO+2
+
+
+Reaction No. 73998
+2<Acetic-1> + Po+4 = Po+4_Acetic-1(2)
+ No    t     I-Str       Medium             Value (Dev)        W       Tech.       Ref. #
+  1   23         0      Unknown            lgK:4.85(3SF)       3       MIX         22552
+
+
+Reaction No. 73999
+3<Acetic-1> + Po+4 = Po+4_Acetic-1(3)
+ No    t     I-Str       Medium             Value (Dev)        W       Tech.       Ref. #
+  1   23         0      Unknown            lgK:7.18(3SF)       3       MIX         22552
+
+
+Reaction No. 74000
+Oxalic-2 + Po+4 = Po+4_Oxalic-2
+ No   t    I-Str          Medium                Value (Dev)        W    Tech.      Ref. #
+ 1    23     0            Unknown              lgK:5.23(3SF)       3     MIX        22552
+ 2    25     0         Inf. Dilution            lgK:5.2(2SF)       1     ELC
+
+
+Reaction No. 74001
+2<Oxalic-2> + Po+4 = Po+4_Oxalic-2(2)
+ No   t    I-Str          Medium                Value (Dev)        W    Tech.      Ref. #
+ 1    23     0            Unknown              lgK:9.74(3SF)       3     MIX        22552
+ 2    25     0         Inf. Dilution            lgK:9.7(2SF)       1     ESC
+
+
+Reaction No. 74002
+PoO+2_OH-1(2)_(s) + H2O = Po+4 + 4<OH-1>
+ No   t    I-Str          Medium                Value (Dev)        W     Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-10.0(3SF)       0      MEF       22555
+Note (1): Refers to Po+4 but should not
+
+
+Reaction No. 74003
+ClO4-1 + Po+4 = Po+4_ClO4-1
+
+
+
+
+                                        – Page 27 of 38 –
+JESS Thermodynamic Database v8.9                                        Polonium
+
+
+ No    t     I-Str      Medium              Value (Dev)         W       Tech.      Ref. #
+  1   23      1:4       Unknown            lgK:-0.89(2SF)       3       MDS        22556
+
+
+Reaction No. 74004
+2<ClO4-1> + Po+4 = Po+4_ClO4-1(2)
+ No    t     I-Str      Medium              Value (Dev)         W       Tech.      Ref. #
+  1   23      1:4       Unknown            lgK:-1.48(3SF)       3       MDS        22556
+
+
+Reaction No. 74005
+3<ClO4-1> + Po+4 = Po+4_ClO4-1(3)
+ No    t     I-Str      Medium              Value (Dev)         W       Tech.      Ref. #
+  1   23      1:4       Unknown            lgK:-2.05(3SF)       3       MDS        22556
+
+
+Reaction No. 74006
+4<ClO4-1> + Po+4 = Po+4_ClO4-1(4)
+ No    t     I-Str      Medium              Value (Dev)         W       Tech.      Ref. #
+  1   23      1:4       Unknown            lgK:-2.78(3SF)       3       MDS        22556
+
+
+Reaction No. 74007
+PoO3(s) + 3<H2O> + 6<e-1> = Po(s) + 6<OH-1>
+ No   t    I-Str          Medium                Value (Dev)         W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:16.4(3SF)        1     ELC
+ 2    25     0         Inf. Dilution            E:0.16(2SF)         0     CRV       14620
+ 3    25     0         Inf. Dilution            E:0.857(3SF)        0     CRV       22537
+Note (3): Bad inter-reaction consistency
+
+
+Reaction No. 74008
+PoO3-2 + 3<H2O> + 2<e-1> = Po+2 + 6<OH-1>
+ No   t    I-Str          Medium                Value (Dev)         W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution            lgK:-24.2(3SF)       1     ELC
+ 2    25     0        Inf. Dilution             E:0.847(3SF)        0     CRV       22537
+
+
+Reaction No. 74009
+Po+4 + 2<OH-1> = PoO+2 + H2O
+ No   t    I-Str          Medium                Value (Dev)         W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:23.1(3SF)        1     ELC
+ 2    25     0         Inf. Dilution            lgK:30.(2SF)        0     CDF
+
+
+
+
+                                       – Page 28 of 38 –
+JESS Thermodynamic Database v8.9                                     Polonium
+
+
+Note (2): Balances hydrolysis of Po+4 to PoO+2 & E0 for Po+4_Cl-1(6) wrt Po(s)
+
+
+Reaction No. 74010
+PoO+2 + 3<H2O> = Po+4_OH-1(4)_(s) + 2<H+1>
+ No   t    I-Str         Medium                  Value (Dev)     W    Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:-13.22(4SF)   4     EOD       22559
+
+
+Reaction No. 74011
+PoO+2 + 2<H2O> = PoO+2_OH-1(2) + 2<H+1>
+ No   t    I-Str          Medium                 Value (Dev)     W   Tech.       Ref. #
+ 1    23    0.1         (H,Na)ClO4             lgK:-3.26(3SF)    3    MDS        22552
+ 2    25     0        Inf. Dilution            lgK:-3.06(3SF)    4    CRV        17631
+
+
+Reaction No. 74012
+PoO+2_OH-1 + H2O = PoO+2_OH-1(2) + H+1
+ No   t    I-Str          Medium                 Value (Dev)     W   Tech.       Ref. #
+ 1    25     0        Inf. Dilution             lgK:-1.8(2SF)    1    ELC
+ 2    25     0        Inf. Dilution            lgK:-2.21(3SF)    0    CRV        17631
+
+
+Reaction No. 74013
+Po+2 + 2<Cl-1> = Po+2_Cl-1(2)_(s)
+ No   t    I-Str         Medium                  Value (Dev)     W    Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:-1.115(4SF)   1     ELC
+
+
+Reaction No. 74016
+H2(g) + O2(g) + Po(s) - 4<e-1> = Po+6_OH-1(2)
+ No   t    I-Str         Medium                  Value (Dev)     W    Tech.      Ref. #
+ 1    25     0        Inf. Dilution            dG:-473.(3SF)kJ   0     CRV        3006
+Note (1): No evidence for Po+6
+
+
+Reaction No. 74017
+PoO3-2 + 4<e-1> + 6<H+1> = Po(s) + 3<H2O>
+ No   t    I-Str          Medium                 Value (Dev)     W   Tech.      Ref. #
+ 1    25     0         Inf. Dilution            lgK:81.9(3SF)    1    ELC
+ 2    25     0         Inf. Dilution             E:0.748(3SF)    0    CRV        3006
+
+
+Reaction No. 74018
+Po+4_OH-1(2) + 2<Oxalic-2> = Po+4_OH-1(2)_Oxalic-2(2)
+
+
+
+
+                                         – Page 29 of 38 –
+JESS Thermodynamic Database v8.9                                          Polonium
+
+
+ No       t     I-Str      Medium            Value (Dev)         W       Tech.       Ref. #
+  1    22            1     NaClO4           lgK:7.78(3SF)        3       MDS         22562
+  2    25           0.4    NaClO4           lgK:7.48(3SF)        3       MIX         22562
+
+
+Reaction No. 74019
+Po+4_OH-1(2) + 2<Tartaric-2> = Po+4_OH-1(2)_Tartaric-2(2)
+ No       t     I-Str      Medium            Value (Dev)         W       Tech.       Ref. #
+  1    22            1     NaClO4           lgK:7.30(3SF)        3       MDS         22562
+  2    25           0.4    NaClO4           lgK:7.90(3SF)        3       MIX         22562
+
+
+Reaction No. 74020
+Po+4_OH-1(2) + 2<H+1_NTA-3> = Po+4_H+1(2)_OH-1(2)_NTA-3(2)
+ No       t     I-Str      Medium            Value (Dev)         W       Tech.       Ref. #
+  1    22            1     NaClO4           lgK:8.18(3SF)        0       MDS         22562
+  2    25           0.4    NaClO4           lgK:5.78(3SF)        0       MIX         22562
+
+
+Reaction No. 74021
+Po+4_OH-1(2) + 2<H+1_EDTA-4> = Po+4_H+1(2)_OH-1(2)_EDTA-4(2)
+ No       t     I-Str      Medium            Value (Dev)         W       Tech.       Ref. #
+  1    22            1     NaClO4           lgK:8.0(2SF)         0       MDS         22562
+  2    25           0.4    NaClO4           lgK:5.95(3SF)        0       MIX         22562
+
+
+Reaction No. 74022
+Po+4_OH-1(2) + 2<H+1_Citric-3> = Po+4_H+1(2)_OH-1(2)_Citric-3(2)
+ No       t     I-Str      Medium            Value (Dev)         W       Tech.       Ref. #
+  1    22            1     NaClO4           lgK:8.18(3SF)        0        MDS        22562
+  2    25           0.4    NaClO4           lgK:5.78(3SF)        0        MIX        22562
+
+
+Reaction No. 75945
+Po+4_Oxalic-2 + Oxalic-2 = Po+4_Oxalic-2(2)
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    23        1            NaClO4              lgK:4.51(3SF)       5      MIX       22552
+ 2    25        0         Inf. Dilution           lgK:4.5(2SF)       1      ESC
+
+
+Reaction No. 80509
+Po(s) = Po(aq)
+ No   t       I-Str           Medium              Value (Dev)        W    Tech.      Ref. #
+
+
+
+
+                                          – Page 30 of 38 –
+JESS Thermodynamic Database v8.9                                           Polonium
+
+
+ 1    25         0     Inf. Dilution               lgK:-7.(1SF)    3        CRV       31246
+Note (1): By analogy with Pb; see also Table 2, p. 28
+
+
+Reaction No. 80510
+Po+2_S-2_(s) + 2<H+1> = Po+2 + H+1(2)_S-2
+
+Note: Considered by 17Hum_31246 but omitted from TDB 2020
+ No    t    I-Str            Medium                Value (Dev)     W       Tech.      Ref. #
+ 1    25         0     Inf. Dilution              lgK:-7.0(2SF)    0        EES
+
+
+Reaction No. 80511
+PoO2(s) + 4<H+1> = Po+4 + 2<H2O>
+ No    t    I-Str             Medium               Value (Dev)     W       Tech.      Ref. #
+ 1    25         0         Inf. Dilution           lgK:1.(1SF)     3        CRV       31246
+Note (1): lgK "very poorly defined"; see also Table 2, p. 28
+
+
+Reaction No. 80512
+PoO2(s) + 2<H2O> + 2<OH-1> = Po+4_OH-1(6)
+ No   t    I-Str           Medium                 Value (Dev)          W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution             lgK:-4.43(0.05SD)       4     CRV       31246
+
+
+Reaction No. 80513
+PoO2(s) + 4<H2O> = Po+4_OH-1(6) + 2<H+1>
+ No   t    I-Str           Medium                 Value (Dev)          W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution            lgK:-32.43(0.05SD)       4     CRV       31246
+Note (1): Table 2, p. 28
+
+
+Reaction No. 80514
+PoO2(s) + 2<H2O> = Po+4_OH-1(4)
+ No    t    I-Str            Medium                Value (Dev)     W       Tech.      Ref. #
+ 1    25         0     Inf. Dilution              lgK:-7.5(2SF)    4        CRV       31246
+Note (1): Table 2, p. 28
+
+
+Reaction No. 80515
+PoO2(s) + H+1 + H2O = Po+4_OH-1(3)
+ No    t    I-Str            Medium                Value (Dev)     W       Tech.      Ref. #
+ 1    25         0     Inf. Dilution              lgK:-3.0(2SF)    4        CRV       31246
+Note (1): Table 2, p. 28
+
+
+
+
+                                           – Page 31 of 38 –
+JESS Thermodynamic Database v8.9                                  Polonium
+
+
+Reaction No. 80516
+PoO2(s) + 2<H+1> = Po+4_OH-1(2)
+ No   t    I-Str          Medium               Value (Dev)    W   Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:-0.5(1SF)   2    CRV       31246
+Note (1): approx; see also Table 2, p. 28
+
+
+Reaction No. 80517
+PoO2(s) + 3<H+1> = Po+4_OH-1 + H2O
+ No   t    I-Str           Medium              Value (Dev)    W   Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:0.5(1SF)   2    CRV       31246
+Note (1): approx; see also Table 2, p. 28
+
+
+Reaction No. 80518
+Po+4 + H2O = Po+4_OH-1 + H+1
+ No   t    I-Str          Medium               Value (Dev)    W   Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:-0.5(1SF)   2    CRV       31246
+Note (1): approx
+
+
+Reaction No. 80519
+Po+4_OH-1 + H2O = Po+4_OH-1(2) + H+1
+ No   t    I-Str          Medium               Value (Dev)    W   Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:-1.0(2SF)   2    CRV       31246
+Note (1): approx
+
+
+Reaction No. 80520
+Po+4_OH-1(2) + H2O = Po+4_OH-1(3) + H+1
+ No   t    I-Str          Medium               Value (Dev)    W   Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:-2.5(2SF)   2    CRV       31246
+Note (1): approx
+
+
+Reaction No. 80521
+Po+4_OH-1(3) + H2O = Po+4_OH-1(4) + H+1
+ No   t    I-Str          Medium               Value (Dev)    W   Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:-4.5(2SF)   2    CRV       31246
+Note (1): approx
+
+
+Reaction No. 80522
+
+
+
+
+                                       – Page 32 of 38 –
+JESS Thermodynamic Database v8.9                                        Polonium
+
+
+Po+4 + 2<H2O> = Po+4_OH-1(2) + 2<H+1>
+ No   t    I-Str          Medium                Value (Dev)     W       Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:-1.5(2SF)    2        CRV       31246
+Note (1): approx
+
+
+Reaction No. 80523
+Po+4 + 3<H2O> = Po+4_OH-1(3) + 3<H+1>
+ No   t    I-Str          Medium                Value (Dev)     W       Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:-4.0(2SF)    2        CRV       31246
+Note (1): approx
+
+
+Reaction No. 80524
+Po+4 + 4<H2O> = Po+4_OH-1(4) + 4<H+1>
+ No   t    I-Str          Medium                Value (Dev)     W       Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:-8.5(2SF)    2        CRV       31246
+Note (1): approx
+
+
+Reaction No. 80649
+PoO+2_Cl-1(4) + 2<H2O> = PoO+2_OH-1(2) + 2<H+1> + 4<Cl-1>
+
+Note: Uncertainty over state of hydrolysis. Also seems incompatible with solubility
+data [17Hum_31246, p. 16]
+ No    t    I-Str         Medium               Value (Dev)      W       Tech.      Ref. #
+ 1    25         0     Inf. Dilution          lgK:-8.9(2SF)     2        EOD       31246
+ 2    25         1       (H,Na)Cl             lgK:-8.7(2SF)     2        EOD       31246
+
+
+Reaction No. 80650
+PoO+2_Cl-1(2)_OH-1 + H2O = PoO+2_OH-1(2) + 2<Cl-1> + H+1
+
+Note: Uncertainty over state of hydrolysis. Also seems incompatible with solubility
+data [17Hum_31246, p. 16]
+ No    t    I-Str         Medium               Value (Dev)      W       Tech.      Ref. #
+ 1    25         0     Inf. Dilution          lgK:-4.8(2SF)     2        EOD       31246
+ 2    25         1       (H,Na)Cl             lgK:-4.6(2SF)     2        EOD       31246
+
+
+Reaction No. 80651
+Po+4 + H+1_SO4-2 = Po+4_SO4-2 + H+1
+ No   t    I-Str        Medium                 Value (Dev)          W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution           lgK:3.26(0.3SD)        4     CRV      31246
+ 2    25     2          Unknown             lgK:-0.10(0.11SD)       4     CRV      31246
+
+
+
+
+                                        – Page 33 of 38 –
+JESS Thermodynamic Database v8.9                                        Polonium
+
+
+
+Reaction No. 80652
+Po+4 + 2<H+1_SO4-2> = Po+4_SO4-2(2) + 2<H+1>
+ No   t    I-Str           Medium               Value (Dev)     W        Tech.     Ref. #
+ 1    25     0       Inf. Dilution          lgK:5.10(0.35SD)    2         CRV      31246
+ 2    25     2             Unknown          lgK:0.26(0.15SD)    2         CRV      31246
+
+
+Reaction No. 80653
+Po+4_SO4-2 + SO4-2 = Po+4_SO4-2(2)
+
+Note: See comparisons with other M+4 cations [17Hum_31246, p. 18] which support
+confidence in this result
+ No   t    I-Str           Medium              Value (Dev)      W        Tech.     Ref. #
+ 1    25     0       Inf. Dilution          lgK:3.9(0.45SD)     5        CRV       31246
+Note (1): see remark above
+
+
+Reaction No. 80654
+Po+4_SO4-2(2)_H2O_(s) + H+1_SO4-2 = Po+4_SO4-2(3) + H+1 + H2O
+ No   t    I-Str           Medium               Value (Dev)         W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution          lgK:-6.33(0.02SD)       5     CRV      31246
+Note (1): Table 2, p. 28
+ 2    25     4             H2SO4               lgR:-6.1(2SF)        1     ESI      31246
+
+
+Reaction No. 80667
+Po+4_OH-1(2) + NO3-1 = Po+4_NO3-1_OH-1(2)
+ No   t    I-Str            Medium              Value (Dev)     W        Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:1.3(0.45SD)    3         CRV      31246
+
+
+Reaction No. 80668
+Po+4_OH-1(2) + 2<NO3-1> = Po+4_NO3-1(2)_OH-1(2)
+ No   t    I-Str             Medium             Value (Dev)     W       Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:2.3(0.2SD)   3        CRV       31246
+
+
+Reaction No. 80669
+Po+4_OH-1(2) + 3<NO3-1> = Po+4_NO3-1(3)_OH-1(2)
+ No   t    I-Str            Medium              Value (Dev)     W        Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:2.3(0.25SD)    3         CRV      31246
+
+
+Reaction No. 80670
+
+
+
+
+                                      – Page 34 of 38 –
+JESS Thermodynamic Database v8.9                                           Polonium
+
+
+H2(g) + Po(s) - 4<e-1> = Po+2_H+1(2)
+ No      t      I-Str            Medium                Value (Dev)     W    Tech.     Ref. #
+    1   25        0         Inf. Dilution            dG:206.5(4SF)kJ   4     CRV      31246
+Note (1): Table 2, p. 28
+
+
+Reaction No. 80671
+0.5<H2(g)> + Po(s) - 3<e-1> = Po+2_H+1
+ No      t      I-Str            Medium                Value (Dev)     W    Tech.     Ref. #
+    1   25        0         Inf. Dilution            dG:209.3(4SF)kJ   4     CRV      31246
+Note (1): Table 2, p. 28
+
+
+
+
+                                          Data Assessment
+
+
+Weight                           Assessment
+9            highest accuracy
+8            multi-determined; excellent dependability
+7            trustworthy; outstanding single determination
+6            better than average reliability
+5            average single determination
+4            some doubt
+3            poorly known
+2            guess to achieve consistency (or just as bad)
+1            no information but consistent
+0            problematic/inconsistent
+
+
+
+
+                                              Techniques
+
+
+Abbrev                             Method
+CDF          Definition
+CRV          Critical review
+EES          Personal estimate
+EIE          Interpolation/Extrapolation (not Debye-Huekel)
+ELC          Linear Combination of Reactions
+
+
+
+
+                                               – Page 35 of 38 –
+JESS Thermodynamic Database v8.9                                   Polonium
+
+
+EOD    Calculated from data of others
+EOR    Other Reaction Constants
+ESC    Standard conditions anchor
+ESI    Specific Ion Interaction Theory
+MCE    Cation exchange
+MDS    Distribution between two phases
+MEF    Electromotoric force, not specified
+MIX    Ion exchange
+MSL    Solubility
+MTD    Temperature difference
+
+
+
+
+                                    References
+
+
+Reference No.: 906(79Per)
+IUPAC Chemical Data Series No. 22, 1979 Perrin DD; Stability Constants of Metal-Ion
+Complexes, First Edition Part B, Organic Ligands; Pergamon, Oxford
+
+Reference No.: 931(71SiM)
+Stability Constants of Metal-ion Complexes SP25, 1971 Sillen LG; Martell AE; Supplement
+No 1 to Special Publication No 25; Chemical Society, London
+
+Reference No.: 1118(82And)
+Pure Appl. Chem., 1982, 54, 2693 - 2758; Anderegg G; Critical Survey of Stability
+Constants of NTA Complexes
+
+Reference No.: 3006(85BPJ)
+Standard Potentials in Aqueous Solution, 1985 Bard AJ; Parsons R; Jordan J; Monographs
+in Electroanalytical Chemistry and Electrochemistry; Marcel Dekker Inc.,New York and
+Basel
+
+Reference No.: 5081(88Lic)
+J. Electrochem. Soc., 1988, 135, 2971 - 2975; Licht S; Aqueous Solubilities, Solubility
+Products and Standard Oxidation- Reduction Potentials of the Metal Sulfides
+
+Reference No.: 14620(97GrE)
+Chemistry of the Elements, 2nd Edn., 1997 Greenwood NN; Earnshaw A; Butterworth-
+Heinemann, Oxford, U.K.
+
+Reference No.: 17631(01Bro)
+Thesis, Univ. Western Sydney, 2001 Brown SA; The Aqueous Chemistry of Polonium and Its
+Relationship to Mineral Processing Streams; Univ. Western Sydney, N.S.W., Australia
+
+Reference No.: 22519(05Lid)
+CRC Handbook of Chemistry and Physics, 86th Edn., 2005 Lide DR; A Ready-Reference Book
+of Chemical and Physical Data; Taylor & Francis, Boca Raton, USA
+
+
+
+
+                                         – Page 36 of 38 –
+JESS Thermodynamic Database v8.9                                   Polonium
+
+
+Reference No.: 22521(58NSZ)
+Trudy Radievogo Inst. V.G. Khlopina, 1958, 8, 141 - 152; Nikol'skii BP; Sinitsyna GS;
+Ziv DM; The Determination of the Valency of Polonium in Solution
+
+Reference No.: 22522(66HaP)
+J. Inorg. Nucl. Chem., 1966, 28, 2861 - 2871; Haissinsky M; Pluchet E; Polonium
+Extraction by Solvents and Standard Potentials of Reduced Polonium
+
+Reference No.: 22523(55BDF)
+J. Chem. Soc., 1955,, 2320 - 2326; Bagnall KW; D'Eye RWM; Freeman JH; The Polonium
+Halides. Part I. Polonium Chlorides
+
+Reference No.: 22534(57BaF)
+J. Chem. Soc., 1957,, 2161 - 2163; Bagnall KW; Freeman JH; Solubility of Some Polonium
+Compounds
+
+Reference No.: 22536(59StA)
+Radiokhimiya, 1959, 1, 419 - 424; Starik IE; Ampelogova NI; The State of
+Microquantities of Radioelements in Solutions. XII. Investigation of the State of
+Polonium in Aqueous Solutions by the Electrochemical Method
+
+Reference No.: 22537(83Bag)
+Radiochim. Acta, 1983, 32, 153 - 161; Bagnall KW; The Chemistry of Polonium
+
+Reference No.: 22541(56BDF)
+J. Chem. Soc., 1956,, 3385 - 3389; Bagnall KW; D'Eye RWM; Freeman JH; The Polonium
+Halides. Part III. Polonium Tetraiodide
+
+Reference No.: 22542(56BaF)
+J. Chem. Soc., 1956,, 2770 - 2274; Bagnall KW; Freeman JH; Electrochemical Studies on
+Polonium
+
+Reference No.: 22543(57BaR)
+J. Chem. Soc., 1957,, 1044 - 1046; Bagnall KW; Robertson DS; Polonium Monosulphide
+
+Reference No.: 22551(06Inz)
+Encyclopedia of Electrochemistry, Vol. 7a, 2006, 17 - 75; Inzelt G; Standard, Formal
+and Other Characteristic Potentials of Selected Electrode Reactions
+
+Reference No.: 22552(73Amp)
+Radiokhimiya, 1973, 15, 813 - 820; Ampelogova NI; Investigation of Complex Formation of
+Polonium by an Ion Exchange Method
+
+Reference No.: 22553(67KoF)
+Proc. Int Conf. Solvent Extraction Chemistry 1966, 1967, 26 - 31; Koch H; Falkenberg
+WD; The Stability of Chelate-complexes of Polonium(IV)
+
+Reference No.: 22555(58ZZS)
+Trudy Radievogo Inst. V.G. Khlopina, 1958, 8, 158 - 162; Ziv DM; Ziv V; Sinitsyna GS;
+The Determination of the Solubility of Polonium Hydroxide by an Electrochemical Method
+
+Reference No.: 22556(64SAK)
+Radiokhimiya, 1964, 6, 524 - 527; Starik IE; Ampelogova NI; Kuznetsov BS; The Formation
+of Complexes of Polonium with Chloride Ions in Aqueous and Water-Acetone Solutions
+
+Reference No.: 22559(63KoS)
+Z. Naturforsch., 1963, 18B, 936 - 941; Koch H; Schmidt H; Determination of Hydrolysis
+Constants in Aqueous Solution by the Ion-Exchange Method
+
+
+
+
+                                      – Page 37 of 38 –
+JESS Thermodynamic Database v8.9                                   Polonium
+
+
+Reference No.: 22562(66KoF)
+Proc. Int. Conf. Solvent Extraction Chemistry, 1966, 26 - 31; Koch H; Falkenberg WD;
+The Stability of Chelate Complexes of Polonium(IV)
+
+Reference No.: 31246(17Hum)
+Report Paul Scherrer Institut TM-44-17-08, 2017 Hummel W; The PSI Chemical
+Thermodynamic Database 2020. Data Selection for Polonium; Paul Scherrer Institut,
+Villigen, Switzerland
+
+Reference No.: 31585(19RVE)
+J. Hazard. Mater., 2019, 380, 120725-1 - 120725-17; Ram R; Vaughan J; Etschmann B;
+Brugger J; The Aqueous Chemistry of Polonium (Po) in Environmental and Anthropogenic
+Processes
+
+
+
+
+                                      – Page 38 of 38 –
+

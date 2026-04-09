@@ -35,16 +35,30 @@ function Get-ChunkKey([string]$product) {
     return ('c{0:d3}' -f $bucket)
 }
 
+function Get-SourcesFromContrib([string]$txt) {
+    if ([string]::IsNullOrWhiteSpace($txt)) { return @() }
+    $set = New-Object System.Collections.Generic.HashSet[string]
+    $m = [regex]::Matches($txt, '\(([^()]+)\)') | ForEach-Object { $_.Groups[1].Value.Trim() }
+    foreach ($v in $m) {
+        if (-not [string]::IsNullOrWhiteSpace($v)) { [void]$set.Add($v) }
+    }
+    return @($set | Sort-Object)
+}
+
 $rows = Import-Csv -Delimiter "`t" -Path $inPath
 $chunks = @{}
 $atomToChunks = @{}
+$sourceToChunks = @{}
+$allSources = New-Object System.Collections.Generic.HashSet[string]
 $total = 0
 
 foreach ($r in $rows) {
     $k = if ($r.PSObject.Properties.Name -contains 'logK') { $r.logK } else { $r.logK_25C }
     $product = [string]$r.product
     $equation = [string]$r.equation_full
+    $contrib = [string]$r.contributing_logK
     $atoms = @(Get-AtomsFromText ($product + ' ' + $equation))
+    $sources = @(Get-SourcesFromContrib $contrib)
     $chunkKey = Get-ChunkKey $product
     if (-not $chunks.ContainsKey($chunkKey)) {
         $chunks[$chunkKey] = New-Object System.Collections.Generic.List[object]
@@ -54,11 +68,12 @@ foreach ($r in $rows) {
         p = $product
         e = $equation
         k = [string]$k
-        c = [string]$r.contributing_logK
+        c = $contrib
         x = [string]$r.experimental_conditions
         m = [string]$r.database_comments
         rf = [string]$r.reference_consolidated
         a = $atoms
+        s = $sources
     }
     $chunks[$chunkKey].Add($row) | Out-Null
     $total++
@@ -68,6 +83,13 @@ foreach ($r in $rows) {
             $atomToChunks[$a] = New-Object System.Collections.Generic.HashSet[string]
         }
         [void]$atomToChunks[$a].Add($chunkKey)
+    }
+    foreach ($s in $sources) {
+        [void]$allSources.Add($s)
+        if (-not $sourceToChunks.ContainsKey($s)) {
+            $sourceToChunks[$s] = New-Object System.Collections.Generic.HashSet[string]
+        }
+        [void]$sourceToChunks[$s].Add($chunkKey)
     }
 }
 
@@ -85,11 +107,18 @@ foreach ($a in ($atomToChunks.Keys | Sort-Object)) {
     $atomChunksOut[$a] = @($atomToChunks[$a] | Sort-Object)
 }
 
+$sourceChunksOut = @{}
+foreach ($s in ($sourceToChunks.Keys | Sort-Object)) {
+    $sourceChunksOut[$s] = @($sourceToChunks[$s] | Sort-Object)
+}
+
 $manifest = [PSCustomObject]@{
     generated_at = (Get-Date).ToString('s')
     total_rows = $total
     chunks = $chunkManifest
     atom_to_chunks = $atomChunksOut
+    sources = @($allSources | Sort-Object)
+    source_to_chunks = $sourceChunksOut
 }
 
 [System.IO.File]::WriteAllText(

@@ -1,0 +1,569 @@
+                           JESS Thermodynamic Database v8.9
+                                                  Osmium
+
+                                                 24-Jan-23
+
+Reaction No. 5067
+Os+4_Cl-1(6) + e-1 = Os+3_Cl-1(6)
+ No    t           I-Str             Medium              Value (Dev)             W     Tech.   Ref. #
+  1    25            1                HCl              lgK:14.0(0.1SD)           0      ENS      600
+  2    25            0           Inf. Dilution           E:0.85(2SF)             4      CRV     22551
+
+
+Reaction No. 5068
+OsO2(s) + 2<H2O> + 4<e-1> = Os(s) + 4<OH-1>
+ No    t           I-Str            Medium              Value (Dev)              W     Tech.   Ref. #
+  1    25            0           Inf. Dilution         lgK:-14.5(3SF)            1      ELC
+  2    25            0                HCl             lgK:-10.0(0.1SD)           0      ENS      600
+
+
+Reaction No. 5069
+Os+8 + Os+6 = 2<Os+7>
+ No            t           I-Str       Medium         Value (Dev)            W        Tech.    Ref. #
+  1        20:30             1          KOH          lgK:0.9(0.2SD)          0         MSP      5465
+
+
+Reaction No. 5070
+OsO3 + OH-1 = OsO3_OH-1
+ No     t           I-Str          Medium            Value (Dev)         W           Tech.     Ref. #
+  1    25            0.5           Unknown         lgK:5.3(0.05SD)       0            CSM       233
+
+
+Reaction No. 5071
+OsO3 + 2<OH-1> = OsO3_OH-1(2)
+ No     t           I-Str          Medium            Value (Dev)         W           Tech.     Ref. #
+  1    25            0.5           Unknown         lgK:8.7(0.05SD)       0            CSM       233
+
+
+Reaction No. 5591
+Thr-1 + Os+4 = Os+4_Thr-1
+  No       t         I-Str          Medium           Value (Dev)         W           Tech.     Ref. #
+  1     28           0.02           Unknown         lgK:5.60(3SF)        4           MGL        905
+
+
+Reaction No. 5701
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                         Osmium
+
+
+2<Met-1> + Os+4 = Os+4_Met-1(2)
+ No    t     I-Str          Medium         Value (Dev)        W       Tech.       Ref. #
+  1   28     0.02       Unknown           lgK:6.06(3SF)       6       MGL          905
+
+
+Reaction No. 5739
+Ser-1 + Os+4 = Os+4_Ser-1
+ No    t     I-Str          Medium         Value (Dev)        W       Tech.       Ref. #
+  1   28     0.02       Unknown           lgK:5.60(3SF)       4       MGL          905
+
+
+Reaction No. 18527
+2<Gly-1> + Os+4 = Os+4_Gly-1(2)
+ No    t    I-Str           Medium           Value (Dev)      W       Tech.       Ref. #
+  1   28      0         Cl-1 salt           lgK:5.04(3SF)     4        MGL         1555
+
+
+Reaction No. 35994
+Os+3 + Thiourea = Os+3_Thiourea
+ No   t    I-Str             Medium             Value (Dev)       W    Tech.      Ref. #
+ 1    25                                      lgK:4.06(3SF)       4     MPS        4117
+ 2    25               Ethanol:Water          lgK:4.72(3SF)       4     MPS        4117
+                          20:80Vol
+ 3    25               Ethanol:Water          lgK:4.80(3SF)       4     MPS        4117
+                          40:60Vol
+ 4    25               Ethanol:Water          lgK:4.70(3SF)       4     MPS        4117
+                          60:40Vol
+
+
+Reaction No. 35995
+Os+3 + 2<Thiourea> = Os+3_Thiourea(2)
+ No   t    I-Str             Medium             Value (Dev)       W    Tech.      Ref. #
+ 1    25                                      lgK:7.54(3SF)       4     MPS        4117
+ 2    25               Ethanol:Water          lgK:8.87(3SF)       4     MPS        4117
+                          20:80Vol
+ 3    25               Ethanol:Water          lgK:9.08(3SF)       4     MPS        4117
+                          40:60Vol
+ 4    25               Ethanol:Water          lgK:9.06(3SF)       4     MPS        4117
+                          60:40Vol
+
+
+Reaction No. 35996
+Os+3 + 3<Thiourea> = Os+3_Thiourea(3)
+ No   t    I-Str             Medium            Value (Dev)        W     Tech.     Ref. #
+ 1    25                                      lgK:10.6(3SF)       4      MPS       4117
+
+
+
+
+                                        – Page 2 of 11 –
+JESS Thermodynamic Database v8.9                                    Osmium
+
+
+ 2    25              Ethanol:Water           lgK:12.79(4SF)   4   MPS        4117
+                        20:80Vol
+ 3    25              Ethanol:Water           lgK:13.17(4SF)   4   MPS        4117
+                        40:60Vol
+ 4    25              Ethanol:Water           lgK:13.14(4SF)   4   MPS        4117
+                        60:40Vol
+
+
+Reaction No. 35997
+Os+3 + 4<Thiourea> = Os+3_Thiourea(4)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25                                      lgK:13.4(3SF)    4   MPS        4117
+ 2    25              Ethanol:Water           lgK:16.55(4SF)   4   MPS        4117
+                        20:80Vol
+ 3    25              Ethanol:Water           lgK:16.9(3SF)    4   MPS        4117
+                        40:60Vol
+ 4    25              Ethanol:Water           lgK:17.07(4SF)   4   MPS        4117
+                        60:40Vol
+
+
+Reaction No. 35998
+Os+3 + 5<Thiourea> = Os+3_Thiourea(5)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25                                      lgK:16.03(4SF)   4   MPS        4117
+ 2    25              Ethanol:Water           lgK:19.63(4SF)   4   MPS        4117
+                        20:80Vol
+ 3    25              Ethanol:Water           lgK:20.59(4SF)   4   MPS        4117
+                        40:60Vol
+ 4    25              Ethanol:Water           lgK:20.82(4SF)   4   MPS        4117
+                        60:40Vol
+
+
+Reaction No. 35999
+Os+3 + 6<Thiourea> = Os+3_Thiourea(6)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25                                      lgK:18.4(3SF)    4   MPS        4117
+ 2    25              Ethanol:Water           lgK:23.48(4SF)   4   MPS        4117
+                        20:80Vol
+ 3    25              Ethanol:Water           lgK:23.99(4SF)   4   MPS        4117
+                        40:60Vol
+ 4    25              Ethanol:Water           lgK:24.31(4SF)   4   MPS        4117
+                        60:40Vol
+
+
+Reaction No. 54699
+OsO4 + H2O = OsO4_OH-1 + H+1
+
+
+
+
+                                        – Page 3 of 11 –
+JESS Thermodynamic Database v8.9                                               Osmium
+
+
+ No   t     I-Str          Medium                Value (Dev)             W    Tech.     Ref. #
+ 1    25      0       Inf. Dilution           lgK:-12.3(0.1SD)           4     MDS       5103
+
+
+Reaction No. 54700
+OsO4 + 2<OH-1> = OsO4_OH-1(2)
+ No    t     I-Str        Medium             Value (Dev)         W           Tech.      Ref. #
+  1   25          1       Unknown          lgK:1.1(0.05SD)       7           CSM          8
+
+
+Reaction No. 54731
+Os(s) + 2<O2(g)> = OsO4
+ No   t     I-Str            Medium               Value (Dev)        W        Tech.     Ref. #
+ 1    25      0           Inf. Dilution         dG:-72.(1.SD)        3         ENS       869
+
+
+Reaction No. 54732
+Os(s) + 2<O2(g)> = OsO4(yellow,s)
+ No   t     I-Str            Medium              Value (Dev)         W        Tech.     Ref. #
+ 1    25      0        Inf. Dilution            lgK:53.(0.5SD)       3         ENS        802
+ 2    25      0        Inf. Dilution            lgK:53.43(4SF)       4         ENS       6422
+ 3    27      0        Inf. Dilution            lgK:53.00(4SF)       4         ENS       6422
+ 4    31      0        Inf. Dilution            lgK:52.10(4SF)       4         ENS       6422
+ 5    25      0        Inf. Dilution            dG:-72.88(4SF)       4         EFE       6422
+ 6    25      0        Inf. Dilution            dH:-94.(0.5SD)       4         ENS        802
+ 7    25      0        Inf. Dilution            dH:-94.19(4SF)       4         MTD       6422
+ 8    27      0        Inf. Dilution            dH:-94.16(4SF)       4         MTD       6422
+ 9    31      0        Inf. Dilution            dH:-94.10(4SF)       4         MTD       6422
+
+
+Reaction No. 54733
+Os(s) + O2(g) = OsO2(s)
+ No    t     I-Str           Medium               Value (Dev)        W        Tech.     Ref. #
+ 1    25          0       Inf. Dilution         lgK:41.97(4SF)       4         ENS       6422
+ 2    27          0       Inf. Dilution         lgK:41.65(4SF)       4         ENS       6422
+ 3    127         0       Inf. Dilution         lgK:28.82(4SF)       4         ENS       6422
+ 4    227         0       Inf. Dilution         lgK:21.15(4SF)       4         ENS       6422
+ 5    327         0       Inf. Dilution         lgK:16.06(4SF)       4         ENS       6422
+ 6    25          0       Inf. Dilution          dG:-46.(1.SD)       0         ENS        869
+ 7    25          0       Inf. Dilution         dG:-57.25(4SF)       4         EFE       6422
+ 8    25          0       Inf. Dilution          dH:-70.5(3SF)       4         MTD       6422
+
+
+
+
+                                          – Page 4 of 11 –
+JESS Thermodynamic Database v8.9                                    Osmium
+
+
+ 9    127           0   Inf. Dilution          dH:-70.3(3SF)   4    MTD       6422
+ 10   227           0   Inf. Dilution          dH:-70.1(3SF)   4    MTD       6422
+ 11   327           0   Inf. Dilution          dH:-69.7(3SF)   4    MTD       6422
+
+
+Reaction No. 54734
+Os(s) + 2<O2(g)> = OsO4(white,s)
+ No   t     I-Str          Medium              Value (Dev)     W   Tech.     Ref. #
+ 1    25        0       Inf. Dilution         lgK:53.(0.5SD)   3    ENS       802
+ 2    25        0       Inf. Dilution         dH:-92.(0.5SD)   4    ENS       802
+
+
+Reaction No. 54735
+Os(s) + 2.5<O2(g)> + H2(g) = H+1_OsO4_OH-1
+ No   t     I-Str          Medium              Value (Dev)     W   Tech.     Ref. #
+ 1    25        0       Inf. Dilution         lgK:95.(0.9SD)   0    ENS       869
+
+
+Reaction No. 54736
+Os(s) + 2.5<O2(g)> + 2<e-1> = OsO5-2
+ No   t     I-Str           Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25        0       Inf. Dilution         dG:-93.(1.SD)    3   ENS        869
+
+
+Reaction No. 54737
+Os(s) + 4<OH-1> = OsO2.2H2O(s) + 4<e-1>
+ No   t     I-Str          Medium              Value (Dev)     W   Tech.     Ref. #
+ 1    25        0       Inf. Dilution         E:0.12(0.02SD)   4    ENS       869
+
+
+Reaction No. 57792
+Os(s) = Os(g)
+ No   t     I-Str           Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25        0       Inf. Dilution         dG:177.(1.SD)    4   ENS        869
+ 2    25        0       Inf. Dilution         dH:188.(1.SD)    4   ENS        869
+
+
+Reaction No. 57793
+Os(s) + 2<O2(g)> + 2<H2(g)> = OsO2.2H2O(s)
+ No   t     I-Str          Medium              Value (Dev)     W   Tech.     Ref. #
+ 1    25        0       Inf. Dilution         lgK:118.3(4SF)   1    ELC
+ 2    25        0       Inf. Dilution         dG:-161.(1.SD)   0    ENS       869
+
+
+Reaction No. 57794
+
+
+
+
+                                        – Page 5 of 11 –
+JESS Thermodynamic Database v8.9                                          Osmium
+
+
+Os(s) + 2<O2(g)> = OsO4(g)
+ No   t       I-Str          Medium             Value (Dev)        W     Tech.     Ref. #
+ 1    25        0       Inf. Dilution         dG:-70.(1.SD)        4      ENS        869
+ 2    25        0       Inf. Dilution         dH:-81.(1.SD)        4      ENS        869
+
+
+Reaction No. 57795
+Os(s) + H2(g) + 2.5<O2(g)> = H+1(2)_OsO5-2
+ No   t       I-Str          Medium            Value (Dev)         W     Tech.     Ref. #
+ 1    25        0       Inf. Dilution         dG:-129.(1.SD)       4      ENS        869
+
+
+Reaction No. 57796
+Os(s) + 0.5<H2(g)> + 2.5<O2(g)> = H+1_OsO5-2 - e-1
+ No   t       I-Str          Medium            Value (Dev)         W     Tech.     Ref. #
+ 1    25        0       Inf. Dilution         dG:-113.(1.SD)       4      ENS        869
+
+
+Reaction No. 59562
+Asn-1 + Os+4 = Os+4_Asn-1
+ No    t       I-Str        Medium         Value (Dev)         W       Tech.       Ref. #
+  1   28        0.02     Unknown          lgK:5.17(3SF)        3        MGL         905
+
+
+Reaction No. 59994
+2<Ala-1> + Os+4 = Os+4_Ala-1(2)
+ No       t     I-Str     Medium          Value (Dev)          W       Tech.       Ref. #
+  1    25                                lgK:6.97(3SF)         0       MGL          2392
+
+
+Reaction No. 60002
+2<Val-1> + Os+4 = Os+4_Val-1(2)
+ No       t     I-Str     Medium          Value (Dev)          W       Tech.       Ref. #
+  1    28                                lgK:7.77(3SF)         3       MGL          2392
+
+
+Reaction No. 60021
+2<Leu-1> + Os+4 = Os+4_Leu-1(2)
+ No       t     I-Str     Medium          Value (Dev)          W       Tech.       Ref. #
+  1    28                                lgK:5.82(3SF)         3       MGL          2392
+
+
+Reaction No. 60027
+2<Ile-1> + Os+4 = Os+4_Ile-1(2)
+ No       t     I-Str     Medium          Value (Dev)          W       Tech.       Ref. #
+
+
+
+
+                                        – Page 6 of 11 –
+JESS Thermodynamic Database v8.9                                                Osmium
+
+
+  1    28                                  lgK:5.72(3SF)         0           MGL          2392
+
+
+Reaction No. 60077
+2<bAla-1> + Os+4 = Os+4_bAla-1(2)
+ No    t     I-Str         Medium           Value (Dev)          W           Tech.       Ref. #
+  1    28                                  lgK:6.12(3SF)         3           MGL          2392
+
+
+Reaction No. 60510
+OsO4 + OH-1 = OsO4_OH-1
+ No    t     I-Str        Medium             Value (Dev)             W       Tech.       Ref. #
+  1   25      0.5         Unknown          lgK:1.6(0.1SD)            5        CRV         2556
+  2   25       1          Unknown           lgK:1.3(2SF)             5        CRV         2556
+
+
+Reaction No. 67129
+Os(s) + 2<P(s)> = OsP2(s)
+ No    t    I-Str            Medium               Value (Dev)            W     Tech.     Ref. #
+ 1    25      0           Inf. Dilution         lgK:24.97(4SF)           4      ENS       6422
+ 2    27      0           Inf. Dilution         lgK:24.81(4SF)           4      ENS       6422
+ 3    127     0           Inf. Dilution         lgK:18.12(4SF)           4      ENS       6422
+ 4    227     0           Inf. Dilution         lgK:14.09(4SF)           4      ENS       6422
+ 5    327     0           Inf. Dilution         lgK:11.40(4SF)           4      ENS       6422
+ 6    25      0           Inf. Dilution         dG:-34.07(4SF)           4      EFE       6422
+ 7    25      0           Inf. Dilution          dH:-36.4(3SF)           4      MTD       6422
+ 8    127     0           Inf. Dilution          dH:-36.8(3SF)           4      MTD       6422
+ 9    227     0           Inf. Dilution          dH:-36.9(3SF)           4      MTD       6422
+ 10   327     0           Inf. Dilution          dH:-37.0(3SF)           4      MTD       6422
+
+
+Reaction No. 67130
+Os(s) + 2<S(s)> = Os+4_S-2(2)_(s)
+ No    t    I-Str            Medium               Value (Dev)            W     Tech.     Ref. #
+ 1    25      0           Inf. Dilution         lgK:23.66(4SF)           4      ENS       6422
+ 2    27      0           Inf. Dilution         lgK:23.50(4SF)           0      ENS       6422
+ 3    127     0           Inf. Dilution         lgK:17.04(4SF)           2      ENS       6422
+ 4    227     0           Inf. Dilution         lgK:13.01(4SF)           1      ENS       6422
+ 5    327     0           Inf. Dilution         lgK:10.27(4SF)           0      ENS       6422
+ 6    25      0           Inf. Dilution         dG:-32.28(4SF)           4      EFE       6422
+ 7    25      0           Inf. Dilution          dH:-35.3(3SF)           4      MTD       6422
+
+
+
+
+                                          – Page 7 of 11 –
+JESS Thermodynamic Database v8.9                                        Osmium
+
+
+ 8    127     0        Inf. Dilution           dH:-36.5(3SF)       1     MTD      6422
+ 9    227     0        Inf. Dilution           dH:-37.3(3SF)       0     MTD      6422
+ 10   327     0        Inf. Dilution           dH:-37.9(3SF)       0     MTD      6422
+
+
+Reaction No. 67131
+Os(s) + 2<Se(s)> = Os+4_Se-2(2)_(s)
+ No    t    I-Str          Medium               Value (Dev)        W    Tech.    Ref. #
+ 1    25      0        Inf. Dilution          lgK:19.18(4SF)       4     ENS      6422
+ 2    27      0        Inf. Dilution          lgK:19.05(4SF)       4     ENS      6422
+ 3    127     0        Inf. Dilution          lgK:13.80(4SF)       4     ENS      6422
+ 4    227     0        Inf. Dilution          lgK:10.60(4SF)       4     ENS      6422
+ 5    327     0        Inf. Dilution          lgK:8.224(4SF)       4     ENS      6422
+ 6    25      0        Inf. Dilution          dG:-26.17(4SF)       4     EFE      6422
+ 7    25      0        Inf. Dilution           dH:-28.7(3SF)       4     MTD      6422
+ 8    127     0        Inf. Dilution           dH:-29.0(3SF)       4     MTD      6422
+ 9    227     0        Inf. Dilution           dH:-32.2(3SF)       4     MTD      6422
+ 10   327     0        Inf. Dilution           dH:-32.9(3SF)       4     MTD      6422
+
+
+Reaction No. 71054
+Os+3_Bipy(3) + e-1 = Os+2_Bipy(3)
+ No   t     I-Str          Medium               Value (Dev)    W       Tech.     Ref. #
+ 1    25      0        Inf. Dilution            E:0.80(2SF)    2        CRV       6330
+ 2    25      0        Inf. Dilution           E:0.885(3SF)    2        CRV      22551
+
+
+Reaction No. 71055
+Os+3_Bipy(2) + e-1 = Os+2_Bipy(2)
+ No   t     I-Str          Medium               Value (Dev)    W       Tech.     Ref. #
+ 1    25      0         Inf. Dilution           E:0.81(2SF)    5       CRV       6330
+
+
+Reaction No. 71056
+OsO4(yellow,s) + 4<H+1> + 4<e-1> = OsO2(s) + 2<H2O>
+ No   t     I-Str         Medium                Value (Dev)    W       Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:72.0(3SF)    1        ELC
+ 2    25      0        Inf. Dilution            E:1.02(3SF)    0        CRV       6330
+
+
+Reaction No. 71057
+OsO4(yellow,s) + 8<H+1> + 8<e-1> = Os(s) + 4<H2O>
+
+
+
+
+                                        – Page 8 of 11 –
+JESS Thermodynamic Database v8.9                                                Osmium
+
+
+ No      t       I-Str             Medium               Value (Dev)    W       Tech.     Ref. #
+    1   25            0         Inf. Dilution          E:0.838(3SF)    5       CRV       6330
+
+
+Reaction No. 74286
+OsO4 + 8<e-1> + 8<H+1> = Os(s) + 4<H2O>
+ No      t       I-Str            Medium               Value (Dev)     W       Tech.     Ref. #
+    1   25         0        Inf. Dilution             lgK:113.4(4SF)   1        ELC
+    2   25         0        Inf. Dilution              E:0.84(2SF)     0        CRV      22551
+
+
+Reaction No. 74287
+OsO4(s) + 4<e-1> + 4<H+1> = OsO2(s) + 2<H2O>
+ No      t       I-Str             Medium               Value (Dev)    W       Tech.     Ref. #
+    1   25            0         Inf. Dilution          E:1.005(4SF)    4       CRV       22551
+
+
+Reaction No. 74288
+OsO2(s) + 4<e-1> + 4<H+1> = Os(s) + 2<H2O>
+ No      t       I-Str            Medium                Value (Dev)    W       Tech.     Ref. #
+    1   25         0        Inf. Dilution             lgK:41.5(3SF)    1        ELC
+    2   25         0        Inf. Dilution              E:0.687(3SF)    0        CRV      22551
+
+
+Reaction No. 74289
+Os+3_CN-1(6) + e-1 = Os+2_CN-1(6)
+ No      t       I-Str             Medium               Value (Dev)    W       Tech.     Ref. #
+    1   25            0         Inf. Dilution          E:0.634(3SF)    4       CRV       22551
+
+
+Reaction No. 75620
+1.5<Cl2(g)> + Os(s) = Os+3_Cl-1(3)_(s)
+ No     t       I-Str            Medium                Value (Dev)         W    Tech.    Ref. #
+    1   25        0        Inf. Dilution            dH:-190.4(4SF)kJ       3     CRV      6330
+
+
+
+
+                                           Data Assessment
+
+
+Weight                          Assessment
+9            highest accuracy
+8            multi-determined; excellent dependability
+7            trustworthy; outstanding single determination
+
+
+
+
+                                                – Page 9 of 11 –
+JESS Thermodynamic Database v8.9                                      Osmium
+
+
+6        better than average reliability
+5        average single determination
+4        some doubt
+3        poorly known
+2        guess to achieve consistency (or just as bad)
+1        no information but consistent
+0        problematic/inconsistent
+
+
+
+
+                                        Techniques
+
+
+Abbrev                   Method
+CRV      Critical review
+CSM      Smith & Martell Vols 1-6 (crit.)
+EFE      Free Energy relations
+ELC      Linear Combination of Reactions
+ENS      Not specified
+MDS      Distribution between two phases
+MGL      Glass electrode
+MPS      Potentiometry and Spectrophotometry
+MSP      Spectroscopy
+MTD      Temperature difference
+
+
+
+
+                                        References
+
+
+Reference No.: 8(76SmM)
+Critical Stability Constants, Vol. 4, 1976 Smith RM; Martell AE; Plenum, New York
+
+Reference No.: 233(89SmM)
+Critical Stability Constants, Vol. 6, 1989 Smith RM; Martell AE; Plenum, New York
+
+Reference No.: 600(52Lat)
+The Oxidation States of the Elements, 2nd Edn, 1952 Latimer WM; and their Potentials in
+Aqueous Solutions; Prentice-Hall Inc., New York, USA
+
+
+
+
+                                           – Page 10 of 11 –
+JESS Thermodynamic Database v8.9                                      Osmium
+
+
+Reference No.: 802(90Wea)
+CRC Handbook of Chemistry and Physics, 70th Edn., 1990 Weast RC; A Ready-Reference Book
+of Chemical and Physical Data; CRC Press, Cleveland, Ohio
+
+Reference No.: 869(68GoH)
+Chem. Rev., 1968, 68, 229 - 252; Goldberg RN; Hepler LG; Thermochemistry and Oxidation
+Potentials of the Platinum Group Metals and their Compounds
+
+Reference No.: 905(95Ber)
+Pure Appl. Chem., 1995, 67, 1117 - 143; Berthon G; Critical Review of Formation
+Constants of Selected Amino Acids with Polar Side Chains
+
+Reference No.: 1555(91KSG)
+Pure Appl. Chem., 1991, 63, 597 - 638; Kiss T; Sovago I; Gergely A; Critical Survey of
+Stability Constants of Complexes of Glycine
+
+Reference No.: 2392(93SKG)
+Pure Appl. Chem., 1993, 65, 1029 - 1080; Sovago I; Kiss T; Gergely A; Critical Survey
+of the Stability Constants of Complexes of Aliphatic Amino Acids
+
+Reference No.: 2556(93MSM)
+NIST Critical Stability Constants of Metal Complexes Database, 1993 Martell AE; Smith
+RM; Motekaitis RJ; Version 1.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 4117(83SeS)
+Zh. Neorg. Khim., 1983, 28, 3090 - 3094; Sereda IP; Stadnik AM; Study of the Stepwise
+Complexing of Osmium with Thiourea
+
+Reference No.: 5103(72Lee)
+J. Inorg. Nucl. Chem., 1972, 34, 375 - 378; Lee DA; Extraction of Osmium Tetroxide and
+Evidence for Anionic Osmium(VIII) Species
+
+Reference No.: 5465(68BHC)
+C. R. Acad. Sci., 1968, 66, 496 - 499; Beaufils J-P; Hellin M; Coussemant F;
+Disproportionation Equilibrium in Septivalent Osmium
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+Reference No.: 6422(95BaP)
+Thermochemical Data of Pure Substances, 3rd Edn., 1995 Barin I; Platzki G; Weinheim,
+Germany
+
+Reference No.: 22551(06Inz)
+Encyclopedia of Electrochemistry, Vol. 7a, 2006, 17 - 75; Inzelt G; Standard, Formal
+and Other Characteristic Potentials of Selected Electrode Reactions
+
+
+
+
+                                      – Page 11 of 11 –
+

@@ -1,0 +1,1300 @@
+                       JESS Thermodynamic Database v8.9
+                                            Radium
+
+                                           24-Jan-23
+
+Reaction No. 4186
+EDTA-4 + Ra+2 = Ra+2_EDTA-4
+ No    t    I-Str              Medium            Value (Dev)      W   Tech.   Ref. #
+  1   20     0.1                KNO3             lgK:7.7(2SF)     0   MSC      903
+  2   20     0.1                NaCl            lgK:7.07(3SF)     3   EIU      903
+  3   20     0.1                NaCl           lgK:7.1(0.06SD)    3   MIX      903
+  4   20     0.1               Unknown           lgK:7.1(2SF)     2   ENS      773
+  5   23                                        lgK:7.12(3SF)     3   MIX      903
+  6   25       0          Inf. Dilution         lgK:8.879(4SF)    1   EOR
+  7   25       0          Inf. Dilution        lgK:9.13(0.07SD)   5   EDH     29889
+  8   25       0               NaCl/m          lgK:9.11(0.09SD)   3   EDH     29889
+Note (8): Strangely, different from Inf Dil value in abstract
+  9   25     0.1              Cl-1 salt          lgK:7.4(2SF)     4   MIX      903
+ 10   25     0.1                KNO3             lgK:7.5(2SF)     3   MSC      903
+ 11   25     0.1               NaClO4            lgK:7.5(2SF)     3   MDS      906
+ 12   25     0.22              NaCl/m          lgK:6.96(0.20SD)   3   MIX     29889
+ 13   25     0.51              NaCl/m          lgK:6.60(0.08SD)   3   MIX     29889
+ 14   25     1.02              NaCl/m          lgK:6.42(0.10SD)   3   MIX     29889
+ 15   25     2.09              NaCl/m          lgK:6.60(0.10SD)   3   MIX     29889
+ 16   25     2.64              NaCl/m          lgK:6.63(0.08SD)   3   MIX     29889
+
+
+Reaction No. 4857
+Ra+2 + 2<e-1> = Ra(s)
+ No     t     I-Str             Medium            Value (Dev)     W   Tech.   Ref. #
+  1    25          0       Inf. Dilution        lgK:-98.39(4SF)   4   CRV     32224
+  2    25          0       Inf. Dilution        dG:134.2(0.1SD)   3   ENS     3006
+  3    25          0       Inf. Dilution         dG:134.2(4SF)    4   CRV     5223
+  4    25          0       Inf. Dilution         dG:134.2(4SF)    4   CRV     6488
+  5    25          0       Inf. Dilution        dG:561.5(4SF)kJ   5   CRV     7421
+  6    25          0       Inf. Dilution        dG:134.200(6SF)   4   CRV     9029
+  7    25          0       Inf. Dilution        dG:134.20(5SF)    4   CRV     10174
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                           Radium
+
+
+ 8    25      0        Inf. Dilution          dG:534.(3SF)kJ        0      CRV       22524
+ 9    25      0        Inf. Dilution          dG:561.5(4SF)kJ       4      EFE       32151
+ 10   50      0        Inf. Dilution          dG:134.51(5SF)        2      CRV       10174
+ 11   75      0        Inf. Dilution          dG:134.81(5SF)        2      CRV       10174
+ 12   100     0        Inf. Dilution          dG:135.08(5SF)        2      CRV       10174
+ 13   125     0        Inf. Dilution          dG:135.34(5SF)        2      CRV       10174
+ 14   150     0        Inf. Dilution          dG:135.59(5SF)        2      CRV       10174
+ 15   175     0        Inf. Dilution          dG:135.81(5SF)        2      CRV       10174
+ 16   200     0        Inf. Dilution          dG:136.01(5SF)        1      CRV       10174
+ 17   225     0        Inf. Dilution          dG:136.18(5SF)        1      CRV       10174
+ 18   250     0        Inf. Dilution          dG:136.31(5SF)        0      CRV       10174
+ 19   300     0        Inf. Dilution          dG:136.41(5SF)        0      CRV       10174
+ 20   23      0        Inf. Dilution           E:-2.92(3SF)         0      ENS       7276
+Note (20): Suspect other values
+ 21   25      0        Inf. Dilution          E:-2.92(0.01SD)       0      MDG        775
+ 22   25      0        Inf. Dilution           E:-2.80(3SF)         0      CRV       7761
+Note (22): Low wgt for internal consistency
+ 23   25      0        Inf. Dilution           E:-2.916(4SF)        2      CRV       22551
+ 24   25      0        Inf. Dilution          dH:126.1(0.1SD)       3      ENS       3006
+ 25   25      0        Inf. Dilution           dH:126.1(4SF)        3      CRV       5223
+ 26   25      0        Inf. Dilution           dH:126.1(4SF)        4      CRV       6488
+ 27   25      0        Inf. Dilution          dH:515.0(4SF)kJ       0      CRV       7761
+ 28   25      0        Inf. Dilution          dH:126.100(6SF)       4      CRV       9029
+ 29   25      0        Inf. Dilution          dH:527.6(4SF)kJ       4      EFE       32151
+
+
+Reaction No. 10650
+Tartaric-2 + Ra+2 = Ra+2_Tartaric-2
+ No    t     I-Str       Medium           Value (Dev)           W       Tech.       Ref. #
+  1    25     0.16        NaCl           lgK:1.24(3SF)          5       MIX         6800
+  2    25     0.16      Unknown          lgK:1.24(3SF)          5       MIX          108
+
+
+Reaction No. 20092
+Citric-3 + Ra+2 = Ra+2_Citric-3
+ No   t     I-Str         Medium               Value (Dev)          W     Tech.     Ref. #
+ 1    7     0.16           NaCl                lgK:2.0(2SF)         5      MIX       6800
+ 2    25      0       Inf. Dilution           lgK:3.443(4SF)        1      EOR
+
+
+
+
+                                       – Page 2 of 25 –
+JESS Thermodynamic Database v8.9                                             Radium
+
+
+ 3    25     0          Inf. Dilution         lgK:3.59(3SF)           4      CRV       31301
+ 4    25    0.16              NaCl            lgK:2.05(3SF)           5      MIX        6800
+ 5    25    0.16           Unknown            lgK:2.36(3SF)           3      MIX        108
+ 6    37    0.16              NaCl            lgK:1.96(3SF)           5      MIX        6800
+
+
+Reaction No. 34746
+Fumaric-2 + Ra+2 = Ra+2_Fumaric-2
+ No    t     I-Str        Medium          Value (Dev)         W           Tech.       Ref. #
+  1    25     0.16         NaCl          lgK:1.60(3SF)        4            MIX         6800
+
+
+Reaction No. 35551
+Pyruvic-1 + Ra+2 = Ra+2_Pyruvic-1
+ No    t     I-Str        Medium           Value (Dev)            W       Tech.       Ref. #
+  1   25     0.16          NaCl           lgK:0.89(2SF)           4        MIX         6800
+  2   25     0.16        Unknown          lgK:1.9(2SF)            3        MIX         140
+
+
+Reaction No. 35571
+Succinic-2 + Ra+2 = Ra+2_Succinic-2
+ No    t      I-Str       Medium          Value (Dev)         W           Tech.       Ref. #
+  1    25        0.16      NaCl           lgK:1.0(2SF)        4           MIX         6800
+
+
+Reaction No. 44957
+HOEDTA-3 + Ra+2 = Ra+2_HOEDTA-3
+ No    t      I-Str       Medium          Value (Dev)         W           Tech.       Ref. #
+  1    25        0.1      NaClO4          lgK:5.6(2SF)        4           MDS          906
+
+
+Reaction No. 45253
+CDTA-4 + Ra+2 = Ra+2_CDTA-4
+ No    t      I-Str       Medium          Value (Dev)         W           Tech.       Ref. #
+  1    25        0.1      NaClO4          lgK:8.3(2SF)        4           MDS          906
+
+
+Reaction No. 45277
+DTPA-5 + Ra+2 = Ra+2_DTPA-5
+ No    t     I-Str       Medium           Value (Dev)             W       Tech.       Ref. #
+  1    25     0.1        NaClO4           lgK:8.5(2SF)            4        MDS         906
+  2    25     0.1        NaClO4         lgK:8.5(0.1SD)            5        CRV        13242
+
+
+Reaction No. 45293
+
+
+
+
+                                        – Page 3 of 25 –
+JESS Thermodynamic Database v8.9                                               Radium
+
+
+EGTA-4 + Ra+2 = Ra+2_EGTA-4
+ No        t         I-Str      Medium         Value (Dev)          W       Tech.        Ref. #
+  1       25          0.1       NaClO4         lgK:7.7(2SF)         4       MDS           906
+
+
+Reaction No. 46028
+Asp-2 + Ra+2 = Ra+2_Asp-2
+ No       t      I-Str          Medium         Value (Dev)          W       Tech.        Ref. #
+  1    25            0.1         KCl          lgK:0.86(2SF)         3        MGL          6710
+  2    25            0.16        NaCl         lgK:0.85(2SF)         5        MIX          6800
+
+
+Reaction No. 55557
+RaO(s) + 2<H+1> + 2<e-1> = Ra(s) + H2O
+ No   t        I-Str             Medium             Value (Dev)         W      Tech.      Ref. #
+ 1    25         0           Inf. Dilution        E:-1.32(0.01SD)       5         ENS      3006
+
+
+Reaction No. 55558
+Ra(s) + N2(g) + 3<O2(g)> = Ra+2_NO3-1(2)
+ No   t        I-Str            Medium              Value (Dev)         W      Tech.      Ref. #
+ 1    25         0           Inf. Dilution       dG:-187.4(0.1SD)       5          ENS     3006
+ 2    25         0           Inf. Dilution       dH:-225.2(0.1SD)       5          ENS     3006
+
+
+Reaction No. 55708
+Ra(s) + C(s) + 1.5<O2(g)> = Ra+2_CO3-2_(s)
+ No   t        I-Str             Medium             Value (Dev)         W      Tech.      Ref. #
+ 1    25         0           Inf. Dilution        dG:-271.69(5SF)       4         CRV      5223
+ 2    25         0           Inf. Dilution        dH:-290.73(5SF)       3         CRV      5223
+
+
+Reaction No. 55709
+Ra(s) + 0.5<Cl2(g)> = Ra+2_Cl-1 + e-1
+ No   t        I-Str             Medium             Value (Dev)         W      Tech.      Ref. #
+ 1    25         0           Inf. Dilution        dG:-165.44(5SF)       4         CRV      5223
+ 2    25         0           Inf. Dilution        dH:-165.54(5SF)       4         CRV      5223
+
+
+Reaction No. 55710
+Ra(s) + 0.5<O2(g)> + 0.5<H2(g)> = Ra+2_OH-1 + e-1
+ No   t        I-Str             Medium             Value (Dev)         W      Tech.      Ref. #
+ 1    25         0           Inf. Dilution         dG:-172.3(5SF)       4         CRV      5223
+
+
+
+
+                                             – Page 4 of 25 –
+JESS Thermodynamic Database v8.9                                      Radium
+
+
+ 2    25     0        Inf. Dilution        dH:-179.98(5SF)    4       CRV      5223
+
+
+Reaction No. 56071
+SO4-2 + Ra+2 = Ra+2_SO4-2
+ No   t    I-Str        Medium               Value (Dev)      W       Tech.    Ref. #
+ 1    25     0       Inf. Dilution         lgK:2.754(4SF)     1       EOR
+ 2    25     0       Inf. Dilution          lgK:2.75(3SF)     4       CRV      5223
+ 3    25     0       Inf. Dilution          lgK:1.24(3SF)     0       EBU      6372
+ 4    25     0       Inf. Dilution          lgK:2.75(3SF)     4       ENS      6496
+ 5    25     0       Inf. Dilution        lgK:2.76(0.05SD)    5       EOD      22958
+ 6    25     0       Inf. Dilution        lgK:2.72(0.045SD)   4       EOD      31301
+ 7    25     0         CHEMVAL4           lgK:0.02(0.01SD)    0       ENS      5156
+ 8    25     0       Inf. Dilution           dH:1.3(2SF)      4       ENS      6496
+
+
+Reaction No. 56307
+Ra+2_NO3-1(2)_(s) = Ra+2 + 2<NO3-1>
+ No   t    I-Str        Medium               Value (Dev)      W       Tech.    Ref. #
+ 1    25     0       Inf. Dilution         lgK:-2.05(3SF)     2       CRV      32224
+ 2    25     0         CHEMVAL4           lgK:-3.00(0.01SD)   3       ENS      5156
+
+
+Reaction No. 56308
+Ra+2_SO4-2_(s) = Ra+2 + SO4-2
+ No   t    I-Str        Medium               Value (Dev)          W   Tech.    Ref. #
+ 1    25     0       Inf. Dilution         lgK:-10.31(4SF)        1    EOR
+ 2    25     0       Inf. Dilution         lgK:-10.37(4SF)        4    CRV      552
+ 3    25     0       Inf. Dilution       lgK:-10.38(0.02SD)       4    CRV      5223
+ 4    25     0       Inf. Dilution         lgK:-10.26(4SF)        4    ENS      6496
+ 5    25     0       Inf. Dilution       lgK:-10.21(0.06SD)       5    CRV      8723
+ 6    25     0       Inf. Dilution         lgK:-14.38(4SF)        0    CRV     22551
+ 7    25     0       Inf. Dilution       lgK:-10.05(0.2SD)        3    EOD     31301
+ 8    25     0       Inf. Dilution         lgK:-10.43(4SF)        4    CRV     32224
+ 9    25    0:4      Inf. Dilution         lgK:-10.4(3SF)         0    EOD     22544
+ 10   25     0         CHEMVAL4          lgK:-10.40(0.01SD)       4    ENS      5156
+ 11   35     0       Inf. Dilution         lgK:-10.05(4SF)        3    EOD      8723
+ 12   45     0       Inf. Dilution         lgK:-9.87(3SF)         3    EOD      8723
+ 13   60     0       Inf. Dilution         lgK:-9.66(3SF)         3    EOD      8723
+ 14   25     0       Inf. Dilution          dH:9.40(3SF)          4    ENS      6496
+
+
+
+
+                                      – Page 5 of 25 –
+JESS Thermodynamic Database v8.9                                       Radium
+
+
+
+Reaction No. 56309
+Ra+2_Cl-1(2)_(s) = Ra+2 + 2<Cl-1>
+ No    t    I-Str      Medium              Value (Dev)        W       Tech.     Ref. #
+ 1    25         0    CHEMVAL4         lgK:-0.80(0.01SD)      4       ENS       5156
+
+
+Reaction No. 57193
+Ra(s) + N2(g) + 3<O2(g)> = Ra+2_NO3-1(2)_(s)
+ No   t    I-Str         Medium                Value (Dev)        W    Tech.    Ref. #
+ 1    25     0       Inf. Dilution         dG:-190.3(0.1SD)       5     ENS      3006
+ 2    25     0       Inf. Dilution         dH:-237.1(0.1SD)       5     ENS      3006
+
+
+Reaction No. 57194
+Ra(s) + S(s) + 2<O2(g)> = Ra+2_SO4-2
+ No   t    I-Str         Medium                Value (Dev)        W    Tech.    Ref. #
+ 1    25     0       Inf. Dilution         dG:-312.2(0.1SD)       0     ENS      3006
+ 2    25     0       Inf. Dilution          dG:-315.90(5SF)       4     CRV      5223
+ 3    25     0       Inf. Dilution         dH:-343.4(0.1SD)       3     ENS      3006
+ 4    25     0       Inf. Dilution          dH:-342.18(5SF)       3     CRV      5223
+
+
+Reaction No. 57195
+Ra(s) + S(s) + 2<O2(g)> = Ra+2_SO4-2_(s)
+ No   t    I-Str         Medium                Value (Dev)        W    Tech.    Ref. #
+ 1    25     0       Inf. Dilution         dG:-326.4(0.1SD)       4     ENS      3006
+ 2    25     0       Inf. Dilution          dG:-326.15(5SF)       4     CRV      5223
+ 3    25     0       Inf. Dilution         dH:-351.6(0.1SD)       3     ENS      3006
+ 4    25     0       Inf. Dilution          dH:-352.88(5SF)       3     CRV      5223
+
+
+Reaction No. 57196
+Ra(s) + I2(s) + 3<O2(g)> = Ra+2_IO3-1(2)_(s)
+ No   t    I-Str         Medium                Value (Dev)        W    Tech.    Ref. #
+ 1    25     0       Inf. Dilution         dG:-207.6(0.1SD)       5     ENS      3006
+ 2    25     0       Inf. Dilution         dH:-245.2(0.1SD)       5     ENS      3006
+
+
+Reaction No. 57197
+Ra(s) + Cl2(g) + 2<H2(g)> + O2(g) = Ra+2_Cl-1(2)_H2O(2)_(s)
+ No   t    I-Str         Medium                Value (Dev)        W    Tech.    Ref. #
+
+
+
+
+                                       – Page 6 of 25 –
+JESS Thermodynamic Database v8.9                                         Radium
+
+
+ 1    25     0       Inf. Dilution          dG:-311.4(0.1SD)    5        ENS       3006
+ 2    25     0       Inf. Dilution          dH:-349.9(0.1SD)    5        ENS       3006
+
+
+Reaction No. 57198
+Ra(s) + Cl2(g) = Ra+2_Cl-1(2)
+ No   t    I-Str         Medium                Value (Dev)      W       Tech.     Ref. #
+ 1    25     0       Inf. Dilution          dG:-196.9(0.1SD)    5        ENS       3006
+ 2    25     0       Inf. Dilution          dH:-206.0(0.1SD)    5        ENS       3006
+
+
+Reaction No. 57199
+Ra(s) + 0.5<O2(g)> = RaO(s)
+ No   t    I-Str         Medium                Value (Dev)      W       Tech.     Ref. #
+ 1    25     0       Inf. Dilution          dG:-117.5(0.1SD)    5        ENS       5551
+ 2    25     0       Inf. Dilution           dH:-125.(0.5SD)    4        ENS       3006
+
+
+Reaction No. 57202
+Ra(s) = Ra(g)
+ No   t    I-Str          Medium               Value (Dev)      W       Tech.     Ref. #
+ 1    25        0     Inf. Dilution           dG:31.1(0.1SD)    5       ENS       3006
+ 2    25        0     Inf. Dilution           dH:38.(0.5SD)     4       ENS       3006
+ 3    25        0     Inf. Dilution           dH:155.(3SF)kJ    3       CRV       22524
+
+
+Reaction No. 64649
+Ra+2 + H2O = Ra+2_OH-1 + H+1
+ No   t    I-Str        Medium                 Value (Dev)          W    Tech.    Ref. #
+ 1    25     0       Inf. Dilution           lgK:-13.35(4SF)        1     EBU      6372
+ 2    25     0       Inf. Dilution           lgK:-13.49(4SF)        3     ENS      6496
+ 3    25     0       Inf. Dilution         lgK:-13.47(0.25SD)       4     EOD     31301
+
+
+Reaction No. 64650
+Ra+2 + 2<H2O> = Ra+2_OH-1(2) + 2<H+1>
+ No   t    I-Str         Medium                Value (Dev)      W       Tech.     Ref. #
+ 1    25        0     Inf. Dilution          lgK:-28.01(4SF)    1        EBU       6372
+
+
+Reaction No. 64651
+Ra+2 + 3<H2O> = Ra+2_OH-1(3) + 3<H+1>
+ No   t    I-Str         Medium                Value (Dev)      W       Tech.     Ref. #
+
+
+
+
+                                        – Page 7 of 25 –
+JESS Thermodynamic Database v8.9                                     Radium
+
+
+ 1    25     0          Inf. Dilution         lgK:-43.83(4SF)   1    EBU       6372
+
+
+Reaction No. 64652
+Ra+2 + 4<H2O> = Ra+2_OH-1(4) + 4<H+1>
+ No   t    I-Str           Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:-60.78(4SF)   1    EBU       6372
+
+
+Reaction No. 64653
+F-1 + Ra+2 = Ra+2_F-1
+ No   t    I-Str            Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0           Inf. Dilution         lgK:0.48(2SF)    1   EBU       6372
+
+
+Reaction No. 64654
+2<F-1> + Ra+2 = Ra+2_F-1(2)
+ No   t    I-Str            Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0           Inf. Dilution         lgK:0.50(2SF)    1   EBU       6372
+
+
+Reaction No. 64655
+3<F-1> + Ra+2 = Ra+2_F-1(3)
+ No   t    I-Str            Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0           Inf. Dilution         lgK:0.19(2SF)    1   EBU       6372
+
+
+Reaction No. 64656
+4<F-1> + Ra+2 = Ra+2_F-1(4)
+ No   t    I-Str            Medium              Value (Dev)     W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution          lgK:-0.42(2SF)   1    EBU       6372
+
+
+Reaction No. 64657
+5<F-1> + Ra+2 = Ra+2_F-1(5)
+ No   t    I-Str            Medium              Value (Dev)     W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution          lgK:-1.28(3SF)   1    EBU       6372
+
+
+Reaction No. 64658
+6<F-1> + Ra+2 = Ra+2_F-1(6)
+ No   t    I-Str            Medium              Value (Dev)     W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution          lgK:-2.38(3SF)   1    EBU       6372
+
+
+Reaction No. 64659
+
+
+
+
+                                         – Page 8 of 25 –
+JESS Thermodynamic Database v8.9                                      Radium
+
+
+Cl-1 + Ra+2 = Ra+2_Cl-1
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0            Inf. Dilution         lgK:-0.1(1SF)    3   CRV       5223
+ 2    25     0            Inf. Dilution         lgK:0.16(2SF)    0   EBU       6372
+
+
+Reaction No. 64660
+2<Cl-1> + Ra+2 = Ra+2_Cl-1(2)
+ No   t    I-Str             Medium              Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution             lgK:-0.35(2SF)   1    EBU       6372
+
+
+Reaction No. 64661
+3<Cl-1> + Ra+2 = Ra+2_Cl-1(3)
+ No   t    I-Str             Medium              Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution             lgK:-1.41(3SF)   1    EBU       6372
+
+
+Reaction No. 64662
+4<Cl-1> + Ra+2 = Ra+2_Cl-1(4)
+ No   t    I-Str             Medium              Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution             lgK:-2.96(3SF)   1    EBU       6372
+
+
+Reaction No. 64663
+5<Cl-1> + Ra+2 = Ra+2_Cl-1(5)
+ No   t    I-Str             Medium              Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution             lgK:-4.99(3SF)   1    EBU       6372
+
+
+Reaction No. 64664
+6<Cl-1> + Ra+2 = Ra+2_Cl-1(6)
+ No   t    I-Str             Medium              Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution             lgK:-7.46(3SF)   1    EBU       6372
+
+
+Reaction No. 64665
+Br-1 + Ra+2 = Ra+2_Br-1
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0            Inf. Dilution         lgK:0.14(2SF)    1   EBU       6372
+
+
+Reaction No. 64666
+2<Br-1> + Ra+2 = Ra+2_Br-1(2)
+ No   t    I-Str             Medium              Value (Dev)     W   Tech.     Ref. #
+
+
+
+
+                                          – Page 9 of 25 –
+JESS Thermodynamic Database v8.9                                    Radium
+
+
+ 1    25     0          Inf. Dilution         lgK:-0.15(2SF)   1    EBU       6372
+
+
+Reaction No. 64667
+3<Br-1> + Ra+2 = Ra+2_Br-1(3)
+ No   t    I-Str           Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:-0.76(2SF)   1    EBU       6372
+
+
+Reaction No. 64668
+4<Br-1> + Ra+2 = Ra+2_Br-1(4)
+ No   t    I-Str           Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:-1.62(3SF)   1    EBU       6372
+
+
+Reaction No. 64669
+5<Br-1> + Ra+2 = Ra+2_Br-1(5)
+ No   t    I-Str           Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:-2.71(3SF)   1    EBU       6372
+
+
+Reaction No. 64670
+6<Br-1> + Ra+2 = Ra+2_Br-1(6)
+ No   t    I-Str           Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:-4.01(3SF)   1    EBU       6372
+
+
+Reaction No. 64671
+I-1 + Ra+2 = Ra+2_I-1
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution          lgK:0.13(2SF)   1   EBU       6372
+
+
+Reaction No. 64672
+2<I-1> + Ra+2 = Ra+2_I-1(2)
+ No   t    I-Str           Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:-0.07(1SF)   1    EBU       6372
+
+
+Reaction No. 64673
+3<I-1> + Ra+2 = Ra+2_I-1(3)
+ No   t    I-Str           Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:-0.45(2SF)   1    EBU       6372
+
+
+Reaction No. 64674
+
+
+
+
+                                        – Page 10 of 25 –
+JESS Thermodynamic Database v8.9                                   Radium
+
+
+4<I-1> + Ra+2 = Ra+2_I-1(4)
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-0.98(2SF)   1    EBU       6372
+
+
+Reaction No. 64675
+5<I-1> + Ra+2 = Ra+2_I-1(5)
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-1.62(3SF)   1    EBU       6372
+
+
+Reaction No. 64676
+6<I-1> + Ra+2 = Ra+2_I-1(6)
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-2.36(3SF)   1    EBU       6372
+
+
+Reaction No. 64677
+IO3-1 + Ra+2 = Ra+2_IO3-1
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:0.25(2SF)   1   EBU       6372
+
+
+Reaction No. 64678
+2<IO3-1> + Ra+2 = Ra+2_IO3-1(2)
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-0.82(2SF)   1    EBU       6372
+
+
+Reaction No. 64679
+3<IO3-1> + Ra+2 = Ra+2_IO3-1(3)
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-2.95(3SF)   1    EBU       6372
+
+
+Reaction No. 64680
+2<SO4-2> + Ra+2 = Ra+2_SO4-2(2)
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:1.23(3SF)   1   EBU       6372
+
+
+Reaction No. 64681
+3<SO4-2> + Ra+2 = Ra+2_SO4-2(3)
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:0.20(2SF)   1   EBU       6372
+
+
+
+
+                                       – Page 11 of 25 –
+JESS Thermodynamic Database v8.9                                    Radium
+
+
+
+Reaction No. 64682
+4<SO4-2> + Ra+2 = Ra+2_SO4-2(4)
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:-1.72(3SF)   1    EBU       6372
+
+
+Reaction No. 64683
+5<SO4-2> + Ra+2 = Ra+2_SO4-2(5)
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:-4.50(3SF)   1    EBU       6372
+
+
+Reaction No. 64684
+NH3 + Ra+2 = Ra+2_NH3
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:-0.76(2SF)   1    EBU       6372
+
+
+Reaction No. 64685
+2<NH3> + Ra+2 = Ra+2_NH3(2)
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:-2.78(3SF)   1    EBU       6372
+
+
+Reaction No. 64686
+NO3-1 + Ra+2 = Ra+2_NO3-1
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution          lgK:0.19(2SF)   1   EBU       6372
+
+
+Reaction No. 64687
+2<NO3-1> + Ra+2 = Ra+2_NO3-1(2)
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution          lgK:0.2(1SF)    1    ELC
+ 2    25     0          Inf. Dilution         lgK:-1.15(3SF)   0    EBU       6372
+
+
+Reaction No. 64688
+3<NO3-1> + Ra+2 = Ra+2_NO3-1(3)
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:-3.75(3SF)   1    EBU       6372
+
+
+Reaction No. 64689
+
+
+
+
+                                        – Page 12 of 25 –
+JESS Thermodynamic Database v8.9                                   Radium
+
+
+Ra+2 + H+1_PO4-3 = Ra+2_H+1_PO4-3
+ No   t    I-Str          Medium                Value (Dev)   W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:1.94(3SF)   1   EBU       6372
+
+
+Reaction No. 64690
+Ra+2 + 2<H+1_PO4-3> = Ra+2_H+1(2)_PO4-3(2)
+ No   t    I-Str          Medium                Value (Dev)   W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.01(3SF)   1   EBU       6372
+
+
+Reaction No. 64691
+Ra+2 + 3<H+1_PO4-3> = Ra+2_H+1(3)_PO4-3(3)
+ No   t    I-Str          Medium                Value (Dev)   W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.48(3SF)   1   EBU       6372
+
+
+Reaction No. 64692
+Ra+2 + 4<H+1_PO4-3> = Ra+2_H+1(4)_PO4-3(4)
+ No   t    I-Str          Medium                Value (Dev)   W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.44(3SF)   1   EBU       6372
+
+
+Reaction No. 64693
+Ra+2 + 5<H+1_PO4-3> = Ra+2_H+1(5)_PO4-3(5)
+ No   t    I-Str          Medium                Value (Dev)   W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:2.95(3SF)   1   EBU       6372
+
+
+Reaction No. 64694
+Ra+2 + 6<H+1_PO4-3> = Ra+2_H+1(6)_PO4-3(6)
+ No   t    I-Str          Medium                Value (Dev)   W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:2.04(3SF)   1   EBU       6372
+
+
+Reaction No. 64695
+Ra+2 + H+1(2)_PO4-3 = Ra+2_H+1(2)_PO4-3
+ No   t    I-Str          Medium                Value (Dev)   W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:0.38(2SF)   1   EBU       6372
+
+
+Reaction No. 64696
+Ra+2 + 2<H+1(2)_PO4-3> = Ra+2_H+1(4)_PO4-3(2)
+ No   t    I-Str          Medium                Value (Dev)   W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-0.16(2SF)   1    EBU       6372
+
+
+
+
+                                       – Page 13 of 25 –
+JESS Thermodynamic Database v8.9                                    Radium
+
+
+
+Reaction No. 64697
+Ra+2 + 3<H+1(2)_PO4-3> = Ra+2_H+1(6)_PO4-3(3)
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-1.37(3SF)    1    EBU       6372
+
+
+Reaction No. 64698
+Ra+2 + 4<H+1(2)_PO4-3> = Ra+2_H+1(8)_PO4-3(4)
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-3.14(3SF)    1    EBU       6372
+
+
+Reaction No. 64699
+Ra+2 + 5<H+1(2)_PO4-3> = Ra+2_H+1(10)_PO4-3(5)
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-5.44(3SF)    1    EBU       6372
+
+
+Reaction No. 64700
+Ra+2 + 6<H+1(2)_PO4-3> = Ra+2_H+1(12)_PO4-3(6)
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-8.21(3SF)    1    EBU       6372
+
+
+Reaction No. 64701
+CO3-2 + Ra+2 = Ra+2_CO3-2
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution            lgK:2.5(2SF)   4   CRV       5223
+ 2    25     0         Inf. Dilution          lgK:2.82(3SF)    0   EBU       6372
+ 3    25     0         Inf. Dilution            lgK:2.5(2SF)   4   ENS       6496
+ 4    25     0         Inf. Dilution            dH:1.07(3SF)   4   ENS       6496
+
+
+Reaction No. 64702
+2<CO3-2> + Ra+2 = Ra+2_CO3-2(2)
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:4.05(3SF)    1   EBU       6372
+
+
+Reaction No. 64703
+3<CO3-2> + Ra+2 = Ra+2_CO3-2(3)
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.94(3SF)    1   EBU       6372
+
+
+
+
+                                       – Page 14 of 25 –
+JESS Thermodynamic Database v8.9                                      Radium
+
+
+
+Reaction No. 64704
+4<CO3-2> + Ra+2 = Ra+2_CO3-2(4)
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0            Inf. Dilution          lgK:2.58(3SF)   1   EBU       6372
+
+
+Reaction No. 64705
+5<CO3-2> + Ra+2 = Ra+2_CO3-2(5)
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0            Inf. Dilution          lgK:0.04(1SF)   1   EBU       6372
+
+
+Reaction No. 64706
+Ra+2 + H+1_CO3-2 = Ra+2_H+1_CO3-2
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0            Inf. Dilution          lgK:0.42(2SF)   1   EBU       6372
+
+
+Reaction No. 64707
+Ra+2 + 2<H+1_CO3-2> = Ra+2_H+1(2)_CO3-2(2)
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution             lgK:-0.67(2SF)   1    EBU       6372
+
+
+Reaction No. 64708
+Ra+2 + 3<H+1_CO3-2> = Ra+2_H+1(3)_CO3-2(3)
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution             lgK:-3.01(3SF)   1    EBU       6372
+
+
+Reaction No. 64709
+CN-1 + Ra+2 = Ra+2_CN-1
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0            Inf. Dilution          lgK:0.50(2SF)   1   EBU       6372
+
+
+Reaction No. 64710
+2<CN-1> + Ra+2 = Ra+2_CN-1(2)
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution             lgK:-0.27(2SF)   1    EBU       6372
+
+
+Reaction No. 64711
+3<CN-1> + Ra+2 = Ra+2_CN-1(3)
+
+
+
+
+                                          – Page 15 of 25 –
+JESS Thermodynamic Database v8.9                                    Radium
+
+
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-2.21(3SF)   1    EBU       6372
+
+
+Reaction No. 64712
+SCN-1 + Ra+2 = Ra+2_SCN-1
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:0.21(2SF)   1   EBU       6372
+
+
+Reaction No. 64713
+2<SCN-1> + Ra+2 = Ra+2_SCN-1(2)
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-0.77(2SF)   1    EBU       6372
+
+
+Reaction No. 64714
+3<SCN-1> + Ra+2 = Ra+2_SCN-1(3)
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-2.84(3SF)   1    EBU       6372
+
+
+Reaction No. 64715
+Acetic-1 + Ra+2 = Ra+2_Acetic-1
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:0.37(2SF)   1   EBU       6372
+
+
+Reaction No. 64716
+2<Acetic-1> + Ra+2 = Ra+2_Acetic-1(2)
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-0.81(2SF)   1    EBU       6372
+
+
+Reaction No. 64717
+3<Acetic-1> + Ra+2 = Ra+2_Acetic-1(3)
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-3.30(3SF)   1    EBU       6372
+
+
+Reaction No. 64718
+Benzoic-1 + Ra+2 = Ra+2_Benzoic-1
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:0.40(2SF)   1   EBU       6372
+
+
+
+
+                                        – Page 16 of 25 –
+JESS Thermodynamic Database v8.9                                   Radium
+
+
+Reaction No. 64719
+2<Benzoic-1> + Ra+2 = Ra+2_Benzoic-1(2)
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-0.80(2SF)   1    EBU       6372
+
+
+Reaction No. 64720
+3<Benzoic-1> + Ra+2 = Ra+2_Benzoic-1(3)
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-3.35(3SF)   1    EBU       6372
+
+
+Reaction No. 64721
+Cat-2 + Ra+2 = Ra+2_Cat-2
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:4.33(3SF)   1   EBU       6372
+
+
+Reaction No. 64722
+2<Cat-2> + Ra+2 = Ra+2_Cat-2(2)
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:6.64(3SF)   1   EBU       6372
+
+
+Reaction No. 64723
+3<Cat-2> + Ra+2 = Ra+2_Cat-2(3)
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:7.61(3SF)   1   EBU       6372
+
+
+Reaction No. 64724
+EtDiAm + Ra+2 = Ra+2_EtDiAm
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:0.05(1SF)   1   EBU       6372
+
+
+Reaction No. 64725
+2<EtDiAm> + Ra+2 = Ra+2_EtDiAm(2)
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-1.98(3SF)   1    EBU       6372
+
+
+Reaction No. 64726
+Gly-1 + Ra+2 = Ra+2_Gly-1
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+
+
+
+
+                                       – Page 17 of 25 –
+JESS Thermodynamic Database v8.9                                    Radium
+
+
+ 1    25     0         Inf. Dilution           lgK:0.31(2SF)   1   EBU       6372
+
+
+Reaction No. 64727
+2<Gly-1> + Ra+2 = Ra+2_Gly-1(2)
+ No   t    I-Str          Medium                Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-0.95(2SF)   1    EBU       6372
+
+
+Reaction No. 64728
+3<Gly-1> + Ra+2 = Ra+2_Gly-1(3)
+ No   t    I-Str          Medium                Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-2.82(3SF)   1    EBU       6372
+
+
+Reaction No. 64729
+Glycolic-1 + Ra+2 = Ra+2_Glycolic-1
+ No   t    I-Str          Medium                Value (Dev)    W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:0.34(2SF)   1   EBU       6372
+
+
+Reaction No. 64730
+2<Glycolic-1> + Ra+2 = Ra+2_Glycolic-1(2)
+ No   t    I-Str          Medium                Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-0.83(2SF)   1    EBU       6372
+
+
+Reaction No. 64731
+3<Glycolic-1> + Ra+2 = Ra+2_Glycolic-1(3)
+ No   t    I-Str          Medium                Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-3.25(3SF)   1    EBU       6372
+
+
+Reaction No. 64732
+Phenol-1 + Ra+2 = Ra+2_Phenol-1
+ No   t    I-Str          Medium                Value (Dev)    W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:0.52(2SF)   1   EBU       6372
+
+
+Reaction No. 64733
+2<Phenol-1> + Ra+2 = Ra+2_Phenol-1(2)
+ No   t    I-Str          Medium                Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-0.23(2SF)   1    EBU       6372
+
+
+Reaction No. 64734
+
+
+
+
+                                        – Page 18 of 25 –
+JESS Thermodynamic Database v8.9                                               Radium
+
+
+3<Phenol-1> + Ra+2 = Ra+2_Phenol-1(3)
+ No   t       I-Str            Medium               Value (Dev)         W     Tech.     Ref. #
+ 1    25        0           Inf. Dilution         lgK:-2.14(3SF)        1      EBU       6372
+
+
+Reaction No. 65518
+Ra+2 + 2<H2O> = Ra+2_OH-1(2)_(s) + 2<H+1>
+ No   t       I-Str            Medium               Value (Dev)         W     Tech.     Ref. #
+ 1    25        0          Inf. Dilution          lgK:-21.06(4SF)       1      EBU       6372
+
+
+Reaction No. 65519
+Ra+2 + CO3-2 = Ra+2_CO3-2_(s)
+ No   t       I-Str           Medium                Value (Dev)         W      Tech.     Ref. #
+ 1    25        0          Inf. Dilution           lgK:8.3(2SF)         3         CRV     5223
+ 2    25        0          Inf. Dilution          lgK:9.15(3SF)         0         EBU     6372
+ 3    25        0          Inf. Dilution         lgK:8.54(0.10SD)       4         EOD    31301
+
+
+Reaction No. 68607
+OxAcet-2 + Ra+2 = Ra+2_OxAcet-2
+ No       t     I-Str         Medium           Value (Dev)          W       Tech.       Ref. #
+  1    25           0.16       NaCl           lgK:1.82(3SF)         5       MIX         6800
+
+
+Reaction No. 68608
+Ra+2 + H+1_SulfSal-3 = Ra+2_H+1_SulfSal-3
+ No       t     I-Str         Medium           Value (Dev)          W       Tech.       Ref. #
+  1    25           0.16       NaCl           lgK:1.92(3SF)         5       MIX         6800
+
+
+Reaction No. 69732
+Malic-2 + Ra+2 = Ra+2_Malic-2
+ No       t     I-Str         Medium            Value (Dev)         W       Tech.       Ref. #
+  1    25       0.16          Unknown         lgK:0.95(2SF)         4        MIX         108
+
+
+Reaction No. 71629
+Ra+2 + H2(g) + 2<e-1> = RaH2(s)
+ No   t       I-Str            Medium               Value (Dev)         W     Tech.     Ref. #
+ 1    25        0          Inf. Dilution           E:-2.19(3SF)         3      CRV       7761
+ 2    25        0          Inf. Dilution          dH:359.9(4SF)kJ       3      CRV       7761
+
+
+Reaction No. 71630
+
+
+
+
+                                            – Page 19 of 25 –
+JESS Thermodynamic Database v8.9                                           Radium
+
+
+Ra+2_OH-1 + H+1 + 2<e-1> = Ra(s) + H2O
+ No   t    I-Str              Medium              Value (Dev)     W       Tech.     Ref. #
+ 1    25     0            Inf. Dilution           E:-2.40(3SF)    0       CRV       7761
+
+
+Reaction No. 71631
+Ra+2_OH-1 + 2<e-1> = Ra(s) + OH-1
+ No   t    I-Str              Medium              Value (Dev)     W       Tech.     Ref. #
+ 1    25     0            Inf. Dilution           E:-2.81(3SF)    0       CRV       7761
+Note (1): Low wgt for inter-reaction consistency
+
+
+Reaction No. 71632
+Ra+2_OH-1(2)_H2O(8)_(s) + 2<e-1> = Ra(s) + 2<OH-1> + 8<H2O>
+ No   t    I-Str              Medium              Value (Dev)     W       Tech.     Ref. #
+ 1    25     0            Inf. Dilution           E:-2.89(3SF)    3       CRV       7761
+
+
+Reaction No. 73883
+C(s) + 1.5<O2(g)> + Ra(s) = Ra+2_CO3-2
+ No   t    I-Str            Medium                Value (Dev)         W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution             dG:-263.78(5SF)       4    CRV       5223
+ 2    25     0        Inf. Dilution             dH:-286.87(5SF)       3    CRV       5223
+
+
+Reaction No. 73884
+Ra+2 + OH-1 = Ra+2_OH-1
+ No   t    I-Str              Medium              Value (Dev)     W       Tech.     Ref. #
+ 1    25     0            Inf. Dilution           lgK:0.5(1SF)    3       CRV       5223
+
+
+Reaction No. 73978
+Oxalic-2 + Ra+2 = Ra+2_Oxalic-2
+ No   t    I-Str             Medium               Value (Dev)     W       Tech.     Ref. #
+ 1    25     0            Inf. Dilution           lgK:2.2(2SF)    2        EES
+Note (1): Estimate based on Ba+2 comparability
+ 2    25     0            Inf. Dilution           lgK:2.2(4SF)    1        EOR
+ 3    25     0            Inf. Dilution          lgK:2.78(3SF)    4        CRV      31301
+
+
+Reaction No. 73979
+NTA-3 + Ra+2 = Ra+2_NTA-3
+ No   t    I-Str              Medium              Value (Dev)     W       Tech.     Ref. #
+
+
+
+
+                                          – Page 20 of 25 –
+JESS Thermodynamic Database v8.9                                               Radium
+
+
+ 1    25       0        Inf. Dilution           lgK:5.7(2SF)     2            EES
+
+
+Reaction No. 73980
+EDTMP-8 + Ra+2 = Ra+2_EDTMP-8
+ No   t      I-Str        Medium                Value (Dev)          W       Tech.      Ref. #
+ 1    25       0       Inf. Dilution           lgK:10.6(3SF)         2        EES
+
+
+Reaction No. 75005
+CrO4-2 + Ra+2 = Ra+2_CrO4-2
+ No    t      I-Str           Medium             Value (Dev)             W    Tech.     Ref. #
+ 1    0.01         0    Inf. Dilution          lgK:3.1567(5SF)           4     EOD       22958
+ 2     25          0    Inf. Dilution          lgK:3.0215(5SF)           4     EOD       22958
+ 3     60          0    Inf. Dilution          lgK:2.9559(5SF)           4     EOD       22958
+ 4    100          0    Inf. Dilution          lgK:2.9836(5SF)           4     EOD       22958
+ 5    150          0    Inf. Dilution          lgK:3.1423(5SF)           4     EOD       22958
+ 6    200          0    Inf. Dilution          lgK:3.4477(5SF)           4     EOD       22958
+
+
+Reaction No. 80033
+Ra+2 + H+1_EDTA-4 = Ra+2_EDTA-4 + H+1
+ No   t      I-Str     Medium              Value (Dev)           W           Tech.      Ref. #
+ 1    25       0       NaCl/m           lgK:-2.07(0.11SD)        3           MIX        29889
+ 2    25      0.22     NaCl/m           lgK:-3.26(0.06SD)        3           MIX        29889
+ 3    25      0.51     NaCl/m           lgK:-3.42(0.08SD)        3           MIX        29889
+ 4    25      1.02     NaCl/m           lgK:-3.85(0.08SD)        3           MIX        29889
+ 5    25      2.09     NaCl/m           lgK:-4.15(0.10SD)        3           MIX        29889
+ 6    25      2.64     NaCl/m           lgK:-4.24(0.08SD)        3           MIX        29889
+
+
+Reaction No. 80625
+2<Oxalic-2> + Ra+2 = Ra+2_Oxalic-2(2)
+ No   t      I-Str        Medium                Value (Dev)          W       Tech.      Ref. #
+ 1    25       0       Inf. Dilution           lgK:3.44(3SF)         4        CRV       31301
+
+
+Reaction No. 80629
+Ra+2 + H+1_Citric-3 = Ra+2_H+1_Citric-3
+ No   t      I-Str        Medium                Value (Dev)          W       Tech.      Ref. #
+ 1    25       0       Inf. Dilution           lgK:2.64(3SF)         4        CRV       31301
+
+
+
+
+                                        – Page 21 of 25 –
+JESS Thermodynamic Database v8.9                                            Radium
+
+
+Reaction No. 81564
+Ra+2_Cl-1(2)_H2O(2)_(s) = Ra+2 + 2<Cl-1> + 2<H2O>
+ No      t       I-Str            Medium                Value (Dev)    W   Tech.     Ref. #
+    1   25         0           Inf. Dilution          lgK:-0.80(2SF)   4   CRV       32224
+
+
+
+
+                                           Data Assessment
+
+
+Weight                           Assessment
+9            highest accuracy
+8            multi-determined; excellent dependability
+7            trustworthy; outstanding single determination
+6            better than average reliability
+5            average single determination
+4            some doubt
+3            poorly known
+2            guess to achieve consistency (or just as bad)
+1            no information but consistent
+0            problematic/inconsistent
+
+
+
+
+                                               Techniques
+
+
+Abbrev                       Method
+CRV          Critical review
+EBU          Brown's Unified Theory
+EDH          Debye-Hueckel corrections
+EES          Personal estimate
+EFE          Free Energy relations
+EIU          Critical IUPAC review (estim.)
+ELC          Linear Combination of Reactions
+ENS          Not specified
+EOD          Calculated from data of others
+EOR          Other Reaction Constants
+MDG          Combination of Thermodynamic Data
+
+
+
+                                                – Page 22 of 25 –
+JESS Thermodynamic Database v8.9                                      Radium
+
+
+MDS    Distribution between two phases
+MGL    Glass electrode
+MIX    Ion exchange
+MSC    Miscellaneous
+
+
+
+
+                                    References
+
+
+Reference No.: 108(54Sch)
+J. Am. Chem. Soc., 1954, 76, 3442 - 3444; Schubert J; Complexes of Alkaline Earth
+Cations Including Radium with Amino Acids and Related Compounds Complexes of Alkaline
+Earth Cations Including Radium with Amino Acids and Related Compounds
+
+Reference No.: 140(64SiM)
+Stability Constants of Metal-ion Complexes SP17, 1964 Sillen LG; Martell AE; The
+Chemical Soc.,London
+
+Reference No.: 552(95SMM)
+NIST Critical Stability Constants of Metal Complexes Database, 1995 Smith RM; Martell
+AE; Motekaitis RJ; Version 2.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 773(85KoS)
+Handbook of Chemical Equilibria in Analytical Chemistry, 1985 Kotrly S; Sucha L; Ellis
+Horwood Series in Anal. Chem.; Eds. Chalmers RA & Masson M; Ellis Horwood, Chichester
+
+Reference No.: 775(71CCM)
+Selected Constants, 1971 Charlot G; Collumeau A; Marchon MJC; Oxidation-Reduction
+Potentials of Inorganic Substances in Aqueous Solution; Butterworths, London
+
+Reference No.: 903(77And)
+Critical Survey of Stability Constants of EDTA Complexes, 1977 Anderegg G; IUPAC
+Chemical Data Series. 14; Pergamon Press, Oxford
+
+Reference No.: 906(79Per)
+IUPAC Chemical Data Series No. 22, 1979 Perrin DD; Stability Constants of Metal-Ion
+Complexes, First Edition Part B, Organic Ligands; Pergamon, Oxford
+
+Reference No.: 3006(85BPJ)
+Standard Potentials in Aqueous Solution, 1985 Bard AJ; Parsons R; Jordan J; Monographs
+in Electroanalytical Chemistry and Electrochemistry; Marcel Dekker Inc.,New York and
+Basel
+
+Reference No.: 5156(91ReB)
+Radiochim. Acta, 1991, 52/53, 453 - 456; Read D; Broyd TW; Recent Progress in Testing
+Chemical Equilibrium Models: The CHEMVAL Project
+
+Reference No.: 5223(85LaR)
+Geochim. Cosmochim. Acta, 1985, 49, 1593 - 1601; Langmuir D; Riese AC; The
+Thermodynamic Properties of Radium
+
+
+
+
+                                         – Page 23 of 25 –
+JESS Thermodynamic Database v8.9                                      Radium
+
+
+Reference No.: 5551(74Pou)
+Atlas of Electrochemical Equilibria in Aqueous Solutions, 1974 Pourbaix M; Cebelcor,
+Brussels
+
+Reference No.: 6372(87BrW)
+OECD NEA Report, 1987 Brown PL; Wanner H; Predicted Formation Constants Using the
+Unified Theory of Metal Ion Complexation; Nuclear Energy Authority, Paris
+
+Reference No.: 6488(88ShH)
+Geochim. Cosmochim. Acta, 1988, 52, 2009 - 2036; Shock EL; Helgeson HC; Calculation of
+the Thermodynamic and Transport Properties of Aqueous Species at High Pressures and
+Temperatures: Correlation Algorithms for Ionic Species and Equation of State
+Predictions to 5 kb and 1000 C
+
+Reference No.: 6496(96StM)
+Aquatic Chemistry, 3rd Edn., 1996 Stumm W; Morgan JJ; Chemical Equilibria and Rates in
+Natural Waters; John Wiley & Sons, Inc., New York
+
+Reference No.: 6710(53LuM)
+J. Phys. Chem., 1953, 57, 690 - 693; Lumb RF; Martell AE; Metal Chelating Tendencies of
+Glutamic and Aspartic Acids
+
+Reference No.: 6800(50SRM)
+J. Biol. Chem., 1950, 185, 387 - 398; Schubert J; Russell ER; Myers LS Jr; Dissociation
+Constants of Radium-organic Acid Complexes Measured by Ion Exchange
+
+Reference No.: 7276(88CoW)
+Advanced Inorganic Chemistry, 5th Edn., 1988 Cotton FA; Wilkinson G; John Wiley & Sons
+Inc., N.Y., U.S.A
+
+Reference No.: 7421(97Mar)
+Ion Properties, 1997 Marcus Y; Marcel Dekker Inc., New York, U.S.A.
+
+Reference No.: 7761(89Bra)
+J. Phys. Chem. Ref. Data, 1989, 18, 1 - 21; Bratsch SG; Standard Electrode Potentials
+and Temperature Coefficients in Water at 298.15 K
+
+Reference No.: 8723(98PKH)
+Geochim. Cosmochim. Acta, 1998, 62, 15 - 23; Paige CR; Kornicker WA; Hileman OE Jr;
+Snodgrass WJ; Solution Equilibria for Uranium Ore Processing: The BaSO4-H2SO4-H2O
+System and the RaSO4-H2SO4-H2O System
+
+Reference No.: 9029(97SSW)
+Geochim. Cosmochim. Acta, 1997, 61, 907 - 950; Shock EL; Sassani DC; Willis M;
+Sverjensky DA; Inorganic Species in Geologic Fluids: Correlations among Standard Molal
+Thermodynamic Properties of Aqueous Ions and Hydroxide Complexes
+
+Reference No.: 10174(95OHS)
+J. Phys. Chem. Ref. Data, 1995, 24, 1401 - 1560; Oelkers EH; Helgeson HC; Shock EL;
+Sverjensky DA; Johnson JW; Pokrovskii VA; Summary of the Apparent Standard Partial
+Molal Gibbs Free Energies of Formation of Aqueous Species, Minerals, and Gases at
+Pressures 1 to 5000 Bars and Temperatures 25 to 1000C
+
+Reference No.: 13242(05AAD)
+Pure Appl. Chem., 2005, 77, 1445 - 1495; Anderegg G; Arnaud-Neu F; Delgado R; Felcman
+J; Popov K; Critical Evaluation of Stability Constants of Metal Complexes of
+Complexones for Biomedical and Environmental Applications
+
+
+
+
+                                      – Page 24 of 25 –
+JESS Thermodynamic Database v8.9                                      Radium
+
+
+Reference No.: 22524(86BrL)
+J. Phys. Chem., 1986, 90, 307 - 312; Bratsch SG; Lagowski JJ; Actinide Thermodynamic
+Predictions. 3. Thermodynamics of Compounds and Aquo Ions of the 2+, 3+, and 4+
+Oxidation States and Standard Electrode Potentials at 298.15 K
+
+Reference No.: 22544(57BaR)
+J. Chem. Soc., 1957,, 509 - 512; Bagnall KW; Robertson DS; Solvent Extraction Studies
+with Polonium
+
+Reference No.: 22551(06Inz)
+Encyclopedia of Electrochemistry, Vol. 7a, 2006, 17 - 75; Inzelt G; Standard, Formal
+and Other Characteristic Potentials of Selected Electrode Reactions
+
+Reference No.: 22958(10AML)
+Appl. Geochem., 2010, 25, 242 - 260; Accornero M; Marini L; Lelli M; Prediction of the
+Thermodynamic Properties of Metal-chromate Aqueous Complexes to High Temperatures and
+Pressures and Implications for the Speciation of Hexavalent Chromium in Some Natural
+Waters
+
+Reference No.: 29889(17MHB)
+J. Solution Chem., 2017, 46, 1951 - 1969; Matyskin AV; Hannson NL; Brown PL; Ekberg C;
+Barium and Radium Complexation with Ethylenediaminetetraacetic Acid in Aqueous Alkaline
+Sodium Chloride Media
+
+Reference No.: 31301(10KFD)
+Japan Atomic Energy Agency Data/Code 2009-024, 2010 Kitamura A; Fujiwara K; Doi R;
+Yoshida Y; Mihara M; Terashima M; Yui M; JAEA Thermodynamic Database for Performance
+Assessment of Geological Disposal of High-level Radioactive and TRU Wastes; Geological
+Isolation Research Unit, JAEA, Japan
+
+Reference No.: 32151(20Baz)
+J. Phys. Chem., 2020, A124, 11051 - 11060; Bazhin NM; Standard Values of the
+Thermodynamic Functions of the Formation of Ions in an Aqueous Solution and their
+Change during Solvation
+
+Reference No.: 32224(80BeT)
+Lawrence Berkeley Laboratory Report LBL-11448, 1980 Benson LV; Teague LS; A Tabulation
+of Thermodynamic Data for Chemical Reactions Involving 8 Elements Common to Radioactive
+Waste Package Systems
+
+
+
+
+                                      – Page 25 of 25 –
+

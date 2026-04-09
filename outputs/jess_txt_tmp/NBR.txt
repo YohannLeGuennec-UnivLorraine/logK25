@@ -1,0 +1,1987 @@
+                         JESS Thermodynamic Database v8.9
+                                                  Niobium
+
+                                                 24-Jan-23
+
+Reaction No. 4804
+NbO+3 + 2<H+1> + 2<e-1> = Nb+3 + H2O
+
+Note: NbO+3 unhydrated is inappropriate
+ No    t         I-Str              Medium              Value (Dev)        W    Tech.   Ref. #
+  1    25          0             Inf. Dilution        lgK:-67.7(3SF)       0     EES
+  2    18          0                  HCl             E:-0.3(0.05SD)       0     MEF      775
+
+
+Reaction No. 4805
+Nb+3 + 3<e-1> = Nb(s)
+ No    t         I-Str               Medium             Value (Dev)        W    Tech.   Ref. #
+  1    25          0                Unknown            lgK:-56.(2SF)       3     ENS     140
+  2    25          0             Inf. Dilution         E:-1.099(4SF)       5     CRV     6330
+  3    25          0             Inf. Dilution          E:-1.1(2SF)        4     CRV    22551
+
+
+Reaction No. 13718
+Nb+5_OH-1(4) + H+1(3)_34DHB-3 = Nb+5_H+1(2)_OH-1(4)_34DHB-3 + H+1
+ No          t           I-Str         Medium         Value (Dev)      W       Tech.    Ref. #
+  1        18:22          0.1         Unknown         lgK:2.3(2SF)     4       MSP       931
+Note (1): NbO2+1 notation in [931]
+
+
+Reaction No. 13719
+Nb+5_H+1(2)_OH-1(4)_34DHB-3 + H+1(3)_34DHB-3 = Nb+5_H+1(4)_OH-1(4)_34DHB-3(2) + H+1
+ No          t           I-Str         Medium         Value (Dev)      W       Tech.    Ref. #
+  1        18:22          0.1         Unknown         lgK:1.3(2SF)     4        MSP      931
+Note (1): NbO2+1 notation in [931]
+
+
+Reaction No. 13720
+Nb+5_OH-1(4) + 3<H+1_34DHB-3> + 4<H+1> = Nb+5_H+1(7)_OH-1(4)_34DHB-3(3)
+ No         t            I-Str        Medium          Value (Dev)      W       Tech.    Ref. #
+  1     18:22             0.1         Unknown        lgK:63.1(3SF)     4        MSP      931
+Note (1): NbO2+1 notation in [931]
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                      Niobium
+
+
+Reaction No. 40390
+Nb+5_OH-1(4) + H+1(2)_Oxalic-2 = Nb+5_H+1_OH-1(4)_Oxalic-2 + H+1
+ No   t    I-Str          Medium               Value (Dev)       W    Tech.     Ref. #
+ 1    20    4.5          (H,Na)Cl            lgK:3.55(3SF)       3     MDS        931
+ 2    20    4.5          (H,Na)Cl            lgK:3.48(3SF)       2     MDS       30350
+Note (2): Doubts about how the reaction is written; number of OH in complex in doubt
+ 3    20    4.5          (H,Na)NO3           lgK:3.61(3SF)       2     MDS       30350
+Note (3): Doubts about how the reaction in written; number of OH in complex in doubt
+ 4    25     0         Inf. Dilution          lgK:3.0(2SF)       1     ESC
+
+
+Reaction No. 40391
+Nb+5_OH-1(4) + 2<H+1(2)_Oxalic-2> = Nb+5_OH-1(2)_Oxalic-2(2) + 2<H+1> + 2<H2O >
+ No   t    I-Str          Medium               Value (Dev)       W    Tech.     Ref. #
+ 1    20    4.5          (H,Na)Cl            lgK:5.13(3SF)       0     MDS        931
+ 2    20    4.5          (H,Na)Cl            lgK:5.18(3SF)       2     MDS       30350
+Note (2): Doubts about how the reaction is written; number of OH in complex in doubt
+ 3    20    4.5          (H,Na)NO3           lgK:5.09(3SF)       2     MDS       30350
+Note (3): Doubts about how the reaction in written; number of OH in complex in doubt
+ 4    25     0         Inf. Dilution          lgK:5.7(2SF)       1     ELC
+
+
+Reaction No. 40392
+Nb+5_OH-1(4) + 2<H+1_Oxalic-2> = Nb+5_OH-1(2)_Oxalic-2(2) + 2<H2O>
+ No    t    I-Str       Medium            Value (Dev)        W       Tech.      Ref. #
+  1   25     0.5       Unknown          lgK:12.11(4SF)w      0       MPH          931
+Note (1): Reaction written Nb+5_OH-1(5)(s) + 3<H+1> + 2<Oxalic-2> in orig. pub
+[30355]
+
+
+Reaction No. 40393
+Nb+5_OH-1(4) + 2<H+1_Oxalic-2> + Oxalic-2 = Nb+5_OH-1(2)_Oxalic-2(3) + 2<H2O >
+ No    t    I-Str       Medium            Value (Dev)        W       Tech.      Ref. #
+  1   25     0.5       Unknown          lgK:17.15(4SF)w      0        MPH         931
+Note (1): Reaction written Nb+5_OH-1(5)(s) + 3<H+1> + 3<Oxalic-2> in orig. pub.
+[30355]
+
+
+Reaction No. 42855
+2<Oxalic-2> + Nb+5_OH-1(2) = Nb+5_OH-1(2)_Oxalic-2(2)
+ No   t    I-Str          Medium               Value (Dev)       W    Tech.     Ref. #
+ 1    18    0.5           Unknown            lgK:35.9(3SF)       0     MSL        906
+
+
+
+
+                                       – Page 2 of 39 –
+JESS Thermodynamic Database v8.9                                               Niobium
+
+
+Note (1): NbO+3 in [906]
+ 2    25        0         Inf. Dilution         lgK:33.8(3SF)            1      ELC
+
+
+Reaction No. 43348
+Nb+5_OH-1(4) + H+1(2)_Asp-2 = Nb+5_H+1(2)_OH-1(4)_Asp-2
+ No       t     I-Str       Medium          Value (Dev)          W           Tech.       Ref. #
+  1    20            2       HNO3          lgK:4.82(3SF)         4            MDS         906
+Note (1): NbO2+1 notation in original 906
+
+
+Reaction No. 43703
+Ascorbic-2 + Nb+5 = Nb+5_Ascorbic-2
+ No       t     I-Str       Medium          Value (Dev)          W           Tech.       Ref. #
+  1    23                                   lgK:9.4(2SF)         0           MSP          906
+Note (1): Unreal species Nb+5
+
+
+Reaction No. 44435
+Nb+5_Cl-1(5)_OH-1(2) + 2<H+1(3)_SalHydroxam-2> = Nb+5_H+1(6)_Cl-1(5)_OH-
+1(2)_SalHydroxam-2(2)
+ No    t       I-Str       Medium            Value (Dev)             W        Tech.      Ref. #
+  1   20            0     Unknown          lgK:4.6(0.05SD)           0         MSP         906
+
+
+Reaction No. 44860
+EDTA-4 + Nb+5 = Nb+5_EDTA-4
+ No       t     I-Str      Medium           Value (Dev)          W           Tech.       Ref. #
+  1    23           0.4      KCl           lgK:39.4(3SF)         0            MPL         906
+Note (1): Unreal species Nb+5; looks like Sochevanov (1969) [30456]; look at Rxn
+80182 (Volkova 30356)
+
+
+Reaction No. 44861
+Nb+5_OH-1(4) + H+1(3)_EDTA-4 = Nb+5_H+1(3)_OH-1(4)_EDTA-4
+ No   t       I-Str          Medium              Value (Dev)             W     Tech.      Ref. #
+ 1    20        2             KNO3              lgK:10.54(4SF)           4      MDS        906
+Note (1): Rf wrong Koch H. Kupsch Z Naturforsch B 1969 24 398 NbO2+1 in [906]
+ 2    25        0         Inf. Dilution         lgK:10.4(3SF)            1      ESC
+
+
+Reaction No. 45059
+NbO+3_Tartaric-2 + PAR-2 = NbO+3_PAR-2_Tartaric-2
+
+Note: NbO+3 unhydrated is inappropriate
+
+
+
+
+                                          – Page 3 of 39 –
+JESS Thermodynamic Database v8.9                                              Niobium
+
+
+ No    t       I-Str     Medium             Value (Dev)             W        Tech.      Ref. #
+ 1    23            0    Unknown          lgK:21.2(0.05SD)          0         MSP        906
+
+
+Reaction No. 45234
+2<AlizarinRedS-3> + NbO+3 = NbO+3_AlizarinRedS-3(2)
+
+Note: NbO+3 unhydrated is inappropriate
+ No       t     I-Str      Medium          Value (Dev)          W           Tech.       Ref. #
+  1    23                                 lgK:8.(0.3SD)         0           MSP          906
+
+
+Reaction No. 45249
+CDTA-4 + Nb+5 = Nb+5_CDTA-4
+ No    t       I-Str      Medium            Value (Dev)             W       Tech.       Ref. #
+  1   22            2     Unknown          lgK:15.60(4SF)           0        MPL         906
+Note (1): Unreal species Nb+5
+
+
+Reaction No. 45386
+Nb+5_OH-1(4) + Oxalic-2 = Nb+5_OH-1(4)_Oxalic-2
+ No   t       I-Str          Medium              Value (Dev)            W     Tech.     Ref. #
+ 1    18       0.5          Unknown            lgK:9.08(3SF)            4      MSL        906
+ 2    25        0        Inf. Dilution          lgK:9.3(2SF)            1      ESC
+
+
+Reaction No. 53172
+F-1 + Nb+5 = Nb+5_F-1
+ No       t     I-Str      Medium          Value (Dev)          W           Tech.       Ref. #
+  1    23           17     H2SO4          lgK:7.12(3SF)         0           MSP         5398
+Note (1): Nb+5 unreal species
+
+
+Reaction No. 53728
+2<Nb(s)> + O2(g) = Nb2O2(s)
+ No   t       I-Str         Medium              Value (Dev)             W     Tech.     Ref. #
+ 1    25        0        Inf. Dilution         dG:-422.6(4SF)           4      CRV       22971
+ 2    25        0        Inf. Dilution         dH:-454.5(4SF)           4      CRV       22971
+
+
+Reaction No. 54122
+Nb+5_F-1(2)_OH-1(3) + H+1_F-1 = Nb+5_F-1(3)_OH-1(2) + H2O
+ No   t       I-Str           Medium             Value (Dev)            W    Tech.      Ref. #
+ 1    18        3              HNO3             lgK:4.2(2SF)            4     MSL        31278
+
+
+
+
+                                         – Page 4 of 39 –
+JESS Thermodynamic Database v8.9                                              Niobium
+
+
+ 2    25        0         Inf. Dilution           lgK:4.(1SF)           1      ESC
+
+
+Reaction No. 54123
+Nb+5_F-1_OH-1(4) + H+1_F-1 = Nb+5_F-1(2)_OH-1(4) + H+1
+ No   t       I-Str           Medium              Value (Dev)           W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution          lgK:3.3(2SF)           1      ESC
+ 2    18       0.5                HNO3           lgR:3.6(2SF)           4      MSL       31278
+
+
+Reaction No. 54480
+Nb+5_F-1(7) + F-1 = Nb+5_F-1(8)
+ No    t       I-Str       Medium           Value (Dev)         W           Tech.       Ref. #
+  1   25        0.5        NaClO4          lgK:3.08(3SF)        3            MIS         437
+  2   25        0.5        NaClO4           lgK:3.1(2SF)        3            MIS        30149
+
+
+Reaction No. 54483
+Nb+5_F-1(8) + F-1 = Nb+5_F-1(9)
+ No       t     I-Str       Medium          Value (Dev)         W           Tech.       Ref. #
+  1    25           0.5     NaClO4          lgK:4.0(2SF)        3           MIS          437
+  2    25           0.5     NaClO4          lgK:4.0(2SF)        3           MIS         30149
+
+
+Reaction No. 60181
+Nb+5_OH-1(2) + EDTA-4 = Nb+5_OH-1(2)_EDTA-4
+ No    t       I-Str       Medium            Value (Dev)            W        Tech.      Ref. #
+  1   20            1      Unknown         lgK:40.78(4SF)           0         MPL        931
+Note (1): Probably Volkova & Sochevanov (1967) [30357]; see: Nb+5_OH-1(5) +
+H+1(4)_EDTA-4
+
+
+Reaction No. 60686
+Nb+5_F-1(4)_OH-1(2) + F-1 = Nb+5_F-1(5)_OH-1(2)
+ No   t       I-Str       Medium             Value (Dev)            W        Tech.      Ref. #
+ 1    25       0.5        NaClO4            lgK:4.51(3SF)           3         MIS        5398
+ 2    25       0.5        NaClO4            lgK:4.5(2SF)            3         MIS        30149
+ 3    25        3           KCl             lgK:2.51(3SF)           3         MPT        5398
+ 4    25        3           KCl           lgK:2.51(0.01SD)          5         MPT        12517
+ 5    25        3         Unknown           lgK:2.51(3SF)           3         CRV        2556
+
+
+Reaction No. 61488
+2<Nb(s)> + 1.5<O2(g)> = Nb2O3(s)
+
+
+
+
+                                          – Page 5 of 39 –
+JESS Thermodynamic Database v8.9                                    Niobium
+
+
+ No   t     I-Str           Medium             Value (Dev)      W   Tech.     Ref. #
+ 1    25      0       Inf. Dilution          dG:-422.06(5SF)    3    CRV      31291
+
+
+Reaction No. 65907
+Nb6O19-8 + H+1 = H+1_Nb6O19-8
+ No   t     I-Str        Medium                Value (Dev)      W   Tech.     Ref. #
+ 1    25      0       Inf. Dilution         lgK:16.11(0.14SD)   3    MGL       847
+Note (1): Application of Bromley theory
+ 2    25      0       Inf. Dilution          lgK:14.29(4SF)     4    CRV      31495
+ 3    25      3             KCl             lgK:13.63(0.04SD)   3    MGL       847
+Note (3): pH from 9.7 to 13.1
+ 4    25      3             KCl              lgK:13.4(0.1SD)    4    MSP      30111
+Note (4): pH from 12 to 14.5
+ 5    25      3             KCl              lgK:13.8(0.2SD)    4    MGL      30155
+Note (5): pH from 10.7 to 12.25
+ 6    25      3          Unknown              lgK:13.8(3SF)     4    CRV       552
+ 7    25      3             KCl              dH:-95.(2SF)kJ     4    MTD      30111
+
+
+Reaction No. 65908
+H+1_Nb6O19-8 + H+1 = H+1(2)_Nb6O19-8
+ No   t     I-Str        Medium                Value (Dev)      W   Tech.     Ref. #
+ 1    25      0       Inf. Dilution          lgK:13.23(4SF)     4    CRV      31495
+ 2    25      3             KCl             lgK:10.88(0.05SD)   3    MGL      30155
+Note (2): pH from10.7 to 12.25
+ 3    25      3          Unknown             lgK:10.88(4SF)     3    CRV       552
+
+
+Reaction No. 67063
+2<B(s)> + Nb(s) = NbB2(s)
+ No    t     I-Str           Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25          0     Inf. Dilution         lgK:43.44(4SF)    4    ENS      6422
+ 2    27          0     Inf. Dilution         lgK:43.17(4SF)    0    ENS      6422
+ 3    127         0     Inf. Dilution         lgK:32.24(4SF)    4    ENS      6422
+ 4    227         0     Inf. Dilution         lgK:25.68(4SF)    4    ENS      6422
+ 5    327         0     Inf. Dilution         lgK:21.31(4SF)    0    ENS      6422
+ 6    25          0     Inf. Dilution         dG:-59.26(4SF)    4    EFE      6422
+ 7    25          0     Inf. Dilution           dG:-60.(2SF)    4    CRV      22971
+ 8    25          0     Inf. Dilution          dH:-60.0(3SF)    4    MTD      6422
+
+
+
+
+                                        – Page 6 of 39 –
+JESS Thermodynamic Database v8.9                                    Niobium
+
+
+ 9    25      0        Inf. Dilution             dH:-61.(2SF)   4    CRV      22971
+ 10   127     0        Inf. Dilution            dH:-60.0(3SF)   4    MTD      6422
+ 11   227     0        Inf. Dilution            dH:-60.0(3SF)   4    MTD      6422
+ 12   327     0        Inf. Dilution            dH:-60.0(3SF)   0    MTD      6422
+
+
+Reaction No. 67064
+2.5<Br2(l)> + Nb(s) = Nb+5_Br-1(5)_(s)
+ No    t    I-Str           Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25      0        Inf. Dilution           lgK:89.22(4SF)   4    ENS      6422
+ 2    27      0        Inf. Dilution           lgK:88.62(4SF)   0    ENS      6422
+ 3    127     0        Inf. Dilution           lgK:62.39(4SF)   2    ENS      6422
+ 4    227     0        Inf. Dilution           lgK:45.96(4SF)   1    ENS      6422
+ 5    254     0        Inf. Dilution           lgK:42.60(4SF)   1    ENS      6422
+ 6    25      0        Inf. Dilution           dG:-121.7(4SF)   3    EFE      6422
+ 7    25      0        Inf. Dilution            dG:-122.(3SF)   4    CRV      22971
+ 8    25      0        Inf. Dilution           dH:-133.0(4SF)   3    MTD      6422
+ 9    25      0        Inf. Dilution           dH:-132.8(4SF)   4    CRV      22971
+ 10   127     0        Inf. Dilution           dH:-150.7(4SF)   0    MTD      6422
+ 11   227     0        Inf. Dilution           dH:-150.0(4SF)   0    MTD      6422
+ 12   254     0        Inf. Dilution           dH:-149.8(4SF)   0    MTD      6422
+
+
+Reaction No. 67065
+C(s) + 2<Nb(s)> = Nb2C(s)
+ No    t    I-Str           Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25      0        Inf. Dilution           lgK:32.53(4SF)   4    ENS      6422
+ 2    27      0        Inf. Dilution           lgK:32.32(4SF)   0    ENS      6422
+ 3    127     0        Inf. Dilution           lgK:24.06(4SF)   4    ENS      6422
+ 4    227     0        Inf. Dilution           lgK:19.12(4SF)   4    ENS      6422
+ 5    327     0        Inf. Dilution           lgK:15.84(4SF)   0    ENS      6422
+ 6    25      0        Inf. Dilution           dG:-44.37(4SF)   4    EFE      6422
+ 7    25      0        Inf. Dilution             dG:-47.(2SF)   4    CRV      22971
+ 8    25      0        Inf. Dilution            dH:-45.4(3SF)   4    MTD      6422
+ 9    25      0        Inf. Dilution             dH:-47.(2SF)   4    CRV      22971
+ 10   127     0        Inf. Dilution            dH:-45.3(3SF)   4    MTD      6422
+ 11   227     0        Inf. Dilution            dH:-45.1(3SF)   4    MTD      6422
+ 12   327     0        Inf. Dilution            dH:-44.9(3SF)   0    MTD      6422
+
+
+
+
+                                         – Page 7 of 39 –
+JESS Thermodynamic Database v8.9                                  Niobium
+
+
+Reaction No. 67066
+Cl2(g) + Nb(s) = NbCl2(s)
+ No    t    I-Str           Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25      0        Inf. Dilution         lgK:63.89(4SF)   4    ENS      6422
+ 2    27      0        Inf. Dilution         lgK:63.45(4SF)   0    ENS      6422
+ 3    127     0        Inf. Dilution         lgK:45.75(4SF)   2    ENS      6422
+ 4    227     0        Inf. Dilution         lgK:35.18(4SF)   1    ENS      6422
+ 5    327     0        Inf. Dilution         lgK:28.15(4SF)   0    ENS      6422
+ 6    25      0        Inf. Dilution         dG:-87.16(4SF)   4    EFE      6422
+ 7    25      0        Inf. Dilution          dH:-97.3(3SF)   2    MTD      6422
+ 8    127     0        Inf. Dilution          dH:-97.0(3SF)   1    MTD      6422
+ 9    227     0        Inf. Dilution          dH:-96.6(3SF)   0    MTD      6422
+ 10   327     0        Inf. Dilution          dH:-96.2(3SF)   0    MTD      6422
+
+
+Reaction No. 67067
+1.165<Cl2(g)> + Nb(s) = NbCl2.33(s)
+ No    t    I-Str           Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25      0        Inf. Dilution         lgK:74.47(4SF)   4    ENS      6422
+ 2    27      0        Inf. Dilution         lgK:73.96(4SF)   0    ENS      6422
+ 3    127     0        Inf. Dilution         lgK:53.34(4SF)   2    ENS      6422
+ 4    227     0        Inf. Dilution         lgK:41.01(4SF)   1    ENS      6422
+ 5    327     0        Inf. Dilution         lgK:32.82(4SF)   0    ENS      6422
+ 6    25      0        Inf. Dilution         dG:-101.6(4SF)   4    EFE      6422
+ 7    25      0        Inf. Dilution          dG:-102.(3SF)   4    CRV      22971
+ 8    25      0        Inf. Dilution         dH:-113.4(4SF)   2    MTD      6422
+ 9    25      0        Inf. Dilution          dH:-114.(3SF)   4    CRV      22971
+ 10   127     0        Inf. Dilution         dH:-113.0(4SF)   1    MTD      6422
+ 11   227     0        Inf. Dilution         dH:-112.6(4SF)   0    MTD      6422
+ 12   327     0        Inf. Dilution         dH:-112.1(4SF)   0    MTD      6422
+
+
+Reaction No. 67068
+1.335<Cl2(g)> + Nb(s) = NbCl2.67(s)
+ No    t    I-Str           Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25      0        Inf. Dilution         lgK:83.98(4SF)   4    ENS      6422
+ 2    27      0        Inf. Dilution         lgK:83.40(4SF)   0    ENS      6422
+ 3    127     0        Inf. Dilution         lgK:60.01(4SF)   2    ENS      6422
+
+
+
+
+                                       – Page 8 of 39 –
+JESS Thermodynamic Database v8.9                                     Niobium
+
+
+ 4    227     0        Inf. Dilution           lgK:46.02(4SF)    1    ENS      6422
+ 5    327     0        Inf. Dilution           lgK:36.73(4SF)    0    ENS      6422
+ 6    25      0        Inf. Dilution           dG:-114.6(4SF)    4    EFE      6422
+ 7    25      0        Inf. Dilution            dG:-115.(3SF)    4    CRV      22971
+ 8    25      0        Inf. Dilution           dH:-128.6(4SF)    2    MTD      6422
+ 9    25      0        Inf. Dilution            dH:-129.(3SF)    4    CRV      22971
+ 10   127     0        Inf. Dilution           dH:-128.2(4SF)    1    MTD      6422
+ 11   227     0        Inf. Dilution           dH:-127.8(4SF)    0    MTD      6422
+ 12   327     0        Inf. Dilution           dH:-127.3(4SF)    0    MTD      6422
+
+
+Reaction No. 67069
+1.5<Cl2(g)> + Nb(s) = Nb+3_Cl-1(3)_(s)
+ No    t    I-Str         Medium                 Value (Dev)     W   Tech.     Ref. #
+ 1    25      0        Inf. Dilution           lgK:90.20(4SF)    4    ENS       6422
+ 2    27      0        Inf. Dilution           lgK:89.57(4SF)    0    ENS       6422
+ 3    127     0        Inf. Dilution           lgK:64.29(4SF)    2    ENS       6422
+ 4    227     0        Inf. Dilution           lgK:49.18(4SF)    1    ENS       6422
+ 5    327     0        Inf. Dilution           lgK:39.14(4SF)    0    ENS       6422
+ 6    25      0        Inf. Dilution           dG:-123.05(5SF)   4    EFE       6422
+ 7    25      0        Inf. Dilution            dG:-124.(3SF)    4    CRV      22971
+ 8    25      0        Inf. Dilution           dH:-139.0(4SF)    2    MTD       6422
+ 9    25      0        Inf. Dilution            dH:-140.(3SF)    4    CRV      22971
+ 10   127     0        Inf. Dilution           dH:-138.5(4SF)    1    MTD       6422
+ 11   227     0        Inf. Dilution           dH:-138.0(4SF)    0    MTD       6422
+ 12   327     0        Inf. Dilution           dH:-137.5(4SF)    0    MTD       6422
+
+
+Reaction No. 67070
+1.565<Cl2(g)> + Nb(s) = NbCl3.13(s)
+ No    t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25      0        Inf. Dilution           lgK:93.84(4SF)    4    ENS      6422
+ 2    27      0        Inf. Dilution           lgK:93.18(4SF)    0    ENS      6422
+ 3    127     0        Inf. Dilution           lgK:66.87(4SF)    2    ENS      6422
+ 4    227     0        Inf. Dilution           lgK:51.14(4SF)    1    ENS      6422
+ 5    327     0        Inf. Dilution           lgK:40.70(4SF)    0    ENS      6422
+ 6    25      0        Inf. Dilution           dG:-128.0(4SF)    4    EFE      6422
+ 7    25      0        Inf. Dilution            dG:-127.(3SF)    4    CRV      22971
+
+
+
+
+                                         – Page 9 of 39 –
+JESS Thermodynamic Database v8.9                                      Niobium
+
+
+ 8    25      0        Inf. Dilution            dH:-144.7(4SF)    2    MTD      6422
+ 9    25      0        Inf. Dilution            dH:-144.(3SF)     4    CRV      22971
+ 10   127     0        Inf. Dilution            dH:-144.2(4SF)    1    MTD      6422
+ 11   227     0        Inf. Dilution            dH:-143.6(4SF)    0    MTD      6422
+ 12   327     0        Inf. Dilution            dH:-143.1(4SF)    0    MTD      6422
+
+
+Reaction No. 67071
+2<Cl2(g)> + Nb(s) = Nb+4_Cl-1(4)_(s)
+ No    t    I-Str          Medium                 Value (Dev)     W   Tech.     Ref. #
+ 1    25      0        Inf. Dilution            lgK:106.1(4SF)    4    ENS      6422
+ 2    27      0        Inf. Dilution            lgK:105.3(4SF)    0    ENS      6422
+ 3    127     0        Inf. Dilution            lgK:75.16(4SF)    2    ENS      6422
+ 4    227     0        Inf. Dilution            lgK:57.14(4SF)    1    ENS      6422
+ 5    327     0        Inf. Dilution            lgK:45.17(4SF)    0    ENS      6422
+ 6    25      0        Inf. Dilution            dG:-144.7(4SF)    4    EFE      6422
+ 7    25      0        Inf. Dilution            dG:-145.(3SF)     4    CRV      22971
+ 8    25      0        Inf. Dilution            dH:-166.0(4SF)    2    MTD      6422
+ 9    25      0        Inf. Dilution            dH:-166.0(4SF)    4    CRV      22971
+ 10   127     0        Inf. Dilution            dH:-165.3(4SF)    1    MTD      6422
+ 11   227     0        Inf. Dilution            dH:-164.6(4SF)    0    MTD      6422
+ 12   327     0        Inf. Dilution            dH:-163.8(4SF)    0    MTD      6422
+
+
+Reaction No. 67072
+2.5<Cl2(g)> + Nb(s) = Nb+5_Cl-1(5)_(s)
+ No    t    I-Str         Medium                 Value (Dev)      W   Tech.     Ref. #
+ 1    25      0       Inf. Dilution             lgK:119.9(4SF)    4    ENS       6422
+ 2    27      0       Inf. Dilution             lgK:119.0(4SF)    0    ENS       6422
+ 3    127     0       Inf. Dilution             lgK:84.36(4SF)    4    ENS       6422
+ 4    205     0       Inf. Dilution             lgK:67.31(4SF)    2    ENS       6422
+ 5    25      0       Inf. Dilution            dG:-683.2(4SF)kJ   3    CRV       6330
+ 6    25      0       Inf. Dilution             dG:-163.5(4SF)    4    EFE       6422
+ 7    25      0       Inf. Dilution             dG:-163.2(4SF)    4    CRV      22971
+ 8    25      0       Inf. Dilution            dH:-797.5(4SF)kJ   3    CRV       6330
+ 9    25      0       Inf. Dilution             dH:-190.6(4SF)    4    MTD       6422
+ 10   25      0       Inf. Dilution             dH:-190.5(4SF)    4    CRV      22971
+ 11   127     0       Inf. Dilution             dH:-189.7(4SF)    4    MTD       6422
+
+
+
+
+                                         – Page 10 of 39 –
+JESS Thermodynamic Database v8.9                                     Niobium
+
+
+ 12   205     0        Inf. Dilution           dH:-189.1(4SF)    2    MTD       6422
+
+
+Reaction No. 67073
+2.5<F2(g)> + Nb(s) = Nb+5_F-1(5)_(s)
+ No    t      I-Str           Medium             Value (Dev)     W   Tech.     Ref. #
+ 1     25          0    Inf. Dilution           lgK:297.8(4SF)   4    ENS       6422
+ 2     27          0    Inf. Dilution           lgK:295.8(4SF)   0    ENS       6422
+ 3    77.7         0    Inf. Dilution           lgK:250.1(4SF)   4    ENS       6422
+ 4     25          0    Inf. Dilution           dG:-406.2(4SF)   4    EFE       6422
+ 5     25          0    Inf. Dilution           dG:-406.1(4SF)   4    CRV      22971
+ 6     25          0    Inf. Dilution           dH:-433.5(4SF)   4    MTD       6422
+ 7     25          0    Inf. Dilution           dH:-433.5(4SF)   4    CRV      22971
+ 8    77.7         0    Inf. Dilution           dH:-434.4(4SF)   4    MTD       6422
+
+
+Reaction No. 67074
+2.5<I2(s)> + Nb(s) = Nb+5_I-1(5)_(s)
+ No    t     I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25       0        Inf. Dilution          lgK:47.91(4SF)    4    ENS      6422
+ 2    27       0        Inf. Dilution          lgK:47.62(4SF)    0    ENS      6422
+ 3    127      0        Inf. Dilution          lgK:35.74(4SF)    4    ENS      6422
+ 4    227      0        Inf. Dilution          lgK:26.60(4SF)    4    ENS      6422
+ 5    327      0        Inf. Dilution          lgK:19.41(4SF)    0    ENS      6422
+ 6    25       0        Inf. Dilution          dG:-65.36(4SF)    4    EFE      6422
+ 7    25       0        Inf. Dilution          dH:-64.2(3SF)     4    MTD      6422
+ 8    25       0        Inf. Dilution          dH:-64.6(3SF)     4    CRV      22971
+ 9    127      0        Inf. Dilution          dH:-73.9(3SF)     4    MTD      6422
+ 10   227      0        Inf. Dilution          dH:-99.3(3SF)     0    MTD      6422
+ 11   327      0        Inf. Dilution          dH:-97.9(3SF)     0    MTD      6422
+
+
+Reaction No. 67075
+0.5<N2(g)> + Nb(s) = NbN(s)
+ No    t     I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25       0        Inf. Dilution          lgK:36.09(4SF)    4    ENS      6422
+ 2    27       0        Inf. Dilution          lgK:35.83(4SF)    0    ENS      6422
+ 3    127      0        Inf. Dilution          lgK:25.60(4SF)    2    ENS      6422
+ 4    227      0        Inf. Dilution          lgK:19.46(4SF)    1    ENS      6422
+ 5    327      0        Inf. Dilution          lgK:15.37(4SF)    0    ENS      6422
+
+
+
+
+                                        – Page 11 of 39 –
+JESS Thermodynamic Database v8.9                                   Niobium
+
+
+ 6    25      0        Inf. Dilution          dG:-49.23(4SF)   4    EFE      6422
+ 7    25      0        Inf. Dilution          dG:-49.7(3SF)    4    CRV      22971
+ 8    25      0        Inf. Dilution          dH:-56.2(3SF)    4    MTD      6422
+ 9    25      0        Inf. Dilution          dH:-56.4(3SF)    4    CRV      22971
+ 10   127     0        Inf. Dilution          dH:-56.2(3SF)    1    MTD      6422
+ 11   227     0        Inf. Dilution          dH:-56.1(3SF)    0    MTD      6422
+ 12   327     0        Inf. Dilution          dH:-56.0(3SF)    0    MTD      6422
+
+
+Reaction No. 67076
+0.5<N2(g)> + 2<Nb(s)> = Nb2N(s)
+ No    t    I-Str             Medium            Value (Dev)    W   Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:38.59(4SF)   4    ENS      6422
+ 2    27      0        Inf. Dilution          lgK:38.32(4SF)   0    ENS      6422
+ 3    127     0        Inf. Dilution          lgK:27.42(4SF)   4    ENS      6422
+ 4    227     0        Inf. Dilution          lgK:20.89(4SF)   4    ENS      6422
+ 5    327     0        Inf. Dilution          lgK:16.55(4SF)   0    ENS      6422
+ 6    25      0        Inf. Dilution          dG:-52.65(4SF)   4    EFE      6422
+ 7    25      0        Inf. Dilution          dH:-59.9(3SF)    4    MTD      6422
+ 8    25      0        Inf. Dilution          dH:-60.4(3SF)    4    CRV      22971
+ 9    127     0        Inf. Dilution          dH:-59.8(3SF)    4    MTD      6422
+ 10   227     0        Inf. Dilution          dH:-59.7(3SF)    4    MTD      6422
+ 11   327     0        Inf. Dilution          dH:-59.6(3SF)    0    MTD      6422
+
+
+Reaction No. 67077
+Nb(s) + 0.5<O2(g)> = NbO(s)
+ No    t    I-Str         Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:68.67(4SF)   0    ENS       6422
+ 2    27      0        Inf. Dilution          lgK:68.21(4SF)   0    ENS       6422
+ 3    127     0        Inf. Dilution          lgK:49.95(4SF)   1    ENS       6422
+ 4    227     0        Inf. Dilution          lgK:39.00(4SF)   1    ENS       6422
+ 5    327     0        Inf. Dilution          lgK:31.71(4SF)   0    ENS       6422
+ 6    25      0        Inf. Dilution          dG:-93.68(4SF)   0    EFE       6422
+ 7    25      0        Inf. Dilution           dG:-91.(2SF)    4    CRV      22971
+ 8    25      0        Inf. Dilution         dG:-90.529(5SF)   3    CRV      31291
+ 9    25      0        Inf. Dilution          dH:-100.3(4SF)   2    MTD       6422
+ 10   25      0        Inf. Dilution           dH:-98.(2SF)    2    CRV      22971
+
+
+
+
+                                       – Page 12 of 39 –
+JESS Thermodynamic Database v8.9                                            Niobium
+
+
+ 11   127         0       Inf. Dilution          dH:-100.2(4SF)     4        MTD      6422
+ 12   227         0       Inf. Dilution          dH:-100.1(4SF)     4        MTD      6422
+ 13   327         0       Inf. Dilution          dH:-100.0(4SF)     0        MTD      6422
+
+
+Reaction No. 67078
+Nb(s) + O2(g) = NbO2(s)
+ No    t    I-Str          Medium                 Value (Dev)           W    Tech.    Ref. #
+ 1    25      0       Inf. Dilution             lgK:129.5(4SF)          4     ENS      6422
+ 2    27      0       Inf. Dilution             lgK:128.6(4SF)          0     ENS      6422
+ 3    127     0       Inf. Dilution             lgK:94.05(4SF)          2     ENS      6422
+ 4    227     0       Inf. Dilution             lgK:73.32(4SF)          1     ENS      6422
+ 5    327     0       Inf. Dilution             lgK:59.51(4SF)          0     ENS      6422
+ 6    25      0       Inf. Dilution             dG:-176.7(4SF)          4     EFE      6422
+ 7    25      0       Inf. Dilution             dG:-177.1(4SF)          4     CRV     22971
+ 8    25      0       Inf. Dilution            dG:-176.98(5SF)          3     CRV     31291
+ 9    25      0       Inf. Dilution          dG:-740.5(0.100SD)kJ       4     CRV     32222
+ 10   25      0       Inf. Dilution             dH:-190.0(4SF)          4     MTD      6422
+ 11   25      0       Inf. Dilution             dH:-190.4(4SF)          4     CRV     22971
+ 12   127     0       Inf. Dilution             dH:-189.8(4SF)          1     MTD      6422
+ 13   227     0       Inf. Dilution             dH:-189.6(4SF)          0     MTD      6422
+ 14   327     0       Inf. Dilution             dH:-189.3(4SF)          0     MTD      6422
+
+
+Reaction No. 67079
+2<Nb(s)> + 2.5<O2(g)> = Nb2O5(s)
+ No    t    I-Str         Medium                  Value (Dev)           W    Tech.    Ref. #
+ 1    25      0       Inf. Dilution             lgK:309.4(4SF)          0     ENS      6422
+ 2    27      0       Inf. Dilution             lgK:307.3(4SF)          0     ENS      6422
+ 3    127     0       Inf. Dilution             lgK:224.7(4SF)          0     ENS      6422
+ 4    227     0       Inf. Dilution             lgK:175.1(4SF)          0     ENS      6422
+ 5    327     0       Inf. Dilution             lgK:142.1(4SF)          0     ENS      6422
+ 6    25      0       Inf. Dilution             dG:-422.1(4SF)          0     EFE      6422
+ 7    25      0       Inf. Dilution             dG:-424.6(4SF)          0     CRV     28287
+Note (7): average of four values
+ 8    25      0       Inf. Dilution            dG:-422.9(0.7SD)         2     EFE     30139
+ 9    25      0       Inf. Dilution          dG:-1764.0(1.9SD)kJ        2     EOR     30153
+Note (9): Original Russian reference given
+
+
+
+
+                                          – Page 13 of 39 –
+JESS Thermodynamic Database v8.9                                          Niobium
+
+
+ 10   25    0        Inf. Dilution        dG:-1766.0(0.100SD)kJ       4     CRV      32222
+ 11   25    0        Inf. Dilution            dH:-454.0(4SF)          0     MTD      6422
+ 12   25    0        Inf. Dilution           dH:-455.2(0.6SD)         4     MCL      30139
+ 13   25    0        Inf. Dilution         dH:-1897.4(1.7SD)kJ        3     EOR      30153
+Note (13): Original Russian reference given
+ 14   127   0        Inf. Dilution            dH:-453.7(4SF)          0     MTD      6422
+ 15   227   0        Inf. Dilution            dH:-453.1(4SF)          0     MTD      6422
+ 16   327   0        Inf. Dilution            dH:-452.5(4SF)          0     MTD      6422
+
+
+Reaction No. 67080
+Cl2(g) + Nb(s) + 0.5<O2(g)> = NbOCl2(s)
+ No    t    I-Str          Medium                Value (Dev)      W       Tech.     Ref. #
+ 1     25       0       Inf. Dilution          lgK:123.1(4SF)     4        ENS      6422
+ 2     27       0       Inf. Dilution          lgK:122.3(4SF)     0        ENS      6422
+ 3    127       0       Inf. Dilution          lgK:88.61(4SF)     2        ENS      6422
+ 4    227       0       Inf. Dilution          lgK:68.46(4SF)     1        ENS      6422
+ 5    327       0       Inf. Dilution          lgK:55.08(4SF)     0        ENS      6422
+ 6     25       0       Inf. Dilution          dG:-168.0(4SF)     4        EFE      6422
+ 7     25       0       Inf. Dilution          dH:-185.1(4SF)     2        MTD      6422
+ 8     25       0       Inf. Dilution          dH:-186.(3SF)      4        CRV      22971
+ 9    127       0       Inf. Dilution          dH:-184.6(4SF)     1        MTD      6422
+ 10   227       0       Inf. Dilution          dH:-184.0(4SF)     0        MTD      6422
+ 11   327       0       Inf. Dilution          dH:-183.4(4SF)     0        MTD      6422
+
+
+Reaction No. 67081
+1.5<Cl2(g)> + Nb(s) + 0.5<O2(g)> = NbOCl3(s)
+ No    t    I-Str          Medium                Value (Dev)      W       Tech.     Ref. #
+ 1     25       0       Inf. Dilution          lgK:136.8(4SF)     4        ENS      6422
+ 2     27       0       Inf. Dilution          lgK:135.8(4SF)     0        ENS      6422
+ 3    127       0       Inf. Dilution          lgK:97.59(4SF)     2        ENS      6422
+ 4    227       0       Inf. Dilution          lgK:74.74(4SF)     1        ENS      6422
+ 5    327       0       Inf. Dilution          lgK:59.57(4SF)     0        ENS      6422
+ 6     25       0       Inf. Dilution          dG:-186.6(4SF)     4        EFE      6422
+ 7     25       0       Inf. Dilution          dG:-189.(3SF)      4        CRV      22971
+ 8     25       0       Inf. Dilution          dH:-210.2(4SF)     2        MTD      6422
+ 9     25       0       Inf. Dilution          dH:-211.(3SF)      4        CRV      22971
+
+
+
+
+                                        – Page 14 of 39 –
+JESS Thermodynamic Database v8.9                                    Niobium
+
+
+ 10   127      0        Inf. Dilution          dH:-209.4(4SF)   1    MTD       6422
+ 11   227      0        Inf. Dilution          dH:-208.7(4SF)   0    MTD       6422
+ 12   327      0        Inf. Dilution          dH:-207.9(4SF)   0    MTD       6422
+
+
+Reaction No. 67082
+0.5<Cl2(g)> + Nb(s) + O2(g) = NbO2Cl(s)
+ No    t     I-Str         Medium                Value (Dev)    W   Tech.     Ref. #
+ 1    25       0        Inf. Dilution          lgK:158.4(4SF)   4    ENS       6422
+ 2    27       0        Inf. Dilution          lgK:157.4(4SF)   0    ENS       6422
+ 3    127      0        Inf. Dilution          lgK:114.6(4SF)   2    ENS       6422
+ 4    227      0        Inf. Dilution          lgK:89.05(4SF)   1    ENS       6422
+ 5    327      0        Inf. Dilution          lgK:72.04(4SF)   0    ENS       6422
+ 6    25       0        Inf. Dilution          dG:-216.2(4SF)   4    EFE       6422
+ 7    25       0        Inf. Dilution          dH:-235.0(4SF)   2    MTD       6422
+ 8    127      0        Inf. Dilution          dH:-234.4(4SF)   1    MTD       6422
+ 9    227      0        Inf. Dilution          dH:-233.8(4SF)   0    MTD       6422
+ 10   327      0        Inf. Dilution          dH:-233.2(4SF)   0    MTD       6422
+
+
+Reaction No. 67244
+Nb(s) + C(s) = NbC(s)
+ No    t     I-Str         Medium                Value (Dev)    W   Tech.     Ref. #
+ 1    25       0        Inf. Dilution          lgK:23.98(4SF)   4    ENS       6422
+ 2    27       0        Inf. Dilution          lgK:23.83(4SF)   0    ENS       6422
+ 3    127      0        Inf. Dilution          lgK:17.80(4SF)   4    ENS       6422
+ 4    227      0        Inf. Dilution          lgK:14.19(4SF)   4    ENS       6422
+ 5    327      0        Inf. Dilution          lgK:11.79(4SF)   0    ENS       6422
+ 6    25       0        Inf. Dilution          dG:-32.72(4SF)   4    EFE       6422
+ 7    25       0        Inf. Dilution           dG:-33.(2SF)    4    CRV      22971
+ 8    25       0        Inf. Dilution          dH:-33.2(3SF)    4    MTD       6422
+ 9    25       0        Inf. Dilution           dH:-33.(2SF)    4    CRV      22971
+ 10   127      0        Inf. Dilution          dH:-33.1(3SF)    4    MTD       6422
+ 11   227      0        Inf. Dilution          dH:-33.0(3SF)    4    MTD       6422
+ 12   327      0        Inf. Dilution          dH:-32.9(3SF)    0    MTD       6422
+
+
+Reaction No. 68860
+Nb+5_H2O2 + F-1 = Nb+5_H2O2_F-1
+ No   t     I-Str          Medium                Value (Dev)    W   Tech.     Ref. #
+
+
+
+
+                                        – Page 15 of 39 –
+JESS Thermodynamic Database v8.9                                     Niobium
+
+
+ 1    23              H2SO4(l):Water             lgK:2.62(3SF)   0   MSP        6680
+                         20:80Vol
+
+
+Reaction No. 68861
+Nb+5_H2O2 + 2<F-1> = Nb+5_H2O2_F-1(2)
+ No   t    I-Str          Medium                  Value (Dev)    W   Tech.     Ref. #
+ 1    23              H2SO4(l):Water             lgK:1.71(3SF)   0   MSP        6680
+                         20:80Vol
+
+
+Reaction No. 68862
+Nb+5_H2O2 + 3<F-1> = Nb+5_H2O2_F-1(3)
+ No   t    I-Str          Medium                  Value (Dev)    W   Tech.     Ref. #
+ 1    23              H2SO4(l):Water             lgK:1.58(3SF)   0   MSP        6680
+                         20:80Vol
+
+
+Reaction No. 68863
+Nb+5_H2O2 + 4<F-1> = Nb+5_H2O2_F-1(4)
+ No   t    I-Str          Medium                  Value (Dev)    W   Tech.     Ref. #
+ 1    23              H2SO4(l):Water             lgK:1.51(3SF)   0   MSP        6680
+                         20:80Vol
+
+
+Reaction No. 71070
+Nb2O5(s) + 10<e-1> + 10<H+1> = 2<Nb(s)> + 5<H2O>
+ No   t    I-Str          Medium                 Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution            lgK:-102.(3SF)    1   ELC
+ 2    25     0        Inf. Dilution             E:-0.644(3SF)    0   CRV       6330
+ 3    25     0        Inf. Dilution             E:-0.65(2SF)     0   CRV       22551
+
+
+Reaction No. 71071
+NbO(s) + 2<H+1> + 2<e-1> = Nb(s) + H2O
+ No   t    I-Str          Medium                 Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution            lgK:-25.1(3SF)    1   ELC
+ 2    25     0        Inf. Dilution             E:-0.733(3SF)    0   CRV       6330
+ 3    25     0        Inf. Dilution             E:-0.733(3SF)    0   CRV       28287
+
+
+Reaction No. 71072
+NbO2(s) + 4<H+1> + 4<e-1> = Nb(s) + 2<H2O>
+ No   t    I-Str          Medium                 Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution            lgK:-46.4(3SF)    1   ELC
+
+
+
+
+                                         – Page 16 of 39 –
+JESS Thermodynamic Database v8.9                                                       Niobium
+
+
+ 2    25            0          Inf. Dilution            E:-0.690(3SF)          0       CRV        6330
+
+
+Reaction No. 71073
+NbO2(s) + 2<H+1> + 2<e-1> = NbO(s) + H2O
+ No    t       I-Str               Medium                Value (Dev)           W       Tech.     Ref. #
+ 1    25            0          Inf. Dilution           lgK:-21.4(3SF)          1       ELC
+ 2    25            0          Inf. Dilution            E:-0.646(3SF)          0       CRV        6330
+
+
+Reaction No. 72392
+Nb(s) + 1.5<O2(g)> + e-1 = NbO3-1
+
+Note: NbO3-1 unhydrated is inappropriate
+ No   t       I-Str            Medium                   Value (Dev)                W    Tech.    Ref. #
+ 1    25        0           Inf. Dilution            dG:-227.100(6SF)              4     CRV      9029
+ 2    25        1              Unknown            dG:-932.100(0.100SD)kJ           4     CRV      32222
+ 3    25        0           Inf. Dilution            dH:-255.300(6SF)              4     CRV      9029
+
+
+Reaction No. 72393
+0.5<H2(g)> + Nb(s) + 1.5<O2(g)> = H+1_NbO3-1
+
+Note: NbO3-1 unhydrated is inappropriate
+ No    t       I-Str              Medium                 Value (Dev)           W       Tech.     Ref. #
+ 1    25            0         Inf. Dilution           dG:-236.800(6SF)         4        CRV       9029
+ 2    25            0         Inf. Dilution           dH:-257.950(6SF)         4        CRV       9029
+
+
+Reaction No. 74262
+NbO+3_SO4-2(2) + 2<e-1> + 2<H+1> = Nb+3 + H2O + 2<SO4-2>
+
+Note: NbO+3 unhydrated is inappropriate
+ No       t     I-Str               Medium               Value (Dev)       W       Tech.         Ref. #
+ 1     25               0        Inf. Dilution           E:-0.1(1SF)       0           CRV       22551
+Note (1): Approximate value in source
+
+
+Reaction No. 75051
+KNbUO6(s) + 6<H+1> + 3<F-1> = K+1 + NbOF3 + UO2+2 + 3<H2O>
+ No    t       I-Str              Medium                 Value (Dev)           W       Tech.     Ref. #
+ 1    25            0          Inf. Dilution           dH:265.5(4SF)kJ         1        MCL      22973
+
+
+Reaction No. 75052
+KNbUO6(beta,s) + 6<H+1> + 3<F-1> = K+1 + NbOF3 + UO2+2 + 3<H2O>
+
+
+
+
+                                                 – Page 17 of 39 –
+JESS Thermodynamic Database v8.9                                     Niobium
+
+
+ No   t    I-Str         Medium                  Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution            dH:215.7(4SF)kJ   1    MCL      22973
+
+
+Reaction No. 75053
+RbNbUO6(s) + 6<H+1> + 3<F-1> = Rb+1 + NbOF3 + UO2+2 + 3<H2O>
+ No   t    I-Str         Medium                  Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution            dH:229.8(4SF)kJ   1    MCL      22973
+
+
+Reaction No. 75054
+CsNbUO6(s) + 6<H+1> + 3<F-1> = Cs+1 + NbOF3 + UO2+2 + 3<H2O>
+ No   t    I-Str         Medium                  Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution            dH:250.1(4SF)kJ   1    MCL      22973
+
+
+Reaction No. 75059
+K(s) + Nb(s) + 3<O2(g)> + U(s) = KNbUO6(s)
+ No   t    I-Str         Medium                  Value (Dev)     W   Tech.     Ref. #
+ 1    25     0       Inf. Dilution            dH:-2590.(4SF)kJ   1    MCL      22973
+
+
+Reaction No. 75060
+K(s) + Nb(s) + 3<O2(g)> + U(s) = KNbUO6(beta,s)
+ No   t    I-Str         Medium                  Value (Dev)     W   Tech.     Ref. #
+ 1    25     0       Inf. Dilution            dH:-2619.(4SF)kJ   1    MCL      22973
+
+
+Reaction No. 75061
+Nb(s) + 3<O2(g)> + Rb(s) + U(s) = RbNbUO6(s)
+ No   t    I-Str         Medium                  Value (Dev)     W   Tech.     Ref. #
+ 1    25     0       Inf. Dilution            dH:-2633.(4SF)kJ   1    MCL      22973
+
+
+Reaction No. 75062
+Cs(s) + Nb(s) + 3<O2(g)> + U(s) = CsNbUO6(s)
+ No   t    I-Str         Medium                  Value (Dev)     W   Tech.     Ref. #
+ 1    25     0       Inf. Dilution            dH:-2638.(4SF)kJ   1    MCL      22973
+
+
+Reaction No. 75629
+2.5<Cl2(g)> + Nb(s) = Nb+5_Cl-1(5)_(g)
+ No   t    I-Str         Medium                  Value (Dev)     W   Tech.     Ref. #
+ 1    25     0       Inf. Dilution            dG:-646.0(4SF)kJ   3    CRV       6330
+ 2    25     0       Inf. Dilution            dH:-703.7(4SF)kJ   3    CRV       6330
+
+
+
+
+                                         – Page 18 of 39 –
+JESS Thermodynamic Database v8.9                                         Niobium
+
+
+
+Reaction No. 77487
+Nb(s) + O2(g) - e-1 = NbO2+1
+
+Note: NbO2+1 unhydrated is inappropriate
+ No   t    I-Str          Medium                 Value (Dev)     W       Tech.     Ref. #
+ 1    25     0        Inf. Dilution            dG:-163.0(4SF)    3        CRV      28287
+
+
+Reaction No. 77488
+Nb(s) + 0.5<O2(g)> - 2<e-1> = NbO+2
+
+Note: NbO+2 unhydrated is inappropriate
+ No   t    I-Str          Medium                 Value (Dev)     W       Tech.     Ref. #
+ 1    25     0        Inf. Dilution            dG:-101.7(4SF)    3        CRV      28287
+
+
+Reaction No. 77491
+Nb+3 + e-1 + H2O = NbO(s) + 2<H+1>
+ No   t    I-Str          Medium                 Value (Dev)     W       Tech.     Ref. #
+ 1    25     0        Inf. Dilution            lgK:-30.7(3SF)    1        ELC
+ 2    25     0        Inf. Dilution              E:-0.9(1SF)     0        CRV      28287
+
+
+Reaction No. 77492
+NbO2(s) + e-1 + 4<H+1> = Nb+3 + 2<H2O>
+ No    t    I-Str          Medium                Value (Dev)     W       Tech.     Ref. #
+ 1    25         0     Inf. Dilution             lgK:9.4(2SF)    1       ELC
+ 2    25         0     Inf. Dilution             E:-0.4(1SF)     0       CRV       28287
+
+
+Reaction No. 77493
+Nb2O5(s) + 2<e-1> + 2<H+1> = 2<NbO2(s)> + H2O
+ No   t    I-Str          Medium                 Value (Dev)     W       Tech.     Ref. #
+ 1    25     0         Inf. Dilution            lgK:-9.2(2SF)    1        ELC
+ 2    25     0         Inf. Dilution            E:-0.248(3SF)    0        CRV      28287
+
+
+Reaction No. 80132
+2<H2(g)> + Nb(s) + 2<O2(g)> - e-1 = Nb+5_OH-1(4)
+ No   t    I-Str         Medium                  Value (Dev)         W    Tech.    Ref. #
+ 1    25     0       Inf. Dilution             lgK:210.(3SF)         1     ELC
+ 2    25     0       Inf. Dilution            dG:-365.440(6SF)       0     MDG     30153
+ 3    25     0       Inf. Dilution            dH:-421.760(6SF)       0     MTD     30153
+
+
+
+
+                                         – Page 19 of 39 –
+JESS Thermodynamic Database v8.9                                                             Niobium
+
+
+
+Reaction No. 80141
+2.5<H2(g)> + Nb(s) + 2.5<O2(g)> = Nb+5_OH-1(5)
+ No   t            I-Str              Medium                   Value (Dev)               W    Tech.    Ref. #
+ 1    25             0             Inf. Dilution            dG:-340.100(3SF)             3     MDG      30153
+ 2    25             1                Unknown            dG:-1208.6(0.100SD)kJ           4     CRV      32222
+ 3    25             0             Inf. Dilution            dH:-394.100(3SF)             3     MTD      30153
+
+
+Reaction No. 80142
+Nb+5_OH-1(5)_(am.,s) = Nb+5_OH-1(5)
+ No       t         I-Str                Medium                Value (Dev)       W           Tech.     Ref. #
+ 1     19                1                KNO3                lgK:-4.8(2SF)      0           EOD        403
+Note (1): Calculated from Babko solubility [63BLN_30106]
+ 2     25                0           Inf. Dilution            lgK:-7.9(2SF)      3           EDH
+Note (2): Value from ref [31495] selected and extrapolated of Inf. Dil.
+ 3     25                0           Inf. Dilution             lgK:-4.(1SF)      1           ELC
+ 4     25            0.1                  NaCl                 lgK:-8.(1SF)      0           MSL       31495
+Note (4): value/2; orig. 2Nb(OH)5=Nb2O5(pr)+5H2O, here amorphous prec. Nb+5_OH-
+1(5)_(s)
+ 5     25                1                KNO3               lgK:-4.855(4SF)     0           EOD        847
+Note (5): Calc. from Babko sol. [63BLN_30106]; Nb2O5(s) + 5H2O = 2Nb(OH)5 lgK=-9.71,
+here divided by 2
+
+
+Reaction No. 80143
+Nb+5_OH-1(5) = Nb+5_OH-1(4) + OH-1
+ No           t              I-Str             Medium             Value (Dev)        W       Tech.     Ref. #
+ 1     18:20                   1                KNO3            lgK:-14.6(3SF)       0        MSL      30106
+ 2            25               0         Inf. Dilution          lgK:-12.4(3SF)       1        ELC
+
+
+Reaction No. 80144
+Nb+5_OH-1(5) + H2O = Nb+5_OH-1(6) + H+1
+
+Note: Temp effect undocumented as far as we know
+ No       t          I-Str                Medium                Value (Dev)          W       Tech.     Ref. #
+ 1        0              0            Inf. Dilution            lgK:-7.74(3SF)        0        CRV      28992
+ 2     19                1                 KNO3                lgK:-7.4(2SF)         0        MSL       403
+ 3     19                1                 KNO3                lgK:-7.4(2SF)         0        MSL      30106
+ 4     25                0            Inf. Dilution            lgK:-4.9(2SF)         1        ELC
+ 5     25                0            Inf. Dilution            lgK:-7.39(3SF)        0        CRV      28992
+
+
+
+
+                                                        – Page 20 of 39 –
+JESS Thermodynamic Database v8.9                                                  Niobium
+
+
+ 6    25            0    Inf. Dilution         lgK:-6.758(4SF)           0          CRV      31301
+Note (6): > -6.758
+ 7    25        0.1           NaCl             lgK:-6.322(4SF)           0          MSL      31301
+Note (7): >-6.322
+ 8    25        0.1           NaCl              lgK:-6.6(2SF)            0          MSL      31495
+ 9    50            0    Inf. Dilution          lgK:-7.19(3SF)           0          CRV      28992
+ 10   100           0    Inf. Dilution          lgK:-7.10(3SF)           0          CRV      28992
+ 11   150           0    Inf. Dilution          lgK:-7.30(3SF)           0          CRV      28992
+ 12   200           0    Inf. Dilution          lgK:-7.70(3SF)           0          CRV      28992
+ 13   250           0    Inf. Dilution          lgK:-8.2(2SF)            0          CRV      28992
+
+
+Reaction No. 80145
+Nb+5_OH-1(5) + H+1 = Nb+5_OH-1(4) + H2O
+ No   t       I-Str         Medium               Value (Dev)             W        Tech.     Ref. #
+ 1    19        1            KNO3               lgK:-0.6(1SF)            0         MSL        403
+ 2    25        0        Inf. Dilution          lgK:1.6(2SF)             1         ELC
+ 3    25       0.1          LiClO4             lgK:-3.22(3SF)            0         MDS       30135
+
+
+Reaction No. 80146
+H+1_Na+1(7)_Nb6O19-8_H2O(5)_(s) = 7<Na+1> + H+1_Nb6O19-8 + 5<H2O>
+ No       t     I-Str     Medium            Value (Dev)          W               Tech.      Ref. #
+  1    25       0.12       NaCl          lgK:-11.64(4SF)         4               MSL        30112
+
+
+Reaction No. 80147
+Nb+5_F-1(5) + 2<F-1> = Nb+5_F-1(7)
+ No    t       I-Str        Medium             Value (Dev)           W           Tech.      Ref. #
+ 1    25            5     (H,Na)ClO4         lgK:10.66(4SF)          0            MSE        5398
+ 2    25            5       NaClO4            lgK:10.7(3SF)          0            MSE       30113
+
+
+Reaction No. 80148
+Nb6O19-8 + 2<H+1> = H+1(2)_Nb6O19-8
+ No   t       I-Str        Medium               Value (Dev)                  W     Tech.    Ref. #
+ 1    25        0       Inf. Dilution        lgK:27.97(0.13SD)               3      MGL       847
+Note (1): Application of Bromley theory
+ 2    25        3            KCl             lgK:23.55(0.04SD)               3      MGL       847
+Note (2): pH from 9.7 to 13.1
+
+
+
+
+                                         – Page 21 of 39 –
+JESS Thermodynamic Database v8.9                                              Niobium
+
+
+Reaction No. 80149
+Nb6O19-8 + 3<H+1> = H+1(3)_Nb6O19-8
+ No   t        I-Str           Medium              Value (Dev)          W     Tech.      Ref. #
+ 1    25         0          Inf. Dilution       lgK:39.91(0.18SD)       3      MGL        847
+Note (1): Application of Bromley theory
+ 2    25         3               KCl            lgK:32.90(0.07SD)       3      MGL        847
+Note (2): pH from 9.7 to 13.1
+
+
+Reaction No. 80150
+Nb+5 + 2<e-1> = Nb+3
+
+Note: See Nb+5_OH-1(4) + 2<e-1> = Nb+3_OH-1(4) for an attempt at a better
+representation: the species Nb+5 (and possibly) Nb+3 is considered hopelessly
+unrealistic
+ No        t     I-Str         Medium          Value (Dev)          W       Tech.       Ref. #
+  1       25         3.14      H2SO4         E:-0.3730(4SF)         0       MEF         30141
+  2       25         5.91      H2SO4         E:-0.3849(4SF)         0       MEF         30141
+  3       25         9.87      H2SO4         E:-0.4261(4SF)         0       MEF         30141
+
+
+Reaction No. 80151
+Nb+5_OH-1(2) + Tartaric-2 = Nb+5_OH-1(2)_Tartaric-2
+ No       t      I-Str         Medium          Value (Dev)          W       Tech.       Ref. #
+  1    23            0        Unknown         lgK:25.15(4SF)        2        MGL         906
+  2    23            0        Unknown         lgK:25.15(2SF)        2        MSL        30357
+
+
+Reaction No. 80152
+Nb+5_OH-1(2)_Tartaric-2 + Tartaric-2 = Nb+5_OH-1(2)_Tartaric-2(2)
+ No       t      I-Str         Medium           Value (Dev)         W       Tech.       Ref. #
+  1    23             0        Unknown        lgK:7.85(3SF)         2        MGL         906
+  2    23             0        Unknown        lgK:7.85(2SF)         2        MSL        30357
+
+
+Reaction No. 80153
+Nb+5_OH-1(2) + 2<Tartaric-2> = Nb+5_OH-1(2)_Tartaric-2(2)
+ No       t      I-Str        Medium           Value (Dev)          W       Tech.       Ref. #
+  1    20            1          KCl         lgK:33.5(0.7SD)         3        MSL         906
+Note (1): From: N.A. Dobvynina et al. Izvest. Akad Nauk SSSR.Khim 1970 2 477
+
+
+Reaction No. 80154
+Nb+5_OH-1(2) + 2<Salicylic-2> = Nb+5_OH-1(2)_Salicylic-2(2)
+
+
+
+
+                                            – Page 22 of 39 –
+JESS Thermodynamic Database v8.9                                          Niobium
+
+
+ No    t    I-Str      Medium              Value (Dev)           W       Tech.      Ref. #
+ 1    25    0.04      Unknown           lgK:22.60(0.04SD)        3        MSP        931
+Note (1): NbO3+ notation in [931]
+ 2    25    0.04      Unknown             lgK:22.6(3SF)          3        MSP       30348
+Note (2): NbO3+ notation in the paper
+
+
+Reaction No. 80155
+Nb+5_OH-1(4) + H+1(2)_Tartaric-2 = Nb+5_H+1_OH-1(4)_Tartaric-2 + H+1
+ No    t    I-Str        Medium              Value (Dev)       W         Tech.      Ref. #
+  1   20     4.5        (H,Na)Cl            lgK:2.34(3SF)      2         MDS         931
+  2   20     4.5        (H,Na)Cl            lgK:2.34(3SF)      2         MDS        30350
+Note (2): Doubts about how the reaction is written; number of OH in complex in doubt
+  3   20     4.5        (H,Na)NO3           lgK:2.33(3SF)      2         MDS        30350
+Note (3): Doubts about how the reaction in written; number of OH in complex in doubt
+
+
+Reaction No. 80156
+Nb+5_OH-1(4) + H+1(2)_Malic-2 = Nb+5_H+1_OH-1(4)_Malic-2 + H+1
+ No    t    I-Str        Medium              Value (Dev)       W         Tech.      Ref. #
+  1   20     4.5        (H,Na)Cl            lgK:2.01(3SF)      2         MDS         931
+  2   20     4.5        (H,Na)Cl            lgK:2.02(3SF)      2         MDS        30350
+Note (2): Doubts about how the reaction is written; number of OH in complex in doubt
+  3   20     4.5        (H,Na)NO3            lgK:2.0(2SF)      2         MDS        30350
+Note (3): Doubts about how the reaction in written; number of OH in complex in doubt
+
+
+Reaction No. 80157
+Nb+5_OH-1(4) + H+1(2)_Succinic-2 = Nb+5_H+1_OH-1(4)_Succinic-2 + H+1
+ No    t    I-Str        Medium              Value (Dev)       W         Tech.      Ref. #
+  1   20     4.5        (H,Na)Cl            lgK:1.53(3SF)      2         MDS         931
+  2   20     4.5        (H,Na)Cl            lgK:1.48(3SF)      2         MDS        30350
+Note (2): Doubts about how the reaction is written; number of OH in complex in doubt
+  3   20     4.5        (H,Na)NO3           lgK:1.58(3SF)      2         MDS        30350
+Note (3): Doubts about how the reaction is written; number of OH in complex in doubt
+
+
+Reaction No. 80162
+6<Nb+5_OH-1(5)> - 5<H+1> = H+1(3)_Nb6O19-8 + 11<H2O>
+ No   t    I-Str         Medium                 Value (Dev)          W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-18.1(3SF)         1     ELC
+
+
+
+
+                                        – Page 23 of 39 –
+JESS Thermodynamic Database v8.9                                         Niobium
+
+
+ 2    25     1            KNO3                lgK:-14.46(4SF)       4      MGL       847
+
+
+Reaction No. 80163
+6<Nb+5_OH-1(5)> - 6<H+1> = H+1(2)_Nb6O19-8 + 11<H2O>
+ No   t    I-Str         Medium                 Value (Dev)         W     Tech.    Ref. #
+ 1    25     0        Inf. Dilution           lgK:-29.8(3SF)        1      ELC
+ 2    25     1            KNO3                lgK:-24.06(4SF)       4      MGL       847
+
+
+Reaction No. 80164
+6<Nb+5_OH-1(5)> - 7<H+1> = H+1_Nb6O19-8 + 11<H2O>
+ No   t    I-Str         Medium                 Value (Dev)         W     Tech.    Ref. #
+ 1    25     0        Inf. Dilution           lgK:-43.0(3SF)        1      ELC
+ 2    25     1            KNO3                lgK:-33.49(4SF)       4      MGL       847
+
+
+Reaction No. 80165
+6<Nb+5_OH-1(5)> - 8<H+1> = Nb6O19-8 + 11<H2O>
+ No    t     I-Str     Medium             Value (Dev)           W       Tech.      Ref. #
+  1   25         1      KNO3            lgK:-47.04(4SF)         0       MGL         847
+Note (1): Inconsistent with other values in table & with LC
+
+
+Reaction No. 80166
+Nb6O19-8 + H2O = H+1_Nb6O19-8 + OH-1
+ No    t    I-Str      Medium             Value (Dev)           W       Tech.      Ref. #
+  1   25         0      KCl              lgK:11.9(3SF)          0        MGL       30158
+  2   25     0.1        KCl            lgK:11.98(0.1SD)         0        MGL       30158
+  3   25     0.5        KCl            lgK:12.17(0.1SD)         0        MGL       30158
+  4   25         1      KCl            lgK:12.30(0.1SD)         0        MGL       30158
+  5   25         2      KCl            lgK:12.44(0.1SD)         0        MGL       30158
+  6   25         3      KCl            lgK:12.60(0.1SD)         0        MGL       30158
+
+
+Reaction No. 80167
+H+1_Nb6O19-8 + H2O = H+1(2)_Nb6O19-8 + OH-1
+ No    t    I-Str     Medium              Value (Dev)           W       Tech.      Ref. #
+ 1    25         0      KCl              lgK:11.0(3SF)          0        MGL       30158
+ 2    25     0.1        KCl            lgK:11.01(0.05SD)        0        MGL       30158
+ 3    25     0.5        KCl            lgK:10.97(0.05SD)        0        MGL       30158
+ 4    25         1      KCl            lgK:10.94(0.05SD)        0        MGL       30158
+
+
+
+
+                                       – Page 24 of 39 –
+JESS Thermodynamic Database v8.9                                              Niobium
+
+
+ 5     25            2       KCl            lgK:10.91(0.05SD)        0        MGL       30158
+ 6     25            3       KCl             lgK:10.86(4SF)          0        MGL       30158
+
+
+Reaction No. 80168
+H+1(2)_Nb6O19-8 + H2O = H+1(3)_Nb6O19-8 + OH-1
+ No       t     I-Str       Medium             Value (Dev)           W       Tech.      Ref. #
+  1    25            0        KCl             lgK:10.0(3SF)          0       MGL        30158
+  2    25           0.1       KCl           lgK:9.94(0.02SD)         0       MGL        30158
+  3    25           0.5       KCl           lgK:9.81(0.02SD)         0       MGL        30158
+  4    25            1        KCl           lgK:9.71(0.02SD)         0       MGL        30158
+  5    25            2        KCl           lgK:9.54(0.02SD)         0       MGL        30158
+  6    25            3        KCl           lgK:9.39(0.02SD)         0       MGL        30158
+
+
+Reaction No. 80170
+0.5<Nb2O5(s)> + 1.5<H2O> = Nb+5_OH-1(4) - H+1
+
+Note: Solid phase is B-Nb2O5(s)
+ No   t       I-Str           Medium                 Value (Dev)         W     Tech.    Ref. #
+ 1    10        1            NaClO4/m            lgK:-7.44(0.06SD)       5      MSL      23700
+ 2    25        0         Inf. Dilution/m         lgK:-7.4(0.2SD)        5      MSL      23700
+ 3    25       0.1           NaClO4/m            lgK:-7.46(0.35SD)       5      MSL      23700
+ 4    25       0.3           NaClO4/m            lgK:-7.64(0.21SD)       5      MSL      23700
+ 5    25       0.5           NaClO4/m            lgK:-7.53(0.14SD)       5      MSL      23700
+ 6    25        1            NaClO4/m            lgK:-7.53(0.09SD)       5      MSL      23700
+ 7    25        6            NaClO4/m            lgK:-8.16(0.05SD)       5      MSL      23700
+ 8    50        1            NaClO4/m            lgK:-7.42(0.11SD)       5      MSL      23700
+ 9    70        1            NaClO4/m            lgK:-7.24(0.18SD)       5      MSL      23700
+
+
+Reaction No. 80171
+0.5<Nb2O5(s)> + 2.5<H2O> = Nb+5_OH-1(5)
+
+Note: Solid phase is B-Nb2O5(s)
+ No   t       I-Str           Medium                 Value (Dev)         W     Tech.    Ref. #
+ 1    10        1            NaClO4/m            lgK:-9.68(0.06SD)       5      MSL      23700
+ 2    25        0         Inf. Dilution/m         lgK:-9.1(0.1SD)        5      MSL      23700
+ 3    25       0.1           NaClO4/m            lgK:-9.20(0.08SD)       5      MSL      23700
+ 4    25       0.3           NaClO4/m            lgK:-9.21(0.07SD)       5      MSL      23700
+ 5    25       0.5           NaClO4/m            lgK:-9.50(0.10SD)       5      MSL      23700
+
+
+
+
+                                            – Page 25 of 39 –
+JESS Thermodynamic Database v8.9                                                 Niobium
+
+
+ 6    25         1              NaClO4/m            lgK:-9.61(0.08SD)        5     MSL      23700
+ 7    25         6              NaClO4/m            lgK:-9.30(0.04SD)        5     MSL      23700
+ 8    50         1              NaClO4/m            lgK:-9.38(0.08SD)        5     MSL      23700
+ 9    70         1              NaClO4/m            lgK:-9.31(0.08SD)        5     MSL      23700
+
+
+Reaction No. 80172
+0.5<Nb2O5(s)> + 3.5<H2O> = Nb+5_OH-1(6) + H+1
+
+Note: Solid phase is B-Nb2O5(s)
+ No   t        I-Str             Medium                 Value (Dev)          W     Tech.   Ref. #
+ 1    10         1              NaClO4/m            lgK:-16.03(0.11SD)       5      MSL     23700
+ 2    25         0           Inf. Dilution/m         lgK:-14.1(0.3SD)        5      MSL     23700
+ 3    25        0.1             NaClO4/m            lgK:-14.08(0.05SD)       5      MSL     23700
+ 4    25        0.3             NaClO4/m            lgK:-14.39(0.08SD)       5      MSL     23700
+ 5    25        0.5             NaClO4/m            lgK:-14.82(0.11SD)       5      MSL     23700
+ 6    25         1              NaClO4/m            lgK:-15.33(0.11SD)       3      MSL     23700
+ 7    50         1              NaClO4/m            lgK:-15.40(0.21SD)       3      MSL     23700
+ 8    70         1              NaClO4/m            lgK:-14.92(0.12SD)       2      MSL     23700
+
+
+Reaction No. 80173
+0.5<Nb2O5(s)> + 4.5<H2O> = Nb+5_OH-1(7) + 2<H+1>
+
+Note: Solid phase is B-Nb2O5(s)
+ No   t        I-Str              Medium                Value (Dev)          W    Tech.    Ref. #
+ 1    10         1               NaClO4/m            lgK:-24.8(0.2SD)        5     MSL      23700
+ 2    25         0           Inf. Dilution/m         lgK:-23.9(0.6SD)        5     MSL      23700
+ 3    25        0.3              NaClO4/m            lgK:-23.3(0.2SD)        3     MSL      23700
+ 4    25        0.5              NaClO4/m            lgK:-23.9(0.4SD)        3     MSL      23700
+ 5    25         1               NaClO4/m            lgK:-24.6(0.4SD)        3     MSL      23700
+ 6    50         1               NaClO4/m            lgK:-22.8(0.1SD)        1     MSL      23700
+ 7    70         1               NaClO4/m            lgK:-23.0(0.1SD)        5     MSL      23700
+
+
+Reaction No. 80174
+Nb2O5(s) + 2<H+1> + 3<H2O> = 2<Nb+5_OH-1(4)>
+
+Note: Solid phase is Aldrich Nb2O5(s)
+ No        t         I-Str      Medium            Value (Dev)            W       Tech.     Ref. #
+ 1     100             3        NaClO4         lgK:-11.23(0.26SD)        4       MSL       30121
+ 2     200             3        NaClO4         lgK:-10.83(0.37SD)        4       MSL       30121
+
+
+
+
+                                               – Page 26 of 39 –
+JESS Thermodynamic Database v8.9                                        Niobium
+
+
+ 3    250           3   NaClO4           lgK:-10.86(4SF)        4        MSL      30121
+
+
+Reaction No. 80175
+Nb2O5(s) + 4<H+1_F-1> + H2O = 2<Nb+5_F-1(2)_OH-1(3)>
+
+Note: Solid phase is Aldrich Nb2O5(2)
+ No       t     I-Str    Medium            Value (Dev)          W       Tech.     Ref. #
+ 1    150           3    NaClO4         lgK:-3.84(0.20SD)       4       MSL       30121
+ 2    200           3    NaClO4         lgK:-4.04(0.22SD)       4       MSL       30121
+ 3    250           3    NaClO4         lgK:-5.08(0.42SD)       4       MSL       30121
+
+
+Reaction No. 80176
+1.5<Br2(l)> + Nb(s) + 0.5<O2(g)> = NbOBr3(s)
+
+Note: q
+ No   t       I-Str        Medium               Value (Dev)         W   Tech.     Ref. #
+ 1    25        0       Inf. Dilution          dH:-179.1(4SF)       4    CRV      22971
+
+
+Reaction No. 80177
+3<Cl2(g)> + Na(s) + Nb(s) = Nb+5_Na+1_Cl-1(6)_(s)
+ No   t       I-Str         Medium              Value (Dev)     W       Tech.     Ref. #
+ 1    25        0       Inf. Dilution          dH:-291.(3SF)    4        CRV      22971
+
+
+Reaction No. 80178
+3<Cl2(g)> + K(s) + Nb(s) = Nb+5_K+1_Cl-1(6)_(s)
+ No   t       I-Str         Medium              Value (Dev)     W       Tech.     Ref. #
+ 1    25        0       Inf. Dilution          dH:-301.(3SF)    4        CRV      22971
+
+
+Reaction No. 80179
+3<Cl2(g)> + Nb(s) + Rb(s) = Nb+5_Rb+1_Cl-1(6)_(s)
+ No   t       I-Str         Medium              Value (Dev)     W       Tech.     Ref. #
+ 1    25        0       Inf. Dilution          dH:-306.(3SF)    4        CRV      22971
+
+
+Reaction No. 80180
+3<Cl2(g)> + Cs(s) + Nb(s) = Nb+5_Cs+1_Cl-1(6)_(s)
+ No   t       I-Str         Medium              Value (Dev)     W       Tech.     Ref. #
+ 1    25        0       Inf. Dilution          dH:-318.(3SF)    4        CRV      22971
+
+
+Reaction No. 80182
+
+
+
+
+                                        – Page 27 of 39 –
+JESS Thermodynamic Database v8.9                                             Niobium
+
+
+Nb+5_OH-1(5) + H+1(4)_EDTA-4 = Nb+5_OH-1(2)_EDTA-4 + 3<H2O> + H+1
+
+Note: Impossible to know reaction; I try this one after the one for Ta by the same
+authors
+ No   t       I-Str        Medium               Value (Dev)            W     Tech.     Ref. #
+ 1    20      1.08          K2SO4             lgK:40.78(4SF)           0      MPL       30356
+ 2    23       0.4           KCl               lgK:39.4(3SF)           0      MPL       30456
+Note (2): Rxn. not given in paper
+ 3    25        0       Inf. Dilution          lgK:40.0(3SF)           1      ESC       30456
+
+
+Reaction No. 80183
+Nb+5_OH-1(5)_(am.,s) + 3<H+1> + 2<Oxalic-2> = Nb+5_OH-1(2)_Oxalic-2(2) + 3<H2O >
+ No   t       I-Str         Medium              Value (Dev)            W     Tech.     Ref. #
+ 1    25        0       Inf. Dilution          lgK:10.9(3SF)           1      ELC
+ 2    25       0.5           KNO3              lgK:12.1(3SF)           0      MPH       30355
+
+
+Reaction No. 80184
+Nb+5_OH-1(5)_(am.,s) + 3<H+1> + 3<Oxalic-2> = Nb+5_OH-1(2)_Oxalic-2(3) + 3<H2O >
+ No       t    I-Str     Medium            Value (Dev)         W           Tech.       Ref. #
+  1    25       0.5       KNO3           lgK:17.15(4SF)        2            MPH        30355
+
+
+Reaction No. 80185
+Nb+5_OH-1(4) + H+1(2)_Malonic-2 = Nb+5_H+1_OH-1(4)_Malonic-2 + H+1
+ No    t       I-Str       Medium            Value (Dev)           W        Tech.      Ref. #
+  1   20        4.5       (H,Na)Cl          lgK:1.74(3SF)          2         MDS       30350
+Note (1): Doubts about how the reaction is written; number of OH in complex in doubt
+  2   20        4.5      (H,Na)NO3          lgK:1.71(3SF)          2         MDS       30350
+Note (2): Doubts about how the reaction in written; number of OH in complex in doubt
+
+
+Reaction No. 80186
+2<Nb6O19-8> + 8<OH-1> + 2<H2O> = 3<OH-1(4)_Nb4O12-4>
+ No   t       I-Str        Medium               Value (Dev)            W     Tech.     Ref. #
+ 1    25        0       Inf. Dilution          lgK:-0.4(1SF)           1      EES
+ 2    25        1            KCl              lgK:-0.60(1SF)           1      MSP       30136
+
+
+Reaction No. 80187
+Nb+5_F-1(2)_OH-1(2) + F-1 = Nb+5_F-1(3)_OH-1(2)
+ No       t     I-Str     Medium           Value (Dev)         W           Tech.       Ref. #
+
+
+
+
+                                        – Page 28 of 39 –
+JESS Thermodynamic Database v8.9                                            Niobium
+
+
+  1    25           0.5      NaClO4         lgK:3.80(3SF)         3       MIS         5398
+  2    25           0.5      NaClO4         lgK:3.8(2SF)          3       MIS         30149
+
+
+Reaction No. 80188
+Nb+5_F-1(3)_OH-1(2) + F-1 = Nb+5_F-1(4)_OH-1(2)
+ No       t     I-Str        Medium          Value (Dev)          W       Tech.       Ref. #
+  1    25           0.5      NaClO4         lgK:4.30(3SF)         3       MIS         5398
+  2    25           0.5      NaClO4         lgK:4.3(2SF)          3       MIS         30149
+
+
+Reaction No. 80189
+F-1 + Nb+5_OH-1(2) = Nb+5_F-1_OH-1(2)
+
+Note: Say Nb+5_OH-1(2), not Nb+5, is what they had; see F-1 + Nb+5 = Nb+5_F-1
+ No       t     I-Str        Medium          Value (Dev)          W       Tech.       Ref. #
+  1    23           17       H2SO4          lgK:7.12(3SF)         0       MSP         5398
+Note (1): Nb+5 unreal species
+
+
+Reaction No. 80190
+Nb+5_F-1(5)_OH-1(2) + F-1 = Nb+5_F-1(6)_OH-1(2)
+ No       t     I-Str        Medium          Value (Dev)          W       Tech.       Ref. #
+  1    25           0.5      NaClO4         lgK:4.67(3SF)         3       MIS         5398
+  2    25           0.5      NaClO4         lgK:4.7(2SF)          3       MIS         30149
+
+
+Reaction No. 80191
+Nb+5_F-1(6)_OH-1(2) + 2<H+1> + F-1 = Nb+5_F-1(7) + 2<H2O>
+ No       t     I-Str        Medium          Value (Dev)          W       Tech.       Ref. #
+  1    25           0.5      NaClO4         lgK:11.4(3SF)         3       MIS         30149
+
+
+Reaction No. 80197
+F2(g) + 1.5<H2(g)> + Nb(s) + 1.5<O2(g)> = Nb+5_F-1(2)_OH-1(3)
+ No   t       I-Str          Medium               Value (Dev)         W      Tech.     Ref. #
+ 1    25        0         Inf. Dilution        dG:-377.770(3SF)       3         MDG    30153
+ 2    25        0         Inf. Dilution        dH:-407.960(3SF)       3         MDG    30153
+
+
+Reaction No. 80198
+0.5<F2(g)> + 2.5<H2(g)> + Nb(s) + 2.5<O2(g)> + e-1 = Nb+5_F-1_OH-1(5)
+ No   t       I-Str          Medium               Value (Dev)         W      Tech.     Ref. #
+ 1    25        0         Inf. Dilution        dG:-403.480(3SF)       3         MDG    30153
+
+
+
+
+                                          – Page 29 of 39 –
+JESS Thermodynamic Database v8.9                                                Niobium
+
+
+ 2    25        0        Inf. Dilution          dH:-453.910(3SF)        3         MDG     30153
+
+
+Reaction No. 80199
+K(s) + Nb(s) + 1.5<O2(g)> = KNbO3(s)
+ No   t       I-Str        Medium                 Value (Dev)               W     Tech.   Ref. #
+ 1    25        0       Inf. Dilution        dG:-1261.5(10.0SD)kJ           3      EOR     30153
+Note (1): Original Russian reference given
+ 2    25        0       Inf. Dilution          dH:-1346.8(5SF)kJ            3      EOR     30153
+Note (2): Original Russian reference given
+
+
+Reaction No. 80200
+Na(s) + Nb(s) + 1.5<O2(g)> = NaNbO3(s)
+ No   t       I-Str        Medium                 Value (Dev)               W    Tech.    Ref. #
+ 1    25        0       Inf. Dilution         dG:-1207.6(6.3SD)kJ           3     EOR      30153
+Note (1): Original Russian reference given
+ 2    25        0       Inf. Dilution         dH:-1293.7(5.4SD)kJ           3     EOR      30153
+Note (2): Original Russian reference given
+
+
+Reaction No. 80201
+Li(s) + Nb(s) + 1.5<O2(g)> = LiNbO3(s)
+ No   t       I-Str         Medium                Value (Dev)           W        Tech.    Ref. #
+ 1    25        0        Inf. Dilution         dG:-1279.1(5SF)kJ        3         EOR     30153
+Note (1): Original Russian reference given
+ 2    25        0        Inf. Dilution         dH:-1364.9(5SF)kJ        3         EOR     30153
+Note (2): Original Russian reference given
+
+
+Reaction No. 80202
+Nb+5_OH-1(4) + 2<e-1> = Nb+3_OH-1(4)
+
+Note: Both Nb+5 and Nb+3 species assumed so that the E0 from Nb+5 + 2<e-1> = Nb+3 can
+be better represented (just hopefully)
+ No       t     I-Str         Medium              Value (Dev)       W           Tech.     Ref. #
+  1    25           0      Inf. Dilution         lgK:-9.7(2SF)      1            ELC
+  2    25           0      Inf. Dilution          E:-0.39(2SF)      0            EES
+
+
+Reaction No. 80203
+Nb+3 + 4<OH-1> = Nb+3_OH-1(4)
+ No    t       I-Str           Medium              Value (Dev)      W           Tech.     Ref. #
+
+
+
+
+                                           – Page 30 of 39 –
+JESS Thermodynamic Database v8.9                                           Niobium
+
+
+ 1    25        0         Inf. Dilution           lgK:34.(2SF)       1     EES
+Note (1): By analogy with Al+3
+
+
+Reaction No. 80207
+Nb+3 + 2<OH-1> = Nb+3_OH-1(2)
+ No   t       I-Str           Medium              Value (Dev)        W    Tech.      Ref. #
+ 1    25        0         Inf. Dilution           lgK:17.(2SF)       1     EES
+Note (1): By analogy with Al+3_OH-1(2)
+
+
+Reaction No. 80208
+Nb+5_F-1(2)_OH-1(2) + 2<OH-1> = Nb+5_OH-1(4) + 2<F-1>
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution          lgK:14.7(3SF)       1      ELC
+
+
+Reaction No. 80210
+Nb+5_OH-1(2)_Oxalic-2(3) = Nb+5_OH-1(2)_Oxalic-2(2) + Oxalic-2
+ No   t       I-Str        Medium               Value (Dev)          W     Tech.     Ref. #
+ 1    20        0       Self Medium          lgK:6.17(0.04SD)        2      MSL       30164
+Note (1): pH 0.3-1.8
+
+
+Reaction No. 80215
+Nb+5 + OH-1 = Nb+5_OH-1
+
+Note: Nb+5 is considered too highly charged to exist
+ No       t     I-Str      Medium            Value (Dev)         W       Tech.       Ref. #
+  1    19           1       KNO3            lgK:33.2(3SF)        0       EQC         30106
+Note (1): Highly dubious calculation method
+  2    25           1       KNO3            lgK:33.2(3SF)        0       EES
+
+
+Reaction No. 80216
+Nb+5_OH-1 + OH-1 = Nb+5_OH-1(2)
+
+Note: Nb+5_OH-1 is considered too highly charged to exist
+ No       t     I-Str      Medium            Value (Dev)         W       Tech.       Ref. #
+  1    19           1       KNO3            lgK:29.8(3SF)        0       EQC         30106
+Note (1): Highly dubious calculation method
+  2    25           1       KNO3            lgK:29.8(3SF)        0       EES
+
+
+Reaction No. 80217
+
+
+
+
+                                          – Page 31 of 39 –
+JESS Thermodynamic Database v8.9                                               Niobium
+
+
+Nb+5_OH-1(2) + OH-1 = Nb+5_OH-1(3)
+ No   t       I-Str         Medium               Value (Dev)         W         Tech.     Ref. #
+ 1    19        1            KNO3               lgK:25.2(3SF)        0          EQC       30106
+Note (1): Highly dubious calculation method
+ 2    25        0        Inf. Dilution          lgK:24.5(3SF)        1          EDH
+ 3    25        1            KNO3               lgK:23.5(3SF)        1          EES
+
+
+Reaction No. 80218
+Nb+5_OH-1(3) + OH-1 = Nb+5_OH-1(4)
+ No       t     I-Str     Medium            Value (Dev)          W           Tech.       Ref. #
+  1    19           1      KNO3            lgK:19.9(3SF)         2           EQC         30106
+Note (1): Highly dubious calculation method
+  2    25           1      KNO3            lgK:19.9(3SF)         1           EES
+
+
+Reaction No. 80698
+H+1(2)_Nb6O19-8 + H+1 = H+1(3)_Nb6O19-8
+ No   t       I-Str         Medium               Value (Dev)         W         Tech.     Ref. #
+ 1    25        0       Inf. Dilution          lgK:11.63(4SF)        4          CRV       31495
+
+
+Reaction No. 80801
+4<Nb+5_OH-1(8)> = Nb4O16-12 + 16<H2O>
+ No   t       I-Str          Medium              Value (Dev)         W        Tech.      Ref. #
+ 1    25        0        Inf. Dilution           lgK:9.3(2SF)        1         EES
+ 2    25        1             KCl                lgK:8.8(2SF)        1         MSP        30136
+Note (2): Nb+5_OH-1(8) written as NbO2_OH-1(4) in publication
+
+
+Reaction No. 80802
+OH-1(4)_Nb4O12-4 + 4<OH-1> + 12<H2O> = 4<Nb+5_OH-1(8)>
+ No   t       I-Str        Medium                Value (Dev)             W     Tech.     Ref. #
+ 1    25        0       Inf. Dilution          lgK:-16.5(3SF)            1      ELC
+ 2    25        1            KCl               lgK:-11.96(4SF)           0      MSP       30136
+Note (2): Nb+5_OH-1(8) written as NbO2_OH-1(4) in publication
+
+
+Reaction No. 80803
+0.5<H+1(2)_Nb12O36-12> + 3<OH-1> = Nb6O19-8 + 2<H2O>
+ No   t       I-Str         Medium               Value (Dev)         W         Tech.     Ref. #
+ 1    25        0       Inf. Dilution           lgK:19.0(3SF)        1          EES
+
+
+
+
+                                         – Page 32 of 39 –
+JESS Thermodynamic Database v8.9                                          Niobium
+
+
+ 2    25        1             KCl              lgK:17.92(2SF)       2      MPT       30156
+
+
+Reaction No. 80804
+H+1(2)_Nb12O36-12 + 26<OH-1> = 3<Nb4O16-12> + 14<H2O>
+ No   t       I-Str         Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0        Inf. Dilution          lgK:16.(2SF)        1      EES
+ 2    25        1             KCl              lgK:15.24(2SF)       2      MPT       30156
+
+
+Reaction No. 80805
+H+1(2)_Nb12O36-12 + 74<OH-1> = 12<NbO6-7> + 38<H2O>
+ No       t     I-Str     Medium            Value (Dev)         W       Tech.       Ref. #
+  1    25           1      KCl           lgK:429.60(2SF)        2        MPT        30156
+
+
+Reaction No. 80806
+2<H+1(3)_Nb6O19-8> = H+1(2)_Nb12O36-12 + 2<H2O>
+ No   t       I-Str         Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0        Inf. Dilution         lgK:-33.8(3SF)       1      ELC
+ 2    25        1             KCl              lgK:23.46(4SF)       0      MPT       30156
+
+
+Reaction No. 80807
+2<H+1(3)_Nb6O19-8> + 5<H+1> = H+1(7)_Nb12O36-12 + 2<H2O>
+ No       t     I-Str     Medium            Value (Dev)         W       Tech.       Ref. #
+  1    25           1       KCl           lgK:61.03(2SF)        2       MPT         30156
+
+
+Reaction No. 80808
+2<H+1(3)_Nb6O19-8> + 7<H+1> = H+1(9)_Nb12O36-12 + 2<H2O>
+ No       t     I-Str     Medium            Value (Dev)         W       Tech.       Ref. #
+  1    25           1       KCl           lgK:66.84(2SF)        2       MPT         30156
+
+
+Reaction No. 80809
+2<H+1(3)_Nb6O19-8> + 8<H+1> = H+1(10)_Nb12O36-12 + 2<H2O>
+ No       t     I-Str     Medium            Value (Dev)         W       Tech.       Ref. #
+  1    25           1       KCl           lgK:78.03(2SF)        2       MPT         30156
+
+
+Reaction No. 80810
+Nb+5_OH-1(5)_(am.,s) + H2O = Nb+5_OH-1(6) + H+1
+ No   t       I-Str        Medium                Value (Dev)        W     Tech.     Ref. #
+ 1    25        0       Inf. Dilution          lgK:-12.5(3SF)       1      ELC
+
+
+
+
+                                         – Page 33 of 39 –
+JESS Thermodynamic Database v8.9                                         Niobium
+
+
+ 2    25         0     Inf. Dilution         lgK:-14.457(5SF)    0        MSL      31301
+Note (2): value/2; Orig: Nb2O5(pr)+7H2O=SNB(OH)6-+2H+, here amorphous Nb+5_OH-
+1(5)_(s)
+ 3    25     0.1           NaCl              lgK:-14.243(5SF)    0        MSL      31301
+Note (3): value/2; Orig: Nb2O5(pr)+7H2O=SNB(OH)6-+2H+, here amorphous Nb+5_OH-
+1(5)_(s)
+
+
+Reaction No. 81030
+3<H2(g)> + Nb(s) + 3<O2(g)> + e-1 = Nb+5_OH-1(6)
+ No   t    I-Str        Medium                 Value (Dev)           W    Tech.    Ref. #
+ 1    25     0       Inf. Dilution           lgK:286.2(4SF)          1     ELC
+ 2    25     1          Unknown          dG:-1448.3(0.100SD)kJ       4     CRV     32222
+
+
+Reaction No. 81031
+NbO3-1 + H2O + 2<H+1> = Nb+5_OH-1(4)
+ No    t    I-Str         Medium                Value (Dev)      W       Tech.     Ref. #
+ 1    25         0     Inf. Dilution           lgK:1.5(2SF)      1        ELC
+ 2    25         1        Unknown            lgK:6.90(0.03SD)    0        CRV      32222
+
+
+Reaction No. 81032
+NbO3-1 + 2<H2O> + H+1 = Nb+5_OH-1(5)
+ No    t    I-Str         Medium                Value (Dev)      W       Tech.     Ref. #
+ 1    25         0     Inf. Dilution          lgK:-0.13(2SF)     1        ELC
+ 2    25         1        Unknown            lgK:7.34(0.03SD)    0        CRV      32222
+
+
+Reaction No. 81033
+2<NbO3-1> + 2<H+1> = Nb2O5(s) + H2O
+ No   t    I-Str          Medium               Value (Dev)       W       Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:18.1(3SF)      1        ELC
+ 2    25     0        Inf. Dilution         lgK:24.34(0.04SD)    0        CRV      32222
+
+
+Reaction No. 81034
+NbO3-1 + 2<H+1> + e-1 = NbO2(s) + H2O
+ No    t    I-Str         Medium                Value (Dev)      W       Tech.     Ref. #
+ 1    25         0     Inf. Dilution           lgK:4.7(2SF)      1        ELC
+ 2    25         0     Inf. Dilution         lgK:7.98(0.03SD)    0        CRV      32222
+
+
+
+
+                                        – Page 34 of 39 –
+JESS Thermodynamic Database v8.9                               Niobium
+
+
+                                     Data Assessment
+
+
+Weight                       Assessment
+9        highest accuracy
+8        multi-determined; excellent dependability
+7        trustworthy; outstanding single determination
+6        better than average reliability
+5        average single determination
+4        some doubt
+3        poorly known
+2        guess to achieve consistency (or just as bad)
+1        no information but consistent
+0        problematic/inconsistent
+
+
+
+
+                                          Techniques
+
+
+Abbrev                     Method
+CRV      Critical review
+EDH      Debye-Hueckel corrections
+EES      Personal estimate
+EFE      Free Energy relations
+ELC      Linear Combination of Reactions
+ENS      Not specified
+EOD      Calculated from data of others
+EOR      Other Reaction Constants
+EQC      Quintuply charged central ion method
+ESC      Standard conditions anchor
+MCL      Calorimetry
+MDG      Combination of Thermodynamic Data
+MDS      Distribution between two phases
+MEF      Electromotoric force, not specified
+MGL      Glass electrode
+MIS      Ion selective electrode
+MPH      pH method, not specified
+
+
+
+
+                                           – Page 35 of 39 –
+JESS Thermodynamic Database v8.9                                     Niobium
+
+
+MPL    Polarography
+MPT    Potentiometry
+MSE    Solvent Extraction
+MSL    Solubility
+MSP    Spectroscopy
+MTD    Temperature difference
+
+
+
+
+                                    References
+
+
+Reference No.: 140(64SiM)
+Stability Constants of Metal-ion Complexes SP17, 1964 Sillen LG; Martell AE; The
+Chemical Soc.,London
+
+Reference No.: 403(76BaM)
+The Hydrolysis of Cations, 1976 Baes CF Jr; Mesmer RE; Wiley, New York
+
+Reference No.: 437(80BoH)
+IUPAC Chemical Data Series No. 27, 1980 Bond AM; Hefter GT; Critical Survey of
+Stability Constants and Related Thermodynamic Data of Fluoride Complexes in Aqueous
+Solution; Pergamon, Oxford, U.K.
+
+Reference No.: 552(95SMM)
+NIST Critical Stability Constants of Metal Complexes Database, 1995 Smith RM; Martell
+AE; Motekaitis RJ; Version 2.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 775(71CCM)
+Selected Constants, 1971 Charlot G; Collumeau A; Marchon MJC; Oxidation-Reduction
+Potentials of Inorganic Substances in Aqueous Solution; Butterworths, London
+
+Reference No.: 847(94EFM)
+J. Chem. Soc., Dalton Trans., 1994,, 3055 - 3059; Etxebarria N; Fernandez LA; Madariaga
+JM; On the Hydrolysis of Niobium(V) and Tantalum(V) in 3 mol dm-3 KCl at 25 C. Part 1.
+Construction of a Thermodynamic Model for Nb(V)
+
+Reference No.: 906(79Per)
+IUPAC Chemical Data Series No. 22, 1979 Perrin DD; Stability Constants of Metal-Ion
+Complexes, First Edition Part B, Organic Ligands; Pergamon, Oxford
+
+Reference No.: 931(71SiM)
+Stability Constants of Metal-ion Complexes SP25, 1971 Sillen LG; Martell AE; Supplement
+No 1 to Special Publication No 25; Chemical Society, London
+
+Reference No.: 2556(93MSM)
+NIST Critical Stability Constants of Metal Complexes Database, 1993 Martell AE; Smith
+RM; Motekaitis RJ; Version 1.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+
+
+
+                                      – Page 36 of 39 –
+JESS Thermodynamic Database v8.9                                     Niobium
+
+
+Reference No.: 5398(82Hog)
+IUPAC Chemical Data Series No. 21, 1982 Hogfeldt E; Stability Constants of Metal-ion
+Complexes, 2nd Suppl., Part A, Inorganic Ligands; Pergamon, Oxford
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+Reference No.: 6422(95BaP)
+Thermochemical Data of Pure Substances, 3rd Edn., 1995 Barin I; Platzki G; Weinheim,
+Germany
+
+Reference No.: 6680(73LCS)
+Russ. J. Inorg. Chem., 1973, 18, 533 - 535; Latysh GN; Chernyak AS; Serebrennikova TE;
+Investigation of Peroxo(fluoro)-complexes of Niobium and Tantalum in Sulphuric Acid
+Solutions
+
+Reference No.: 9029(97SSW)
+Geochim. Cosmochim. Acta, 1997, 61, 907 - 950; Shock EL; Sassani DC; Willis M;
+Sverjensky DA; Inorganic Species in Geologic Fluids: Correlations among Standard Molal
+Thermodynamic Properties of Aqueous Ions and Hydroxide Complexes
+
+Reference No.: 12517(70Neu)
+Arkiv Kemi, 1970, 32, 229 - 247; Neumann G; A Potentiometric Study of the System Nb(V)-
+OH--F- in 3M K(Cl) Medium
+
+Reference No.: 22551(06Inz)
+Encyclopedia of Electrochemistry, Vol. 7a, 2006, 17 - 75; Inzelt G; Standard, Formal
+and Other Characteristic Potentials of Selected Electrode Reactions
+
+Reference No.: 22971(71HWH)
+Chem. Rev., 1971, 71, 127 - 137; Hill JO; Worsley IG; Hepler LG; Thermochemistry and
+Oxidation Potentials of Vanadium, Niobium and Tantalum
+
+Reference No.: 22973(96KCS)
+Thermochim. Acta, 1996, 277, 53 - 63; Kariakine N; Chernoroukov N; Souleimanov E; La
+Thermochimie des Oxydes Complexes d'Uranium(VI), du Vanadium(V), (du Niobium(V)) et des
+Elements Alcalins
+
+Reference No.: 23700(10PNP)
+J. Solution Chem., 2010, 39, 197 - 218; Peiffert C; Nguyen-Trung C; Palmer DA; Laval
+JP; Giffaut E; Solubility of B-Nb2O5 and the Hydrolysis of Niobium(V) in Aqueous
+Solution as a Function of Temperature and Ionic Strength
+
+Reference No.: 28287(92IPJ)
+J. Phys. Chem., 1992, 96, 11096 - 11101; Ionova GV; Pershina V; Johnson E; Fricke B;
+Schadel M; Redox Reactions for Group 5 Elements, Including Element 105, in Aqueous
+Solutions
+
+Reference No.: 28992(71NRK)
+Handbook of Thermodynamic Data, 1971 Naumov GB; Ryzhenko BN; Khodakovsky IL; Translated
+by G.J. Soleimani and edited by I. Barnes & V. Speltz (U.S. Geological Survey); U.S.
+National Technical Information Service, Springfield VA
+
+Reference No.: 30106(63BLN)
+Russ. J. Inorg. Chem., 1963, 8, 957 - 961; Babko AK; Lukachina VV; Nabivanets BL;
+Solubility and Acid-Base Properties of Tantalum and Niobium Hydroxides
+
+
+
+
+                                      – Page 37 of 39 –
+JESS Thermodynamic Database v8.9                                     Niobium
+
+
+Reference No.: 30111(15DMC)
+RSC Adv., 2015, 5, 7619 - 7627; Deblonde GJ-P; Moncomble A; Cote G; Belair S; Chagnes
+A; Experimental and Computational Exploration of the UV-Visible Properties of
+Hexaniobate and Hexatantalate Ions
+
+Reference No.: 30112(15DCB)
+Hydrometallurgy, 2015, 156, 99 - 106; Deblonde GJ-P; Chagnes A; Belair S; Cote G;
+Solubility of Niobium(V) and Tantalum(V) under Mild Alkaline Conditions
+
+Reference No.: 30113(69ESV)
+Anal. Chem., 1969, 41, 70 - 73; Erskine JS; Sink ML; Varga LP; Solvent Extraction
+Separation of Tantalum and Niobium Fluorides with N-Benzoyl-N-phenylhydroxylamine
+
+Reference No.: 30121(15TMW)
+Geochim. Cosmochim. Acta, 2015, 158, 103 - 111; Timofeev A; Migdisov AA; Williams-Jones
+AE; An Experimental Study of the Solubility and Speciation of Niobium in Fluoride-
+bearing Aqueous Aolutions at Elevated Temperature
+
+Reference No.: 30135(70GFM)
+Radiochem. Radioanal. Lett., 1970, 4, 73 - 79; Guillaumont R; Franck JC; Muxart R;
+Contribution a l'Etude de l'Hydrolyse du Niobium
+
+Reference No.: 30136(73GGB)
+Rev. Chim. Miner., 1973, 10, 487 - 502; Goiffon A; Granger R; Bockel C; Spinner B;
+Etude des Equilibres dans las Solutions Alcalines du Niobium V
+
+Reference No.: 30139(54Hum)
+J. Am. Chem. Soc., 1954, 76, 978 - 980; Humphrey GL; Heats of Formation of Tantalum,
+Niobium and Zirconium Oxides, and Tantalum Carbide
+
+Reference No.: 30141(28KiH)
+J. Am. Chem. Soc., 1928, 50, 2337 - 2345; Kiehl SJ; Hart D; The Oxidation Potential of
+the Pentavalent - Trivalent Columbium System. II
+
+Reference No.: 30149(72LaO)
+J. Less-Common Met., 1972, 29, 147 - 153; Land JE; Osborne CV; The Formation Constants
+of the Niobium Fluoride System
+
+Reference No.: 30153(17LAZ)
+Geol. Ore Deposits, 2017, 59, 305 - 318; Lukyanova EV; Akinfiev NN; Zotov AV; Rass IT;
+Kotova NP; Korzhinskaya VS; Niobium in Hydrothermal Systems Related to Alkali Granites:
+Thermodynamic Description of Hydroxo and Hydroxofluoride Complexes
+
+Reference No.: 30155(64Neu)
+Acta Chem. Scand., 1964, 18, 278 - 280; Neumann G; On the Hydrolysis of Niobates in 3 M
+K(Cl) Medium
+
+Reference No.: 30156(00RDT)
+Russ. J. Coord. Chem., 2000, 26, 247 - 253; Rozantsev GM; Dotsenko OI; Taradina GV;
+Mathematical Modeling and Analysis of Equilibria in Solutions of Nb(V)
+
+Reference No.: 30158(68Spi)
+Rev. Chim. Miner., 1968, 5, 839 - 868; Spinner B; Quantitative Study of the Hydrolysis
+of the Potassium Niobates
+
+Reference No.: 30164(70ZhP)
+Sov. Radiochem. (Engl. Transl.), 1970, 12, 89 - 94; Zhurenkov EM; Pobezhimovskaya DN;
+Determination of the Composition and Instability Constants of Oxalate Complexes of
+Niobium and Tantalum by the Solubility Method
+
+
+
+
+                                      – Page 38 of 39 –
+JESS Thermodynamic Database v8.9                                     Niobium
+
+
+Reference No.: 30348(62BaV)
+Russ. J. Inorg. Chem., 1962, 7, 1216 - 1220; Babko AK; Volkova AI; Complex Formation in
+Niobium(V) - Salicylate - Organic Base Systems
+
+Reference No.: 30350(67Kon)
+Z. Phys. Chem., 1967, 235, 39 - 48; Konecny C; Studies on Complex Formation by Solvent
+Extraction Method. II. Niobium(V) Complexes in Aqueous Solution
+
+Reference No.: 30355(67NeS)
+Russ. J. Inorg. Chem., 1967, 12, 1259 - 1262; Nevzorov AN; Songina OA; The State of
+Niobium in Oxalic Acid Solutions
+
+Reference No.: 30356(67VoS)
+Russ. J. Inorg. Chem., 1967, 12, 222 - 225; Volkova GA; Sochevanov VG; Complex
+Formation by Niobium Hydroxide with EDTA
+
+Reference No.: 30357(70ElM)
+J. Anal. Chem. (USSR), 1970, 24, 1232 - 1238; Elinson SV; Mal'tseva LS; Niobium and
+Tantalum Complexes of Pyridylazo Compounds
+
+Reference No.: 30456(69SoV)
+Russ. J. Inorg. Chem., 1969, 14, 61 - 64; Sochevanov VG; Volkova GA; Use of
+Polarography in the Determination of the Instability Constants of Complexonates of
+Readily Hydrolysable Elements
+
+Reference No.: 31278(67BNL)
+Russ. J. Inorg. Chem., 1967, 12, 1568 - 1572; Babko AK; Nabivanets BI; Lukachina VV;
+Interaction of Hydrated Niobium Pentoxide with Hydrofluoric Acid
+
+Reference No.: 31291(84PSG)
+U.S. Bur. Mines Bull. 677, 1984 Pankratz LB; Stuve JM; Gokcen NA; Thermodynamic Data
+for Mineral Technology; US Det. Interior, Bur. Mines, Washington, DC, USA
+
+Reference No.: 31301(10KFD)
+Japan Atomic Energy Agency Data/Code 2009-024, 2010 Kitamura A; Fujiwara K; Doi R;
+Yoshida Y; Mihara M; Terashima M; Yui M; JAEA Thermodynamic Database for Performance
+Assessment of Geological Disposal of High-level Radioactive and TRU Wastes; Geological
+Isolation Research Unit, JAEA, Japan
+
+Reference No.: 31495(99LOW)
+Report Jap. Nucl. Cycle Inst. TN8400 99-011, 1999 Lothenbach B; Ochs M; Wanner H; Yui
+M; Thermodynamic Data for the Speciation and Solubility of Pd, Pb, Sn, Sb, Nb, and Bi
+in Aqueous Solution; Admin. Div. Tokai Works, Jap. Nucl. Cycle Develop. Inst., Japan
+
+Reference No.: 32222(06DGC)
+Technical Report TR-O6-17, 2006 Duro L; Grive M; Cera E; Domenech C; Bruno J; Update of
+a Thermodynamic Database for Radionuclides to Assist Solubility Limits Calculation for
+Performance Assessment; Swedish Nucl. Fuel & Waste Management Co, Stockholm, Sweden
+
+
+
+
+                                      – Page 39 of 39 –
+

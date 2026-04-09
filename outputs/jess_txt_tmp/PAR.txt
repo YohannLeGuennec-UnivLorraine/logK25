@@ -1,0 +1,2550 @@
+                       JESS Thermodynamic Database v8.9
+                                        Protactinium
+
+                                          24-Jan-23
+
+Reaction No. 2754
+Pa+4 + H+1_F-1 = Pa+4_F-1 + H+1
+  No    t      I-Str          Medium         Value (Dev)         W       Tech.     Ref. #
+  1     25         3          HClO4        lgR:4.7(0.07SD)       5       CMN        437
+
+
+Reaction No. 2755
+Pa+4_F-1 + H+1_F-1 = Pa+4_F-1(2) + H+1
+  No    t      I-Str          Medium         Value (Dev)         W       Tech.     Ref. #
+  1     25         3          HClO4        lgR:3.5(0.07SD)       5       CMN        437
+
+
+Reaction No. 4821
+PaO2+1 + 4<H+1> + 5<e-1> = Pa(s) + 2<H2O>
+ No    t     I-Str             Medium            Value (Dev)         W     Tech.   Ref. #
+  1    25      0          Inf. Dilution        lgK:-102.9(4SF)       1      ELC
+  2    25      0          Inf. Dilution         E:-1.0(0.2SD)        0      MDG      775
+
+
+Reaction No. 4822
+PaO2(s) + 4<H+1> + e-1 = Pa+3 + 2<H2O>
+ No    t     I-Str             Medium            Value (Dev)         W     Tech.   Ref. #
+  1    25      0          Inf. Dilution         lgK:-32.0(3SF)       1      ELC
+  2    25      0          Inf. Dilution         E:-0.5(0.1SD)        0      MDG      775
+  3    25      0          Inf. Dilution          E:-2.0(2SF)         0      CRV     7761
+  4    25      0          Inf. Dilution        dH:138.3(4SF)kJ       2      CRV     7761
+
+
+Reaction No. 4823
+Pa+4 + e-1 = Pa+3
+ No    t     I-Str             Medium            Value (Dev)         W     Tech.   Ref. #
+  1    25      0          Inf. Dilution         lgK:-32.8(3SF)       1      ELC
+  2    25      0          Inf. Dilution         E:-1.0(0.1SD)        0      MDG      775
+  3    25      0          Inf. Dilution          E:-1.9(2SF)         0      CRV     6330
+  4    25      0          Inf. Dilution          E:-1.9(2SF)         0      CRV     7761
+  5    25      0          Inf. Dilution          E:-1.4(2SF)         0      CRV     22551
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                     Protactinium
+
+
+ 6    25            0      Inf. Dilution         dH:232.2(4SF)kJ      2        CRV       7761
+
+
+Reaction No. 4824
+Pa+4 + 4<e-1> = Pa(s)
+ No   t       I-Str        Medium                 Value (Dev)             W     Tech.   Ref. #
+ 1    25        0       Inf. Dilution       dG:563.670(23.174SD)kJ        1      CRV     32222
+ 2    25        1            HCl                 dG:135.(2.SD)            0      ENS     3006
+ 3    25        0       Inf. Dilution            E:-1.7(0.1SD)            0      MDG      775
+ 4    25        0       Inf. Dilution             E:-1.49(3SF)            2      CRV     6330
+ 5    25        0       Inf. Dilution             E:-1.49(3SF)            2      CRV     7761
+ 6    25        0       Inf. Dilution             E:-1.46(3SF)            0      CRV     22551
+ 7    25        1            HCl                 E:-1.5(0.06SD)           2      ENS     3006
+ 8    25        0       Inf. Dilution           dH:636.0(4SF)kJ           0      CRV     7761
+ 9    25        0       Inf. Dilution       dH:620.000(13.000SD)kJ        1      CRV     32222
+ 10   25        1            HCl                 dH:148.(2.SD)            1      ENS     3006
+
+
+Reaction No. 4825
+Pa+3 + 3<e-1> = Pa(s)
+ No    t       I-Str          Medium               Value (Dev)        W       Tech.     Ref. #
+ 1    25            0      Inf. Dilution          E:-2.0(0.05SD)      0        MDG       775
+ 2    25            0      Inf. Dilution           E:-1.34(3SF)       5        CRV       6330
+ 3    25            0      Inf. Dilution           E:-1.49(3SF)       0        ENS       7276
+ 4    25            0      Inf. Dilution           E:-1.34(3SF)       3        CRV       7761
+ 5    25            0      Inf. Dilution         dH:400.0(4SF)kJ      3        CRV       7761
+
+
+Reaction No. 40394
+Oxalic-2 + Pa+4 = Pa+4_Oxalic-2
+ No       t     I-Str          Medium               Value (Dev)      W        Tech.     Ref. #
+ 1     25           0       Inf. Dilution         lgK:10.7(4SF)      1        EOR
+ 2     25           0       Inf. Dilution         lgK:10.7(3SF)      5        EOD        931
+
+
+Reaction No. 40395
+2<Oxalic-2> + Pa+4 = Pa+4_Oxalic-2(2)
+ No       t     I-Str          Medium               Value (Dev)      W        Tech.     Ref. #
+ 1     25           0       Inf. Dilution         lgK:20.3(4SF)      1        EOR
+ 2     25           0       Inf. Dilution         lgK:20.3(3SF)      5        EOD        931
+
+
+
+
+                                            – Page 2 of 49 –
+JESS Thermodynamic Database v8.9                                   Protactinium
+
+
+Reaction No. 40396
+3<Oxalic-2> + Pa+4 = Pa+4_Oxalic-2(3)
+ No   t       I-Str        Medium               Value (Dev)        W     Tech.    Ref. #
+ 1    25        0      Inf. Dilution          lgK:26.5(4SF)        1      EOR
+ 2    25        0      Inf. Dilution          lgK:26.5(3SF)        5      EOD       931
+
+
+Reaction No. 40397
+4<Oxalic-2> + Pa+4 = Pa+4_Oxalic-2(4)
+ No   t       I-Str        Medium               Value (Dev)        W     Tech.    Ref. #
+ 1    25        0      Inf. Dilution          lgK:29.2(4SF)        1      EOR
+ 2    25        0      Inf. Dilution          lgK:29.2(3SF)        5      EOD       931
+
+
+Reaction No. 40913
+PaO2+1_OH-1(3) + H+1_234TriOHPentDioic-2 = H+1_PaO2+1_OH-1(3)_234TriOHPentDioic-2
+ No       t    I-Str     Medium            Value (Dev)         W        Tech.     Ref. #
+  1    25       0.25    Unknown           lgK:2.80(3SF)        3        MIX        931
+
+
+Reaction No. 42055
+Oxalic-2 + Pa+5 = Pa+5_Oxalic-2
+ No   t       I-Str       Medium               Value (Dev)          W     Tech.   Ref. #
+ 1    23        1          HNO3               lgK:1.81(3SF)         5      MIX     4421
+ 2    23        2          HNO3               lgK:1.813(4SF)        5      MIX     4421
+ 3    23        3          HNO3               lgK:1.623(4SF)        5      MIX     4421
+ 4    23        4          HNO3               lgK:1.556(4SF)        5      MIX     4421
+ 5    23        6          HNO3               lgK:1.380(4SF)        5      MIX     4421
+ 6    25        0      Inf. Dilution           lgK:1.8(2SF)         1      ESC
+
+
+Reaction No. 42056
+2<Oxalic-2> + Pa+5 = Pa+5_Oxalic-2(2)
+ No   t       I-Str       Medium               Value (Dev)          W     Tech.   Ref. #
+ 1    23        1          HNO3               lgK:2.505(4SF)        0      MIX     4421
+ 2    23        2          HNO3               lgK:2.748(4SF)        0      MIX     4421
+ 3    23        3          HNO3               lgK:2.079(4SF)        0      MIX     4421
+ 4    25        0      Inf. Dilution           lgK:2.5(2SF)         1      EES
+
+
+Reaction No. 42057
+3<Oxalic-2> + Pa+5 = Pa+5_Oxalic-2(3)
+
+
+
+
+                                        – Page 3 of 49 –
+JESS Thermodynamic Database v8.9                                      Protactinium
+
+
+ No   t       I-Str            Medium             Value (Dev)          W     Tech.   Ref. #
+ 1    23        1               HNO3             lgK:4.338(4SF)        5      MIX     4421
+ 2    25        0          Inf. Dilution          lgK:4.3(2SF)         1      ESC
+
+
+Reaction No. 44867
+Pa+5_OH-1(2) + EDTA-4 = Pa+5_OH-1(2)_EDTA-4
+ No   t       I-Str           Medium              Value (Dev)          W     Tech.   Ref. #
+ 1    20        1             Unknown           lgK:22.1(0.1SD)        4      MDS      906
+ 2    25        0          Inf. Dilution         lgK:22.1(3SF)         1      ESC
+
+
+Reaction No. 53315
+Pa+4_OH-1(2) + H+1_SO4-2 = Pa+4_OH-1_SO4-2 + H2O
+ No       t     I-Str         Medium          Value (Dev)         W        Tech.     Ref. #
+  1    10           0.5      Unknown         lgK:2.51(3SF)        5         MDS       931
+  2    10           0.5      Unknown         lgK:2.50(3SF)        5         MDS       5398
+
+
+Reaction No. 53316
+Pa+4_OH-1(4) + 2<H+1> + SO4-2 = Pa+4_OH-1(2)_SO4-2 + 2<H2O>
+ No       t     I-Str        Medium          Value (Dev)          W        Tech.     Ref. #
+  1    17           1.38     NaClO4         lgK:0.81(2SF)         4        MDS       5398
+
+
+Reaction No. 53840
+NO3-1 + Pa+5 = Pa+5_NO3-1
+ No       t     I-Str        Medium          Value (Dev)          W        Tech.     Ref. #
+  1    20            1       HClO4         lgK:-0.17(2SF)         5         MCE       931
+  2    20            2       HClO4         lgK:-0.10(2SF)         5         MCE       931
+  3    20            4       HClO4         lgK:-0.20(2SF)         5         MCE       931
+  4    25            1       HClO4          lgK:0.16(2SF)         5         MDS       931
+
+
+Reaction No. 53841
+2<NO3-1> + Pa+5 = Pa+5_NO3-1(2)
+ No   t       I-Str            Medium             Value (Dev)          W     Tech.   Ref. #
+ 1    20        1              HClO4             lgK:0.48(2SF)         5      MCE      931
+ 2    20        2              HClO4             lgK:-0.13(2SF)        5      MCE      931
+ 3    20        4              HClO4             lgK:-0.68(2SF)        5      MCE      931
+ 4    25        0          Inf. Dilution          lgK:0.5(1SF)         1      ESC
+
+
+
+
+                                           – Page 4 of 49 –
+JESS Thermodynamic Database v8.9                                    Protactinium
+
+
+Reaction No. 53842
+4<NO3-1> + Pa+5 = Pa+5_NO3-1(4)
+ No       t     I-Str     Medium          Value (Dev)           W        Tech.     Ref. #
+  1    20           1     HClO4          lgK:1.08(3SF)          5        MCE        931
+
+
+Reaction No. 53843
+Pa+5_NO3-1 + NO3-1 = Pa+5_NO3-1(2)
+ No   t       I-Str        Medium               Value (Dev)          W     Tech.   Ref. #
+ 1    25        0       Inf. Dilution          lgK:-1.1(2SF)         1      ELC
+ 2    25        1           HClO4              lgK:-1.15(3SF)        3      MDS      931
+
+
+Reaction No. 54060
+Pa+4 + H+1_SO4-2 = Pa+4_SO4-2 + H+1
+ No       t     I-Str     Medium          Value (Dev)           W        Tech.     Ref. #
+  1    25           3     HClO4          lgR:1.62(3SF)          5        MDS        931
+
+
+Reaction No. 54061
+Pa+4 + 2<H+1_SO4-2> = Pa+4_SO4-2(2) + 2<H+1>
+ No       t     I-Str     Medium          Value (Dev)           W        Tech.     Ref. #
+  1    25           3     HClO4          lgR:2.18(3SF)          5        MDS        931
+
+
+Reaction No. 54062
+Pa+5 + H+1_SO4-2 = Pa+5_SO4-2 + H+1
+ No       t     I-Str     Medium          Value (Dev)           W        Tech.     Ref. #
+  1    25           1     HClO4          lgR:2.08(3SF)          5        MDS        931
+
+
+Reaction No. 54063
+Pa+5_SO4-2 + H+1_SO4-2 = Pa+5_SO4-2(2) + H+1
+ No       t     I-Str     Medium          Value (Dev)           W        Tech.     Ref. #
+  1    25           1     HClO4          lgR:0.23(2SF)          5        MDS        931
+
+
+Reaction No. 54064
+PaO+3_OH-1 + H+1_SO4-2 = PaO+3_SO4-2 + H2O
+ No       t     I-Str     Medium          Value (Dev)           W        Tech.     Ref. #
+  1    25           3     HClO4          lgK:1.29(3SF)          4        MDS        931
+
+
+Reaction No. 54065
+PaO+3_OH-1 + 2<H+1_SO4-2> = PaO+3_SO4-2(2) + H+1 + H2O
+
+
+
+
+                                        – Page 5 of 49 –
+JESS Thermodynamic Database v8.9                               Protactinium
+
+
+ No    t     I-Str      Medium              Value (Dev)    W     Tech.        Ref. #
+  1   25       3         HClO4             lgR:2.51(3SF)   4      MDS          931
+
+
+Reaction No. 54124
+Pa+4 + 2<H+1_F-1> = Pa+4_F-1(2) + 2<H+1>
+ No    t     I-Str      Medium              Value (Dev)    W     Tech.        Ref. #
+  1   25       3         HClO4             lgR:8.26(3SF)   4      MDS          931
+
+
+Reaction No. 54125
+F-1 + Pa+5 = Pa+5_F-1
+ No    t     I-Str       Medium             Value (Dev)    W     Tech.        Ref. #
+  1    25      1         NaClO4            lgK:5.4(2SF)    5      MQH          931
+
+
+Reaction No. 54126
+Pa+5_F-1 + F-1 = Pa+5_F-1(2)
+ No    t     I-Str       Medium             Value (Dev)    W     Tech.        Ref. #
+  1    25      1         NaClO4            lgK:5.0(2SF)    5      MQH          931
+
+
+Reaction No. 54127
+Pa+5_F-1(2) + F-1 = Pa+5_F-1(3)
+ No    t     I-Str       Medium             Value (Dev)    W     Tech.        Ref. #
+  1    25      1         NaClO4            lgK:4.9(2SF)    5      MQH          931
+
+
+Reaction No. 54128
+Pa+5_F-1(3) + F-1 = Pa+5_F-1(4)
+ No    t     I-Str       Medium             Value (Dev)    W     Tech.        Ref. #
+  1    25      1         NaClO4            lgK:4.8(2SF)    5      MQH          931
+
+
+Reaction No. 54129
+Pa+5_F-1(4) + F-1 = Pa+5_F-1(5)
+ No    t     I-Str       Medium             Value (Dev)    W     Tech.        Ref. #
+  1    25      1         NaClO4            lgK:4.5(2SF)    5      MQH          931
+
+
+Reaction No. 54130
+Pa+5_F-1(5) + F-1 = Pa+5_F-1(6)
+ No    t     I-Str       Medium             Value (Dev)    W     Tech.        Ref. #
+  1    25      1         NaClO4            lgK:4.4(2SF)    5      MQH          931
+
+
+
+
+                                      – Page 6 of 49 –
+JESS Thermodynamic Database v8.9                                Protactinium
+
+
+Reaction No. 54131
+Pa+5_F-1(6) + F-1 = Pa+5_F-1(7)
+ No    t     I-Str       Medium             Value (Dev)     W     Tech.        Ref. #
+  1    25      1         NaClO4            lgK:3.7(2SF)     5      MQH          931
+
+
+Reaction No. 54132
+Pa+5_F-1(7) + F-1 = Pa+5_F-1(8)
+ No    t     I-Str       Medium             Value (Dev)     W     Tech.        Ref. #
+  1    25      1         NaClO4            lgK:1.7(2SF)     5      MQH          931
+
+
+Reaction No. 54133
+PaO+3_OH-1 + H+1_F-1 = PaO+3_F-1 + H2O
+ No    t     I-Str      Medium              Value (Dev)     W     Tech.        Ref. #
+  1   25       3        NaClO4            lgK:3.56(3SF)     5      MDS          931
+
+
+Reaction No. 54134
+Pa+5 + H+1_F-1 = Pa+5_F-1 + H+1
+ No    t     I-Str      Medium              Value (Dev)     W     Tech.        Ref. #
+  1   25       1         HClO4            lgR:3.95(3SF)     4      MDS          931
+
+
+Reaction No. 54135
+Pa+5_F-1 + H+1_F-1 = Pa+5_F-1(2) + H+1
+ No    t     I-Str      Medium              Value (Dev)     W     Tech.        Ref. #
+  1   25       1         HClO4            lgR:3.48(3SF)     4      MDS          931
+
+
+Reaction No. 54136
+Pa+5_F-1(2) + H+1_F-1 = Pa+5_F-1(3) + H+1
+ No    t     I-Str      Medium              Value (Dev)     W     Tech.        Ref. #
+  1   25       1         HClO4            lgR:3.04(3SF)     4      MDS          931
+
+
+Reaction No. 54179
+Pa+4 + H+1_Cl-1 = Pa+4_Cl-1 + H+1
+ No    t     I-Str       Medium             Value (Dev)     W     Tech.        Ref. #
+  1    23      3         HClO4             lgR:0.0(1SF)     3      MDS          931
+
+
+Reaction No. 54180
+Pa+4 + 2<H+1_Cl-1> = Pa+4_Cl-1(2) + 2<H+1>
+ No    t     I-Str       Medium             Value (Dev)     W     Tech.        Ref. #
+
+
+
+
+                                         – Page 7 of 49 –
+JESS Thermodynamic Database v8.9                                        Protactinium
+
+
+  1    23           3       HClO4           lgR:0.0(1SF)        3           MDS         931
+
+
+Reaction No. 54181
+2<Cl-1> + Pa+4 = Pa+4_Cl-1(2)
+ No   t       I-Str          Medium               Value (Dev)           W     Tech.    Ref. #
+ 1    25        0         Inf. Dilution         lgK:2.19(3SF)           4      EBU      6372
+ 2    25        3             HClO4              lgK:0.0(1SF)           4      MDS       931
+
+
+Reaction No. 54182
+3<Cl-1> + Pa+4 = Pa+4_Cl-1(3)
+ No   t       I-Str          Medium               Value (Dev)           W     Tech.    Ref. #
+ 1    25        0         Inf. Dilution         lgK:2.94(3SF)           4      EBU      6372
+ 2    25        3             HClO4              lgK:0.0(1SF)           3      MDS       931
+
+
+Reaction No. 54183
+Cl-1 + Pa+5 = Pa+5_Cl-1
+ No       t     I-Str      Medium           Value (Dev)         W           Tech.      Ref. #
+  1    25           1       HClO4          lgK:0.21(2SF)        4           MDS         931
+
+
+Reaction No. 54184
+Pa+5_Cl-1 + Cl-1 = Pa+5_Cl-1(2)
+ No    t       I-Str       Medium           Value (Dev)             W       Tech.      Ref. #
+  1   25            1      HClO4          lgK:-0.89(2SF)            4        MDS        931
+
+
+Reaction No. 54185
+Pa+5_OH-1(3) + Cl-1 = Pa+5_Cl-1_OH-1(3)
+ No       t     I-Str      Medium           Value (Dev)         W           Tech.      Ref. #
+  1    25           3       HClO4          lgK:0.08(1SF)        4           MDS         931
+
+
+Reaction No. 54385
+Pa+5 + H+1_IO3-1 = Pa+5_IO3-1 + H+1
+ No       t     I-Str      Medium           Value (Dev)         W           Tech.      Ref. #
+  1    25           1       HClO4          lgR:2.11(3SF)        5           MDS         931
+
+
+Reaction No. 54386
+Pa+5_IO3-1 + H+1_IO3-1 = Pa+5_IO3-1(2) + H+1
+ No       t     I-Str      Medium           Value (Dev)         W           Tech.      Ref. #
+  1    25           1       HClO4          lgR:1.54(3SF)        5           MDS         931
+
+
+
+
+                                          – Page 8 of 49 –
+JESS Thermodynamic Database v8.9                                         Protactinium
+
+
+
+Reaction No. 55649
+Pa+3 + e-1 = Pa+2
+ No        t         I-Str       Medium         Value (Dev)          W        Tech.       Ref. #
+  1       25           0         Unknown        E:-5.(0.5SD)         4        ENS         5256
+
+
+Reaction No. 56065
+Pa+4 + H2O = Pa+4_OH-1 + H+1
+ No   t        I-Str            Medium              Value (Dev)           W      Tech.     Ref. #
+ 1    25         0           Inf. Dilution        lgK:-2.41(3SF)          0         EBU     6372
+ 2    25         0           Inf. Dilution         lgK:0.84(2SF)          4         CRV     6478
+ 3    25         0           Inf. Dilution       lgK:0.84(0.10SD)         4         CRV    32222
+ 4    25         0             CHEMVAL4          lgK:0.66(0.01SD)         4         ENS     5156
+ 5    25         0           Inf. Dilution          dH:8.7(2SF)           3         CRV     6478
+
+
+Reaction No. 56066
+Pa+4 + 2<H2O> = Pa+4_OH-1(2) + 2<H+1>
+ No   t        I-Str            Medium              Value (Dev)           W      Tech.     Ref. #
+ 1    25         0           Inf. Dilution         lgK:0.0(1SF)           1         ELC
+ 2    25         0           Inf. Dilution        lgK:-5.37(3SF)          0         EBU     6372
+ 3    25         0           Inf. Dilution       lgK:-0.02(0.20SD)        4         CRV    32222
+ 4    25         0             CHEMVAL4          lgK:0.80(0.01SD)         0         ENS     5156
+
+
+Reaction No. 56067
+Pa+4 + 3<H2O> = Pa+4_OH-1(3) + 3<H+1>
+ No   t        I-Str            Medium              Value (Dev)           W      Tech.     Ref. #
+ 1    25         0           Inf. Dilution        lgK:-8.75(3SF)          0         EBU     6372
+ 2    25         0           Inf. Dilution       lgK:-1.50(0.30SD)        4         CRV    32222
+ 3    25         0             CHEMVAL4          lgK:-1.50(0.01SD)        2         ENS     5156
+
+
+Reaction No. 56310
+PaO2(s) + 4<H+1> = Pa+4 + 2<H2O>
+ No   t        I-Str            Medium              Value (Dev)           W      Tech.     Ref. #
+ 1    25         0           Inf. Dilution         lgK:-0.7(1SF)          0         ELC
+ 2    25         0           Inf. Dilution         lgK:0.6(3.SD)          2         CRV     6478
+ 3    25         0           Inf. Dilution         lgK:0.60(2SF)          4         CRV    32222
+ 4    25         0             CHEMVAL4          lgK:0.60(0.01SD)         2         ENS     5156
+
+
+
+
+                                             – Page 9 of 49 –
+JESS Thermodynamic Database v8.9                                 Protactinium
+
+
+Reaction No. 56311
+Pa+4_Cl-1(4)_(s) = Pa+4 + 4<Cl-1>
+ No   t    I-Str          Medium              Value (Dev)            W   Tech.    Ref. #
+ 1    25     0        CHEMVAL4             lgK:24.10(0.01SD)         4    ENS      5156
+
+
+Reaction No. 56341
+Pa(s) + O2(g) = PaO2(s)
+ No   t    I-Str             Medium               Value (Dev)        W    Tech.   Ref. #
+ 1    25     0        Inf. Dilution             lgK:183.0(4SF)       1     ELC
+ 2    25     0        Inf. Dilution             dG:-252.(2.SD)       0     ENS     3006
+ 3    25     0        Inf. Dilution             dH:-265.(2.SD)       2     ENS     3006
+
+
+Reaction No. 58712
+NTA-3 + PaO+3 = PaO+3_NTA-3
+ No    t    I-Str            Medium             Value (Dev)      W       Tech.    Ref. #
+  1   25         1         (H,Na)ClO4           lgK:15.(2SF)     2       MDS      30786
+Note (1): lgK varies with acidity
+
+
+Reaction No. 60444
+Pa+4 + OH-1 = Pa+4_OH-1
+ No   t    I-Str             Medium               Value (Dev)        W    Tech.   Ref. #
+ 1    25     0        Inf. Dilution              lgK:14.8(3SF)       4     CRV     2556
+ 2    25     3               LiClO4             lgK:14.04(4SF)       5     CRV     2556
+
+
+Reaction No. 60445
+Pa+4 + 2<OH-1> = Pa+4_OH-1(2)
+ No   t    I-Str             Medium               Value (Dev)        W    Tech.   Ref. #
+ 1    25     0            Inf. Dilution          lgK:28.0(3SF)       4     CRV     2556
+ 2    25     3               LiClO4              lgK:27.8(3SF)       5     CRV     2556
+
+
+Reaction No. 60446
+Pa+4 + 3<OH-1> = Pa+4_OH-1(3)
+ No   t    I-Str             Medium               Value (Dev)        W    Tech.   Ref. #
+ 1    25     0            Inf. Dilution          lgK:40.7(3SF)       2     EOR
+ 2    25     3               LiClO4              lgK:40.7(3SF)       5     CRV     2556
+
+
+Reaction No. 60447
+
+
+
+
+                                          – Page 10 of 49 –
+JESS Thermodynamic Database v8.9                                     Protactinium
+
+
+Pa+4 + 4<OH-1> = Pa+4_OH-1(4)
+ No       t     I-Str     Medium            Value (Dev)          W        Tech.     Ref. #
+  1    25           3     LiClO4           lgK:51.4(3SF)         5        CRV       2556
+
+
+Reaction No. 60453
+Pa+5_OH-1(3) + OH-1 = Pa+5_OH-1(4)
+ No   t       I-Str         Medium               Value (Dev)          W     Tech.   Ref. #
+ 1    25        0       Inf. Dilution           lgK:14.5(3SF)         4      CRV     2556
+ 2    25        3           HClO4              lgK:13.13(4SF)         5      CRV     2556
+
+
+Reaction No. 60454
+Pa+5_OH-1(4) + OH-1 = Pa+5_OH-1(5)
+ No   t       I-Str         Medium               Value (Dev)         W      Tech.   Ref. #
+ 1    25        0        Inf. Dilution           lgK:9.5(2SF)        4       CRV     2556
+ 2    25        3            HClO4              lgK:9.68(3SF)        5       CRV     2556
+
+
+Reaction No. 63984
+Pa+4 + 4<H2O> = Pa+4_OH-1(4) + 4<H+1>
+ No   t       I-Str        Medium                Value (Dev)          W     Tech.   Ref. #
+ 1    25        0       Inf. Dilution           lgK:-3.0(2SF)         1      ELC
+ 2    25        0       Inf. Dilution          lgK:-12.51(4SF)        0      EBU     6372
+
+
+Reaction No. 63985
+Pa+4 + 5<H2O> = Pa+4_OH-1(5) + 5<H+1>
+ No   t       I-Str        Medium                Value (Dev)          W     Tech.   Ref. #
+ 1    25        0       Inf. Dilution          lgK:-16.61(4SF)        1      EBU     6372
+
+
+Reaction No. 63986
+Pa+4 + 6<H2O> = Pa+4_OH-1(6) + 6<H+1>
+ No   t       I-Str        Medium                Value (Dev)          W     Tech.   Ref. #
+ 1    25        0       Inf. Dilution          lgK:-21.04(4SF)        1      EBU     6372
+
+
+Reaction No. 63987
+4<Pa+4> + 12<H2O> = Pa+4(4)_OH-1(12) + 12<H+1>
+ No   t       I-Str        Medium                Value (Dev)          W     Tech.   Ref. #
+ 1    25        0       Inf. Dilution          lgK:-30.89(4SF)        1      EBU     6372
+
+
+Reaction No. 63988
+
+
+
+
+                                         – Page 11 of 49 –
+JESS Thermodynamic Database v8.9                                  Protactinium
+
+
+6<Pa+4> + 15<H2O> = Pa+4(6)_OH-1(15) + 15<H+1>
+ No   t    I-Str            Medium                Value (Dev)      W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution           lgK:-36.66(4SF)    1    EBU       6372
+
+
+Reaction No. 63989
+F-1 + Pa+4 = Pa+4_F-1
+ No   t    I-Str             Medium               Value (Dev)     W    Tech.     Ref. #
+ 1    25     0            Inf. Dilution          lgK:8.13(3SF)    1    EBU       6372
+
+
+Reaction No. 63990
+2<F-1> + Pa+4 = Pa+4_F-1(2)
+ No   t    I-Str             Medium               Value (Dev)      W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution           lgK:15.01(4SF)     1    EBU       6372
+
+
+Reaction No. 63991
+3<F-1> + Pa+4 = Pa+4_F-1(3)
+ No   t    I-Str             Medium               Value (Dev)      W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution           lgK:20.77(4SF)     1    EBU       6372
+
+
+Reaction No. 63992
+4<F-1> + Pa+4 = Pa+4_F-1(4)
+ No   t    I-Str             Medium               Value (Dev)      W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution           lgK:25.44(4SF)     1    EBU       6372
+
+
+Reaction No. 63993
+5<F-1> + Pa+4 = Pa+4_F-1(5)
+ No   t    I-Str             Medium               Value (Dev)      W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution           lgK:29.06(4SF)     1    EBU       6372
+
+
+Reaction No. 63994
+6<F-1> + Pa+4 = Pa+4_F-1(6)
+ No   t    I-Str             Medium               Value (Dev)      W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution           lgK:31.66(4SF)     1    EBU       6372
+
+
+Reaction No. 63995
+Cl-1 + Pa+4 = Pa+4_Cl-1
+ No   t    I-Str             Medium               Value (Dev)     W    Tech.     Ref. #
+ 1    25     0            Inf. Dilution          lgK:1.25(3SF)    1    EBU       6372
+
+
+
+
+                                          – Page 12 of 49 –
+JESS Thermodynamic Database v8.9                                 Protactinium
+
+
+ 2    25     3                HClO4               lgK:0.0(1SF)   6    CRV        552
+
+
+Reaction No. 63996
+4<Cl-1> + Pa+4 = Pa+4_Cl-1(4)
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:3.55(3SF)   1    EBU       6372
+
+
+Reaction No. 63997
+5<Cl-1> + Pa+4 = Pa+4_Cl-1(5)
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:4.06(3SF)   1    EBU       6372
+
+
+Reaction No. 63998
+6<Cl-1> + Pa+4 = Pa+4_Cl-1(6)
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:4.48(3SF)   1    EBU       6372
+
+
+Reaction No. 63999
+Br-1 + Pa+4 = Pa+4_Br-1
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:0.76(2SF)   1    EBU       6372
+
+
+Reaction No. 64000
+2<Br-1> + Pa+4 = Pa+4_Br-1(2)
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:1.21(3SF)   1    EBU       6372
+
+
+Reaction No. 64001
+3<Br-1> + Pa+4 = Pa+4_Br-1(3)
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:1.49(3SF)   1    EBU       6372
+
+
+Reaction No. 64002
+4<Br-1> + Pa+4 = Pa+4_Br-1(4)
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:1.64(3SF)   1    EBU       6372
+
+
+Reaction No. 64003
+
+
+
+
+                                          – Page 13 of 49 –
+JESS Thermodynamic Database v8.9                               Protactinium
+
+
+5<Br-1> + Pa+4 = Pa+4_Br-1(5)
+ No   t    I-Str            Medium              Value (Dev)    W    Tech.     Ref. #
+ 1    25     0          Inf. Dilution          lgK:1.70(3SF)   1    EBU       6372
+
+
+Reaction No. 64004
+6<Br-1> + Pa+4 = Pa+4_Br-1(6)
+ No   t    I-Str            Medium              Value (Dev)    W    Tech.     Ref. #
+ 1    25     0          Inf. Dilution          lgK:1.67(3SF)   1    EBU       6372
+
+
+Reaction No. 64005
+I-1 + Pa+4 = Pa+4_I-1
+ No   t    I-Str            Medium              Value (Dev)    W    Tech.     Ref. #
+ 1    25     0          Inf. Dilution          lgK:0.46(2SF)   1    EBU       6372
+
+
+Reaction No. 64006
+2<I-1> + Pa+4 = Pa+4_I-1(2)
+ No   t    I-Str            Medium              Value (Dev)    W    Tech.     Ref. #
+ 1    25     0          Inf. Dilution          lgK:0.63(2SF)   1    EBU       6372
+
+
+Reaction No. 64007
+3<I-1> + Pa+4 = Pa+4_I-1(3)
+ No   t    I-Str            Medium              Value (Dev)    W    Tech.     Ref. #
+ 1    25     0          Inf. Dilution          lgK:0.61(2SF)   1    EBU       6372
+
+
+Reaction No. 64008
+4<I-1> + Pa+4 = Pa+4_I-1(4)
+ No   t    I-Str            Medium              Value (Dev)    W    Tech.     Ref. #
+ 1    25     0          Inf. Dilution          lgK:0.48(2SF)   1    EBU       6372
+
+
+Reaction No. 64009
+5<I-1> + Pa+4 = Pa+4_I-1(5)
+ No   t    I-Str            Medium              Value (Dev)    W    Tech.     Ref. #
+ 1    25     0          Inf. Dilution          lgK:0.24(2SF)   1    EBU       6372
+
+
+Reaction No. 64010
+6<I-1> + Pa+4 = Pa+4_I-1(6)
+ No   t    I-Str           Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:-0.07(1SF)    1    EBU       6372
+
+
+
+
+                                        – Page 14 of 49 –
+JESS Thermodynamic Database v8.9                              Protactinium
+
+
+
+Reaction No. 64011
+IO3-1 + Pa+4 = Pa+4_IO3-1
+ No   t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.14(3SF)   1    EBU       6372
+
+
+Reaction No. 64012
+2<IO3-1> + Pa+4 = Pa+4_IO3-1(2)
+ No   t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:5.62(3SF)   1    EBU       6372
+
+
+Reaction No. 64013
+3<IO3-1> + Pa+4 = Pa+4_IO3-1(3)
+ No   t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:7.70(3SF)   1    EBU       6372
+
+
+Reaction No. 64014
+4<IO3-1> + Pa+4 = Pa+4_IO3-1(4)
+ No   t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:9.47(3SF)   1    EBU       6372
+
+
+Reaction No. 64015
+5<IO3-1> + Pa+4 = Pa+4_IO3-1(5)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:11.00(4SF)    1    EBU       6372
+
+
+Reaction No. 64016
+6<IO3-1> + Pa+4 = Pa+4_IO3-1(6)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:12.31(4SF)    1    EBU       6372
+
+
+Reaction No. 64017
+SO4-2 + Pa+4 = Pa+4_SO4-2
+ No   t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:4.87(3SF)   1    EBU       6372
+
+
+Reaction No. 64018
+2<SO4-2> + Pa+4 = Pa+4_SO4-2(2)
+
+
+
+
+                                       – Page 15 of 49 –
+JESS Thermodynamic Database v8.9                               Protactinium
+
+
+ No   t    I-Str            Medium              Value (Dev)    W    Tech.     Ref. #
+ 1    25     0          Inf. Dilution          lgK:8.35(3SF)   1    EBU       6372
+
+
+Reaction No. 64019
+3<SO4-2> + Pa+4 = Pa+4_SO4-2(3)
+ No   t    I-Str           Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:10.68(4SF)    1    EBU       6372
+
+
+Reaction No. 64020
+4<SO4-2> + Pa+4 = Pa+4_SO4-2(4)
+ No   t    I-Str           Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:11.96(4SF)    1    EBU       6372
+
+
+Reaction No. 64021
+5<SO4-2> + Pa+4 = Pa+4_SO4-2(5)
+ No   t    I-Str           Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:12.26(4SF)    1    EBU       6372
+
+
+Reaction No. 64022
+6<SO4-2> + Pa+4 = Pa+4_SO4-2(6)
+ No   t    I-Str           Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:11.60(4SF)    1    EBU       6372
+
+
+Reaction No. 64023
+NH3 + Pa+4 = Pa+4_NH3
+ No   t    I-Str            Medium              Value (Dev)    W    Tech.     Ref. #
+ 1    25     0          Inf. Dilution          lgK:7.27(3SF)   1    EBU       6372
+
+
+Reaction No. 64024
+2<NH3> + Pa+4 = Pa+4_NH3(2)
+ No   t    I-Str           Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:14.08(4SF)    1    EBU       6372
+
+
+Reaction No. 64025
+3<NH3> + Pa+4 = Pa+4_NH3(3)
+ No   t    I-Str           Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:20.55(4SF)    1    EBU       6372
+
+
+
+
+                                        – Page 16 of 49 –
+JESS Thermodynamic Database v8.9                              Protactinium
+
+
+Reaction No. 64026
+4<NH3> + Pa+4 = Pa+4_NH3(4)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:26.73(4SF)    1    EBU       6372
+
+
+Reaction No. 64027
+5<NH3> + Pa+4 = Pa+4_NH3(5)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:32.65(4SF)    1    EBU       6372
+
+
+Reaction No. 64028
+6<NH3> + Pa+4 = Pa+4_NH3(6)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:38.34(4SF)    1    EBU       6372
+
+
+Reaction No. 64029
+NO3-1 + Pa+4 = Pa+4_NO3-1
+ No   t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:1.79(3SF)   1    EBU       6372
+
+
+Reaction No. 64030
+2<NO3-1> + Pa+4 = Pa+4_NO3-1(2)
+ No   t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:2.85(3SF)   1    EBU       6372
+
+
+Reaction No. 64031
+3<NO3-1> + Pa+4 = Pa+4_NO3-1(3)
+ No   t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.42(3SF)   1    EBU       6372
+
+
+Reaction No. 64032
+4<NO3-1> + Pa+4 = Pa+4_NO3-1(4)
+ No   t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.61(3SF)   1    EBU       6372
+
+
+Reaction No. 64033
+5<NO3-1> + Pa+4 = Pa+4_NO3-1(5)
+ No   t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+
+
+
+
+                                       – Page 17 of 49 –
+JESS Thermodynamic Database v8.9                              Protactinium
+
+
+ 1    25     0         Inf. Dilution          lgK:3.47(3SF)   1    EBU       6372
+
+
+Reaction No. 64034
+6<NO3-1> + Pa+4 = Pa+4_NO3-1(6)
+ No   t    I-Str          Medium               Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.04(3SF)   1    EBU       6372
+
+
+Reaction No. 64035
+Pa+4 + H+1_PO4-3 = Pa+4_H+1_PO4-3
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:12.64(4SF)    1    EBU       6372
+
+
+Reaction No. 64036
+Pa+4 + 2<H+1_PO4-3> = Pa+4_H+1(2)_PO4-3(2)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:23.68(4SF)    1    EBU       6372
+
+
+Reaction No. 64037
+Pa+4 + 3<H+1_PO4-3> = Pa+4_H+1(3)_PO4-3(3)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:33.38(4SF)    1    EBU       6372
+
+
+Reaction No. 64038
+Pa+4 + 4<H+1_PO4-3> = Pa+4_H+1(4)_PO4-3(4)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:41.82(4SF)    1    EBU       6372
+
+
+Reaction No. 64039
+Pa+4 + 5<H+1_PO4-3> = Pa+4_H+1(5)_PO4-3(5)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:49.07(4SF)    1    EBU       6372
+
+
+Reaction No. 64040
+Pa+4 + 6<H+1_PO4-3> = Pa+4_H+1(6)_PO4-3(6)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:55.16(4SF)    1    EBU       6372
+
+
+Reaction No. 64041
+
+
+
+
+                                       – Page 18 of 49 –
+JESS Thermodynamic Database v8.9                              Protactinium
+
+
+Pa+4 + H+1(2)_PO4-3 = Pa+4_H+1(2)_PO4-3
+ No   t    I-Str            Medium              Value (Dev)   W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:4.65(3SF)   1    EBU       6372
+
+
+Reaction No. 64042
+Pa+4 + 2<H+1(2)_PO4-3> = Pa+4_H+1(4)_PO4-3(2)
+ No   t    I-Str            Medium              Value (Dev)   W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:7.71(3SF)   1    EBU       6372
+
+
+Reaction No. 64043
+Pa+4 + 3<H+1(2)_PO4-3> = Pa+4_H+1(6)_PO4-3(3)
+ No   t    I-Str            Medium              Value (Dev)   W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:9.41(3SF)   1    EBU       6372
+
+
+Reaction No. 64044
+Pa+4 + 4<H+1(2)_PO4-3> = Pa+4_H+1(8)_PO4-3(4)
+ No   t    I-Str            Medium              Value (Dev)   W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:9.87(3SF)   1    EBU       6372
+
+
+Reaction No. 64045
+Pa+4 + 5<H+1(2)_PO4-3> = Pa+4_H+1(10)_PO4-3(5)
+ No   t    I-Str            Medium              Value (Dev)   W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:9.14(3SF)   1    EBU       6372
+
+
+Reaction No. 64046
+Pa+4 + 6<H+1(2)_PO4-3> = Pa+4_H+1(12)_PO4-3(6)
+ No   t    I-Str            Medium              Value (Dev)   W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:7.26(3SF)   1    EBU       6372
+
+
+Reaction No. 64047
+CO3-2 + Pa+4 = Pa+4_CO3-2
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:11.53(4SF)    1    EBU       6372
+
+
+Reaction No. 64048
+2<CO3-2> + Pa+4 = Pa+4_CO3-2(2)
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:22.12(4SF)    1    EBU       6372
+
+
+
+
+                                       – Page 19 of 49 –
+JESS Thermodynamic Database v8.9                              Protactinium
+
+
+
+Reaction No. 64049
+3<CO3-2> + Pa+4 = Pa+4_CO3-2(3)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:32.03(4SF)    1    EBU       6372
+
+
+Reaction No. 64050
+4<CO3-2> + Pa+4 = Pa+4_CO3-2(4)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:41.34(4SF)    1    EBU       6372
+
+
+Reaction No. 64051
+5<CO3-2> + Pa+4 = Pa+4_CO3-2(5)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:50.12(4SF)    1    EBU       6372
+
+
+Reaction No. 64052
+6<CO3-2> + Pa+4 = Pa+4_CO3-2(6)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:58.40(4SF)    1    EBU       6372
+
+
+Reaction No. 64053
+Pa+4 + H+1_CO3-2 = Pa+4_H+1_CO3-2
+ No   t    I-Str          Medium               Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:6.72(3SF)   1    EBU       6372
+
+
+Reaction No. 64054
+Pa+4 + 2<H+1_CO3-2> = Pa+4_H+1(2)_CO3-2(2)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:12.31(4SF)    1    EBU       6372
+
+
+Reaction No. 64055
+Pa+4 + 3<H+1_CO3-2> = Pa+4_H+1(3)_CO3-2(3)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:17.03(4SF)    1    EBU       6372
+
+
+Reaction No. 64056
+Pa+4 + 4<H+1_CO3-2> = Pa+4_H+1(4)_CO3-2(4)
+
+
+
+
+                                       – Page 20 of 49 –
+JESS Thermodynamic Database v8.9                              Protactinium
+
+
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:20.98(4SF)    1    EBU       6372
+
+
+Reaction No. 64057
+Pa+4 + 5<H+1_CO3-2> = Pa+4_H+1(5)_CO3-2(5)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:24.21(4SF)    1    EBU       6372
+
+
+Reaction No. 64058
+Pa+4 + 6<H+1_CO3-2> = Pa+4_H+1(6)_CO3-2(6)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:26.76(4SF)    1    EBU       6372
+
+
+Reaction No. 64059
+SCN-1 + Pa+4 = Pa+4_SCN-1
+ No   t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:2.33(3SF)   1    EBU       6372
+
+
+Reaction No. 64060
+2<SCN-1> + Pa+4 = Pa+4_SCN-1(2)
+ No   t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:4.24(3SF)   1    EBU       6372
+
+
+Reaction No. 64061
+3<SCN-1> + Pa+4 = Pa+4_SCN-1(3)
+ No   t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:5.85(3SF)   1    EBU       6372
+
+
+Reaction No. 64062
+4<SCN-1> + Pa+4 = Pa+4_SCN-1(4)
+ No   t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:7.21(3SF)   1    EBU       6372
+
+
+Reaction No. 64063
+5<SCN-1> + Pa+4 = Pa+4_SCN-1(5)
+ No   t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:8.36(3SF)   1    EBU       6372
+
+
+
+
+                                       – Page 21 of 49 –
+JESS Thermodynamic Database v8.9                               Protactinium
+
+
+Reaction No. 64064
+6<SCN-1> + Pa+4 = Pa+4_SCN-1(6)
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:9.31(3SF)   1    EBU       6372
+
+
+Reaction No. 64065
+Acetic-1 + Pa+4 = Pa+4_Acetic-1
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:5.69(3SF)   1    EBU       6372
+
+
+Reaction No. 64066
+2<Acetic-1> + Pa+4 = Pa+4_Acetic-1(2)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:10.33(4SF)    1    EBU       6372
+
+
+Reaction No. 64067
+3<Acetic-1> + Pa+4 = Pa+4_Acetic-1(3)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:14.18(4SF)    1    EBU       6372
+
+
+Reaction No. 64068
+4<Acetic-1> + Pa+4 = Pa+4_Acetic-1(4)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:17.34(4SF)    1    EBU       6372
+
+
+Reaction No. 64069
+5<Acetic-1> + Pa+4 = Pa+4_Acetic-1(5)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:19.86(4SF)    1    EBU       6372
+
+
+Reaction No. 64070
+6<Acetic-1> + Pa+4 = Pa+4_Acetic-1(6)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:21.78(4SF)    1    EBU       6372
+
+
+Reaction No. 64071
+Benzoic-1 + Pa+4 = Pa+4_Benzoic-1
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+
+
+
+
+                                        – Page 22 of 49 –
+JESS Thermodynamic Database v8.9                              Protactinium
+
+
+ 1    25     0         Inf. Dilution          lgK:6.35(3SF)   1    EBU       6372
+
+
+Reaction No. 64072
+2<Benzoic-1> + Pa+4 = Pa+4_Benzoic-1(2)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:11.79(4SF)    1   EBU       6372
+
+
+Reaction No. 64073
+3<Benzoic-1> + Pa+4 = Pa+4_Benzoic-1(3)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:16.59(4SF)    1   EBU       6372
+
+
+Reaction No. 64074
+4<Benzoic-1> + Pa+4 = Pa+4_Benzoic-1(4)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:20.83(4SF)    1   EBU       6372
+
+
+Reaction No. 64075
+5<Benzoic-1> + Pa+4 = Pa+4_Benzoic-1(5)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:24.59(4SF)    1   EBU       6372
+
+
+Reaction No. 64076
+6<Benzoic-1> + Pa+4 = Pa+4_Benzoic-1(6)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:27.89(4SF)    1   EBU       6372
+
+
+Reaction No. 64077
+Cat-2 + Pa+4 = Pa+4_Cat-2
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:24.75(4SF)    1   EBU       6372
+
+
+Reaction No. 64078
+2<Cat-2> + Pa+4 = Pa+4_Cat-2(2)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:48.27(4SF)    1   EBU       6372
+
+
+Reaction No. 64079
+
+
+
+
+                                       – Page 23 of 49 –
+JESS Thermodynamic Database v8.9                              Protactinium
+
+
+3<Cat-2> + Pa+4 = Pa+4_Cat-2(3)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:71.22(4SF)    1    EBU       6372
+
+
+Reaction No. 64080
+EtDiAm + Pa+4 = Pa+4_EtDiAm
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:17.01(4SF)    1    EBU       6372
+
+
+Reaction No. 64081
+2<EtDiAm> + Pa+4 = Pa+4_EtDiAm(2)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:32.87(4SF)    1    EBU       6372
+
+
+Reaction No. 64082
+3<EtDiAm> + Pa+4 = Pa+4_EtDiAm(3)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:48.28(4SF)    1    EBU       6372
+
+
+Reaction No. 64083
+Gly-1 + Pa+4 = Pa+4_Gly-1
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:10.42(4SF)    1    EBU       6372
+
+
+Reaction No. 64084
+2<Gly-1> + Pa+4 = Pa+4_Gly-1(2)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:19.39(4SF)    1    EBU       6372
+
+
+Reaction No. 64085
+3<Gly-1> + Pa+4 = Pa+4_Gly-1(3)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:28.12(4SF)    1    EBU       6372
+
+
+Reaction No. 64086
+Glycolic-1 + Pa+4 = Pa+4_Glycolic-1
+ No   t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:5.09(3SF)   1    EBU       6372
+
+
+
+
+                                       – Page 24 of 49 –
+JESS Thermodynamic Database v8.9                               Protactinium
+
+
+
+Reaction No. 64087
+2<Glycolic-1> + Pa+4 = Pa+4_Glycolic-1(2)
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:9.08(3SF)   1    EBU       6372
+
+
+Reaction No. 64088
+3<Glycolic-1> + Pa+4 = Pa+4_Glycolic-1(3)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:12.19(4SF)    1    EBU       6372
+
+
+Reaction No. 64089
+4<Glycolic-1> + Pa+4 = Pa+4_Glycolic-1(4)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:14.55(4SF)    1    EBU       6372
+
+
+Reaction No. 64090
+5<Glycolic-1> + Pa+4 = Pa+4_Glycolic-1(5)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:16.19(4SF)    1    EBU       6372
+
+
+Reaction No. 64091
+6<Glycolic-1> + Pa+4 = Pa+4_Glycolic-1(6)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:17.17(4SF)    1    EBU       6372
+
+
+Reaction No. 64092
+Phenol-1 + Pa+4 = Pa+4_Phenol-1
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:9.02(3SF)   1    EBU       6372
+
+
+Reaction No. 64093
+2<Phenol-1> + Pa+4 = Pa+4_Phenol-1(2)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:17.36(4SF)    1    EBU       6372
+
+
+Reaction No. 64094
+3<Phenol-1> + Pa+4 = Pa+4_Phenol-1(3)
+
+
+
+
+                                        – Page 25 of 49 –
+JESS Thermodynamic Database v8.9                                Protactinium
+
+
+ No   t    I-Str          Medium                Value (Dev)      W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:25.14(4SF)     1   EBU       6372
+
+
+Reaction No. 64095
+4<Phenol-1> + Pa+4 = Pa+4_Phenol-1(4)
+ No   t    I-Str          Medium                Value (Dev)      W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:32.41(4SF)     1   EBU       6372
+
+
+Reaction No. 64096
+5<Phenol-1> + Pa+4 = Pa+4_Phenol-1(5)
+ No   t    I-Str          Medium                Value (Dev)      W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:39.20(4SF)     1   EBU       6372
+
+
+Reaction No. 64097
+6<Phenol-1> + Pa+4 = Pa+4_Phenol-1(6)
+ No   t    I-Str          Medium                Value (Dev)      W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:45.53(4SF)     1   EBU       6372
+
+
+Reaction No. 64098
+PaO2+1 + H2O = PaO2+1_OH-1 + H+1
+ No   t    I-Str         Medium                 Value (Dev)      W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-10.82(4SF)    0    EBU       6372
+ 2    25     0        Inf. Dilution           lgK:-4.50(3SF)     4    CRV      32222
+
+
+Reaction No. 64099
+PaO2+1 + 2<H2O> = PaO2+1_OH-1(2) + 2<H+1>
+ No   t    I-Str         Medium                 Value (Dev)      W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-22.42(4SF)    1    EBU       6372
+
+
+Reaction No. 64100
+PaO2+1 + 3<H2O> = PaO2+1_OH-1(3) + 3<H+1>
+ No   t    I-Str         Medium                 Value (Dev)      W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-34.68(4SF)    1    EBU       6372
+
+
+Reaction No. 64101
+PaO2+1 + 4<H2O> = PaO2+1_OH-1(4) + 4<H+1>
+ No   t    I-Str         Medium                 Value (Dev)      W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-47.55(4SF)    1    EBU       6372
+
+
+
+
+                                        – Page 26 of 49 –
+JESS Thermodynamic Database v8.9                               Protactinium
+
+
+
+Reaction No. 64102
+PaO2+1 + 5<H2O> = PaO2+1_OH-1(5) + 5<H+1>
+ No   t    I-Str            Medium             Value (Dev)      W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-61.01(4SF)    1    EBU       6372
+
+
+Reaction No. 64103
+F-1 + PaO2+1 = PaO2+1_F-1
+ No   t    I-Str             Medium            Value (Dev)     W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:1.66(3SF)    1    EBU       6372
+
+
+Reaction No. 64104
+2<F-1> + PaO2+1 = PaO2+1_F-1(2)
+ No   t    I-Str             Medium            Value (Dev)     W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:2.28(3SF)    1    EBU       6372
+
+
+Reaction No. 64105
+3<F-1> + PaO2+1 = PaO2+1_F-1(3)
+ No   t    I-Str             Medium            Value (Dev)     W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:1.99(3SF)    1    EBU       6372
+
+
+Reaction No. 64106
+4<F-1> + PaO2+1 = PaO2+1_F-1(4)
+ No   t    I-Str             Medium            Value (Dev)     W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:0.83(2SF)    1    EBU       6372
+
+
+Reaction No. 64107
+5<F-1> + PaO2+1 = PaO2+1_F-1(5)
+ No   t    I-Str            Medium             Value (Dev)      W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-1.16(3SF)     1    EBU       6372
+
+
+Reaction No. 64108
+Cl-1 + PaO2+1 = PaO2+1_Cl-1
+ No   t    I-Str             Medium            Value (Dev)     W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:0.16(2SF)    1    EBU       6372
+
+
+Reaction No. 64109
+2<Cl-1> + PaO2+1 = PaO2+1_Cl-1(2)
+
+
+
+
+                                       – Page 27 of 49 –
+JESS Thermodynamic Database v8.9                              Protactinium
+
+
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-0.02(1SF)    1    EBU       6372
+
+
+Reaction No. 64110
+3<Cl-1> + PaO2+1 = PaO2+1_Cl-1(3)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-0.41(2SF)    1    EBU       6372
+
+
+Reaction No. 64111
+4<Cl-1> + PaO2+1 = PaO2+1_Cl-1(4)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-0.97(2SF)    1    EBU       6372
+
+
+Reaction No. 64112
+5<Cl-1> + PaO2+1 = PaO2+1_Cl-1(5)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-1.67(3SF)    1    EBU       6372
+
+
+Reaction No. 64113
+Br-1 + PaO2+1 = PaO2+1_Br-1
+ No   t    I-Str          Medium               Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:0.13(2SF)   1    EBU       6372
+
+
+Reaction No. 64114
+2<Br-1> + PaO2+1 = PaO2+1_Br-1(2)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-0.04(1SF)    1    EBU       6372
+
+
+Reaction No. 64115
+3<Br-1> + PaO2+1 = PaO2+1_Br-1(3)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-0.40(2SF)    1    EBU       6372
+
+
+Reaction No. 64116
+4<Br-1> + PaO2+1 = PaO2+1_Br-1(4)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-0.89(2SF)    1    EBU       6372
+
+
+
+
+                                       – Page 28 of 49 –
+JESS Thermodynamic Database v8.9                              Protactinium
+
+
+Reaction No. 64117
+5<Br-1> + PaO2+1 = PaO2+1_Br-1(5)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-1.49(3SF)    1    EBU       6372
+
+
+Reaction No. 64118
+I-1 + PaO2+1 = PaO2+1_I-1
+ No   t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:0.12(2SF)   1    EBU       6372
+
+
+Reaction No. 64119
+2<I-1> + PaO2+1 = PaO2+1_I-1(2)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-0.06(1SF)    1    EBU       6372
+
+
+Reaction No. 64120
+3<I-1> + PaO2+1 = PaO2+1_I-1(3)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-0.42(2SF)    1    EBU       6372
+
+
+Reaction No. 64121
+4<I-1> + PaO2+1 = PaO2+1_I-1(4)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-0.90(2SF)    1    EBU       6372
+
+
+Reaction No. 64122
+5<I-1> + PaO2+1 = PaO2+1_I-1(5)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-1.48(3SF)    1    EBU       6372
+
+
+Reaction No. 64123
+IO3-1 + PaO2+1 = PaO2+1_IO3-1
+ No   t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:0.37(2SF)   1    EBU       6372
+
+
+Reaction No. 64124
+2<IO3-1> + PaO2+1 = PaO2+1_IO3-1(2)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+
+
+
+
+                                       – Page 29 of 49 –
+JESS Thermodynamic Database v8.9                              Protactinium
+
+
+ 1    25     0        Inf. Dilution          lgK:-0.01(1SF)    1    EBU       6372
+
+
+Reaction No. 64125
+3<IO3-1> + PaO2+1 = PaO2+1_IO3-1(3)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-0.90(2SF)    1    EBU       6372
+
+
+Reaction No. 64126
+4<IO3-1> + PaO2+1 = PaO2+1_IO3-1(4)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-2.18(3SF)    1    EBU       6372
+
+
+Reaction No. 64127
+5<IO3-1> + PaO2+1 = PaO2+1_IO3-1(5)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-3.81(3SF)    1    EBU       6372
+
+
+Reaction No. 64128
+SO4-2 + PaO2+1 = PaO2+1_SO4-2
+ No   t    I-Str          Medium               Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:1.45(3SF)   1    EBU       6372
+
+
+Reaction No. 64129
+2<SO4-2> + PaO2+1 = PaO2+1_SO4-2(2)
+ No   t    I-Str          Medium               Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:1.33(3SF)   1    EBU       6372
+
+
+Reaction No. 64130
+3<SO4-2> + PaO2+1 = PaO2+1_SO4-2(3)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-0.13(2SF)    1    EBU       6372
+
+
+Reaction No. 64131
+4<SO4-2> + PaO2+1 = PaO2+1_SO4-2(4)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-2.81(3SF)    1    EBU       6372
+
+
+Reaction No. 64132
+
+
+
+
+                                       – Page 30 of 49 –
+JESS Thermodynamic Database v8.9                              Protactinium
+
+
+NH3 + PaO2+1 = PaO2+1_NH3
+ No   t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:0.55(2SF)   1    EBU       6372
+
+
+Reaction No. 64133
+2<NH3> + PaO2+1 = PaO2+1_NH3(2)
+ No   t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:0.44(2SF)   1    EBU       6372
+
+
+Reaction No. 64134
+3<NH3> + PaO2+1 = PaO2+1_NH3(3)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-0.20(2SF)    1    EBU       6372
+
+
+Reaction No. 64135
+4<NH3> + PaO2+1 = PaO2+1_NH3(4)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-1.32(3SF)    1    EBU       6372
+
+
+Reaction No. 64136
+5<NH3> + PaO2+1 = PaO2+1_NH3(5)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-2.89(3SF)    1    EBU       6372
+
+
+Reaction No. 64137
+NO3-1 + PaO2+1 = PaO2+1_NO3-1
+ No   t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:0.21(2SF)   1    EBU       6372
+
+
+Reaction No. 64138
+2<NO3-1> + PaO2+1 = PaO2+1_NO3-1(2)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-0.50(2SF)    1    EBU       6372
+
+
+Reaction No. 64139
+3<NO3-1> + PaO2+1 = PaO2+1_NO3-1(3)
+ No   t    I-Str            Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-1.86(3SF)    1    EBU       6372
+
+
+
+
+                                       – Page 31 of 49 –
+JESS Thermodynamic Database v8.9                               Protactinium
+
+
+
+Reaction No. 64140
+4<NO3-1> + PaO2+1 = PaO2+1_NO3-1(4)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-3.77(3SF)    1    EBU       6372
+
+
+Reaction No. 64141
+5<NO3-1> + PaO2+1 = PaO2+1_NO3-1(5)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-6.18(3SF)    1    EBU       6372
+
+
+Reaction No. 64142
+PaO2+1 + H+1_PO4-3 = H+1_PaO2+1_PO4-3
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:3.37(3SF)   1    EBU       6372
+
+
+Reaction No. 64143
+PaO2+1 + 2<H+1_PO4-3> = H+1(2)_PaO2+1_PO4-3(2)
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:5.26(3SF)   1    EBU       6372
+
+
+Reaction No. 64144
+PaO2+1 + 3<H+1_PO4-3> = H+1(3)_PaO2+1_PO4-3(3)
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:5.92(3SF)   1    EBU       6372
+
+
+Reaction No. 64145
+PaO2+1 + 4<H+1_PO4-3> = H+1(4)_PaO2+1_PO4-3(4)
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:5.46(3SF)   1    EBU       6372
+
+
+Reaction No. 64146
+PaO2+1 + 5<H+1_PO4-3> = H+1(5)_PaO2+1_PO4-3(5)
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:3.93(3SF)   1    EBU       6372
+
+
+Reaction No. 64147
+PaO2+1 + H+1(2)_PO4-3 = H+1(2)_PaO2+1_PO4-3
+
+
+
+
+                                        – Page 32 of 49 –
+JESS Thermodynamic Database v8.9                              Protactinium
+
+
+ No   t    I-Str          Medium               Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:0.64(2SF)   1    EBU       6372
+
+
+Reaction No. 64148
+PaO2+1 + 2<H+1(2)_PO4-3> = H+1(4)_PaO2+1_PO4-3(2)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-0.24(2SF)    1    EBU       6372
+
+
+Reaction No. 64149
+PaO2+1 + 3<H+1(2)_PO4-3> = H+1(6)_PaO2+1_PO4-3(3)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-2.41(3SF)    1    EBU       6372
+
+
+Reaction No. 64150
+CO3-2 + PaO2+1 = PaO2+1_CO3-2
+ No   t    I-Str          Medium               Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:4.38(3SF)   1    EBU       6372
+
+
+Reaction No. 64151
+2<CO3-2> + PaO2+1 = PaO2+1_CO3-2(2)
+ No   t    I-Str          Medium               Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:7.56(3SF)   1    EBU       6372
+
+
+Reaction No. 64152
+3<CO3-2> + PaO2+1 = PaO2+1_CO3-2(3)
+ No   t    I-Str          Medium               Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:9.78(3SF)   1    EBU       6372
+
+
+Reaction No. 64153
+4<CO3-2> + PaO2+1 = PaO2+1_CO3-2(4)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:11.14(4SF)    1    EBU       6372
+
+
+Reaction No. 64154
+5<CO3-2> + PaO2+1 = PaO2+1_CO3-2(5)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:11.71(4SF)    1    EBU       6372
+
+
+
+
+                                       – Page 33 of 49 –
+JESS Thermodynamic Database v8.9                               Protactinium
+
+
+Reaction No. 64155
+PaO2+1 + H+1_CO3-2 = H+1_PaO2+1_CO3-2
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:1.19(3SF)   1    EBU       6372
+
+
+Reaction No. 64156
+PaO2+1 + 2<H+1_CO3-2> = H+1(2)_PaO2+1_CO3-2(2)
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:0.97(2SF)   1    EBU       6372
+
+
+Reaction No. 64157
+PaO2+1 + 3<H+1_CO3-2> = H+1(3)_PaO2+1_CO3-2(3)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-0.39(2SF)    1    EBU       6372
+
+
+Reaction No. 64158
+PaO2+1 + 4<H+1_CO3-2> = H+1(4)_PaO2+1_CO3-2(4)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-2.80(3SF)    1    EBU       6372
+
+
+Reaction No. 64159
+SCN-1 + PaO2+1 = PaO2+1_SCN-1
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:0.26(2SF)   1    EBU       6372
+
+
+Reaction No. 64160
+2<SCN-1> + PaO2+1 = PaO2+1_SCN-1(2)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-0.06(1SF)    1    EBU       6372
+
+
+Reaction No. 64161
+3<SCN-1> + PaO2+1 = PaO2+1_SCN-1(3)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-0.84(2SF)    1    EBU       6372
+
+
+Reaction No. 64162
+4<SCN-1> + PaO2+1 = PaO2+1_SCN-1(4)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+
+
+
+
+                                        – Page 34 of 49 –
+JESS Thermodynamic Database v8.9                               Protactinium
+
+
+ 1    25     0        Inf. Dilution           lgK:-2.03(3SF)    1    EBU       6372
+
+
+Reaction No. 64163
+5<SCN-1> + PaO2+1 = PaO2+1_SCN-1(5)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-3.60(3SF)    1    EBU       6372
+
+
+Reaction No. 64164
+Acetic-1 + PaO2+1 = PaO2+1_Acetic-1
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:0.89(2SF)   1    EBU       6372
+
+
+Reaction No. 64165
+2<Acetic-1> + PaO2+1 = PaO2+1_Acetic-1(2)
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:0.47(2SF)   1    EBU       6372
+
+
+Reaction No. 64166
+3<Acetic-1> + PaO2+1 = PaO2+1_Acetic-1(3)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-1.03(3SF)    1    EBU       6372
+
+
+Reaction No. 64167
+4<Acetic-1> + PaO2+1 = PaO2+1_Acetic-1(4)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-3.50(3SF)    1    EBU       6372
+
+
+Reaction No. 64168
+Benzoic-1 + PaO2+1 = PaO2+1_Benzoic-1
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:1.08(3SF)   1    EBU       6372
+
+
+Reaction No. 64169
+2<Benzoic-1> + PaO2+1 = PaO2+1_Benzoic-1(2)
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:1.00(3SF)   1    EBU       6372
+
+
+Reaction No. 64170
+
+
+
+
+                                        – Page 35 of 49 –
+JESS Thermodynamic Database v8.9                               Protactinium
+
+
+3<Benzoic-1> + PaO2+1 = PaO2+1_Benzoic-1(3)
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:0.01(1SF)   1    EBU       6372
+
+
+Reaction No. 64171
+4<Benzoic-1> + PaO2+1 = PaO2+1_Benzoic-1(4)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-1.77(3SF)    1    EBU       6372
+
+
+Reaction No. 64172
+5<Benzoic-1> + PaO2+1 = PaO2+1_Benzoic-1(5)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-4.31(3SF)    1    EBU       6372
+
+
+Reaction No. 64173
+Cat-2 + PaO2+1 = PaO2+1_Cat-2
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:8.71(3SF)   1    EBU       6372
+
+
+Reaction No. 64174
+2<Cat-2> + PaO2+1 = PaO2+1_Cat-2(2)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:15.88(4SF)    1    EBU       6372
+
+
+Reaction No. 64175
+EtDiAm + PaO2+1 = PaO2+1_EtDiAm
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:2.99(3SF)   1    EBU       6372
+
+
+Reaction No. 64176
+2<EtDiAm> + PaO2+1 = PaO2+1_EtDiAm(2)
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:4.67(3SF)   1    EBU       6372
+
+
+Reaction No. 64177
+Gly-1 + PaO2+1 = PaO2+1_Gly-1
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:1.54(3SF)   1    EBU       6372
+
+
+
+
+                                        – Page 36 of 49 –
+JESS Thermodynamic Database v8.9                              Protactinium
+
+
+
+Reaction No. 64178
+2<Gly-1> + PaO2+1 = PaO2+1_Gly-1(2)
+ No   t    I-Str          Medium                Value (Dev)   W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:1.46(3SF)   1    EBU       6372
+
+
+Reaction No. 64179
+Glycolic-1 + PaO2+1 = PaO2+1_Glycolic-1
+ No   t    I-Str          Medium                Value (Dev)   W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:0.75(2SF)   1    EBU       6372
+
+
+Reaction No. 64180
+2<Glycolic-1> + PaO2+1 = PaO2+1_Glycolic-1(2)
+ No   t    I-Str          Medium                Value (Dev)   W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:0.11(2SF)   1    EBU       6372
+
+
+Reaction No. 64181
+3<Glycolic-1> + PaO2+1 = PaO2+1_Glycolic-1(3)
+ No   t    I-Str          Medium                Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-1.68(3SF)    1    EBU       6372
+
+
+Reaction No. 64182
+4<Glycolic-1> + PaO2+1 = PaO2+1_Glycolic-1(4)
+ No   t    I-Str          Medium                Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-4.50(3SF)    1    EBU       6372
+
+
+Reaction No. 64183
+Phenol-1 + PaO2+1 = PaO2+1_Phenol-1
+ No   t    I-Str          Medium                Value (Dev)   W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:2.00(3SF)   1    EBU       6372
+
+
+Reaction No. 64184
+2<Phenol-1> + PaO2+1 = PaO2+1_Phenol-1(2)
+ No   t    I-Str          Medium                Value (Dev)   W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.05(3SF)   1    EBU       6372
+
+
+Reaction No. 64185
+3<Phenol-1> + PaO2+1 = PaO2+1_Phenol-1(3)
+
+
+
+
+                                       – Page 37 of 49 –
+JESS Thermodynamic Database v8.9                              Protactinium
+
+
+ No   t    I-Str          Medium               Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.27(3SF)   1    EBU       6372
+
+
+Reaction No. 64186
+4<Phenol-1> + PaO2+1 = PaO2+1_Phenol-1(4)
+ No   t    I-Str          Medium               Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:2.70(3SF)   1    EBU       6372
+
+
+Reaction No. 64187
+5<Phenol-1> + PaO2+1 = PaO2+1_Phenol-1(5)
+ No   t    I-Str          Medium               Value (Dev)    W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:1.38(3SF)   1    EBU       6372
+
+
+Reaction No. 65522
+Pa+4 + 4<H2O> = Pa+4_OH-1(4)_(s) + 4<H+1>
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-7.83(3SF)    4    EBU       6372
+
+
+Reaction No. 65523
+Pa+4 + 2<CO3-2> = Pa+4_CO3-2(2)_(s)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:13.17(4SF)    4    EBU       6372
+
+
+Reaction No. 65524
+2<PaO2+1> + CO3-2 = PaO2+1(2)_CO3-2_(s)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:12.55(4SF)    4    EBU       6372
+
+
+Reaction No. 66864
+0.5<Pa2O5(s)> + 0.5<H2O> = PaO2+1 + OH-1
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-16.(2SF)    4    ENS       773
+ 2    25     1           Unknown             lgK:-15.8(3SF)    4    ENS       773
+
+
+Reaction No. 66865
+PaO2(s) + 2<H2O> = Pa+4 + 4<OH-1>
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-55.4(3SF)    1    ELC
+
+
+
+
+                                       – Page 38 of 49 –
+JESS Thermodynamic Database v8.9                                     Protactinium
+
+
+ 2    25        0       Inf. Dilution          lgK:-53.4(3SF)            0      ENS      773
+ 3    25        1          Unknown             lgK:-53.3(3SF)            0      ENS      773
+
+
+Reaction No. 70075
+Acac-1 + Pa+4 = Pa+4_Acac-1
+ No       t     I-Str      Medium            Value (Dev)         W           Tech.     Ref. #
+  1    25           1      Benzene          lgK:6.1(2SF)         5           MGL        2856
+                            NaClO4
+
+
+Reaction No. 70076
+2<Acac-1> + Pa+4 = Pa+4_Acac-1(2)
+ No    t       I-Str     Medium             Value (Dev)              W        Tech.    Ref. #
+  1   25            1    Benzene          lgK:13.2(0.1SD)            5         MGL      2856
+                          NaClO4
+
+
+Reaction No. 72157
+PaO+3_OH-1 + e-1 + 3<H+1> = Pa+4 + 2<H2O>
+ No   t       I-Str        Medium                Value (Dev)             W     Tech.   Ref. #
+ 1    25        0       Inf. Dilution            E:-0.1(1SF)             3      CRV     7761
+ 2    25        0       Inf. Dilution            E:-0.1(1SF)             4      CRV     22551
+ 3    25        0       Inf. Dilution          dH:-85.3(3SF)kJ           3      CRV     7761
+
+
+Reaction No. 72158
+PaO2+1_OH-1_(am.,s) + 5<H+1> + e-1 = Pa+4 + 3<H2O>
+ No   t       I-Str         Medium               Value (Dev)             W     Tech.   Ref. #
+ 1    25        0        Inf. Dilution          lgK:-2.5(2SF)            1      ELC
+ 2    25        0        Inf. Dilution           E:-0.1(1SF)             0      CRV     7761
+
+
+Reaction No. 72159
+Pa2O5(s) + 2<H+1> + 2<e-1> = 2<PaO2(s)> + H2O
+ No   t       I-Str         Medium               Value (Dev)             W     Tech.   Ref. #
+ 1    25        0       Inf. Dilution           lgK:-9.6(2SF)            1      ELC
+ 2    25        0       Inf. Dilution            E:-0.2(1SF)             0      CRV     7761
+ 3    25        0       Inf. Dilution          dH:15.6(3SF)kJ            2      CRV     7761
+
+
+Reaction No. 72160
+PaO+3_OH-1 + 3<H+1> + 5<e-1> = Pa(s) + 2<H2O>
+ No   t       I-Str        Medium                Value (Dev)             W     Tech.   Ref. #
+
+
+
+
+                                         – Page 39 of 49 –
+JESS Thermodynamic Database v8.9                               Protactinium
+
+
+ 1    25     0        Inf. Dilution          lgK:-102.4(4SF)    1    ELC
+ 2    25     0        Inf. Dilution           E:-1.21(3SF)      0    CRV       7761
+ 3    25     0        Inf. Dilution          dH:550.7(4SF)kJ    2    CRV       7761
+
+
+Reaction No. 72161
+PaO2+1_OH-1_(am.,s) + 5<H+1> + 5<e-1> = Pa(s) + 3<H2O>
+ No   t    I-Str         Medium                Value (Dev)      W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-103.3(4SF)    1    ELC
+ 2    25     0        Inf. Dilution           E:-1.22(3SF)      0    CRV       7761
+
+
+Reaction No. 72162
+Pa2O5(s) + 10<H+1> + 10<e-1> = 2<Pa(s)> + 5<H2O>
+ No   t    I-Str         Medium                Value (Dev)      W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           E:-1.24(3SF)      3    CRV       7761
+ 2    25     0        Inf. Dilution          dH:1090.(4SF)kJ    3    CRV       7761
+
+
+Reaction No. 72163
+PaO2(s) + 4<H+1> + 4<e-1> = Pa(s) + 2<H2O>
+ No   t    I-Str         Medium                Value (Dev)      W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-99.9(3SF)     1    ELC
+ 2    25     0        Inf. Dilution           E:-1.50(3SF)      0    CRV       7761
+ 3    25     0        Inf. Dilution          dH:536.3(4SF)kJ    2    CRV       7761
+
+
+Reaction No. 72164
+Pa2O5(s) + H2O + 2<e-1> = 2<PaO2(s)> + 2<OH-1>
+ No   t    I-Str         Medium                Value (Dev)      W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-37.6(3SF)     1    ELC
+ 2    25     0        Inf. Dilution            E:-1.0(2SF)      0    CRV       7761
+ 3    25     0        Inf. Dilution          dH:123.9(4SF)kJ    2    CRV       7761
+
+
+Reaction No. 72165
+PaO+3_OH-1(4) + e-1 = PaO2(am.,s) + 2<OH-1> + H2O
+ No   t    I-Str          Medium               Value (Dev)      W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-21.0(3SF)     1   ELC
+ 2    25     0        Inf. Dilution            E:-1.2(2SF)      0   CRV       7761
+
+
+Reaction No. 72166
+
+
+
+
+                                      – Page 40 of 49 –
+JESS Thermodynamic Database v8.9                                 Protactinium
+
+
+PaO2+1_OH-1_(am.,s) + e-1 = PaO2(am.,s) + OH-1
+ No   t    I-Str          Medium                Value (Dev)       W      Tech.    Ref. #
+ 1    25     0        Inf. Dilution            lgK:-21.8(3SF)     1       ELC
+ 2    25     0        Inf. Dilution             E:-1.3(2SF)       0       CRV      7761
+
+
+Reaction No. 72167
+PaO+3_OH-1(4) + H2O + 5<e-1> = Pa(s) + 6<OH-1>
+ No    t    I-Str          Medium                Value (Dev)     W       Tech.    Ref. #
+ 1    25         0     Inf. Dilution            E:-2.04(3SF)     3       CRV      7761
+
+
+Reaction No. 72168
+PaO2+1_OH-1_(am.,s) + 2<H2O> + 5<e-1> = Pa(s) + 5<OH-1>
+ No    t    I-Str          Medium                Value (Dev)     W       Tech.    Ref. #
+ 1    25         0     Inf. Dilution            E:-2.05(3SF)     3       CRV      7761
+
+
+Reaction No. 72169
+Pa2O5(s) + 5<H2O> + 10<e-1> = 2<Pa(s)> + 10<OH-1>
+ No   t    I-Str         Medium                 Value (Dev)          W    Tech.   Ref. #
+ 1    25     0       Inf. Dilution            lgK:-349.6(4SF)        1     ELC
+ 2    25     0       Inf. Dilution              E:-2.07(3SF)         0     CRV     7761
+ 3    25     0       Inf. Dilution            dH:1649.2(5SF)kJ       2     CRV     7761
+
+
+Reaction No. 72170
+PaO2(am.,s) + 2<H2O> + 4<e-1> = Pa(s) + 4<OH-1>
+ No   t    I-Str          Medium                Value (Dev)       W      Tech.    Ref. #
+ 1    25     0        Inf. Dilution             E:-2.24(3SF)      3       CRV      7761
+ 2    25     0        Inf. Dilution            dH:760.(3SF)kJ     3       EES
+Note (2): By analogy with the crystalline solid
+
+
+Reaction No. 72171
+PaO2(s) + 2<H2O> + 4<e-1> = Pa(s) + 4<OH-1>
+ No   t    I-Str         Medium                 Value (Dev)          W   Tech.    Ref. #
+ 1    25     0        Inf. Dilution           lgK:-155.9(4SF)        1    ELC
+ 2    25     0        Inf. Dilution             E:-2.33(3SF)         0    CRV      7761
+ 3    25     0        Inf. Dilution           dH:760.0(4SF)kJ        2    CRV      7761
+
+
+Reaction No. 75595
+
+
+
+
+                                       – Page 41 of 49 –
+JESS Thermodynamic Database v8.9                                 Protactinium
+
+
+2<Br2(l)> + Pa(s) = Pa+4_Br-1(4)_(s)
+ No   t    I-Str         Medium                 Value (Dev)          W    Tech.    Ref. #
+ 1    25     0       Inf. Dilution            dG:-787.8(4SF)kJ       3     CRV      6330
+ 2    25     0       Inf. Dilution            dH:-824.0(4SF)kJ       3     CRV      6330
+
+
+Reaction No. 75625
+2<Cl2(g)> + Pa(s) = Pa+4_Cl-1(4)_(s)
+ No   t    I-Str        Medium                  Value (Dev)           W    Tech.   Ref. #
+ 1    25     0       Inf. Dilution            lgK:168.6(4SF)          1     ELC
+ 2    25     0       Inf. Dilution          dG:-953.0(4SF)kJ          0     CRV     6330
+ 3    25     0       Inf. Dilution         dH:-1043.0(5SF)kJ          2     CRV     6330
+
+
+Reaction No. 75943
+Pa+4_Oxalic-2 + Oxalic-2 = Pa+4_Oxalic-2(2)
+ No    t   I-Str          Medium                Value (Dev)      W        Tech.    Ref. #
+ 1    25     0         Inf. Dilution           lgK:9.60(3SF)     5         EOD     11516
+Note (1): Moskvin A et al., Zhur. Neorg. Khim., 1967, 12, 359
+
+
+Reaction No. 75944
+Pa+5_Oxalic-2 + Oxalic-2 = Pa+5_Oxalic-2(2)
+ No   t    I-Str          Medium                Value (Dev)      W        Tech.    Ref. #
+ 1    23     1             KNO3                lgK:0.70(2SF)     5        MIX      4421
+ 2    25     0         Inf. Dilution            lgK:0.7(1SF)     1        ESC
+
+
+Reaction No. 78808
+PO4-3 + Pa+4 + H+1 = Pa+4_H+1_PO4-3
+ No   t    I-Str          Medium                Value (Dev)       W       Tech.    Ref. #
+ 1    25     0        Inf. Dilution            lgK:24.97(4SF)     1        ELC
+
+
+Reaction No. 78809
+2<PO4-3> + Pa+4 + 2<H+1> = Pa+4_H+1(2)_PO4-3(2)
+ No   t    I-Str          Medium                Value (Dev)       W       Tech.    Ref. #
+ 1    25     0        Inf. Dilution            lgK:48.33(4SF)     1        ELC
+
+
+Reaction No. 78810
+3<PO4-3> + Pa+4 + 3<H+1> = Pa+4_H+1(3)_PO4-3(3)
+ No   t    I-Str          Medium                Value (Dev)       W       Tech.    Ref. #
+
+
+
+
+                                       – Page 42 of 49 –
+JESS Thermodynamic Database v8.9                             Protactinium
+
+
+ 1    25     0        Inf. Dilution         lgK:70.36(4SF)    1   ELC
+
+
+Reaction No. 78811
+4<PO4-3> + Pa+4 + 4<H+1> = Pa+4_H+1(4)_PO4-3(4)
+ No   t    I-Str          Medium              Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:91.13(4SF)    1   ELC
+
+
+Reaction No. 78812
+5<PO4-3> + Pa+4 + 5<H+1> = Pa+4_H+1(5)_PO4-3(5)
+ No   t    I-Str          Medium              Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:110.7(4SF)    1   ELC
+
+
+Reaction No. 78813
+6<PO4-3> + Pa+4 + 6<H+1> = Pa+4_H+1(6)_PO4-3(6)
+ No   t    I-Str          Medium              Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:129.1(4SF)    1   ELC
+
+
+Reaction No. 78814
+PO4-3 + Pa+4 + 2<H+1> = Pa+4_H+1(2)_PO4-3
+ No   t    I-Str          Medium              Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:24.17(4SF)    1   ELC
+
+
+Reaction No. 78815
+2<PO4-3> + Pa+4 + 4<H+1> = Pa+4_H+1(4)_PO4-3(2)
+ No   t    I-Str          Medium              Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:46.75(4SF)    1   ELC
+
+
+Reaction No. 78816
+3<PO4-3> + Pa+4 + 6<H+1> = Pa+4_H+1(6)_PO4-3(3)
+ No   t    I-Str          Medium              Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:67.97(4SF)    1   ELC
+
+
+Reaction No. 78817
+4<PO4-3> + Pa+4 + 8<H+1> = Pa+4_H+1(8)_PO4-3(4)
+ No   t    I-Str          Medium              Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:87.95(4SF)    1   ELC
+
+
+Reaction No. 78818
+
+
+
+
+                                      – Page 43 of 49 –
+JESS Thermodynamic Database v8.9                              Protactinium
+
+
+5<PO4-3> + Pa+4 + 10<H+1> = Pa+4_H+1(10)_PO4-3(5)
+ No   t    I-Str          Medium                Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:106.7(4SF)    1    ELC
+
+
+Reaction No. 78819
+6<PO4-3> + Pa+4 + 12<H+1> = Pa+4_H+1(12)_PO4-3(6)
+ No   t    I-Str          Medium                Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:124.4(4SF)    1    ELC
+
+
+Reaction No. 78820
+PO4-3 + PaO2+1 + H+1 = H+1_PaO2+1_PO4-3
+ No   t    I-Str          Medium                Value (Dev)   W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:15.7(4SF)   1    ELC
+
+
+Reaction No. 78821
+2<PO4-3> + PaO2+1 + 2<H+1> = H+1(2)_PaO2+1_PO4-3(2)
+ No   t    I-Str          Medium                Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:29.91(4SF)    1    ELC
+
+
+Reaction No. 78822
+3<PO4-3> + PaO2+1 + 3<H+1> = H+1(3)_PaO2+1_PO4-3(3)
+ No   t    I-Str          Medium                Value (Dev)   W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:42.9(4SF)   1    ELC
+
+
+Reaction No. 78823
+4<PO4-3> + PaO2+1 + 4<H+1> = H+1(4)_PaO2+1_PO4-3(4)
+ No   t    I-Str          Medium                Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:54.77(4SF)    1    ELC
+
+
+Reaction No. 78824
+5<PO4-3> + PaO2+1 + 5<H+1> = H+1(5)_PaO2+1_PO4-3(5)
+ No   t    I-Str          Medium                Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:65.56(4SF)    1    ELC
+
+
+Reaction No. 78825
+PO4-3 + PaO2+1 + 2<H+1> = H+1(2)_PaO2+1_PO4-3
+ No   t    I-Str          Medium                Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:20.16(4SF)    1    ELC
+
+
+
+
+                                       – Page 44 of 49 –
+JESS Thermodynamic Database v8.9                                       Protactinium
+
+
+
+Reaction No. 78826
+2<PO4-3> + PaO2+1 + 4<H+1> = H+1(4)_PaO2+1_PO4-3(2)
+ No    t       I-Str              Medium              Value (Dev)          W       Tech.     Ref. #
+ 1    25            0         Inf. Dilution          lgK:38.8(4SF)         1        ELC
+
+
+Reaction No. 78827
+3<PO4-3> + PaO2+1 + 6<H+1> = H+1(6)_PaO2+1_PO4-3(3)
+ No    t       I-Str             Medium               Value (Dev)          W        Tech.    Ref. #
+ 1    25            0         Inf. Dilution         lgK:56.15(4SF)         1         ELC
+
+
+Reaction No. 80369
+2<NTA-3> + PaO+3 = PaO+3_NTA-3(2)
+ No       t     I-Str            Medium             Value (Dev)        W           Tech.     Ref. #
+ 1     25               1      (H,Na)ClO4          lgK:28.6(3SF)       2           MDS       30786
+Note (1): lgK varies with acidity
+
+
+Reaction No. 80589
+PaO+3_OH-1 + H2O = PaO+3_OH-1(2) + H+1
+ No   t       I-Str            Medium                Value (Dev)               W     Tech.   Ref. #
+ 1    25        0           Inf. Dilution        lgK:-1.260(0.075SD)           5      CRV     31301
+
+
+Reaction No. 80590
+PaO+3_OH-1(2) + 2<H2O> = Pa+5_OH-1(5) + H+1
+ No   t       I-Str             Medium               Value (Dev)               W    Tech.    Ref. #
+ 1    25        0           Inf. Dilution         lgK:-7.150(0.2SD)            5     CRV      31301
+
+
+Reaction No. 80591
+PaO+3_OH-1 + Cl-1 = PaO+3_Cl-1_OH-1
+ No   t       I-Str             Medium               Value (Dev)               W    Tech.    Ref. #
+ 1    25        0           Inf. Dilution         lgK:0.567(0.01SD)            5     CRV      31301
+
+
+Reaction No. 80592
+PaO+3_OH-1 + SO4-2 + H+1 = PaO+3_SO4-2 + H2O
+ No   t       I-Str             Medium               Value (Dev)               W    Tech.    Ref. #
+ 1    25        0           Inf. Dilution         lgK:3.890(0.09SD)            5     CRV      31301
+
+
+Reaction No. 80593
+
+
+
+
+                                              – Page 45 of 49 –
+JESS Thermodynamic Database v8.9                                       Protactinium
+
+
+PaO+3_OH-1 + 2<SO4-2> + H+1 = PaO+3_SO4-2(2) + H2O
+ No     t       I-Str           Medium                 Value (Dev)      W    Tech.    Ref. #
+    1   25        0         Inf. Dilution           lgK:7.000(0.1SD)    5    CRV      31301
+
+
+Reaction No. 80594
+PaO+3_OH-1 + 3<SO4-2> + H+1 = PaO+3_SO4-2(3) + H2O
+ No     t       I-Str           Medium                Value (Dev)        W   Tech.    Ref. #
+    1   25        0         Inf. Dilution         lgK:8.590(0.115SD)     5    CRV     31301
+
+
+Reaction No. 81102
+O2(g) + Pa(s) - e-1 = PaO2+1
+ No     t       I-Str           Medium                 Value (Dev)      W    Tech.    Ref. #
+    1   25        0         Inf. Dilution            lgK:185.8(4SF)     1    ELC
+    2   25        0         Inf. Dilution           lgK:4.22(1.70SD)    0    CRV      32222
+
+
+Reaction No. 81103
+PaO2+1 + H+1 = PaO+3_OH-1
+ No     t       I-Str           Medium                Value (Dev)       W    Tech.    Ref. #
+    1   25        0         Inf. Dilution          lgK:-0.50(0.10SD)    4     CRV     32222
+
+
+
+
+                                         Data Assessment
+
+
+Weight                          Assessment
+9            highest accuracy
+8            multi-determined; excellent dependability
+7            trustworthy; outstanding single determination
+6            better than average reliability
+5            average single determination
+4            some doubt
+3            poorly known
+2            guess to achieve consistency (or just as bad)
+1            no information but consistent
+0            problematic/inconsistent
+
+
+
+
+                                               – Page 46 of 49 –
+JESS Thermodynamic Database v8.9                               Protactinium
+
+
+                                      Techniques
+
+
+Abbrev                   Method
+CMN      Several experimental values (crit.)
+CRV      Critical review
+EBU      Brown's Unified Theory
+EES      Personal estimate
+ELC      Linear Combination of Reactions
+ENS      Not specified
+EOD      Calculated from data of others
+EOR      Other Reaction Constants
+ESC      Standard conditions anchor
+MCE      Cation exchange
+MDG      Combination of Thermodynamic Data
+MDS      Distribution between two phases
+MGL      Glass electrode
+MIX      Ion exchange
+MQH      Quinhydrone electrode
+
+
+
+
+                                      References
+
+
+Reference No.: 437(80BoH)
+IUPAC Chemical Data Series No. 27, 1980 Bond AM; Hefter GT; Critical Survey of
+Stability Constants and Related Thermodynamic Data of Fluoride Complexes in Aqueous
+Solution; Pergamon, Oxford, U.K.
+
+Reference No.: 552(95SMM)
+NIST Critical Stability Constants of Metal Complexes Database, 1995 Smith RM; Martell
+AE; Motekaitis RJ; Version 2.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 773(85KoS)
+Handbook of Chemical Equilibria in Analytical Chemistry, 1985 Kotrly S; Sucha L; Ellis
+Horwood Series in Anal. Chem.; Eds. Chalmers RA & Masson M; Ellis Horwood, Chichester
+
+Reference No.: 775(71CCM)
+Selected Constants, 1971 Charlot G; Collumeau A; Marchon MJC; Oxidation-Reduction
+Potentials of Inorganic Substances in Aqueous Solution; Butterworths, London
+
+
+
+
+                                           – Page 47 of 49 –
+JESS Thermodynamic Database v8.9                               Protactinium
+
+
+Reference No.: 906(79Per)
+IUPAC Chemical Data Series No. 22, 1979 Perrin DD; Stability Constants of Metal-Ion
+Complexes, First Edition Part B, Organic Ligands; Pergamon, Oxford
+
+Reference No.: 931(71SiM)
+Stability Constants of Metal-ion Complexes SP25, 1971 Sillen LG; Martell AE; Supplement
+No 1 to Special Publication No 25; Chemical Society, London
+
+Reference No.: 2556(93MSM)
+NIST Critical Stability Constants of Metal Complexes Database, 1993 Martell AE; Smith
+RM; Motekaitis RJ; Version 1.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 2856(74Lun)
+Acta Chem. Scand., 1974, A28, 243 - 247; Lundqvist R; Aqueous Chemistry of
+Protactinium(IV). 1. Stability Constants for Pa(IV) - Acetylacetone Complexes
+
+Reference No.: 3006(85BPJ)
+Standard Potentials in Aqueous Solution, 1985 Bard AJ; Parsons R; Jordan J; Monographs
+in Electroanalytical Chemistry and Electrochemistry; Marcel Dekker Inc.,New York and
+Basel
+
+Reference No.: 4421(66DMP)
+Russ. J. Inorg. Chem., 1966, 11, 702 - 706; Davydov AV; Marov IN; Palei PN; Complex
+Formation by Protactinium in Oxalate, Phosphate, and Arsenate Solutions
+
+Reference No.: 5156(91ReB)
+Radiochim. Acta, 1991, 52/53, 453 - 456; Read D; Broyd TW; Recent Progress in Testing
+Chemical Equilibrium Models: The CHEMVAL Project
+
+Reference No.: 5256(91MiK)
+Coord. Chem. Rev., 1991, 109, 1 - 5; Mikheev NB; Kamenskaya AN; Complex Formation of
+the Lanthanides and Actinides in Lower Oxidation States
+
+Reference No.: 5398(82Hog)
+IUPAC Chemical Data Series No. 21, 1982 Hogfeldt E; Stability Constants of Metal-ion
+Complexes, 2nd Suppl., Part A, Inorganic Ligands; Pergamon, Oxford
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+Reference No.: 6372(87BrW)
+OECD NEA Report, 1987 Brown PL; Wanner H; Predicted Formation Constants Using the
+Unified Theory of Metal Ion Complexation; Nuclear Energy Authority, Paris
+
+Reference No.: 6478(81BaM)
+Am. J. Sci., 1981, 281, 935 - 962; Baes CF Jr; Mesmer RE; The Thermodynamics of Cation
+Hydrolysis
+
+Reference No.: 7276(88CoW)
+Advanced Inorganic Chemistry, 5th Edn., 1988 Cotton FA; Wilkinson G; John Wiley & Sons
+Inc., N.Y., U.S.A
+
+Reference No.: 7761(89Bra)
+J. Phys. Chem. Ref. Data, 1989, 18, 1 - 21; Bratsch SG; Standard Electrode Potentials
+and Temperature Coefficients in Water at 298.15 K
+
+
+
+
+                                      – Page 48 of 49 –
+JESS Thermodynamic Database v8.9                               Protactinium
+
+
+Reference No.: 11516(00PeP)
+IUPAC Stability Constants Database, 2000 Pettit LD; Powell HKJ; Release 4; Academic
+Software, U.K.
+
+Reference No.: 22551(06Inz)
+Encyclopedia of Electrochemistry, Vol. 7a, 2006, 17 - 75; Inzelt G; Standard, Formal
+and Other Characteristic Potentials of Selected Electrode Reactions
+
+Reference No.: 30786(18LLA)
+New J. Chem., 2018, 42, 7789 - 7795; Luchini C; Leguay S; Aupiais J; Cannes C; Le Naour
+C; Complexation of protactinium(V) with nitrilotriacetic acid: a study at the tracer
+scale
+
+Reference No.: 31301(10KFD)
+Japan Atomic Energy Agency Data/Code 2009-024, 2010 Kitamura A; Fujiwara K; Doi R;
+Yoshida Y; Mihara M; Terashima M; Yui M; JAEA Thermodynamic Database for Performance
+Assessment of Geological Disposal of High-level Radioactive and TRU Wastes; Geological
+Isolation Research Unit, JAEA, Japan
+
+Reference No.: 32222(06DGC)
+Technical Report TR-O6-17, 2006 Duro L; Grive M; Cera E; Domenech C; Bruno J; Update of
+a Thermodynamic Database for Radionuclides to Assist Solubility Limits Calculation for
+Performance Assessment; Swedish Nucl. Fuel & Waste Management Co, Stockholm, Sweden
+
+
+
+
+                                      – Page 49 of 49 –
+

@@ -1,0 +1,2381 @@
+                        JESS Thermodynamic Database v8.9
+                                              Scandium
+
+                                              24-Jan-23
+
+Reaction No. 2454
+F-1 + Sc+3 = Sc+3_F-1
+ No        t          I-Str         Medium            Value (Dev)         W   Tech.   Ref. #
+  1        15          0.5          NaClO4           lgK:6.19(3SF)        4    MRX     140
+  2        25           0       Inf. Dilution        lgK:7.08(3SF)        4    MRX     140
+  3        25           0       Inf. Dilution        lgK:7.08(3SF)        5    CRV    22551
+  4        25          0.1         Unknown           lgK:6.22(3SF)        4    CRV     552
+  5        25          0.5          NaClO4           lgK:6.18(3SF)        4    MRX     140
+  6        25          0.5          NaClO4           lgK:6.19(3SF)        4    MRX     140
+  7        25          0.5          NaClO4           lgK:6.22(3SF)        5    MIS     309
+  8        25          0.5          NaClO4          lgK:6.2(0.05SD)       5    CMN     437
+  9        25          0.5          NaClO4           lgK:6.17(3SF)        5    MDS     5398
+ 10        25          0.5         Unknown           lgK:6.18(3SF)        5    EMU     5398
+ 11        25          0.5         Unknown           lgK:6.18(3SF)        5    CRV     6761
+ 12        35          0.5          NaClO4           lgK:6.21(3SF)        4    MRX     140
+ 13    10:40           0.5         Unknown            dH:0.0(1SF)         6    CRV     552
+ 14        25          0.5          NaClO4           dH:0.41(1.SD)        5    EVK     437
+ 15        25          0.5          NaClO4           dH:0.406(3SF)        3    MTD     437
+ 16        25          0.5          NaClO4            dH:0.6(1SF)         4    MRX     931
+
+
+Reaction No. 2655
+Sc+3_F-1 + F-1 = Sc+3_F-1(2)
+ No    t        I-Str            Medium              Value (Dev)      W       Tech.   Ref. #
+  1   15         0.5             NaClO4             lgK:5.32(3SF)     4       MRX      140
+  2   25          0           Inf. Dilution         lgK:5.80(3SF)     4       MRX      140
+  3   25          0           Inf. Dilution         lgK:5.81(3SF)     4       MRX      140
+  4   25          0           Inf. Dilution         lgK:5.81(3SF)     5       CRV     22551
+  5   25         0.5             NaClO4             lgK:5.27(3SF)     4       MRX      140
+  6   25         0.5             NaClO4             lgK:5.11(3SF)     4       MIS      309
+  7   25         0.5             NaClO4            lgK:5.2(0.05SD)    5       CMN      437
+  8   25         0.5             NaClO4             lgK:5.28(3SF)     4       MDS      437
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                 Scandium
+
+
+ 9    25    0.5          NaClO4             lgK:5.28(3SF)    4     MRX       437
+ 10   35    0.5          NaClO4             lgK:5.26(3SF)    4     MRX       140
+ 11   25    0.5          NaClO4             dH:-1.23(3SF)    4     MTD       140
+ 12   25    0.5          NaClO4              dH:-1.(1.SD)    5     EVK       437
+ 13   25    0.5          NaClO4             dH:-1.195(4SF)   3     MTD       437
+
+
+Reaction No. 2660
+Sc+3_F-1(2) + F-1 = Sc+3_F-1(3)
+ No   t    I-Str         Medium              Value (Dev)     W    Tech.     Ref. #
+ 1    15    0.5          NaClO4             lgK:4.11(3SF)    4     MRX       140
+ 2    25     0        Inf. Dilution         lgK:4.45(3SF)    4     MRX       140
+ 3    25     0        Inf. Dilution         lgK:4.48(3SF)    4     MRX       140
+ 4    25     0        Inf. Dilution         lgK:4.48(3SF)    5     CRV      22551
+ 5    25    0.5          NaClO4             lgK:4.07(3SF)    4     MRX       140
+ 6    25    0.5          NaClO4             lgK:3.90(3SF)    3     MIS       309
+ 7    25    0.5          NaClO4            lgK:4.0(0.05SD)   3     CMN       437
+ 8    25    0.5          NaClO4             lgK:4.02(3SF)    4     MDS       437
+ 9    25    0.5          NaClO4             lgK:4.08(3SF)    4     MRX       437
+ 10   35    0.5          NaClO4             lgK:4.06(3SF)    4     MRX       140
+ 11   25    0.5          NaClO4              dH:-1.(1.SD)    5     EVK       437
+ 12   25    0.5          NaClO4             dH:-1.267(4SF)   3     MTD       437
+
+
+Reaction No. 2661
+Sc+3_F-1(3) + F-1 = Sc+3_F-1(4)
+ No   t    I-Str         Medium              Value (Dev)     W    Tech.     Ref. #
+ 1    15    0.5          NaClO4             lgK:2.33(3SF)    4     MRX       140
+ 2    25     0        Inf. Dilution         lgK:3.48(3SF)    0     MRX       140
+ 3    25     0        Inf. Dilution         lgK:2.85(3SF)    4     MRX       140
+ 4    25     0        Inf. Dilution         lgK:2.85(3SF)    5     CRV      22551
+ 5    25    0.5          NaClO4             lgK:2.51(3SF)    0     MRX       140
+ 6    25    0.5          NaClO4            lgK:2.9(0.05SD)   5     CMN       437
+ 7    25    0.5          NaClO4             lgK:3.03(3SF)    3     MDS       437
+ 8    25    0.5          NaClO4             lgK:2.85(3SF)    4     MRX       437
+ 9    35    0.5          NaClO4             lgK:2.00(3SF)    0     MRX       140
+
+
+Reaction No. 3089
+2<NTA-3> + Sc+3 = Sc+3_NTA-3(2)
+
+
+
+
+                                      – Page 2 of 47 –
+JESS Thermodynamic Database v8.9                                                  Scandium
+
+
+ No   t         I-Str             Medium              Value (Dev)            W    Tech.      Ref. #
+ 1    20         0.1              KClO4              lgK:24.1(3SF)           4     MGL        1118
+ 2    25          0           Inf. Dilution          lgK:24.4(3SF)           1     ESC
+
+
+Reaction No. 3090
+NTA-3 + Sc+3 = Sc+3_NTA-3
+ No    t         I-Str        Medium             Value (Dev)             W        Tech.      Ref. #
+ 1    20          0.1          KNO3            lgK:13.91(4SF)            0         MPL        1118
+Note (1): Low wgt for internal consistency
+ 2    25          0.1         NaClO4          lgK:12.68(0.02SD)          6         MGL        188
+
+
+Reaction No. 3153
+HOEDTA-3 + Sc+3 = Sc+3_HOEDTA-3
+ No    t         I-Str          Medium            Value (Dev)        W           Tech.       Ref. #
+  1   25          0.1          Unknown           lgK:17.3(3SF)       6           CRV          552
+
+
+Reaction No. 3707
+Oxalic-2 + Sc+3 = Sc+3_Oxalic-2
+ No        t          I-Str       Medium             Value (Dev)             W     Tech.     Ref. #
+ 1    18:20            0.01           HNO3         lgK:8.3(0.1SD)            0      MSP       4435
+ 2         20          0.01           HNO3         lgK:9.4(0.05SD)           0      MSP        906
+ 3         20           0.1       NaClO4            lgK:8.12(3SF)            5      MGL       6788
+ 4         20           0.1      Unknown            lgK:8.30(3SF)            6      ENS       1539
+ 5         20            1      Na+1 salt           lgK:6.86(3SF)            3      ENS        773
+ 6         20            1        NaClO4            lgK:7.14(3SF)            3      MDS        906
+ 7         25          0.05      Unknown          lgK:8.74(0.04SD)           4      MGL        906
+ 8         25          0.05      Unknown          lgK:9.31(0.09SD)           2      MHG        906
+
+
+Reaction No. 3708
+2<Oxalic-2> + Sc+3 = Sc+3_Oxalic-2(2)
+ No   t         I-Str            Medium               Value (Dev)            W     Tech.     Ref. #
+ 1    20          1             Na+1 salt            lgK:11.3(3SF)           0      ENS        773
+ 2    20          1              NaClO4             lgK:12.69(4SF)           5      MDS        906
+ 3    25          0           Inf. Dilution          lgK:15.1(3SF)           2      EAE
+
+
+Reaction No. 3709
+3<Oxalic-2> + Sc+3 = Sc+3_Oxalic-2(3)
+
+
+
+
+                                              – Page 3 of 47 –
+JESS Thermodynamic Database v8.9                                                      Scandium
+
+
+ No   t         I-Str               Medium               Value (Dev)              W    Tech.     Ref. #
+ 1    20         0.1                 KClO4            lgK:16.28(0.05SD)           4     MDS        931
+ 2    20         0.1                Unknown            lgK:16.30(4SF)             6     ENS       1539
+ 3    20          1                Na+1 salt           lgK:14.32(4SF)             0     ENS        773
+ 4    20          1                 NaClO4             lgK:15.68(4SF)             5     MDS        906
+ 5    25          0              Inf. Dilution          lgK:17.5(3SF)             2     EAE
+
+
+Reaction No. 3710
+4<Oxalic-2> + Sc+3 = Sc+3_Oxalic-2(4)
+ No   t         I-Str                Medium              Value (Dev)          W        Tech.     Ref. #
+ 1    20          1                 Na+1 salt           lgK:16.70(4SF)        6         ENS       773
+ 2    20          1                  NaClO4             lgK:17.11(4SF)        6         MDS       999
+ 3    25          0               Inf. Dilution         lgK:16.9(3SF)         2         EAE
+
+
+Reaction No. 3819
+Malonic-2 + Sc+3 = Sc+3_Malonic-2
+ No        t              I-Str        Medium          Value (Dev)        W           Tech.      Ref. #
+ 1     18:20              0.01          HNO3         lgK:4.2(0.06SD)      0            MSP        4435
+Note (1): Low wgt for internal consistency
+ 2         25              0.1          KNO3          lgK:6.78(3SF)       4            MGL        6793
+ 3         25               1          NaClO4         lgK:5.87(3SF)       5            MGL        999
+ 4         25               1         Unknown         lgK:5.87(3SF)       2            CRV        7271
+ 5         25               1         Unknown          dH:3.4(2SF)        3            CRV        7271
+
+
+Reaction No. 3820
+2<Malonic-2> + Sc+3 = Sc+3_Malonic-2(2)
+ No    t         I-Str              Medium             Value (Dev)        W           Tech.      Ref. #
+ 1    25          0.1                KNO3            lgK:11.90(4SF)       5           MGL        6793
+ 2    25              1            Na+1 salt         lgK:10.12(4SF)       2           CRV        7271
+ 3    25              1             NaClO4           lgK:10.12(4SF)       6           MGL         999
+ 4    25              1             Unknown            dH:6.3(2SF)        2           CRV        7271
+
+
+Reaction No. 3821
+3<Malonic-2> + Sc+3 = Sc+3_Malonic-2(3)
+ No    t         I-Str              Medium             Value (Dev)        W           Tech.      Ref. #
+ 1    25              1            Na+1 salt         lgK:13.07(4SF)       2           CRV        7271
+ 2    25              1             NaClO4           lgK:13.07(4SF)       6           MGL         999
+
+
+
+
+                                                  – Page 4 of 47 –
+JESS Thermodynamic Database v8.9                                                      Scandium
+
+
+ 3    25             1         Na+1 salt              dH:7.8(2SF)         2           CRV        7271
+
+
+Reaction No. 3853
+Lactic-1 + Sc+3 = Sc+3_Lactic-1
+ No   t        I-Str              Medium                Value (Dev)           W       Tech.      Ref. #
+ 1    20        0.1               NaClO4               lgK:3.77(3SF)          0        MGL       6788
+ 2    25         0             Inf. Dilution           lgK:5.18(3SF)          5        MPT        906
+ 3    25       0.05               NaClO4               lgK:4.7(0.2SD)         4        MPT        906
+ 4    25         0             Ethanol:Water           lgK:5.89(3SF)          5        MPT        906
+                               19.8:80.2Wgt
+                               Inf. Dilution
+ 5    25       0.05            Ethanol:Water           lgK:5.3(0.1SD)         5        MPT        906
+                               19.8:80.2Wgt
+                                  NaClO4
+ 6    25         0             Ethanol:Water           lgK:6.52(3SF)          5        MPT        906
+                               40.3:59.7Wgt
+                               Inf. Dilution
+ 7    25       0.05            Ethanol:Water           lgK:5.7(0.1SD)         5        MPT        906
+                               40.3:59.7Wgt
+                                  NaClO4
+
+
+Reaction No. 4187
+EDTA-4 + Sc+3 = Sc+3_EDTA-4
+ No        t         I-Str          Medium                Value (Dev)             W    Tech.     Ref. #
+ 1    18:22          0.05            NaCl                lgK:21.84(4SF)           0     MSP       906
+ 2        20             0.1         KClO4               lgK:23.0(3SF)            3     MDS       903
+ 3        20             0.1         KNO3               lgK:23.1(0.2SD)           3     MPL       136
+ 4        20             0.1        NaClO4               lgK:24.13(4SF)           0     MRX       142
+ 5        20             0.1        NaClO4               lgK:25.05(4SF)           0     MRX       931
+Note (5): Low wgt for internal consistency
+ 6        20             0.1        NaClO4               lgK:21.00(4SF)           0     MGL       6788
+ 7        25              0      Inf. Dilution           lgK:25.5(3SF)            2     EAE
+
+
+Reaction No. 4188
+Sc+3_EDTA-4 + H+1 = Sc+3_H+1_EDTA-4
+ No   t        I-Str              Medium                Value (Dev)           W       Tech.      Ref. #
+ 1    20        0.1                KNO3                lgK:10.88(4SF)         0        MPL        140
+ 2    20        0.1               NaClO4                lgK:2.(1SF)           3        MRX        142
+ 3    20        0.1               NaClO4                lgK:2.(1SF)           7        EIU        903
+ 4    20        0.1               Unknown              lgK:3.29(3SF)          0        ENS        773
+
+
+
+
+                                                 – Page 5 of 47 –
+JESS Thermodynamic Database v8.9                                                     Scandium
+
+
+ 5    25        0            Inf. Dilution           lgK:2.21(3SF)          2          EAE
+
+
+Reaction No. 4531
+Acac-1 + Sc+3 = Sc+3_Acac-1
+ No        t         I-Str         Medium               Value (Dev)             W      Tech.     Ref. #
+ 1    18:20          0.01              HNO3            lgK:8.4(0.1SD)           4         MSP     4435
+ 2        20          0.1         Unknown              lgK:8.00(3SF)            6         ENS     1539
+ 3        25          0.1          NaClO4               lgK:8.3(2SF)            4         MDS     999
+ 4        30           0       Inf. Dilution            lgK:8.0(2SF)            4         MGL     999
+
+
+Reaction No. 4532
+2<Acac-1> + Sc+3 = Sc+3_Acac-1(2)
+ No   t        I-Str             Medium                Value (Dev)          W         Tech.     Ref. #
+ 1    20        0.1             Unknown              lgK:15.2(3SF)          4          ENS       1539
+ 2    25         0           Inf. Dilution           lgK:15.2(3SF)          1          ESC
+ 3    30         0              Unknown              lgK:15.2(3SF)          4          ENS        773
+
+
+Reaction No. 4636
+Tiron-4 + Sc+3 = Sc+3_Tiron-4
+ No    t        I-Str         Medium             Value (Dev)            W           Tech.       Ref. #
+  1    25        0.1           HClO4           lgK:18.96(4SF)           5            MGL         999
+  2    25        0.1           KNO3            lgK:18.07(4SF)           0            MGL         999
+Note (2): Low wgt for internal consistency
+  3    25        0.1          NaClO4           lgK:18.96(4SF)           5            MGL         999
+
+
+Reaction No. 4637
+Sc+3 + H+1_Tiron-4 = Sc+3_H+1_Tiron-4
+ No       t      I-Str         Medium            Value (Dev)            W           Tech.       Ref. #
+  1    25            0.1       NaClO4           lgK:8.94(3SF)           3           MGL          999
+
+
+Reaction No. 4875
+Sc+3 + 3<e-1> = Sc(s)
+ No   t        I-Str            Medium                 Value (Dev)              W      Tech.     Ref. #
+ 1    25         0           Inf. Dilution            dG:140.2(4SF)             3         CRV     6488
+ 2    25         0           Inf. Dilution           dG:586.6(4SF)kJ            5         CRV     7421
+ 3    25         0           Inf. Dilution           dG:140.200(6SF)            0         CRV     9029
+ 4    25         0           Inf. Dilution           dG:140.20(5SF)             3         CRV    10174
+
+
+
+
+                                               – Page 6 of 47 –
+JESS Thermodynamic Database v8.9                                         Scandium
+
+
+ 5    25        0       Inf. Dilution         dG:586.6(4SF)kJ       4      EFE       32152
+ 6    50        0       Inf. Dilution         dG:138.64(5SF)        3      CRV       10174
+ 7    75        0       Inf. Dilution         dG:137.03(5SF)        2      CRV       10174
+ 8    100       0       Inf. Dilution         dG:135.37(5SF)        2      CRV       10174
+ 9    125       0       Inf. Dilution         dG:133.65(5SF)        2      CRV       10174
+ 10   150       0       Inf. Dilution         dG:131.88(5SF)        3      CRV       10174
+ 11   175       0       Inf. Dilution         dG:130.04(5SF)        3      CRV       10174
+ 12   200       0       Inf. Dilution         dG:128.13(5SF)        1      CRV       10174
+ 13   225       0       Inf. Dilution         dG:126.14(5SF)        0      CRV       10174
+ 14   250       0       Inf. Dilution         dG:124.05(5SF)        0      CRV       10174
+ 15   300       0       Inf. Dilution         dG:119.54(5SF)        0      CRV       10174
+ 16   25        0       Inf. Dilution          E:-2.1(0.1SD)        0      MDG        775
+ 17   25        0       Inf. Dilution          E:-2.077(4SF)        0      CRV       6330
+ 18   25        0       Inf. Dilution          E:-2.09(3SF)         0      CRV       7761
+ 19   25        0       Inf. Dilution          E:-2.077(4SF)        0      CRV       22519
+ 20   25        0       Inf. Dilution          E:-2.03(3SF)         1      CRV       22551
+ 21   25        0       Inf. Dilution          dH:146.8(4SF)        0      CRV       6488
+ 22   25        0       Inf. Dilution         dH:640.3(4SF)kJ       0      CRV       7761
+ 23   25        0       Inf. Dilution         dH:146.800(6SF)       0      CRV       9029
+ 24   25        0       Inf. Dilution         dH:614.2(4SF)kJ       4      EFE       32152
+
+
+Reaction No. 4918
+IDA-2 + Sc+3 = Sc+3_IDA-2
+ No   t       I-Str         Medium             Value (Dev)          W     Tech.     Ref. #
+ 1    20       0.1           NaCl             lgK:10.10(4SF)        3      MGL       2261
+ 2    20       0.1          NaClO4            lgK:9.80(3SF)         3      MGL       6788
+ 3    25       0.1           KCl              lgK:9.35(3SF)         0      MGL       2261
+ 4    25        1         Na+1 salt           lgK:15.9(3SF)         0      CRV        552
+ 5    25        1           NaClO4            lgK:9.85(3SF)         4      MGL        999
+ 6    20       0.1      Water:Ethanol         lgK:11.47(4SF)        5      MGL       2261
+                          40:60Wgt
+                            NaCl
+
+
+Reaction No. 4919
+2<IDA-2> + Sc+3 = Sc+3_IDA-2(2)
+ No       t    I-Str     Medium           Value (Dev)           W       Tech.       Ref. #
+  1    25           1    NaClO4         lgK:16.06(4SF)          6       MGL          999
+
+
+
+
+                                        – Page 7 of 47 –
+JESS Thermodynamic Database v8.9                                                          Scandium
+
+
+Reaction No. 4920
+Sc+3 + H+1 + IDA-2 = Sc+3_H+1_IDA-2
+ No   t            I-Str                 Medium              Value (Dev)             W     Tech.     Ref. #
+ 1    25             0                Inf. Dilution         lgK:11.6(3SF)            1      ELC
+ 2    25             1                   NaClO4             lgK:11.59(4SF)           4      MGL        999
+ 3    25             1                   Unknown            lgK:10.6(3SF)            2      ENS        773
+
+
+Reaction No. 4921
+Sc+3 + 2<H+1> + IDA-2 = Sc+3_H+1(2)_IDA-2
+ No       t          I-Str              Medium          Value (Dev)          W           Tech.       Ref. #
+  1    25                 1             NaClO4         lgK:13.5(3SF)         4           MGL          999
+
+
+Reaction No. 5178
+Cat-2 + Sc+3 = Sc+3_Cat-2
+ No    t            I-Str             Medium            Value (Dev)              W        Tech.      Ref. #
+  1   25             0.1              NaClO4          lgK:17.0(0.03SD)           4         MGL        999
+
+
+Reaction No. 6438
+Sc+3 + H+1_Oxalic-2 = Sc+3_H+1_Oxalic-2
+ No    t            I-Str             Medium             Value (Dev)             W        Tech.      Ref. #
+ 1    25             0.05             Unknown         lgK:7.36(0.04SD)           4         MGL        906
+
+
+Reaction No. 9181
+Sc+3_NTA-3 + OH-1 = Sc+3_OH-1_NTA-3
+ No   t            I-Str                Medium               Value (Dev)             W      Tech.     Ref. #
+ 1    20            0.2                  KNO3             lgK:7.44(0.01SD)           4         MGL     1118
+ 2    25             0               Inf. Dilution           lgK:7.6(2SF)            1         ESC
+
+
+Reaction No. 10493
+Succinic-2 + Sc+3 = Sc+3_Succinic-2
+ No           t               I-Str       Medium          Value (Dev)            W        Tech.      Ref. #
+ 1        18:20               0.01         HNO3         lgK:4.5(0.04SD)          0         MSP        4435
+Note (1): Low wgt for internal consistency
+ 2            25               0.1         KNO3          lgK:5.55(3SF)           4         MGL        6793
+
+
+Reaction No. 10496
+Sc+2 + H+1_Succinic-2 = Sc+2_H+1_Succinic-2
+
+
+
+
+                                                      – Page 8 of 47 –
+JESS Thermodynamic Database v8.9                                                    Scandium
+
+
+ No    t       I-Str       Medium            Value (Dev)            W           Tech.           Ref. #
+  1    25       0.2          KCl            lgK:0.48(2SF)           6               MHY          999
+
+
+Reaction No. 10543
+Diglycol-2 + Sc+3 = Sc+3_Diglycol-2
+ No    t       I-Str       Medium            Value (Dev)            W           Tech.           Ref. #
+  1    25           1      NaClO4           lgK:8.3(0.2SD)          3               MCL          999
+
+
+Reaction No. 10544
+Sc+3_Diglycol-2 + Diglycol-2 = Sc+3_Diglycol-2(2)
+ No    t      I-Str       Medium             Value (Dev)                W           Tech.       Ref. #
+  1   25        1         NaClO4           lgK:4.49(0.02SD)             6            MGL         999
+
+
+Reaction No. 10657
+2<Tartaric-2> + Sc+3 = Sc+3_Tartaric-2(2)
+ No    t       I-Str      Medium             Value (Dev)                W       Tech.           Ref. #
+  1   20        0.1        KClO4           lgK:12.5(0.1SD)              4           MDS          999
+
+
+Reaction No. 11436
+Sc+3_Acac-1 + Acac-1 = Sc+3_Acac-1(2)
+ No   t       I-Str           Medium               Value (Dev)              W       Tech.       Ref. #
+ 1    25        0         Inf. Dilution           lgK:7.4(2SF)              1        ESC
+ 2    30        0         Inf. Dilution           lgK:7.2(2SF)              4        MGL          999
+
+
+Reaction No. 11488
+Glutaric-2 + Sc+3 = Sc+3_Glutaric-2
+ No       t     I-Str         Medium                Value (Dev)                 W     Tech.      Ref. #
+ 1    18:20     0.01           HNO3               lgK:4.0(0.2SD)                0         MSP     4435
+Note (1): Low wgt for internal consistency
+ 2     25       0.05          Unknown            lgK:4.82(0.02SD)               3         MGL     906
+ 3     25           0.1        KNO3                lgK:5.21(3SF)                4         MGL     6793
+ 4     25       0.05       Ethanol:Water          lgK:5.6(0.04SD)               4         MGL     906
+                              25:75Vol
+                              Unknown
+ 5     25       0.05       Ethanol:Water         lgK:6.24(0.02SD)               4         MGL     906
+                              40:60Vol
+                              Unknown
+ 6     25       0.05       Ethanol:Water         lgK:6.96(0.01SD)               4         MGL     906
+                              50:50Vol
+                              Unknown
+
+
+
+
+                                           – Page 9 of 47 –
+JESS Thermodynamic Database v8.9                                                   Scandium
+
+
+
+Reaction No. 11782
+Phenol-1 + Sc+3 = Sc+3_Phenol-1
+ No    t       I-Str       Medium             Value (Dev)              W       Tech.           Ref. #
+  1   25        0.1        NaClO4          lgK:7.2(0.07SD)             4           MGL          999
+
+
+Reaction No. 11808
+Sc+3 + H+1(2)_Cat-2 = Sc+3_Cat-2 + 2<H+1>
+ No   t       I-Str          Medium                Value (Dev)             W        Tech.      Ref. #
+ 1    25        0         Inf. Dilution           lgK:-5.(1SF)             1         EES
+ 2    25       0.1           Unknown             lgK:-4.39(3SF)            0         MGL         999
+
+
+Reaction No. 12564
+Sc+3 + OH-1 + NTA-3 = Sc+3_OH-1_NTA-3
+ No       t     I-Str          Medium               Value (Dev)                W     Tech.      Ref. #
+ 1    19:21         0.2       Unknown             lgK:7.44(0.01SD)             0         MGL     906
+ 2     25            0     Inf. Dilution           lgK:22.0(3SF)               1         ELC
+
+
+Reaction No. 12588
+Sc+3_Tiron-4 + H2O = Sc+3_OH-1_Tiron-4 + H+1
+ No       t    I-Str       Medium             Value (Dev)            W         Tech.           Ref. #
+  1    25       0.1         KNO3            lgK:-6.10(3SF)           6             MGL          999
+
+
+Reaction No. 12774
+HIMDA-2 + Sc+3 = Sc+3_HIMDA-2
+ No       t     I-Str       Medium            Value (Dev)          W           Tech.           Ref. #
+  1    20           0.1     NaNO3            lgK:8.65(3SF)         6               MSC          999
+
+
+Reaction No. 13321
+26PyridineDiCOO-2 + Sc+3 = Sc+3_26PyridineDiCOO-2
+ No    t       I-Str       Medium             Value (Dev)              W       Tech.           Ref. #
+  1   25        0.5        NaClO4          lgK:11.2(0.2SD)             3           MCL          999
+
+
+Reaction No. 13322
+Sc+3_26PyridineDiCOO-2 + 26PyridineDiCOO-2 = Sc+3_26PyridineDiCOO-2(2)
+ No    t       I-Str      Medium             Value (Dev)               W           Tech.       Ref. #
+  1   25        0.5       NaClO4           lgK:7.66(0.01SD)            6            MHG         999
+
+
+
+
+                                           – Page 10 of 47 –
+JESS Thermodynamic Database v8.9                                                           Scandium
+
+
+Reaction No. 13529
+Mandelic-1 + Sc+3 = Sc+3_Mandelic-1
+ No           t            I-Str          Medium           Value (Dev)            W        Tech.      Ref. #
+ 1        18:20            0.01            HNO3          lgK:5.4(0.06SD)          0         MSP        4435
+Note (1): Low wgt for internal consistency
+ 2            25               0.1         KNO3           lgK:2.91(3SF)           4         MGL        7703
+
+
+Reaction No. 14021
+Sc+3_OH-1_EDTA-4 + H+1 = Sc+3_EDTA-4 + H2O
+ No   t            I-Str                 Medium               Value (Dev)             W     Tech.     Ref. #
+ 1    20            0.1                   KNO3              lgK:10.54(4SF)            5      MPL        140
+ 2    20            0.1                  NaClO4             lgK:10.66(4SF)            4      MRX        142
+ 3    20            0.1                 Unknown             lgK:10.70(4SF)            6      ENS       1539
+ 4    25             0               Inf. Dilution           lgK:11.0(3SF)            2      EAE
+ 5    40            0.1                 Unknown             lgK:10.6(0.2SD)           3      MMR        906
+
+
+Reaction No. 14048
+Sc+3 + EDTA-4 + OH-1 = Sc+3_OH-1_EDTA-4
+ No   t            I-Str                Medium                Value (Dev)             W      Tech.     Ref. #
+ 1    20            0.1                  KClO4             lgK:27.4(0.03SD)           0         MDS     903
+ 2    25             0               Inf. Dilution          lgK:28.5(3SF)             1         ELC
+
+
+Reaction No. 14049
+Sc+3_EDTA-4 + OH-1 = Sc+3_OH-1_EDTA-4
+ No   t            I-Str                  Medium              Value (Dev)         W         Tech.     Ref. #
+ 1    20            0.1                   NaClO4              lgK:3.3(2SF)        3          MRX        931
+ 2    25             0                Inf. Dilution           lgK:4.1(2SF)        1          ELC
+ 3    25             0                Inf. Dilution          lgK:3.09(3SF)        0          EAE
+
+
+Reaction No. 14252
+Sc+3 + H+1_PAR-2 = Sc+3_H+1_PAR-2
+ No       t          I-Str              Medium           Value (Dev)          W           Tech.       Ref. #
+  1    20                0.1             KCl            lgK:6.25(3SF)         6           MSP          999
+
+
+Reaction No. 14662
+CDTA-4 + Sc+3 = Sc+3_CDTA-4
+ No   t            I-Str                 Medium               Value (Dev)             W     Tech.     Ref. #
+
+
+
+
+                                                      – Page 11 of 47 –
+JESS Thermodynamic Database v8.9                                                          Scandium
+
+
+ 1    20           0.1                  KClO4               lgK:25.4(3SF)            3      MDS        999
+ 2    20           0.1                 Unknown             lgK:26.10(4SF)            3      ENS       1539
+ 3    25            0               Inf. Dilution           lgK:25.8(3SF)            1      ESC
+
+
+Reaction No. 14663
+Sc+3 + OH-1 + CDTA-4 = Sc+3_OH-1_CDTA-4
+ No   t           I-Str                 Medium               Value (Dev)             W     Tech.     Ref. #
+ 1    20           0.1                   KClO4              lgK:28.0(3SF)            4      MDS        999
+ 2    25            0                Inf. Dilution          lgK:28.4(3SF)            1      ESC
+
+
+Reaction No. 14877
+Sc+3 + H+1_HexMDTA-4 = Sc+3_H+1_HexMDTA-4
+ No           t           I-Str           Medium          Value (Dev)            W        Tech.      Ref. #
+  1       18:22               0.1          KNO3          lgK:9.68(3SF)           6         MSP        999
+
+
+Reaction No. 16153
+Sc+3_Enterobactin-6 + H+1 = Sc+3_H+1_Enterobactin-6
+ No       t         I-Str             Medium            Value (Dev)          W           Tech.       Ref. #
+  1    25               0.1             KCl            lgK:4.67(3SF)         6           MGL         1302
+
+
+Reaction No. 16154
+Sc+3_H+1_Enterobactin-6 + H+1 = Sc+3_H+1(2)_Enterobactin-6
+ No       t         I-Str             Medium            Value (Dev)          W           Tech.       Ref. #
+  1    25               0.1             KCl            lgK:3.84(3SF)         6           MGL         1302
+
+
+Reaction No. 16155
+Sc+3_H+1(2)_Enterobactin-6 + H+1 = Sc+3_H+1(3)_Enterobactin-6
+ No       t         I-Str             Medium            Value (Dev)          W           Tech.       Ref. #
+  1    25               0.1             KCl            lgK:3.31(3SF)         6           MGL         1302
+
+
+Reaction No. 18014
+Sc+3_CDTA-4 + H2O = Sc+3_OH-1_CDTA-4 + H+1
+ No   t           I-Str                Medium                Value (Dev)             W     Tech.     Ref. #
+ 1    20           0.1                 Unknown             lgK:-11.40(4SF)           6      ENS       1539
+ 2    25            0               Inf. Dilution          lgK:-11.2(3SF)            1      ESC
+
+
+Reaction No. 18075
+Sc+3 + H+1_EDTA-4 = Sc+3_H+1_EDTA-4
+
+
+
+
+                                                     – Page 12 of 47 –
+JESS Thermodynamic Database v8.9                                                          Scandium
+
+
+ No   t            I-Str              Medium                 Value (Dev)          W        Tech.     Ref. #
+ 1    20            0.1               Unknown              lgK:14.90(4SF)         6         ENS       1539
+ 2    25             0             Inf. Dilution            lgK:16.8(3SF)         2         EAE
+
+
+Reaction No. 18107
+DTPA-5 + Sc+3 = Sc+3_DTPA-5
+ No        t             I-Str          Medium                 Value (Dev)            W     Tech.    Ref. #
+ 1    18:22                                                  lgK:26.(0.4SD)           4      MSP       906
+ 2    18:22                                                  lgK:27.(0.4SD)           4      MSP       906
+ 3        20              0.1           Unknown              lgK:24.50(4SF)           1      ENS      1539
+ 4        25               0         Inf. Dilution            lgK:29.6(3SF)           2      EAE
+ 5        25              0.1            NaCl               lgK:26.6(0.2SD)           3      MPH      31393
+ 6        27              0.1           Unknown               dH:-7.6(2SF)            3      CRV      2556
+
+
+Reaction No. 18175
+Citric-3 + Sc+3 = Sc+3_Citric-3
+ No        t             I-Str           Medium                Value (Dev)            W     Tech.    Ref. #
+ 1    18:20               0.01            HNO3                lgK:7.00(3SF)           0      MSP      4435
+ 2        20              0.1            Unknown              lgK:7.00(3SF)           3      ENS      1539
+ 3        25               0          Inf. Dilution           lgK:8.5(2SF)            1      EDH
+
+
+Reaction No. 18252
+2<26PyridineDiCOO-2> + Sc+3 = Sc+3_26PyridineDiCOO-2(2)
+ No    t            I-Str           Medium              Value (Dev)           W           Tech.      Ref. #
+  1   25             0.5            Unknown            lgK:18.90(4SF)         6           ENS        1539
+
+
+Reaction No. 18318
+Tartaric-2 + Sc+3 = Sc+3_Tartaric-2
+ No            t           I-Str       Medium              Value (Dev)            W        Tech.     Ref. #
+ 1     18:20               0.01         HNO3            lgK:6.2(0.06SD)           4         MSP       4435
+ 2         20               0.1        Unknown            lgK:6.20(3SF)           6         ENS       1539
+
+
+Reaction No. 18536
+Gly-1 + Sc+3 = Sc+3_Gly-1
+ No   t            I-Str               Medium                Value (Dev)          W        Tech.     Ref. #
+ 1    20            0.1                 NaCl                lgK:6.95(3SF)         5         MGL       1555
+ 2    20            0.1                NaClO4               lgK:7.13(3SF)         4         MGL       6788
+
+
+
+
+                                                     – Page 13 of 47 –
+JESS Thermodynamic Database v8.9                                           Scandium
+
+
+ 3    25        0         Inf. Dilution           lgK:8.08(3SF)       2      EAE
+ 4    30       0.2            NaClO4              lgK:7.75(3SF)       0      MGL       11516
+Note (4): Makhijani S et al., J. Indian Chem. Soc., 1977, 54, 670
+
+
+Reaction No. 20730
+Sc+3_CDTA-4 + OH-1 = Sc+3_OH-1_CDTA-4
+ No   t       I-Str           Medium               Value (Dev)        W    Tech.      Ref. #
+ 1    20       0.1            Unknown              lgK:2.6(2SF)       4     ENS         773
+ 2    25        0          Inf. Dilution           lgK:2.6(2SF)       1     ESC
+
+
+Reaction No. 21555
+2ThenTriFAcone-1 + Sc+3 = Sc+3_2ThenTriFAcone-1
+ No       t     I-Str       Medium            Value (Dev)         W       Tech.       Ref. #
+  1    25           0.1     HClO4            lgK:6.34(3SF)        0       MDS          999
+  2    25           0.1     NaClO4           lgK:7.1(2SF)         3       MDS          999
+
+
+Reaction No. 23025
+Sc+3_Tiron-4 + H+1 = Sc+3_H+1_Tiron-4
+ No   t       I-Str          Medium                Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution           lgK:2.6(2SF)        1      ELC
+ 2    25       0.1            KNO3               lgK:-1.92(3SF)       0      MGL        999
+
+
+Reaction No. 23543
+2<2ThenTriFAcone-1> + Sc+3 = Sc+3_2ThenTriFAcone-1(2)
+ No       t    I-Str       Medium             Value (Dev)         W       Tech.       Ref. #
+  1    25       0.1         HClO4           lgK:11.76(4SF)        6        MDS         999
+  2    25       0.1        NaClO4           lgK:11.76(4SF)        6        MDS         999
+
+
+Reaction No. 23544
+3<2ThenTriFAcone-1> + Sc+3 = Sc+3_2ThenTriFAcone-1(3)
+ No       t    I-Str       Medium             Value (Dev)         W       Tech.       Ref. #
+  1    25       0.1         HClO4           lgK:19.26(4SF)        6        MDS         999
+  2    25       0.1        NaClO4           lgK:19.26(4SF)        6        MDS         999
+
+
+Reaction No. 23717
+Sc+3_EDTA-4 + Tiron-4 = Sc+3_EDTA-4_Tiron-4
+ No       t    I-Str       Medium             Value (Dev)         W       Tech.       Ref. #
+
+
+
+
+                                           – Page 14 of 47 –
+JESS Thermodynamic Database v8.9                                               Scandium
+
+
+  1    25           0.1      KNO3          lgK:8.5(0.2SD)         3           MGL          906
+
+
+Reaction No. 23718
+Sc+3_EDTA-4 + Cat-2 = Sc+3_Cat-2_EDTA-4
+ No       t     I-Str       Medium           Value (Dev)          W           Tech.       Ref. #
+  1    25           0.1      KNO3          lgK:8.1(0.2SD)         3           MGL          906
+
+
+Reaction No. 24684
+Sc+3_SO4-2 + SO4-2 = Sc+3_SO4-2(2)
+ No   t       I-Str          Medium               Value (Dev)             W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution         lgK:1.66(3SF)             5      MCL       5398
+ 2    25        0         Inf. Dilution        lgK:1.66(0.04SD)           4      MCL       8402
+ 3    25       0.5           NaClO4             lgK:1.38(3SF)             5      MIX       11516
+Note (3): Tateda A, Bull. Chem. Soc. Jpn., 1965, 38, 165
+ 4    25       0.5           NaClO4             lgK:1.37(3SF)             5      MIX       15217
+ 5    25        0         Inf. Dilution          dH:3.96(3SF)             5      MCL       5398
+ 6    25        0         Inf. Dilution        dH:3.96(0.10SD)            4      MCL       8402
+
+
+Reaction No. 24685
+SO4-2 + Sc+3 = Sc+3_SO4-2
+ No   t       I-Str          Medium               Value (Dev)             W     Tech.     Ref. #
+ 1    20        1             HClO4             lgK:2.57(3SF)             5      MCE        931
+ 2    23       0.5           NaClO4             lgK:1.66(3SF)             0      MCE        931
+ 3    23        2            NaClO4             lgK:0.62(2SF)             0      MCE        931
+ 4    25        0         Inf. Dilution         lgK:4.20(3SF)             4      CRV        552
+ 5    25        0         Inf. Dilution         lgK:4.04(3SF)             4      MCL       5398
+ 6    25        0         Inf. Dilution        lgK:4.04(0.03SD)           4      MCL       8402
+ 7    25        0         Inf. Dilution         lgK:4.04(3SF)             5      EOD       22958
+ 8    25       0.5           NaClO4             lgK:2.59(3SF)             3      MCE        931
+ 9    25        0         Inf. Dilution           dH:7.5(2SF)             3      CRV        552
+ 10   25        0         Inf. Dilution          dH:6.31(3SF)             4      MCL       5398
+ 11   25        0         Inf. Dilution        dH:6.31(0.03SD)            4      MCL       8402
+
+
+Reaction No. 25482
+3<Carminic-1> + Sc+3 = Sc+3_Carminic-1(3)
+ No    t       I-Str          Medium             Value (Dev)          W        Tech.      Ref. #
+ 1    25        0.2        Mixed salts         lgK:16.32(4SF)         0         MPL        2261
+
+
+
+
+                                          – Page 15 of 47 –
+JESS Thermodynamic Database v8.9                                                           Scandium
+
+
+Note (1): Thermodynamically isolated
+
+
+Reaction No. 29182
+Ala-1 + Sc+3 = Sc+3_Ala-1
+ No       t         I-Str           Medium            Value (Dev)          W           Tech.           Ref. #
+  1    25            0.1             KNO3           lgK:7.7(0.2SD)         3               MGL         2392
+
+
+Reaction No. 37255
+Sc+3 + H+1_Aluminon-5 = Sc+3_H+1_Aluminon-5
+ No       t         I-Str           Medium            Value (Dev)          W           Tech.           Ref. #
+  1    25                                           lgK:4.5(0.2SD)         3               MSP          931
+
+
+Reaction No. 37470
+Benzoylacetone-1 + Sc+3 = Sc+3_Benzoylacetone-1
+ No           t            I-Str       Medium           Value (Dev)            W           Tech.       Ref. #
+ 1        18:20            0.01         HNO3          lgK:8.8(0.2SD)           4            MSP         4435
+
+
+Reaction No. 38179
+Salicylic-2 + Sc+3 = Sc+3_Salicylic-2
+ No   t           I-Str               Medium               Value (Dev)             W        Tech.      Ref. #
+ 1    20           0.1                NaClO4             lgK:14.20(4SF)            3         MGL        6788
+ 2    25            0              Inf. Dilution          lgK:15.4(3SF)            2         EAE
+ 3    23           0.25            Acetone:Water          lgK:3.23(3SF)            4         MCE        1614
+                                     50:50Vol
+                                      NaClO4
+
+
+Reaction No. 38180
+2<Salicylic-2> + Sc+3 = Sc+3_Salicylic-2(2)
+ No   t           I-Str             Medium                Value (Dev)                  W     Tech.      Ref. #
+ 1    23          0.25        Acetone:Water           lgK:5.920(0.002SD)               4         MCE     1614
+                                50:50Vol
+                                 NaClO4
+
+
+Reaction No. 38181
+3<Salicylic-2> + Sc+3 = Sc+3_Salicylic-2(3)
+ No    t           I-Str               Medium              Value (Dev)             W       Tech.       Ref. #
+ 1    23           0.25            Acetone:Water          lgK:9.(0.3SD)            4        MCE         1614
+                                      50:50Vol
+                                       NaClO4
+
+
+
+
+                                                   – Page 16 of 47 –
+JESS Thermodynamic Database v8.9                                                            Scandium
+
+
+Reaction No. 40174
+Sc+3 + H+1_Salicylic-2 = Sc+3_H+1_Salicylic-2
+ No   t            I-Str                 Medium                Value (Dev)          W        Tech.     Ref. #
+ 1    20            0.1                   NaCl                lgK:2.48(3SF)         5         MGL       2261
+ 2    25             0                Inf. Dilution            lgK:3.1(3SF)         2         EAE
+
+
+Reaction No. 40175
+Sc+3 + 2<H+1_Salicylic-2> = Sc+3_H+1(2)_Salicylic-2(2)
+ No   t            I-Str                 Medium                Value (Dev)          W        Tech.     Ref. #
+ 1    20            0.1                   NaCl                lgK:4.70(3SF)         5         MGL       2261
+ 2    25             0                Inf. Dilution           lgK:5.73(3SF)         2         EAE
+
+
+Reaction No. 40176
+Sc+3 + 3<H+1_Salicylic-2> = Sc+3_H+1(3)_Salicylic-2(3)
+ No   t            I-Str                 Medium                Value (Dev)          W        Tech.     Ref. #
+ 1    20            0.1                   NaCl                lgK:6.72(3SF)         5         MGL       2261
+ 2    25             0                Inf. Dilution           lgK:7.96(3SF)         2         EAE
+
+
+Reaction No. 40760
+Adipic-2 + Sc+3 = Sc+3_Adipic-2
+ No            t           I-Str          Medium            Value (Dev)         W           Tech.      Ref. #
+ 1     18:20                   0.01        HNO3           lgK:4.4(0.2SD)        0            MSP        4435
+Note (1): Low wgt for internal consistency
+ 2         25                  0.1         KNO3            lgK:5.25(3SF)        5            MGL        6793
+
+
+Reaction No. 41728
+SulfSal-3 + Sc+3 = Sc+3_SulfSal-3
+ No        t             I-Str             Medium                Value (Dev)            W     Tech.    Ref. #
+ 1    18:20              0.01               HCl               lgK:4.0(0.08SD)           0      MSP      4435
+ 2        20              0.1              NaClO4              lgK:11.23(4SF)           5      MGL      6788
+ 3        25               0           Inf. Dilution            lgK:11.4(3SF)           1      ESC
+
+
+Reaction No. 43581
+234TriOHPentDioic-2 + Sc+3 = Sc+3_234TriOHPentDioic-2
+ No    t            I-Str              Medium             Value (Dev)           W           Tech.      Ref. #
+  1   25             0.1              Unknown            lgK:5.4(0.1SD)         4           MPT         906
+
+
+
+
+                                                       – Page 17 of 47 –
+JESS Thermodynamic Database v8.9                                                                    Scandium
+
+
+Reaction No. 44651
+3<Oxine-1> + Sc+3 = Sc+3_Oxine-1(3)
+ No   t             I-Str                 Medium              Value (Dev)                  W        Tech.      Ref. #
+ 1    25             0.1               Dioxan:Water          lgK:30.54(4SF)                4         MGL        3082
+                                         60:40Wgt
+                                          NaClO4
+
+
+Reaction No. 44879
+Sc+3_EDTA-4 + 23DiOH6SulfNaphthoic-3 = Sc+3_23DiOH6SulfNaphthoic-3_EDTA-4
+ No       t           I-Str             Medium            Value (Dev)              W               Tech.       Ref. #
+  1    25                 0.1            KNO3           lgK:8.3(0.2SD)             4               MGL          906
+
+
+Reaction No. 45424
+Sc+3 + 3<Cl-1> = Sc+3_Cl-1(3)_(s)
+ No   t             I-Str                 Medium               Value (Dev)                 W         Tech.      Ref. #
+ 1    25              0               Inf. Dilution          lgK:-22.24(4SF)               1             ELC
+
+
+Reaction No. 45687
+Sc+3 + H+1(2)_XylenolOrange-6 = Sc+3_H+1(2)_XylenolOrange-6
+ No        t              I-Str          Medium           Value (Dev)          W               Tech.           Ref. #
+  1       23                                             lgK:6.5(2SF)          4                   MSP          906
+
+
+Reaction No. 45712
+Sc+3 + H+1(3)_MeThymolBlue-6 = Sc+3_H+1(3)_MeThymolBlue-6
+ No   t             I-Str                Medium                Value (Dev)                     W     Tech.      Ref. #
+ 1    20             0.1                 NaClO4             lgK:12.5(0.03SD)                   4         MSP     906
+ 2    25              0               Inf. Dilution          lgK:12.7(3SF)                     1         ESC
+
+
+Reaction No. 45713
+Sc+3 + H+1(2)_MeThymolBlue-6 = Sc+3_H+1(2)_MeThymolBlue-6
+ No   t             I-Str                 Medium               Value (Dev)                 W         Tech.      Ref. #
+ 1    20             0.1                  NaClO4             lgK:16.55(4SF)                4          MSP        906
+ 2    25              0                Inf. Dilution          lgK:16.8(3SF)                1          ESC
+
+
+Reaction No. 52943
+BrO3-1 + Sc+3 = Sc+3_BrO3-1
+ No            t             I-Str          Medium           Value (Dev)               W           Tech.       Ref. #
+ 1             15                 1          HClO4          lgK:0.79(2SF)              5            MDS         5398
+
+
+
+
+                                                       – Page 18 of 47 –
+JESS Thermodynamic Database v8.9                                                    Scandium
+
+
+ 2         20           1         HClO4            lgK:0.76(2SF)           5         MDS        5398
+ 3         25           1         HClO4            lgK:0.65(2SF)           5         MDS        5398
+ 4         30           1         HClO4            lgK:0.56(2SF)           5         MDS        5398
+ 5     10:40            1        Unknown            dH:-8.(1SF)            6         CRV        552
+
+
+Reaction No. 52944
+Sc+3_BrO3-1 + BrO3-1 = Sc+3_BrO3-1(2)
+ No    t        I-Str         Medium             Value (Dev)           W           Tech.       Ref. #
+  1   15          1           HClO4            lgK:-0.23(2SF)          5           MDS         5398
+  2   20          1           HClO4            lgK:-0.05(1SF)          5           MDS         5398
+  3   25          1           HClO4            lgK:0.09(1SF)           5           MDS         5398
+  4   30          1           HClO4            lgK:0.22(2SF)           5           MDS         5398
+
+
+Reaction No. 52957
+ClO3-1 + Sc+3 = Sc+3_ClO3-1
+ No         t         I-Str      Medium            Value (Dev)             W        Tech.      Ref. #
+ 1     15:30                                     lgK:-0.02(1SF)            0         MDS        5398
+ 2     15:30                                       dH:0.0(1SF)             0         MTD        5398
+
+
+Reaction No. 52958
+Sc+3_ClO3-1 + ClO3-1 = Sc+3_ClO3-1(2)
+ No    t        I-Str         Medium             Value (Dev)           W           Tech.       Ref. #
+  1   15                                       lgK:-0.80(2SF)          0           MDS          5398
+  2   20                                       lgK:-0.89(2SF)          0           MDS          5398
+  3   25                                       lgK:-1.10(3SF)          0           MDS          5398
+  4   30                                       lgK:-1.30(3SF)          0           MDS          5398
+
+
+Reaction No. 53148
+2<F-1> + Sc+3 = Sc+3_F-1(2)
+ No    t        I-Str            Medium                Value (Dev)             W     Tech.     Ref. #
+ 1     25         0           Inf. Dilution           lgK:12.9(3SF)            5      CRV       2556
+ 2     25        0.1             Unknown              lgK:11.5(3SF)            5      CRV       2556
+ 3     25        0.5             NaClO4               lgK:11.33(4SF)           5      MIS        309
+ 4     25        0.5             NaClO4               lgK:11.44(4SF)           5      MDS       5398
+ 5    0:40       0.5             Unknown               dH:-1.(1SF)             5      CRV       2556
+
+
+Reaction No. 53149
+
+
+
+
+                                              – Page 19 of 47 –
+JESS Thermodynamic Database v8.9                                                 Scandium
+
+
+3<F-1> + Sc+3 = Sc+3_F-1(3)
+ No       t     I-Str          Medium               Value (Dev)             W     Tech.     Ref. #
+ 1     25            0     Inf. Dilution           lgK:17.4(3SF)            5      CRV       2556
+ 2     25           0.1       Unknown              lgK:15.5(3SF)            4      CRV       2556
+ 3     25           0.5        NaClO4              lgK:15.23(4SF)           5      MIS        309
+ 4     25           0.5        NaClO4              lgK:15.46(4SF)           5      MDS       5398
+ 5    0:40          0.5       Unknown               dH:-2.(1SF)             5      CRV       2556
+
+
+Reaction No. 53150
+4<F-1> + Sc+3 = Sc+3_F-1(4)
+ No   t       I-Str          Medium                Value (Dev)          W         Tech.     Ref. #
+ 1    25        0         Inf. Dilution           lgK:20.3(3SF)         5          CRV       2556
+ 2    25       0.5           NaClO4              lgK:18.49(4SF)         5          MDS       5398
+
+
+Reaction No. 53365
+Sc+3 + H+1(2)_PO4-3 = Sc+3_H+1(2)_PO4-3
+ No   t       I-Str           Medium               Value (Dev)          W        Tech.      Ref. #
+ 1    25        0         Inf. Dilution           lgK:4.72(3SF)         5         MCE        5398
+ 2    25       0.6            NaClO4              lgK:3.76(3SF)         5         MCE        5398
+
+
+Reaction No. 53366
+2<Sc+3> + H+1(3)_PO4-3 = Sc+3(2)_H+1_PO4-3 + 2<H+1>
+ No   t       I-Str           Medium               Value (Dev)          W        Tech.      Ref. #
+ 1    23       0.2            NH4NO3              lgK:3.53(3SF)         4         MCE        5398
+ 2    25        0         Inf. Dilution           lgK:3.53(3SF)         2         EAE
+
+
+Reaction No. 53621
+NO3-1 + Sc+3 = Sc+3_NO3-1
+ No   t       I-Str           Medium               Value (Dev)          W        Tech.      Ref. #
+ 1    20        1             NaClO4              lgK:0.34(2SF)         3         MCE        5398
+ 2    23        2             NaClO4              lgK:0.55(2SF)         0         MCE         931
+ 3    25        0         Inf. Dilution            lgK:0.8(1SF)         4         EAC
+ 4    25        4             HClO4               lgK:0.28(2SF)         0         MCE         931
+
+
+Reaction No. 53829
+2<NO3-1> + Sc+3 = Sc+3_NO3-1(2)
+ No       t    I-Str       Medium             Value (Dev)           W           Tech.       Ref. #
+
+
+
+
+                                           – Page 20 of 47 –
+JESS Thermodynamic Database v8.9                                                 Scandium
+
+
+  1   23              2            NaClO4          lgK:0.08(1SF)         1       MCE        931
+  2   25              4            HClO4           lgK:-0.28(2SF)        2       MCE        931
+
+
+Reaction No. 54026
+2<SO4-2> + Sc+3 = Sc+3_SO4-2(2)
+ No   t         I-Str                Medium               Value (Dev)        W   Tech.      Ref. #
+ 1    23         0.5                 NaClO4              lgK:3.04(3SF)       0    MCE        931
+ 2    23          2                  NaClO4              lgK:1.50(3SF)       0    MCE        931
+ 3    25          0               Inf. Dilution           lgK:5.7(2SF)       3    CRV        2556
+ 4    25         0.5                 NaClO4              lgK:3.96(3SF)       4    MCE        931
+ 5    25          0               Inf. Dilution           dH:13.(2SF)        3    CRV        2556
+
+
+Reaction No. 54027
+3<SO4-2> + Sc+3 = Sc+3_SO4-2(3)
+ No   t         I-Str                Medium               Value (Dev)        W   Tech.      Ref. #
+ 1    23         0.5                 NaClO4               lgK:4.0(2SF)       4    MCE        931
+ 2    25          0               Inf. Dilution          lgK:5.77(3SF)       2    EAE
+
+
+Reaction No. 54028
+Sc+3 + H+1_SO4-2 = Sc+3_SO4-2 + H+1
+ No   t         I-Str                Medium               Value (Dev)        W   Tech.      Ref. #
+ 1    25          0               Inf. Dilution          lgK:2.67(3SF)       2    EAE
+ 2    20          1                   HClO4              lgR:1.49(3SF)       5    MCE        931
+
+
+Reaction No. 54103
+Sc+3 + SeO4-2 = Sc+3_SeO4-2
+ No        t              I-Str      Medium            Value (Dev)           W   Tech.      Ref. #
+ 1         25              0.5       NaClO4         lgK:1.78(0.05SD)         5    MIX        931
+ 2         35              0.5       NaClO4           lgK:1.75(3SF)          5    MCE        931
+ 3         45              0.5       NaClO4           lgK:1.68(3SF)          5    MCE        931
+ 4    25:45                0.5       NaClO4          dH:-2.3(0.05SD)         5    MIX        931
+
+
+Reaction No. 54104
+Sc+3 + 2<SeO4-2> = Sc+3_SeO4-2(2)
+ No        t              I-Str      Medium            Value (Dev)           W   Tech.      Ref. #
+ 1         25              0.5       NaClO4         lgK:2.64(0.05SD)         2    MIX        931
+ 2         35              0.5       NaClO4          lgK:3.1(0.05SD)         2    MIX        931
+
+
+
+
+                                                  – Page 21 of 47 –
+JESS Thermodynamic Database v8.9                                                          Scandium
+
+
+ 3            45               0.5       NaClO4         lgK:3.3(0.05SD)          0         MIX         931
+ 4     25:45                   0.5       NaClO4          dH:39.2(3SF)            2         MTD         931
+
+
+Reaction No. 54158
+Sc+3_Cl-1 + Cl-1 = Sc+3_Cl-1(2)
+ No       t          I-Str             Medium           Value (Dev)          W           Tech.       Ref. #
+  1    15                0.5           NaClO4         lgK:1.11(3SF)          4           MAG          140
+  2    20            0.691              HClO4         lgK:-0.15(2SF)         0           MCE          931
+Note (2): Low wgt for internal consistency
+  3    25                0.5           NaClO4         lgK:1.04(3SF)          4           MAG          140
+  4    35                0.5           NaClO4         lgK:0.91(2SF)          4           MAG          140
+
+
+Reaction No. 54159
+Cl-1 + Sc+3 = Sc+3_Cl-1
+ No   t            I-Str                Medium               Value (Dev)             W     Tech.     Ref. #
+ 1    15            0.5                 NaClO4             lgK:1.14(3SF)             0      MAG        140
+ 2    20           0.691                 HClO4            lgK:0.04(0.04SD)           0      MIX       5207
+ 3    20             1                   HClO4             lgK:-0.80(2SF)            0      MCE        931
+ 4    23             2                  NaClO4             lgK:0.14(2SF)             0      MCE        931
+ 5    23             6                   HClO4             lgK:1.45(3SF)             4      MDS        931
+ 6    25            0.5                 NaClO4             lgK:1.07(3SF)             3      MAG        140
+ 7    25             4                   HClO4             lgK:-0.12(2SF)            0      MCE        931
+ 8    35            0.5                 NaClO4             lgK:1.00(3SF)             3      MAG        140
+ 9    25             0               Inf. Dilution        dG:-9.382(4SF)kJ           1      EES
+Note (9): From DOCMN on GBL
+
+
+Reaction No. 54160
+Sc+3 + 2<Cl-1> = Sc+3_Cl-1(2)
+ No   t            I-Str                Medium               Value (Dev)             W     Tech.     Ref. #
+ 1    20           0.691                 HClO4            lgK:-0.1(0.06SD)           0      MIX       5207
+ 2    23             2                  NaClO4             lgK:0.54(2SF)             0      MCE        931
+ 3    23             6                   HClO4             lgK:0.70(2SF)             2      MDS        931
+ 4    25             0               Inf. Dilution          lgK:3.6(2SF)             1      ELC
+ 5    25             0               Inf. Dilution          lgK:3.4(2SF)             0      EOR
+ 6    25             4                   HClO4             lgK:-0.84(2SF)            3      MCE        931
+ 7    25             0               Inf. Dilution        dG:-14.71(4SF)kJ           0      EOR
+Note (7): From DOCMN on GBL
+
+
+
+
+                                                     – Page 22 of 47 –
+JESS Thermodynamic Database v8.9                                               Scandium
+
+
+
+Reaction No. 54161
+3<Cl-1> + Sc+3 = Sc+3_Cl-1(3)
+ No       t     I-Str        Medium           Value (Dev)          W       Tech.           Ref. #
+  1    20            1        HClO4         lgK:0.16(2SF)          4           MCE          931
+  2    23            6        HClO4         lgK:-0.22(2SF)         4           MDS          931
+  3    25            4        HClO4         lgK:-1.40(3SF)         4           MCE          931
+
+
+Reaction No. 54162
+4<Cl-1> + Sc+3 = Sc+3_Cl-1(4)
+ No       t     I-Str        Medium           Value (Dev)          W       Tech.           Ref. #
+  1    23            6        HClO4         lgK:-0.37(2SF)         4           MDS          931
+  2    23            10       HClO4         lgK:-1.88(3SF)         4           MAX          931
+
+
+Reaction No. 54279
+Sc+3_Br-1 + Br-1 = Sc+3_Br-1(2)
+ No   t       I-Str            Medium              Value (Dev)         W        Tech.      Ref. #
+ 1    15       0.5             NaClO4             lgK:0.54(2SF)        4         MAG         140
+ 2    20      0.691            HClO4             lgK:-0.33(2SF)        0         MCE         931
+ 3    25        0          Inf. Dilution          lgK:1.00(3SF)        4         MAG         140
+ 4    25       0.5             NaClO4             lgK:0.52(2SF)        4         MAG         140
+ 5    35       0.5             NaClO4             lgK:0.48(2SF)        4         MAG         140
+ 6    25       0.5             NaClO4             dH:-0.6(1SF)         4         MTD         140
+
+
+Reaction No. 55330
+Sc+3 + H2O = Sc+3_OH-1 + H+1
+ No   t       I-Str          Medium               Value (Dev)              W     Tech.      Ref. #
+ 1    25        0         Inf. Dilution          lgK:-4.3(2SF)             0         CRV     6478
+ 2    25        0            Unknown             lgK:-4.3(2SF)             2         EOD    31393
+ 3    25       0.1            KNO3            lgK:-4.84(0.008SD)           0         MPS     4880
+Note (3): EBP: Sc+3 + OH-1 = Sc+3_OH-1
+ 4    25        0         Inf. Dilution           dH:11.6(3SF)             1         CRV     6478
+ 5    25        0         Inf. Dilution          dH:14.4(1.4SD)            1         CRV     6478
+
+
+Reaction No. 55331
+2<Sc+3> + 2<H2O> = Sc+3(2)_OH-1(2) + 2<H+1>
+ No    t       I-Str       Medium            Value (Dev)               W       Tech.       Ref. #
+
+
+
+
+                                           – Page 23 of 47 –
+JESS Thermodynamic Database v8.9                                          Scandium
+
+
+ 1    25      0.1       KNO3           lgK:-6.096(0.004SD)        5        MPS       4880
+
+
+Reaction No. 55332
+3<Sc+3> + 5<H2O> = Sc+3(3)_OH-1(5) + 5<H+1>
+ No   t     I-Str        Medium                 Value (Dev)           W     Tech.    Ref. #
+ 1    25      0       Inf. Dilution           lgK:-16.9(3SF)          1      ELC
+ 2    25     0.1          KNO3             lgK:-17.57(0.006SD)        0      MPS      4880
+Note (2): EBP: 3<Sc+3> + 5<OH-1> = Sc+3(3)_OH-1(5)
+
+
+Reaction No. 56383
+1.5<O2(g)> + 2<Sc(s)> = Sc2O3(s)
+ No    t     I-Str         Medium                Value (Dev)          W    Tech.     Ref. #
+ 1    25          0    Inf. Dilution           lgK:318.7(4SF)         2     ENS       6422
+ 2    27          0    Inf. Dilution           lgK:316.7(4SF)         0     ENS       6422
+ 3    127         0    Inf. Dilution           lgK:233.6(4SF)         3     ENS       6422
+ 4    227         0    Inf. Dilution           lgK:183.8(4SF)         2     ENS       6422
+ 5    327         0    Inf. Dilution           lgK:150.6(4SF)         0     ENS       6422
+ 6    25          0    Inf. Dilution          dG:-434.8(0.05SD)       4     ENS       802
+ 7    25          0    Inf. Dilution          dG:-434.8(0.05SD)       5     ENS       802
+ 8    25          0    Inf. Dilution           dG:-434.8(4SF)         4     EFE       6422
+ 9    25          0    Inf. Dilution          dG:-1815.(4SF)kJ        5     CRV      30332
+Note (9): Value from LW3JTH option 2
+ 10   25          0    Inf. Dilution           dG:-434.85(5SF)        3     CRV      31291
+ 11   25          0    Inf. Dilution          dH:-456.2(0.1SD)        4     ENS       802
+ 12   25          0    Inf. Dilution          dH:-456.2(0.1SD)        5     ENS       802
+ 13   25          0    Inf. Dilution           dH:-456.2(4SF)         4     MTD       6422
+ 14   25          0    Inf. Dilution          dH:-1904.5(5SF)kJ       5     CRV      30332
+ 15   127         0    Inf. Dilution           dH:-456.1(4SF)         2     MTD       6422
+ 16   227         0    Inf. Dilution           dH:-455.8(4SF)         1     MTD       6422
+ 17   327         0    Inf. Dilution           dH:-455.5(4SF)         0     MTD       6422
+
+
+Reaction No. 56384
+Sc(s) + 1.5<O2(g)> + 1.5<H2(g)> = Sc+3_OH-1(3)_(s)
+ No   t     I-Str         Medium                Value (Dev)           W    Tech.     Ref. #
+ 1    25      0       Inf. Dilution         dG:-294.8(0.05SD)         0     ENS       802
+Note (1): Low wgt for inter-reaction consistency
+ 2    25      0       Inf. Dilution          dH:-325.9(0.1SD)         0     ENS       802
+
+
+
+
+                                        – Page 24 of 47 –
+JESS Thermodynamic Database v8.9                                          Scandium
+
+
+
+Reaction No. 56385
+Sc(s) + 1.5<F2(g)> = Sc+3_F-1(3)_(s)
+ No    t    I-Str        Medium                  Value (Dev)          W    Tech.     Ref. #
+ 1    25      0       Inf. Dilution            lgK:269.8(4SF)         4     ENS       6422
+ 2    27      0       Inf. Dilution            lgK:268.0(4SF)         4     ENS       6422
+ 3    127     0       Inf. Dilution            lgK:197.9(4SF)         4     ENS       6422
+ 4    227     0       Inf. Dilution            lgK:155.9(4SF)         4     ENS       6422
+ 5    327     0       Inf. Dilution            lgK:127.9(4SF)         4     ENS       6422
+ 6    25      0       Inf. Dilution           dG:-371.8(0.05SD)       0     ENS       802
+ 7    25      0       Inf. Dilution            dG:-386.0(4SF)         0     EFE       6422
+ 8    25      0       Inf. Dilution           dH:-389.4(0.1SD)        4     ENS       802
+ 9    25      0       Inf. Dilution           dH:-389.4(0.1SD)        5     ENS       802
+ 10   25      0       Inf. Dilution            dH:-385.2(4SF)         4     MTD       6422
+ 11   127     0       Inf. Dilution            dH:-384.9(4SF)         4     MTD       6422
+ 12   227     0       Inf. Dilution            dH:-384.5(4SF)         4     MTD       6422
+ 13   327     0       Inf. Dilution            dH:-384.1(4SF)         4     MTD       6422
+
+
+Reaction No. 56888
+1.5<Cl2(g)> + Sc(s) = Sc+3_Cl-1(3)_(s)
+ No    t    I-Str         Medium                 Value (Dev)      W        Tech.     Ref. #
+ 1    25      0       Inf. Dilution             lgK:149.4(4SF)    4         ENS       6422
+ 2    27      0       Inf. Dilution             lgK:148.4(4SF)    0         ENS       6422
+ 3    127     0       Inf. Dilution             lgK:108.2(4SF)    4         ENS       6422
+ 4    227     0       Inf. Dilution             lgK:84.10(4SF)    3         ENS       6422
+ 5    327     0       Inf. Dilution             lgK:68.07(4SF)    0         ENS       6422
+ 6    25      0       Inf. Dilution             dG:-203.8(4SF)    4         EFE       6422
+ 7    25      0       Inf. Dilution            dH:-925.1(4SF)kJ   3         CRV       6330
+ 8    25      0       Inf. Dilution             dH:-221.1(4SF)    4         MTD       6422
+ 9    127     0       Inf. Dilution             dH:-220.7(4SF)    4         MTD       6422
+ 10   227     0       Inf. Dilution             dH:-220.2(4SF)    3         MTD       6422
+ 11   327     0       Inf. Dilution             dH:-219.7(4SF)    0         MTD       6422
+
+
+Reaction No. 57201
+Sc(s) + 0.5<N2(g)> = ScN(s)
+ No    t    I-Str             Medium              Value (Dev)     W        Tech.     Ref. #
+ 1    25      0        Inf. Dilution            lgK:49.71(4SF)    4         ENS      6422
+
+
+
+
+                                         – Page 25 of 47 –
+JESS Thermodynamic Database v8.9                                                Scandium
+
+
+ 2    27             0         Inf. Dilution          lgK:49.37(4SF)       4      ENS       6422
+ 3    127            0         Inf. Dilution          lgK:35.71(4SF)       4      ENS       6422
+ 4    227            0         Inf. Dilution          lgK:27.52(4SF)       4      ENS       6422
+ 5    327            0         Inf. Dilution          lgK:22.06(4SF)       4      ENS       6422
+ 6    25             0         Inf. Dilution          dG:-67.82(4SF)       4      EFE       6422
+ 7    25             0         Inf. Dilution          dH:-75.0(3SF)        4      MTD       6422
+ 8    127            0         Inf. Dilution          dH:-75.0(3SF)        4      MTD       6422
+ 9    227            0         Inf. Dilution          dH:-74.9(3SF)        4      MTD       6422
+ 10   327            0         Inf. Dilution          dH:-74.9(3SF)        4      MTD       6422
+
+
+Reaction No. 57203
+2<Br-1> + Sc+3 = Sc+3_Br-1(2)
+ No   t        I-Str            Medium                 Value (Dev)         W      Tech.     Ref. #
+ 1    20       0.691             HClO4              lgK:-0.4(0.06SD)       3         MIX     5208
+ 2    25         0           Inf. Dilution            lgK:3.2(2SF)         1         ELC
+
+
+Reaction No. 57204
+Br-1 + Sc+3 = Sc+3_Br-1
+ No   t        I-Str            Medium                Value (Dev)          W      Tech.     Ref. #
+ 1    15        0.5             NaClO4               lgK:1.24(3SF)         4         MAG     140
+ 2    20       0.691             HClO4             lgK:-0.07(0.05SD)       0         MIX     5208
+ 3    25         0           Inf. Dilution           lgK:2.08(3SF)         4         MAG     140
+ 4    25        0.5             NaClO4               lgK:1.21(3SF)         4         MAG     140
+ 5    35        0.5             NaClO4               lgK:1.18(3SF)         4         MAG     140
+ 6    25        0.5             NaClO4                dH:-0.5(1SF)         4         MTD     140
+
+
+Reaction No. 58539
+Sc+3 + H+1_F-1 = Sc+3_F-1 + H+1
+ No        t         I-Str      Medium            Value (Dev)          W       Tech.       Ref. #
+  1       15          0.5       NaClO4           lgK:3.33(3SF)         4       MRX          140
+  2       25          0.5       NaClO4           lgK:3.28(3SF)         4       MRX          140
+  3       35          0.5       NaClO4           lgK:3.21(3SF)         4       MRX          140
+  4       25          0.5       NaClO4           dH:-2.3(2SF)          4       MTD          140
+
+
+Reaction No. 58540
+Sc+3_F-1 + H+1_F-1 = Sc+3_F-1(2) + H+1
+ No        t         I-Str      Medium            Value (Dev)          W       Tech.       Ref. #
+
+
+
+
+                                               – Page 26 of 47 –
+JESS Thermodynamic Database v8.9                                          Scandium
+
+
+  1    15           0.5     NaClO4          lgK:2.46(3SF)        4       MRX          140
+  2    25           0.5     NaClO4          lgK:2.37(3SF)        4       MRX          140
+  3    35           0.5     NaClO4          lgK:2.26(3SF)        4       MRX          140
+  4    25           0.5     NaClO4          dH:-4.1(2SF)         4       MTD          140
+
+
+Reaction No. 58541
+Sc+3_F-1(2) + H+1_F-1 = Sc+3_F-1(3) + H+1
+ No       t     I-Str       Medium           Value (Dev)         W       Tech.       Ref. #
+  1    15           0.5     NaClO4          lgK:1.23(3SF)        4       MRX          140
+  2    25           0.5     NaClO4          lgK:1.16(3SF)        4       MRX          140
+  3    35           0.5     NaClO4          lgK:1.06(3SF)        4       MRX          140
+  4    25           0.5     NaClO4          dH:-3.4(2SF)         4       MTD          140
+
+
+Reaction No. 58542
+Sc+3_F-1(3) + H+1_F-1 = Sc+3_F-1(4) + H+1
+ No       t    I-Str       Medium            Value (Dev)         W       Tech.       Ref. #
+  1    15       0.5        NaClO4          lgK:-0.15(2SF)        4        MRX         140
+  2    25       0.5        NaClO4          lgK:-0.07(1SF)        4        MRX         140
+  3    35       0.5        NaClO4          lgK:-0.30(2SF)        4        MRX         140
+
+
+Reaction No. 59569
+Asn-1 + Sc+3 = Sc+3_Asn-1
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution          lgK:7.84(3SF)       2      EAE
+ 2    30       0.2           NaClO4             lgK:7.083(4SF)       4      MGL        905
+
+
+Reaction No. 59593
+Sc+3_EDTA-4 + Asn-1 = Sc+3_Asn-1_EDTA-4
+ No   t       I-Str           Medium              Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution          lgK:3.13(3SF)       2      EAE
+ 2    30       0.2            NaClO4             lgK:3.38(3SF)       4      MGL        905
+
+
+Reaction No. 59612
+Gln-1 + Sc+3 = Sc+3_Gln-1
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution          lgK:8.17(3SF)       2      EAE
+ 2    30       0.2           NaClO4             lgK:7.405(4SF)       4      MGL        905
+
+
+
+
+                                          – Page 27 of 47 –
+JESS Thermodynamic Database v8.9                                                   Scandium
+
+
+
+Reaction No. 59631
+Sc+3_EDTA-4 + Gln-1 = Sc+3_Gln-1_EDTA-4
+ No   t        I-Str            Medium               Value (Dev)          W        Tech.      Ref. #
+ 1    25         0           Inf. Dilution          lgK:3.18(3SF)         2         EAE
+ 2    30        0.2             NaClO4              lgK:3.43(3SF)         4         MGL         905
+
+
+Reaction No. 59901
+5ATP-4 + Sc+3 = Sc+3_5ATP-4
+ No    t        I-Str         Medium             Value (Dev)          W           Tech.       Ref. #
+  1   25         0.05         Unknown          lgK:6.35(3SF)          4           MKN         1437
+
+
+Reaction No. 60375
+Sc+3 + OH-1 = Sc+3_OH-1
+ No        t         I-Str         Medium              Value (Dev)            W     Tech.     Ref. #
+ 1        20          0.1         Unknown             lgK:9.0(2SF)            6      CRV        552
+ 2        25           0       Inf. Dilution          lgK:9.7(2SF)            4      CRV       2556
+ 3        25           0       Inf. Dilution          lgK:9.3(2SF)            3      EOD       16981
+ 4        25          0.1           KNO3              lgK:8.98(3SF)           4      EBP       4880
+Note (4): Sc+3 + H2O = Sc+3_OH-1 + H+1 (13.80-4.84)
+ 5        25          0.1         Unknown             lgK:9.1(2SF)            5      CRV       2556
+ 6        25          0.5         Unknown             lgK:9.0(2SF)            5      CRV       2556
+ 7        25           1          Unknown             lgK:8.7(2SF)            5      CRV       2556
+ 8    10:40            1          Unknown               dH:2.(1SF)            5      CRV       2556
+
+
+Reaction No. 60376
+Sc+3 + 2<OH-1> = Sc+3_OH-1(2)
+ No   t        I-Str            Medium               Value (Dev)          W        Tech.      Ref. #
+ 1    25         0           Inf. Dilution          lgK:18.3(3SF)         4         CRV        2556
+ 2    25         0           Inf. Dilution          lgK:17.8(3SF)         3         EOD        16981
+ 3    25        0.1             Unknown             lgK:17.2(3SF)         5         CRV        2556
+ 4    25         1              Unknown             lgK:17.4(3SF)         5         CRV        2556
+
+
+Reaction No. 60377
+Sc+3 + 3<OH-1> = Sc+3_OH-1(3)
+ No   t        I-Str            Medium               Value (Dev)          W        Tech.      Ref. #
+ 1    20        0.1             Unknown             lgK:24.6(3SF)         5         CRV        2556
+
+
+
+
+                                             – Page 28 of 47 –
+JESS Thermodynamic Database v8.9                                                   Scandium
+
+
+ 2    25        0            Inf. Dilution          lgK:25.9(3SF)         4         CRV        2556
+ 3    25        0            Inf. Dilution          lgK:25.4(3SF)         3         EOD        16981
+
+
+Reaction No. 60378
+Sc+3 + 4<OH-1> = Sc+3_OH-1(4)
+ No   t        I-Str             Medium              Value (Dev)          W        Tech.      Ref. #
+ 1    25         0           Inf. Dilution           lgK:30.(2SF)         1         CRV        2556
+
+
+Reaction No. 60379
+2<Sc+3> + 2<OH-1> = Sc+3(2)_OH-1(2)
+ No        t         I-Str        Medium               Value (Dev)            W     Tech.      Ref. #
+ 1        25             0     Inf. Dilution          lgK:22.0(3SF)           4      CRV        2556
+ 2        25          0.1         Unknown            lgK:21.50(4SF)           5      CRV        2556
+ 3        25          0.5         Unknown            lgK:21.40(4SF)           5      CRV        2556
+ 4        25             1        Unknown            lgK:21.45(4SF)           5      CRV        2556
+ 5    10:40              1        Unknown             dH:-12.(2SF)            5      CRV        2556
+
+
+Reaction No. 60380
+3<Sc+3> + 5<OH-1> = Sc+3(3)_OH-1(5)
+ No        t         I-Str        Medium               Value (Dev)            W     Tech.      Ref. #
+ 1        25             0     Inf. Dilution          lgK:53.8(3SF)           2      CRV        2556
+ 2        25          0.1          KNO3              lgK:51.43(4SF)           4      EBP        4880
+Note (2): 3<Sc+3> + 5<H2O> = Sc+3(3)_OH-1(5) + 5<H+1> (13.80*5-17.57)
+ 3        25          0.1         Unknown             lgK:51.6(3SF)           5      CRV        2556
+ 4        25          0.5         Unknown             lgK:51.4(3SF)           5      CRV        2556
+ 5        25             1        Unknown             lgK:51.5(3SF)           5      CRV        2556
+ 6    10:40              1        Unknown             dH:-28.(2SF)            5      CRV        2556
+
+
+Reaction No. 60664
+2<Sc+3> + 3<F-1> = Sc+3(2)_F-1(3)
+ No    t        I-Str         Medium             Value (Dev)          W           Tech.       Ref. #
+  1   25         0.5          Unknown          lgK:19.0(3SF)          0           CRV         2556
+
+
+Reaction No. 62494
+Sc+3_IDA-2 + H+1 = Sc+3_H+1_IDA-2
+ No    t        I-Str           Medium            Value (Dev)         W           Tech.       Ref. #
+  1   25             1        Na+1 salt           lgK:0.8(1SF)        6            CRV         552
+
+
+
+
+                                             – Page 29 of 47 –
+JESS Thermodynamic Database v8.9                                              Scandium
+
+
+
+Reaction No. 62495
+Sc+3_H+1_IDA-2 + H+1 = Sc+3_H+1(2)_IDA-2
+ No    t     I-Str          Medium            Value (Dev)         W           Tech.      Ref. #
+  1    25         1     Na+1 salt             lgK:2.9(2SF)        6           CRV         552
+
+
+Reaction No. 65698
+SCN-1 + Sc+3 = Sc+3_SCN-1
+ No   t     I-Str           Medium               Value (Dev)          W        Tech.     Ref. #
+ 1    20     0.1            NaClO4              lgK:1.87(3SF)         5         MDS       11516
+Note (1): Sas T et al., Zhur. Neorg. Khim., 1970, 15, 1255
+ 2    20     0.5            Unknown             lgK:0.20(2SF)         0         CRV        552
+ 3    20      4             Unknown              lgK:0.8(1SF)         6         CRV        552
+ 4    25      0        Inf. Dilution             lgK:2.4(2SF)         1         EDH
+ 5    25      0        Inf. Dilution            lgK:2.37(3SF)         2         EAE
+
+
+Reaction No. 66429
+1.5<Br2(l)> + Sc(s) = Sc+3_Br-1(3)_(s)
+ No    t    I-Str           Medium               Value (Dev)              W     Tech.    Ref. #
+ 1    25      0       Inf. Dilution             lgK:125.1(4SF)            4      ENS      6422
+ 2    27      0       Inf. Dilution             lgK:124.3(4SF)            0      ENS      6422
+ 3    127     0       Inf. Dilution             lgK:90.77(4SF)            3      ENS      6422
+ 4    227     0       Inf. Dilution             lgK:70.23(4SF)            3      ENS      6422
+ 5    327     0       Inf. Dilution             lgK:56.57(4SF)            0      ENS      6422
+ 6    25      0       Inf. Dilution             dG:-170.7(4SF)            4      EFE      6422
+ 7    25      0       Inf. Dilution            dH:-743.1(4SF)kJ           3      CRV      6330
+ 8    25      0       Inf. Dilution             dH:-177.5(4SF)            3      MTD      6422
+ 9    127     0       Inf. Dilution             dH:-188.2(4SF)            2      MTD      6422
+ 10   227     0       Inf. Dilution             dH:-187.8(4SF)            3      MTD      6422
+ 11   327     0       Inf. Dilution             dH:-187.3(4SF)            0      MTD      6422
+
+
+Reaction No. 66430
+Sc(s) + As(s) + 2<O2(g)> = Sc+3_AsO4-3_(s)
+ No    t    I-Str            Medium               Value (Dev)         W         Tech.    Ref. #
+ 1    25      0        Inf. Dilution            lgK:234.1(4SF)        4          ENS      6422
+ 2    27      0        Inf. Dilution            lgK:232.5(4SF)        0          ENS      6422
+ 3    127     0        Inf. Dilution            lgK:170.2(4SF)        2          ENS      6422
+
+
+
+
+                                         – Page 30 of 47 –
+JESS Thermodynamic Database v8.9                                             Scandium
+
+
+ 4    227           0       Inf. Dilution          lgK:132.8(4SF)       1      ENS       6422
+ 5    327           0       Inf. Dilution          lgK:108.0(4SF)       0      ENS       6422
+ 6    25            0       Inf. Dilution          dG:-319.3(4SF)       4      EFE       6422
+ 7    25            0       Inf. Dilution          dH:-342.5(4SF)       4      MTD       6422
+ 8    127           0       Inf. Dilution          dH:-342.1(4SF)       1      MTD       6422
+ 9    227           0       Inf. Dilution          dH:-341.5(4SF)       0      MTD       6422
+ 10   327           0       Inf. Dilution          dH:-340.9(4SF)       0      MTD       6422
+
+
+Reaction No. 66853
+ScOOH(s) + H2O = Sc+3 + 3<OH-1>
+ No   t       I-Str            Medium               Value (Dev)         W     Tech.     Ref. #
+ 1    25        0           Inf. Dilution         lgK:-32.7(3SF)        4      ENS        773
+ 2    25        1              Unknown            lgK:-30.9(3SF)        4      ENS        773
+
+
+Reaction No. 67961
+SolochromeVR-3 + Sc+3 = Sc+3_SolochromeVR-3
+ No   t       I-Str             Medium              Value (Dev)         W     Tech.     Ref. #
+ 1    25        0           Inf. Dilution          lgK:19.0(3SF)        4      EDH       7000
+
+
+Reaction No. 68741
+Sc+3_Malonic-2 + Malonic-2 = Sc+3_Malonic-2(2)
+ No       t     I-Str         Medium           Value (Dev)          W       Tech.       Ref. #
+  1    25           0.1        KNO3           lgK:5.12(3SF)         5       MGL         6793
+  2    25               1     NaClO4          lgK:4.25(3SF)         5       MGL         10137
+
+
+Reaction No. 68742
+Maleic-2 + Sc+3 = Sc+3_Maleic-2
+ No       t     I-Str         Medium           Value (Dev)          W       Tech.       Ref. #
+  1    25           0.1        KNO3           lgK:5.98(3SF)         5       MGL         6793
+
+
+Reaction No. 68743
+Sc+3_Maleic-2 + Maleic-2 = Sc+3_Maleic-2(2)
+ No       t     I-Str         Medium           Value (Dev)          W       Tech.       Ref. #
+  1    25           0.1        KNO3           lgK:4.27(3SF)         5       MGL         6793
+
+
+Reaction No. 68744
+Itaconic-2 + Sc+3 = Sc+3_Itaconic-2
+
+
+
+
+                                            – Page 31 of 47 –
+JESS Thermodynamic Database v8.9                                         Scandium
+
+
+ No    t     I-Str      Medium             Value (Dev)          W       Tech.       Ref. #
+  1   25      0.1        KNO3             lgK:4.77(3SF)         5       MGL         6793
+
+
+Reaction No. 68745
+Sc+3_Itaconic-2 + Itaconic-2 = Sc+3_Itaconic-2(2)
+ No    t     I-Str      Medium             Value (Dev)          W       Tech.       Ref. #
+  1   25      0.1        KNO3             lgK:4.00(3SF)         5        MGL         6793
+
+
+Reaction No. 68746
+Sc+3_Glutaric-2 + Glutaric-2 = Sc+3_Glutaric-2(2)
+ No    t     I-Str      Medium             Value (Dev)          W       Tech.       Ref. #
+  1   25      0.1        KNO3             lgK:3.70(3SF)         5        MGL         6793
+
+
+Reaction No. 68747
+Sc+3_Adipic-2 + Adipic-2 = Sc+3_Adipic-2(2)
+ No    t     I-Str      Medium             Value (Dev)          W       Tech.       Ref. #
+  1   25      0.1        KNO3             lgK:3.50(3SF)         5       MGL         6793
+
+
+Reaction No. 68748
+Sc+3_Succinic-2 + Succinic-2 = Sc+3_Succinic-2(2)
+ No    t     I-Str      Medium             Value (Dev)          W       Tech.       Ref. #
+  1   25      0.1        KNO3             lgK:3.88(3SF)         5        MGL         6793
+
+
+Reaction No. 68774
+Acetic-1 + Sc+3 = Sc+3_Acetic-1
+ No    t    I-Str          Medium                Value (Dev)        W     Tech.     Ref. #
+ 1     0      0         Inf. Dilution           lgK:3.77(3SF)       3      CRV       8888
+Note (1): Low wgt for internal consistency
+ 2    20     0.1           NaClO4               lgK:3.14(3SF)       5      MGL       6788
+ 3    25      0         Inf. Dilution           lgK:3.33(3SF)       3      CRV       8888
+ 4    25     0.1           Unknown              lgK:3.48(3SF)       2      EOD       31112
+ 5    50      0         Inf. Dilution           lgK:3.10(3SF)       3      CRV       8888
+ 6    75      0         Inf. Dilution           lgK:2.99(3SF)       3      CRV       8888
+ 7    100     0         Inf. Dilution           lgK:2.97(3SF)       3      CRV       8888
+ 8    125     0         Inf. Dilution           lgK:3.02(3SF)       3      CRV       8888
+ 9    150     0         Inf. Dilution           lgK:3.12(3SF)       3      CRV       8888
+ 10   175     0         Inf. Dilution           lgK:3.27(3SF)       3      CRV       8888
+
+
+
+
+                                        – Page 32 of 47 –
+JESS Thermodynamic Database v8.9                                            Scandium
+
+
+ 11   200           0      Inf. Dilution           lgK:3.45(3SF)       3      CRV       8888
+ 12   225           0      Inf. Dilution           lgK:3.67(3SF)       3      CRV       8888
+ 13   250           0      Inf. Dilution           lgK:3.93(3SF)       3      CRV       8888
+ 14   275           0      Inf. Dilution           lgK:4.24(3SF)       3      CRV       8888
+ 15   300           0      Inf. Dilution           lgK:4.61(3SF)       3      CRV       8888
+ 16   325           0      Inf. Dilution           lgK:5.06(3SF)       3      CRV       8888
+ 17   350           0      Inf. Dilution           lgK:5.54(3SF)       3      CRV       8888
+
+
+Reaction No. 68777
+Sc+3 + H+1(-1)_Tartaric-2 + H+1 = Sc+3_Tartaric-2
+ No       t    I-Str       Medium             Value (Dev)          W       Tech.       Ref. #
+  1    25       0.1        NaClO4           lgK:17.60(4SF)         0        MGL        22560
+Note (1): Wrong NDP
+
+
+Reaction No. 68778
+Sc+3 + H+1_Tartaric-2 = Sc+3_Tartaric-2 + H+1
+ No       t     I-Str       Medium            Value (Dev)          W       Tech.       Ref. #
+  1    20           0.1     NaClO4           lgK:3.20(3SF)         4       MGL         6788
+
+
+Reaction No. 68782
+Sc+3 + H+1(-1)_Tartaric-2 = Sc+3_H+1(-1)_Tartaric-2
+ No    t       I-Str       Medium             Value (Dev)          W       Tech.       Ref. #
+  1   25        0.1        NaClO4           lgK:17.60(4SF)         0        MGL        22560
+Note (1): Wrong NDP
+
+
+Reaction No. 68783
+Sc+3 + H+1_Citric-3 = Sc+3_Citric-3 + H+1
+ No   t       I-Str           Medium               Value (Dev)         W     Tech.     Ref. #
+ 1    20       0.1            NaClO4              lgK:5.62(3SF)        0      MGL       6788
+ 2    25        0         Inf. Dilution            lgK:2.5(2SF)        1      ELC
+
+
+Reaction No. 68784
+Sc+3_Citric-3 + H2O = Sc+3_OH-1_Citric-3 + H+1
+ No   t       I-Str          Medium                Value (Dev)         W     Tech.     Ref. #
+ 1    20       0.1           NaClO4              lgK:21.62(4SF)        0      MGL       6788
+ 2    25        0         Inf. Dilution           lgK:-0.6(1SF)        1      ELC
+
+
+
+
+                                           – Page 33 of 47 –
+JESS Thermodynamic Database v8.9                                   Scandium
+
+
+Reaction No. 69164
+Sc+3 + H+1_4NitrPhenol-1 = Sc+3_H+1_4NitrPhenol-1
+ No    t     I-Str      Medium           Value (Dev)          W   Tech.       Ref. #
+  1   25      0.1        KCl           lgK:5.2(0.1SD)         5    MGL         4872
+
+
+Reaction No. 69166
+Sc+3 + H+1_2NitrPhenol-1 = Sc+3_H+1_2NitrPhenol-1
+ No    t     I-Str      Medium           Value (Dev)          W   Tech.       Ref. #
+  1   25      0.1        KCl           lgK:5.0(0.1SD)         5    MGL         4872
+
+
+Reaction No. 69168
+Sc+3 + H+1_24DiNitrphenol-1 = Sc+3_H+1_24DiNitrphenol-1
+ No    t     I-Str      Medium           Value (Dev)          W   Tech.       Ref. #
+  1   25      0.1         KCl           lgK:2.(0.3SD)         5   MGL         4872
+
+
+Reaction No. 69170
+Sc+3 + H+1_26DiNitrphenol-1 = Sc+3_H+1_26DiNitrphenol-1
+ No    t     I-Str      Medium           Value (Dev)          W   Tech.       Ref. #
+  1   25      0.1        KCl           lgK:2.6(0.1SD)         5    MGL         4872
+
+
+Reaction No. 69345
+Sc+3 + 2<XylenolOrange-6> = Sc+3_XylenolOrange-6(2)
+ No    t     I-Str      Medium           Value (Dev)          W   Tech.       Ref. #
+  1   20      0.6        KNO3           lgK:10.8(3SF)         5    MPS         7149
+  2   20      0.7        KNO3          lgK:10.84(4SF)         5    MPS         7149
+  3   20      0.8        KNO3          lgK:10.94(4SF)         5    MPS         7149
+  4   20      0.9        KNO3          lgK:11.02(4SF)         5    MPS         7149
+  5   20       1         KNO3          lgK:11.06(4SF)         5    MPS         7149
+
+
+Reaction No. 69346
+Sc+3_XylenolOrange-6(2) + Sc+3 = Sc+3(2)_XylenolOrange-6(2)
+ No    t     I-Str      Medium           Value (Dev)          W   Tech.       Ref. #
+  1   20      0.6        KNO3           lgK:3.87(3SF)         5    MPS         7149
+  2   20      0.7        KNO3           lgK:3.94(3SF)         5    MPS         7149
+  3   20      0.8        KNO3           lgK:3.98(3SF)         5    MPS         7149
+  4   20      0.9        KNO3           lgK:4.04(3SF)         5    MPS         7149
+  5   20       1         KNO3           lgK:4.09(3SF)         5    MPS         7149
+
+
+
+
+                                      – Page 34 of 47 –
+JESS Thermodynamic Database v8.9                                                Scandium
+
+
+
+Reaction No. 69642
+Sc+3 + NH3 = Sc+3_NH3
+ No   t       I-Str            Medium              Value (Dev)         W        Tech.      Ref. #
+ 1    25        0          Inf. Dilution           lgK:0.7(4SF)        1         EOR
+ 2    25        5             Unknown              lgK:0.7(1SF)        4         EES        1548
+
+
+Reaction No. 70724
+Glycolic-1 + Sc+3 = Sc+3_Glycolic-1
+ No       t     I-Str       Medium            Value (Dev)          W           Tech.       Ref. #
+  1    25           0.1      KNO3            lgK:4.40(3SF)         5           MGL         7703
+
+
+Reaction No. 70766
+2OH2MePropan-1 + Sc+3 = Sc+3_2OH2MePropan-1
+ No       t     I-Str       Medium            Value (Dev)          W           Tech.       Ref. #
+  1    25           0.1      KNO3            lgK:4.84(3SF)         5           MQH         7703
+
+
+Reaction No. 71633
+Sc+3 + 1.5<H2(g)> + 3<e-1> = ScH3(s)
+ No   t       I-Str          Medium                Value (Dev)             W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution           E:-1.75(3SF)             3      CRV       7761
+ 2    25        0         Inf. Dilution          dH:485.0(4SF)kJ           3      CRV       7761
+
+
+Reaction No. 71634
+Sc+2 + 2<e-1> = Sc(s)
+ No   t       I-Str          Medium                Value (Dev)             W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution          lgK:-63.8(3SF)            1      ELC
+ 2    25        0         Inf. Dilution            E:-2.0(2SF)             0      CRV       7761
+Note (2): Low wgt for inter-reaction consistency
+ 3    25        0         Inf. Dilution          dH:374.4(4SF)kJ           0      CRV       7761
+
+
+Reaction No. 71635
+Sc+3_OH-1 + H+1 + 3<e-1> = Sc(s) + H2O
+ No   t       I-Str          Medium                Value (Dev)             W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution          lgK:-98.4(3SF)            1      ELC
+ 2    25        0         Inf. Dilution           E:-2.01(3SF)             0      CRV       7761
+ 3    25        0         Inf. Dilution          dH:602.5(4SF)kJ           2      CRV       7761
+
+
+
+
+                                           – Page 35 of 47 –
+JESS Thermodynamic Database v8.9                                    Scandium
+
+
+Reaction No. 71636
+Sc+3(2)_OH-1(2) + 2<H+1> + 6<e-1> = 2<Sc(s)> + 2<H2O>
+ No   t    I-Str         Medium                 Value (Dev)     W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-199.3(4SF)   1     ELC
+ 2    25     0        Inf. Dilution            E:-2.03(3SF)     0     CRV      7761
+
+
+Reaction No. 71637
+Sc+3 + e-1 = Sc+2
+ No   t    I-Str         Medium                 Value (Dev)     W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution             E:-2.3(2SF)     3     CRV      7761
+ 2    25     0        Inf. Dilution           dH:267.9(4SF)kJ   3     CRV      7761
+
+
+Reaction No. 71638
+Sc+3_OH-1(4) + 3<e-1> = Sc(s) + 4<OH-1>
+ No   t    I-Str         Medium                 Value (Dev)     W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-132.7(4SF)   1     ELC
+ 2    25     0        Inf. Dilution            E:-2.68(3SF)     0     CRV      7761
+ 3    25     0        Inf. Dilution           dH:675.6(4SF)kJ   2     CRV      7761
+
+
+Reaction No. 71639
+Sc+3_OH-1(3)_(am.,s) + 3<e-1> = Sc(s) + 3<OH-1>
+ No   t    I-Str         Medium                 Value (Dev)     W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution            E:-2.69(3SF)     4     CRV      7761
+ 2    25     0        Inf. Dilution           dH:691.5(4SF)kJ   3     CRV      7761
+
+
+Reaction No. 71640
+Sc+3_OH-1(3)_(s) + 3<e-1> = Sc(s) + 3<OH-1>
+ No   t    I-Str         Medium                 Value (Dev)     W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-133.1(4SF)   1     ELC
+ 2    25     0        Inf. Dilution            E:-2.72(3SF)     0     CRV      7761
+ 3    25     0        Inf. Dilution            E:-2.60(3SF)     0     CRV      22551
+ 4    25     0        Inf. Dilution           dH:704.5(4SF)kJ   1     CRV      7761
+
+
+Reaction No. 71641
+Sc2O3(s) + 3<H2O> + 6<e-1> = 2<Sc(s)> + 6<OH-1>
+ No   t    I-Str         Medium                 Value (Dev)     W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution            E:-2.742(4SF)    5     CRV      7761
+
+
+
+
+                                      – Page 36 of 47 –
+JESS Thermodynamic Database v8.9                                          Scandium
+
+
+ 2    25        0       Inf. Dilution          dH:1387.(4SF)kJ    5         CRV       7761
+
+
+Reaction No. 71642
+ScOOH(s) + H2O + 3<e-1> = Sc(s) + 3<OH-1>
+ No   t       I-Str        Medium                Value (Dev)      W        Tech.     Ref. #
+ 1    25        0       Inf. Dilution           E:-2.76(3SF)      0         CRV       7761
+Note (1): Low wgt for inter-reaction consistency
+ 2    25        0       Inf. Dilution          dH:704.0(4SF)kJ    0         CRV       7761
+
+
+Reaction No. 72273
+ScOOH(s) + 3<H+1> = Sc+3 + 2<H2O>
+ No   t       I-Str        Medium                Value (Dev)      W        Tech.     Ref. #
+ 1    25        0       Inf. Dilution           lgK:9.3(2SF)      1         ELC
+ 2    25        0       Inf. Dilution          lgK:9.4(0.1SD)     0         CRV       6478
+ 3    25        0       Inf. Dilution          dH:-25.4(0.9SD)    2         CRV       6478
+
+
+Reaction No. 74026
+Sc+3_OH-1(3)_(s) = Sc+3 + 3<OH-1>
+ No   t       I-Str         Medium               Value (Dev)      W       Tech.      Ref. #
+ 1    25        0       Inf. Dilution          lgK:-29.4(3SF)     0        EOD       16981
+ 2    25        0       Inf. Dilution          lgK:-30.4(3SF)     5        CRV       22551
+
+
+Reaction No. 75031
+CrO4-2 + Sc+3 = Sc+3_CrO4-2
+ No       t     I-Str         Medium              Value (Dev)         W    Tech.     Ref. #
+ 1    0.01          0    Inf. Dilution          lgK:7.2654(5SF)       3     EOD      22958
+ 2     25           0    Inf. Dilution          lgK:7.7464(5SF)       3     EOD      22958
+ 3     60           0    Inf. Dilution          lgK:8.5515(5SF)       3     EOD      22958
+ 4    100           0    Inf. Dilution          lgK:9.5252(5SF)       3     EOD      22958
+ 5    150           0    Inf. Dilution         lgK:10.7850(6SF)       3     EOD      22958
+ 6    200           0    Inf. Dilution         lgK:12.1190(6SF)       3     EOD      22958
+
+
+Reaction No. 75947
+Sc+3_Oxalic-2 + Oxalic-2 = Sc+3_Oxalic-2(2)
+ No   t       I-Str         Medium               Value (Dev)      W       Tech.      Ref. #
+ 1    20        1           NaClO4              lgK:5.55(3SF)     5        MDS       11516
+Note (1): Gardhammar G et al., Acta Chem. Scand., 1971, 25, 158
+
+
+
+
+                                         – Page 37 of 47 –
+JESS Thermodynamic Database v8.9                                          Scandium
+
+
+ 2    25        0         Inf. Dilution          lgK:6.11(3SF)       2      EAE
+
+
+Reaction No. 76324
+Sc+3 + 2<Glutaric-2> = Sc+3_Glutaric-2(2)
+ No       t     I-Str       Medium           Value (Dev)         W       Tech.       Ref. #
+  1    25           0.1      KNO3           lgK:8.91(3SF)        5       MGL         6793
+
+
+Reaction No. 76335
+Sc+3 + 2<Adipic-2> = Sc+3_Adipic-2(2)
+ No       t     I-Str       Medium           Value (Dev)         W       Tech.       Ref. #
+  1    25           0.1      KNO3           lgK:8.75(3SF)        5       MGL         6793
+
+
+Reaction No. 77375
+Gluconic-1 + Sc+3 = Sc+3_Gluconic-1
+ No    t       I-Str        Medium            Value (Dev)        W       Tech.       Ref. #
+  1   25        0.1        Unknown          lgK:4.21(3SF)        4        CRV         7271
+
+
+Reaction No. 77657
+Sc+3 + 3<F-1> = Sc+3_F-1(3)_(s)
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution         lgK:19.33(4SF)       1      ELC
+
+
+Reaction No. 77978
+EDTA-4 + Sc+3 + H+1 = Sc+3_H+1_EDTA-4
+ No   t       I-Str           Medium              Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution          lgK:27.8(4SF)       1      ELC
+
+
+Reaction No. 78149
+Oxalic-2 + Sc+3 + H+1 = Sc+3_H+1_Oxalic-2
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution         lgK:12.12(4SF)       1      ELC
+
+
+Reaction No. 78241
+EDTA-4 + Cat-2 + Sc+3 = Sc+3_Cat-2_EDTA-4
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution         lgK:33.28(4SF)       1      ELC
+
+
+Reaction No. 78462
+
+
+
+
+                                          – Page 38 of 47 –
+JESS Thermodynamic Database v8.9                                        Scandium
+
+
+2<Sc+3> + PO4-3 + H+1 = Sc+3(2)_H+1_PO4-3
+ No   t    I-Str          Medium                Value (Dev)     W       Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:25.2(4SF)    1        ELC
+
+
+Reaction No. 78472
+Sc+3 + PO4-3 + 2<H+1> = Sc+3_H+1(2)_PO4-3
+ No   t    I-Str          Medium                Value (Dev)     W       Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:24.24(4SF)    1        ELC
+
+
+Reaction No. 78540
+Sc+3 + 2<BrO3-1> = Sc+3_BrO3-1(2)
+ No   t    I-Str          Medium                Value (Dev)     W       Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:2.222(4SF)    1        ELC
+
+
+Reaction No. 78622
+EDTA-4 + Asn-1 + Sc+3 = Sc+3_Asn-1_EDTA-4
+ No   t    I-Str          Medium                Value (Dev)     W       Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:28.72(4SF)    1        ELC
+
+
+Reaction No. 78925
+Sc+3 + 3<Br-1> = Sc+3_Br-1(3)_(s)
+ No   t    I-Str         Medium                 Value (Dev)         W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-32.42(4SF)       1     ELC
+
+
+Reaction No. 78926
+Sc+3 + AsO4-3 = Sc+3_AsO4-3_(s)
+ No   t    I-Str          Medium                Value (Dev)     W       Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:17.91(4SF)    1        ELC
+
+
+Reaction No. 79158
+Sc+3 + 3<OH-1> = Sc+3_OH-1(3)_(am.,s)
+ No   t    I-Str          Medium                Value (Dev)     W       Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:33.75(4SF)    1        ELC
+
+
+Reaction No. 79471
+Sc+3 + ClO4-1 = Sc+3_ClO4-1
+ No   t    I-Str              Medium            Value (Dev)     W       Tech.      Ref. #
+ 1    25     0         Inf. Dilution            lgK:-2.(1SF)    1        EES
+
+
+
+
+                                        – Page 39 of 47 –
+JESS Thermodynamic Database v8.9                                      Scandium
+
+
+
+Reaction No. 80692
+Sc+3_OH-1 + H2O = Sc+3_OH-1(2) + H+1
+ No   t    I-Str          Medium                Value (Dev)       W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:-5.4(2SF)       1     ELC
+ 2    25     0            Unknown             lgK:-9.7(2SF)       0     EOD      31393
+
+
+Reaction No. 80693
+Sc+3_OH-1(2) + H2O = Sc+3_OH-1(3) + H+1
+ No   t    I-Str          Medium                Value (Dev)       W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-6.4(2SF)       1     ELC
+ 2    25     0           Unknown             lgK:-18.1(3SF)       0     EOD       31393
+
+
+Reaction No. 80694
+Sc+3_OH-1(3) + H2O = Sc+3_OH-1(4) + H+1
+ No   t    I-Str          Medium                Value (Dev)       W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:-9.9(2SF)       1     ELC
+ 2    25     0            Unknown             lgK:-26.(2SF)       0     EOD      31393
+
+
+Reaction No. 80695
+[12]N4:Acet*4-4 + Sc+3 = Sc+3_[12]N4:Acet*4-4
+ No    t    I-Str     Medium              Value (Dev)         W       Tech.      Ref. #
+ 1    25     0.1       NaCl             lgK:29.3(0.2SD)       1        MPH       31393
+ 2    25     0.1       NaCl            lgK:30.79(0.05SD)      1        EOD       31393
+
+
+Reaction No. 80696
+Sc+3_[12]N4:Acet*4-4 + H+1 = Sc+3_H+1_[12]N4:Acet*4-4
+ No    t    I-Str      Medium             Value (Dev)         W       Tech.      Ref. #
+  1   25     0.1        NaCl           lgK:1.36(0.05SD)       2       EOD        31393
+
+
+Reaction No. 80697
+Sc+3_DTPA-5 + H+1 = Sc+3_H+1_DTPA-5
+ No    t    I-Str      Medium             Value (Dev)         W       Tech.      Ref. #
+  1   25     0.1        NaCl           lgK:1.00(0.05SD)       2       EOD        31393
+
+
+
+
+                                   Data Assessment
+
+
+
+                                       – Page 40 of 47 –
+JESS Thermodynamic Database v8.9                               Scandium
+
+
+
+Weight                       Assessment
+9        highest accuracy
+8        multi-determined; excellent dependability
+7        trustworthy; outstanding single determination
+6        better than average reliability
+5        average single determination
+4        some doubt
+3        poorly known
+2        guess to achieve consistency (or just as bad)
+1        no information but consistent
+0        problematic/inconsistent
+
+
+
+
+                                          Techniques
+
+
+Abbrev                    Method
+CMN      Several experimental values (crit.)
+CRV      Critical review
+EAC      Activity Coefficient
+EAE      Automated extrapolation
+EBP      By Proxy
+EDH      Debye-Hueckel corrections
+EES      Personal estimate
+EFE      Free Energy relations
+EIU      Critical IUPAC review (estim.)
+ELC      Linear Combination of Reactions
+EMU      Method unknown
+ENS      Not specified
+EOD      Calculated from data of others
+EOR      Other Reaction Constants
+ESC      Standard conditions anchor
+EVK      Variation of lgK with T
+MAG      Silver electrode e.m.f.
+MAX      Anion exchange
+
+
+
+
+                                           – Page 41 of 47 –
+JESS Thermodynamic Database v8.9                                   Scandium
+
+
+MCE    Cation exchange
+MCL    Calorimetry
+MDG    Combination of Thermodynamic Data
+MDS    Distribution between two phases
+MGL    Glass electrode
+MHG    Emf with amalgam electrode
+MHY    Emf with hydrogen electrode
+MIS    Ion selective electrode
+MIX    Ion exchange
+MKN    Rate of reaction
+MMR    Nuclear magnetic resonance
+MPH    pH method, not specified
+MPL    Polarography
+MPS    Potentiometry and Spectrophotometry
+MPT    Potentiometry
+MQH    Quinhydrone electrode
+MRX    Emf with redox electrode
+MSC    Miscellaneous
+MSP    Spectroscopy
+MTD    Temperature difference
+
+
+
+
+                                     References
+
+
+Reference No.: 136(55McK)
+J. Am. Chem. Soc., 1955, 77, 6149 - 6151; McNevin WM; Kriedge OH; Reactions of Divalent
+Palladium with Ethylenediaminetetraacetic Acid
+
+Reference No.: 140(64SiM)
+Stability Constants of Metal-ion Complexes SP17, 1964 Sillen LG; Martell AE; The
+Chemical Soc.,London
+
+Reference No.: 142(67BoA)
+Helv. Chim. Acta, 1967, 50, 2349 - 2356; Bottari E; Anderegg G; Complexons. XLII. Study
+of 1:1 Complexes of some Tri- and Tetravalent Metal Ions with Polyaminecarboxylates by
+Redox Measurement
+
+Reference No.: 188(67And)
+Helv. Chim. Acta, 1967, 50, 2333 - 2340; Anderegg G; Komplexone XL. Die
+Protonierungskonstanten einiger Komplexone in Verschiedenen Wasserigen Salzmedien
+(NaClO4, (CH3)4NCl, KNO3)
+
+
+
+
+                                         – Page 42 of 47 –
+JESS Thermodynamic Database v8.9                                   Scandium
+
+
+Reference No.: 309(69AzL)
+Anal. Chim. Acta, 1969, 47, 49 Aziz A; Lyle SJ; Applications of the Fluoride-Sensitive
+Electrode to the Study of Metal-Fluoride Ion Association Constants
+
+Reference No.: 437(80BoH)
+IUPAC Chemical Data Series No. 27, 1980 Bond AM; Hefter GT; Critical Survey of
+Stability Constants and Related Thermodynamic Data of Fluoride Complexes in Aqueous
+Solution; Pergamon, Oxford, U.K.
+
+Reference No.: 552(95SMM)
+NIST Critical Stability Constants of Metal Complexes Database, 1995 Smith RM; Martell
+AE; Motekaitis RJ; Version 2.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 773(85KoS)
+Handbook of Chemical Equilibria in Analytical Chemistry, 1985 Kotrly S; Sucha L; Ellis
+Horwood Series in Anal. Chem.; Eds. Chalmers RA & Masson M; Ellis Horwood, Chichester
+
+Reference No.: 775(71CCM)
+Selected Constants, 1971 Charlot G; Collumeau A; Marchon MJC; Oxidation-Reduction
+Potentials of Inorganic Substances in Aqueous Solution; Butterworths, London
+
+Reference No.: 802(90Wea)
+CRC Handbook of Chemistry and Physics, 70th Edn., 1990 Weast RC; A Ready-Reference Book
+of Chemical and Physical Data; CRC Press, Cleveland, Ohio
+
+Reference No.: 903(77And)
+Critical Survey of Stability Constants of EDTA Complexes, 1977 Anderegg G; IUPAC
+Chemical Data Series. 14; Pergamon Press, Oxford
+
+Reference No.: 905(95Ber)
+Pure Appl. Chem., 1995, 67, 1117 - 143; Berthon G; Critical Review of Formation
+Constants of Selected Amino Acids with Polar Side Chains
+
+Reference No.: 906(79Per)
+IUPAC Chemical Data Series No. 22, 1979 Perrin DD; Stability Constants of Metal-Ion
+Complexes, First Edition Part B, Organic Ligands; Pergamon, Oxford
+
+Reference No.: 931(71SiM)
+Stability Constants of Metal-ion Complexes SP25, 1971 Sillen LG; Martell AE; Supplement
+No 1 to Special Publication No 25; Chemical Society, London
+
+Reference No.: 999(91MaM)
+Estimation of Constants for JESS Database, 1991 May PM; May RF
+
+Reference No.: 1118(82And)
+Pure Appl. Chem., 1982, 54, 2693 - 2758; Anderegg G; Critical Survey of Stability
+Constants of NTA Complexes
+
+Reference No.: 1302(91LoR)
+Inorg. Chem., 1991, 30, 906 - 911; Loomis LD; Raymond KN; Solution Equilibria of
+Enterbactin and Metal-Enterbactin Complexes
+
+Reference No.: 1437(91SMC)
+Pure Appl. Chem., 1991, 63, 1015 - 1080; Smith RM; Martell AE; Chen YT; Critical
+Evaluation of Stability Constants for Nucleotide Complexes with Protons and Metal Ions
+
+
+
+
+                                      – Page 43 of 47 –
+JESS Thermodynamic Database v8.9                                   Scandium
+
+
+Reference No.: 1539(78Kra)
+Atlas of Metal-Ligand Equilibria in Aqueous Solution, 1978 Kragten J; Ellis Horwood,
+Chichester UK
+
+Reference No.: 1548(85MMN)
+Inorg. Chem., 1985, 24, 3076 - 3080; Mulla F; Marsicano F; Nakani BS; Hancock RD;
+Stability of Ammonia Complexes that are Unstable to Hydrolysis in Water
+
+Reference No.: 1555(91KSG)
+Pure Appl. Chem., 1991, 63, 597 - 638; Kiss T; Sovago I; Gergely A; Critical Survey of
+Stability Constants of Complexes of Glycine
+
+Reference No.: 1614(76ToR)
+J. Chem. Soc., Dalton Trans., 1976,, 569 - 572; Tobia SK; Rizkalla EN; Calculations of
+the Complexity Constants for Complexes Containing M+3 or M+4 Ions Co-ordinated to
+Monovalent Anions by the Cation-exchange Method: Salicylato- complexes of the Trivalent
+Lanthanides
+
+Reference No.: 2261(93PeP)
+IUPAC Stability Constants Database, 1993 Pettit LD; Powell HKJ; IUPAC (in co-operation
+with Academic Software), Otley, UK
+
+Reference No.: 2392(93SKG)
+Pure Appl. Chem., 1993, 65, 1029 - 1080; Sovago I; Kiss T; Gergely A; Critical Survey
+of the Stability Constants of Complexes of Aliphatic Amino Acids
+
+Reference No.: 2556(93MSM)
+NIST Critical Stability Constants of Metal Complexes Database, 1993 Martell AE; Smith
+RM; Motekaitis RJ; Version 1.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 3082(73StC)
+J. Inorg. Nucl. Chem., 1973, 35, 1621 - 1636; Steger HF; Corsini A; Stability of Metal
+Oxinates - I. Effect of Ligand Basicity
+
+Reference No.: 4435(66KoZ)
+Russ. J. Inorg. Chem., 1966, 11, 1491 - 1495; Korenman IM; Zaglyadimova NV; Composition
+and Instability Constants of Some Scandium Complexes
+
+Reference No.: 4872(78Kum)
+Russ. J. Inorg. Chem., 1978, 23, 985 - 988; Kumok VN; Stability of Complexes of Certain
+Triply-charged Cations with Phenolic Ligands
+
+Reference No.: 4880(83BES)
+J. Chem. Soc., Dalton Trans., 1983,, 35 - 36; Brown PL; Ellis J; Sylva RN; The
+Hydrolysis of Metal Ions. Part 6. Scandium(III)
+
+Reference No.: 5207(64RSM)
+J. Inorg. Nucl. Chem., 1964, 26, 1227 - 1231; Reed GL; Sutton KJ; Morris DFC; Stability
+Constants of Scandium(III) Chloride Complexes
+
+Reference No.: 5208(64MRS)
+J. Inorg. Nucl. Chem., 1964, 26, 1461 - 1462; Morris DFC; Reed GL; Sutton KJ; Stability
+Constants of Scandium(III) Bromide Complexes
+
+Reference No.: 5398(82Hog)
+IUPAC Chemical Data Series No. 21, 1982 Hogfeldt E; Stability Constants of Metal-ion
+Complexes, 2nd Suppl., Part A, Inorganic Ligands; Pergamon, Oxford
+
+
+
+
+                                      – Page 44 of 47 –
+JESS Thermodynamic Database v8.9                                      Scandium
+
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+Reference No.: 6422(95BaP)
+Thermochemical Data of Pure Substances, 3rd Edn., 1995 Barin I; Platzki G; Weinheim,
+Germany
+
+Reference No.: 6478(81BaM)
+Am. J. Sci., 1981, 281, 935 - 962; Baes CF Jr; Mesmer RE; The Thermodynamics of Cation
+Hydrolysis
+
+Reference No.: 6488(88ShH)
+Geochim. Cosmochim. Acta, 1988, 52, 2009 - 2036; Shock EL; Helgeson HC; Calculation of
+the Thermodynamic and Transport Properties of Aqueous Species at High Pressures and
+Temperatures: Correlation Algorithms for Ionic Species and Equation of State
+Predictions to 5 kb and 1000 C
+
+Reference No.: 6761(71Bat)
+Russ. Chem. Rev., 1971, 40, 465 - 484; Batsanova LR; Rare-earth Fluorides
+
+Reference No.: 6788(85SkA)
+Russ. J. Inorg. Chem., 1985, 30, 1130 - 1132; Skorik NA; Artish AS; The Stability of
+the Complexes of Scandium, Gallium, Indium, and Thorium with the Anions of Various
+Organic Acids
+
+Reference No.: 6793(84IIS)
+Bull. Chem. Soc. Jpn., 1984, 57, 3426 - 3429; Itoh H; Ikegami Y; Suzuki Y; Stability
+Constants of Scandium Complexes. II. Dicarboxylate Complexes Species
+
+Reference No.: 7000(69FlB)
+J. Electroanal. Chem., 1969, 21, 157 - 167; Florence TM; Belew WL; Interpretation of
+the Polarographic Behaviour of Metal-Solochrome Violet RS Complexes
+
+Reference No.: 7149(96ZYQ)
+Talanta, 1996, 43, 1863 - 1867; Zhou J; Yin H-Z; Qu X-J; Shun Y-H; Study of
+Coordination Equilibria in Systems of Coexisting Mononuclear and Polynuclear Complexes
+by a Isosbestic Point-Spectrophotometric Method
+
+Reference No.: 7271(98SMM)
+NIST Critical Stability Constants of Metal Complexes Database, 1998 Smith RM; Martell
+AE; Motekaitis RJ; Version 5.0; U.S. Dept. Commerce, Gaithersburg, MD, U.S.A.
+
+Reference No.: 7421(97Mar)
+Ion Properties, 1997 Marcus Y; Marcel Dekker Inc., New York, U.S.A.
+
+Reference No.: 7703(03PLT)
+Pure Appl. Chem., 2003, 75, 495 - 540; Portanova R; Lajunen LHJ; Tolazzi M; Piispanen
+J; Stability Constants for alpha-Hydroxycarboxylic Acid Complexes with Protons and
+Metal Ions and the Accompanying Enthalpy Changes - Part II: Aliphatic 2-
+Hydroxycarboxylic Acids
+
+Reference No.: 7761(89Bra)
+J. Phys. Chem. Ref. Data, 1989, 18, 1 - 21; Bratsch SG; Standard Electrode Potentials
+and Temperature Coefficients in Water at 298.15 K
+
+Reference No.: 8402(69IEC)
+J. Chem. Soc. (A), 1969,, 47 - 53; Izatt RM; Eatough DJ; Christensen JJ; Bartholomew
+
+
+
+
+                                      – Page 45 of 47 –
+JESS Thermodynamic Database v8.9                                   Scandium
+
+
+CH; Calorimetrically Determined Log K, deltaH, and deltaS Values for the Interaction of
+Sulphate Ion with Several Bi- and Ter-valent Metal Ions
+
+Reference No.: 8888(93ShK)
+Geochim. Cosmochim. Acta, 1993, 57, 4899 - 4922; Shock EL; Koretsky CM; Metal-organic
+Complexes in Geochemical Processes: Calculation of Standard Partial Molal Thermodynamic
+Properties of Aqueous Acetate Complexes at High Pressures and Temperatures
+
+Reference No.: 9029(97SSW)
+Geochim. Cosmochim. Acta, 1997, 61, 907 - 950; Shock EL; Sassani DC; Willis M;
+Sverjensky DA; Inorganic Species in Geologic Fluids: Correlations among Standard Molal
+Thermodynamic Properties of Aqueous Ions and Hydroxide Complexes
+
+Reference No.: 10137(69GrH)
+Acta Chem. Scand., 1969, 23, 611 - 627; Grenthe I; Hansson E; Thermodynamic Properties
+of Rare Earth Complexes. VII. Free Energy, Enthalpy, and Entropy Changes for the
+Formation of Scandium(III) Diglycolate, Dipicolinate, and Malonate Complexes at 25.00C
+
+Reference No.: 10174(95OHS)
+J. Phys. Chem. Ref. Data, 1995, 24, 1401 - 1560; Oelkers EH; Helgeson HC; Shock EL;
+Sverjensky DA; Johnson JW; Pokrovskii VA; Summary of the Apparent Standard Partial
+Molal Gibbs Free Energies of Formation of Aqueous Species, Minerals, and Gases at
+Pressures 1 to 5000 Bars and Temperatures 25 to 1000C
+
+Reference No.: 11516(00PeP)
+IUPAC Stability Constants Database, 2000 Pettit LD; Powell HKJ; Release 4; Academic
+Software, U.K.
+
+Reference No.: 15217(67KIK)
+Radiokhimiya, 1967, 9, 473 - 478; Kolosov IV; Ivanov-Emin BN; Korotaeva LG; Tetsu K;
+Study of the Complex Formation of Scandium with Selenate and Sulfate Ions
+
+Reference No.: 16981(11OrB)
+Russ. J. Inorg. Chem., 2011, 56, 975 - 980; Orlov YF; Belkina EI; Correlations between
+the Stability Constants of Metal Hydroxo Complexes and the Solubility Products of
+Crystalline Hydroxides. Series of the Polarizing Effect of Metal Cations
+
+Reference No.: 22519(05Lid)
+CRC Handbook of Chemistry and Physics, 86th Edn., 2005 Lide DR; A Ready-Reference Book
+of Chemical and Physical Data; Taylor & Francis, Boca Raton, USA
+
+Reference No.: 22551(06Inz)
+Encyclopedia of Electrochemistry, Vol. 7a, 2006, 17 - 75; Inzelt G; Standard, Formal
+and Other Characteristic Potentials of Selected Electrode Reactions
+
+Reference No.: 22560(05PeP)
+IUPAC Stability Constants Database, 2005 Pettit LD; Powell HKJ; Release 4.71; Academic
+Software, U.K.
+
+Reference No.: 22958(10AML)
+Appl. Geochem., 2010, 25, 242 - 260; Accornero M; Marini L; Lelli M; Prediction of the
+Thermodynamic Properties of Metal-chromate Aqueous Complexes to High Temperatures and
+Pressures and Implications for the Speciation of Hexavalent Chromium in Some Natural
+Waters
+
+Reference No.: 30332(17ZhJ)
+Calphad, 2017, 58, 169 - 203; Zhang Y; Jung I-H; Critical Evaluation of Thermodynamic
+Properties of Rare Earth Sesquioxides (RE = La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho,
+Er, Tm, Yb, Lu, Sc and Y)
+
+
+
+
+                                      – Page 46 of 47 –
+JESS Thermodynamic Database v8.9                                   Scandium
+
+
+Reference No.: 31112(14Mis)
+Russ. J. Inorg. Chem., 2014, 59, 824 - 830; Mishustin AI; Temperature Dependence of
+Complex Formation Constants in Aqueous Solutions of Metal Acetates
+
+Reference No.: 31291(84PSG)
+U.S. Bur. Mines Bull. 677, 1984 Pankratz LB; Stuve JM; Gokcen NA; Thermodynamic Data
+for Mineral Technology; US Det. Interior, Bur. Mines, Washington, DC, USA
+
+Reference No.: 31393(15HAS)
+RSC Adv., 2015, 5, 99606 - 99617; Huclier-Markai S; Alliot C; Sebti J; Brunel B;
+Aupiais J; A Comparative Thermodynamic Study of the Formation of Scandium Complexes
+with DTPA and DOTA
+
+Reference No.: 32152(20AAG)
+Chem. Geol., 2020, 550, 119699-1 - 119699-12; Aranovich LYa; Akinfiev NN; Golunova M;
+Quartz Solubility in Sodium Carbonate Solutions at High Pressure and Temperature
+
+
+
+
+                                      – Page 47 of 47 –
+

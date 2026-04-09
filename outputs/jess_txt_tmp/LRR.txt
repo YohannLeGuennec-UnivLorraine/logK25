@@ -1,0 +1,84 @@
+                        JESS Thermodynamic Database v8.9
+                                             Lawrencium
+
+                                                24-Jan-23
+
+Reaction No. 71085
+Lr+3 + 3<e-1> = Lr(s)
+ No      t      I-Str            Medium                Value (Dev)         W   Tech.   Ref. #
+    1   25        0         Inf. Dilution             E:-1.96(3SF)         5    CRV     6330
+    2   25        0         Inf. Dilution             E:-1.96(3SF)         3    CRV     7761
+    3   25        0         Inf. Dilution              E:-2.1(2SF)         0    CRV    22551
+    4   25        0         Inf. Dilution            dH:599.3(4SF)kJ       3    CRV     7761
+
+
+Reaction No. 71652
+Lr+3_OH-1(3)_(am.,s) + 3<e-1> = Lr(s) + 3<OH-1>
+ No      t       I-Str             Medium              Value (Dev)     W       Tech.   Ref. #
+    1   25         0            Inf. Dilution         E:-2.46(3SF)     3       CRV     7761
+
+
+Reaction No. 71653
+Lr+3_OH-1(3)_(s) + 3<e-1> = Lr(s) + 3<OH-1>
+ No      t      I-Str            Medium                Value (Dev)         W   Tech.   Ref. #
+    1   25        0         Inf. Dilution             E:-2.49(3SF)         3    CRV     7761
+    2   25        0         Inf. Dilution            dH:636.2(4SF)kJ       3    CRV     7761
+
+
+
+
+                                          Data Assessment
+
+
+Weight                          Assessment
+9            highest accuracy
+8            multi-determined; excellent dependability
+7            trustworthy; outstanding single determination
+6            better than average reliability
+5            average single determination
+4            some doubt
+3            poorly known
+2            guess to achieve consistency (or just as bad)
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                 Lawrencium
+
+
+1        no information but consistent
+0        problematic/inconsistent
+
+
+
+
+                                     Techniques
+
+
+Abbrev       Method
+CRV      Critical review
+
+
+
+
+                                     References
+
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+Reference No.: 7761(89Bra)
+J. Phys. Chem. Ref. Data, 1989, 18, 1 - 21; Bratsch SG; Standard Electrode Potentials
+and Temperature Coefficients in Water at 298.15 K
+
+Reference No.: 22551(06Inz)
+Encyclopedia of Electrochemistry, Vol. 7a, 2006, 17 - 75; Inzelt G; Standard, Formal
+and Other Characteristic Potentials of Selected Electrode Reactions
+
+
+
+
+                                         – Page 2 of 2 –
+

@@ -1,0 +1,1135 @@
+                   JESS Thermodynamic Database v8.9
+                                              Tantalum
+
+                                            24-Jan-23
+
+Reaction No. 40400
+Ta+5_OH-1(2) + Oxalic-2 = Ta+5_OH-1(2)_Oxalic-2
+ No      t       I-Str             Medium            Value (Dev)     W   Tech.   Ref. #
+  1    18:20      1.5           Self Medium         lgK:11.1(3SF)    2   MSL     30107
+Note (1): Ta+5_OH-1(2) improbable species
+  2    18:20                                        lgK:11.10(4SF)   2   MSL      931
+  3      25        0           Inf. Dilution        lgK:11.1(3SF)    1   ELC
+
+
+Reaction No. 40401
+Ta+5_OH-1(2) + 2<Oxalic-2> = Ta+5_OH-1(2)_Oxalic-2(2)
+ No      t       I-Str             Medium            Value (Dev)     W   Tech.   Ref. #
+  1    18:20                                        lgK:18.52(4SF)   2   MSL      931
+  2      25        0           Inf. Dilution        lgK:18.5(3SF)    1   ELC
+
+
+Reaction No. 40402
+Ta+5_OH-1(2)_Oxalic-2 + OH-1 = Ta+5_OH-1(3)_Oxalic-2_(s)
+ No      t       I-Str             Medium            Value (Dev)     W   Tech.   Ref. #
+  1    18:20      1.5           Self Medium         lgK:13.3(3SF)    2   MSL     30107
+Note (1): Ta+5_OH-1(2) improbable species
+  2    18:20                                        lgK:13.33(4SF)   2   MSL      931
+  3      25        0           Inf. Dilution        lgK:13.4(3SF)    1   ESC
+
+
+Reaction No. 43264
+Ta+5_OH-1(4) + Tartaric-2 = Ta+5_OH-1(4)_Tartaric-2
+ No      t       I-Str           Medium             Value (Dev)      W   Tech.   Ref. #
+  1    20:22       3             Unknown          lgK:0.72(0.04SD)   4    MDS      906
+Note (1): Ref: G.N. Shabanova, N.A. Skovik Z. obshchei Khim 1972 42 204 but this
+reference does not contain these data
+  2      25        0          Inf. Dilution         lgK:1.0(2SF)     1    EES
+
+
+Reaction No. 43265
+Ta+5_OH-1(4) + H+1(-1)_Tartaric-2 = Ta+5_H+1(-1)_OH-1(4)_Tartaric-2
+ No      t       I-Str           Medium             Value (Dev)      W   Tech.   Ref. #
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                         Tantalum
+
+
+ 1    20:22          3      Unknown           lgK:8.83(0.08SD)       4         MDS      906
+Note (1): Ref: G.N. Shabanova, N.A. Skovik, Z. obshchei Khim 1972, 42, 204 but this
+reference does not contain these data
+ 2     25            0   Inf. Dilution           lgK:9.(1SF)         1         EES
+
+
+Reaction No. 43266
+Ta+5_OH-1(4) + H+1(-2)_Tartaric-2 = Ta+5_H+1(-2)_OH-1(4)_Tartaric-2
+ No        t    I-Str         Medium             Value (Dev)         W     Tech.      Ref. #
+ 1    20:22          3        Unknown          lgK:15.3(0.2SD)       4         MDS     906
+Note (1): Ref: G.N. Shabanova, N.A. Skovik, Z. obshchei Khim 1972, 42, 204 but this
+reference does not contain these data
+ 2     25            0   Inf. Dilution          lgK:15.5(3SF)        1         EES
+
+
+Reaction No. 43704
+Ascorbic-2 + Ta+5 = Ta+5_Ascorbic-2
+ No    t       I-Str      Medium            Value (Dev)          W   Tech.           Ref. #
+  1   23         0        Unknown           lgK:9.5(2SF)         0       MSP          906
+  2   23         0        Unknown           lgK:9.5(2SF)         0       MSP         30601
+Note (2): Ta+5 unreal species
+
+
+Reaction No. 44881
+Ta+5_OH-1(2) + EDTA-4 = Ta+5_OH-1(2)_EDTA-4
+ No    t       I-Str      Medium           Value (Dev)           W   Tech.           Ref. #
+  1   20       1.08       K2SO4           lgK:33.6(3SF)          0       MPL          906
+Note (1): Error in reacting species. Ta+5_OH-1(5) in original publication
+
+
+Reaction No. 53173
+F-1 + Ta+5 = Ta+5_F-1
+ No    t       I-Str      Medium           Value (Dev)           W   Tech.           Ref. #
+  1   25         2        NaClO4          lgK:6.37(3SF)          0       MIS         5766
+Note (1): Ta+5 unreal species; Ta+5_F-1 improbable species
+
+
+Reaction No. 53174
+2<F-1> + Ta+5 = Ta+5_F-1(2)
+ No    t       I-Str     Medium            Value (Dev)           W   Tech.           Ref. #
+  1   25         2       NaClO4          lgK:11.85(4SF)          0       MIS          5766
+Note (1): Ta+5 unreal species; Ta+5_F-2 improbable species
+
+
+
+
+                                         – Page 2 of 23 –
+JESS Thermodynamic Database v8.9                                    Tantalum
+
+
+Reaction No. 53175
+3<F-1> + Ta+5 = Ta+5_F-1(3)
+ No    t     I-Str      Medium           Value (Dev)       W       Tech.       Ref. #
+  1   25       2        NaClO4         lgK:16.03(4SF)      0        MIS         5766
+Note (1): Ta+5 unreal species
+
+
+Reaction No. 53176
+4<F-1> + Ta+5 = Ta+5_F-1(4)
+ No    t     I-Str      Medium           Value (Dev)       W       Tech.       Ref. #
+  1   25       2        NaClO4         lgK:19.63(4SF)      0        MIS         5766
+Note (1): Ta+5 unreal species
+
+
+Reaction No. 53177
+5<F-1> + Ta+5 = Ta+5_F-1(5)
+ No    t     I-Str      Medium           Value (Dev)       W       Tech.       Ref. #
+  1   25       2        NaClO4         lgK:23.29(4SF)      0        MIS         5766
+Note (1): Ta+5 unreal species
+
+
+Reaction No. 53178
+7<F-1> + Ta+5 = Ta+5_F-1(7)
+ No    t     I-Str      Medium           Value (Dev)       W       Tech.       Ref. #
+  1   25       2        NaClO4         lgK:30.21(4SF)      0        MIS         5766
+Note (1): Ta+5 unreal species
+
+
+Reaction No. 53727
+Ta+5_F-1(3) + F-1 = Ta+5_F-1(4)
+
+Note: Reacting species unknown, probably hydroxylated
+ No    t     I-Str      Medium           Value (Dev)       W       Tech.       Ref. #
+  1   25       1        NaClO4          lgK:5.90(3SF)      2       MQH         5398
+  2   25       3         HClO4          lgK:5.86(3SF)      2       MDS          931
+  3   25       3         HClO4          lgK:5.86(3SF)      2       MDS         30162
+  4   25       3        NaClO4          lgK:5.86(3SF)      2       MDS          437
+
+
+Reaction No. 54409
+Ta+5_F-1(5) + F-1 = Ta+5_F-1(6)
+ No   t     I-Str         Medium            Value (Dev)        W    Tech.      Ref. #
+ 1    18    0.25              HNO3         lgK:3.16(3SF)       3     MSL        437
+
+
+
+
+                                      – Page 3 of 23 –
+JESS Thermodynamic Database v8.9                               Tantalum
+
+
+ 2    25      1         (H,Na)ClO4         lgK:3.6(2SF)    4   MAX         140
+ 3    25      1           HClO4            lgK:3.62(3SF)   4   MAX        21702
+ 4    25      1           NaClO4           lgK:3.6(2SF)    3   MDS         437
+ 5    25      1           NaClO4           lgK:3.75(3SF)   3   MQH         437
+ 6    25      1           NaClO4           lgK:3.75(3SF)   3   MQH         931
+ 7    25      1           NaClO4           lgK:3.75(3SF)   3   MQH        30109
+ 8    25      3           HClO4            lgK:4.90(3SF)   3   MDS         437
+
+
+Reaction No. 54410
+Ta+5_F-1(6) + F-1 = Ta+5_F-1(7)
+ No   t     I-Str         Medium            Value (Dev)    W   Tech.      Ref. #
+ 1    25      1         (H,Na)ClO4         lgK:3.3(2SF)    4   MAX         140
+ 2    25      1           HClO4            lgK:3.34(3SF)   4   MAX        21702
+ 3    25      1           NaClO4           lgK:3.3(2SF)    3   MAX         437
+ 4    25      1           NaClO4           lgK:3.10(3SF)   3   MQH         437
+ 5    25      1           NaClO4           lgK:3.10(3SF)   3   MQH         931
+ 6    25      1           NaClO4           lgK:3.10(3SF)   3   MQH        30109
+ 7    25      3           NaClO4           lgK:4.48(3SF)   3   MDS         437
+
+
+Reaction No. 54411
+Ta+5_F-1(7) + F-1 = Ta+5_F-1(8)
+ No   t     I-Str         Medium            Value (Dev)    W   Tech.      Ref. #
+ 1    25      1         (H,Na)ClO4         lgK:3.0(2SF)    4   MAX         140
+ 2    25      1           HClO4            lgK:2.97(3SF)   4   MAX        21702
+ 3    25      1           NaClO4           lgK:0.66(2SF)   0   MQH         931
+ 4    25      1           NaClO4           lgK:0.66(2SF)   0   MQH        30109
+
+
+Reaction No. 54484
+Ta+5_F-1(4) + F-1 = Ta+5_F-1(5)
+
+Note: Reacting species unknown, probably hydroxylated
+ No   t     I-Str         Medium            Value (Dev)    W   Tech.      Ref. #
+ 1    25      1         (H,Na)ClO4         lgK:4.8(2SF)    2   MAX         140
+ 2    25      1           HClO4            lgK:4.81(3SF)   2   MAX        21702
+ 3    25      1           NaClO4           lgK:4.8(2SF)    2   MAX         437
+ 4    25      3           HClO4            lgK:4.91(3SF)   2   MDS         437
+
+
+Reaction No. 58550
+
+
+
+
+                                      – Page 4 of 23 –
+JESS Thermodynamic Database v8.9                                      Tantalum
+
+
+Ta+5_F-1(8) + F-1 = Ta+5_F-1(9)
+ No   t     I-Str         Medium            Value (Dev)       W       Tech.      Ref. #
+ 1    25      1         (H,Na)ClO4          lgK:3.6(2SF)      3       MAX         140
+ 2    25      1           HClO4            lgK:3.57(3SF)      4       MAX        21702
+
+
+Reaction No. 66379
+Cl2(g) + 0.5<O2(g)> + Ta(s) = TaOCl2(s)
+ No   t     I-Str         Medium               Value (Dev)        W   Tech.      Ref. #
+ 1    25      0        Inf. Dilution         dG:-191.(3SF)        2    CRV       22971
+ 2    25      0        Inf. Dilution         dH:-213.(3SF)        2    CRV       22971
+
+
+Reaction No. 66380
+Ta(s) + 2<S(s)> = Ta+4_S-2(2)_(s)
+ No    t    I-Str          Medium              Value (Dev)        W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution         lgK:60.43(4SF)       4     ENS       6422
+ 2    27      0        Inf. Dilution         lgK:60.05(4SF)       0     ENS       6422
+ 3    127     0        Inf. Dilution         lgK:44.62(4SF)       4     ENS       6422
+ 4    227     0        Inf. Dilution         lgK:35.23(4SF)       4     ENS       6422
+ 5    327     0        Inf. Dilution         lgK:28.92(4SF)       0     ENS       6422
+ 6    25      0        Inf. Dilution         dG:-82.44(4SF)       4     EFE       6422
+ 7    25      0        Inf. Dilution          dH:-84.6(3SF)       4     MTD       6422
+ 8    127     0        Inf. Dilution          dH:-85.7(3SF)       4     MTD       6422
+ 9    227     0        Inf. Dilution          dH:-86.3(3SF)       4     MTD       6422
+ 10   327     0        Inf. Dilution          dH:-86.8(3SF)       0     MTD       6422
+
+
+Reaction No. 66381
+Ta(s) + O2(g) + 0.5<Cl2(g)> = TaO2Cl(s)
+ No    t    I-Str          Medium              Value (Dev)        W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution         lgK:169.7(4SF)       4     ENS       6422
+ 2    27      0        Inf. Dilution         lgK:168.5(4SF)       0     ENS       6422
+ 3    127     0        Inf. Dilution         lgK:123.0(4SF)       4     ENS       6422
+ 4    227     0        Inf. Dilution         lgK:95.82(4SF)       2     ENS       6422
+ 5    327     0        Inf. Dilution         lgK:77.71(4SF)       0     ENS       6422
+ 6    25      0        Inf. Dilution         dG:-231.5(4SF)       4     EFE       6422
+ 7    25      0        Inf. Dilution         dH:-250.0(4SF)       4     MTD       6422
+ 8    127     0        Inf. Dilution         dH:-249.4(4SF)       3     MTD       6422
+ 9    227     0        Inf. Dilution         dH:-248.8(4SF)       2     MTD       6422
+
+
+
+
+                                       – Page 5 of 23 –
+JESS Thermodynamic Database v8.9                                    Tantalum
+
+
+ 10   327     0        Inf. Dilution           dH:-248.2(4SF)   0     MTD      6422
+
+
+Reaction No. 66382
+Ta(s) + 0.5<O2(g)> + 1.5<Cl2(g)> = TaOCl3(s)
+ No    t    I-Str          Medium               Value (Dev)     W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution           lgK:140.6(4SF)   4     ENS      6422
+ 2    27      0        Inf. Dilution           lgK:139.6(4SF)   0     ENS      6422
+ 3    127     0        Inf. Dilution           lgK:100.9(4SF)   2     ENS      6422
+ 4    227     0        Inf. Dilution           lgK:77.67(4SF)   1     ENS      6422
+ 5    327     0        Inf. Dilution           lgK:62.27(4SF)   0     ENS      6422
+ 6    25      0        Inf. Dilution           dG:-191.8(4SF)   4     EFE      6422
+ 7    25      0        Inf. Dilution           dH:-213.3(4SF)   2     MTD      6422
+ 8    127     0        Inf. Dilution           dH:-212.6(4SF)   2     MTD      6422
+ 9    227     0        Inf. Dilution           dH:-211.8(4SF)   0     MTD      6422
+ 10   327     0        Inf. Dilution           dH:-211.0(4SF)   0     MTD      6422
+
+
+Reaction No. 66383
+2.5<O2(g)> + 2<Ta(s)> = Ta2O5(s)
+ No    t    I-Str         Medium                Value (Dev)     W    Tech.     Ref. #
+ 1    25      0       Inf. Dilution            lgK:334.8(4SF)   2     ENS       6422
+ 2    27      0       Inf. Dilution            lgK:332.6(4SF)   0     ENS       6422
+ 3    127     0       Inf. Dilution            lgK:243.6(4SF)   2     ENS       6422
+ 4    227     0       Inf. Dilution            lgK:190.2(4SF)   2     ENS       6422
+ 5    327     0       Inf. Dilution            lgK:154.7(4SF)   0     ENS       6422
+ 6    25      0       Inf. Dilution            dG:-456.7(4SF)   1     EFE       6422
+ 7    25      0       Inf. Dilution            dG:-457.0(4SF)   4     CRV      22971
+ 8    25      0       Inf. Dilution            dG:-460.2(4SF)   2     CRV      28287
+ 9    25      0       Inf. Dilution         dG:-456.5(0.6SD)    4     EFE      30139
+ 10   25      0       Inf. Dilution            dH:-489.0(4SF)   2     MTD       6422
+ 11   25      0       Inf. Dilution            dH:-489.2(4SF)   4     CRV      22971
+ 12   25      0       Inf. Dilution         dH:-488.8(0.5SD)    4     MCL      30139
+ 13   127     0       Inf. Dilution            dH:-488.6(4SF)   1     MTD       6422
+ 14   227     0       Inf. Dilution            dH:-488.1(4SF)   0     MTD       6422
+ 15   327     0       Inf. Dilution            dH:-487.4(4SF)   0     MTD       6422
+
+
+Reaction No. 66384
+Ta(s) + 2.5<I2(s)> = Ta+5_I-1(5)_(s)
+
+
+
+
+                                       – Page 6 of 23 –
+JESS Thermodynamic Database v8.9                                                Tantalum
+
+
+ No    t        I-Str            Medium                Value (Dev)      W        Tech.     Ref. #
+ 1    25             0       Inf. Dilution           lgK:51.90(4SF)     4         ENS       6422
+ 2    27             0       Inf. Dilution           lgK:51.58(4SF)     0         ENS       6422
+ 3    127            0       Inf. Dilution           lgK:38.64(4SF)     4         ENS       6422
+ 4    227            0       Inf. Dilution           lgK:28.86(4SF)     4         ENS       6422
+ 5    327            0       Inf. Dilution           lgK:21.25(4SF)     0         ENS       6422
+ 6    25             0       Inf. Dilution            dG:-70.8(3SF)     4         EFE       6422
+ 7    25             0       Inf. Dilution            dH:-70.0(3SF)     2         MTD       6422
+ 8    127            0       Inf. Dilution            dH:-79.7(3SF)     1         MTD       6422
+ 9    227            0       Inf. Dilution           dH:-105.1(4SF)     1         MTD       6422
+ 10   327            0       Inf. Dilution           dH:-103.7(4SF)     0         MTD       6422
+
+
+Reaction No. 66385
+Ta(s) + 2.5<F2(g)> = Ta+5_F-1(5)_(s)
+ No   t        I-Str            Medium                Value (Dev)       W       Tech.      Ref. #
+ 1    25         0           Inf. Dilution           lgK:313.8(4SF)     4        ENS       6422
+ 2    27         0           Inf. Dilution           lgK:311.7(4SF)     0        ENS       6422
+ 3    95         0           Inf. Dilution           lgK:250.5(4SF)     4        ENS       6422
+ 4    25         0           Inf. Dilution           dG:-428.0(4SF)     4        EFE       6422
+ 5    25         0           Inf. Dilution           dG:-428.(3SF)      4        CRV       22971
+ 6    25         0           Inf. Dilution           dH:-454.9(4SF)     4        MTD       6422
+ 7    25         0           Inf. Dilution           dH:-455.0(4SF)     4        CRV       22971
+ 8    95         0           Inf. Dilution           dH:-454.0(4SF)     4        MTD       6422
+
+
+Reaction No. 66386
+Ta(s) + 2.5<Cl2(g)> = Ta+5_Cl-1(5)_(s)
+ No        t         I-Str         Medium               Value (Dev)         W    Tech.     Ref. #
+ 1        25             0     Inf. Dilution           lgK:130.8(4SF)       4     ENS       6422
+ 2        27             0     Inf. Dilution           lgK:129.8(4SF)       0     ENS       6422
+ 3     127               0     Inf. Dilution           lgK:92.52(4SF)       2     ENS       6422
+ 4    216.7              0     Inf. Dilution           lgK:72.10(4SF)       1     ENS       6422
+ 5        25             0     Inf. Dilution           dG:-178.4(4SF)       4     EFE       6422
+ 6        25             0     Inf. Dilution           dG:-179.(3SF)        4     CRV      22971
+ 7        25             0     Inf. Dilution           dH:-205.3(4SF)       2     MTD       6422
+ 8        25             0     Inf. Dilution           dH:-205.5(4SF)       4     CRV      22971
+ 9     127               0     Inf. Dilution           dH:-204.4(4SF)       1     MTD       6422
+
+
+
+
+                                               – Page 7 of 23 –
+JESS Thermodynamic Database v8.9                                      Tantalum
+
+
+ 10   216.7         0    Inf. Dilution           dH:-203.7(4SF)   0     MTD       6422
+
+
+Reaction No. 66387
+Ta(s) + 2<Cl2(g)> = Ta+4_Cl-1(4)_(s)
+ No    t      I-Str        Medium                Value (Dev)      W    Tech.     Ref. #
+ 1    25        0       Inf. Dilution          lgK:107.5(4SF)     4     ENS      6422
+ 2    27        0       Inf. Dilution          lgK:106.8(4SF)     0     ENS      6422
+ 3    127       0       Inf. Dilution          lgK:76.27(4SF)     2     ENS      6422
+ 4    227       0       Inf. Dilution          lgK:58.05(4SF)     1     ENS      6422
+ 5    327       0       Inf. Dilution          lgK:45.96(4SF)     0     ENS      6422
+ 6    25        0       Inf. Dilution          dG:-146.7(4SF)     4     EFE      6422
+ 7    25        0       Inf. Dilution          dH:-167.7(4SF)     2     MTD      6422
+ 8    127       0       Inf. Dilution          dH:-167.0(4SF)     1     MTD      6422
+ 9    227       0       Inf. Dilution          dH:-166.3(4SF)     0     MTD      6422
+ 10   327       0       Inf. Dilution          dH:-165.6(4SF)     0     MTD      6422
+
+
+Reaction No. 66388
+Ta(s) + 1.5<Cl2(g)> = Ta+3_Cl-1(3)_(s)
+ No    t      I-Str        Medium                Value (Dev)      W    Tech.     Ref. #
+ 1    25        0       Inf. Dilution          lgK:84.10(4SF)     4     ENS      6422
+ 2    27        0       Inf. Dilution          lgK:83.51(4SF)     0     ENS      6422
+ 3    127       0       Inf. Dilution          lgK:59.77(4SF)     2     ENS      6422
+ 4    227       0       Inf. Dilution          lgK:45.59(4SF)     1     ENS      6422
+ 5    327       0       Inf. Dilution          lgK:36.17(4SF)     0     ENS      6422
+ 6    25        0       Inf. Dilution          dG:-114.7(4SF)     4     EFE      6422
+ 7    25        0       Inf. Dilution          dH:-130.5(4SF)     2     MTD      6422
+ 8    127       0       Inf. Dilution          dH:-130.1(4SF)     1     MTD      6422
+ 9    227       0       Inf. Dilution          dH:-129.6(4SF)     0     MTD      6422
+ 10   327       0       Inf. Dilution          dH:-129.1(4SF)     0     MTD      6422
+
+
+Reaction No. 66389
+Ta(s) + 1.25<Cl2(g)> = TaCl2.5(s)
+ No    t      I-Str        Medium                Value (Dev)      W    Tech.     Ref. #
+ 1    25        0       Inf. Dilution          lgK:74.54(4SF)     4     ENS      6422
+ 2    27        0       Inf. Dilution          lgK:74.03(4SF)     0     ENS      6422
+ 3    127       0       Inf. Dilution          lgK:53.20(4SF)     2     ENS      6422
+ 4    227       0       Inf. Dilution          lgK:40.75(4SF)     1     ENS      6422
+
+
+
+
+                                         – Page 8 of 23 –
+JESS Thermodynamic Database v8.9                                     Tantalum
+
+
+ 5    327     0        Inf. Dilution           lgK:32.47(4SF)    0     ENS      6422
+ 6    25      0        Inf. Dilution           dG:-101.7(4SF)    4     EFE      6422
+ 7    25      0        Inf. Dilution           dH:-114.5(4SF)    2     MTD      6422
+ 8    127     0        Inf. Dilution           dH:-114.1(4SF)    1     MTD      6422
+ 9    227     0        Inf. Dilution           dH:-113.8(4SF)    0     MTD      6422
+ 10   327     0        Inf. Dilution           dH:-113.4(4SF)    0     MTD      6422
+
+
+Reaction No. 66390
+2.5<Br2(l)> + Ta(s) = Ta+5_Br-1(5)_(s)
+ No    t    I-Str           Medium               Value (Dev)     W    Tech.     Ref. #
+ 1    25      0       Inf. Dilution            lgK:95.84(4SF)    3     ENS       6422
+ 2    27      0       Inf. Dilution            lgK:95.20(4SF)    0     ENS       6422
+ 3    127     0       Inf. Dilution            lgK:67.17(4SF)    0     ENS       6422
+ 4    227     0       Inf. Dilution            lgK:49.71(4SF)    0     ENS       6422
+ 5    240     0       Inf. Dilution            lgK:47.95(4SF)    2     ENS       6422
+ 6    25      0       Inf. Dilution            dG:-130.8(4SF)    3     EFE       6422
+ 7    25      0       Inf. Dilution             dG:-132.(3SF)    4     CRV      22971
+ 8    25      0       Inf. Dilution           dH:-598.3(4SF)kJ   3     CRV       6330
+ 9    25      0       Inf. Dilution            dH:-143.0(4SF)    3     MTD       6422
+ 10   25      0       Inf. Dilution            dH:-143.0(4SF)    4     CRV      22971
+ 11   127     0       Inf. Dilution            dH:-160.4(4SF)    0     MTD       6422
+ 12   227     0       Inf. Dilution            dH:-159.0(4SF)    0     MTD       6422
+ 13   240     0       Inf. Dilution            dH:-158.8(4SF)    0     MTD       6422
+
+
+Reaction No. 67233
+2<B(s)> + Ta(s) = TaB2(s)
+ No    t    I-Str            Medium              Value (Dev)     W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution           lgK:36.19(4SF)    4     ENS      6422
+ 2    27      0        Inf. Dilution           lgK:35.97(4SF)    0     ENS      6422
+ 3    127     0        Inf. Dilution           lgK:26.86(4SF)    4     ENS      6422
+ 4    227     0        Inf. Dilution           lgK:21.40(4SF)    4     ENS      6422
+ 5    327     0        Inf. Dilution           lgK:17.75(4SF)    0     ENS      6422
+ 6    25      0        Inf. Dilution           dG:-49.37(4SF)    4     EFE      6422
+ 7    25      0        Inf. Dilution            dH:-50.0(3SF)    4     MTD      6422
+ 8    127     0        Inf. Dilution            dH:-50.0(3SF)    4     MTD      6422
+ 9    227     0        Inf. Dilution            dH:-50.0(3SF)    4     MTD      6422
+
+
+
+
+                                         – Page 9 of 23 –
+JESS Thermodynamic Database v8.9                                    Tantalum
+
+
+ 10   327     0         Inf. Dilution          dH:-50.0(3SF)    0     MTD      6422
+
+
+Reaction No. 67234
+C(s) + Ta(s) = TaC(s)
+ No    t    I-Str           Medium              Value (Dev)     W    Tech.     Ref. #
+ 1    25      0         Inf. Dilution          lgK:24.99(4SF)   4     ENS       6422
+ 2    27      0         Inf. Dilution          lgK:24.84(4SF)   0     ENS       6422
+ 3    127     0         Inf. Dilution          lgK:18.57(4SF)   4     ENS       6422
+ 4    227     0         Inf. Dilution          lgK:14.82(4SF)   4     ENS       6422
+ 5    327     0         Inf. Dilution          lgK:12.33(4SF)   0     ENS       6422
+ 6    25      0         Inf. Dilution          dG:-34.09(4SF)   4     EFE       6422
+ 7    25      0         Inf. Dilution          dG:-35.0(3SF)    4     CRV      22971
+ 8    25      0         Inf. Dilution          dH:-34.44(4SF)   4     MTD       6422
+ 9    25      0         Inf. Dilution          dH:-35.5(3SF)    3     CRV      22971
+ 10   25      0         Inf. Dilution         dH:-38.5(0.6SD)   3     MCL      30139
+ 11   127     0         Inf. Dilution          dH:-34.36(4SF)   3     MTD       6422
+ 12   227     0         Inf. Dilution          dH:-34.27(4SF)   3     MTD       6422
+ 13   327     0         Inf. Dilution          dH:-34.19(4SF)   0     MTD       6422
+
+
+Reaction No. 67235
+C(s) + 2<Ta(s)> = Ta2C(s)
+ No    t    I-Str             Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25      0         Inf. Dilution          lgK:37.12(4SF)   4     ENS      6422
+ 2    27      0         Inf. Dilution          lgK:36.89(4SF)   0     ENS      6422
+ 3    127     0         Inf. Dilution          lgK:27.61(4SF)   4     ENS      6422
+ 4    227     0         Inf. Dilution          lgK:22.04(4SF)   4     ENS      6422
+ 5    327     0         Inf. Dilution          lgK:18.34(4SF)   0     ENS      6422
+ 6    25      0         Inf. Dilution          dG:-50.64(4SF)   4     EFE      6422
+ 7    25      0         Inf. Dilution          dH:-51.0(3SF)    4     MTD      6422
+ 8    127     0         Inf. Dilution          dH:-50.9(3SF)    4     MTD      6422
+ 9    227     0         Inf. Dilution          dH:-50.8(3SF)    4     MTD      6422
+ 10   327     0         Inf. Dilution          dH:-50.8(3SF)    0     MTD      6422
+
+
+Reaction No. 67236
+0.5<N2(g)> + Ta(s) = TaN(s)
+ No    t    I-Str             Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25      0         Inf. Dilution          lgK:39.69(4SF)   4     ENS      6422
+
+
+
+
+                                        – Page 10 of 23 –
+JESS Thermodynamic Database v8.9                                    Tantalum
+
+
+ 2    27       0       Inf. Dilution           lgK:39.42(4SF)   0     ENS       6422
+ 3    127      0       Inf. Dilution           lgK:28.45(4SF)   4     ENS       6422
+ 4    227      0       Inf. Dilution           lgK:21.88(4SF)   4     ENS       6422
+ 5    327      0       Inf. Dilution           lgK:17.53(4SF)   0     ENS       6422
+ 6    25       0       Inf. Dilution           dG:-54.15(4SF)   4     EFE       6422
+ 7    25       0       Inf. Dilution            dG:-53.(2SF)    4     CRV      22971
+ 8    25       0       Inf. Dilution           dH:-60.30(4SF)   4     MTD       6422
+ 9    25       0       Inf. Dilution            dH:-60.(2SF)    4     CRV      22971
+ 10   127      0       Inf. Dilution           dH:-60.17(4SF)   4     MTD       6422
+ 11   227      0       Inf. Dilution           dH:-59.95(4SF)   4     MTD       6422
+ 12   327      0       Inf. Dilution           dH:-59.68(4SF)   0     MTD       6422
+
+
+Reaction No. 67237
+0.5<N2(g)> + 2<Ta(s)> = Ta2N(s)
+ No    t     I-Str         Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25       0       Inf. Dilution           lgK:42.73(4SF)   4     ENS       6422
+ 2    27       0       Inf. Dilution           lgK:42.44(4SF)   0     ENS       6422
+ 3    127      0       Inf. Dilution           lgK:30.63(4SF)   4     ENS       6422
+ 4    227      0       Inf. Dilution           lgK:23.56(4SF)   4     ENS       6422
+ 5    327      0       Inf. Dilution           lgK:18.86(4SF)   0     ENS       6422
+ 6    25       0       Inf. Dilution           dG:-58.30(4SF)   4     EFE       6422
+ 7    25       0       Inf. Dilution           dH:-64.90(4SF)   4     MTD       6422
+ 8    127      0       Inf. Dilution           dH:-64.79(4SF)   4     MTD       6422
+ 9    227      0       Inf. Dilution           dH:-64.60(4SF)   4     MTD       6422
+ 10   327      0       Inf. Dilution           dH:-64.37(4SF)   0     MTD       6422
+
+
+Reaction No. 68864
+Ta+5_H2O2 + F-1 = Ta+5_H2O2_F-1
+ No   t     I-Str         Medium                 Value (Dev)    W   Tech.      Ref. #
+ 1    23              H2SO4(l):Water            lgK:2.39(3SF)   0    MSP        6680
+                         20:80Vol
+
+
+Reaction No. 68865
+Ta+5_H2O2 + 2<F-1> = Ta+5_H2O2_F-1(2)
+ No   t     I-Str         Medium                 Value (Dev)    W   Tech.      Ref. #
+ 1    23              H2SO4(l):Water            lgK:2.35(3SF)   0    MSP        6680
+                         20:80Vol
+
+
+
+
+                                        – Page 11 of 23 –
+JESS Thermodynamic Database v8.9                                         Tantalum
+
+
+Reaction No. 68866
+Ta+5_H2O2 + 3<F-1> = Ta+5_H2O2_F-1(3)
+ No   t     I-Str           Medium                Value (Dev)        W   Tech.      Ref. #
+ 1    23                H2SO4(l):Water           lgK:1.93(3SF)       0    MSP        6680
+                           20:80Vol
+
+
+Reaction No. 68867
+Ta+5_H2O2 + 4<F-1> = Ta+5_H2O2_F-1(4)
+ No   t     I-Str           Medium                Value (Dev)        W   Tech.      Ref. #
+ 1    23                H2SO4(l):Water           lgK:1.83(3SF)       0    MSP        6680
+                           20:80Vol
+
+
+Reaction No. 70988
+Ta+3 + 3<e-1> = Ta(s)
+ No   t     I-Str           Medium               Value (Dev)     W       Tech.      Ref. #
+ 1    25      0          Inf. Dilution           E:-0.6(1SF)     5        CRV       6330
+ 2    25      0          Inf. Dilution           E:-0.6(1SF)     4        CRV       22519
+
+
+Reaction No. 70989
+Ta2O5(s) + 10<H+1> + 10<e-1> = 2<Ta(s)> + 5<H2O>
+ No   t     I-Str          Medium                Value (Dev)     W       Tech.      Ref. #
+ 1    25      0         Inf. Dilution            E:-0.81(2SF)    0        MDG        140
+ 2    25      0         Inf. Dilution           E:-0.750(3SF)    2        CRV        6330
+ 3    25      0         Inf. Dilution           E:-0.750(3SF)    2        CRV       22519
+ 4    25     0.1           Unknown               E:-0.81(2SF)    0        CRV       22551
+Note (4): Phase of Ta2O5 not specified in source
+
+
+Reaction No. 73376
+Ta2O5(s) + 5<H2O> = 2<Ta+5_OH-1(5)>
+ No    t     I-Str          Medium                Value (Dev)        W    Tech.     Ref. #
+ 1    25          0     Inf. Dilution            lgK:-20.(2SF)       1     EES
+Note (1): Estimate based on Peiffer (Nb) and Timofeev (Nb & Ta for high T)
+ 2    100         3         NaClO4              lgK:-17.4(3SF)       4     MSL      30118
+ 3    150         3         NaClO4              lgK:-17.1(3SF)       4     MSL      30118
+ 4    200         3         NaClO4              lgK:-16.4(3SF)       4     MSL      30118
+ 5    250         3         NaClO4              lgK:-16.4(3SF)       3     MSL      30118
+
+
+Reaction No. 74263
+
+
+
+
+                                         – Page 12 of 23 –
+JESS Thermodynamic Database v8.9                                                  Tantalum
+
+
+Ta+5_F-1(7) + 5<e-1> = Ta(s) + 7<F-1>
+ No   t       I-Str            Medium                 Value (Dev)             W    Tech.     Ref. #
+ 1    25        0           Inf. Dilution           lgK:-84.44(4SF)           1     ELC
+ 2    25        0              Unknown               E:-0.45(2SF)             0     CRV       22551
+Note (2): Concentration / ionic strength not specified in source
+
+
+Reaction No. 77489
+O2(g) + Ta(s) - e-1 = TaO2+1
+ No   t       I-Str             Medium                Value (Dev)             W    Tech.     Ref. #
+ 1    25        0           Inf. Dilution           dG:-201.4(4SF)            0     CRV      28287
+Note (1): Species in aqueous solution will be hydrated
+
+
+Reaction No. 77490
+0.5<O2(g)> + Ta(s) - 2<e-1> = TaO+2
+ No   t       I-Str            Medium                 Value (Dev)             W    Tech.     Ref. #
+ 1    25        0           Inf. Dilution           dG:-121.65(5SF)           3     CRV       28287
+
+
+Reaction No. 77494
+Ta+2 + 2<e-1> = Ta(s)
+ No   t       I-Str             Medium                Value (Dev)         W        Tech.     Ref. #
+ 1    25        0            Inf. Dilution           E:-0.225(3SF)        3         CRV      28287
+
+
+Reaction No. 77495
+Ta+3 + e-1 = Ta+2
+ No   t       I-Str              Medium               Value (Dev)         W        Tech.     Ref. #
+ 1    25        0            Inf. Dilution            E:-1.35(3SF)        3         CRV      28287
+
+
+Reaction No. 77496
+TaO2(s) + e-1 + 4<H+1> = Ta+3 + 2<H2O>
+ No    t       I-Str             Medium               Value (Dev)         W       Tech.      Ref. #
+ 1    25            0         Inf. Dilution           E:-0.8(1SF)         0        CRV       28287
+Note (1): Probably, it's Ta2O5(fresh,s) and not Ta2O5(s)
+
+
+Reaction No. 79586
+Ta+5_OH-1(5)_(s) = Ta+5_OH-1(5)
+ No       t     I-Str        Medium              Value (Dev)          W           Tech.      Ref. #
+  1    19               1     KNO3              lgK:-5.2(2SF)         3           EOD         403
+
+
+
+
+                                              – Page 13 of 23 –
+JESS Thermodynamic Database v8.9                                              Tantalum
+
+
+Note (1): Calc. from Babko solubility [63BLN_30106]
+  2       25          1         KNO3         lgK:-5.355(4SF)         3        EOD         7093
+Note (2): Calc. from Babko solbility [63BLN_30106]; Ta2O5(s) + 5<H2O> = 2<Ta+5_OH-
+1(5) > with lgK=-10.71, here divided by 2
+
+
+Reaction No. 80122
+Ta6O19-8 + H+1 = H+1_Ta6O19-8
+ No   t        I-Str            Medium              Value (Dev)          W     Tech.      Ref. #
+ 1    25         0           Inf. Dilution       lgK:16.02(0.03SD)       2         MGL     7093
+Note (1): Application of Bromley theory
+ 2    25         3                KCl            lgK:13.89(0.02SD)       0         MGL     7093
+Note (2): Above MGL limits; pH from 12.4 to 13
+ 3    25         3                KCl              lgK:11.5(3SF)         2         MMR    30236
+Note (3): pH from 10.4 to 14.5
+
+
+Reaction No. 80123
+Ta6O19-8 + 2<H+1> = H+1(2)_Ta6O19-8
+ No   t        I-Str            Medium              Value (Dev)          W     Tech.      Ref. #
+ 1    25         0           Inf. Dilution       lgK:30.35(0.03SD)       3         MGL     7093
+Note (1): Application of Bromley theory
+ 2    25         3                KCl            lgK:25.91(0.01SD)       1         MGL     7093
+Note (2): pH from 12.4 to 13; first pK above MGL limits
+
+
+Reaction No. 80124
+Ta+5_OH-1(5) = Ta+5_OH-1(4) + OH-1
+ No       t      I-Str          Medium          Value (Dev)          W       Tech.       Ref. #
+  1    19             1          KNO3         lgK:-13.0(3SF)         3       MSL         30106
+  2    25             1          KNO3         lgK:-13.0(3SF)         1       EES
+
+
+Reaction No. 80125
+Ta+5_OH-1(5) + H2O = Ta+5_OH-1(6) + H+1
+
+Note: Basic pK for Ta(OH)5 might not really exist if polyoxotantalates formed
+ No        t         I-Str      Medium          Value (Dev)          W   Tech.           Ref. #
+  1       19           1         KNO3          lgK:-9.6(2SF)         0       MSL          403
+  2       19           1         KNO3          lgK:-9.6(2SF)         0       MSL         30106
+  3       25           1         KNO3          lgK:-9.6(2SF)         1       EES
+
+
+
+
+                                             – Page 14 of 23 –
+JESS Thermodynamic Database v8.9                                                  Tantalum
+
+
+Reaction No. 80126
+Ta+5_OH-1(5) + H+1 = Ta+5_OH-1(4) + H2O
+ No       t     I-Str         Medium           Value (Dev)          W           Tech.        Ref. #
+  1    19               1      KNO3            lgK:1.(1SF)          3           MSL           403
+  2    25               1      KNO3            lgK:1.(1SF)          1           EES
+
+
+Reaction No. 80127
+Ta6O19-8 + H2O = H+1_Ta6O19-8 + OH-1
+ No    t       I-Str        Medium            Value (Dev)               W        Tech.       Ref. #
+  1   23            1        KCl            lgK:12.68(0.1SD)            3         MGL         30159
+Note (1): pH from 8.5 to 12
+
+
+Reaction No. 80128
+H+1(2)_Ta6O19-8 + H2O = H+1(3)_Ta6O19-8 + OH-1
+ No    t       I-Str        Medium            Value (Dev)               W        Tech.       Ref. #
+  1   23            1        KCl            lgK:9.28(0.05SD)            3         MGL         30159
+Note (1): pH from 8.5 to 12
+
+
+Reaction No. 80129
+Ta2O5(s) + 6<H+1_F-1> + H2O = 2<Ta+5_F-1(3)_OH-1(3)> + 2<H+1>
+ No    t      I-Str            Medium                Value (Dev)            W      Tech.      Ref. #
+ 1    25        0           Inf. Dilution          lgK:-10.(2SF)            1         EDH
+Note (1): Guessing desparately
+ 2    100       3              NaClO4              lgK:-8.24(3SF)           5         MSL     30118
+ 3    150       3              NaClO4              lgK:-7.45(3SF)           5         MSL     30118
+ 4    200       3              NaClO4              lgK:-8.60(3SF)           5         MSL     30118
+ 5    250       3              NaClO4              lgK:-8.55(3SF)           5         MSL     30118
+
+
+Reaction No. 80130
+Ta+5_F-1(3) + 3<F-1> = Ta+5_F-1(6)
+
+Note: Reacting species unknown, probably hydroxylated
+ No   t       I-Str            Medium               Value (Dev)             W     Tech.       Ref. #
+ 1    25        0           Inf. Dilution          lgK:14.8(3SF)            1      ELC
+ 2    25        3               HClO4              lgK:15.7(3SF)            2      MDS        30162
+
+
+Reaction No. 80131
+
+
+
+
+                                            – Page 15 of 23 –
+JESS Thermodynamic Database v8.9                                       Tantalum
+
+
+Ta+5_F-1(3) + 4<F-1> = Ta+5_F-1(7)
+
+Note: Reacting species unknown, probably hydroxylated
+ No   t    I-Str          Medium               Value (Dev)         W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:17.7(3SF)        1     ELC
+ 2    25     3            HClO4               lgK:20.15(4SF)       2     MDS       30162
+
+
+Reaction No. 80133
+H+1_Ta6O19-8 + H2O = H+1(2)_Ta6O19-8 + OH-1
+ No    t    I-Str      Medium            Value (Dev)           W       Tech.      Ref. #
+  1   23         1      KCl            lgK:10.81(0.1SD)        3       MGL        30159
+Note (1): pH from 8.5 to 12
+
+
+Reaction No. 80134
+H+1_Ta6O19-8 + H+1 = H+1(2)_Ta6O19-8
+ No   t    I-Str              Medium           Value (Dev)         W   Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:14.(2SF)        1    EES
+Note (1): Guess based on Ta6O19-8 + 2<H+1> = H+1(2)_Ta6O19-8 (ex Bromley)
+ 2    25     3                 KCl             lgK:9.3(2SF)        4    MMR       30236
+Note (2): pH from 10.4 to 14.5
+
+
+Reaction No. 80135
+3<Cl2(g)> + Cs(s) + Ta(s) = Ta+5_Cs+1_Cl-1(6)_(s)
+ No   t    I-Str          Medium               Value (Dev)         W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          dH:-337.(3SF)        4     CRV      22971
+
+
+Reaction No. 80136
+3<Cl2(g)> + Rb(s) + Ta(s) = Ta+5_Rb+1_Cl-1(6)_(s)
+ No   t    I-Str          Medium               Value (Dev)         W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          dH:-326.(3SF)        4     CRV      22971
+
+
+Reaction No. 80137
+3<Cl2(g)> + K(s) + Ta(s) = Ta+5_K+1_Cl-1(6)_(s)
+ No   t    I-Str          Medium               Value (Dev)         W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution          dH:-320.(3SF)        4     CRV      22971
+
+
+Reaction No. 80138
+3<Cl2(g)> + Na(s) + Ta(s) = Ta+5_Na+1_Cl-1(6)_(s)
+
+
+
+
+                                       – Page 16 of 23 –
+JESS Thermodynamic Database v8.9                                       Tantalum
+
+
+ No   t    I-Str          Medium                Value (Dev)       W    Tech.      Ref. #
+ 1    25     0         Inf. Dilution          dH:-308.(3SF)       4     CRV        22971
+
+
+Reaction No. 80139
+2<Cl2(g)> + Ta(s) - e-1 = Ta+5_Cl-1(4)_(s)
+ No   t    I-Str          Medium                Value (Dev)       W    Tech.      Ref. #
+ 1    25     0         Inf. Dilution          dG:-149.(3SF)       4     CRV        22971
+ 2    25     0         Inf. Dilution          dH:-170.(3SF)       4     CRV        22971
+
+
+Reaction No. 80140
+1.5<Cl2(g)> + Ta(s) - 2<e-1> = Ta+5_Cl-1(3)_(s)
+ No   t    I-Str          Medium                Value (Dev)       W    Tech.      Ref. #
+ 1    25     0         Inf. Dilution          dG:-123.(3SF)       4     CRV        22971
+ 2    25     0         Inf. Dilution          dH:-139.(3SF)       4     CRV        22971
+
+
+Reaction No. 80159
+6<Ta+5_OH-1(5)> - 6<H+1> = H+1(2)_Ta6O19-8 + 11<H2O>
+ No    t     I-Str     Medium             Value (Dev)         W       Tech.       Ref. #
+  1   25         1      KNO3           lgK:-32.12(4SF)        3        EOD         7093
+Note (1): Recalculated own data + solubility Babko (30106)
+
+
+Reaction No. 80160
+6<Ta+5_OH-1(5)> - 7<H+1> = H+1_Ta6O19-8 + 11<H2O>
+ No    t     I-Str     Medium             Value (Dev)         W       Tech.       Ref. #
+  1   25         1      KNO3           lgK:-44.02(4SF)        3        EOD         7093
+Note (1): Recalculated own data + solubility Babko (30106)
+
+
+Reaction No. 80161
+6<Ta+5_OH-1(5)> - 8<H+1> = Ta6O19-8 + 11<H2O>
+ No    t     I-Str     Medium             Value (Dev)         W       Tech.       Ref. #
+  1   25         1      KNO3           lgK:-57.48(4SF)        3        EOD         7093
+Note (1): Recalculated own data + solubility Babko (30106)
+
+
+Reaction No. 80169
+Ta+5_F-1(3) + 2<F-1> = Ta+5_F-1(5)
+
+Note: Reacting species unknown, probably hydroxylated
+ No    t     I-Str      Medium            Value (Dev)         W       Tech.       Ref. #
+
+
+
+
+                                       – Page 17 of 23 –
+JESS Thermodynamic Database v8.9                                                   Tantalum
+
+
+  1    25             1         NaClO4            lgK:10.80(4SF)          2        MDS         5398
+  2    25             3         HClO4             lgK:10.77(4SF)          2        MDS        30162
+
+
+Reaction No. 80181
+Ta+5_OH-1(5) + H+1(4)_EDTA-4 = Ta+5_OH-1(2)_EDTA-4 + 3<H2O> + H+1
+ No   t         I-Str             Medium                 Value (Dev)          W     Tech.     Ref. #
+ 1    20        1.08               K2SO4                lgK:33.6(3SF)         3      MPL       30359
+ 2    25          0            Inf. Dilution             lgK:34.(2SF)         1      EES
+
+
+Reaction No. 80196
+Ta+5_OH-1(2)_Oxalic-2 + Oxalic-2 = Ta+5_OH-1(2)_Oxalic-2(2)
+ No        t          I-Str             Medium             Value (Dev)        W     Tech.     Ref. #
+ 1    18:20               0        Self Medium             lgK:7.4(2SF)       3      MSL       30107
+ 2         25             0       Inf. Dilution            lgK:7.5(2SF)       1      EES
+
+
+Reaction No. 80206
+Ta(s) = Ta(g)
+ No   t         I-Str             Medium                 Value (Dev)          W     Tech.     Ref. #
+ 1    25          0           Inf. Dilution            dG:176.67(5SF)         3      CRV       31291
+ 2    25          0           Inf. Dilution            dH:186.90(5SF)         3      MTD       31291
+
+
+Reaction No. 80209
+Ta+5_OH-1(2)_Oxalic-2(3) = Ta+5_OH-1(2)_Oxalic-2(2) + Oxalic-2
+ No   t         I-Str           Medium                 Value (Dev)            W     Tech.     Ref. #
+ 1    20          0           Self Medium           lgK:5.91(0.05SD)          2      MSL       30164
+Note (1): pH 0.3-1.8
+
+
+Reaction No. 80211
+Ta+5 + OH-1 = Ta+5_OH-1
+
+Note: Ta+5 is considered too highly charged to exist
+ No       t       I-Str         Medium              Value (Dev)           W       Tech.       Ref. #
+  1    19             1          KNO3              lgK:29.6(3SF)          0       EQC         30106
+Note (1): Highly dubious method
+  2    25             1          KNO3              lgK:29.6(3SF)          0       EES
+
+
+Reaction No. 80212
+
+
+
+
+                                                 – Page 18 of 23 –
+JESS Thermodynamic Database v8.9                                                              Tantalum
+
+
+Ta+5_OH-1 + OH-1 = Ta+5_OH-1(2)
+
+Note: Ta+5_OH-1 is considered too highly charged to exist
+ No       t          I-Str                Medium            Value (Dev)          W           Tech.       Ref. #
+  1    19                    1             KNO3            lgK:26.6(3SF)         0           EQC         30106
+Note (1): Highly dubious method
+  2    25                    1             KNO3            lgK:26.6(3SF)         0           EES
+
+
+Reaction No. 80213
+Ta+5_OH-1(2) + OH-1 = Ta+5_OH-1(3)
+ No       t          I-Str                Medium            Value (Dev)          W           Tech.       Ref. #
+  1    19                    1             KNO3            lgK:22.4(3SF)         0           EQC         30106
+Note (1): Highly dubious method
+  2    25                    1             KNO3            lgK:22.4(3SF)         1           EES
+
+
+Reaction No. 80214
+Ta+5_OH-1(3) + OH-1 = Ta+5_OH-1(4)
+ No           t                  I-Str       Medium           Value (Dev)            W        Tech.      Ref. #
+  1       18:20                    1          KNO3           lgK:17.7(3SF)           0         EQC       30106
+Note (1): Highly dubious method
+  2           25                   1          KNO3           lgK:17.7(3SF)           1         EES
+
+
+Reaction No. 80525
+Ta2O5(s) + 10<H+1_F-1> = 2<Ta+5_F-1(5)> + 5<H2O>
+ No    t            I-Str                   Medium                Value (Dev)            W     Tech.     Ref. #
+ 1    25                 0               Inf. Dilution          lgK:-0.13(2SF)           1      EES
+ 2    100                3                  NaClO4              lgK:0.13(2SF)            5      MSL       30118
+ 3    150                3                  NaClO4              lgK:0.35(2SF)            5      MSL       30118
+
+
+Reaction No. 80596
+1.5<O2(g)> + 2<Ta(s)> = Ta2O3(s)
+ No   t            I-Str                   Medium                Value (Dev)             W     Tech.     Ref. #
+ 1    25             0                 Inf. Dilution           dG:-459.71(5SF)           3      CRV       31291
+
+
+
+
+                                                    Data Assessment
+
+
+
+
+                                                         – Page 19 of 23 –
+JESS Thermodynamic Database v8.9                               Tantalum
+
+
+Weight                       Assessment
+9        highest accuracy
+8        multi-determined; excellent dependability
+7        trustworthy; outstanding single determination
+6        better than average reliability
+5        average single determination
+4        some doubt
+3        poorly known
+2        guess to achieve consistency (or just as bad)
+1        no information but consistent
+0        problematic/inconsistent
+
+
+
+
+                                          Techniques
+
+
+Abbrev                     Method
+CRV      Critical review
+EDH      Debye-Hueckel corrections
+EES      Personal estimate
+EFE      Free Energy relations
+ELC      Linear Combination of Reactions
+ENS      Not specified
+EOD      Calculated from data of others
+EQC      Quintuply charged central ion method
+ESC      Standard conditions anchor
+MAX      Anion exchange
+MCL      Calorimetry
+MDG      Combination of Thermodynamic Data
+MDS      Distribution between two phases
+MGL      Glass electrode
+MIS      Ion selective electrode
+MMR      Nuclear magnetic resonance
+MPL      Polarography
+MQH      Quinhydrone electrode
+MSL      Solubility
+
+
+
+
+                                           – Page 20 of 23 –
+JESS Thermodynamic Database v8.9                                   Tantalum
+
+
+MSP    Spectroscopy
+MTD    Temperature difference
+
+
+
+
+                                    References
+
+
+Reference No.: 140(64SiM)
+Stability Constants of Metal-ion Complexes SP17, 1964 Sillen LG; Martell AE; The
+Chemical Soc.,London
+
+Reference No.: 403(76BaM)
+The Hydrolysis of Cations, 1976 Baes CF Jr; Mesmer RE; Wiley, New York
+
+Reference No.: 437(80BoH)
+IUPAC Chemical Data Series No. 27, 1980 Bond AM; Hefter GT; Critical Survey of
+Stability Constants and Related Thermodynamic Data of Fluoride Complexes in Aqueous
+Solution; Pergamon, Oxford, U.K.
+
+Reference No.: 906(79Per)
+IUPAC Chemical Data Series No. 22, 1979 Perrin DD; Stability Constants of Metal-Ion
+Complexes, First Edition Part B, Organic Ligands; Pergamon, Oxford
+
+Reference No.: 931(71SiM)
+Stability Constants of Metal-ion Complexes SP25, 1971 Sillen LG; Martell AE; Supplement
+No 1 to Special Publication No 25; Chemical Society, London
+
+Reference No.: 5398(82Hog)
+IUPAC Chemical Data Series No. 21, 1982 Hogfeldt E; Stability Constants of Metal-ion
+Complexes, 2nd Suppl., Part A, Inorganic Ligands; Pergamon, Oxford
+
+Reference No.: 5766(72Bau)
+J. Inorg. Nucl. Chem., 1972, 34, 687 - 695; Baumann EW; Investigation of the Tantalum
+Fluoride System Using the Fluoride-Selective Electrode
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+Reference No.: 6422(95BaP)
+Thermochemical Data of Pure Substances, 3rd Edn., 1995 Barin I; Platzki G; Weinheim,
+Germany
+
+Reference No.: 6680(73LCS)
+Russ. J. Inorg. Chem., 1973, 18, 533 - 535; Latysh GN; Chernyak AS; Serebrennikova TE;
+Investigation of Peroxo(fluoro)-complexes of Niobium and Tantalum in Sulphuric Acid
+Solutions
+
+Reference No.: 7093(95AEF)
+J. Solution Chem., 1995, 24, 611 - 622; Arana G; Etxebarria N; Fernandez LA; Madariaga
+JM; Hydrolysis of Nb(V) and Ta(V) in Aqueous KCl at 25 C. Part II. Construction of a
+Thermodynamic Model for Ta(V)
+
+
+
+
+                                      – Page 21 of 23 –
+JESS Thermodynamic Database v8.9                                   Tantalum
+
+
+Reference No.: 21702(62VaF)
+J. Phys. Chem., 1962, 66, 187 - 189; Varga LP; Freund H; The Formation Constants of the
+Tantalum Fluoride System. II. Tantalum Electrode Potential Studies
+
+Reference No.: 22519(05Lid)
+CRC Handbook of Chemistry and Physics, 86th Edn., 2005 Lide DR; A Ready-Reference Book
+of Chemical and Physical Data; Taylor & Francis, Boca Raton, USA
+
+Reference No.: 22551(06Inz)
+Encyclopedia of Electrochemistry, Vol. 7a, 2006, 17 - 75; Inzelt G; Standard, Formal
+and Other Characteristic Potentials of Selected Electrode Reactions
+
+Reference No.: 22971(71HWH)
+Chem. Rev., 1971, 71, 127 - 137; Hill JO; Worsley IG; Hepler LG; Thermochemistry and
+Oxidation Potentials of Vanadium, Niobium and Tantalum
+
+Reference No.: 28287(92IPJ)
+J. Phys. Chem., 1992, 96, 11096 - 11101; Ionova GV; Pershina V; Johnson E; Fricke B;
+Schadel M; Redox Reactions for Group 5 Elements, Including Element 105, in Aqueous
+Solutions
+
+Reference No.: 30106(63BLN)
+Russ. J. Inorg. Chem., 1963, 8, 957 - 961; Babko AK; Lukachina VV; Nabivanets BL;
+Solubility and Acid-Base Properties of Tantalum and Niobium Hydroxides
+
+Reference No.: 30107(65BLN)
+Russ. J. Inorg. Chem., 1965, 10, 467 - 474; Babko AK; Lukachina VV; Nabivanets BL;
+Oxalato-Complexes of Tantalum
+
+Reference No.: 30109(66BFH)
+J. Inorg. Nucl. Chem., 1966, 28, 421 - 431; Bukhsh MN; Flegenheimer J; Hall FM; Maddock
+AG; de Miranda CF; The Chemistry of Protactinium - VII. The Fluoro-Complexes
+
+Reference No.: 30118(17TMW)
+Geochim. Cosmochim. Acta, 2017, 197, 294 - 304; Timofeev A; Migdisov AA; Williams-Jones
+AE; An Experimental Study of the Solubility and Speciation of Tantalum in Fluoride-
+bearing Aqueous Solutions at Elevated Temperature
+
+Reference No.: 30139(54Hum)
+J. Am. Chem. Soc., 1954, 76, 978 - 980; Humphrey GL; Heats of Formation of Tantalum,
+Niobium and Zirconium Oxides, and Tantalum Carbide
+
+Reference No.: 30159(69Spi)
+Compt. Rend. Ser. C. Chim., 1969, 269, 1108 - 1111; Spinner B; New Tantalum(V)
+Isopolyanions
+
+Reference No.: 30162(65VWN)
+Anal. Chem., 1965, 37, 1003 - 1009; Varga LP; Wakley WD; Nicolson LS; Madden ML;
+Patterson JH; Solvent Extraction Studies of Tantalum Fluoride Complexes with N-
+Benzoylphenylhydroxylamine, Tri-N-octylphosphine Oxide and Methyl Isobutyl Ketone using
+Computer Techniques
+
+Reference No.: 30164(70ZhP)
+Sov. Radiochem. (Engl. Transl.), 1970, 12, 89 - 94; Zhurenkov EM; Pobezhimovskaya DN;
+Determination of the Composition and Instability Constants of Oxalate Complexes of
+Niobium and Tantalum by the Solubility Method
+
+Reference No.: 30236(07BAR)
+Inorg. Chem., 2007, 46, 7032 - 7039; Balogh E; Anderson TM; Rustad JR; Nyman M; Casey
+
+
+
+
+                                      – Page 22 of 23 –
+JESS Thermodynamic Database v8.9                                   Tantalum
+
+
+WH; Rates of Oxygen-Isotope Exchange between Sites in the [HxTa6O19](8-x)-(aq)
+Lindqvist Ion and Aqueous Solutions: Comparisons to [HxNb6O19](8-x)-(aq)
+
+Reference No.: 30359(69VoS)
+Russ. J. Inorg. Chem., 1969, 14, 652 - 654; Volkova GA; Sochevanov VG; Reaction of
+Tantalum Hydroxide with Ethylenediaminetetra-acetic Acid
+
+Reference No.: 30601(66StA)
+Vestn. Leningr. Univ., Fiz., Khim., 1966, 21, 133 - 138; Stolyarov KP; Amantova IA;
+Photometric Study of Ascorbic Acid Complexes. VI. The Systems Zr, Hf, V(IV), Nb, Ta,
+Mo, W - Ascorbic acid
+
+Reference No.: 31291(84PSG)
+U.S. Bur. Mines Bull. 677, 1984 Pankratz LB; Stuve JM; Gokcen NA; Thermodynamic Data
+for Mineral Technology; US Det. Interior, Bur. Mines, Washington, DC, USA
+
+
+
+
+                                      – Page 23 of 23 –
+

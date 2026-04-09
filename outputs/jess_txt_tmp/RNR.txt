@@ -1,0 +1,68 @@
+                     JESS Thermodynamic Database v8.9
+                                              Radon
+
+                                           24-Jan-23
+
+Reaction No. 762
+Rn(g) = Rn
+ No      t     I-Str             Medium               Value (Dev)   W   Tech.   Ref. #
+    1    25      0            Inf. Dilution       dG:2.79(3SF)      4   CRV     10174
+    2    50      0            Inf. Dilution       dG:2.31(3SF)      4   CRV     10174
+    3    75      0            Inf. Dilution       dG:1.69(3SF)      4   CRV     10174
+    4   100      0            Inf. Dilution       dG:0.96(2SF)      4   CRV     10174
+    5   125      0            Inf. Dilution       dG:0.12(2SF)      4   CRV     10174
+    6   150      0            Inf. Dilution       dG:-0.81(2SF)     4   CRV     10174
+    7   175      0            Inf. Dilution       dG:-1.83(3SF)     4   CRV     10174
+    8   200      0            Inf. Dilution       dG:-2.94(3SF)     4   CRV     10174
+    9   225      0            Inf. Dilution       dG:-4.12(3SF)     4   CRV     10174
+ 10     250      0            Inf. Dilution       dG:-5.39(3SF)     4   CRV     10174
+ 11     300      0            Inf. Dilution       dG:-8.16(3SF)     4   CRV     10174
+
+
+
+
+                                      Data Assessment
+
+
+Weight                        Assessment
+9        highest accuracy
+8        multi-determined; excellent dependability
+7        trustworthy; outstanding single determination
+6        better than average reliability
+5        average single determination
+4        some doubt
+3        poorly known
+2        guess to achieve consistency (or just as bad)
+1        no information but consistent
+0        problematic/inconsistent
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                       Radon
+
+
+                                    Techniques
+
+
+Abbrev       Method
+CRV      Critical review
+
+
+
+
+                                    References
+
+
+Reference No.: 10174(95OHS)
+J. Phys. Chem. Ref. Data, 1995, 24, 1401 - 1560; Oelkers EH; Helgeson HC; Shock EL;
+Sverjensky DA; Johnson JW; Pokrovskii VA; Summary of the Apparent Standard Partial
+Molal Gibbs Free Energies of Formation of Aqueous Species, Minerals, and Gases at
+Pressures 1 to 5000 Bars and Temperatures 25 to 1000C
+
+
+
+
+                                       – Page 2 of 2 –
+

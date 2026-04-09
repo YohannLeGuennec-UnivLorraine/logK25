@@ -4,19 +4,21 @@
 - Full merged table: `C:\Users\leguenne1\Documents\5. Codes\thermo-database\outputs\thermo_equilibrium_merged.tsv`
 
 ## Extraction Statistics
-- Raw extracted records: **74634**
-- Merged unique records: **66509**
+- Raw extracted records: **136840**
+- Merged unique records: **128591**
 
 ### Records By Source Family
+- `AqSolDB-logS`: 9982
 - `GWB`: 13409
 - `IUPAC-pKa`: 8326
+- `JESS-PHREEQC-like`: 52234
 - `MedusaText`: 1082
-- `NIST-SRD46`: 44581
+- `NIST-SRD46`: 44573
 - `PSINagra-PHREEQC`: 1104
 - `Thermoddem-CHESS`: 1705
 - `Thermoddem-GWB`: 1690
 - `Thermoddem-PHREEQC`: 1033
-- `Thermoddem-ToughReact`: 1704
+- `Thermoddem-ToughReact`: 1702
 
 ## Databases That Could Not Be Fully Parsed
 - External databases\\Medusa\\*.db and *.elb (binary format, no built-in parser in this extraction)

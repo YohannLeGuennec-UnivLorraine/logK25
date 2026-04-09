@@ -127,6 +127,56 @@ button:hover {
   margin: 6px 0 10px;
 }
 
+.db-panel {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--card);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.db-panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.db-panel-head-actions {
+  display: inline-flex;
+  gap: 6px;
+}
+
+.db-panel-actions {
+  display: inline-flex;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.db-panel-actions button {
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.db-filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 6px 10px;
+}
+
+.db-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+}
+
+.db-panel.collapsed #dbPanelBody {
+  display: none;
+}
+
 .table-wrap {
   border: 1px solid var(--line);
   border-radius: 10px;

@@ -1,0 +1,4134 @@
+                       JESS Thermodynamic Database v8.9
+                                             Molybdenum
+
+                                             24-Jan-23
+
+Reaction No. 4802
+Mo+3 + 3<e-1> = Mo(s)
+ No    t       I-Str           Medium               Value (Dev)           W       Tech.      Ref. #
+  1    25        0          Inf. Dilution         lgK:-10.1(0.1SD)        4         ENS       802
+  2    25        0          Inf. Dilution          E:-0.200(3SF)          5         CRV       6330
+
+
+Reaction No. 4839
+MoO2+2 + 2<H+1> + e-1 = MoO+3 + H2O
+ No    t       I-Str            Medium              Value (Dev)           W       Tech.     Ref. #
+  1    25        0           Inf. Dilution          lgK:8.0(2SF)          1       EAE
+  2    30        0           Inf. Dilution         E:0.48(0.01SD)         3       MEF         775
+
+
+Reaction No. 5225
+MoO2+1 + 4<H+1> + 2<e-1> = Mo+3 + 2<H2O>
+  No       t     I-Str          Medium           Value (Dev)          W       Tech.         Ref. #
+  1     25            0        Unknown          lgK:0.0(1SF)          4       ENS            773
+
+
+Reaction No. 6537
+H+1 + MoO4-2 = H+1_MoO4-2
+ No        t     I-Str            Medium               Value (Dev)            W     Tech.    Ref. #
+ 1      15            1            NaCl              lgK:3.3(0.1SD)           4       MGL     5241
+ 2      20            0        Inf. Dilution         lgK:4.2(0.05SD)          4       MSP     931
+ 3      20            0        Inf. Dilution          lgK:4.24(3SF)           4       CRV    32224
+ 4      25            0        Inf. Dilution          lgK:3.7(2SF)            4       ENS     7276
+ 5      25            0        Inf. Dilution         lgK:4.1(0.05SD)          4       CRV    31301
+ 6      25            0        Inf. Dilution          lgK:3.47(3SF)           2       EOD    31318
+ 7      25            0       Inf. Dilution/m         lgK:4.20(3SF)           3       CRV    24953
+ 8      25           0.01        Unknown/m            lgK:4.02(3SF)           2       CRV    24953
+ 9      25           0.1           KNO3               lgK:3.74(3SF)           4       MTJ     1060
+ 10     25           0.1           NaCl              lgK:3.7(0.2SD)           6       MGL     5241
+ 11     25           0.1         Unknown/m            lgK:3.74(3SF)           2       CRV    24953
+ 12     25       0.109             NaCl             lgK:4.04(0.02SD)          2       MPS    29173
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                           Molybdenum
+
+
+ 13       25          0.2          Unknown/m              lgK:3.63(3SF)     2    CRV    24953
+ 14       25         0.495           NaCl               lgK:4.07(0.02SD)    0    MPS    29173
+ 15       25          0.5            NaCl                 lgK:3.39(3SF)     3    CRV     552
+ 16       25          0.5          Unknown/m              lgK:3.50(3SF)     2    CRV    24953
+ 17       25          0.6            NaCl                lgK:3.4(0.05SD)    3    MPS     5075
+ 18       25         0.974           NaCl               lgK:4.22(0.03SD)    1    MPS    29173
+ 19       25           1             NaCl                lgK:3.6(0.05SD)    5    MGL     5105
+ 20       25           1             NaCl                lgK:3.5(0.1SD)     4    MGL     5241
+ 21       25           1             NaNO3                lgK:3.92(3SF)     0    MGL     6370
+ 22       25           1           Unknown/m              lgK:3.47(3SF)     2    CRV    24953
+ 23       25         1.931           NaCl               lgK:4.40(0.04SD)    1    MPS    29173
+ 24       25           2           Unknown/m              lgK:3.58(3SF)     2    CRV    24953
+ 25       25           3            NaClO4               lgK:3.9(0.05SD)    5    MGL     931
+ 26       25           3            NaClO4               lgK:4.1(0.2SD)     3    ENS     5184
+ 27       25           3            NaClO4                lgK:3.89(3SF)     3    EOD    23624
+ 28       25           3           Unknown/m              lgK:3.78(3SF)     2    CRV    24953
+ 29       25         4.821           NaCl               lgK:5.09(0.04SD)    0    MPS    29173
+ 30       35           1             NaCl                lgK:3.5(0.1SD)     0    MGL     5241
+ 31       25           3            NaClO4              dG:-5.31(0.12MD)    7    MCL    23142
+ 32   10:40            1             NaCl                  dH:5.(2.SD)      0    EVH     5241
+ 33       25           0         Inf. Dilution            dH:20.(2SF)kJ     0    ENS     7276
+ 34       25           3            NaClO4               dH:14.0(0.1SD)     5    MCL     931
+ 35       25           3            NaClO4                 dH:14.(7.MD)     7    MCL    23142
+
+
+Reaction No. 6538
+8<H+1> + 7<MoO4-2> = H+1(8)_MoO4-2(7)
+ No   t        I-Str             Medium                  Value (Dev)       W    Tech.   Ref. #
+ 1    20         3               Unknown                lgK:53.(0.3SD)     0    MRM     6745
+ 2    25         0           Inf. Dilution/m            lgK:50.31(4SF)     3    CRV     24953
+ 3    25       0.01             Unknown/m               lgK:50.33(4SF)     2    CRV     24953
+ 4    25        0.1             Unknown/m               lgK:50.56(4SF)     2    CRV     24953
+ 5    25       0.109              NaCl                lgK:52.34(0.04SD)    0    MPS     29173
+ 6    25        0.2             Unknown/m               lgK:50.80(4SF)     2    CRV     24953
+ 7    25       0.495              NaCl                lgK:52.60(0.03SD)    0    MPS     29173
+ 8    25        0.5             Unknown/m               lgK:51.55(4SF)     2    CRV     24953
+ 9    25         1                NaNO3                 lgK:52.49(4SF)     3    MGL     6370
+
+
+
+
+                                                 – Page 2 of 80 –
+JESS Thermodynamic Database v8.9                                      Molybdenum
+
+
+ 10   25      1         Unknown/m               lgK:52.79(4SF)        2      CRV    24953
+ 11   25    1.931         NaCl                lgK:54.73(0.05SD)       2      MPS    29173
+ 12   25      2         Unknown/m               lgK:55.25(4SF)        2      CRV    24953
+ 13   25      3         Unknown/m               lgK:57.74(4SF)        1      CRV    24953
+ 14   25    4.821         NaCl                lgK:60.02(0.02SD)       2      MPS    29173
+
+
+Reaction No. 6539
+7<MoO4-2> + 9<H+1> = H+1(9)_MoO4-2(7)
+ No   t     I-Str         Medium                  Value (Dev)         W    Tech.   Ref. #
+ 1    20      3           Unknown              lgK:56.0(0.1SD)        0     MRM     6745
+ 2    25      0       Inf. Dilution/m           lgK:57.71(4SF)        3     CRV     24953
+ 3    25    0.01         Unknown/m              lgK:57.18(4SF)        2     CRV     24953
+ 4    25     0.1         Unknown/m              lgK:56.52(4SF)        2     CRV     24953
+ 5    25     0.2         Unknown/m              lgK:56.37(4SF)        2     CRV     24953
+ 6    25     0.5         Unknown/m              lgK:56.56(4SF)        2     CRV     24953
+ 7    25      1            NaNO3                lgK:57.57(4SF)        5     MGL     6370
+ 8    25      1          Unknown/m              lgK:57.42(4SF)        2     CRV     24953
+ 9    25      2          Unknown/m              lgK:59.66(4SF)        2     CRV     24953
+ 10   25      3          Unknown/m              lgK:62.14(4SF)        1     CRV     24953
+
+
+Reaction No. 6540
+2<H+1> + His-1 + MoO4-2 = H+1(2)_His-1_MoO4-2
+ No    t     I-Str    Medium               Value (Dev)            W       Tech.    Ref. #
+ 1    25      0.15     KNO3             lgK:16.76(0.007SD)        6        MGL      946
+
+
+Reaction No. 6593
+8<MoO4-2> + 12<H+1> = H+1(12)_MoO4-2(8)
+ No    t      I-Str      Medium               Value (Dev)         W       Tech.    Ref. #
+ 1     20         3      Unknown            lgK:70.(0.2SD)        3       MRM      6745
+ 2     25         1       NaNO3             lgK:73.18(4SF)        3       MGL      6370
+ 3     25         1     Unknown/m           lgK:71.57(4SF)        1       CRV      24953
+
+
+Reaction No. 6594
+2<H+1> + 2<His-1> + MoO4-2 = H+1(2)_His-1(2)_MoO4-2
+ No    t      I-Str    Medium              Value (Dev)            W       Tech.    Ref. #
+ 1     25         1     NaCl            lgK:16.33(0.01SD)         6       MGL       986
+ 2     25         1     NaCl              dH:-81.(2SF)kJ          5       MCL       986
+
+
+
+
+                                         – Page 3 of 80 –
+JESS Thermodynamic Database v8.9                                Molybdenum
+
+
+
+Reaction No. 6595
+3<H+1> + 2<His-1> + MoO4-2 = H+1(3)_His-1(2)_MoO4-2
+ No   t     I-Str     Medium            Value (Dev)         W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:19.99(0.01SD)      3     MGL         986
+ 2    25      1        NaCl            dH:-87.(2SF)kJ       5     MCL         986
+
+
+Reaction No. 6596
+4<H+1> + 2<His-1> + MoO4-2 = H+1(4)_His-1(2)_MoO4-2
+ No   t     I-Str     Medium            Value (Dev)         W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:22.92(0.01SD)      4     MGL         986
+ 2    25      1        NaCl            dH:-85.(2SF)kJ       5     MCL         986
+
+
+Reaction No. 6597
+4<H+1> + His-1 + 2<MoO4-2> = H+1(4)_His-1_MoO4-2(2)
+ No   t     I-Str     Medium            Value (Dev)         W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:24.81(0.01SD)      6     MGL         986
+ 2    25      1        NaCl           dH:-116.(3SF)kJ       5     MCL         986
+
+
+Reaction No. 6598
+5<H+1> + His-1 + 2<MoO4-2> = H+1(5)_His-1_MoO4-2(2)
+ No   t     I-Str     Medium            Value (Dev)         W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:26.16(0.01SD)      6     MGL         986
+ 2    25      1        NaCl           dH:-117.(3SF)kJ       5     MCL         986
+
+
+Reaction No. 6599
+7<H+1> + 4<His-1> + 4<MoO4-2> = H+1(7)_His-1(4)_MoO4-2(4)
+ No   t     I-Str     Medium            Value (Dev)         W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:56.22(0.02SD)      4     MGL         986
+ 2    25      1        NaCl           dH:-290.(3SF)kJ       5     MCL         986
+
+
+Reaction No. 6600
+8<H+1> + 4<His-1> + 4<MoO4-2> = H+1(8)_His-1(4)_MoO4-2(4)
+ No   t     I-Str     Medium            Value (Dev)         W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:61.53(0.02SD)      6     MGL         986
+ 2    25      1        NaCl           dH:-349.(3SF)kJ       5     MCL         986
+
+
+Reaction No. 6601
+
+
+
+
+                                      – Page 4 of 80 –
+JESS Thermodynamic Database v8.9                                      Molybdenum
+
+
+9<H+1> + 4<His-1> + 4<MoO4-2> = H+1(9)_His-1(4)_MoO4-2(4)
+ No       t     I-Str      Medium           Value (Dev)           W       Tech.         Ref. #
+  1    25           1       NaCl         lgK:64.0(0.03SD)         4           MGL        986
+  2    25           1       NaCl          dH:-327.(3SF)kJ         5           MCL        986
+
+
+Reaction No. 6602
+6<H+1> + 2<His-1> + 4<MoO4-2> = H+1(6)_His-1(2)_MoO4-2(4)
+ No       t     I-Str     Medium            Value (Dev)           W           Tech.     Ref. #
+ 1     25           1      NaCl          lgK:43.41(0.01SD)        6           MGL        986
+
+
+Reaction No. 6603
+7<H+1> + 2<His-1> + 4<MoO4-2> = H+1(7)_His-1(2)_MoO4-2(4)
+ No       t     I-Str      Medium           Value (Dev)           W       Tech.         Ref. #
+  1    25           1       NaCl         lgK:48.2(0.05SD)         4           MGL        986
+
+
+Reaction No. 7359
+Oxalic-2 + MoO4-2 + 2<H+1> = H+1(2)_MoO4-2_Oxalic-2
+ No   t       I-Str        Medium               Value (Dev)               W     Tech.    Ref. #
+ 1    25        0       Inf. Dilution         lgK:14.52(4SF)              1      EOR
+ 2    25        1           NaCl           lgK:13.619(0.0004SD)           6      MSP      1008
+ 3    25        1           NaCl              dH:-59.5(3SF)kJ             5      MCL      1008
+
+
+Reaction No. 7360
+2<Oxalic-2> + 2<MoO4-2> + 5<H+1> = H+1(5)_MoO4-2(2)_Oxalic-2(2)
+ No   t       I-Str          Medium             Value (Dev)           W        Tech.    Ref. #
+ 1    25        0        Inf. Dilution         lgK:33.0(4SF)          1         EOR
+ 2    25        1             NaCl            lgK:31.2(0.04SD)        4         MSP      1008
+ 3    25        1             NaCl            dH:-123.0(4SF)kJ        5         MCL      1008
+
+
+Reaction No. 7361
+2<Oxalic-2> + 2<MoO4-2> + 6<H+1> = H+1(6)_MoO4-2(2)_Oxalic-2(2)
+ No   t       I-Str         Medium              Value (Dev)           W        Tech.    Ref. #
+ 1    25        0        Inf. Dilution         lgK:36.78(4SF)         1         EOR
+ 2    25        1            NaCl            lgK:34.08(0.02SD)        4         MSP      1008
+ 3    25        1            NaCl             dH:-117.0(4SF)kJ        5         MCL      1008
+
+
+Reaction No. 7667
+
+
+
+
+                                         – Page 5 of 80 –
+JESS Thermodynamic Database v8.9                                      Molybdenum
+
+
+2<MoO4-2> + DLyxose + 2<H+1> = H+1(2)_DLyxose_MoO4-2(2)
+ No    t    I-Str      Medium             Value (Dev)         W        Tech.       Ref. #
+  1   25     0.1        KCl            lgK:15.0(0.06SD)       4         MGL         1070
+
+
+Reaction No. 7670
+2<MoO4-2> + DMannose + 2<H+1> = H+1(2)_DMannose_MoO4-2(2)
+ No    t    I-Str      Medium             Value (Dev)         W        Tech.       Ref. #
+  1   25     0.1        KCl            lgK:14.5(0.06SD)       4         MGL         1070
+
+
+Reaction No. 7671
+2<MoO4-2> + LRhamnose + 2<H+1> = H+1(2)_LRhamnose_MoO4-2(2)
+ No    t    I-Str      Medium             Value (Dev)         W        Tech.       Ref. #
+  1   25     0.1        KCl            lgK:13.9(0.06SD)       4         MGL         1070
+
+
+Reaction No. 7674
+2<MoO4-2> + LRhamnose + 3<H+1> = H+1(3)_LRhamnose_MoO4-2(2)
+ No    t     I-Str     Medium             Value (Dev)         W        Tech.       Ref. #
+  1   25      0.1        KCl           lgK:17.6(0.1SD)        4         MGL        1070
+
+
+Reaction No. 7675
+2<MoO4-2> + DMannose + 3<H+1> = H+1(3)_DMannose_MoO4-2(2)
+ No    t     I-Str     Medium             Value (Dev)         W        Tech.       Ref. #
+  1   25      0.1        KCl           lgK:18.1(0.1SD)        4         MGL        1070
+
+
+Reaction No. 7676
+2<MoO4-2> + DLyxose + 3<H+1> = H+1(3)_DLyxose_MoO4-2(2)
+ No    t     I-Str     Medium             Value (Dev)         W        Tech.       Ref. #
+  1   25      0.1        KCl           lgK:18.7(0.1SD)        3         MGL        1070
+
+
+Reaction No. 9379
+MoO4-2 + WO3_NTA-3 = MoO3_NTA-3 + WO4-2
+ No   t    I-Str          Medium               Value (Dev)        W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:1.0(2SF)        1      ELC
+ 2    28    1.3           Unknown             lgK:0.15(2SF)       6      MMR        1118
+
+
+Reaction No. 9380
+MoO4-2 + NTA-3 + 2<H+1> = MoO3_NTA-3 + H2O
+ No   t     I-Str      Medium             Value (Dev)         W        Tech.       Ref. #
+
+
+
+
+                                       – Page 6 of 80 –
+JESS Thermodynamic Database v8.9                                    Molybdenum
+
+
+ 1    25    0.15        KNO3           lgK:18.9(0.03SD)         4     MGL         1118
+ 2    25     0.5       NaClO4          lgK:17.9(0.03SD)         0     MGL         1118
+ 3    25      3        NaClO4          lgK:18.6(0.2SD)          5     MPS         6969
+ 4    35    1:2.5      Unknown         lgK:18.9(0.08SD)         3     MMR         1118
+
+
+Reaction No. 9906
+2<H+1> + Erythritol + 2<MoO4-2> = H+1(2)_Erythritol_MoO4-2(2)
+ No   t     I-Str      Medium           Value (Dev)             W    Tech.       Ref. #
+  1   25     0.1        KCl           lgK:15.2(0.06SD)          4     MGL         1079
+
+
+Reaction No. 9907
+3<H+1> + Erythritol + 2<MoO4-2> = H+1(3)_Erythritol_MoO4-2(2)
+ No    t     I-Str     Medium           Value (Dev)             W    Tech.       Ref. #
+  1   25      0.1        KCl          lgK:19.5(0.1SD)           3     MGL        1079
+
+
+Reaction No. 9908
+2<H+1> + Adonitol + 2<MoO4-2> = H+1(2)_Adonitol_MoO4-2(2)
+ No   t     I-Str      Medium           Value (Dev)             W    Tech.       Ref. #
+  1   25     0.1        KCl           lgK:15.6(0.06SD)          4     MGL         1079
+
+
+Reaction No. 9909
+3<H+1> + Adonitol + 2<MoO4-2> = H+1(3)_Adonitol_MoO4-2(2)
+ No    t     I-Str     Medium           Value (Dev)             W    Tech.       Ref. #
+  1   25      0.1        KCl          lgK:19.5(0.1SD)           3     MGL        1079
+
+
+Reaction No. 9910
+2<H+1> + Xylitol + 2<MoO4-2> = H+1(2)_Xylitol_MoO4-2(2)
+ No   t     I-Str      Medium           Value (Dev)             W    Tech.       Ref. #
+  1   25     0.1        KCl           lgK:16.3(0.06SD)          4     MGL         1079
+
+
+Reaction No. 9911
+3<H+1> + Xylitol + 2<MoO4-2> = H+1(3)_Xylitol_MoO4-2(2)
+ No    t     I-Str     Medium           Value (Dev)             W    Tech.       Ref. #
+  1   25      0.1        KCl          lgK:19.7(0.1SD)           3     MGL        1079
+
+
+Reaction No. 9912
+2<H+1> + DArabitol + 2<MoO4-2> = H+1(2)_DArabitol_MoO4-2(2)
+ No   t     I-Str      Medium           Value (Dev)             W    Tech.       Ref. #
+
+
+
+
+                                      – Page 7 of 80 –
+JESS Thermodynamic Database v8.9                                    Molybdenum
+
+
+  1   25     0.1        KCl           lgK:16.4(0.06SD)          4     MGL         1079
+
+
+Reaction No. 9913
+3<H+1> + DArabitol + 2<MoO4-2> = H+1(3)_DArabitol_MoO4-2(2)
+ No    t     I-Str     Medium           Value (Dev)             W    Tech.       Ref. #
+  1   25      0.1        KCl          lgK:20.5(0.1SD)           3     MGL        1079
+
+
+Reaction No. 9914
+2<H+1> + DMannitol + 2<MoO4-2> = H+1(2)_DMannitol_MoO4-2(2)
+ No   t     I-Str      Medium           Value (Dev)             W    Tech.       Ref. #
+  1   25     0.1        KCl           lgK:16.7(0.06SD)          4     MGL         1079
+
+
+Reaction No. 9915
+3<H+1> + DMannitol + 2<MoO4-2> = H+1(3)_DMannitol_MoO4-2(2)
+ No    t     I-Str     Medium           Value (Dev)             W    Tech.       Ref. #
+  1   25      0.1        KCl          lgK:20.8(0.1SD)           3     MGL        1079
+
+
+Reaction No. 9916
+2<H+1> + DSorbitol + 2<MoO4-2> = H+1(2)_DSorbitol_MoO4-2(2)
+ No   t     I-Str      Medium           Value (Dev)             W    Tech.       Ref. #
+  1   25     0.1        KCl           lgK:16.6(0.06SD)          4     MGL         1079
+
+
+Reaction No. 9917
+3<H+1> + DSorbitol + 2<MoO4-2> = H+1(3)_DSorbitol_MoO4-2(2)
+ No    t     I-Str     Medium           Value (Dev)             W    Tech.       Ref. #
+  1   25      0.1        KCl          lgK:20.5(0.1SD)           3     MGL        1079
+
+
+Reaction No. 9918
+2<H+1> + Galactitol + 2<MoO4-2> = H+1(2)_Galactitol_MoO4-2(2)
+ No   t     I-Str      Medium           Value (Dev)             W    Tech.       Ref. #
+  1   25     0.1        KCl           lgK:17.3(0.06SD)          4     MGL         1079
+
+
+Reaction No. 9919
+3<H+1> + Galactitol + 2<MoO4-2> = H+1(3)_Galactitol_MoO4-2(2)
+ No    t     I-Str     Medium           Value (Dev)             W    Tech.       Ref. #
+  1   25      0.1        KCl          lgK:20.9(0.1SD)           3     MGL        1079
+
+
+Reaction No. 10415
+
+
+
+
+                                      – Page 8 of 80 –
+JESS Thermodynamic Database v8.9                                            Molybdenum
+
+
+2<Maleic-2> + MoO2+2 = MoO2+2_Maleic-2(2)
+ No       t     I-Str     Medium            Value (Dev)         W           Tech.        Ref. #
+  1    27           1      KCl           lgK:4.28(3SF)          6            MPL          999
+
+
+Reaction No. 17547
+MoO4-2 + IDA-2 + 2<H+1> = H+1(2)_IDA-2_MoO4-2
+ No    t       I-Str     Medium             Value (Dev)             W        Tech.       Ref. #
+  1   25       0.15      Unknown         lgK:18.3(0.1SD)            4         MGL         1397
+
+
+Reaction No. 17983
+MoO4-2 + MIDA-2 + 2<H+1> = H+1(2)_MIDA-2_MoO4-2
+ No    t       I-Str    Medium              Value (Dev)             W        Tech.       Ref. #
+ 1    25       0.15     Unknown         lgK:18.7(0.04SD)            4         MGL         1397
+
+
+Reaction No. 17984
+MoO4-2 + NTA-3 + 2<H+1> = H+1(2)_MoO4-2_NTA-3
+ No   t       I-Str     Medium              Value (Dev)             W         Tech.      Ref. #
+ 1    25       0.15     Unknown         lgK:18.9(0.03SD)            4          MGL        1397
+ 2    25        1        NaCl           lgK:17.78(0.02MD)           5          MGL        2962
+ 3    25        1        NaCl            dH:-69.(1.MD)kJ            5          MCL        2962
+
+
+Reaction No. 17987
+EDTA-4 + MoO4-2 + 2<H+1> = H+1(2)_MoO4-2_EDTA-4
+ No   t       I-Str        Medium               Value (Dev)             W     Tech.      Ref. #
+ 1    25        0       Inf. Dilution          lgK:19.7(4SF)            1      EOR
+ 2    25      0.15         Unknown             lgK:19.(0.4SD)           3      MGL        1397
+
+
+Reaction No. 17988
+H+1(2)_MoO4-2_EDTA-4 + MoO4-2 + 2<H+1> = H+1(4)_MoO4-2(2)_EDTA-4
+ No    t       I-Str      Medium            Value (Dev)         W            Tech.       Ref. #
+  1   25        0.15     Unknown         lgK:18.(0.3SD)         3             MGL         1397
+
+
+Reaction No. 19275
+IDA-2 + MoO4-2 = IDA-2_MoO4-2
+ No    t       I-Str    Medium            Value (Dev)               W        Tech.       Ref. #
+  1   25            3   NaClO4          lgK:18.5(0.05SD)            4         MGL         1659
+
+
+Reaction No. 19276
+
+
+
+
+                                        – Page 9 of 80 –
+JESS Thermodynamic Database v8.9                                     Molybdenum
+
+
+NTA-3 + MoO4-2 = MoO4-2_NTA-3
+ No       t     I-Str      Medium           Value (Dev)          W       Tech.     Ref. #
+  1    25            3     NaClO4         lgK:18.6(0.1SD)        3       MGL       1659
+
+
+Reaction No. 19277
+EDDA-2 + MoO4-2 = EDDA-2_MoO4-2
+ No       t     I-Str      Medium           Value (Dev)          W       Tech.     Ref. #
+  1    25            3     NaClO4        lgK:19.7(0.03SD)        3        MGL       1659
+
+
+Reaction No. 19278
+EDTA-4 + MoO4-2 = MoO4-2_EDTA-4
+ No   t       I-Str         Medium               Value (Dev)         W     Tech.   Ref. #
+ 1    25        0        Inf. Dilution         lgK:17.48(4SF)        1      EOR
+ 2    25        3           NaClO4            lgK:18.8(0.06SD)       4      MGL     1659
+
+
+Reaction No. 19279
+2<EDTA-4> + MoO4-2 = MoO4-2_EDTA-4(2)
+ No   t       I-Str         Medium               Value (Dev)         W     Tech.   Ref. #
+ 1    25        0        Inf. Dilution         lgK:30.82(4SF)        1      EOR
+ 2    25        3           NaClO4            lgK:36.1(0.03SD)       4      MGL     1659
+
+
+Reaction No. 21724
+MoO4-2 + 2<H+1(2)_Oxalic-2> + 2<H+1> = H+1(6)_MoO4-2_Oxalic-2(2)
+ No    t       I-Str      Medium            Value (Dev)          W       Tech.     Ref. #
+ 1    25        0.6        NaCl          lgK:17.11(0.01MD)       6        MGL       1838
+
+
+Reaction No. 21725
+MoO4-2 + H+1(2)_Oxalic-2 + 2<H+1> = H+1(4)_MoO4-2_Oxalic-2
+ No    t       I-Str      Medium            Value (Dev)          W       Tech.     Ref. #
+ 1    25        0.6        NaCl          lgK:13.07(0.02MD)       4        MGL       1838
+
+
+Reaction No. 27789
+Citric-3 + MoO4-2 + H+1 = H+1_MoO4-2_Citric-3
+ No   t       I-Str         Medium              Value (Dev)          W     Tech.   Ref. #
+ 1    2         1            NaCl             lgK:9.10(0.01MD)       5      MPS     5794
+ 2    20       0.2           KNO3              lgK:8.30(3SF)         5      MGL     3435
+ 3    25        0        Inf. Dilution         lgK:7.994(4SF)        1      EOR
+
+
+
+
+                                         – Page 10 of 80 –
+JESS Thermodynamic Database v8.9                              Molybdenum
+
+
+ 4    25     1           NaCl              lgK:8.25(0.02MD)   5   MPT      1182
+ 5    25     1           NaCl              lgK:8.35(0.01MD)   5   MPS      5794
+ 6    25     1           NaCl             dH:-49.4(0.4SD)kJ   5   MCL      1182
+ 7    25     1           NaCl             dH:-48.5(0.5MD)kJ   5   MCL      5794
+
+
+Reaction No. 27790
+Citric-3 + MoO4-2 + 2<H+1> = H+1(2)_MoO4-2_Citric-3
+ No   t    I-Str        Medium               Value (Dev)      W   Tech.    Ref. #
+ 1    2      1           NaCl             lgK:15.78(0.02MD)   5   MPS      5794
+ 2    20    0.2          KNO3               lgK:15.6(3SF)     5   MGL      3435
+ 3    25     0       Inf. Dilution          lgK:16.02(4SF)    1   EOR
+ 4    25     1           NaCl             lgK:15.08(0.01MD)   5   MPT      1182
+ 5    25     1           NaCl             lgK:15.00(0.01MD)   5   MPS      5794
+ 6    25     1           NaCl             dH:-60.2(0.2SD)kJ   5   MCL      1182
+ 7    25     1           NaCl             dH:-55.6(0.5MD)kJ   5   MCL      5794
+
+
+Reaction No. 27791
+Citric-3 + MoO4-2 + 3<H+1> = H+1(3)_MoO4-2_Citric-3
+ No   t    I-Str        Medium               Value (Dev)      W   Tech.    Ref. #
+ 1    2      1           NaCl             lgK:20.56(0.03MD)   5   MPS      5794
+ 2    20    0.2          KNO3               lgK:20.4(3SF)     5   MGL      3435
+ 3    25     0       Inf. Dilution          lgK:21.61(4SF)    1   EOR
+ 4    25     1           NaCl             lgK:19.66(0.02MD)   5   MPT      1182
+ 5    25     1           NaCl             lgK:19.62(0.01SD)   5   MPS      5794
+ 6    25     1           NaCl             dH:-67.4(0.2SD)kJ   5   MCL      1182
+ 7    25     1           NaCl             dH:-66.5(1.6MD)kJ   5   MCL      5794
+
+
+Reaction No. 27792
+Citric-3 + 2<MoO4-2> + 4<H+1> = H+1(4)_MoO4-2(2)_Citric-3
+ No   t    I-Str        Medium               Value (Dev)      W   Tech.    Ref. #
+ 1    25     0       Inf. Dilution          lgK:28.9(4SF)     1   EOR
+ 2    25     1           NaCl              lgK:27.3(0.2MD)    5   MPT      1182
+ 3    25     1           NaCl             lgK:26.90(0.06MD)   5   MPT      5794
+ 4    25     1           NaCl              dH:-124.(6.SD)kJ   5   MCL      1182
+ 5    25     1           NaCl              dH:-117.(8.MD)kJ   5   MCL      5794
+
+
+Reaction No. 27793
+
+
+
+
+                                      – Page 11 of 80 –
+JESS Thermodynamic Database v8.9                                         Molybdenum
+
+
+Citric-3 + 2<MoO4-2> + 5<H+1> = H+1(5)_MoO4-2(2)_Citric-3
+ No   t        I-Str            Medium              Value (Dev)          W     Tech.      Ref. #
+ 1    2          1               NaCl            lgK:33.32(0.05MD)       0         MPT     5794
+ 2    25         0           Inf. Dilution         lgK:34.69(4SF)        1         EOR
+ 3    25         1               NaCl            lgK:31.86(0.05MD)       3         MPT     1182
+ 4    25         1               NaCl            lgK:31.53(0.03MD)       3         MPT     5794
+ 5    25         1               NaCl           dH:-125.9(0.3SD)kJ       3         MCL     1182
+ 6    25         1               NaCl             dH:-117.(8.MD)kJ       3         MCL     5794
+
+
+Reaction No. 29076
+Asp-2 + MoO2+2 = MoO2+2_Asp-2
+ No        t         I-Str       Medium         Value (Dev)          W   Tech.           Ref. #
+  1       25          0.1        NaClO4        lgK:9.29(3SF)         6       MGL         1814
+
+
+Reaction No. 29077
+MoO2+2_Asp-2 + Asp-2 = MoO2+2_Asp-2(2)
+ No        t         I-Str       Medium         Value (Dev)          W   Tech.           Ref. #
+  1       25          0.1        NaClO4        lgK:7.71(3SF)         6       MGL         1814
+
+
+Reaction No. 29078
+MoO2+2_Asp-2(2) + Asp-2 = MoO2+2_Asp-2(3)
+ No        t         I-Str       Medium         Value (Dev)          W   Tech.           Ref. #
+  1       25          0.1        NaClO4        lgK:3.88(3SF)         6       MGL         1814
+
+
+Reaction No. 29079
+Glu-2 + MoO2+2 = MoO2+2_Glu-2
+ No        t         I-Str       Medium         Value (Dev)          W   Tech.           Ref. #
+  1       25          0.1        NaClO4        lgK:9.23(3SF)         6       MGL         1814
+
+
+Reaction No. 29080
+MoO2+2_Glu-2 + Glu-2 = MoO2+2_Glu-2(2)
+ No        t         I-Str       Medium         Value (Dev)          W   Tech.           Ref. #
+  1       25          0.1        NaClO4        lgK:7.60(3SF)         6       MGL         1814
+
+
+Reaction No. 29081
+MoO2+2_Glu-2(2) + Glu-2 = MoO2+2_Glu-2(3)
+ No        t         I-Str       Medium         Value (Dev)          W   Tech.           Ref. #
+
+
+
+
+                                             – Page 12 of 80 –
+JESS Thermodynamic Database v8.9                                    Molybdenum
+
+
+  1   25      0.1       NaClO4          lgK:3.50(3SF)       6        MGL         1814
+
+
+Reaction No. 29103
+EDTA-4 + MoO3 = MoO3_EDTA-4
+ No    t     I-Str      Medium           Value (Dev)        W       Tech.        Ref. #
+  1   20      0.1        KNO3           lgK:10.(2SF)        5        ENS         2373
+  2   25      0.1       NaClO4          lgK:10.(2SF)        6        EIU          903
+  3   25      0.1       NaClO4          lgK:10.0(3SF)       3        MGL          906
+
+
+Reaction No. 30841
+H+1 + 2<Lactic-1> + MoO4-2 = H+1_Lactic-1(2)_MoO4-2
+ No    t     I-Str      Medium           Value (Dev)        W       Tech.        Ref. #
+  1   25          1      NaCl           lgK:7.(0.5SD)       5        MGL         1938
+
+
+Reaction No. 30842
+2<H+1> + 2<Lactic-1> + MoO4-2 = H+1(2)_Lactic-1(2)_MoO4-2
+ No   t     I-Str     Medium            Value (Dev)             W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:15.71(0.01SD)          5     MGL         1938
+ 2    25      1        NaCl           dH:-72.(2.SD)kJ           5     MCL         1938
+
+
+Reaction No. 30896
+3<H+1> + 2<Lactic-1> + MoO4-2 = H+1(3)_Lactic-1(2)_MoO4-2
+ No   t     I-Str      Medium           Value (Dev)             W    Tech.       Ref. #
+  1   25      1         NaCl          lgK:16.8(0.09SD)          5     MGL         1938
+
+
+Reaction No. 30897
+2<H+1> + Lactic-1 + MoO4-2 = H+1(2)_Lactic-1_MoO4-2
+ No   t     I-Str      Medium           Value (Dev)             W    Tech.       Ref. #
+  1   25      1         NaCl          lgK:11.8(0.03SD)          5     MGL         1938
+
+
+Reaction No. 30898
+3<H+1> + Lactic-1 + MoO4-2 = H+1(3)_Lactic-1_MoO4-2
+ No    t     I-Str      Medium           Value (Dev)        W        Tech.       Ref. #
+  1   25       1         NaCl          lgK:13.(0.3SD)       5        MGL          1938
+
+
+Reaction No. 30899
+2<H+1> + 2<Lactic-1> + 2<MoO4-2> = H+1(2)_Lactic-1(2)_MoO4-2(2)
+ No    t     I-Str     Medium            Value (Dev)            W    Tech.       Ref. #
+
+
+
+
+                                      – Page 13 of 80 –
+JESS Thermodynamic Database v8.9                                       Molybdenum
+
+
+  1   25         1      NaCl           lgK:16.1(0.1SD)         5         MGL         1938
+
+
+Reaction No. 30900
+3<H+1> + 2<Lactic-1> + 2<MoO4-2> = H+1(3)_Lactic-1(2)_MoO4-2(2)
+ No    t     I-Str     Medium              Value (Dev)         W        Tech.       Ref. #
+  1   25         1      NaCl           lgK:21.7(0.1SD)         5         MGL         1938
+
+
+Reaction No. 30901
+4<H+1> + 2<Lactic-1> + 2<MoO4-2> = H+1(4)_Lactic-1(2)_MoO4-2(2)
+ No    t     I-Str      Medium             Value (Dev)         W        Tech.       Ref. #
+  1   25         1       NaCl             lgK:25.(0.3SD)       5        MGL         1938
+
+
+Reaction No. 30902
+3<H+1> + Lactic-1 + 2<MoO4-2> = H+1(3)_Lactic-1_MoO4-2(2)
+ No    t     I-Str      Medium             Value (Dev)         W        Tech.       Ref. #
+  1   25         1       NaCl             lgK:18.(0.4SD)       5        MGL         1938
+
+
+Reaction No. 30903
+4<H+1> + Lactic-1 + 2<MoO4-2> = H+1(4)_Lactic-1_MoO4-2(2)
+ No    t     I-Str     Medium              Value (Dev)         W        Tech.       Ref. #
+  1   25         1      NaCl           lgK:21.5(0.1SD)         5         MGL         1938
+
+
+Reaction No. 30904
+5<H+1> + Lactic-1 + 2<MoO4-2> = H+1(5)_Lactic-1_MoO4-2(2)
+ No    t     I-Str     Medium              Value (Dev)         W        Tech.       Ref. #
+  1   25         1      NaCl           lgK:23.1(0.1SD)         5         MGL         1938
+
+
+Reaction No. 32693
+2AmButan-1 + MoO4-2 = 2AmButan-1_MoO4-2
+ No   t    I-Str          Medium                Value (Dev)        W     Tech.      Ref. #
+ 1    20    0.1            KNO3                lgK:8.21(3SF)       6      MGL        2995
+ 2    25     0         Inf. Dilution           lgK:7.8(2SF)        1      EDH
+ 3    25     0             KNO3                lgK:8.27(3SF)       0      MGL        2995
+ 4    25    0.02           KNO3                lgK:8.21(3SF)       3      MGL        2995
+ 5    25    0.05           KNO3                lgK:8.18(3SF)       6      MGL        2995
+ 6    25    0.1            KNO3                lgK:8.16(3SF)       6      MGL        2995
+ 7    25    0.2            KNO3                lgK:8.15(3SF)       3      MGL        2995
+
+
+
+
+                                       – Page 14 of 80 –
+JESS Thermodynamic Database v8.9                                           Molybdenum
+
+
+ 8    30    0.1            KNO3              lgK:8.11(3SF)             6      MGL        2995
+ 9    35    0.1            KNO3              lgK:8.05(3SF)             6      MGL        2995
+ 10   40    0.1            KNO3              lgK:8.00(3SF)             6      MGL        2995
+ 11   25    0.1            KNO3                 dH:-4.5(2SF)           6      MCL        2995
+
+
+Reaction No. 32694
+2AmButan-1_MoO4-2 + 2AmButan-1 = 2AmButan-1(2)_MoO4-2
+ No    t     I-Str      Medium           Value (Dev)           W           Tech.        Ref. #
+  1    20     0.1        KNO3           lgK:7.48(3SF)          2            MGL         2995
+  2    25         0      KNO3           lgK:7.55(3SF)          2            MGL         2995
+  3    25     0.02       KNO3           lgK:7.49(3SF)          2            MGL         2995
+  4    25     0.05       KNO3           lgK:7.46(3SF)          2            MGL         2995
+  5    25     0.1        KNO3           lgK:7.45(3SF)          2            MGL         2995
+  6    25     0.2        KNO3           lgK:7.44(3SF)          2            MGL         2995
+  7    30     0.1        KNO3           lgK:7.42(3SF)          2            MGL         2995
+  8    35     0.1        KNO3           lgK:7.40(3SF)          2            MGL         2995
+  9    40     0.1        KNO3           lgK:7.37(3SF)          2            MGL         2995
+ 10    25     0.1        KNO3           dH:-6.7(2SF)           2            MCL         2995
+
+
+Reaction No. 32695
+2AmButan-1(2)_MoO4-2 + 2AmButan-1 = 2AmButan-1(3)_MoO4-2
+ No    t     I-Str      Medium           Value (Dev)           W           Tech.        Ref. #
+  1    20     0.1        KNO3           lgK:3.64(3SF)          3            MGL         2995
+  2    25         0      KNO3           lgK:3.70(3SF)          0            MGL         2995
+  3    25     0.02       KNO3           lgK:3.65(3SF)          3            MGL         2995
+  4    25     0.05       KNO3           lgK:3.63(3SF)          6            MGL         2995
+  5    25     0.1        KNO3           lgK:3.62(3SF)          6            MGL         2995
+  6    25     0.2        KNO3           lgK:3.62(3SF)          3            MGL         2995
+  7    30     0.1        KNO3           lgK:3.59(3SF)          6            MGL         2995
+  8    35     0.1        KNO3           lgK:3.56(3SF)          6            MGL         2995
+  9    40     0.1        KNO3           lgK:3.54(3SF)          6            MGL         2995
+ 10    25     0.1        KNO3           dH:-8.9(2SF)           6            MCL         2995
+
+
+Reaction No. 33195
+3<H+1> + NTA-3 + MoO4-2 = H+1(3)_MoO4-2_NTA-3
+ No   t     I-Str     Medium            Value (Dev)                W        Tech.       Ref. #
+ 1    25      1        NaCl          lgK:21.02(0.02MD)             5         MGL         2962
+
+
+
+
+                                      – Page 15 of 80 –
+JESS Thermodynamic Database v8.9                                    Molybdenum
+
+
+ 2    25      1        NaCl           dH:-71.2(2.MD)kJ          5     MCL         2962
+
+
+Reaction No. 33196
+4<H+1> + NTA-3 + MoO4-2 = H+1(4)_MoO4-2_NTA-3
+ No   t     I-Str     Medium            Value (Dev)             W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:22.57(0.07MD)          5     MGL         2962
+ 2    25      1        NaCl            dH:-71.(2SF)kJ           3     MCL         2962
+
+
+Reaction No. 33197
+7<H+1> + 2<NTA-3> + 2<MoO4-2> = H+1(7)_MoO4-2(2)_NTA-3(2)
+ No   t     I-Str     Medium            Value (Dev)             W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:45.16(0.05MD)          5     MGL         2962
+ 2    25      1        NaCl           dH:-123.(4.MD)kJ          5     MCL         2962
+
+
+Reaction No. 33198
+8<H+1> + 2<NTA-3> + 2<MoO4-2> = H+1(8)_MoO4-2(2)_NTA-3(2)
+ No   t     I-Str     Medium            Value (Dev)             W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:47.95(0.02MD)          5     MGL         2962
+ 2    25      1        NaCl           dH:-132.(2.MD)kJ          5     MCL         2962
+
+
+Reaction No. 33199
+5<H+1> + NTA-3 + 2<MoO4-2> = H+1(5)_MoO4-2(2)_NTA-3
+ No   t     I-Str     Medium            Value (Dev)             W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:30.74(0.12MD)          5     MGL         2962
+
+
+Reaction No. 33200
+6<H+1> + NTA-3 + 2<MoO4-2> = H+1(6)_MoO4-2(2)_NTA-3
+ No   t     I-Str     Medium            Value (Dev)             W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:33.09(0.04MD)          5     MGL         2962
+
+
+Reaction No. 33570
+MoO+2_OH-1 + H+1(2)_Cys-2 = Mo+4_OH-1(2)_Cys-2 + H+1
+ No    t     I-Str      Medium           Value (Dev)        W       Tech.        Ref. #
+  1   20      0.5        NaTs           lgK:2.04(3SF)       4        MJM         3213
+
+
+Reaction No. 34509
+2<H+1> + Malic-2 + MoO4-2 = H+1(2)_Malic-2_MoO4-2
+ No   t     I-Str     Medium            Value (Dev)             W    Tech.       Ref. #
+
+
+
+
+                                      – Page 16 of 80 –
+JESS Thermodynamic Database v8.9                                            Molybdenum
+
+
+ 1    20        0.2          KNO3             lgK:13.7(3SF)             5         MGL      3435
+ 2    25            1        NaCl           lgK:13.34(0.10MD)           5         MPS      6322
+ 3    25            1        NaCl           lgK:13.23(0.01MD)           5         MPT      6322
+ 4    25            1        NaCl           dH:-55.5(1.2MD)kJ           5         MCL      6322
+
+
+Reaction No. 34510
+2<H+1> + 2<Malic-2> + MoO4-2 = H+1(2)_Malic-2(2)_MoO4-2
+ No    t       I-Str        Medium             Value (Dev)              W        Tech.    Ref. #
+ 1    20        0.2          KNO3             lgK:15.6(3SF)             5         MGL      3435
+ 2    25            1        NaCl           lgK:15.48(0.01MD)           5         MPT      6322
+ 3    25            1        NaCl           dH:-77.0(0.2MD)kJ           5         MCL      6322
+
+
+Reaction No. 35916
+MoO4-2 + 2<Malic-2> + 2<H+1> = MoO2+2_H+1(-2)_Malic-2(2) + 2<H2O>
+ No       t     I-Str         Medium           Value (Dev)          W           Tech.     Ref. #
+  1    30           1         NaClO4         lgK:13.89(4SF)         5            MPS       1424
+
+
+Reaction No. 35917
+2<MoO2+2_H+1(-2)_Malic-2(2)> + 2<H+1> + 3<H2O> = Mo2O5+2_OH-1(2)_Malic-2(2) + 2
+<H+1_Malic-2>
+ No       t     I-Str         Medium           Value (Dev)          W           Tech.     Ref. #
+  1    30           1         NaClO4         lgK:22.31(4SF)         5            MPS       1424
+
+
+Reaction No. 35918
+Mo2O5+2_OH-1(2)_Malic-2(2) + H+1 = Mo2O5+2_H+1_OH-1(2)_Malic-2(2)
+ No       t     I-Str         Medium           Value (Dev)          W           Tech.     Ref. #
+  1    30               1     NaClO4          lgK:8.17(3SF)         5           MPS       1424
+
+
+Reaction No. 35919
+MoO4-2 + 2<Oxalic-2> + 2<H+1> = MoO2+2_OH-1(2)_Oxalic-2(2)
+ No   t       I-Str            Medium               Value (Dev)             W     Tech.   Ref. #
+ 1    25        0           Inf. Dilution          lgK:16.5(3SF)            1      ESC
+ 2    30        1              NaClO4             lgK:16.5(0.2SD)           5      MPS     1427
+
+
+Reaction No. 35920
+Mo2O5+2_OH-1(2)_Oxalic-2(2) + H+1 = Mo2O5+2_OH-1_Oxalic-2(2) + H2O
+ No   t       I-Str            Medium               Value (Dev)             W     Tech.   Ref. #
+ 1    25        0           Inf. Dilution          lgK:14.6(3SF)            1      ESC
+
+
+
+
+                                            – Page 17 of 80 –
+JESS Thermodynamic Database v8.9                                               Molybdenum
+
+
+ 2    30       1                 NaClO4          lgK:14.6(0.1SD)               5      MPS    1427
+
+
+Reaction No. 36325
+MoO4-2 + Sulfox-2 + 2<H+1> = MoO3_Sulfox-2 + H2O
+ No        t           I-Str      Medium        Value (Dev)                W        Tech.   Ref. #
+ 1     15:17            0.1        KNO3      lgK:19.5(0.05SD)              4         MGL      906
+
+
+Reaction No. 37540
+MoO4-2 + 2<H+1(2)_Cat-2> = MoO2+2_Cat-2(2) + 2<H2O>
+ No    t        I-Str            Medium       Value (Dev)          W               Tech.    Ref. #
+  1    20          0.1           NaHSO3      lgK:5.27(3SF)         5               MSP       140
+  2    26          0.1           NaHSO3      lgK:4.61(3SF)         5               MSP       140
+
+
+Reaction No. 39571
+MoO4-2 + H+1_Asp-2 + H+1 = H+1(2)_Asp-2_MoO4-2
+ No    t       I-Str           Medium         Value (Dev)              W            Tech.   Ref. #
+ 1    25           1            NaCl       lgK:6.54(0.01MD)            5             MPT     2222
+ 2    25           1            NaCl       dH:-26.8(0.4MD)kJ           5             MCL     2222
+
+
+Reaction No. 39572
+MoO4-2 + H+1_Asp-2 + 2<H+1> = H+1(3)_Asp-2_MoO4-2
+ No    t       I-Str            Medium        Value (Dev)              W           Tech.    Ref. #
+  1   25           1             NaCl       lgK:9.84(0.1MD)            5            MPT      2222
+  2   25           1             NaCl       dH:-26.8(3SF)kJ            3            MCL      2222
+
+
+Reaction No. 39573
+MoO4-2 + 2<H+1_Asp-2> + H+1 = H+1(3)_Asp-2(2)_MoO4-2
+ No    t       I-Str           Medium         Value (Dev)              W            Tech.   Ref. #
+  1   25           1            NaCl       lgK:6.57(0.10MD)            5             MPT     2222
+
+
+Reaction No. 39574
+MoO4-2 + 2<H+1_Asp-2> + 2<H+1> = H+1(4)_Asp-2(2)_MoO4-2
+ No    t       I-Str           Medium         Value (Dev)              W            Tech.   Ref. #
+ 1    25           1            NaCl       lgK:11.47(0.04MD)           5             MPT     2222
+ 2    25           1            NaCl        dH:-38.(2.MD)kJ            5             MCL     2222
+
+
+Reaction No. 39575
+2<MoO4-2> + H+1_Asp-2 + 4<H+1> = H+1(5)_Asp-2_MoO4-2(2)
+
+
+
+
+                                           – Page 18 of 80 –
+JESS Thermodynamic Database v8.9                                     Molybdenum
+
+
+ No   t     I-Str     Medium            Value (Dev)              W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:21.20(0.05MD)           5     MPT         2222
+ 2    25      1        NaCl           dH:-97.(8.MD)kJ            5     MCL         2222
+
+
+Reaction No. 39576
+2<MoO4-2> + H+1_Asp-2 + 5<H+1> = H+1(6)_Asp-2_MoO4-2(2)
+ No   t     I-Str     Medium            Value (Dev)              W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:23.50(0.05MD)           5     MPT         2222
+ 2    25      1        NaCl           dH:-83.(10.MD)kJ           5     MCL         2222
+
+
+Reaction No. 39577
+4<MoO4-2> + 4<H+1_Asp-2> + 9<H+1> = H+1(13)_Asp-2(4)_MoO4-2(4)
+ No   t     I-Str     Medium            Value (Dev)              W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:50.86(0.11MD)           5     MPT         2222
+ 2    25      1        NaCl          dH:-126.(40.MD)kJ           3     MCL         2222
+
+
+Reaction No. 39578
+4<MoO4-2> + 4<H+1_Asp-2> + 10<H+1> = H+1(14)_Asp-2(4)_MoO4-2(4)
+ No   t     I-Str     Medium            Value (Dev)              W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:53.48(0.34MD)           5     MPT         2222
+ 2    25      1        NaCl          dH:-126.(40.MD)kJ           3     MCL         2222
+
+
+Reaction No. 39579
+2<MoO4-2> + 4<H+1_Asp-2> + 8<H+1> = H+1(12)_Asp-2(4)_MoO4-2(2)
+ No   t     I-Str     Medium            Value (Dev)              W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:37.74(0.10MD)           5     MPT         2222
+ 2    25      1        NaCl           dH:-62.(30.MD)kJ           4     MCL         2222
+
+
+Reaction No. 40388
+H+1(2)_MoO4-2 + H+1(2)_Oxalic-2 = MoO2+2_Oxalic-2 + 2<H2O>
+ No    t     I-Str     Medium            Value (Dev)            W     Tech.       Ref. #
+  1   25     0.112      HClO4         lgK:3.9(0.03SD)           5      MPL         931
+  2   25     0.179      HClO4         lgK:3.8(0.04SD)           5      MPL         931
+  3   25     0.345      HClO4         lgK:3.5(0.04SD)           5      MPL         931
+
+
+Reaction No. 40389
+H+1(2)_MoO4-2 + 2<H+1_Oxalic-2> = MoO2+2_Oxalic-2(2) + 2<H2O>
+
+
+
+
+                                      – Page 19 of 80 –
+JESS Thermodynamic Database v8.9                                              Molybdenum
+
+
+ No   t       I-Str          Medium               Value (Dev)             W      Tech.     Ref. #
+ 1    20       0.1            KClO4             lgK:7.4(0.05SD)           5       MDS        931
+ 2    25        0         Inf. Dilution          lgK:7.7(2SF)             1       ESC
+
+
+Reaction No. 41390
+MoO4-2 + 2<Tartaric-2> + 2<H+1> = MoO2+2_H+1(-2)_Tartaric-2(2) + 2<H2O >
+ No    t       I-Str       Medium            Value (Dev)              W        Tech.       Ref. #
+  1   18            1       NaCl          lgK:16.2(0.2SD)             5         MGL         3912
+
+
+Reaction No. 42160
+MoO4-2 + Cys-2 + 2<H+1> = MoO3_Cys-2 + H2O
+ No    t       I-Str       Medium            Value (Dev)              W        Tech.       Ref. #
+  1   18            1       NaCl          lgK:18.8(0.2SD)             5         MGL         2547
+
+
+Reaction No. 43047
+Malonic-2 + MoO2+2 = MoO2+2_Malonic-2
+ No       t     I-Str       Medium           Value (Dev)          W           Tech.        Ref. #
+  1    23                                   lgK:1.36(3SF)         3            ENS          906
+
+
+Reaction No. 43215
+Succinic-2 + MoO2+2 = MoO2+2_Succinic-2
+ No       t     I-Str        Medium           Value (Dev)         W            Tech.       Ref. #
+  1    22           0.1     Unknown         lgK:1.20(3SF)         4            MIX          906
+
+
+Reaction No. 43248
+H+1_MoO4-2 + H+1_Tartaric-2 = H+1(2)_MoO4-2_Tartaric-2
+ No       t     I-Str       Medium           Value (Dev)          W           Tech.        Ref. #
+  1    23                                   lgK:2.36(3SF)         4            MPM          906
+
+
+Reaction No. 43535
+Acac-1 + MoO2+2 = MoO2+2_Acac-1
+ No   t       I-Str           Medium              Value (Dev)             W      Tech.     Ref. #
+ 1    23                                        lgK:10.57(4SF)            0       MDS        906
+ 2    25        0         Inf. Dilution          lgK:10.6(3SF)            1       ESC
+
+
+Reaction No. 43536
+2<Acac-1> + MoO2+2 = MoO2+2_Acac-1(2)
+ No   t       I-Str           Medium              Value (Dev)             W      Tech.     Ref. #
+
+
+
+
+                                          – Page 20 of 80 –
+JESS Thermodynamic Database v8.9                                                Molybdenum
+
+
+ 1    23                                           lgK:20.49(4SF)           0       MDS        906
+ 2    25        0            Inf. Dilution          lgK:20.5(3SF)           1       ESC
+
+
+Reaction No. 43990
+MoO4-2 + 2<H+1(2)_SulfCat-3> = MoO2+2_SulfCat-3(2) + 2<H2O>
+ No         t       I-Str         Medium           Value (Dev)          W        Tech.       Ref. #
+ 1     18:22           0.1        Unknown         lgK:5.28(3SF)         4         MSP         906
+
+
+Reaction No. 43991
+MoO4-2 + 2<H+1(2)_Tiron-4> = MoO2+2_Tiron-4(2) + 2<H2O>
+ No         t       I-Str         Medium           Value (Dev)          W         Tech.      Ref. #
+ 1     18:22           0.1        Unknown         lgK:6.59(3SF)         4          MSP        906
+
+
+Reaction No. 44234
+MoO4-2 + H+1(6)_234THB-4(2) = MoO2+2_H+1(2)_234THB-4(2) + 2<H2O>
+ No         t       I-Str         Medium           Value (Dev)          W         Tech.      Ref. #
+ 1     18:22           0.1        Unknown         lgK:5.24(3SF)         4          MSP        906
+
+
+Reaction No. 44250
+MoO4-2 + H+1(6)_Gallic-4(2) = MoO2+2_H+1(2)_Gallic-4(2) + 2<H2O>
+ No         t       I-Str         Medium           Value (Dev)          W         Tech.      Ref. #
+ 1     18:22           0.1        Unknown         lgK:5.38(3SF)         4          MSP        906
+
+
+Reaction No. 44638
+MoO4-2 + H+1_Oxine-1 + H+1 = H+1(2)_Oxine-1_MoO4-2
+ No    t        I-Str         Medium            Value (Dev)         W            Tech.       Ref. #
+  1    25        0.2           NaNO3          lgK:10.29(4SF)        4            MKN          906
+  2    25        0.2           NaNO3          lgK:10.36(4SF)        4            MSP          906
+
+
+Reaction No. 44639
+Oxine-1 + MoO2+2 = MoO2+2_Oxine-1
+ No    t        I-Str         Medium            Value (Dev)         W            Tech.       Ref. #
+  1    23                                     lgK:17.04(4SF)        4            MDS          906
+
+
+Reaction No. 44640
+2<Oxine-1> + MoO2+2 = MoO2+2_Oxine-1(2)
+ No    t        I-Str         Medium            Value (Dev)         W            Tech.       Ref. #
+  1    23                                     lgK:33.02(4SF)        4            MDS          906
+
+
+
+
+                                             – Page 21 of 80 –
+JESS Thermodynamic Database v8.9                                                     Molybdenum
+
+
+
+Reaction No. 44641
+MoO2+2_OH-1 + Oxine-1 = MoO2+2_OH-1_Oxine-1
+ No       t        I-Str           Medium            Value (Dev)         W            Tech.       Ref. #
+  1    23                                          lgK:16.44(4SF)        4            MDS          906
+
+
+Reaction No. 44642
+MoO2+2_OH-1 + 2<Oxine-1> = MoO2+2_OH-1_Oxine-1(2)
+ No       t        I-Str           Medium            Value (Dev)         W            Tech.       Ref. #
+  1    23                                          lgK:30.02(4SF)        4            MDS          906
+
+
+Reaction No. 44789
+MoO4-2 + H+1(4)_23DiOH6SulfNaphthoic-3(2) = MoO2+2_23DiOH6SulfNaphthoic-3(2) + 2<H2O
+>
+ No           t           I-Str        Medium           Value (Dev)          W         Tech.      Ref. #
+ 1     18:22               0.1         Unknown         lgK:6.25(3SF)         4          MSP        906
+ 2     18:22                                           lgK:6.32(3SF)         4          MEP        906
+
+
+Reaction No. 44794
+MoO+3 + 2<H+1(2)_Chromotropic-4> = MoO+3_H+1(4)_Chromotropic-4(2)
+ No       t        I-Str            Medium            Value (Dev)        W            Tech.       Ref. #
+  1    23           0.1            Unknown          lgK:8.46(3SF)        4            MSP          906
+
+
+Reaction No. 44803
+H+1(2)_MoO4-2 + H+1(2)_Chromotropic-4 = H+1_MoO3_Chromotropic-4 + H+1 + H2O
+ No           t           I-Str        Medium          Value (Dev)       W            Tech.       Ref. #
+  1       20:22            0.1         NaClO4         lgK:-0.8(1SF)      4             MSP         906
+
+
+Reaction No. 44804
+H+1_MoO3_Chromotropic-4 + H+1(2)_Chromotropic-4 = MoO2+2_Chromotropic-4(2) + H+1 +
+H2O
+ No           t           I-Str        Medium          Value (Dev)       W            Tech.       Ref. #
+  1       20:22            0.1         NaClO4         lgK:-2.8(2SF)      4             MSP         906
+
+
+Reaction No. 44851
+MoO4-2 + EDTA-4 + 2<H+1> = MoO3_EDTA-4 + H2O
+ No   t           I-Str              Medium               Value (Dev)            W      Tech.     Ref. #
+ 1    25            0             Inf. Dilution          lgK:18.5(3SF)           1       ELC
+ 2    25          0.15               Unknown            lgK:19.(0.4SD)           0       MGL        906
+
+
+
+                                                  – Page 22 of 80 –
+JESS Thermodynamic Database v8.9                                            Molybdenum
+
+
+ 3    35    1:2.5        Unknown               lgK:18.(0.3SD)           1      MMR         906
+
+
+Reaction No. 44852
+MoO4-2 + MoO3_EDTA-4 + 2<H+1> = MoO3(2)_EDTA-4 + H2O
+ No    t     I-Str      Medium              Value (Dev)             W        Tech.       Ref. #
+  1   25     0.15      Unknown          lgK:17.(0.3SD)              4         MGL         906
+  2   35     1:2.5     Unknown         lgK:17.2(0.2SD)              4         MMR         906
+
+
+Reaction No. 44853
+MoO3_EDTA-4 + H+1 = H+1_MoO3_EDTA-4
+ No    t      I-Str        Medium             Value (Dev)           W        Tech.       Ref. #
+ 1    22     0.2:0.4      Unknown            lgK:7.7(2SF)           3         MPS         903
+ 2    25       0.15       Unknown            lgK:8.(0.4SD)          4         MGL         906
+ 3    35      1:2.5       Unknown           lgK:7.5(0.2SD)          4         MMR         906
+
+
+Reaction No. 44854
+MoO3 + H+1_EDTA-4 = H+1_MoO3_EDTA-4
+ No    t     I-Str     Medium            Value (Dev)                W        Tech.       Ref. #
+  1   25      0.1      NaClO4         lgK:8.22(0.02SD)              6         EIU         903
+  2   25      0.1      NaClO4         lgK:8.22(0.02SD)              4         MGL         906
+
+
+Reaction No. 44855
+2<MoO3> + EDTA-4 = MoO3(2)_EDTA-4
+ No    t     I-Str     Medium            Value (Dev)                W        Tech.       Ref. #
+ 1    25      0.1      NaClO4         lgK:19.16(0.02SD)             6         EIU         903
+ 2    25      0.1      NaClO4         lgK:19.16(0.02SD)             4         MGL         906
+
+
+Reaction No. 44856
+MoO3(2)_EDTA-4 + H+1 = H+1_MoO3(2)_EDTA-4
+ No    t      I-Str      Medium             Value (Dev)         W           Tech.        Ref. #
+  1    25      0.1       NaClO4         lgK:3.16(3SF)           6            EIU          903
+  2    25      0.1       NaClO4         lgK:3.16(3SF)           4            MGL          906
+
+
+Reaction No. 44857
+H+1 + H+1_MoO3(2)_EDTA-4 = H+1(2)_MoO3(2)_EDTA-4
+ No    t      I-Str      Medium             Value (Dev)         W           Tech.        Ref. #
+  1    25      0.1       NaClO4         lgK:2.87(3SF)           6            EIU          903
+
+
+
+
+                                      – Page 23 of 80 –
+JESS Thermodynamic Database v8.9                              Molybdenum
+
+
+  2   25      0.1       NaClO4          lgK:2.87(3SF)     4    MGL          906
+
+
+Reaction No. 44858
+H+1 + H+1(2)_MoO3(2)_EDTA-4 = H+1(3)_MoO3(2)_EDTA-4
+ No    t     I-Str      Medium           Value (Dev)      W   Tech.        Ref. #
+  1   25      0.1       NaClO4          lgK:2.21(3SF)     6    EIU          903
+  2   25      0.1       NaClO4          lgK:2.21(3SF)     4    MGL          906
+
+
+Reaction No. 44859
+H+1 + H+1(3)_MoO3(2)_EDTA-4 = H+1(4)_MoO3(2)_EDTA-4
+ No    t     I-Str      Medium           Value (Dev)      W   Tech.        Ref. #
+  1   25      0.1       NaClO4          lgK:1.93(3SF)     6    EIU          903
+  2   25      0.1       NaClO4          lgK:1.93(3SF)     4    MGL          906
+
+
+Reaction No. 45268
+2<MoO4-2> + H+1(5)_DTPA-5 = H+1_MoO3(2)_DTPA-5 + 2<H2O>
+ No    t     I-Str      Medium           Value (Dev)      W   Tech.        Ref. #
+  1   25      0.1        KNO3           lgK:5.01(3SF)     4    MGL          906
+
+
+Reaction No. 45269
+MoO4-2 + H+1(5)_DTPA-5 = H+1(3)_MoO3_DTPA-5 + H2O
+ No    t     I-Str      Medium           Value (Dev)      W   Tech.        Ref. #
+  1   25      0.1        KNO3           lgK:8.53(3SF)     4    MGL          906
+
+
+Reaction No. 45270
+MoO4-2 + H+1(4)_DTPA-5 = H+1(2)_MoO3_DTPA-5 + H2O
+ No    t     I-Str      Medium           Value (Dev)      W   Tech.        Ref. #
+  1   25      0.1        KNO3           lgK:7.31(3SF)     4    MGL          906
+
+
+Reaction No. 45271
+MoO4-2 + H+1(3)_DTPA-5 = H+1_MoO3_DTPA-5 + H2O
+ No    t     I-Str      Medium           Value (Dev)      W   Tech.        Ref. #
+  1   25      0.1        KNO3           lgK:4.87(3SF)     4    MGL          906
+
+
+Reaction No. 45272
+MoO4-2 + H+1(2)_DTPA-5 = MoO3_DTPA-5 + H2O
+ No    t     I-Str      Medium           Value (Dev)      W   Tech.        Ref. #
+  1   25      0.1        KNO3           lgK:2.55(3SF)     4    MGL          906
+
+
+
+
+                                      – Page 24 of 80 –
+JESS Thermodynamic Database v8.9                                 Molybdenum
+
+
+
+Reaction No. 45599
+MoO4-2(2) + H+1(6)_TTHA-6 = H+1(2)_MoO3(2)_TTHA-6 + 2<H2O>
+ No    t     I-Str      Medium           Value (Dev)         W    Tech.       Ref. #
+  1   25      0.1        KNO3          lgK:13.81(4SF)        5    MGL          906
+
+
+Reaction No. 45600
+MoO4-2(2) + H+1(5)_TTHA-6 = H+1_MoO3(2)_TTHA-6 + 2<H2O>
+ No    t     I-Str      Medium           Value (Dev)         W    Tech.       Ref. #
+  1   25      0.1        KNO3          lgK:11.78(4SF)        5    MGL          906
+
+
+Reaction No. 45601
+MoO4-2(2) + H+1(4)_TTHA-6 = MoO3(2)_TTHA-6 + 2<H2O>
+ No    t     I-Str      Medium           Value (Dev)         W   Tech.        Ref. #
+  1   25      0.1        KNO3           lgK:8.42(3SF)        5    MGL          906
+
+
+Reaction No. 45602
+MoO4-2 + H+1(6)_TTHA-6 = H+1(4)_MoO3_TTHA-6 + H2O
+ No    t     I-Str      Medium           Value (Dev)         W   Tech.        Ref. #
+  1   25      0.1        KNO3           lgK:7.45(3SF)        5    MGL          906
+
+
+Reaction No. 45603
+MoO4-2 + H+1(5)_TTHA-6 = H+1(3)_MoO3_TTHA-6 + H2O
+ No    t     I-Str      Medium           Value (Dev)         W   Tech.        Ref. #
+  1   25      0.1        KNO3           lgK:6.88(3SF)        5    MGL          906
+
+
+Reaction No. 45604
+MoO4-2 + H+1(4)_TTHA-6 = H+1(2)_MoO3_TTHA-6 + H2O
+ No    t     I-Str      Medium           Value (Dev)         W   Tech.        Ref. #
+  1   25      0.1        KNO3           lgK:5.64(3SF)        5    MGL          906
+
+
+Reaction No. 45605
+MoO4-2 + H+1(3)_TTHA-6 = H+1_MoO3_TTHA-6 + H2O
+ No    t     I-Str      Medium           Value (Dev)         W   Tech.        Ref. #
+  1   25      0.1        KNO3           lgK:3.16(3SF)        5    MGL          906
+
+
+Reaction No. 45606
+MoO4-2 + H+1(2)_TTHA-6 = MoO3 + TTHA-6 + H2O
+
+
+
+
+                                      – Page 25 of 80 –
+JESS Thermodynamic Database v8.9                                            Molybdenum
+
+
+ No        t         I-Str      Medium            Value (Dev)           W       Tech.           Ref. #
+  1       25          0.1        KNO3            lgK:3.14(3SF)          0           MGL          906
+
+
+Reaction No. 53844
+NO3-1 + MoO2+2 = MoO2+2_NO3-1
+ No        t         I-Str      Medium            Value (Dev)           W       Tech.           Ref. #
+  1       20          0.5        HClO4           lgK:0.14(2SF)          5           MSP          931
+  2       20           1         HClO4           lgK:0.15(2SF)          5           MCE          931
+  3       20           1         HClO4           lgK:0.10(2SF)          5           MSP          931
+  4       20           2         HClO4           lgK:0.14(2SF)          5           MSP          931
+
+
+Reaction No. 53845
+2<NO3-1> + MoO2+2 = MoO2+2_NO3-1(2)
+ No       t      I-Str          Medium            Value (Dev)           W       Tech.           Ref. #
+  1    20            0.5        HClO4           lgK:-0.08(1SF)          5           MSP          931
+  2    20             1         HClO4           lgK:-0.15(2SF)          5           MCE          931
+  3    20             1         HClO4           lgK:-0.26(2SF)          5           MSP          931
+  4    20             2         HClO4           lgK:-0.17(2SF)          5           MSP          931
+
+
+Reaction No. 54500
+H+1 + Mo7O24-6 = H+1_Mo7O24-6
+ No   t        I-Str             Medium                 Value (Dev)             W     Tech.      Ref. #
+ 1    25         0           Inf. Dilution/m           lgK:7.35(3SF)            3         CRV    24953
+ 2    25        0.1              Unknown               lgK:5.10(3SF)            3         CRV     552
+ 3    25        0.5              Unknown               lgK:4.91(3SF)            6         CRV     552
+ 4    25         1                NaCl                lgK:4.6(0.06SD)           3         CRV     552
+ 5    25         3               NaClO4                lgK:4.40(3SF)            6         CRV     552
+ 6    25         3               NaClO4              lgK:4.33(0.02SD)           6         ENS     5184
+ 7    25         3              Unknown/m              lgK:4.41(3SF)            2         CRV    24953
+ 8    25         3               NaClO4              dG:-6.00(0.09MD)           6         MCL    23142
+ 9    25         3               NaClO4                 dH:2.6(2SF)             6         MCL      43
+ 10   25         3               NaClO4                dH:2.6(0.3MD)            6         MCL    23142
+
+
+Reaction No. 54505
+Mo+5_CN-1(8) + Hg+2_CN-1(2) = Mo+5_Hg+2_CN-1(10)
+ No   t        I-Str             Medium                Value (Dev)          W        Tech.      Ref. #
+ 1    25         0            Inf. Dilution          lgK:1.3(0.1SD)w        5         MPH         222
+
+
+
+
+                                               – Page 26 of 80 –
+JESS Thermodynamic Database v8.9                                   Molybdenum
+
+
+
+Reaction No. 54506
+Mo+4_CN-1(8) + Hg+2_CN-1(2) = Mo+4_Hg+2_CN-1(10)
+ No    t    I-Str         Medium              Value (Dev)      W        Tech.    Ref. #
+ 1    25      0       Inf. Dilution         lgK:1.3(0.1SD)     5        MSP       222
+
+
+Reaction No. 54519
+2<Na(s)> + Mo(s) + 2<O2(g)> = Na+1(2)_MoO4-2_(s)
+ No    t    I-Str        Medium               Value (Dev)          W     Tech.   Ref. #
+ 1    25      0       Inf. Dilution         lgK:237.4(4SF)         4      ENS     6422
+ 2    27      0       Inf. Dilution         lgK:235.8(4SF)         4      ENS     6422
+ 3    127     0       Inf. Dilution         lgK:171.8(4SF)         4      ENS     6422
+ 4    227     0       Inf. Dilution         lgK:133.3(4SF)         4      ENS     6422
+ 5    327     0       Inf. Dilution         lgK:107.7(4SF)         4      ENS     6422
+ 6    25      0       Inf. Dilution        dG:-323.7(0.05SD)       4      ENS     802
+ 7    25      0       Inf. Dilution        dG:-323.7(0.05SD)       5      ENS     802
+ 8    25      0       Inf. Dilution         dG:-323.9(4SF)         4      EFE     6422
+ 9    25      0       Inf. Dilution        dH:-350.9(0.1SD)        4      ENS     802
+ 10   25      0       Inf. Dilution        dH:-350.9(0.1SD)        5      ENS     802
+ 11   25      0       Inf. Dilution         dH:-351.1(4SF)         4      MTD     6422
+ 12   127     0       Inf. Dilution         dH:-352.3(4SF)         4      MTD     6422
+ 13   227     0       Inf. Dilution         dH:-352.2(4SF)         4      MTD     6422
+ 14   327     0       Inf. Dilution         dH:-351.9(4SF)         4      MTD     6422
+
+
+Reaction No. 54520
+Mo(s) + 1.5<O2(g)> = MoO3(s)
+ No    t    I-Str       Medium                Value (Dev)           W    Tech.   Ref. #
+ 1    25      0      Inf. Dilution          lgK:117.0(4SF)          4     ENS     6422
+ 2    25      0      Inf. Dilution          lgK:117.0(4SF)          4     ENS     6494
+ 3    27      0      Inf. Dilution          lgK:116.2(4SF)          0     ENS     6422
+ 4    27      0      Inf. Dilution          lgK:116.2(4SF)          0     ENS     6494
+ 5    127     0      Inf. Dilution          lgK:83.81(4SF)          2     ENS     6422
+ 6    127     0      Inf. Dilution          lgK:83.82(4SF)          2     ENS     6494
+ 7    227     0      Inf. Dilution          lgK:64.39(4SF)          1     ENS     6422
+ 8    227     0      Inf. Dilution          lgK:64.40(4SF)          1     ENS     6494
+ 9    327     0      Inf. Dilution          lgK:51.48(4SF)          0     ENS     6422
+ 10   327     0      Inf. Dilution          lgK:51.48(4SF)          0     ENS     6494
+
+
+
+
+                                      – Page 27 of 80 –
+JESS Thermodynamic Database v8.9                                  Molybdenum
+
+
+ 11   25     0       Inf. Dilution           dG:-159.66(0.01SD)    4    ENS     802
+ 12   25     0       Inf. Dilution           dG:-159.66(0.01SD)    6    ENS     802
+ 13   25     0       Inf. Dilution             dG:-159.7(4SF)      4    EFE     6422
+ 14   25     0       Inf. Dilution             dG:-159.7(4SF)      4    EFE     6494
+ 15   25     0       Inf. Dilution       dG:-667.49(0.05SD)kJ      4    CRV    30809
+ 16   25     0       Inf. Dilution            dG:-159.66(5SF)      3    CRV    31291
+ 17   25     0       Inf. Dilution           dH:-178.08(0.01SD)    4    ENS     802
+ 18   25     0       Inf. Dilution           dH:-178.08(0.01SD)    6    ENS     802
+ 19   25     0       Inf. Dilution             dH:-178.1(4SF)      4    MTD     6422
+ 20   25     0       Inf. Dilution             dH:-178.1(4SF)      4    MTD     6494
+ 21   25     0       Inf. Dilution       dH:-744.60(0.50SD)kJ      5    CRV    30809
+ 22   25     0       Inf. Dilution            dH:-178.08(5SF)      3    CRV    31291
+ 23   127    0       Inf. Dilution             dH:-177.8(4SF)      1    MTD     6422
+ 24   127    0       Inf. Dilution             dH:-177.8(4SF)      2    MTD     6494
+ 25   227    0       Inf. Dilution             dH:-177.5(4SF)      0    MTD     6422
+ 26   227    0       Inf. Dilution             dH:-177.5(4SF)      0    MTD     6494
+ 27   327    0       Inf. Dilution             dH:-177.1(4SF)      0    MTD     6422
+ 28   327    0       Inf. Dilution             dH:-177.1(4SF)      0    MTD     6494
+ 29   25     0       Inf. Dilution            Cp:75.07(4SF)J/K     5    CRV    30809
+
+
+Reaction No. 54521
+Ba(s) + Mo(s) + 2<O2(g)> = Ba+2_MoO4-2_(s)
+ No    t    I-Str        Medium                 Value (Dev)       W    Tech.   Ref. #
+ 1    25      0      Inf. Dilution             lgK:254.9(4SF)     1    ELC
+ 2    25      0      Inf. Dilution             lgK:252.2(4SF)     0    ENS     6422
+ 3    27      0      Inf. Dilution             lgK:250.6(4SF)     0    ENS     6422
+ 4    127     0      Inf. Dilution             lgK:183.2(4SF)     0    ENS     6422
+ 5    227     0      Inf. Dilution             lgK:142.8(4SF)     0    ENS     6422
+ 6    327     0      Inf. Dilution             lgK:115.9(4SF)     0    ENS     6422
+ 7    25      0      Inf. Dilution           dG:-344.1(0.05SD)    0    ENS      802
+ 8    25      0      Inf. Dilution             dG:-344.1(4SF)     0    EFE     6422
+ 9    25      0      Inf. Dilution            dH:-370.0(0.1SD)    0    ENS      802
+ 10   25      0      Inf. Dilution             dH:-370.0(4SF)     0    MTD     6422
+ 11   25      0      Inf. Dilution           dH:-369.41(0.46SD)   4    MCL     30759
+ 12   127     0      Inf. Dilution             dH:-369.8(4SF)     0    MTD     6422
+ 13   227     0      Inf. Dilution             dH:-369.6(4SF)     0    MTD     6422
+
+
+
+
+                                      – Page 28 of 80 –
+JESS Thermodynamic Database v8.9                                 Molybdenum
+
+
+ 14   327     0       Inf. Dilution           dH:-369.5(4SF)         0    MTD     6422
+
+
+Reaction No. 54522
+Mg(s) + Mo(s) + 2<O2(g)> = Mg+2_MoO4-2_(s)
+ No    t     I-Str        Medium                Value (Dev)      W       Tech.   Ref. #
+ 1    25          0   Inf. Dilution            lgK:227.1(4SF)    4        ENS     6422
+ 2    27          0   Inf. Dilution            lgK:225.5(4SF)    4        ENS     6422
+ 3    127         0   Inf. Dilution            lgK:164.6(4SF)    4        ENS     6422
+ 4    227         0   Inf. Dilution            lgK:128.0(4SF)    4        ENS     6422
+ 5    327         0   Inf. Dilution            lgK:103.7(4SF)    4        ENS     6422
+ 6    25          0   Inf. Dilution          dG:-309.7(0.05SD)   4        ENS     802
+ 7    25          0   Inf. Dilution            dG:-309.8(4SF)    4        EFE     6422
+ 8    25          0   Inf. Dilution           dH:-334.8(0.1SD)   4        ENS     802
+ 9    25          0   Inf. Dilution            dH:-334.9(4SF)    4        MTD     6422
+ 10   127         0   Inf. Dilution            dH:-334.6(4SF)    4        MTD     6422
+ 11   227         0   Inf. Dilution            dH:-334.2(4SF)    4        MTD     6422
+ 12   327         0   Inf. Dilution            dH:-333.7(4SF)    4        MTD     6422
+
+
+Reaction No. 54523
+MoO4-2 + 3<H+1> = H+1(3)_MoO4-2
+ No   t     I-Str          Medium                Value (Dev)     W       Tech.   Ref. #
+ 1    22     0.1           NaClO4               lgK:8.9(0.1SD)   2       CMN      931
+ 2    25      0        Inf. Dilution            lgK:8.16(3SF)    1       EOD     31318
+ 3    25      0       Inf. Dilution/m           lgK:7.83(3SF)    0       CRV     24953
+
+
+Reaction No. 54654
+H+1(2)_MoO4-2 + 6<e-1> + 6<H+1> = Mo(s) + 4<H2O>
+ No   t     I-Str        Medium                 Value (Dev)      W       Tech.   Ref. #
+ 1    25      0       Inf. Dilution            lgK:10.9(3SF)     1        ELC
+ 2    25      0       Inf. Dilution          lgK:11.56(0.01SD)   0        ENS     3006
+ 3    25      0       Inf. Dilution            E:0.114(3SF)      0        CRV    22551
+
+
+Reaction No. 54691
+2<Ag+1> + MoO4-2 = Ag+1(2)_MoO4-2_(s)
+ No   t     I-Str        Medium                 Value (Dev)      W       Tech.   Ref. #
+ 1    20      0       Inf. Dilution          lgK:11.7(0.05SD)w   4        MPH     140
+ 2    25      0       Inf. Dilution          lgK:11.6(0.05SD)w   4        MPH     140
+
+
+
+
+                                        – Page 29 of 80 –
+JESS Thermodynamic Database v8.9                                Molybdenum
+
+
+ 3    25     0       Inf. Dilution           lgK:11.55(4SF)     5   CRV       552
+ 4    25     0       Inf. Dilution           lgK:11.55(4SF)     5   CRV      3006
+ 5    25     0       Inf. Dilution           lgK:11.65(4SF)     4   MIS      6843
+ 6    25     0       Inf. Dilution           lgK:11.6(3SF)      4   CRV      32224
+ 7    40     0       Inf. Dilution         lgK:11.1(0.05SD)w    4   MPH       140
+ 8    25     0       Inf. Dilution          dH:-12.6(0.1SD)     4   MSL       140
+
+
+Reaction No. 55023
+2<H+1> + MoO4-2 = H+1(2)_MoO4-2
+ No   t    I-Str         Medium                 Value (Dev)     W   Tech.    Ref. #
+ 1    18     0        Inf. Dilution            lgK:8.24(3SF)    4    CRV     32224
+ 2    20    0.1            KCl                lgK:7.8(0.05SD)   2    MGL      140
+ 3    25     0        Inf. Dilution           lgK:6.7(0.1SD)    0    CRV     31301
+ 4    25     0        Inf. Dilution            lgK:7.21(3SF)    0    EOD     31318
+ 5    25     0       Inf. Dilution/m           lgK:9.17(3SF)    1    CRV     24953
+ 6    25   0.01         Unknown/m              lgK:8.89(3SF)    1    CRV     24953
+ 7    25    0.1         Unknown/m              lgK:8.44(3SF)    2    CRV     24953
+ 8    25   0.109          NaCl               lgK:7.58(0.03SD)   2    MPS     29173
+ 9    25    0.2         Unknown/m              lgK:8.24(3SF)    2    CRV     24953
+ 10   25   0.495          NaCl               lgK:7.53(0.02SD)   2    MPS     29173
+ 11   25    0.5         Unknown/m              lgK:7.95(3SF)    2    CRV     24953
+ 12   25    0.6           NaCl                lgK:7.3(0.05SD)   4    MPS      5075
+ 13   25     1            NaCl                lgK:7.2(0.05SD)   3    MGL      931
+ 14   25     1            NaNO3                lgK:8.09(3SF)    0    MGL      6370
+ 15   25     1          Unknown/m              lgK:7.73(3SF)    2    CRV     24953
+ 16   25   1.931          NaCl               lgK:8.42(0.05SD)   0    MPS     29173
+ 17   25     2          Unknown/m              lgK:7.56(3SF)    1    CRV     24953
+ 18   25     3           NaClO4               lgK:7.5(0.05SD)   5    MGL      931
+ 19   25     3          Unknown/m              lgK:7.50(3SF)    0    CRV     24953
+ 20   25   4.821          NaCl               lgK:9.52(0.05SD)   0    MPS     29173
+
+
+Reaction No. 55095
+2<Li(s)> + Mo(s) + 2<O2(g)> = Li+1(2)_MoO4-2_(s)
+ No   t    I-Str        Medium                Value (Dev)       W   Tech.    Ref. #
+ 1    25     0       Inf. Dilution         dG:-336.9(0.05SD)    4   ENS       802
+ 2    25     0       Inf. Dilution          dH:-363.4(0.1SD)    4   ENS       802
+
+
+
+
+                                       – Page 30 of 80 –
+JESS Thermodynamic Database v8.9                                        Molybdenum
+
+
+Reaction No. 55141
+H+1_MoO4-2 + H+1 = H+1(2)_MoO4-2
+ No        t         I-Str         Medium                Value (Dev)        W   Tech.   Ref. #
+ 1        20           0       Inf. Dilution          lgK:4.0(0.05SD)       0    MSP     931
+ 2        25           0       Inf. Dilution            lgK:4.4(2SF)        1    ELC
+ 3        25          0.1          NaNO3              lgK:3.9(0.05SD)       0    MTP     140
+ 4        25          0.1         Unknown               lgK:3.77(3SF)       0    CRV     552
+ 5        25           1            NaCl              lgK:3.7(0.05SD)       0    CRV     552
+ 6        25           1            NaCl              lgK:3.7(0.05SD)       0    MGL     931
+ 7        25           3           NaClO4             lgK:3.6(0.05SD)       0    MGL     931
+ 8    10:40           0.1         Unknown             dH:-12.0(0.1SD)       0    CSM     233
+ 9    10:40           0.1         Unknown               dH:-11.(2SF)        0    CRV     552
+
+
+Reaction No. 55148
+Sr+2 + MoO4-2 = Sr+2_MoO4-2_(s)
+ No   t        I-Str            Medium                 Value (Dev)      W       Tech.   Ref. #
+ 1    25         0           Inf. Dilution            lgK:8.5(4SF)      1       EOR
+ 2    25         0           Inf. Dilution           lgK:8.5(0.05SD)    4       ENS     5458
+ 3    25         0           Inf. Dilution            lgK:8.48(3SF)     4       CRV     32224
+
+
+Reaction No. 55170
+Mo(s) + 2<S(s)> = MoS2(s)
+ No    t       I-Str            Medium                 Value (Dev)      W       Tech.   Ref. #
+ 1    25         0           Inf. Dilution            lgK:46.81(4SF)    4        ENS     6422
+ 2    25         0           Inf. Dilution            lgK:46.04(4SF)    4        ENS     6494
+ 3    27         0           Inf. Dilution            lgK:46.51(4SF)    0        ENS     6422
+ 4    27         0           Inf. Dilution            lgK:45.75(4SF)    0        ENS     6494
+ 5    127        0           Inf. Dilution            lgK:34.45(4SF)    2        ENS     6422
+ 6    127        0           Inf. Dilution            lgK:33.88(4SF)    2        ENS     6494
+ 7    227        0           Inf. Dilution            lgK:27.08(4SF)    1        ENS     6422
+ 8    227        0           Inf. Dilution            lgK:26.61(4SF)    1        ENS     6494
+ 9    327        0           Inf. Dilution            lgK:22.10(4SF)    0        ENS     6422
+ 10   327        0           Inf. Dilution            lgK:21.71(4SF)    0        ENS     6494
+ 11   25         0           Inf. Dilution           dG:-54.0(0.05SD)   0        ENS     802
+ 12   25         0           Inf. Dilution            dG:-63.95(4SF)    4        EFE     6422
+ 13   25         0           Inf. Dilution            dG:-62.41(4SF)    3        EFE     6494
+
+
+
+
+                                               – Page 31 of 80 –
+JESS Thermodynamic Database v8.9                                   Molybdenum
+
+
+ 14    25         0     Inf. Dilution          dH:-56.2(0.1SD)     0       ENS       802
+ 15    25         0     Inf. Dilution           dH:-66.0(3SF)      4       MTD      6422
+ 16    25         0     Inf. Dilution           dH:-64.96(4SF)     4       MTD      6494
+ 17   127         0     Inf. Dilution           dH:-67.2(3SF)      1       MTD      6422
+ 18   127         0     Inf. Dilution           dH:-66.16(4SF)     1       MTD      6494
+ 19   227         0     Inf. Dilution           dH:-67.9(3SF)      0       MTD      6422
+ 20   227         0     Inf. Dilution           dH:-66.97(4SF)     0       MTD      6494
+ 21   327         0     Inf. Dilution           dH:-68.6(3SF)      0       MTD      6422
+ 22   327         0     Inf. Dilution           dH:-67.57(4SF)     0       MTD      6494
+
+
+Reaction No. 55171
+Ca(s) + Mo(s) + 2<O2(g)> = Ca+2_MoO4-2_(s)
+ No    t    I-Str        Medium                 Value (Dev)            W    Tech.   Ref. #
+ 1    25      0       Inf. Dilution            lgK:251.5(4SF)          3     ENS     6422
+ 2    27      0       Inf. Dilution            lgK:249.8(4SF)          0     ENS     6422
+ 3    127     0       Inf. Dilution            lgK:182.7(4SF)          3     ENS     6422
+ 4    227     0       Inf. Dilution            lgK:142.5(4SF)          2     ENS     6422
+ 5    327     0       Inf. Dilution            lgK:115.7(4SF)          0     ENS     6422
+ 6    25      0       Inf. Dilution          dG:-342.9(0.05SD)         2     ENS     802
+ 7    25      0       Inf. Dilution            dG:-343.1(4SF)          2     ENS     6422
+ 8    25      0       Inf. Dilution            dG:-344.0(4SF)          3     EFE    30708
+ 9    25      0       Inf. Dilution       dG:-1437.60(1.113SD)kJ       5     MSL    30809
+ 10   25      0       Inf. Dilution           dH:-368.4(0.1SD)         2     ENS     802
+ 11   25      0       Inf. Dilution            dH:-368.6(4SF)          3     MTD     6422
+ 12   25      0       Inf. Dilution            dH:-369.5(4SF)          4     EOD    30708
+ 13   25      0       Inf. Dilution       dH:-1544.90(1.045SD)kJ       5     MSL    30809
+ 14   127     0       Inf. Dilution            dH:-368.3(4SF)          1     MTD     6422
+ 15   227     0       Inf. Dilution            dH:-367.8(4SF)          0     MTD     6422
+ 16   327     0       Inf. Dilution            dH:-367.3(4SF)          0     MTD     6422
+ 17   25      0       Inf. Dilution           Cp:114.5(4SF)J/K         5     MSL    30809
+
+
+Reaction No. 55182
+Ca(s) + Mo(s) + 2<O2(g)> = Ca+2_MoO4-2
+ No   t     I-Str         Medium                Value (Dev)        W       Tech.    Ref. #
+ 1    25      0        Inf. Dilution         dG:-332.2(0.05SD)     5       ENS       802
+ 2    25      0        Inf. Dilution          dH:-368.2(0.1SD)     5       ENS       802
+
+
+
+
+                                         – Page 32 of 80 –
+JESS Thermodynamic Database v8.9                                         Molybdenum
+
+
+Reaction No. 55186
+Fe(s) + Mo(s) + 2<O2(g)> = Fe+2_MoO4-2_(s)
+ No    t    I-Str        Medium                 Value (Dev)              W     Tech.   Ref. #
+ 1    25      0       Inf. Dilution           lgK:169.1(4SF)             4      ENS     6422
+ 2    27      0       Inf. Dilution           lgK:168.0(4SF)             4      ENS     6422
+ 3    127     0       Inf. Dilution           lgK:121.6(4SF)             4      ENS     6422
+ 4    227     0       Inf. Dilution           lgK:93.84(4SF)             4      ENS     6422
+ 5    327     0       Inf. Dilution           lgK:75.36(4SF)             4      ENS     6422
+ 6    25      0       Inf. Dilution          dG:-233.0(0.05SD)           4      ENS      802
+ 7    25      0       Inf. Dilution          dG:-233.0(0.05SD)           5      ENS      802
+ 8    25      0       Inf. Dilution           dG:-230.7(4SF)             4      EFE     6422
+ 9    25      0       Inf. Dilution          dH:-257.0(0.1SD)            4      ENS      802
+ 10   25      0       Inf. Dilution          dH:-257.0(0.1SD)            5      ENS      802
+ 11   25      0       Inf. Dilution           dH:-254.7(4SF)             4      MTD     6422
+ 12   127     0       Inf. Dilution           dH:-254.4(4SF)             4      MTD     6422
+ 13   227     0       Inf. Dilution           dH:-253.9(4SF)             4      MTD     6422
+ 14   327     0       Inf. Dilution           dH:-253.4(4SF)             4      MTD     6422
+
+
+Reaction No. 55198
+MoO4-2 + Co+3_NH3(6) = Co+3_NH3(6)_MoO4-2
+ No   t     I-Str         Medium                Value (Dev)          W        Tech.    Ref. #
+ 1    25      0       Inf. Dilution           lgK:2.6(0.2SD)         3         MPL      5398
+ 2    25     0.1              NaCl            lgK:1.3(0.2SD)         3         MPL      5398
+
+
+Reaction No. 55199
+Ga+3 + 6<H+1> + 6<MoO4-2> = Ga+3_H+1(6)_MoO4-2(6)
+ No    t     I-Str     Medium              Value (Dev)           W           Tech.     Ref. #
+  1    25         1    NaClO4           lgK:48.(0.5SD)w          3           MPH       5398
+
+
+Reaction No. 55200
+Tl+1(2) + MoO4-2 = Tl+1(2)_MoO4-2_(s)
+ No   t     I-Str         Medium                Value (Dev)          W        Tech.    Ref. #
+ 1    20      3           NaClO4              lgK:6.0(0.1SD)         5         MSL      5398
+ 2    25      0       Inf. Dilution            lgK:5.8(2SF)          1         EES
+
+
+Reaction No. 55201
+La+3 + MoO4-2 = La+3_MoO4-2
+
+
+
+
+                                        – Page 33 of 80 –
+JESS Thermodynamic Database v8.9                                   Molybdenum
+
+
+ No    t     I-Str       Medium            Value (Dev)         W       Tech.    Ref. #
+ 1    25    0.0012      Unknown          lgK:4.2(0.05SD)       5       MCN       931
+
+
+Reaction No. 55202
+Ce+3 + MoO4-2 = Ce+3_MoO4-2
+ No    t     I-Str       Medium            Value (Dev)         W       Tech.    Ref. #
+ 1    25    0.0012      Unknown          lgK:4.4(0.05SD)       5       MCN       931
+
+
+Reaction No. 55203
+Pr+3 + MoO4-2 = Pr+3_MoO4-2
+ No   t    I-Str          Medium               Value (Dev)         W    Tech.   Ref. #
+ 1    25     0         Inf. Dilution          lgK:4.601(4SF)       1     EOR
+ 2    25   0.0012         Unknown            lgK:4.4(0.05SD)       5     MCN      931
+
+
+Reaction No. 55204
+Nd+3 + MoO4-2 = Nd+3_MoO4-2
+ No   t    I-Str          Medium               Value (Dev)         W    Tech.   Ref. #
+ 1    25     0         Inf. Dilution          lgK:4.901(4SF)       1     EOR
+ 2    25   0.0012         Unknown            lgK:4.7(0.05SD)       5     MCN      931
+
+
+Reaction No. 55205
+Sm+3 + MoO4-2 = Sm+3_MoO4-2
+ No   t    I-Str          Medium               Value (Dev)         W    Tech.   Ref. #
+ 1    25     0         Inf. Dilution          lgK:5.101(4SF)       1     EOR
+ 2    25   0.0012         Unknown            lgK:4.9(0.05SD)       5     MCN      931
+
+
+Reaction No. 55206
+Eu+3 + MoO4-2 = Eu+3_MoO4-2
+ No    t     I-Str       Medium            Value (Dev)         W       Tech.    Ref. #
+ 1    25    0.0012      Unknown          lgK:4.7(0.05SD)       5       MCN       931
+
+
+Reaction No. 55207
+Gd+3 + MoO4-2 = Gd+3_MoO4-2
+ No    t     I-Str       Medium            Value (Dev)         W       Tech.    Ref. #
+ 1    25    0.0012      Unknown          lgK:4.4(0.05SD)       5       MCN       931
+
+
+Reaction No. 55208
+Tb+3 + MoO4-2 = Tb+3_MoO4-2
+
+
+
+
+                                       – Page 34 of 80 –
+JESS Thermodynamic Database v8.9                                     Molybdenum
+
+
+ No    t     I-Str       Medium              Value (Dev)         W       Tech.    Ref. #
+ 1    25    0.0012      Unknown         lgK:4.5(0.05SD)          5       MCN       931
+
+
+Reaction No. 55209
+Dy+3 + MoO4-2 = Dy+3_MoO4-2
+ No    t     I-Str       Medium              Value (Dev)         W       Tech.    Ref. #
+ 1    25    0.0012      Unknown         lgK:4.5(0.05SD)          5       MCN       931
+
+
+Reaction No. 55210
+Ho+3 + MoO4-2 = Ho+3_MoO4-2
+ No    t     I-Str       Medium              Value (Dev)         W       Tech.    Ref. #
+ 1    25    0.0012      Unknown         lgK:4.3(0.05SD)          5       MCN       931
+
+
+Reaction No. 55211
+Er+3 + MoO4-2 = Er+3_MoO4-2
+ No    t     I-Str       Medium              Value (Dev)         W       Tech.    Ref. #
+ 1    25    0.0012      Unknown         lgK:4.3(0.05SD)          5       MCN       931
+
+
+Reaction No. 55212
+Yb+3 + MoO4-2 = Yb+3_MoO4-2
+ No    t     I-Str       Medium              Value (Dev)         W       Tech.    Ref. #
+ 1    25    0.0012      Unknown         lgK:4.2(0.05SD)          5       MCN       931
+
+
+Reaction No. 55214
+Pb(s) + Mo(s) + 2<O2(g)> = Pb+2_MoO4-2_(s)
+ No    t    I-Str         Medium                Value (Dev)          W    Tech.   Ref. #
+ 1    25      0       Inf. Dilution            lgK:165.6(4SF)        1     ELC
+ 2    25      0       Inf. Dilution            lgK:166.7(4SF)        0     ENS     6422
+ 3    27      0       Inf. Dilution            lgK:165.6(4SF)        0     ENS     6422
+ 4    127     0       Inf. Dilution            lgK:119.8(4SF)        1     ENS     6422
+ 5    227     0       Inf. Dilution            lgK:92.39(4SF)        0     ENS     6422
+ 6    327     0       Inf. Dilution            lgK:74.15(4SF)        0     ENS     6422
+ 7    25      0       Inf. Dilution            dG:-227.5(4SF)        0     EFE     6422
+ 8    25      0       Inf. Dilution           dH:-251.6(0.1SD)       2     MCL     5029
+ 9    25      0       Inf. Dilution            dH:-251.5(4SF)        2     MTD     6422
+ 10   127     0       Inf. Dilution            dH:-251.1(4SF)        1     MTD     6422
+ 11   227     0       Inf. Dilution            dH:-250.6(4SF)        0     MTD     6422
+
+
+
+
+                                      – Page 35 of 80 –
+JESS Thermodynamic Database v8.9                               Molybdenum
+
+
+ 12   327         0   Inf. Dilution          dH:-250.1(4SF)    0        MTD     6422
+
+
+Reaction No. 55350
+Mo(s) + 2<O2(g)> + 2<e-1> = MoO4-2
+ No    t    I-Str        Medium                 Value (Dev)        W   Tech.   Ref. #
+ 1    25      0       Inf. Dilution        dG:-199.9(0.05SD)       4    ENS     802
+ 2    25      0       Inf. Dilution         dG:-199.9(4SF)         4    CRV     6488
+ 3    25      0       Inf. Dilution        dG:-836.3(4SF)kJ        5    CRV     7421
+ 4    25      0       Inf. Dilution        dG:-200.400(6SF)        4    CRV     9029
+ 5    25      0       Inf. Dilution         dG:-199.90(5SF)        3    CRV    10174
+ 6    25      0       Inf. Dilution         dG:-199.90(5SF)        2    EOD    29489
+ 7    25      0       Inf. Dilution       dG:-199.82(0.70SD)       5    MCL    30759
+ 8    50      0       Inf. Dilution         dG:-200.02(5SF)        1    CRV    10174
+ 9    75      0       Inf. Dilution         dG:-200.06(5SF)        0    CRV    10174
+ 10   100     0       Inf. Dilution         dG:-200.03(5SF)        0    CRV    10174
+ 11   125     0       Inf. Dilution         dG:-199.93(5SF)        0    CRV    10174
+ 12   150     0       Inf. Dilution         dG:-199.75(5SF)        0    CRV    10174
+ 13   175     0       Inf. Dilution         dG:-199.48(5SF)        0    CRV    10174
+ 14   200     0       Inf. Dilution         dG:-199.09(5SF)        0    CRV    10174
+ 15   225     0       Inf. Dilution         dG:-198.57(5SF)        0    CRV    10174
+ 16   250     0       Inf. Dilution         dG:-197.87(5SF)        0    CRV    10174
+ 17   300     0       Inf. Dilution         dG:-195.65(5SF)        0    CRV    10174
+ 18   25      0       Inf. Dilution        dH:-238.5(0.1SD)        4    ENS     802
+ 19   25      0       Inf. Dilution         dH:-238.5(4SF)         4    CRV     6488
+ 20   25      0       Inf. Dilution        dH:-238.300(6SF)        4    CRV     9029
+ 21   25      0       Inf. Dilution         dH:-238.50(5SF)        2    EOD    29489
+ 22   25      0       Inf. Dilution         dH:-238.2(4SF)         4    EOD    30708
+
+
+Reaction No. 55504
+H+1(3)_MoO2(CN)4-4 = H+1(2)_MoO2(CN)4-4 + H+1
+ No   t     I-Str        Medium                 Value (Dev)    W       Tech.   Ref. #
+ 1    25      0       Inf. Dilution        lgK:8.81(0.01SD)    4       MIS     5128
+ 2    30      0       Inf. Dilution        lgK:8.86(0.01SD)    4       MIS     5128
+ 3    35      0       Inf. Dilution        lgK:8.90(0.01SD)    4       MIS     5128
+ 4    40      0       Inf. Dilution        lgK:8.97(0.01SD)    4       MIS     5128
+ 5    45      0       Inf. Dilution        lgK:9.04(0.01SD)    4       MIS     5128
+
+
+
+
+                                      – Page 36 of 80 –
+JESS Thermodynamic Database v8.9                                          Molybdenum
+
+
+ 6    50        0       Inf. Dilution         lgK:9.13(0.01SD)        4         MIS        5128
+
+
+Reaction No. 55505
+MoO3(s) + 6<H+1> + 6<e-1> = Mo(s) + 3<H2O>
+ No   t       I-Str         Medium               Value (Dev)          W        Tech.      Ref. #
+ 1    25        0        Inf. Dilution          lgK:7.6(2SF)          1         ELC
+ 2    25        0        Inf. Dilution         lgK:7.6(0.1SD)         0         ENS         802
+ 3    25        0        Inf. Dilution          E:0.075(2SF)          0         CRV        6330
+
+
+Reaction No. 55506
+MoO2(s) + 4<H+1> + 4<e-1> = Mo(s) + 2<H2O>
+ No   t       I-Str        Medium                Value (Dev)          W        Tech.      Ref. #
+ 1    25        0       Inf. Dilution         lgK:-10.3(0.1SD)        3         ENS         802
+
+
+Reaction No. 55507
+H+1(3)_Mo7O24-6 + 45<H+1> + 42<e-1> = 7<Mo(s)> + 24<H2O>
+ No   t       I-Str         Medium               Value (Dev)          W        Tech.      Ref. #
+ 1    25        0        Inf. Dilution          lgK:70.8(3SF)         1         ELC
+ 2    25        0        Inf. Dilution         E:0.08(0.01SD)         0         ENS         802
+ 3    25        0        Inf. Dilution          E:0.082(2SF)          0         CRV        6330
+
+
+Reaction No. 55509
+Mo+4_CN-1(8) - e-1 = Mo+5_CN-1(8)
+ No       t     I-Str      Medium            Value (Dev)          W        Tech.          Ref. #
+  1    25           0      Unknown          E:0.725(3SF)          2           CRV         22551
+Note (1): pH = 7; otherwise a conditional constant without conditions
+  2    25           1       H2SO4          E:0.8(0.05SD)          5           MPH          775
+
+
+Reaction No. 55513
+Mo(s) + O2(g) = MoO2(s)
+ No    t      I-Str         Medium               Value (Dev)              W     Tech.      Ref. #
+ 1    25        0       Inf. Dilution          lgK:93.39(4SF)             4         ENS     6422
+ 2    27        0       Inf. Dilution          lgK:92.75(4SF)             0         ENS     6422
+ 3    127       0       Inf. Dilution          lgK:67.12(4SF)             2         ENS     6422
+ 4    227       0       Inf. Dilution          lgK:51.77(4SF)             1         ENS     6422
+ 5    327       0       Inf. Dilution          lgK:41.55(4SF)             0         ENS     6422
+ 6    25        0       Inf. Dilution         dG:-127.4(0.05SD)           4         ENS     557
+
+
+
+
+                                         – Page 37 of 80 –
+JESS Thermodynamic Database v8.9                                     Molybdenum
+
+
+ 7    25          0   Inf. Dilution            dG:-127.4(4SF)        4     EFE     6422
+ 8    25          0   Inf. Dilution           dG:-127.40(5SF)        3     CRV     31291
+ 9    25          0   Inf. Dilution            dH:-140.8(4SF)        3     MTD     6422
+ 10   25          0   Inf. Dilution           dH:-140.76(5SF)        3     CRV     31291
+ 11   127         0   Inf. Dilution            dH:-140.6(4SF)        1     MTD     6422
+ 12   227         0   Inf. Dilution            dH:-140.4(4SF)        0     MTD     6422
+ 13   327         0   Inf. Dilution            dH:-140.1(4SF)        0     MTD     6422
+
+
+Reaction No. 55514
+Mo+4_CN-1(4)_OH-1(3)_H2O = Mo+6_CN-1(4)_OH-1(3)_H2O + 2<e-1>
+ No    t     I-Str    Medium              Value (Dev)            W       Tech.    Ref. #
+ 1    30      0.1       KOH           lgK:-22.71(0.01SD)w        5       MPH      5134
+ 2    30     0.175      KOH           lgK:-22.71(0.01SD)w        5       MPH      5134
+ 3    30     0.25       KOH           lgK:-22.91(0.01SD)w        5       MPH      5134
+ 4    30      0.5       KOH           lgK:-23.04(0.01SD)w        5       MPH      5134
+ 5    30          1     KOH           lgK:-23.14(0.01SD)w        5       MPH      5134
+ 6    30          2     KOH           lgK:-23.34(0.01SD)w        5       MPH      5134
+ 7    30          3     KOH           lgK:-23.38(0.01SD)w        5       MPH      5134
+ 8    30          4     KOH           lgK:-23.54(0.01SD)w        5       MPH      5134
+ 9    30          5     KOH           lgK:-23.61(0.01SD)w        5       MPH      5134
+ 10   35     0.175      KOH           lgK:-23.04(0.01SD)w        5       MPH      5134
+ 11   40     0.175      KOH           lgK:-23.94(0.01SD)w        5       MPH      5134
+ 12   45     0.175      KOH           lgK:-23.44(0.01SD)w        5       MPH      5134
+ 13   50     0.175      KOH           lgK:-23.71(0.01SD)w        5       MPH      5134
+ 14   55     0.175      KOH           lgK:-23.97(0.01SD)w        5       MPH      5134
+ 15   60     0.175      KOH           lgK:-24.27(0.01SD)w        5       MPH      5134
+
+
+Reaction No. 55515
+MoO2(CN)4-4 + H+1 = H+1_MoO2(CN)4-4
+ No   t     I-Str        Medium                 Value (Dev)          W    Tech.   Ref. #
+ 1    25      0       Inf. Dilution          lgK:12.62(0.01SD)       4     MGL     931
+
+
+Reaction No. 55516
+H+1_MoO2(CN)4-4 + H+1 = H+1(2)_MoO2(CN)4-4
+ No   t     I-Str        Medium                 Value (Dev)          W    Tech.   Ref. #
+ 1    25      0       Inf. Dilution          lgK:9.98(0.01SD)        4     MGL     931
+
+
+
+
+                                       – Page 38 of 80 –
+JESS Thermodynamic Database v8.9                                                       Molybdenum
+
+
+Reaction No. 55517
+Mo+4_CN-1(8) + Cr+3 = Mo+4_Cr+3_CN-1(8)
+ No   t           I-Str                      Medium             Value (Dev)        W        Tech.    Ref. #
+ 1    25                  0              Inf. Dilution         lgK:5.0(2SF)        1         ESC
+ 2    50         0.01:0.2                   Unknown            lgK:5.(0.5SD)       3         MJM       140
+
+
+Reaction No. 55518
+Mo+4_CN-1 + K+1 = Mo+4_K+1_CN-1
+ No    t         I-Str                   Medium               Value (Dev)          W       Tech.     Ref. #
+ 1    25              0               Inf. Dilution         lgK:1.8(0.2SD)         4        MCN       5398
+
+
+Reaction No. 55700
+H+1_MoO4-2 + H+1 + 2<H2O> = H+1(2)_MoO4-2_H2O(2)
+ No         t                 I-Str       Medium           Value (Dev)         W           Tech.     Ref. #
+ 1         15                   1          NaCl          lgK:7.3(0.03SD)       6           MGL       5241
+ 2         25                  0.1         NaCl          lgK:7.5(0.05SD)       6           MGL       5241
+ 3         25                   1          NaCl          lgK:7.2(0.03SD)       6           MGL       5241
+ 4         35                   1          NaCl          lgK:7.1(0.03SD)       6           MGL       5241
+ 5        10:40                 1          NaCl           dH:-7.(1.SD)         5           EVH       5241
+
+
+Reaction No. 56402
+Zn(s) + Mo(s) + 2<O2(g)> = Zn+2_MoO4-2_(s)
+ No   t         I-Str                   Medium               Value (Dev)               W    Tech.    Ref. #
+ 1    25          0                  Inf. Dilution        dG:-241.1(0.05SD)            5     ENS       557
+
+
+Reaction No. 56673
+7<MoO4-2> + 8<H+1> = Mo7O24-6 + 4<H2O>
+ No   t         I-Str                   Medium                 Value (Dev)             W     Tech.   Ref. #
+ 1    25          0                  Inf. Dilution          lgK:53.0(0.1SD)            0      CRV     31301
+ 2    25          0                  Inf. Dilution           lgK:52.79(4SF)            2      EOD     31318
+ 3    25          0                 Inf. Dilution/m          lgK:50.34(4SF)            2      CRV     24953
+ 4    25        0.01                   Unknown/m             lgK:50.36(4SF)            2      CRV     24953
+ 5    25         0.1                    Unknown              lgK:52.99(4SF)            0      CRV      552
+ 6    25         0.1                   Unknown/m             lgK:50.59(4SF)            2      CRV     24953
+ 7    25         0.2                   Unknown/m             lgK:50.83(4SF)            2      CRV     24953
+ 8    25         0.5                     NaCl                lgK:52.43(4SF)            0      CRV      552
+ 9    25         0.5                   Unknown/m             lgK:51.57(4SF)            2      CRV     24953
+
+
+
+
+                                                      – Page 39 of 80 –
+JESS Thermodynamic Database v8.9                                        Molybdenum
+
+
+ 10   25       1              NaCl                lgK:52.80(4SF)        0      CRV      552
+ 11   25       1           Unknown/m              lgK:52.81(4SF)        2      CRV     24953
+ 12   25       2              NaCl                lgK:54.66(4SF)        0      CRV      552
+ 13   25       2           Unknown/m              lgK:55.28(4SF)        2      CRV     24953
+ 14   25       3              NaCl                lgK:56.36(4SF)        0      CRV      552
+ 15   25       3             NaClO4              lgK:57.7(0.2SD)        0      ENS     5184
+ 16   25       3           Unknown/m              lgK:57.74(4SF)        1      CRV     24953
+ 17   25       3             NaClO4             dG:-78.77(0.04MD)       4      MCL     23142
+ 18   25       1              LiCl                 dH:-54.5(3SF)        0      CRV      552
+ 19   25       2              NaCl               dH:-56.7(0.1SD)        3      MCL     5114
+ 20   25       3             NaClO4              dH:-56.0(0.2SD)        5      MCL      43
+ 21   25       3             NaClO4              dH:-55.5(0.1SD)        3      CMN     5114
+ 22   25       3             NaClO4              dH:-56.0(0.2MD)        6      MCL     23142
+
+
+Reaction No. 57059
+H+1_Mo7O24-6 + H+1 = H+1(2)_Mo7O24-6
+ No   t       I-Str          Medium                 Value (Dev)         W     Tech.   Ref. #
+ 1    25        0        Inf. Dilution/m           lgK:5.85(3SF)        2      CRV     24953
+ 2    25       0.1           Unknown               lgK:3.71(3SF)        3      CRV      552
+ 3    25       0.5            NaCl                 lgK:3.55(3SF)        6      CRV      552
+ 4    25        1             NaCl                lgK:3.6(0.04SD)       3      CRV      552
+ 5    25        3            NaClO4                lgK:3.54(3SF)        6      CRV      552
+ 6    25        3            NaClO4                lgK:4.(0.5SD)        0      ENS     5184
+ 7    25        3           Unknown/m              lgK:3.57(3SF)        2      CRV     24953
+ 8    25        3            NaClO4              dG:-4.83(0.11MD)       6      MCL     23142
+ 9    25        3            NaClO4                 dH:0.8(1SF)         6      MCL      43
+ 10   25        3            NaClO4                dH:0.8(0.5MD)        6      MCL     23142
+
+
+Reaction No. 57336
+8<H+1> + 5<MoO4-2> + H+1(2)_AsO4-3(2) = H+1(10)_MoO4-2(5)_AsO4-3(2)
+ No       t     I-Str     Medium              Value (Dev)           W       Tech.     Ref. #
+ 1     25            3    NaClO4           lgK:60.92(0.04MD)        5       MGL       5547
+
+
+Reaction No. 57337
+10<H+1> + 6<MoO4-2> + H+1(2)_AsO4-3(2) = H+1(12)_MoO4-2(6)_AsO4-3(2)
+ No       t     I-Str     Medium              Value (Dev)           W       Tech.     Ref. #
+ 1     25            3    NaClO4           lgK:75.25(0.04MD)        5       MGL       5547
+
+
+
+
+                                           – Page 40 of 80 –
+JESS Thermodynamic Database v8.9                                                Molybdenum
+
+
+
+Reaction No. 57338
+11<H+1> + 6<MoO4-2> + H+1(2)_AsO4-3(2) = H+1(13)_MoO4-2(6)_AsO4-3(2)
+ No       t      I-Str        Medium              Value (Dev)               W       Tech.       Ref. #
+ 1     25            3        NaClO4           lgK:80.73(0.05MD)            5        MGL         5547
+
+
+Reaction No. 57339
+12<H+1> + 6<MoO4-2> + H+1(2)_AsO4-3(2) = H+1(14)_MoO4-2(6)_AsO4-3(2)
+ No       t      I-Str        Medium              Value (Dev)               W       Tech.       Ref. #
+ 1     25            3        NaClO4           lgK:84.07(0.07MD)            5        MGL         5547
+
+
+Reaction No. 57340
+14<H+1> + 9<MoO4-2> + H+1_AsO4-3 = H+1(15)_MoO4-2(9)_AsO4-3
+ No    t        I-Str         Medium              Value (Dev)               W        Tech.      Ref. #
+ 1    25             3        NaClO4           lgK:100.11(0.02MD)           5         MGL        5547
+
+
+Reaction No. 57341
+15<H+1> + 9<MoO4-2> + H+1_AsO4-3 = H+1(16)_MoO4-2(9)_AsO4-3
+ No    t        I-Str         Medium              Value (Dev)               W        Tech.      Ref. #
+ 1    25             3        NaClO4           lgK:103.81(0.05MD)           5         MGL        5547
+
+
+Reaction No. 57342
+16<H+1> + 9<MoO4-2> + H+1_AsO4-3 = H+1(17)_MoO4-2(9)_AsO4-3
+ No    t        I-Str         Medium              Value (Dev)               W        Tech.      Ref. #
+ 1    25             3        NaClO4           lgK:106.14(0.05MD)           5         MGL        5547
+
+
+Reaction No. 57379
+2<H+1> + Mo7O24-6 = H+1(2)_Mo7O24-6
+ No        t         I-Str       Medium           Value (Dev)           W       Tech.           Ref. #
+  1       25             3       NaClO4           dH:4.(0.5SD)          4           CMN         5114
+
+
+Reaction No. 57380
+H+1(2)_Mo7O24-6 + H+1 = H+1(3)_Mo7O24-6
+ No   t        I-Str             Medium                 Value (Dev)             W     Tech.      Ref. #
+ 1    25         0           Inf. Dilution/m           lgK:4.09(3SF)            3         CRV    24953
+ 2    25         1                NaCl                lgK:2.4(0.05SD)           6         CRV     552
+ 3    25         3               NaClO4                lgK:2.53(3SF)            6         CRV     552
+ 4    25         3              Unknown/m              lgK:2.62(3SF)            2         CRV    24953
+
+
+
+
+                                               – Page 41 of 80 –
+JESS Thermodynamic Database v8.9                                       Molybdenum
+
+
+ 5    25       3            NaClO4              dG:-3.45(0.13MD)       6      MCL     23142
+ 6    25       3            NaClO4                dH:-0.6(1.SD)        5      MCL      43
+ 7    25       3            NaClO4               dH:-0.6(0.5SD)        4      ENS     5114
+ 8    25       3            NaClO4               dH:-0.6(1.3MD)        6      MCL     23142
+
+
+Reaction No. 57381
+H+1(2)_Mo7O24-6 + 2<OH-1> = Mo7O24-6 + 2<H2O>
+ No       t     I-Str     Medium             Value (Dev)           W       Tech.     Ref. #
+  1    25           1      LiCl            dH:-27.8(0.1SD)         5       MCL       5114
+
+
+Reaction No. 57382
+Mo7O24-6 + 8<OH-1> = 7<MoO4-2> + 4<H2O>
+ No   t       I-Str         Medium                 Value (Dev)         W     Tech.   Ref. #
+ 1    25        0        Inf. Dilution            lgK:61.6(3SF)        1      ELC
+ 2    25        0       Inf. Dilution/m          lgK:61.61(4SF)        0      CRV     24953
+ 3    25        1            LiCl                dH:-55.1(0.1SD)       2      MCL     5114
+
+
+Reaction No. 57416
+10<H+1> + 5<MoO4-2> + 2<SeO3-2> = H+1(10)_MoO4-2(5)_SeO3-2(2)
+ No       t     I-Str    Medium              Value (Dev)           W       Tech.     Ref. #
+  1    25           1    Na(Cl)           lgK:71.4(0.04SD)         6        MPT       5268
+
+
+Reaction No. 57417
+11<H+1> + 5<MoO4-2> + 2<SeO3-2> = H+1(11)_MoO4-2(5)_SeO3-2(2)
+ No       t     I-Str    Medium              Value (Dev)           W       Tech.     Ref. #
+  1    25           1    Na(Cl)           lgK:72.7(0.04SD)         6        MPT       5268
+
+
+Reaction No. 57418
+14<H+1> + 8<MoO4-2> + 2<SeO3-2> = H+1(14)_MoO4-2(8)_SeO3-2(2)
+ No       t     I-Str    Medium              Value (Dev)           W       Tech.     Ref. #
+  1    25           1    Na(Cl)           lgK:98.0(0.04SD)         6        MPT       5268
+
+
+Reaction No. 57419
+15<H+1> + 8<MoO4-2> + 2<SeO3-2> = H+1(15)_MoO4-2(8)_SeO3-2(2)
+ No    t       I-Str     Medium              Value (Dev)           W       Tech.     Ref. #
+ 1     25           1    Na(Cl)           lgK:101.0(0.04SD)        6        MPT       5268
+
+
+Reaction No. 57420
+
+
+
+
+                                          – Page 42 of 80 –
+JESS Thermodynamic Database v8.9                                                   Molybdenum
+
+
+11<H+1> + 7<MoO4-2> + SeO3-2 = H+1(11)_MoO4-2(7)_SeO3-2
+ No    t         I-Str         Medium            Value (Dev)               W            Tech.      Ref. #
+  1   25              1        Na(Cl)          lgK:74.4(0.04SD)            6             MPT        5268
+
+
+Reaction No. 57421
+12<H+1> + 7<MoO4-2> + SeO3-2 = H+1(12)_MoO4-2(7)_SeO3-2
+ No    t         I-Str         Medium            Value (Dev)               W            Tech.      Ref. #
+  1   25              1        Na(Cl)          lgK:77.7(0.04SD)            6             MPT        5268
+
+
+Reaction No. 57548
+2<MoO+3_Cl-1(5)> + H2O = O(MoOCl4)2-4 + 2<H+1> + 2<Cl-1>
+ No        t          I-Str      Medium            Value (Dev)                 W        Tech.      Ref. #
+ 1         14             5       HCl           lgR:-2.20(0.01SD)              3         MSP        5314
+ 2     20.5               5       HCl           lgR:-2.33(0.01SD)              3         MSP        5314
+ 3     22.2               5       HCl           lgR:-2.37(0.01SD)              3         MSP        5314
+ 4         25             5       HCl           lgR:-2.40(0.01SD)              3         MSP        5314
+
+
+Reaction No. 57877
+Mo+4_CN-1(7) + CN-1 = Mo+4_CN-1(8)
+ No       t       I-Str          Medium           Value (Dev)          W               Tech.       Ref. #
+  1    25             1          NaClO4          lgK:7.08(3SF)         4               MIS          222
+
+
+Reaction No. 58413
+MoO4-2 + 2<Oxalic-2> + 2<H+1> = MoO2+2_H+1(-2)_Oxalic-2(2) + 2<H2O >
+ No   t         I-Str            Medium                Value (Dev)                 W      Tech.     Ref. #
+ 1    25          0           Inf. Dilution          lgK:15.5(3SF)                 1         ESC
+ 2    30          1              NaClO4             lgK:15.5(0.03SD)               4         MPS     1427
+
+
+Reaction No. 58584
+Cl-1 + Mo+6 = Mo+6_Cl-1
+ No   t         I-Str              Medium              Value (Dev)             W         Tech.     Ref. #
+ 1    25          0            Inf. Dilution          lgK:-0.3(1SF)            4          MAX        140
+
+
+Reaction No. 58585
+Mo+6_Cl-1 + Cl-1 = Mo+6_Cl-1(2)
+ No   t         I-Str              Medium              Value (Dev)             W         Tech.     Ref. #
+ 1    25          0            Inf. Dilution          lgK:-0.5(1SF)            4          MAX        140
+
+
+
+
+                                               – Page 43 of 80 –
+JESS Thermodynamic Database v8.9                                                Molybdenum
+
+
+Reaction No. 58586
+Mo+6_Cl-1(2) + Cl-1 = Mo+6_Cl-1(3)
+ No   t        I-Str          Medium                  Value (Dev)           W        Tech.      Ref. #
+ 1    25         0         Inf. Dilution            lgK:-1.89(3SF)          4         MAX         140
+
+
+Reaction No. 58741
+ClO4-1 + Mo+4 = Mo+4_ClO4-1
+ No        t     I-Str       Medium              Value (Dev)            W       Tech.           Ref. #
+  1       23         2.5     H2SO4              lgK:0.91(2SF)           3           MKN          140
+
+
+Reaction No. 58956
+Ag+1(2)_MoO4-2_(s) + 2<e-1> = 2<Ag(s)> + MoO4-2
+ No   t          I-Str               Medium              Value (Dev)            W     Tech.      Ref. #
+ 1    25       0.02:0.05         Na+1 salt              E:0.4573(4SF)           3         MAG     778
+ 2    25              0        Inf. Dilution            E:0.486(3SF)            2         CRV     3006
+ 3    25              0        Inf. Dilution            E:0.4573(4SF)           3         CRV     6330
+
+
+Reaction No. 59275
+H+1 + Cys-2 + Mo+4 = Mo+4_H+1_Cys-2
+ No        t     I-Str       Medium              Value (Dev)            W       Tech.           Ref. #
+  1       20         0.5      NaTs              lgK:20.5(3SF)           3           MJM          905
+
+
+Reaction No. 59276
+Cys-2 + Mo+4 = Mo+4_Cys-2
+ No   t        I-Str           Medium                  Value (Dev)          W        Tech.      Ref. #
+ 1    25       1.5:3       Acetate buffer             lgK:6.0(2SF)          0         MJM        6044
+
+
+Reaction No. 59277
+3<Cys-2> + Mo+6 = Mo+6_Cys-2(3)
+ No   t        I-Str           Medium                  Value (Dev)          W        Tech.      Ref. #
+ 1    25        1.5        Acetate buffer             lgK:18.(1.SD)         4         MJM        6044
+
+
+Reaction No. 59559
+Asn-1 + Mo+6 = Mo+6_Asn-1
+ No        t     I-Str       Medium              Value (Dev)            W       Tech.           Ref. #
+  1       25         0.1     NaClO4             lgK:8.06(3SF)           4           MGL          905
+
+
+Reaction No. 59560
+
+
+
+
+                                              – Page 44 of 80 –
+JESS Thermodynamic Database v8.9                                  Molybdenum
+
+
+2<Asn-1> + Mo+6 = Mo+6_Asn-1(2)
+ No    t     I-Str      Medium              Value (Dev)       W    Tech.       Ref. #
+  1   25      0.1       NaClO4         lgK:15.29(4SF)         4    MGL          905
+
+
+Reaction No. 59561
+3<Asn-1> + Mo+6 = Mo+6_Asn-1(3)
+ No    t     I-Str      Medium              Value (Dev)       W    Tech.       Ref. #
+  1   25      0.1       NaClO4         lgK:18.74(4SF)         4    MGL          905
+
+
+Reaction No. 59603
+Gln-1 + Mo+6 = Mo+6_Gln-1
+ No    t     I-Str      Medium              Value (Dev)   W       Tech.        Ref. #
+  1   25      0.1       NaClO4          lgK:7.90(3SF)     4        MGL          905
+
+
+Reaction No. 59604
+2<Gln-1> + Mo+6 = Mo+6_Gln-1(2)
+ No    t     I-Str      Medium              Value (Dev)       W    Tech.       Ref. #
+  1   25      0.1       NaClO4         lgK:14.83(4SF)         4    MGL          905
+
+
+Reaction No. 59605
+3<Gln-1> + Mo+6 = Mo+6_Gln-1(3)
+ No    t     I-Str      Medium              Value (Dev)       W    Tech.       Ref. #
+  1   25      0.1       NaClO4         lgK:18.18(4SF)         4    MGL          905
+
+
+Reaction No. 60223
+Mo2O4+2 + H+1(2)_EDTA-4 = Mo2O4+2_H+1(2)_EDTA-4
+ No    t     I-Str      Medium              Value (Dev)       W    Tech.       Ref. #
+  1   25      0.1           KCl        lgK:11.24(4SF)         5    MGL          903
+
+
+Reaction No. 60224
+Mo2O4+2 + EDTA-4 = Mo2O4+2_EDTA-4
+ No    t     I-Str      Medium              Value (Dev)   W       Tech.        Ref. #
+  1   25      0.1           KCl         lgK:27.4(3SF)     5        MGL          903
+
+
+Reaction No. 60225
+Mo2O4+2_EDTA-4 + H+1 = Mo2O4+2_H+1_EDTA-4
+ No    t     I-Str          Medium          Value (Dev)   W       Tech.        Ref. #
+  1    25     0.1            KCl        lgK:0.0(1SF)      3        MGL          903
+
+
+
+
+                                      – Page 45 of 80 –
+JESS Thermodynamic Database v8.9                                                    Molybdenum
+
+
+
+Reaction No. 60226
+Mo2O4+2_H+1_EDTA-4 + H+1 = Mo2O4+2_H+1(2)_EDTA-4
+ No        t         I-Str       Medium           Value (Dev)           W           Tech.           Ref. #
+  1       25          0.1         KCl             lgK:0.0(1SF)          3               MGL          903
+
+
+Reaction No. 60227
+2<MoO4-2> + EDTA-4 + 4<H+1> = MoO3(2)_EDTA-4 + 2<H2O>
+ No   t        I-Str              Medium               Value (Dev)              W        Tech.       Ref. #
+ 1    25         0            Inf. Dilution           lgK:36.2(3SF)             1         ELC
+ 2    25       1:2.5             Unknown              lgK:35.(0.3SD)            0         MMR         903
+
+
+Reaction No. 60243
+17<H+1> + 9<MoO4-2> + H+1_AsO4-3 = H+1(18)_MoO4-2(9)_AsO4-3
+ No    t        I-Str         Medium              Value (Dev)               W            Tech.      Ref. #
+ 1    25             3        NaClO4           lgK:107.48(0.05MD)           5             MSP        5547
+
+
+Reaction No. 60291
+34<H+1> + 19<MoO4-2> = H6Mo19O62-4 + 14<H2O>
+ No        t         I-Str      Medium            Value (Dev)           W           Tech.           Ref. #
+  1       25             3      NaClO4           lgK:196.(3SF)          5               MGL          5986
+
+
+Reaction No. 60292
+7<MoO4-2> + 9<H+1> = H+1_Mo7O24-6 + 4<H2O>
+ No   t        I-Str             Medium                 Value (Dev)                 W     Tech.      Ref. #
+ 1    25         0            Inf. Dilution            lgK:57.8(3SF)                0         ELC
+ 2    25         0            Inf. Dilution          lgK:59.8(0.25SD)               0         CRV    31301
+ 3    25         0            Inf. Dilution            lgK:57.5(3SF)                2         EOD    31318
+ 4    25         0           Inf. Dilution/m          lgK:57.69(4SF)                0         CRV    24953
+ 5    25       0.01             Unknown/m             lgK:57.16(4SF)                0         CRV    24953
+ 6    25        0.1             Unknown/m             lgK:56.49(4SF)                0         CRV    24953
+ 7    25        0.2             Unknown/m             lgK:56.35(4SF)                0         CRV    24953
+ 8    25        0.5             Unknown/m             lgK:56.54(4SF)                0         CRV    24953
+ 9    25         1              Unknown/m             lgK:57.39(4SF)                2         CRV    24953
+ 10   25         2              Unknown/m             lgK:59.64(4SF)                2         CRV    24953
+ 11   25         3               NaClO4               lgK:62.140(5SF)               2         MGL     5986
+
+
+
+
+                                               – Page 46 of 80 –
+JESS Thermodynamic Database v8.9                                    Molybdenum
+
+
+Reaction No. 60293
+7<MoO4-2> + 10<H+1> = H+1(2)_Mo7O24-6 + 4<H2O>
+ No   t    I-Str          Medium                 Value (Dev)        W   Tech.    Ref. #
+ 1    25     0        Inf. Dilution            lgK:62.9(3SF)        1    ELC
+ 2    25     0        Inf. Dilution           lgK:60.88(4SF)        0    EOD     31318
+ 3    25     0       Inf. Dilution/m          lgK:63.54(4SF)        0    CRV     24953
+ 4    25   0.01         Unknown/m             lgK:62.55(4SF)        0    CRV     24953
+ 5    25    0.1         Unknown/m             lgK:61.15(4SF)        0    CRV     24953
+ 6    25    0.2         Unknown/m             lgK:60.69(4SF)        0    CRV     24953
+ 7    25    0.5         Unknown/m             lgK:60.44(4SF)        0    CRV     24953
+ 8    25     1          Unknown/m             lgK:61.02(4SF)        0    CRV     24953
+ 9    25     2          Unknown/m             lgK:63.15(4SF)        0    CRV     24953
+ 10   25     3            NaClO4              lgK:65.595(5SF)       0    MGL      5986
+
+
+Reaction No. 60294
+7<MoO4-2> + 11<H+1> = H+1(3)_Mo7O24-6 + 4<H2O>
+ No   t    I-Str          Medium                 Value (Dev)        W   Tech.    Ref. #
+ 1    25     0        Inf. Dilution            lgK:66.8(3SF)        1    ELC
+ 2    25     0        Inf. Dilution           lgK:62.86(4SF)        0    EOD     31318
+ 3    25     0       Inf. Dilution/m          lgK:67.63(4SF)        0    CRV     24953
+ 4    25   0.01         Unknown/m             lgK:66.27(4SF)        0    CRV     24953
+ 5    25    0.1         Unknown/m             lgK:64.30(4SF)        0    CRV     24953
+ 6    25    0.2         Unknown/m             lgK:63.59(4SF)        0    CRV     24953
+ 7    25    0.5         Unknown/m             lgK:63.01(4SF)        0    CRV     24953
+ 8    25     1          Unknown/m             lgK:63.40(4SF)        0    CRV     24953
+ 9    25     2          Unknown/m             lgK:65.53(4SF)        0    CRV     24953
+ 10   25     3            NaClO4              lgK:68.344(5SF)       0    MGL      5986
+ 11   25     3          Unknown/m             lgK:68.20(4SF)        0    CRV     24953
+
+
+Reaction No. 60295
+5<H+1> + 2<MoO4-2> = Mo2O5+2_OH-1 + 2<H2O>
+ No   t    I-Str          Medium               Value (Dev)      W       Tech.    Ref. #
+ 1    25     0        Inf. Dilution          lgK:18.05(4SF)     2       EOD      31318
+ 2    25     3            NaClO4              lgK:19.0(3SF)     5       MGL      5986
+
+
+Reaction No. 60296
+8<H+1> + 5<MoO4-2> + 2<H+1_PO4-3> = Mo5P2O23-6 + 5<H2O>
+
+
+
+
+                                       – Page 47 of 80 –
+JESS Thermodynamic Database v8.9                                  Molybdenum
+
+
+ No    t     I-Str      Medium           Value (Dev)          W    Tech.       Ref. #
+  1   25       3        NaClO4         lgK:61.97(4SF)         5    MGL         5986
+
+
+Reaction No. 60297
+9<H+1> + 5<MoO4-2> + 2<H+1_PO4-3> = HMo5P2O23-5 + 5<H2O>
+ No    t     I-Str      Medium           Value (Dev)          W    Tech.       Ref. #
+  1   25       3        NaClO4         lgK:67.07(4SF)         5    MGL         5986
+
+
+Reaction No. 60298
+10<H+1> + 5<MoO4-2> + 2<H+1_PO4-3> = H2Mo5P2O23-4 + 5<H2O>
+ No    t     I-Str      Medium           Value (Dev)          W    Tech.       Ref. #
+  1   25       3        NaClO4         lgK:70.86(4SF)         5    MGL         5986
+
+
+Reaction No. 60299
+16<H+1> + 9<MoO4-2> + H+1_PO4-3 = H5Mo9PO34-4 + 6<H2O>
+ No    t    I-Str      Medium            Value (Dev)          W    Tech.       Ref. #
+  1   25      3        NaClO4         lgK:104.71(5SF)         5     MGL         5986
+
+
+Reaction No. 60300
+17<H+1> + 9<MoO4-2> + H+1_PO4-3 = H6Mo9PO34-3 + 6<H2O>
+ No    t    I-Str      Medium            Value (Dev)          W    Tech.       Ref. #
+  1   25      3        NaClO4         lgK:107.17(5SF)         5     MGL         5986
+
+
+Reaction No. 60301
+34<H+1> + 18<MoO4-2> + 2<H+1_PO4-3> = Mo18P2O62-6 + 18<H2O>
+ No    t     I-Str      Medium           Value (Dev)          W    Tech.       Ref. #
+  1   25       3        NaClO4         lgK:217.8(4SF)         5     MGL        5986
+
+
+Reaction No. 60302
+17<H+1> + 11<MoO4-2> + H+1_PO4-3 = Mo11PO39-7 + 9<H2O>
+ No    t    I-Str      Medium            Value (Dev)          W    Tech.       Ref. #
+  1   25      3        NaClO4         lgK:118.68(5SF)         5     MGL         5986
+
+
+Reaction No. 60303
+18<H+1> + 11<MoO4-2> + H+1_PO4-3 = HMo11PO39-6 + 9<H2O>
+ No    t     I-Str     Medium            Value (Dev)          W    Tech.       Ref. #
+  1   25       3       NaClO4         lgK:123.10(5SF)         5     MGL         5986
+
+
+
+
+                                      – Page 48 of 80 –
+JESS Thermodynamic Database v8.9                                   Molybdenum
+
+
+Reaction No. 60304
+19<H+1> + 11<MoO4-2> + H+1_PO4-3 = H2Mo11PO39-5 + 9<H2O>
+ No    t     I-Str     Medium            Value (Dev)           W    Tech.       Ref. #
+  1   25       3       NaClO4         lgK:126.05(5SF)          5     MGL         5986
+
+
+Reaction No. 60305
+23<H+1> + 12<MoO4-2> + H+1_PO4-3 = Mo12PO40-3 + 12<H2O>
+ No    t     I-Str      Medium           Value (Dev)       W        Tech.       Ref. #
+  1   25       3        NaClO4         lgK:139.7(4SF)      5        MGL          5986
+
+
+Reaction No. 60306
+14<H+1> + 9<MoO4-2> + H+1_PO4-3 = HMo9PO33-6 + 7<H2O>
+ No    t     I-Str      Medium           Value (Dev)       W        Tech.       Ref. #
+  1   25       3        NaClO4         lgK:98.21(4SF)      5        MGL          5986
+
+
+Reaction No. 60307
+15<H+1> + 9<MoO4-2> + H+1_PO4-3 = H2Mo9PO33-5 + 7<H2O>
+ No    t    I-Str      Medium            Value (Dev)       W        Tech.       Ref. #
+  1   25      3        NaClO4         lgK:102.04(5SF)      5         MGL         5986
+
+
+Reaction No. 60308
+16<H+1> + 9<MoO4-2> + H+1_PO4-3 = H3Mo9PO33-4 + 7<H2O>
+ No    t    I-Str      Medium            Value (Dev)       W        Tech.       Ref. #
+  1   25      3        NaClO4         lgK:104.89(5SF)      5         MGL         5986
+
+
+Reaction No. 60309
+17<H+1> + 9<MoO4-2> + H+1_PO4-3 = H4Mo9PO33-3 + 7<H2O>
+ No    t    I-Str      Medium            Value (Dev)       W        Tech.       Ref. #
+  1   25      3        NaClO4         lgK:106.42(5SF)      5         MGL         5986
+
+
+Reaction No. 60887
+24DHB-3 + Mo+6 = Mo+6_24DHB-3
+ No    t     I-Str      Medium           Value (Dev)       W       Tech.        Ref. #
+  1   25                                lgK:3.47(3SF)      0        MSP          5987
+
+
+Reaction No. 60928
+25DHB-3 + Mo+6 = Mo+6_25DHB-3
+ No    t     I-Str       Medium           Value (Dev)      W        Tech.       Ref. #
+
+
+
+
+                                      – Page 49 of 80 –
+JESS Thermodynamic Database v8.9                                      Molybdenum
+
+
+  1    25     0.1        Unknown          lgK:2.58(3SF)           3           MSP         5987
+
+
+Reaction No. 65642
+Ca+2_MoO4-2_(s) = Ca+2 + MoO4-2
+ No    t    I-Str        Medium                 Value (Dev)               W     Tech.     Ref. #
+ 1    25      0       Inf. Dilution            lgK:-8.0(2SF)              3         CRV    552
+ 2    25      0       Inf. Dilution            lgK:-8.50(3SF)             4         CRV   28992
+ 3    25      0       Inf. Dilution             lgK:-8.(1SF)              4         EOD   30708
+ 4    25      0       Inf. Dilution          lgK:-7.95(0.025SD)           4         CRV   31301
+ 5    25      0       Inf. Dilution            lgK:-8.71(3SF)             4         CRV   32224
+ 6    50      0       Inf. Dilution            lgK:-8.56(3SF)             4         CRV   28992
+ 7    100     0       Inf. Dilution            lgK:-8.97(3SF)             3         CRV   28992
+ 8    150     0       Inf. Dilution            lgK:-9.81(3SF)             3         CRV   28992
+ 9    200     0       Inf. Dilution           lgK:-10.88(4SF)             2         CRV   28992
+ 10   25      0       Inf. Dilution             dH:-0.7(1SF)              4         CRV    552
+
+
+Reaction No. 65643
+Pb+2_MoO4-2_(s) = Pb+2 + MoO4-2
+ No    t    I-Str        Medium                 Value (Dev)               W     Tech.     Ref. #
+ 1    25      0       Inf. Dilution           lgK:-15.83(4SF)             1         EOR
+ 2    25      0       Inf. Dilution           lgK:-15.62(4SF)             2         CRV    552
+ 3    25      0       Inf. Dilution           lgK:-13.0(3SF)              0         ENS    773
+ 4    25      0       Inf. Dilution           lgK:-15.07(4SF)             2         CRV   28992
+ 5    25      0       Inf. Dilution        lgK:-12.98(0.025SD)            0         CRV   31301
+ 6    25      0       Inf. Dilution           lgK:-15.94(4SF)             4         CRV   32224
+ 7    50      0       Inf. Dilution           lgK:-14.49(4SF)             2         CRV   28992
+ 8    100     0       Inf. Dilution           lgK:-13.95(4SF)             2         CRV   28992
+ 9    150     0       Inf. Dilution           lgK:-14.03(4SF)             2         CRV   28992
+ 10   200     0       Inf. Dilution           lgK:-15.51(4SF)             2         CRV   28992
+ 11   25      0       Inf. Dilution            dH:12.89(4SF)              3         CRV    552
+
+
+Reaction No. 66689
+Cu(s) + Mo(s) + 2<O2(g)> = Cu+2_MoO4-2_(s)
+ No    t     I-Str         Medium                Value (Dev)          W        Tech.      Ref. #
+ 1     25         0     Inf. Dilution          lgK:142.0(4SF)         4         ENS       6422
+ 2     27         0     Inf. Dilution          lgK:141.0(4SF)         4         ENS       6422
+ 3    127         0     Inf. Dilution          lgK:101.3(4SF)         4         ENS       6422
+
+
+
+
+                                        – Page 50 of 80 –
+JESS Thermodynamic Database v8.9                               Molybdenum
+
+
+ 4    227     0        Inf. Dilution          lgK:77.56(4SF)   4   ENS      6422
+ 5    327     0        Inf. Dilution          lgK:61.77(4SF)   4   ENS      6422
+ 6    25      0        Inf. Dilution          dG:-193.7(4SF)   4   EFE      6422
+ 7    25      0        Inf. Dilution          dH:-217.9(4SF)   4   MTD      6422
+ 8    127     0        Inf. Dilution          dH:-217.5(4SF)   4   MTD      6422
+ 9    227     0        Inf. Dilution          dH:-217.0(4SF)   4   MTD      6422
+ 10   327     0        Inf. Dilution          dH:-216.4(4SF)   4   MTD      6422
+
+
+Reaction No. 66991
+Mn(s) + Mo(s) + 2<O2(g)> = Mn+2_MoO4-2_(s)
+ No    t    I-Str          Medium               Value (Dev)    W   Tech.    Ref. #
+ 1    25      0        Inf. Dilution          lgK:191.2(4SF)   4   ENS      6422
+ 2    27      0        Inf. Dilution          lgK:189.9(4SF)   4   ENS      6422
+ 3    127     0        Inf. Dilution          lgK:138.1(4SF)   4   ENS      6422
+ 4    227     0        Inf. Dilution          lgK:107.1(4SF)   4   ENS      6422
+ 5    327     0        Inf. Dilution          lgK:86.38(4SF)   4   ENS      6422
+ 6    25      0        Inf. Dilution          dG:-260.9(4SF)   4   EFE      6422
+ 7    25      0        Inf. Dilution          dH:-284.7(4SF)   4   MTD      6422
+ 8    127     0        Inf. Dilution          dH:-284.4(4SF)   4   MTD      6422
+ 9    227     0        Inf. Dilution          dH:-284.0(4SF)   4   MTD      6422
+ 10   327     0        Inf. Dilution          dH:-283.6(4SF)   4   MTD      6422
+
+
+Reaction No. 67008
+As(s) + Mo(s) + 2<O2(g)> = Mo+3_AsO4-3_(s)
+ No    t    I-Str          Medium               Value (Dev)    W   Tech.    Ref. #
+ 1    25      0        Inf. Dilution          lgK:143.3(4SF)   2   ENS      6422
+ 2    27      0        Inf. Dilution          lgK:142.3(4SF)   0   ENS      6422
+ 3    127     0        Inf. Dilution          lgK:102.7(4SF)   2   ENS      6422
+ 4    227     0        Inf. Dilution          lgK:78.97(4SF)   1   ENS      6422
+ 5    327     0        Inf. Dilution          lgK:63.22(4SF)   0   ENS      6422
+ 6    25      0        Inf. Dilution          dG:-194.5(4SF)   2   EFE      6422
+ 7    25      0        Inf. Dilution          dH:-217.7(4SF)   3   MTD      6422
+ 8    127     0        Inf. Dilution          dH:-217.2(4SF)   1   MTD      6422
+ 9    227     0        Inf. Dilution          dH:-216.6(4SF)   0   MTD      6422
+ 10   327     0        Inf. Dilution          dH:-216.0(4SF)   0   MTD      6422
+
+
+Reaction No. 67009
+
+
+
+
+                                       – Page 51 of 80 –
+JESS Thermodynamic Database v8.9                                Molybdenum
+
+
+C(s) + Mo(s) = MoC(s)
+ No    t    I-Str           Medium               Value (Dev)    W   Tech.    Ref. #
+ 1    25      0         Inf. Dilution          lgK:5.106(4SF)   4   ENS      6422
+ 2    27      0         Inf. Dilution          lgK:5.075(4SF)   4   ENS      6422
+ 3    127     0         Inf. Dilution          lgK:3.833(4SF)   4   ENS      6422
+ 4    227     0         Inf. Dilution          lgK:3.082(4SF)   4   ENS      6422
+ 5    327     0         Inf. Dilution          lgK:2.577(4SF)   4   ENS      6422
+ 6    25      0         Inf. Dilution          dG:-6.97(3SF)    4   EFE      6422
+ 7    25      0         Inf. Dilution           dH:-6.8(2SF)    4   MTD      6422
+ 8    127     0         Inf. Dilution           dH:-6.8(2SF)    4   MTD      6422
+ 9    227     0         Inf. Dilution           dH:-6.9(2SF)    4   MTD      6422
+ 10   327     0         Inf. Dilution           dH:-7.0(2SF)    4   MTD      6422
+
+
+Reaction No. 67010
+C(s) + 2<Mo(s)> = Mo2C(s)
+ No    t    I-Str           Medium               Value (Dev)    W   Tech.    Ref. #
+ 1    25      0         Inf. Dilution          lgK:9.460(4SF)   4   ENS      6422
+ 2    27      0         Inf. Dilution          lgK:9.403(4SF)   4   ENS      6422
+ 3    127     0         Inf. Dilution          lgK:7.098(4SF)   4   ENS      6422
+ 4    227     0         Inf. Dilution          lgK:5.728(4SF)   4   ENS      6422
+ 5    327     0         Inf. Dilution          lgK:4.823(4SF)   4   ENS      6422
+ 6    25      0         Inf. Dilution          dG:-12.91(4SF)   4   EFE      6422
+ 7    25      0         Inf. Dilution          dH:-12.7(3SF)    4   MTD      6422
+ 8    127     0         Inf. Dilution          dH:-12.6(3SF)    4   MTD      6422
+ 9    227     0         Inf. Dilution          dH:-12.5(3SF)    4   MTD      6422
+ 10   327     0         Inf. Dilution          dH:-12.4(3SF)    4   MTD      6422
+
+
+Reaction No. 67011
+6<C(s)> + Mo(s) + 3<O2(g)> = Mo(CO)6(s)
+ No    t    I-Str           Medium               Value (Dev)    W   Tech.    Ref. #
+ 1    25      0         Inf. Dilution          lgK:153.8(4SF)   4   ENS      6422
+ 2    27      0         Inf. Dilution          lgK:152.7(4SF)   4   ENS      6422
+ 3    127     0         Inf. Dilution          lgK:110.1(4SF)   4   ENS      6422
+ 4    25      0         Inf. Dilution          dG:-209.8(4SF)   4   EFE      6422
+ 5    25      0         Inf. Dilution          dH:-234.9(4SF)   4   MTD      6422
+ 6    127     0         Inf. Dilution          dH:-233.1(4SF)   4   MTD      6422
+
+
+
+
+                                        – Page 52 of 80 –
+JESS Thermodynamic Database v8.9                               Molybdenum
+
+
+Reaction No. 67012
+2<Mo(s)> + 0.5<N2(g)> = Mo2N(s)
+ No    t    I-Str           Medium              Value (Dev)    W   Tech.    Ref. #
+ 1    25      0        Inf. Dilution          lgK:9.603(4SF)   4   ENS      6422
+ 2    27      0        Inf. Dilution          lgK:9.514(4SF)   4   ENS      6422
+ 3    127     0        Inf. Dilution          lgK:5.971(4SF)   4   ENS      6422
+ 4    227     0        Inf. Dilution          lgK:3.865(4SF)   4   ENS      6422
+ 5    327     0        Inf. Dilution          lgK:2.481(4SF)   4   ENS      6422
+ 6    25      0        Inf. Dilution          dG:-13.10(4SF)   4   EFE      6422
+ 7    25      0        Inf. Dilution          dH:-19.5(3SF)    4   MTD      6422
+ 8    127     0        Inf. Dilution          dH:-19.4(3SF)    4   MTD      6422
+ 9    227     0        Inf. Dilution          dH:-19.1(3SF)    4   MTD      6422
+ 10   327     0        Inf. Dilution          dH:-18.8(3SF)    4   MTD      6422
+
+
+Reaction No. 67013
+Cl2(g) + Mo(s) + O2(g) = MoO2Cl2(s)
+ No    t    I-Str           Medium              Value (Dev)    W   Tech.    Ref. #
+ 1    25      0        Inf. Dilution          lgK:109.2(4SF)   4   ENS      6422
+ 2    27      0        Inf. Dilution          lgK:108.4(4SF)   0   ENS      6422
+ 3    127     0        Inf. Dilution          lgK:77.25(4SF)   2   ENS      6422
+ 4    227     0        Inf. Dilution          lgK:58.61(4SF)   1   ENS      6422
+ 5    327     0        Inf. Dilution          lgK:46.24(4SF)   0   ENS      6422
+ 6    25      0        Inf. Dilution          dG:-149.0(4SF)   4   EFE      6422
+ 7    25      0        Inf. Dilution          dH:-171.4(4SF)   2   MTD      6422
+ 8    127     0        Inf. Dilution          dH:-170.8(4SF)   1   MTD      6422
+ 9    227     0        Inf. Dilution          dH:-170.2(4SF)   0   MTD      6422
+ 10   327     0        Inf. Dilution          dH:-169.3(4SF)   0   MTD      6422
+
+
+Reaction No. 67014
+Mo(s) + 3<S(s)> = MoS3(s)
+ No    t    I-Str           Medium              Value (Dev)    W   Tech.    Ref. #
+ 1    25      0        Inf. Dilution          lgK:51.66(4SF)   4   ENS      6422
+ 2    27      0        Inf. Dilution          lgK:51.33(4SF)   4   ENS      6422
+ 3    127     0        Inf. Dilution          lgK:37.80(4SF)   4   ENS      6422
+ 4    227     0        Inf. Dilution          lgK:29.46(4SF)   4   ENS      6422
+ 5    327     0        Inf. Dilution          lgK:23.82(4SF)   4   ENS      6422
+
+
+
+
+                                       – Page 53 of 80 –
+JESS Thermodynamic Database v8.9                                          Molybdenum
+
+
+ 6    25            0       Inf. Dilution           dG:-70.48(4SF)        4      EFE     6422
+ 7    25            0       Inf. Dilution           dH:-74.0(3SF)         4      MTD     6422
+ 8    127           0       Inf. Dilution           dH:-75.8(3SF)         4      MTD     6422
+ 9    227           0       Inf. Dilution           dH:-76.9(3SF)         4      MTD     6422
+ 10   327           0       Inf. Dilution           dH:-77.8(3SF)         4      MTD     6422
+
+
+Reaction No. 67015
+2<Mo(s)> + 3<S(s)> = Mo2S3(s)
+ No    t       I-Str            Medium                Value (Dev)         W     Tech.   Ref. #
+ 1    25            0       Inf. Dilution           lgK:69.32(4SF)        4      ENS     6422
+ 2    27            0       Inf. Dilution           lgK:68.88(4SF)        4      ENS     6422
+ 3    127           0       Inf. Dilution           lgK:51.11(4SF)        4      ENS     6422
+ 4    227           0       Inf. Dilution           lgK:40.24(4SF)        4      ENS     6422
+ 5    327           0       Inf. Dilution           lgK:32.91(4SF)        4      ENS     6422
+ 6    25            0       Inf. Dilution           dG:-94.57(4SF)        4      EFE     6422
+ 7    25            0       Inf. Dilution           dH:-97.3(3SF)         4      MTD     6422
+ 8    127           0       Inf. Dilution           dH:-99.0(3SF)         4      MTD     6422
+ 9    227           0       Inf. Dilution           dH:-100.0(4SF)        4      MTD     6422
+ 10   327           0       Inf. Dilution           dH:-101.0(4SF)        4      MTD     6422
+
+
+Reaction No. 67640
+MoO4-2 + 2<H+1> + Asp-2 = MoO3_Asp-2 + H2O
+ No       t     I-Str        Medium             Value (Dev)           W       Tech.     Ref. #
+  1    25           0.16      KNO3            lgK:16.79(4SF)          5       MGL       6519
+
+
+Reaction No. 67641
+MoO4-2 + 2<H+1> + Glu-2 = MoO3_Glu-2 + H2O
+ No       t     I-Str        Medium             Value (Dev)           W       Tech.     Ref. #
+  1    25           0.16      KNO3            lgK:16.79(4SF)          5       MGL       6519
+
+
+Reaction No. 69106
+7<MoO4-2> + 10<H+1> = H+1(10)_MoO4-2(7)
+ No   t       I-Str            Medium                 Value (Dev)         W     Tech.   Ref. #
+ 1    25        0          Inf. Dilution/m           lgK:63.41(4SF)       3      CRV     24953
+ 2    25      0.01            Unknown/m              lgK:62.42(4SF)       2      CRV     24953
+ 3    25       0.1            Unknown/m              lgK:61.03(4SF)       2      CRV     24953
+ 4    25       0.2            Unknown/m              lgK:60.57(4SF)       2      CRV     24953
+
+
+
+
+                                             – Page 54 of 80 –
+JESS Thermodynamic Database v8.9                                                Molybdenum
+
+
+ 5    25        0.5             Unknown/m              lgK:60.33(4SF)           2         CRV    24953
+ 6    25         1                NaNO3                lgK:61.33(4SF)           5         MGL     6370
+ 7    25         1              Unknown/m              lgK:60.93(4SF)           2         CRV    24953
+ 8    25         2              Unknown/m              lgK:63.09(4SF)           2         CRV    24953
+ 9    25         3              Unknown/m              lgK:65.68(4SF)           1         CRV    24953
+
+
+Reaction No. 69107
+7<MoO4-2> + 11<H+1> = H+1(11)_MoO4-2(7)
+ No   t        I-Str             Medium                 Value (Dev)             W     Tech.      Ref. #
+ 1    25         0           Inf. Dilution/m           lgK:67.80(4SF)           3         CRV    24953
+ 2    25       0.01             Unknown/m              lgK:66.44(4SF)           2         CRV    24953
+ 3    25        0.1             Unknown/m              lgK:64.46(4SF)           2         CRV    24953
+ 4    25        0.2             Unknown/m              lgK:63.75(4SF)           2         CRV    24953
+ 5    25        0.5             Unknown/m              lgK:63.15(4SF)           1         CRV    24953
+ 6    25         1                NaNO3                lgK:64.96(4SF)           5         MGL     6370
+ 7    25         1              Unknown/m              lgK:63.52(4SF)           1         CRV    24953
+ 8    25         2              Unknown/m              lgK:65.58(4SF)           1         CRV    24953
+ 9    25         3              Unknown/m              lgK:68.21(4SF)           1         CRV    24953
+
+
+Reaction No. 69108
+10<MoO4-2> + 12<H+1> = H+1(12)_MoO4-2(10)
+ No       t      I-Str         Medium             Value (Dev)               W       Tech.       Ref. #
+  1    25             1        NaNO3            lgK:79.15(4SF)              5       MGL          6370
+
+
+Reaction No. 69109
+2<MoO4-2> + 5<H+1> = H+1(5)_MoO4-2(2)
+ No        t         I-Str      Medium            Value (Dev)           W       Tech.           Ref. #
+  1       25           1        NaNO3            lgK:19.(2SF)           4           MGL         6370
+
+
+Reaction No. 69110
+19<MoO4-2> + 34<H+1> = H+1(34)_MoO4-2(19)
+ No       t      I-Str        Medium              Value (Dev)               W       Tech.       Ref. #
+  1    25             1        NaNO3           lgK:196.30(5SF)              4        MGL         6370
+
+
+Reaction No. 69784
+Mo+3 + H+1_Oxalic-2 = Mo+3_Oxalic-2 + H+1
+ No       t      I-Str          Medium             Value (Dev)              W       Tech.       Ref. #
+
+
+
+
+                                               – Page 55 of 80 –
+JESS Thermodynamic Database v8.9                                                Molybdenum
+
+
+  1    25            1     Unknown            lgK:3.07(3SF)         5                MPS         1690
+
+
+Reaction No. 70124
+Al+3 + 6<H+1> + 6<MoO4-2> = Al(OH)6Mo6O18-3
+ No    t       I-Str     Medium               Value (Dev)               W            Tech.      Ref. #
+ 1    25        0.6       NaCl             lgK:50.96(0.06SD)            5             MMR        6953
+ 2    25        0.6       NaCl             lgK:50.95(0.04SD)            5             MPT        6953
+
+
+Reaction No. 70255
+H+1_MoO4-2 + H+1 + 2<H2O> = Mo+6_OH-1(6)
+ No   t       I-Str          Medium                 Value (Dev)                 W      Tech.     Ref. #
+ 1    25        0         Inf. Dilution             lgK:3.7(2SF)                4         ENS     7276
+ 2    25        0        Inf. Dilution/m           lgK:3.98(3SF)                3         CRV    24953
+ 3    25      0.01          Unknown/m              lgK:3.89(3SF)                2         CRV    24953
+ 4    25       0.1          Unknown/m              lgK:3.76(3SF)                2         CRV    24953
+ 5    25       0.2          Unknown/m              lgK:3.72(3SF)                2         CRV    24953
+ 6    25       0.5          Unknown/m              lgK:3.69(3SF)                2         CRV    24953
+ 7    25        1           Unknown/m              lgK:3.74(3SF)                2         CRV    24953
+ 8    25        2           Unknown/m              lgK:3.92(3SF)                2         CRV    24953
+ 9    25        3           Unknown/m              lgK:4.14(3SF)                2         CRV    24953
+ 10   25        0         Inf. Dilution            dH:-49.(2SF)kJ               4         ENS     7276
+
+
+Reaction No. 70916
+MoO4-2 + 2<Mandelic-1> + 2<H+1> = MoO2+2_H+1(-2)_Mandelic-1(2) + 2<H2O >
+ No       t     I-Str      Medium             Value (Dev)           W               Tech.       Ref. #
+  1    21            1      NaCl             lgK:14.8(3SF)          4               MMR         7703
+
+
+Reaction No. 71444
+Am+3 + 2<MoO4-2> = Am+3_MoO4-2(2)
+ No   t       I-Str          Medium                Value (Dev)              W         Tech.     Ref. #
+ 1    25        0         Inf. Dilution           lgK:11.2(3SF)             5          EOD       8120
+
+
+Reaction No. 71445
+2<Am+3> + H+1(4)_Mo7O24-6 = Am+3(2)_Mo7O24-6 + 4<H+1>
+ No   t       I-Str          Medium                Value (Dev)              W         Tech.     Ref. #
+ 1    25        0         Inf. Dilution           lgK:3.85(3SF)             0          EOD       8120
+
+
+
+
+                                           – Page 56 of 80 –
+JESS Thermodynamic Database v8.9                                      Molybdenum
+
+
+Reaction No. 72394
+0.5<H2(g)> + Mo(s) + 2<O2(g)> + e-1 = H+1_MoO4-2
+ No   t       I-Str          Medium               Value (Dev)         W     Tech.   Ref. #
+ 1    25        0         Inf. Dilution         lgK:150.8(4SF)        1      ELC
+ 2    25        0         Inf. Dilution        dG:-206.400(6SF)       0      CRV     9029
+ 3    25        0         Inf. Dilution        dH:-238.500(6SF)       2      CRV     9029
+
+
+Reaction No. 72518
+2<H+1> + 2<Benzilic-1> + MoO4-2 = H+1(2)_Benzilic-1(2)_MoO4-2
+ No       t     I-Str        Medium          Value (Dev)          W       Tech.     Ref. #
+  1    25           0.1      NaNO3         lgK:17.35(4SF)         5       MPT       5668
+
+
+Reaction No. 72519
+4<H+1> + 2<Benzilic-1> + 2<MoO4-2> = H+1(4)_Benzilic-1(2)_MoO4-2(2)
+ No       t     I-Str        Medium          Value (Dev)          W       Tech.     Ref. #
+  1    25           0.1      NaNO3         lgK:29.07(4SF)         5       MPT       5668
+
+
+Reaction No. 72540
+Citric-3 + MoO4-2 + 4<H+1> = H+1(4)_MoO4-2_Citric-3
+ No   t       I-Str          Medium              Value (Dev)          W     Tech.    Ref. #
+ 1    25        0         Inf. Dilution         lgK:23.52(4SF)        1      EOR
+ 2    25        1             NaCl            lgK:21.12(0.11MD)       5      MPS      5794
+ 3    25        1             NaCl             dH:-69.3(3.MD)kJ       5      MCL      5794
+
+
+Reaction No. 72541
+2<Citric-3> + 2<MoO4-2> + 4<H+1> = H+1(4)_MoO4-2(2)_Citric-3(2)
+ No   t       I-Str          Medium              Value (Dev)          W     Tech.    Ref. #
+ 1    2         1             NaCl            lgK:33.08(0.03MD)       5      MPS      5794
+ 2    25        0         Inf. Dilution         lgK:30.02(4SF)        1      EOR
+ 3    25        1             NaCl            lgK:31.02(0.11MD)       5      MPS      5794
+ 4    25        1             NaCl             dH:-140.(4.MD)kJ       5      MCL      5794
+
+
+Reaction No. 72542
+2<Citric-3> + 2<MoO4-2> + 5<H+1> = H+1(5)_MoO4-2(2)_Citric-3(2)
+ No   t       I-Str          Medium              Value (Dev)          W     Tech.    Ref. #
+ 1    2         1             NaCl            lgK:37.99(0.04MD)       0      MPS      5794
+ 2    25        0         Inf. Dilution         lgK:36.76(4SF)        1      EOR
+
+
+
+
+                                          – Page 57 of 80 –
+JESS Thermodynamic Database v8.9                                  Molybdenum
+
+
+ 3    25     1           NaCl             lgK:35.86(0.05MD)       5   MPS      5794
+ 4    25     1           NaCl              dH:-137.(4.MD)kJ       5   MCL      5794
+
+
+Reaction No. 72543
+2<Citric-3> + 2<MoO4-2> + 6<H+1> = H+1(6)_MoO4-2(2)_Citric-3(2)
+ No   t    I-Str        Medium               Value (Dev)          W   Tech.    Ref. #
+ 1    2      1           NaCl             lgK:42.15(0.17MD)       0   MPT      5794
+ 2    25     0       Inf. Dilution          lgK:42.48(4SF)        1   EOR
+ 3    25     1           NaCl             lgK:40.08(0.07MD)       3   MPT      5794
+ 4    25     1           NaCl              dH:-142.(8.MD)kJ       3   MCL      5794
+
+
+Reaction No. 72544
+2<Citric-3> + MoO4-2 + 4<H+1> = H+1(4)_MoO4-2_Citric-3(2)
+ No   t    I-Str        Medium               Value (Dev)          W   Tech.    Ref. #
+ 1    2      1           NaCl             lgK:26.46(0.15MD)       5    MPT     5794
+ 2    25     0       Inf. Dilution          lgK:26.84(4SF)        1    EOR
+ 3    25     1           NaCl             lgK:25.34(0.18MD)       5    MPT     5794
+
+
+Reaction No. 72545
+2<Citric-3> + MoO4-2 + 5<H+1> = H+1(5)_MoO4-2_Citric-3(2)
+ No   t    I-Str        Medium               Value (Dev)          W   Tech.    Ref. #
+ 1    2      1           NaCl             lgK:30.75(0.10MD)       5    MPT     5794
+ 2    25     0       Inf. Dilution          lgK:32.24(4SF)        1    EOR
+ 3    25     1           NaCl             lgK:29.54(0.11MD)       5    MPT     5794
+
+
+Reaction No. 72546
+2<Citric-3> + MoO4-2 + 6<H+1> = H+1(6)_MoO4-2_Citric-3(2)
+ No   t    I-Str        Medium               Value (Dev)          W   Tech.    Ref. #
+ 1    2      1           NaCl             lgK:34.74(0.02MD)       0    MPT     5794
+ 2    25     0       Inf. Dilution          lgK:36.93(4SF)        1    EOR
+ 3    25     1           NaCl             lgK:33.34(0.02MD)       3    MPT     5794
+ 4    25     1           NaCl              dH:-92.(8.MD)kJ        3    MCL     5794
+
+
+Reaction No. 72547
+Citric-3 + 2<MoO4-2> + 3<H+1> = H+1(3)_MoO4-2(2)_Citric-3
+ No   t    I-Str        Medium               Value (Dev)          W   Tech.    Ref. #
+ 1    2      1           NaCl             lgK:22.92(0.17MD)       5    MPT     5794
+
+
+
+
+                                      – Page 58 of 80 –
+JESS Thermodynamic Database v8.9                                    Molybdenum
+
+
+ 2    25     0       Inf. Dilution          lgK:22.33(4SF)          1      EOR
+ 3    25     1           NaCl             lgK:21.73(0.09MD)         5      MPT     5794
+
+
+Reaction No. 72548
+8<H+1> + 2<Citric-3> + 4<MoO4-2> = H+1(8)_MoO4-2(4)_Citric-3(2)
+ No   t    I-Str     Medium             Value (Dev)           W         Tech.     Ref. #
+  1   2      1        NaCl           lgK:59.76(0.11MD)        5          MPT      5794
+
+
+Reaction No. 72549
+2<Citric-3> + 4<MoO4-2> + 9<H+1> = H+1(9)_MoO4-2(4)_Citric-3(2)
+ No   t    I-Str        Medium               Value (Dev)            W     Tech.   Ref. #
+ 1    2      1           NaCl             lgK:64.45(0.15MD)         5      MPT     5794
+ 2    25     0       Inf. Dilution          lgK:63.46(4SF)          1      EOR
+ 3    25     1           NaCl             lgK:60.76(0.15MD)         5      MPT     5794
+
+
+Reaction No. 72550
+2<Citric-3> + 4<MoO4-2> + 10<H+1> = H+1(10)_MoO4-2(4)_Citric-3(2)
+ No   t    I-Str        Medium               Value (Dev)            W     Tech.   Ref. #
+ 1    2      1           NaCl             lgK:68.39(0.10MD)         0      MPT     5794
+ 2    25     0       Inf. Dilution          lgK:68.88(4SF)          1      EOR
+ 3    25     1           NaCl             lgK:64.69(0.11MD)         3      MPT     5794
+ 4    25     1           NaCl              dH:-251.(8.MD)kJ         3      MCL     5794
+
+
+Reaction No. 72551
+4<Citric-3> + 4<MoO4-2> + 11<H+1> = H+1(11)_MoO4-2(4)_Citric-3(4)
+ No   t    I-Str        Medium               Value (Dev)            W     Tech.   Ref. #
+ 1    2      1           NaCl             lgK:81.67(0.20MD)         0      MPT     5794
+ 2    25     0       Inf. Dilution          lgK:74.75(4SF)          1      EOR
+ 3    25     1           NaCl             lgK:77.45(0.24MD)         3      MPT     5794
+ 4    25     1           NaCl             dH:-305.(20.MD)kJ         3      MCL     5794
+
+
+Reaction No. 72552
+4<MoO4-2> + 4<Citric-3> + 12<H+1> = H+1(12)_MoO4-2(4)_Citric-3(4)
+ No   t    I-Str     Medium             Value (Dev)           W         Tech.     Ref. #
+  1   2      1        NaCl           lgK:85.72(0.36MD)        5         MPT       5794
+
+
+Reaction No. 72708
+
+
+
+
+                                      – Page 59 of 80 –
+JESS Thermodynamic Database v8.9                                    Molybdenum
+
+
+H+1 + 2<Mandelic-1> + MoO4-2 = H+1_Mandelic-1(2)_MoO4-2
+ No   t     I-Str      Medium           Value (Dev)             W    Tech.       Ref. #
+  1   25      1         NaCl          lgK:7.80(0.30MD)          5     MGL        5810
+
+
+Reaction No. 72709
+2<H+1> + 2<Mandelic-1> + MoO4-2 = H+1(2)_Mandelic-1(2)_MoO4-2
+ No   t     I-Str     Medium            Value (Dev)             W     Tech.      Ref. #
+ 1    25      1        NaCl          lgK:15.93(0.01MD)          5      MGL        5810
+
+
+Reaction No. 72710
+3<H+1> + 2<Mandelic-1> + MoO4-2 = H+1(3)_Mandelic-1(2)_MoO4-2
+ No   t     I-Str     Medium            Value (Dev)             W     Tech.      Ref. #
+ 1    25      1        NaCl          lgK:16.27(0.29MD)          5      MGL        5810
+
+
+Reaction No. 72711
+H+1 + Mandelic-1 + MoO4-2 = H+1_Mandelic-1_MoO4-2
+ No   t     I-Str      Medium           Value (Dev)             W    Tech.       Ref. #
+  1   25      1         NaCl          lgK:6.83(0.12MD)          5     MGL        5810
+
+
+Reaction No. 72712
+2<H+1> + Mandelic-1 + MoO4-2 = H+1(2)_Mandelic-1_MoO4-2
+ No   t     I-Str     Medium            Value (Dev)             W     Tech.      Ref. #
+ 1    25      1        NaCl          lgK:11.57(0.06MD)          5      MGL        5810
+
+
+Reaction No. 72713
+4<H+1> + 2<Mandelic-1> + 2<MoO4-2> = H+1(4)_Mandelic-1(2)_MoO4-2(2)
+ No   t     I-Str     Medium            Value (Dev)             W     Tech.      Ref. #
+ 1    25      1        NaCl          lgK:25.87(0.03MD)          5     MGL         5810
+
+
+Reaction No. 72714
+5<H+1> + 2<Mandelic-1> + 2<MoO4-2> = H+1(5)_Mandelic-1(2)_MoO4-2(2)
+ No   t     I-Str     Medium            Value (Dev)             W     Tech.      Ref. #
+ 1    25      1        NaCl          lgK:26.86(0.12MD)          5     MGL         5810
+
+
+Reaction No. 72715
+3<H+1> + Mandelic-1 + 2<MoO4-2> = H+1(3)_Mandelic-1_MoO4-2(2)
+ No   t     I-Str     Medium            Value (Dev)             W     Tech.      Ref. #
+ 1    25      1        NaCl          lgK:19.00(0.15MD)          5      MGL        5810
+
+
+
+
+                                      – Page 60 of 80 –
+JESS Thermodynamic Database v8.9                                    Molybdenum
+
+
+
+Reaction No. 72716
+4<H+1> + Mandelic-1 + 2<MoO4-2> = H+1(4)_Mandelic-1_MoO4-2(2)
+ No   t     I-Str     Medium            Value (Dev)             W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:21.18(0.24MD)          5     MGL        5810
+
+
+Reaction No. 72717
+5<H+1> + Mandelic-1 + 2<MoO4-2> = H+1(5)_Mandelic-1_MoO4-2(2)
+ No   t     I-Str     Medium            Value (Dev)             W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:23.00(0.06MD)          5     MGL        5810
+
+
+Reaction No. 73297
+H+1 + Malic-2 + MoO4-2 = H+1_Malic-2_MoO4-2
+ No   t     I-Str     Medium            Value (Dev)             W    Tech.       Ref. #
+ 1    25      1        NaCl           lgK:7.47(0.01MD)          5     MPT        6322
+ 2    25      1        NaCl          dH:-47.9(0.4MD)kJ          5     MCL        6322
+
+
+Reaction No. 73298
+3<H+1> + Malic-2 + MoO4-2 = H+1(3)_Malic-2_MoO4-2
+ No   t     I-Str     Medium            Value (Dev)             W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:15.87(0.08MD)          5     MPT        6322
+ 2    25      1        NaCl           dH:-57.4(4.MD)kJ          5     MCL        6322
+
+
+Reaction No. 73299
+3<H+1> + 2<Malic-2> + MoO4-2 = H+1(3)_Malic-2(2)_MoO4-2
+ No   t     I-Str     Medium            Value (Dev)             W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:20.13(0.01MD)          5     MPT         6322
+ 2    25      1        NaCl           dH:-83.(1.MD)kJ           5     MCL         6322
+
+
+Reaction No. 73300
+4<H+1> + 2<Malic-2> + MoO4-2 = H+1(4)_Malic-2(2)_MoO4-2
+ No   t     I-Str     Medium            Value (Dev)             W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:24.14(0.01MD)          5     MPT         6322
+ 2    25      1        NaCl          dH:-85.6(0.8MD)kJ          5     MCL         6322
+
+
+Reaction No. 73301
+8<H+1> + 2<Malic-2> + 4<MoO4-2> = H+1(8)_Malic-2(2)_MoO4-2(4)
+ No   t     I-Str     Medium            Value (Dev)             W    Tech.       Ref. #
+
+
+
+
+                                      – Page 61 of 80 –
+JESS Thermodynamic Database v8.9                                    Molybdenum
+
+
+ 1    25      1        NaCl          lgK:52.92(0.03MD)          5     MPT        6322
+ 2    25      1        NaCl           dH:-232.(5.MD)kJ          5     MCL        6322
+
+
+Reaction No. 73302
+9<H+1> + 2<Malic-2> + 4<MoO4-2> = H+1(9)_Malic-2(2)_MoO4-2(4)
+ No   t     I-Str     Medium            Value (Dev)             W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:54.35(0.05MD)          5     MPT        6322
+ 2    25      1        NaCl          dH:-214.(15.MD)kJ          5     MCL        6322
+
+
+Reaction No. 73303
+4<MoO4-2> + 2<Malic-2> + 10<H+1> = H+1(10)_Malic-2(2)_MoO4-2(4)
+ No   t     I-Str     Medium            Value (Dev)             W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:55.27(0.09MD)          5     MPT         6322
+ 2    25      1        NaCl          dH:-197.(21.MD)kJ          5     MCL         6322
+
+
+Reaction No. 73304
+3<H+1> + Malic-2 + 2<MoO4-2> = H+1(3)_Malic-2_MoO4-2(2)
+ No   t     I-Str     Medium            Value (Dev)             W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:20.10(0.04MD)          5     MPT         6322
+ 2    25      1        NaCl           dH:-75.(4.MD)kJ           5     MCL         6322
+
+
+Reaction No. 73305
+4<H+1> + Malic-2 + 2<MoO4-2> = H+1(4)_Malic-2_MoO4-2(2)
+ No   t     I-Str     Medium            Value (Dev)             W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:24.33(0.40MD)          5     MPS         6322
+ 2    25      1        NaCl          lgK:24.35(0.24MD)          5     MPT         6322
+ 3    25      1        NaCl            dH:-75.(2SF)kJ           3     MCL         6322
+
+
+Reaction No. 73306
+4<H+1> + 2<Malic-2> + 2<MoO4-2> = H+1(4)_Malic-2(2)_MoO4-2(2)
+ No   t     I-Str     Medium            Value (Dev)             W    Tech.       Ref. #
+ 1    25      1        NaCl          lgK:28.06(0.03MD)          5     MPT        6322
+ 2    25      1        NaCl           dH:-85.(10.MD)kJ          5     MCL        6322
+
+
+Reaction No. 73307
+5<H+1> + 2<Malic-2> + 2<MoO4-2> = H+1(5)_Malic-2(2)_MoO4-2(2)
+ No   t     I-Str     Medium            Value (Dev)             W    Tech.       Ref. #
+
+
+
+
+                                      – Page 62 of 80 –
+JESS Thermodynamic Database v8.9                                              Molybdenum
+
+
+ 1    25            1      NaCl            lgK:32.01(0.07MD)          5         MPT         6322
+ 2    25            1      NaCl             dH:-85.(8.MD)kJ           5         MCL         6322
+
+
+Reaction No. 73308
+4<MoO4-2> + 4<Malic-2> + 11<H+1> = H+1(11)_Malic-2(4)_MoO4-2(4)
+ No    t       I-Str      Medium              Value (Dev)             W        Tech.       Ref. #
+ 1    25            1      NaCl            lgK:69.92(0.09MD)          5         MPT         6322
+ 2    25            1      NaCl            dH:-221.(14.MD)kJ          5         MCL         6322
+
+
+Reaction No. 73349
+NicotHydroxam-1 + Mo+6 = Mo+6_NicotHydroxam-1
+ No       t     I-Str       Medium            Value (Dev)         W           Tech.        Ref. #
+  1    25           0.1     NaClO4           lgK:6.30(3SF)        2            MPS          6703
+Note (1): Reaction not clearly defined
+
+
+Reaction No. 73350
+2<NicotHydroxam-1> + Mo+6 = Mo+6_NicotHydroxam-1(2)
+ No       t     I-Str       Medium            Value (Dev)         W           Tech.        Ref. #
+  1    25           0.1     NaClO4           lgK:6.7(2SF)         2            MPS         6703
+Note (1): Reaction not clearly defined
+
+
+Reaction No. 73368
+Cu+2_MoO4-2_(s) = Cu+2 + MoO4-2
+ No   t       I-Str          Medium                Value (Dev)            W     Tech.       Ref. #
+ 1    25        0         Inf. Dilution          lgK:-6.55(3SF)           2      MIS         6843
+ 2    25        0         Inf. Dilution          lgK:-8.31(3SF)           2      CRV        32224
+
+
+Reaction No. 74266
+2<H+1(2)_MoO4-2> + 2<e-1> + 4<H+1> = Mo2O4+2 + 4<H2O>
+ No   t       I-Str               Medium           Value (Dev)        W         Tech.      Ref. #
+ 1    25        0          Inf. Dilution           E:0.50(2SF)        4          CRV        22551
+
+
+Reaction No. 74267
+MoO4-2 + 2<e-1> + 2<H2O> = MoO2(s) + 4<OH-1>
+ No   t       I-Str          Medium                Value (Dev)            W     Tech.       Ref. #
+ 1    25        0         Inf. Dilution          lgK:-26.2(3SF)           1      ELC
+ 2    25        0         Inf. Dilution           E:-0.78(2SF)            0      CRV        22551
+
+
+
+
+                                           – Page 63 of 80 –
+JESS Thermodynamic Database v8.9                                                  Molybdenum
+
+
+Reaction No. 74268
+MoO2(s) + 4<e-1> + 2<H2O> = Mo(s) + 4<OH-1>
+ No    t        I-Str             Medium               Value (Dev)            W        Tech.      Ref. #
+ 1    25             0        Inf. Dilution            E:-0.98(2SF)           4         CRV        22551
+
+
+Reaction No. 74269
+MoO+3_Cl-1(5) + 2<e-1> + 2<H+1> = Mo+3_Cl-1(5) + H2O
+ No        t         I-Str      Medium            Value (Dev)           W         Tech.           Ref. #
+  1       25             1       HCl             E:-0.38(2SF)           0             CRV         22551
+
+
+Reaction No. 74270
+MoO2+2_Cl-1(4) + 2<e-1> + 4<H+1> = Mo+4_Cl-1(4) + 2<H2O>
+ No        t         I-Str      Medium            Value (Dev)         W           Tech.           Ref. #
+  1       25             1        HCl             E:0.15(2SF)         0               CRV         22551
+
+
+Reaction No. 75851
+Mo+6_Gln-1 + Gln-1 = Mo+6_Gln-1(2)
+ No       t      I-Str         Medium             Value (Dev)             W           Tech.       Ref. #
+  1    25            0.1       NaClO4            lgK:6.93(3SF)            4           MGL         22630
+
+
+Reaction No. 76635
+2<MoO4-2> + 3<H+1> = H+1(3)_MoO4-2(2)
+ No    t        I-Str           Medium              Value (Dev)               W        Tech.      Ref. #
+ 1    25             1        Unknown/m           lgK:14.84(4SF)              2         CRV        24953
+
+
+Reaction No. 76636
+8<MoO4-2> + 9<H+1> = H+1(9)_MoO4-2(8)
+ No    t        I-Str           Medium              Value (Dev)               W        Tech.      Ref. #
+ 1    25             1        Unknown/m           lgK:59.46(4SF)              2         CRV        24953
+
+
+Reaction No. 76637
+8<MoO4-2> + 12<H+1> = Mo8O26-4 + 6<H2O>
+ No   t        I-Str             Medium                 Value (Dev)               W      Tech.     Ref. #
+ 1    25         0            Inf. Dilution            lgK:71.49(4SF)             2         EOD    31318
+ 2    25         0           Inf. Dilution/m           lgK:74.70(4SF)             3         CRV    24953
+ 3    25         1              Unknown/m              lgK:71.70(4SF)             2         CRV    24953
+
+
+Reaction No. 76638
+
+
+
+
+                                               – Page 64 of 80 –
+JESS Thermodynamic Database v8.9                                Molybdenum
+
+
+MoO4-2 + 2<H+1> + 2<H2O> = Mo+6_OH-1(6)
+ No   t    I-Str           Medium                Value (Dev)    W   Tech.    Ref. #
+ 1    25     0         Inf. Dilution             lgK:8.0(2SF)   1   ELC
+ 2    25     0        Inf. Dilution/m           lgK:8.54(3SF)   0   CRV      24953
+ 3    25   0.01          Unknown/m              lgK:8.26(3SF)   0   CRV      24953
+ 4    25    0.1          Unknown/m              lgK:7.83(3SF)   0   CRV      24953
+ 5    25    0.2          Unknown/m              lgK:7.65(3SF)   0   CRV      24953
+ 6    25    0.5          Unknown/m              lgK:7.42(3SF)   0   CRV      24953
+ 7    25     1           Unknown/m              lgK:7.31(3SF)   0   CRV      24953
+ 8    25     2           Unknown/m              lgK:7.35(3SF)   0   CRV      24953
+
+
+Reaction No. 76639
+MoO4-2 + 3<H+1> + H2O = Mo+6_OH-1(5)
+ No   t    I-Str           Medium                Value (Dev)    W   Tech.    Ref. #
+ 1    25     0         Inf. Dilution             lgK:8.8(2SF)   1   EOR
+ 2    25     0        Inf. Dilution/m           lgK:9.03(3SF)   0   CRV      24953
+ 3    25     1           Unknown/m              lgK:8.27(3SF)   2   CRV      24953
+
+
+Reaction No. 76640
+Mo+6_OH-1(6) + H+1 = Mo+6_OH-1(5) + H2O
+ No   t    I-Str           Medium                Value (Dev)    W   Tech.    Ref. #
+ 1    25     0        Inf. Dilution/m           lgK:0.85(2SF)   3   CRV      24953
+ 2    25   0.01          Unknown/m              lgK:0.85(2SF)   2   CRV      24953
+ 3    25    0.1          Unknown/m              lgK:0.86(2SF)   2   CRV      24953
+ 4    25    0.2          Unknown/m              lgK:0.86(2SF)   2   CRV      24953
+ 5    25    0.5          Unknown/m              lgK:0.88(2SF)   2   CRV      24953
+ 6    25     1           Unknown/m              lgK:0.91(2SF)   2   CRV      24953
+ 7    25     2           Unknown/m              lgK:0.97(2SF)   2   CRV      24953
+ 8    25     3           Unknown/m              lgK:1.03(3SF)   2   CRV      24953
+
+
+Reaction No. 76641
+MoO4-2 + H+1 + 2<H2O> = MoO+4_OH-1(5)
+ No   t    I-Str           Medium                Value (Dev)    W   Tech.    Ref. #
+ 1    25     0        Inf. Dilution/m           lgK:4.20(3SF)   3   CRV      24953
+ 2    25     1           Unknown/m              lgK:3.71(3SF)   2   CRV      24953
+
+
+Reaction No. 76642
+
+
+
+
+                                        – Page 65 of 80 –
+JESS Thermodynamic Database v8.9                                      Molybdenum
+
+
+MoO4-2 + 2<H+1> = MoO3(s) + H2O
+ No    t    I-Str         Medium                 Value (Dev)          W    Tech.   Ref. #
+ 1    25      0        Inf. Dilution            lgK:11.9(3SF)         1     ELC
+ 2    25      0        Inf. Dilution           lgK:12.055(5SF)        4     EOD     29487
+ 3    25      0        Inf. Dilution            lgK:12.12(4SF)        4     CRV     32224
+ 4    25      0       Inf. Dilution/m           lgK:11.67(4SF)        0     CRV     24953
+ 5    50      0       Inf. Dilution/m           lgK:11.29(4SF)        0     CRV     24953
+ 6    75      0       Inf. Dilution/m           lgK:11.09(4SF)        0     CRV     24953
+ 7    90      0        Inf. Dilution            lgK:11.02(4SF)        4     EOD     29487
+ 8    100     0       Inf. Dilution/m           lgK:11.04(4SF)        0     CRV     24953
+ 9    150     0       Inf. Dilution/m           lgK:11.23(4SF)        0     CRV     24953
+ 10   200     0       Inf. Dilution/m           lgK:11.68(4SF)        0     CRV     24953
+ 11   250     0       Inf. Dilution/m           lgK:12.29(4SF)        0     CRV     24953
+ 12   300     0       Inf. Dilution/m           lgK:12.99(4SF)        0     CRV     24953
+ 13   25      0        Inf. Dilution           dH:-33.02(4SF)kJ       4     EOD     29487
+
+
+Reaction No. 77539
+2<Na+1> + MoO4-2 = Na+1(2)_MoO4-2_(s)
+ No   t     I-Str        Medium                 Value (Dev)       W       Tech.    Ref. #
+ 1    25      0       Inf. Dilution           lgK:-1.111(4SF)     1        ELC
+ 2    25      0       Inf. Dilution           lgK:-1.03(3SF)      4        CRV     32224
+
+
+Reaction No. 77712
+6<NH3> + MoO4-2 + Co+3 = Co+3_NH3(6)_MoO4-2
+ No   t     I-Str         Medium                Value (Dev)       W       Tech.    Ref. #
+ 1    25      0       Inf. Dilution           lgK:39.53(4SF)      1        ELC
+
+
+Reaction No. 77743
+Zn+2 + MoO4-2 = Zn+2_MoO4-2_(s)
+ No   t     I-Str         Medium                Value (Dev)       W       Tech.    Ref. #
+ 1    25      0       Inf. Dilution           lgK:4.232(4SF)      1        ELC
+ 2    25      0       Inf. Dilution            lgK:6.07(3SF)      0        CRV     32224
+
+
+Reaction No. 77928
+EDTA-4 + 2<MoO4-2> + 4<H+1> = H+1(4)_MoO4-2(2)_EDTA-4
+ No    t    I-Str         Medium                Value (Dev)       W       Tech.    Ref. #
+ 1    25      0        Inf. Dilution           lgK:38.4(4SF)      1       ELC
+
+
+
+
+                                        – Page 66 of 80 –
+JESS Thermodynamic Database v8.9                                   Molybdenum
+
+
+
+Reaction No. 78066
+Oxalic-2 + MoO4-2 + 4<H+1> = H+1(4)_MoO4-2_Oxalic-2
+ No   t     I-Str         Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25      0       Inf. Dilution          lgK:19.59(4SF)    1      ELC
+
+
+Reaction No. 78089
+2<Oxalic-2> + MoO4-2 + 6<H+1> = H+1(6)_MoO4-2_Oxalic-2(2)
+ No   t     I-Str         Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25      0       Inf. Dilution          lgK:29.24(4SF)    1      ELC
+
+
+Reaction No. 78456
+Oxalic-2 + MoO2+2 = MoO2+2_Oxalic-2
+ No   t     I-Str         Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25      0       Inf. Dilution          lgK:35.74(4SF)    1      ELC
+
+
+Reaction No. 79094
+Oxalic-2 + Mo+3 = Mo+3_Oxalic-2
+ No   t     I-Str         Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25      0       Inf. Dilution          lgK:8.534(4SF)    1      ELC
+
+
+Reaction No. 79117
+6<OH-1> + Mo+6 = Mo+6_OH-1(6)
+ No   t     I-Str         Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25      0       Inf. Dilution          lgK:91.96(4SF)    1      ELC
+
+
+Reaction No. 79454
+5<OH-1> + Mo+6 = Mo+6_OH-1(5)
+ No   t     I-Str         Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25      0       Inf. Dilution          lgK:78.81(4SF)    1      ELC
+
+
+Reaction No. 79580
+Fe+2 + MoO4-2 = Fe+2_MoO4-2_(s)
+ No    t     I-Str         Medium               Value (Dev)    W      Tech.     Ref. #
+ 1    25          0    Inf. Dilution          lgK:7.70(3SF)    4       CRV      28992
+ 2    25          0    Inf. Dilution          lgK:10.51(4SF)   0       CRV      32224
+ 3    50          0    Inf. Dilution          lgK:7.98(3SF)    3       CRV      28992
+ 4    100         0    Inf. Dilution          lgK:8.78(3SF)    3       CRV      28992
+
+
+
+
+                                       – Page 67 of 80 –
+JESS Thermodynamic Database v8.9                                          Molybdenum
+
+
+ 5    150           0        Inf. Dilution           lgK:9.77(3SF)        2    CRV     28992
+ 6    200           0        Inf. Dilution           lgK:10.90(4SF)       2    CRV     28992
+
+
+Reaction No. 79581
+Mn+2 + MoO4-2 = Mn+2_MoO4-2_(s)
+ No       t     I-Str             Medium               Value (Dev)    W       Tech.    Ref. #
+ 1     25               0     Inf. Dilution           lgK:3.92(3SF)   4        CRV     28992
+ 2     25               0     Inf. Dilution           lgK:4.61(3SF)   0        CRV     32224
+ 3     50               0     Inf. Dilution           lgK:4.37(3SF)   3        CRV     28992
+ 4    100               0     Inf. Dilution           lgK:5.42(3SF)   3        CRV     28992
+ 5    150               0     Inf. Dilution           lgK:6.64(3SF)   2        CRV     28992
+ 6    200               0     Inf. Dilution           lgK:7.95(3SF)   2        CRV     28992
+
+
+Reaction No. 79747
+Mo+4 + 8<CN-1> = Mo+4_CN-1(8)
+ No    t       I-Str             Medium               Value (Dev)     W       Tech.    Ref. #
+ 1    25            0         Inf. Dilution           lgK:50.(2SF)    1       EES
+
+
+Reaction No. 80362
+2<Ag(s)> + Mo(s) + 2<O2(g)> = Ag+1(2)_MoO4-2_(s)
+ No   t       I-Str             Medium                Value (Dev)     W       Tech.    Ref. #
+ 1    25        0            Inf. Dilution          dG:-179.5(4SF)    4        EFE     30708
+ 2    25        0            Inf. Dilution          dH:-200.4(4SF)    4        EFE     30708
+
+
+Reaction No. 80368
+Mo(s) + 8<OH-1> = MoO4-2 + 4<H2O> + 6<e-1>
+ No   t       I-Str            Medium                 Value (Dev)         W    Tech.   Ref. #
+ 1    25        0           Inf. Dilution          E:0.910(0.005SD)       5     ETR    30759
+
+
+Reaction No. 80406
+MoO3(s) + H2O + Cl-1 = MoO2+2_Cl-1_OH-1(2)
+ No    t       I-Str             Medium                Value (Dev)        W   Tech.    Ref. #
+ 1    300           0        Inf. Dilution           lgK:-0.87(2SF)       4    MSL     30871
+
+
+Reaction No. 80612
+MoO4-2 + 8<H+1> + 3<e-1> = Mo+3 + 4<H2O>
+ No   t       I-Str             Medium                Value (Dev)     W       Tech.    Ref. #
+
+
+
+
+                                              – Page 68 of 80 –
+JESS Thermodynamic Database v8.9                                      Molybdenum
+
+
+ 1    25         0     Inf. Dilution           lgK:29.39(4SF)     4       CRV      31301
+
+
+Reaction No. 80613
+Nd+3 + 2<MoO4-2> = Nd+3_MoO4-2(2)
+ No   t    I-Str          Medium                Value (Dev)       W       Tech.    Ref. #
+ 1    25     0        Inf. Dilution           lgK:11.2(0.15SD)    2        CRV     31301
+Note (1): Estimated from analogous Sm+3 rxn
+
+
+Reaction No. 80614
+Mo(s) + 4<H2O> = MoO4-2 + 8<H+1> + 6<e-1>
+ No    t    I-Str         Medium                Value (Dev)       W       Tech.    Ref. #
+ 1    25         0     Inf. Dilution          lgK:-19.28(4SF)     4        CRV     31301
+
+
+Reaction No. 80615
+MoO2(s) + 2<H2O> = MoO4-2 + 4<H+1> + 2<e-1>
+ No    t    I-Str         Medium                Value (Dev)       W       Tech.    Ref. #
+ 1    25         0     Inf. Dilution           lgK:-29.9(3SF)     1        ELC
+ 2    25         0     Inf. Dilution          lgK:-27.57(4SF)     0        CRV     31301
+ 3    25         0     Inf. Dilution          lgK:-30.01(4SF)     4        CRV     32224
+
+
+Reaction No. 80616
+Nd+3(2)_MoO4-2(3)_H2O_(s) = 3<MoO4-2> + 2<Nd+3> + H2O
+ No   t    I-Str         Medium                 Value (Dev)           W   Tech.    Ref. #
+ 1    25     0        Inf. Dilution          lgK:-26.1(0.15SD)        4    CRV     31301
+Note (1): indeterminate state of hydration
+
+
+Reaction No. 80672
+3<Cs(s)> + 2<Mo(s)> + Na(s) + 4<O2(g)> = Cs+1(3)_Na+1_MoO4-2(2)_(s)
+ No   t    I-Str        Medium                  Value (Dev)           W    Tech.   Ref. #
+ 1    25     0       Inf. Dilution       dG:-2784.6(0.34SD)kJ         5     MCL    31329
+ 2    25     0       Inf. Dilution          dH:-2998.5(3.0SD)kJ       5     MCL    31329
+
+
+Reaction No. 80674
+MoO2+2_OH-1(2) + H+1 = MoO+4_OH-1(3)
+ No    t    I-Str          Medium               Value (Dev)       W       Tech.    Ref. #
+ 1    25         0     Inf. Dilution           lgK:-1.83(3SF)     2       MRM      31318
+
+
+Reaction No. 80675
+
+
+
+
+                                       – Page 69 of 80 –
+JESS Thermodynamic Database v8.9                                    Molybdenum
+
+
+MoO+4_OH-1(3) + H+1 = Mo+6_OH-1(4)
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:9.26(3SF)    2      MRM       31318
+
+
+Reaction No. 80676
+MoO4-2 + 4<H+1> = H+1(4)_MoO4-2
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:6.13(3SF)    2      EOD       31318
+
+
+Reaction No. 80677
+6<H+1> + 2<MoO4-2> = Mo2O5+2 + 3<H2O>
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:19.60(4SF)    2      EOD       31318
+
+
+Reaction No. 80678
+7<H+1> + 2<MoO4-2> = Mo2O5+2_H+1 + 3<H2O>
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:18.98(4SF)    2      EOD       31318
+
+
+Reaction No. 80679
+8<H+1> + 6<MoO4-2> = H+1(2)_Mo6O21-6 + 3<H2O>
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:49.48(4SF)    2      EOD       31318
+
+
+Reaction No. 80680
+8<MoO4-2> + 13<H+1> = H+1_Mo8O26-4 + 6<H2O>
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:73.29(4SF)    2      EOD       31318
+
+
+Reaction No. 80681
+13<MoO4-2> + 21<H+1> = H+1_Mo13O42-6 + 10<H2O>
+ No   t    I-Str         Medium                 Value (Dev)     W      Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:119.29(5SF)   2       EOD      31318
+
+
+Reaction No. 80682
+18<MoO4-2> + 32<H+1> = Mo18O56-4 + 16<H2O>
+ No   t    I-Str         Medium                 Value (Dev)     W      Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:171.37(5SF)   2       EOD      31318
+
+
+
+
+                                        – Page 70 of 80 –
+JESS Thermodynamic Database v8.9                                   Molybdenum
+
+
+Note (1): rxn not balanced in source
+
+
+Reaction No. 81336
+Ba+2_MoO4-2_(s) = Ba+2 + MoO4-2
+ No      t   I-Str       Medium                Value (Dev)      W      Tech.    Ref. #
+ 1    25       0      Inf. Dilution          lgK:-10.09(4SF)    4       CRV     32224
+
+
+Reaction No. 81450
+K+1(2)_MoO4-2_(s) = 2<K+1> + MoO4-2
+ No      t   I-Str        Medium               Value (Dev)     W       Tech.    Ref. #
+ 1    25       0       Inf. Dilution          lgK:3.48(3SF)    4        CRV     32224
+
+
+Reaction No. 81460
+Mg+2_MoO4-2_(s) = Mg+2 + MoO4-2
+ No      t   I-Str        Medium               Value (Dev)     W       Tech.    Ref. #
+ 1    25       0      Inf. Dilution          lgK:-0.87(2SF)    4        CRV     32224
+
+
+Reaction No. 81483
+MoS2(s) + 12<H2O> = MoO4-2 + 2<SO4-2> + 24<H+1> + 18<e-1>
+ No   t      I-Str       Medium                Value (Dev)         W   Tech.    Ref. #
+ 1    25       0     Inf. Dilution          lgK:-137.7(4SF)        1    ELC
+ 2    25       0     Inf. Dilution          lgK:-143.30(5SF)       0    CRV     32224
+
+
+Reaction No. 81484
+H+1(2)_MoO4-2_(s) = 2<H+1> + MoO4-2
+ No      t   I-Str        Medium               Value (Dev)     W       Tech.    Ref. #
+ 1    25       0      Inf. Dilution          lgK:-8.24(3SF)    4        CRV     32224
+
+
+Reaction No. 81485
+Mo3Si(s) + 16<H2O> = 3<MoO4-2> + H+1(2)_SiH2O4-2 + 28<H+1> + 22<e-1 >
+ No      t   I-Str       Medium                Value (Dev)      W      Tech.    Ref. #
+ 1    25       0      Inf. Dilution          lgK:-13.08(4SF)    4       CRV     32224
+
+
+
+
+                                   Data Assessment
+
+
+Weight                  Assessment
+
+
+
+
+                                       – Page 71 of 80 –
+JESS Thermodynamic Database v8.9                               Molybdenum
+
+
+9        highest accuracy
+8        multi-determined; excellent dependability
+7        trustworthy; outstanding single determination
+6        better than average reliability
+5        average single determination
+4        some doubt
+3        poorly known
+2        guess to achieve consistency (or just as bad)
+1        no information but consistent
+0        problematic/inconsistent
+
+
+
+
+                                        Techniques
+
+
+Abbrev                    Method
+CMN      Several experimental values (crit.)
+CRV      Critical review
+CSM      Smith & Martell Vols 1-6 (crit.)
+EAE      Automated extrapolation
+EDH      Debye-Hueckel corrections
+EES      Personal estimate
+EFE      Free Energy relations
+EIU      Critical IUPAC review (estim.)
+ELC      Linear Combination of Reactions
+ENS      Not specified
+EOD      Calculated from data of others
+EOR      Other Reaction Constants
+ESC      Standard conditions anchor
+ETR      Thermodynamic relationships
+EVH      Van't Hoff Equation (dH = constant)
+MAG      Silver electrode e.m.f.
+MAX      Anion exchange
+MCE      Cation exchange
+MCL      Calorimetry
+MCN      Conductivity
+
+
+
+
+                                           – Page 72 of 80 –
+JESS Thermodynamic Database v8.9                                 Molybdenum
+
+
+MDS    Distribution between two phases
+MEF    Electromotoric force, not specified
+MEP    Electrophoresis
+MGL    Glass electrode
+MIS    Ion selective electrode
+MIX    Ion exchange
+MJM    Job's continuous variation
+MKN    Rate of reaction
+MMR    Nuclear magnetic resonance
+MPH    pH method, not specified
+MPL    Polarography
+MPM    Polarimetry
+MPS    Potentiometry and Spectrophotometry
+MPT    Potentiometry
+MRM    Raman spectra
+MSL    Solubility
+MSP    Spectroscopy
+MTD    Temperature difference
+MTJ    Temperature jump
+MTP    Migration or transference number
+
+
+
+
+                                    References
+
+
+Reference No.: 43(70Arn)
+Arkiv Kemi, 1970, 32, 55 - 79; Arnek R; On the Thermodynamics of Some Aqueous
+Hydrolytic Species
+
+Reference No.: 140(64SiM)
+Stability Constants of Metal-ion Complexes SP17, 1964 Sillen LG; Martell AE; The
+Chemical Soc.,London
+
+Reference No.: 222(87Bec)
+Pure Appl. Chem., 1987, 59, 1703 - 1720; Beck MT; Critical Survey of Stability
+Constants of Cyano Complexes
+
+Reference No.: 233(89SmM)
+Critical Stability Constants, Vol. 6, 1989 Smith RM; Martell AE; Plenum, New York
+
+Reference No.: 552(95SMM)
+NIST Critical Stability Constants of Metal Complexes Database, 1995 Smith RM; Martell
+
+
+
+
+                                         – Page 73 of 80 –
+JESS Thermodynamic Database v8.9                                 Molybdenum
+
+
+AE; Motekaitis RJ; Version 2.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 557(79Lin)
+Chemical Equilibria in Soils, 1979 Lindsay WL; Wiley-Interscience, New York
+
+Reference No.: 773(85KoS)
+Handbook of Chemical Equilibria in Analytical Chemistry, 1985 Kotrly S; Sucha L; Ellis
+Horwood Series in Anal. Chem.; Eds. Chalmers RA & Masson M; Ellis Horwood, Chichester
+
+Reference No.: 775(71CCM)
+Selected Constants, 1971 Charlot G; Collumeau A; Marchon MJC; Oxidation-Reduction
+Potentials of Inorganic Substances in Aqueous Solution; Butterworths, London
+
+Reference No.: 778(78MiC)
+Tables of Standard Electrode Potentials, 1978 Milazzo G; Caroli S; Wiley, N.Y.
+
+Reference No.: 802(90Wea)
+CRC Handbook of Chemistry and Physics, 70th Edn., 1990 Weast RC; A Ready-Reference Book
+of Chemical and Physical Data; CRC Press, Cleveland, Ohio
+
+Reference No.: 903(77And)
+Critical Survey of Stability Constants of EDTA Complexes, 1977 Anderegg G; IUPAC
+Chemical Data Series. 14; Pergamon Press, Oxford
+
+Reference No.: 905(95Ber)
+Pure Appl. Chem., 1995, 67, 1117 - 143; Berthon G; Critical Review of Formation
+Constants of Selected Amino Acids with Polar Side Chains
+
+Reference No.: 906(79Per)
+IUPAC Chemical Data Series No. 22, 1979 Perrin DD; Stability Constants of Metal-Ion
+Complexes, First Edition Part B, Organic Ligands; Pergamon, Oxford
+
+Reference No.: 931(71SiM)
+Stability Constants of Metal-ion Complexes SP25, 1971 Sillen LG; Martell AE; Supplement
+No 1 to Special Publication No 25; Chemical Society, London
+
+Reference No.: 946(81JoJ)
+Acta Chem. Scand., 1981, A35, 233 - 237; Johansen ES; Jons O; Complexation between
+Molybdenum(VI) and Histidine. Least Squares Treatment of Potentiometric Titration Data
+
+Reference No.: 986(90CHR)
+J. Chem. Soc., Dalton Trans., 1990,, 1951 - 1956; Cruywagen JJ; Heyns JBB; Rohwer EA;
+Molybdenum(VI) Complex Formation. Part 4. Equilibria and Thermodynamic Quantities for
+the Reactions with Tartrate in 1.0 mol dm-3 Sodium Chloride
+
+Reference No.: 999(91MaM)
+Estimation of Constants for JESS Database, 1991 May PM; May RF
+
+Reference No.: 1008(86CHV)
+J. Chem. Soc., Dalton Trans., 1986,, 1857 - 1862; Cruywagen JJ; Heyns JBB; van de Water
+RF; A Potentiometric, and Calorimetric Investigation of Molybdenum(VI)-Oxalate Complex
+Formation
+
+Reference No.: 1060(88MFC)
+Polyhedron, 1988, 7, 2709 - 2714; Martire DO; Feliz MR; Capparelli AL; Ligand
+Deprotonation Significance in the Formation of the Molybdate Ion-malic Acid Complexes
+
+
+
+
+                                      – Page 74 of 80 –
+JESS Thermodynamic Database v8.9                                 Molybdenum
+
+
+Reference No.: 1070(89VeC)
+Polyhedron, 1989, 8, 333 - 340; Verchere JF; Chapelle S; Stability Constants and
+Structures of Homologous Dinuclear Molybdate and Tungstate Complexes of Aldoses by
+Potentiometry and 13 C and 95 Mo NMR
+
+Reference No.: 1079(90CVS)
+Polyhedron, 1990, 9, 1225 - 1234; Chapelle S; Verchere JF; Sauvage JP; Relationship
+between Structures and Stabilities of Molybdate Complexes of Alditols: A
+Potentiometric, 13C and 95Mo NMR Study
+
+Reference No.: 1118(82And)
+Pure Appl. Chem., 1982, 54, 2693 - 2758; Anderegg G; Critical Survey of Stability
+Constants of NTA Complexes
+
+Reference No.: 1182(86CrV)
+Polyhedron, 1986, 5, 521 - 526; Cruywagen JJ; van de Water RF; Complexation between
+Molybdenum(VI) and Citrate: A Potentiometric and Calorimetric Investigation
+
+Reference No.: 1397(76Wen)
+Coord. Chem. Rev., 1976, 18, 1 - 27; Wentworth RAD; Mechanisms for the Reactions of
+Molybdenum in Enzymes
+
+Reference No.: 1424(81BAB)
+J. Inorg. Nucl. Chem., 1981, 43, 1337 - 1341; Beltran A; Avalos AC; Beltran J; Study of
+the Complexes of Mo(VI) with Malic Acid
+
+Reference No.: 1427(81BCC)
+J. Inorg. Nucl. Chem., 1981, 43, 3277 - 3282; Beltran A; Caturla F; Cervilla A; Beltran
+J; Mo(VI) Oxalate Complexes
+
+Reference No.: 1659(79ZLL)
+J. Chem. Soc., Dalton Trans., 1979,, 1372 - 1376; Zare K; Legrange P; Legrange J;
+Determination and Comparison of Stability Constants of Vanadium(V), Molybdenum(VI), and
+Tungsten(VI) Amino- carboxylate Complexes
+
+Reference No.: 1690(84KRS)
+J. Chem. Soc., Dalton Trans., 1984,, 1229 - 1231; Kelly HM; Richens DT; Sykes AG;
+Kinetics of the 1:1 Complexing of Oxalate to Hexa-aquamolybdenum(III)
+
+Reference No.: 1814(72SiS)
+J. Inorg. Nucl. Chem., 1972, 34, 2081 - 2083; Singh MK; Srivastava MN; Stepwise
+Formation of Vanadium(IV), Molybdenum(IV) and Tungsten(VI) Chelates with Aspartic and
+Glutamic Acids
+
+Reference No.: 1838(86EAP)
+Acta Chem. Scand., 1986, A40, 489 - 499; Ehde PM; Andersson I; Pettersson L;
+Multicomponent Polyanions. 40. A Potentiometric and 51V NMR Study of Equilibria in the
+H+ - H2VO4- - C2O4-2 System in 0.6M Na(Cl) Medium
+
+Reference No.: 1938(93CKR)
+J. Chem. Soc., Dalton Trans., 1993,, 105 - 109; Cruywagen JJ; Kruger L; Rohwer EA;
+Molybdenum(VI) and Tungsten(VI) Complex Formation. Part 5. The Reaction with Lactate in
+1.0 mol dm-3 Sodium Chloride Medium
+
+Reference No.: 2222(93CHR)
+J. Chem. Soc., Dalton Trans., 1993,, 1713 - 1717; Cruywagen JJ; Heyns JBB; Rohwer EA;
+Molybdenum(VI) Complex Formation. Part 6. Reactions with Aspartate in 1.0 mol dm-3
+Sodium Chloride Medium at 25 C
+
+
+
+
+                                      – Page 75 of 80 –
+JESS Thermodynamic Database v8.9                                 Molybdenum
+
+
+Reference No.: 2373(89And)
+Comprehensive Coordination Chemistry, Vol. 2, 1989, 777 - 792; Anderegg G; Complexones
+
+Reference No.: 2547(90CDG)
+Inorg. Chim. Acta, 1990, 172, 25 - 33; Cavaleiro AMVSV; De Jesus JDP; Gil VMS; Gillard
+RD; Williams PA; Molybdenum(VI) Complexation by Amino Acids. Part II. Species in
+Aqueous Solutions of (R)-Cysteine and Sodium Molybdate or Tungstate
+
+Reference No.: 2962(94CHR)
+J. Chem. Soc., Dalton Trans., 1994,, 45 - 49; Cruywagen JJ; Heyns JBB; Rohwer EA;
+Molybdenum(VI) Complex Formation. Part 7. Equilibria and Thermodynamic Quantities for
+the Reactions with Nitrilotriacetate
+
+Reference No.: 2995(80SrS)
+Talanta, 1980, 27, 763 - 765; Srivastava JPN; Srivastava MN; Stability Constants and
+Thermodynamic Functions of Molybdenum and Uranium Chelates Formed with DL-alpha-
+Aminobutyric Acid
+
+Reference No.: 3006(85BPJ)
+Standard Potentials in Aqueous Solution, 1985 Bard AJ; Parsons R; Jordan J; Monographs
+in Electroanalytical Chemistry and Electrochemistry; Marcel Dekker Inc.,New York and
+Basel
+
+Reference No.: 3213(77Lam)
+J. Inorg. Nucl. Chem., 1977, 39, 2081 - 2083; Lamache-Duhameaux M; A Monomeric Complex
+of Molybdenum(IV) with L-Cysteine
+
+Reference No.: 3435(86BHM)
+Collect. Czech. Chem. Commun., 1986, 51, 2702 - 2711; Bartusek M; Havel J; Matula D;
+Chelates of Molybdenum(VI) with Citrate and Malate
+
+Reference No.: 3912(89CaD)
+Inorg. Chim. Acta, 1989, 166, 205 - 212; Cavaleiro AMVSV; De Jesus JDP; Reactions of
+Mo(VI) with (2R,3R)-Tartaric Acid in Diluted Aqueous Solutions: A Study by Circular
+Dichroism Spectrophotometry
+
+Reference No.: 5029(76DMH)
+J. Chem. Thermodyn., 1976, 8, 203 - 207; Dellien I; McCurdy KG; Hepler LG; Enthalpies
+of Formation of Lead Chromate, Lead Molybdate, and Lead Tungstate, and the Entropy of
+Aqueous Tungstate Ion
+
+Reference No.: 5075(89Ohm)
+Inorg. Chem., 1989, 28, 3629 - 3632; Ohman L-O; Equilibrium and Structural Studies of
+Silicon(IV) and Aluminium(III) in Aqueous Solution. 21. A Potentiometric and 27Al NMR
+Study of the System H+ - AL3+ - MoO42-
+
+Reference No.: 5105(80Cru)
+Inorg. Chem., 1980, 19, 552 - 554; Cruywagen JJ; Potentiometric Investigation of
+Molybdenum(VI) Equilibria at 25 degrees Celsius in 1M NaCl Medium
+
+Reference No.: 5114(74KiT)
+J. Inorg. Nucl. Chem., 1974, 36, 847 - 852; Kiba N; Takeuchi T; Thermometric Titration
+in the Investigation of the Formation of Polyanions of Molybdenum(VI), Tungsten(VI),
+Vanadium(V), and Chromium(VI) - II
+
+Reference No.: 5128(73BKK)
+Aust. J. Chem., 1973, 26, 671 - 673; Beg MA; Kabir-ud-Din; Khan RA; Acid Dissociation
+Constant of Tetracyanohydroxooxomolybdate(iv) Ion
+
+
+
+
+                                      – Page 76 of 80 –
+JESS Thermodynamic Database v8.9                                 Molybdenum
+
+
+Reference No.: 5134(68BKK)
+J. Electroanal. Chem., 1968, 18, 187 - 191; Beg MA; Khan AA; Kabir-ud-Din;
+Potentiometric Estimation of Tripotassium Aquo-trihydroxo- tetracyanomolybdate(IV) and
+Determination of Standard Potential
+
+Reference No.: 5184(59SLS)
+J. Inorg. Nucl. Chem., 1959, 9, 93 - 94; Sasaki Y; Lindquist O; Sillen LG; On the First
+Equilibrium Steps in the Acidification of the Molybdate Ion
+
+Reference No.: 5241(76CrR)
+S. Afr. J. Chem., 1976, 29, 30 - 39; Cruywagen JJ; Rohwer EFCH; Thermodynamic Constants
+for the First and Second Protonation of Molybdate and the Coordination of
+Molybdenum(VI) in the Resulting Monomeric Species
+
+Reference No.: 5268(88OYI)
+Polyhedron, 1988, 7, 1131 - 1134; Ozeki T; Yagasaki A; Ichida H; Sasaki Y; Equilibria
+of the H+ - MoO4-2 - SeO3-2 System in Aqueous 1M Na(Cl) Medium
+
+Reference No.: 5314(62Hai)
+J. Inorg. Nucl. Chem., 1962, 24, 663 - 671; Haight GP; A Spectrophotometric Study of
+the Dimerization of Pentavalent Molybdenum in Hydrochloric Acid
+
+Reference No.: 5398(82Hog)
+IUPAC Chemical Data Series No. 21, 1982 Hogfeldt E; Stability Constants of Metal-ion
+Complexes, 2nd Suppl., Part A, Inorganic Ligands; Pergamon, Oxford
+
+Reference No.: 5458(80BeT)
+Report LBL-11448, 1980 Benson LV; Teague LS; Tabulation of Thermodynamic Data for
+Chemical Reactions Involving 58 Elements Common to Radioactive Waste
+
+Reference No.: 5547(75Pet)
+Acta Chem. Scand., 1975, A29, 677 - 689; Pettersson L; Multicomponent Polyanions. 14.
+Potentiometric and Spectrophotometric Study of Equilibria in the H+_MoO4-2_HAsO4-2
+System in 3.0M Na(ClO4) Medium covering the Range 1.5<-log[H+]<9
+
+Reference No.: 5668(95CLR)
+J. Chem. Soc., Dalton Trans., 1995,, 3891 - 3895; Cervilla A; Llopis E; Ribera A;
+Domenech A; White AJP; Williams DJ; Potentiometric Study of the Molybdenum(VI)-Benzilic
+Acid System. Structural Characterisation and Electrochemical Properties of
+[NH4]2[MoO2{O2CC(O)Ph2}2].2H2O
+
+Reference No.: 5794(95CRW)
+Polyhedron, 1995, 14, 3481 - 3493; Cruywagen JJ; Rohwer EA; Wessels GFS; Molybdenum(VI)
+Complex Formation - 8. Equilibria and Thermodynamic Quantities for the Reactions with
+Citrate
+
+Reference No.: 5810(95CrR)
+J. Chem. Soc., Dalton Trans., 1995,, 3433 - 3438; Cruywagen JJ; Rohwer EA; Equilibria
+and Thermodynamic Quantities for the Reactions of Molybdenum(VI) and Tungsten(VI) with
+Mandelate (alpha-Hydroxybenzeneacetate)
+
+Reference No.: 5986(86PAO)
+Inorg. Chem., 1986, 25, 4726 - 4733; Pettersson L; Andersson I; Ohman L-O;
+Multicomponent Polyanions. 39. Speciation in the Aqueous H+_MoO42-_HPO42- System as
+Deduced from a Combined EMF - P31NMR Study
+
+Reference No.: 5987(97LPP)
+Pure Appl. Chem., 1997, 69, 329 - 381; Lajunen LHJ; Portanova R; Piispanen J; Tolazzi
+M; Stability Constants for alpha-Hydroxycarboxylic Acid Complexes with Protons and
+
+
+
+
+                                      – Page 77 of 80 –
+JESS Thermodynamic Database v8.9                                 Molybdenum
+
+
+Metal Ions and the Accompanying Enthalpy Changes. Part I: Aromatic ortho-
+Hydroxycarboxylic Acids
+
+Reference No.: 6044(63SpC)
+Inorg. Chem., 1963, 2, 319 - 323; Spence JT; Chang HHY; Complexes of Cysteine with
+Molybdenum(V) and Molybdenum(VI)
+
+Reference No.: 6322(97CRV)
+Polyhedron, 1997, 16, 243 - 251; Cruywagen JJ; Rohwer EA; van de Water RF;
+Molybdenum(VI) Complex Formation. Equilibria and Thermodynamic Quantities for the
+Reactions with Malate
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+Reference No.: 6370(87BSS)
+J. Chem. Soc., Dalton Trans., 1987,, 2149 - 2157; Brown PL; Shying ME; Sylva RN; The
+Hydrolysis of Metal Ions. Part 10. Kinetic and Equilibrium Measurements of
+Molybdenum(VI)
+
+Reference No.: 6422(95BaP)
+Thermochemical Data of Pure Substances, 3rd Edn., 1995 Barin I; Platzki G; Weinheim,
+Germany
+
+Reference No.: 6488(88ShH)
+Geochim. Cosmochim. Acta, 1988, 52, 2009 - 2036; Shock EL; Helgeson HC; Calculation of
+the Thermodynamic and Transport Properties of Aqueous Species at High Pressures and
+Temperatures: Correlation Algorithms for Ionic Species and Equation of State
+Predictions to 5 kb and 1000 C
+
+Reference No.: 6494(95RoH)
+U.S. Geol. Surv. Bull. 2131, 1995 Robie RA; Hemingway BS; Thermodynamic Properties of
+Minerals and Related Substances at 298.15 K and 1 Bar (10^5 Pascals) Pressure and at
+Higher Temperatures; U.S. Government Printing Office, Washington, U.S.A
+
+Reference No.: 6519(77RGS)
+Inorg. Chem., 1977, 16, 1241 - 1243; Rabenstein DL; Greenberg MS; Saetre R;
+Potentiometric and Polarmetric Studies of Complexation by Molybdenum(VI) and
+Tungsten(VI) by Aspartic Acid and Glutamic Acid
+
+Reference No.: 6703(64RoM)
+Anal. Chem., 1964, 36, 1997 - 1998; Rowland R; Meloan CE; Molybdenum(VI)
+Nicotinylhydroxamic Acid Chelate
+
+Reference No.: 6745(87OKH)
+Anal. Chem., 1987, 59, 945 - 950; Ozeki T; Kihara H; Hikime S; Studies of Raman Spectra
+and Equilibria of Isopolymolybdate Ions in Aqueous Acidic Solutions by Factor Analysis
+
+Reference No.: 6843(80GrS)
+J. Inorg. Nucl. Chem., 1980, 42, 51 - 53; Grobler SR; Suri SK; Solubilities of the
+Molybdates and Tungstates of Silver and Copper(II) in Water by Ion-Selective Electrodes
+
+Reference No.: 6953(96NoM)
+The Environmental Chemistry of Aluminum, 2nd. Edn., 1996, 39 - 80; Nordstrom DK; May
+HM; Aqueous Equilibrium Data for Mononuclear Aluminum Species
+
+Reference No.: 6969(78LLZ)
+Bull. Soc. Chim. Fr., 1978,, I-7 - I-16; Lagrange J; Lagrange P; Zare K; Etude
+
+
+
+
+                                      – Page 78 of 80 –
+JESS Thermodynamic Database v8.9                                 Molybdenum
+
+
+Cinetique de la Decomplexation des Chelates du Vanadium(V) avec le NTA et l'EDTA.
+Application au Dosage de Melanges V(V), Mo(VI) et W(VI)
+
+Reference No.: 7276(88CoW)
+Advanced Inorganic Chemistry, 5th Edn., 1988 Cotton FA; Wilkinson G; John Wiley & Sons
+Inc., N.Y., U.S.A
+
+Reference No.: 7421(97Mar)
+Ion Properties, 1997 Marcus Y; Marcel Dekker Inc., New York, U.S.A.
+
+Reference No.: 7703(03PLT)
+Pure Appl. Chem., 2003, 75, 495 - 540; Portanova R; Lajunen LHJ; Tolazzi M; Piispanen
+J; Stability Constants for alpha-Hydroxycarboxylic Acid Complexes with Protons and
+Metal Ions and the Accompanying Enthalpy Changes - Part II: Aliphatic 2-
+Hydroxycarboxylic Acids
+
+Reference No.: 8120(99FeR)
+J. Solution Chem., 1999, 28, 533 - 553; Felmy AR; Rai D; Application of Pitzer's
+Equations for Modeling the Aqueous Thermodynamics of Actinide Species in Natural
+Waters: A Review
+
+Reference No.: 9029(97SSW)
+Geochim. Cosmochim. Acta, 1997, 61, 907 - 950; Shock EL; Sassani DC; Willis M;
+Sverjensky DA; Inorganic Species in Geologic Fluids: Correlations among Standard Molal
+Thermodynamic Properties of Aqueous Ions and Hydroxide Complexes
+
+Reference No.: 10174(95OHS)
+J. Phys. Chem. Ref. Data, 1995, 24, 1401 - 1560; Oelkers EH; Helgeson HC; Shock EL;
+Sverjensky DA; Johnson JW; Pokrovskii VA; Summary of the Apparent Standard Partial
+Molal Gibbs Free Energies of Formation of Aqueous Species, Minerals, and Gases at
+Pressures 1 to 5000 Bars and Temperatures 25 to 1000C
+
+Reference No.: 22551(06Inz)
+Encyclopedia of Electrochemistry, Vol. 7a, 2006, 17 - 75; Inzelt G; Standard, Formal
+and Other Characteristic Potentials of Selected Electrode Reactions
+
+Reference No.: 22630(73TeS)
+Talanta, 1973, 20, 360 - 361; Tewari RC; Srivastava MN; Potentiometric Determination of
+Stepwise Stability Constants of Zirconium, Thorium and Uranium Chelates of Asparagine
+and Glutamine
+
+Reference No.: 23142(68ArS)
+Acta Chem. Scand., 1968, 22, 1334 - 1338; Arnek R; Szilard I; Thermochemical Studies of
+Hydrolytic Reactions. 9. The Reactions of H+ and Molybdate Ions in 3 M Na(ClO4).
+
+Reference No.: 23624(97Ric)
+The Chemistry of Aqua Ions, 1997 Richens DT; Synthesis, Structure and Reactivity. A
+Tour Through the Periodic Table of the Elements; John Wiley & Sons, Chichester, U.K.
+
+Reference No.: 24953(85PPS)
+Report LBL-14996, 1985 Phillips SL; Phillips CA; Skeen J; Hydrolysis, Formation and
+Ionization Constants at 25C, and at High Temperature - High Ionic Strength; Lawrence
+Berkeley Laboratory, Univ. California, U.S.A.
+
+Reference No.: 28992(71NRK)
+Handbook of Thermodynamic Data, 1971 Naumov GB; Ryzhenko BN; Khodakovsky IL; Translated
+by G.J. Soleimani and edited by I. Barnes & V. Speltz (U.S. Geological Survey); U.S.
+National Technical Information Service, Springfield VA
+
+
+
+
+                                      – Page 79 of 80 –
+JESS Thermodynamic Database v8.9                                 Molybdenum
+
+
+Reference No.: 29173(17CDI)
+J. Mol. Liq., 2017, 229, 15 - 26; Crea F; De Stefano C; Irto A; Milea D; Pettignano A;
+Sammartano S; Modeling the Acid-Base Properties of Molybdate(VI) in Different Ionic
+Media, Ionic Strengths and Temperatures, by EDH, SIT and Pitzer Equations
+
+Reference No.: 29487(09CDF)
+Geochim. Cosmochim. Acta, 2009, 73, 2283 - 2298; Curti E; Dahn R; Farges F; Vespa M;
+Na, Mg, Ni and Cs Distribution and Speciation after Long-term Alteration of a Simulated
+Nuclear Waste Glass: A Micro-XAS/XRF/XRD and Wet Chemical Study
+
+Reference No.: 29489(87POG)
+Report PNL-6112 UC-70, 1987 Peterson SR; Opitz BE; Graham MJ; Eary LE; An Overview of
+the Geochemical Code MINTEQ: Applications to Performance Assessment for Low-Level
+Wastes; Battelle Mem. Inst., Pacific Northwest Lab., Dept. Energy, USA
+
+Reference No.: 30708(69Hep)
+Can. J. Chem., 1969, 47, 3469 - 3470; Hepler LG; Thermodynamic Properties of Ruthenate
+and Molybdate ions
+
+Reference No.: 30759(74Oha)
+J. Chem. Thermodyn., 1974, 6, 425 - 434; O'Hare PAG; Thermochemistry of Molybdates.
+III. Standard Enthalpy of Formation of Barium Molybdate, and the Standard Entropy and
+Standard Gibbs Energy of Formation of the Aqueous Molybdate Ion
+
+Reference No.: 30809(18DKN)
+Monatsh. Chem., 2018, 149, 261 - 282; Dadze TP; Kashirtseva GA; Novikov MP; Plyasunov
+AV; Solubility of Calcium Molybdate in Aqueous Solutions at 573 K and Thermodynamics of
+Monomer Hydrolysis of Mo(VI) at Elevated Temperatures
+
+Reference No.: 30871(18DKN)
+J. Chem. Eng. Data, 2018, 63, 1827 - 1832; Dadze TP; Kashirtseva GA; Novikov MP;
+Plyasunov AV; Solubility of MoO3 in Aqueous Acid Chloride-Bearing Solutions at 573 K
+
+Reference No.: 31291(84PSG)
+U.S. Bur. Mines Bull. 677, 1984 Pankratz LB; Stuve JM; Gokcen NA; Thermodynamic Data
+for Mineral Technology; US Det. Interior, Bur. Mines, Washington, DC, USA
+
+Reference No.: 31301(10KFD)
+Japan Atomic Energy Agency Data/Code 2009-024, 2010 Kitamura A; Fujiwara K; Doi R;
+Yoshida Y; Mihara M; Terashima M; Yui M; JAEA Thermodynamic Database for Performance
+Assessment of Geological Disposal of High-level Radioactive and TRU Wastes; Geological
+Isolation Research Unit, JAEA, Japan
+
+Reference No.: 31318(19ZKD)
+J. Phys. Chem., 2019, B123, 3304 - 3311; Zhang N; Konigsberger E; Duan S; Lin K; Yi H;
+Zeng D; Zhao Z; Hefter G; Nature of Monomeric Molybdenum(VI) Cations in Acid Solutions
+Using Theoretical Calculations and Raman Spectroscopy
+
+Reference No.: 31329(18SPV)
+J. Chem. Thermodyn., 2018, 120, 205 - 216; Smith AL; Pignie M-C; van Eijck L; Griveau
+J-C; Colineau E; Konigs RJM; Thermodynamic Study of Cs3Na(MoO4)2: Determination of the
+Standard Enthalpy of Formation and Standard Entropy at 298.15 K
+
+Reference No.: 32224(80BeT)
+Lawrence Berkeley Laboratory Report LBL-11448, 1980 Benson LV; Teague LS; A Tabulation
+of Thermodynamic Data for Chemical Reactions Involving 8 Elements Common to Radioactive
+Waste Package Systems
+
+
+
+
+                                      – Page 80 of 80 –
+

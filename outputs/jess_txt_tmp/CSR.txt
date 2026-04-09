@@ -1,0 +1,4008 @@
+                    JESS Thermodynamic Database v8.9
+                                               Cesium
+
+                                              24-Jan-23
+
+Reaction No. 7329
+Cs(s) + 0.5<I2(s)> = Cs+1_I-1
+ No     t     I-Str              Medium               Value (Dev)          W         Tech.   Ref. #
+  1    25       0             Inf. Dilution          dG:-82.48(4SF)        4          CRV     10174
+  2    50       0             Inf. Dilution          dG:-83.99(4SF)        4          CRV     10174
+  3    75       0             Inf. Dilution          dG:-85.47(4SF)        4          CRV     10174
+  4    100      0             Inf. Dilution          dG:-86.92(4SF)        4          CRV     10174
+  5    125      0             Inf. Dilution          dG:-88.35(4SF)        4          CRV     10174
+  6    150      0             Inf. Dilution          dG:-89.76(4SF)        4          CRV     10174
+  7    175      0             Inf. Dilution          dG:-91.15(4SF)        4          CRV     10174
+  8    200      0             Inf. Dilution          dG:-92.53(4SF)        4          CRV     10174
+  9    225      0             Inf. Dilution          dG:-93.88(4SF)        4          CRV     10174
+ 10    250      0             Inf. Dilution          dG:-95.22(4SF)        4          CRV     10174
+ 11    300      0             Inf. Dilution          dG:-97.82(4SF)        4          CRV     10174
+
+
+Reaction No. 7395
+OHEtDiPhos-4 + Cs+1 = Cs+1_OHEtDiPhos-4
+  No    t      I-Str          Medium              Value (Dev)          W           Tech.     Ref. #
+  1     25      0.5           Me4NCl            lgK:1.6(0.1SD)         4           MGL       4223
+  2     25      0.5           Unknown           lgK:1.6(0.1SD)         6           CIU       7242
+
+
+Reaction No. 7396
+Cs+1 + H+1_OHEtDiPhos-4 = Cs+1_H+1_OHEtDiPhos-4
+ No     t     I-Str           Medium              Value (Dev)          W           Tech.     Ref. #
+  1    25       0.5           Me4NCl            lgK:0.2(0.04SD)        6            MGL       4223
+  2    25       0.5       Unknown               lgK:0.2(0.1SD)         6            CIU       7242
+
+
+Reaction No. 7545
+0.5<Cl2(g)> + Cs(s) = Cs+1_Cl-1
+ No    t     I-Str              Medium                Value (Dev)              W     Tech.   Ref. #
+  1    25       0        Inf. Dilution              dG:-100.90(5SF)            3      CRV     10174
+  2    25       0        Inf. Dilution             dG:-421.08(5SF)kJ           2      EOD     29489
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                         Cesium
+
+
+ 3    50     0        Inf. Dilution         dG:-102.19(5SF)        2      CRV      10174
+ 4    75     0        Inf. Dilution         dG:-103.45(5SF)        2      CRV      10174
+ 5    100    0        Inf. Dilution         dG:-104.69(5SF)        1      CRV      10174
+ 6    125    0        Inf. Dilution         dG:-105.90(5SF)        1      CRV      10174
+ 7    150    0        Inf. Dilution         dG:-107.09(5SF)        0      CRV      10174
+ 8    175    0        Inf. Dilution         dG:-108.27(5SF)        0      CRV      10174
+ 9    200    0        Inf. Dilution         dG:-109.42(5SF)        0      CRV      10174
+ 10   225    0        Inf. Dilution         dG:-110.57(5SF)        0      CRV      10174
+ 11   250    0        Inf. Dilution         dG:-111.69(5SF)        0      CRV      10174
+ 12   300    0        Inf. Dilution         dG:-113.88(5SF)        0      CRV      10174
+
+
+Reaction No. 9199
+0.5<Br2(l)> + Cs(s) = Cs+1_Br-1
+ No    t    I-Str         Medium               Value (Dev)         W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution         dG:-94.21(4SF)        4     CRV       10174
+ 2    50      0        Inf. Dilution         dG:-95.66(4SF)        4     CRV       10174
+ 3    75      0        Inf. Dilution         dG:-97.07(4SF)        4     CRV       10174
+ 4    100     0        Inf. Dilution         dG:-98.45(4SF)        4     CRV       10174
+ 5    120     0        Inf. Dilution         dG:-99.80(4SF)        4     CRV       10174
+ 6    150     0        Inf. Dilution         dG:-101.14(5SF)       4     CRV       10174
+ 7    175     0        Inf. Dilution         dG:-102.45(5SF)       4     CRV       10174
+ 8    200     0        Inf. Dilution         dG:-103.75(5SF)       4     CRV       10174
+ 9    225     0        Inf. Dilution         dG:-105.03(5SF)       4     CRV       10174
+ 10   250     0        Inf. Dilution         dG:-106.28(5SF)       4     CRV       10174
+ 11   300     0        Inf. Dilution         dG:-108.74(5SF)       4     CRV       10174
+
+
+Reaction No. 10618
+Malic-2 + Cs+1 = Cs+1_Malic-2
+ No    t    I-Str      Medium             Value (Dev)          W       Tech.      Ref. #
+ 1    25     0.1       Unknown         lgK:-0.2(0.06SD)        4       ENS         999
+
+
+Reaction No. 12197
+Citric-3 + Cs+1 = Cs+1_Citric-3
+ No    t    I-Str      Medium             Value (Dev)          W       Tech.      Ref. #
+ 1    25     0.1       Unknown         lgK:0.32(0.02SD)        4       ENS         999
+ 2    37    0.15       Unknown         lgK:0.47(0.05MD)        6       MGL        1230
+
+
+
+
+                                       – Page 2 of 77 –
+JESS Thermodynamic Database v8.9                                              Cesium
+
+
+Reaction No. 14192
+5ATP-4 + Cs+1 = Cs+1_5ATP-4
+ No     t       I-Str           Medium             Value (Dev)          W     Tech.      Ref. #
+ 1     10            0        Pr4N+ salt          lgK:1.89(3SF)         4         MGL     5326
+ 2     10       0.04          Pr4N+ salt          lgK:1.35(3SF)         4         MGL     5326
+ 3     10       0.16          Pr4N+ salt          lgK:1.15(3SF)         4         MGL     5326
+ 4     10       0.25          Pr4N+ salt          lgK:1.12(3SF)         4         MGL     5326
+ 5     10       0.49          Pr4N+ salt          lgK:1.15(3SF)         4         MGL     5326
+ 6     10            1        Pr4N+ salt           lgK:1.2(2SF)         4         MGL     5326
+ 7     25      0.2:0.6           CsCl             lgK:0.85(2SF)         4         MGL     1437
+ 8     25            0        Pr4N+ salt          lgK:1.94(3SF)         4         MGL     5326
+ 9     25       0.04          Pr4N+ salt          lgK:1.40(3SF)         4         MGL     5326
+ 10    25        0.1          Me4N+ salt         lgK:1.1(0.05SD)        7         CIU     1437
+ 11    25       0.16          Pr4N+ salt          lgK:1.20(3SF)         4         MGL     5326
+ 12    25       0.25          Pr4N+ salt         lgK:1.19(0.05SD)       5         MGL     3595
+ 13    25       0.49          Pr4N+ salt          lgK:1.24(3SF)         4         MGL     5326
+ 14    25            1        Pr4N+ salt          lgK:1.40(3SF)         4         MGL     5326
+ 15    35            0        Pr4N+ salt          lgK:1.97(3SF)         4         MGL     5326
+ 16    35       0.04          Pr4N+ salt          lgK:1.43(3SF)         4         MGL     5326
+ 17    35       0.16          Pr4N+ salt          lgK:1.24(3SF)         4         MGL     5326
+ 18    35       0.25          Pr4N+ salt          lgK:1.23(3SF)         4         MGL     5326
+ 19    35       0.49          Pr4N+ salt          lgK:1.31(3SF)         4         MGL     5326
+ 20    35            1        Pr4N+ salt          lgK:1.56(3SF)         4         MGL     5326
+ 21    45            0        Pr4N+ salt          lgK:2.00(3SF)         4         MGL     5326
+ 22    45       0.04          Pr4N+ salt          lgK:1.46(3SF)         4         MGL     5326
+ 23    45       0.16          Pr4N+ salt          lgK:1.28(3SF)         4         MGL     5326
+ 24    45       0.25          Pr4N+ salt          lgK:1.28(3SF)         4         MGL     5326
+ 25    45       0.49          Pr4N+ salt           lgK:1.4(2SF)         4         MGL     5326
+ 26    45            1        Pr4N+ salt          lgK:1.72(3SF)         4         MGL     5326
+ 27   10:45     0.25          Pr4N+ salt          dH:8.(3.SD)kJ         4         MTD     3595
+ 28    25        0.1            Inert             dH:8.(4.SD)kJ         5         CIU     1437
+
+
+Reaction No. 14193
+Cs+1_5ATP-4 + 5ATP-4 = Cs+1_5ATP-4(2)
+ No    t      I-Str      Medium               Value (Dev)           W   Tech.           Ref. #
+  1    25     0.32       Unknown              lgK:0.0(1SF)          3       MGL          931
+
+
+
+
+                                           – Page 3 of 77 –
+JESS Thermodynamic Database v8.9                                        Cesium
+
+
+
+Reaction No. 15491
+Cl-1 + Cs+1 = Cs+1_Cl-1
+ No    t    I-Str            Medium                  Value (Dev)    W   Tech.    Ref. #
+ 1    100     0               P=500                 lgK:0.19(2SF)   5    EOD      6495
+                          Inf. Dilution
+ 2    150     0               P=500                 lgK:0.42(2SF)   5    EOD      6495
+                          Inf. Dilution
+ 3    200     0               P=500                 lgK:0.65(2SF)   5    EOD      6495
+                          Inf. Dilution
+ 4    250     0               P=500                 lgK:0.88(2SF)   4    EOD      6495
+                          Inf. Dilution
+ 5    300     0               P=500                 lgK:1.16(3SF)   3    EOD      6495
+                          Inf. Dilution
+ 6    100     0              P=1000                 lgK:0.14(2SF)   5    EOD      6495
+                          Inf. Dilution
+ 7    150     0              P=1000                 lgK:0.36(2SF)   5    EOD      6495
+                          Inf. Dilution
+ 8    200     0              P=1000                 lgK:0.56(2SF)   5    EOD      6495
+                          Inf. Dilution
+ 9    250     0              P=1000                 lgK:0.77(2SF)   4    EOD      6495
+                          Inf. Dilution
+ 10   300     0              P=1000                 lgK:0.99(2SF)   3    EOD      6495
+                          Inf. Dilution
+ 11   100     0              P=2000                 lgK:0.09(1SF)   5    EOD      6495
+                          Inf. Dilution
+ 12   150     0              P=2000                 lgK:0.29(2SF)   5    EOD      6495
+                          Inf. Dilution
+ 13   200     0              P=2000                 lgK:0.46(2SF)   5    EOD      6495
+                          Inf. Dilution
+ 14   250     0              P=2000                 lgK:0.63(2SF)   4    EOD      6495
+                          Inf. Dilution
+ 15   300     0              P=2000                  lgK:0.8(1SF)   3    EOD      6495
+                          Inf. Dilution
+ 16   100     0              P=3000                 lgK:0.08(1SF)   5    EOD      6495
+                          Inf. Dilution
+ 17   150     0              P=3000                 lgK:0.25(2SF)   5    EOD      6495
+                          Inf. Dilution
+ 18   200     0              P=3000                 lgK:0.41(2SF)   5    EOD      6495
+                          Inf. Dilution
+ 19   250     0              P=3000                 lgK:0.55(2SF)   4    EOD      6495
+                          Inf. Dilution
+ 20   300     0              P=3000                 lgK:0.68(2SF)   3    EOD      6495
+                          Inf. Dilution
+
+
+
+
+                                          – Page 4 of 77 –
+JESS Thermodynamic Database v8.9                                     Cesium
+
+
+ 21   100   0            P=4000                 lgK:0.09(1SF)    5    EOD     6495
+                      Inf. Dilution
+ 22   150   0            P=4000                 lgK:0.25(2SF)    5    EOD     6495
+                      Inf. Dilution
+ 23   200   0            P=4000                 lgK:0.39(2SF)    5    EOD     6495
+                      Inf. Dilution
+ 24   250   0            P=4000                 lgK:0.51(2SF)    4    EOD     6495
+                      Inf. Dilution
+ 25   300   0            P=4000                 lgK:0.62(2SF)    3    EOD     6495
+                      Inf. Dilution
+ 26   100   0            P=5000                 lgK:0.12(2SF)    5    EOD     6495
+                      Inf. Dilution
+ 27   150   0            P=5000                 lgK:0.26(2SF)    5    EOD     6495
+                      Inf. Dilution
+ 28   200   0            P=5000                 lgK:0.38(2SF)    5    EOD     6495
+                      Inf. Dilution
+ 29   250   0            P=5000                 lgK:0.48(2SF)    4    EOD     6495
+                      Inf. Dilution
+ 30   300   0            P=5000                 lgK:0.57(2SF)    3    EOD     6495
+                      Inf. Dilution
+ 31    0    0         Inf. Dilution             lgK:-0.28(2SF)   0    EOD     6495
+ 32   18    0         Inf. Dilution             lgK:-0.50(2SF)   3    MCN      140
+ 33   25    0         Inf. Dilution             lgK:-0.04(1SF)   0    MAC      140
+ 34   25    0         Inf. Dilution             lgK:-0.1(1SF)    3    MAC      931
+ 35   25    0         Inf. Dilution            lgK:-0.2(0.2SD)   5    CRV     2556
+ 36   25    0         Inf. Dilution             lgK:-0.96(2SF)   0    EES     5398
+ 37   25    0         Inf. Dilution             lgK:-0.4(1SF)    3    MCN     5398
+ 38   25    0         Inf. Dilution             lgK:0.07(1SF)    0    EBU     6372
+ 39   25    0         Inf. Dilution             lgK:-0.14(2SF)   3    EOD     6495
+ 40   25    0         Inf. Dilution             lgK:-0.39(2SF)   3    EOD     9361
+ 41   25    0         Inf. Dilution             lgK:-0.39(2SF)   2    EMS     12547
+ 42   25    0         Inf. Dilution             lgK:-0.09(1SF)   5    CRV     32222
+ 43   25    0         Inf. Dilution             lgK:0.50(2SF)    3    CRV     32224
+ 44   25                                        lgK:-0.30(2SF)   0    MAC      140
+ 45   25                                        lgK:-0.45(2SF)   0    MAC      140
+ 46   50    0         Inf. Dilution              lgK:0.0(1SF)    6    EOD     6495
+ 47   75    0         Inf. Dilution             lgK:0.14(2SF)    6    EOD     6495
+ 48   100   0         Inf. Dilution             lgK:0.26(2SF)    5    EOD     6495
+ 49   125   0         Inf. Dilution             lgK:0.38(2SF)    5    EOD     6495
+ 50   150   0         Inf. Dilution              lgK:0.5(1SF)    5    EOD     6495
+
+
+
+
+                                      – Page 5 of 77 –
+JESS Thermodynamic Database v8.9                                       Cesium
+
+
+ 51   175    0         Inf. Dilution              lgK:0.63(2SF)    5    EOD     6495
+ 52   200    0         Inf. Dilution              lgK:0.75(2SF)    5    EOD     6495
+ 53   225    0         Inf. Dilution              lgK:0.89(2SF)    4    EOD     6495
+ 54   250    0         Inf. Dilution              lgK:1.04(3SF)    0    EOD     6495
+ 55   275    0         Inf. Dilution              lgK:1.22(3SF)    0    EOD     6495
+ 56   300    0         Inf. Dilution              lgK:1.43(3SF)    0    EOD     6495
+ 57   25    0.7            NaCl                   lgR:0.39(2SF)    3    MSL     7229
+ 58   25     0         Inf. Dilution             dH:7.523(4SF)kJ   5    CRV     32222
+ 59   25            Butan-1-ol:Methanol           lgK:1.27(3SF)    4    MCN     5398
+                       19.7:80.3Wgt
+ 60   25            Butan-1-ol:Methanol           lgK:1.47(3SF)    4    MCN     5398
+                       39.8:60.2Wgt
+ 61   25            Butan-1-ol:Methanol           lgK:1.53(3SF)    4    MCN     5398
+                       51.4:48.6Wgt
+ 62   25            Butan-1-ol:Methanol           lgK:1.20(3SF)    4    MCN     5398
+                       9.57:90.43Wgt
+ 63   25                   DMSO                   lgK:0.48(2SF)    4    MCN     5398
+ 64   25                  Dioxan                  lgK:1.26(3SF)    4    MCN     5398
+ 65   25               Dioxan:Water               lgK:2.57(3SF)    4    MAG      140
+                         70:30Wgt
+ 66   25               Dioxan:Water               lgK:3.91(3SF)    4    MCN     5398
+                       81.6:18.4Wgt
+ 67   25               Dioxan:Water               lgK:4.54(3SF)    4    MCN     5398
+                         85:15Wgt
+ 68   25                  Ethanol                 lgK:2.20(3SF)    4    MCN      931
+ 69   25                  Ethanol                 lgK:2.19(3SF)    4    MCN     5398
+ 70   25              Ethanol:Acetone             lgK:2.26(3SF)    4    MCN     5398
+                       48.1:51.9Wgt
+ 71   25              Ethanol:Acetone             lgK:2.13(3SF)    4    MCN     5398
+                       65.5:34.5Wgt
+ 72   25              Ethanol:Acetone             lgK:2.11(3SF)    4    MCN     5398
+                       82.7:17.3Wgt
+ 73   25              Ethanol:Acetone             lgK:2.14(3SF)    4    MCN     5398
+                        91.6:8.4Wgt
+ 74   25               Ethanol:Water              lgK:0.48(2SF)    4    MCN      931
+                       40.4:59.6Wgt
+ 75   25               Ethanol:Water              lgK:1.26(3SF)    4    MCN      931
+                       73.9:26.1Wgt
+ 76   25               Ethanol:Water              lgK:1.83(3SF)    4    MCN      931
+                        91.3:8.7Wgt
+ 77   25                 Methanol                  lgK:1.2(2SF)    3    MCN      931
+ 78   25                 Methanol                 lgK:0.95(2SF)    4    MCN      931
+
+
+
+
+                                        – Page 6 of 77 –
+JESS Thermodynamic Database v8.9                                            Cesium
+
+
+ 79   25               Methanol:Dioxan             lgK:1.94(3SF)       4         MCN     5398
+                        29.3:70.7Wgt
+ 80   25               Methanol:Dioxan             lgK:2.70(3SF)       4         MCN     5398
+                        45.2:54.8Wgt
+ 81   25               Methanol:Dioxan             lgK:3.08(3SF)       4         MCN     5398
+                        52.6:47.4Wgt
+ 82   25               Methanol:Dioxan             lgK:3.87(3SF)       4         MCN     5398
+                        62.3:37.7Wgt
+ 83   25                  THF:Water                lgK:1.58(3SF)       4         MCN     5398
+                          59:41Wgt
+ 84   25                  THF:Water                lgK:3.44(3SF)       4         MCN     5398
+                        85.9:14.1Wgt
+ 85   25                  THF:Water                lgK:4.00(3SF)       4         MCN     5398
+                        89.9:10.1Wgt
+ 86   25                  THF:Water                lgK:4.26(3SF)       4         MCN     5398
+                         90.8:9.2Wgt
+ 87   25                  THF:Water                lgK:4.49(3SF)       4         MCN     5398
+                         91.8:8.2Wgt
+ 88   25               t-Butanol:Water             lgK:0.71(2SF)       4         MCN     5398
+                        10.1:89.9Mol
+ 89   25               t-Butanol:Water             lgK:0.85(2SF)       4         MCN     5398
+                        14.8:85.2Mol
+ 90   25               t-Butanol:Water             lgK:1.15(3SF)       4         MCN     5398
+                        19.7:80.3Mol
+
+
+Reaction No. 21358
+MeDiPhos-4 + Cs+1 = Cs+1_MeDiPhos-4
+ No    t     I-Str     Medium              Value (Dev)             W   Tech.           Ref. #
+  1    25     0.5      Me4NCl            lgK:0.8(0.05SD)           5   MGL             4223
+
+
+Reaction No. 21359
+Cs+1 + H+1_MeDiPhos-4 = Cs+1_H+1_MeDiPhos-4
+ No    t    I-Str      Medium              Value (Dev)             W   Tech.           Ref. #
+  1   25     0.5       Me4NCl            lgK:0.04(0.02SD)          5       MGL          4223
+
+
+Reaction No. 21842
+Et11DiPhos-4 + Cs+1 = Cs+1_Et11DiPhos-4
+ No    t     I-Str     Medium              Value (Dev)             W   Tech.           Ref. #
+  1    25     0.5      Me4NCl            lgK:1.0(0.09SD)           4   MGL             4223
+
+
+Reaction No. 21843
+Cs+1 + H+1_Et11DiPhos-4 = Cs+1_H+1_Et11DiPhos-4
+
+
+
+
+                                         – Page 7 of 77 –
+JESS Thermodynamic Database v8.9                                                     Cesium
+
+
+ No       t      I-Str        Medium            Value (Dev)               W        Tech.       Ref. #
+  1    25            0.5      Me4NCl          lgK:0.09(0.02SD)            5         MGL         4223
+
+
+Reaction No. 24368
+Cs+1 + H+1(2)_dlBDTA-4 = Cs+1_H+1(2)_dlBDTA-4
+ No        t         I-Str       Medium         Value (Dev)           W           Tech.        Ref. #
+  1       25          0.5        Me4NCl         lgK:1.0(2SF)          4           MPM          1976
+
+
+Reaction No. 26802
+[15]O5:Benzo + Cs+1 = Cs+1_[15]O5:Benzo
+ No   t        I-Str             Medium               Value (Dev)             W      Tech.      Ref. #
+ 1    27         0                DMF              lgK:1.24(0.06SD)           5          MMR     6236
+                             Inf. Dilution
+ 2    25       0.05               MeCN               lgK:3.43(3SF)            5          MAG     5758
+                                Et4NClO4
+ 3    25       0.05               MeCN              dH:-12.5(3SF)kJ           5          MCL     5758
+                                Et4NClO4
+ 4    25        0.1          Methanol:Water        lgK:1.70(0.01SD)           5          MCL     4522
+                                70:30Wgt
+                                Unknown
+
+
+Reaction No. 29102
+EDTA-4 + Cs+1 = Cs+1_EDTA-4
+ No        t         I-Str      Medium          Value (Dev)           W           Tech.        Ref. #
+  1       25         0.32        CsCl          lgR:0.15(2SF)          6            EIU          903
+  2       25         0.32        CsCl          lgR:0.15(2SF)          5            MGL          2373
+
+
+Reaction No. 35801
+[2.1.1]crypt + Cs+1 = Cs+1_[2.1.1]crypt
+ No   t        I-Str              Medium              Value (Dev)             W      Tech.      Ref. #
+ 1    25       0.05                KCl                lgK:2.0(2SF)            3         MGL      3283
+ 2    25       0.01                DMF               lgK:3.58(3SF)            5         MGL      2931
+                                 Et4NClO4
+ 3    25       0.01                DMSO              lgK:2.77(3SF)            5         MGL      2931
+                                 Et4NClO4
+ 4    25       0.01              Methanol             lgK:2.0(2SF)            3         MGL      3283
+                                   KCl
+ 5    25                         Methanol            lgK:2.50(3SF)            5         MMC      3854
+ 6    25                         Methanol           dH:-6.5(2SF)kJ            4         MCL      3854
+
+
+
+
+                                              – Page 8 of 77 –
+JESS Thermodynamic Database v8.9                                        Cesium
+
+
+ 7    25    0.01      Methanol:Water           lgK:2.0(2SF)     3       MGL      3283
+                         95:5Vol
+                           KCl
+
+
+Reaction No. 35809
+[2.2.1]crypt + Cs+1 = Cs+1_[2.2.1]crypt
+ No   t    I-Str         Medium                Value (Dev)      W       Tech.    Ref. #
+ 1    25    0.05          KCl                 lgK:2.0(2SF)      3       MGL      3283
+ 2    25    0.05        Acetone             lgK:4.54(0.03SD)    5       MAG       4399
+                        Et4NClO4
+ 3    25    0.05        Acetone             dH:-40.(0.4SD)kJ    5       MCL       4399
+                        Et4NClO4
+ 4    25    0.01          DMF                 lgK:3.61(3SF)     5       MGL       2931
+                        Et4NClO4
+ 5    25    0.01          DMSO                lgK:3.23(3SF)     5       MGL       2931
+                        Et4NClO4
+ 6    25             Ethanol:Water            lgK:4.77(3SF)     5       MGL       2931
+                        95:5Vol
+ 7    25    0.05          MeCN                lgK:4.68(3SF)     4       MPT       3850
+                        Et4NClO4
+ 8    25    0.05          MeCN               dH:-45.8(3SF)kJ    4       MCL       3850
+                        Et4NClO4
+ 9    25    0.01        Methanol              lgK:5.0(2SF)      3       MGL       3283
+                          KCl
+ 10   25    0.05        Methanol              lgK:4.33(3SF)     5       MAG       2956
+                        Et4NClO4
+ 11   25                Methanol              lgK:4.32(3SF)     5       MMC       3854
+ 12   25                Methanol             dH:-47.4(3SF)kJ    4       MCL      3854
+ 13   25    0.01     Methanol:Water           lgK:3.90(3SF)     5       MGL       3283
+                        95:5Vol
+                          KCl
+ 14   25               NMePrAmide             lgK:3.87(3SF)     5       MGL       2931
+ 15   25              PrCarbonate            lgK:4.9(0.1SD)     5       MPT       4822
+
+
+Reaction No. 35815
+[2.2.2]crypt + Cs+1 = Cs+1_[2.2.2]crypt
+ No   t    I-Str         Medium                 Value (Dev)         W   Tech.    Ref. #
+ 1    25   0.05           KCl                  lgK:2.0(2SF)         3    MGL      3283
+ 2    25   0.05         Acetone              lgK:3.96(0.04SD)       5    MAG      4399
+                        Et4NClO4
+ 3    25                Acetone                lgK:4.03(3SF)        4    MMR      4781
+ 4    32                Acetone              lgK:3.75(0.02SD)       5    MMR      3760
+
+
+
+
+                                       – Page 9 of 77 –
+JESS Thermodynamic Database v8.9                                  Cesium
+
+
+ 5    25   0.05        Acetone            dH:-40.0(0.5SD)kJ   5    MCL     4399
+                       Et4NClO4
+ 6    32             Acetone:DMSO          lgK:1.3(0.03SD)    5    MMR     3760
+                     14.6:85.4Wgt
+ 7    32             Acetone:DMSO          lgK:1.4(0.04SD)    5    MMR     3760
+                     24.3:75.7Wgt
+ 8    32             Acetone:DMSO          lgK:1.2(0.04SD)    5    MMR     3760
+                     4.9:95.6Wgt
+ 9    32             Acetone:DMSO          lgK:1.80(0.01SD)   5    MMR     3760
+                     49.1:50.9Wgt
+ 10   32             Acetone:DMSO          lgK:2.41(0.02SD)   5    MMR     3760
+                     74.3:25.7Wgt
+ 11   32             Acetone:DMSO          lgK:2.80(0.01SD)   5    MMR     3760
+                     84.5:15.6Wgt
+ 12   32             Acetone:DMSO          lgK:3.28(0.01SD)   5    MMR     3760
+                     94.8:5.2Wgt
+ 13   25   0.01          DMF                lgK:2.16(3SF)     5    MGL     2931
+                       Et4NClO4
+ 14   25                 DMF                lgK:2.16(3SF)     4    MMR     4781
+ 15   32                 DMF               lgK:2.00(0.02SD)   5    MMR     3760
+ 16   25                 DMF                dH:-7.4(0.1SD)    5    MCL     4802
+ 17   25                 DMSO               lgK:1.45(3SF)     4    MMR     4781
+ 18   32                 DMSO              lgK:1.19(0.02SD)   5    MMR     3760
+ 19   25                 DMSO              dH:-8.5(0.04SD)    5    MCL     4802
+ 20   25            Ethanol:Water           lgK:4.17(3SF)     5    MGL     2931
+                       95:5Vol
+ 21   25   0.05          MeCN               lgK:4.83(3SF)     4    MPT     3850
+                       Et4NClO4
+ 22   25                 MeCN               lgK:4.57(3SF)     5    MGL     2931
+ 23   25                 MeCN              lgK:4.5(0.04SD)    5    MCN     4650
+ 24   25                 MeCN               lgK:4.57(3SF)     4    MMR     4781
+ 25   32                 MeCN              lgK:4.71(0.02SD)   5    MMR     3760
+ 26   25   0.05          MeCN              dH:-44.2(3SF)kJ    4    MCL     3850
+                       Et4NClO4
+ 27   25                 MeCN              dH:-10.4(0.1SD)    5    MCL     4801
+ 28   32              MeCN:DMSO            lgK:1.68(0.02SD)   5    MMR     3760
+                     25.2:74.8Wgt
+ 29   32              MeCN:DMSO            lgK:2.1(0.03SD)    5    MMR     3760
+                     47.4:52.6Wgt
+ 30   32              MeCN:DMSO            lgK:2.5(0.03SD)    5    MMR     3760
+                     66.9:33.1Wgt
+ 31   32              MeCN:DMSO            lgK:3.27(0.02SD)   5    MMR     3760
+                     84.4:15.6Wgt
+
+
+
+
+                                    – Page 10 of 77 –
+JESS Thermodynamic Database v8.9                                      Cesium
+
+
+ 32   25   0.01          Methanol                lgK:4.4(2SF)     5    MGL     3283
+                           KCl
+ 33   25                 Methanol               lgK:3.995(4SF)    5    MDG     2511
+ 34   25                 Methanol               lgK:3.95(3SF)     5    MMC     3854
+ 35   25                 Methanol              dH:-49.7(3SF)kJ    4    MCL     3854
+ 36   25   0.01      Methanol:Water             lgK:3.54(3SF)     5    MGL     3283
+                        95:5Vol
+                          KCl
+ 37   25                NMePrAmide               lgK:4.4(2SF)     3    MGL     2931
+ 38   25              Nitromethane              lgK:5.1(0.1SD)    5    MCN     4799
+ 39   25              Nitromethane              dG:-6.96(3SF)     5    EFE     4799
+ 40   25              Nitromethane             dH:-12.3(0.1SD)    5    MCL     4798
+ 41   25               PrCarbonate              lgK:3.97(3SF)     4    MMR     4781
+ 42   32               PrCarbonate             lgK:3.90(0.02SD)   5    MMR     3760
+ 43   25               PrCarbonate              dH:-9.9(0.1SD)    5    MCL     4801
+ 44   32             PrCarbonate:DMF           lgK:2.29(0.01SD)   5    MMR     3760
+                       18.6:81.4Wgt
+ 45   32             PrCarbonate:DMF           lgK:2.45(0.01SD)   5    MMR     3760
+                       28.1:71.9Wgt
+ 46   32             PrCarbonate:DMF           lgK:2.8(0.03SD)    5    MMR     3760
+                       47.7:52.3Wgt
+ 47   32             PrCarbonate:DMF           lgK:3.19(0.01SD)   5    MMR     3760
+                       68.1:31.9Wgt
+ 48   32             PrCarbonate:DMF           lgK:3.5(0.03SD)    5    MMR     3760
+                       78.5:32.5Wgt
+ 49   32             PrCarbonate:DMF           lgK:3.65(0.02SD)   5    MMR     3760
+                       89.2:10.8Wgt
+ 50   32             PrCarbonate:DMF           lgK:2.14(0.02SD)   5    MMR     3760
+                       9.2:90.8Wgt
+ 51   32             PrCarbonate:DMSO          lgK:1.6(0.04SD)    5    MMR     3760
+                       17.4:82.6Wgt
+ 52   32             PrCarbonate:DMSO          lgK:1.94(0.01SD)   5    MMR     3760
+                       35.9:64.1Wgt
+ 53   32             PrCarbonate:DMSO          lgK:2.36(0.02SD)   5    MMR     3760
+                       55.8:44.2Wgt
+ 54   32             PrCarbonate:DMSO          lgK:3.1(0.07SD)    5    MMR     3760
+                       77.1:32.9Wgt
+ 55   25                 Pyridine                lgK:5.0(2SF)     4    MMR     4781
+
+
+Reaction No. 36123
+[18]O6 + Cs+1 = Cs+1_[18]O6
+ No    t   I-Str          Medium                 Value (Dev)      W   Tech.    Ref. #
+
+
+
+
+                                        – Page 11 of 77 –
+JESS Thermodynamic Database v8.9                                   Cesium
+
+
+ 1    23                                    lgK:0.8(0.1SD)     4    MIS     6509
+ 2    25    0      Inf. Dilution/m           lgK:0.98(2SF)     5    MPP     5757
+ 3    25   0.1        Many Media           lgK:0.96(0.03SD)    8    CIU     13297
+ 4    25   0.1         Unknown               lgK:0.99(2SF)     4    MCL     4634
+ 5    25   0.1        Many Media            dH:-17.(1.SD)kJ    7    CIU     13297
+ 6    25   0.1         Unknown              dH:-3.8(0.1SD)     5    MCL     4523
+ 7    25   0.05        Acetone             lgK:4.51(0.04SD)    5    MPT     4399
+                       Et4NClO4
+ 8    25   0.1         Acetone             lgK:4.51(0.04SD)    6    CIU     13297
+                       Unknown
+ 9    25               Acetone                lgK:5.(1SF)      3    MMR     4634
+ 10   25               Acetone              lgK:5.301(4SF)     3    MMR     4829
+ 11   25   0.05        Acetone             dH:-52.8(0.4SD)kJ   5    MCL     4399
+                       Et4NClO4
+ 12   25   0.1         Acetone             dH:-52.8(0.4SD)kJ   6    CIU     13297
+                       Unknown
+ 13   25   0.1           DMF               lgK:3.64(0.02MD)    5    MCL     2802
+                       Et4NClO4
+ 14   25   0.1           DMF               lgK:3.64(0.02SD)    8    CIU     13297
+                      Many Media
+ 15   25                 DMF                lgK:3.9(0.2SD)     4    MMR     4634
+ 16   25                 DMF                lgK:3.954(4SF)     5    MMR     4829
+ 17   27    0            DMF               lgK:3.42(0.09SD)    5    MMR     6236
+                    Inf. Dilution
+ 18   25   0.1           DMF               dH:-50.0(0.1MD)kJ   4    MCL     2802
+                       Et4NClO4
+ 19   25   0.1           DMF               dH:-49.2(0.8SD)kJ   8    CIU     13297
+                      Many Media
+ 20   25   0.1           DMSO              lgK:3.04(0.02SD)    6    CIU     13297
+                       Unknown
+ 21   25                 DMSO               lgK:3.0(0.04SD)    4    MMR     4634
+ 22   25                 DMSO               lgK:3.041(4SF)     5    MMR     4829
+ 23   25   0.05          MeCN                lgK:5.07(3SF)     5    MAG     5758
+                       Et4NClO4
+ 24   25   0.05          MeCN               lgK:4.29(0.1MD)    5    MCL     7232
+                       Et4NClO4
+ 25   25                 MeCN                 lgK:5.(1SF)      3    MMR     4634
+ 26   25                 MeCN                lgK:4.00(3SF)     3    MMR     4829
+ 27   25   0.05          MeCN               dH:-15.6(3SF)kJ    5    MCL     5758
+                       Et4NClO4
+ 28   25   0.05          MeCN              dH:-19.0(0.6MD)kJ   5    MCL     7232
+                       Et4NClO4
+
+
+
+
+                                     – Page 12 of 77 –
+JESS Thermodynamic Database v8.9                                   Cesium
+
+
+ 29   25    0.1          MeCN               dH:-17.(1.SD)kJ    7    CIU     13297
+                      Many Media
+ 30   25    0.1        Methanol             lgK:4.6(0.19SD)    7    CIU     13297
+                      Many Media
+ 31   25               Methanol              lgK:4.37(3SF)     5    MCN     2251
+ 32   25               Methanol             lgK:4.405(4SF)     5    MDG     2251
+ 33   25               Methanol             lgK:4.405(4SF)     5    MDG     2511
+ 34   25               Methanol            lgK:4.79(0.05SD)    5    MCL     2944
+ 35   25               Methanol              lgK:4.44(3SF)     5    MMC     3854
+ 36   25               Methanol             lgK:4.6(0.03SD)    5    MIS     6509
+ 37   25    0.1        Methanol           dH:-47.24(0.3SD)kJ   6    CIU     13297
+                      Many Media
+ 38   25               Methanol            dH:-11.29(0.07SD)   5    MCL     2944
+ 39   25               Methanol             dH:-49.9(3SF)kJ    4    MCL     3854
+ 40   25    0.1     Methanol:Water         lgK:2.84(0.01SD)    5    MCL     4522
+                       70:30Wgt
+                       Unknown
+ 41   25    0.1     Methanol:Water         lgK:2.84(0.01SD)    6    CIU     13297
+                       70:30Wgt
+                       Unknown
+ 42   25    0.1     Methanol:Water         dH:-33.9(0.1SD)kJ   6    CIU     13297
+                       70:30Wgt
+                       Unknown
+ 43   25    0.1     Methanol:Water         lgK:3.40(0.03SD)    6    CIU     13297
+                       80:20Vol
+                       Unknown
+ 44   25    0.1     Methanol:Water         dH:-27.7(0.8SD)kJ   6    CIU     13297
+                       80:20Vol
+                       Unknown
+ 45   25    0.05     PrCarbonate           lgK:4.49(0.05MD)    5    MCL     7232
+                       Et4NClO4
+ 46   25    0.1      PrCarbonate           lgK:4.50(0.02SD)    8    CIU     13297
+                      Many Media
+ 47   25             PrCarbonate            lgK:4.1(0.2SD)     4    MMR     4634
+ 48   25             PrCarbonate            lgK:4.176(4SF)     5    MMR     4829
+ 49   25    0.05     PrCarbonate           dH:-43.6(0.3MD)kJ   5    MCL     7232
+                       Et4NClO4
+ 50   25    0.1      PrCarbonate            dH:-43.3(0.4SD)    8    CIU     13297
+                      Many Media
+ 51   -1               Pyridine              lgK:6.00(3SF)     3    MGL     4940
+ 52   -18              Pyridine              lgK:6.00(3SF)     3    MGL     4940
+ 53   -29              Pyridine              lgK:6.00(3SF)     3    MGL     4940
+ 54   -38              Pyridine               lgK:6.7(2SF)     3    MGL     4940
+
+
+
+
+                                     – Page 13 of 77 –
+JESS Thermodynamic Database v8.9                                                  Cesium
+
+
+ 55   12                Pyridine                lgK:6.00(3SF)                3      MGL     4940
+ 56   24                Pyridine                lgK:5.00(3SF)                3      MGL     4940
+ 57   25                Pyridine                lgK:5.699(4SF)               3      MMR     4829
+
+
+Reaction No. 36126
+[18]O6:DiBenzo + Cs+1 = Cs+1_[18]O6:DiBenzo
+ No   t    I-Str         Medium                 Value (Dev)              W        Tech.    Ref. #
+ 1    25     0       Inf. Dilution            lgK:0.833(3SF)             4         MSP      3303
+ 2    25                Acetone                lgK:3.00(3SF)             3         MMR      4829
+ 3    25                  DMF                  lgK:1.477(4SF)            5         MMR      4829
+ 4    27     0            DMF                 lgK:1.63(0.02SD)           5         MMR      6236
+                     Inf. Dilution
+ 5    25                  DMSO                 lgK:1.342(4SF)            5         MMR      4829
+ 6    25                  MeCN                 lgK:1.544(4SF)            5         MMR      4829
+ 7    25                Methanol               lgK:3.6(0.2SD)            4         MIS      6509
+ 8    25              PrCarbonate              lgK:3.00(3SF)             5         MMR      4829
+ 9    25                Pyridine               lgK:3.845(4SF)            5         MMR      4829
+
+
+Reaction No. 37204
+DiBenzoylmethane-1 + Cs+1 = Cs+1_DiBenzoylmethane-1
+ No    t    I-Str         Medium                Value (Dev)      W               Tech.     Ref. #
+ 1    25               Dioxan:Water            lgK:3.42(3SF)     5               MGL        2360
+                         75:25Wgt
+
+
+Reaction No. 37910
+[18]N2O4:Meox*2 + Cs+1 = Cs+1_[18]N2O4:Meox*2
+ No   t    I-Str         Medium                Value (Dev)           W           Tech.     Ref. #
+ 1    25                                       lgK:2.(1SF)           3            MPT       425
+ 2    25                  DMF             lgK:2.4(0.05SD)            4            MPT       425
+ 3    25                  MeCN            lgK:4.4(0.05SD)            4            MPT       425
+ 4    25                Methanol          lgK:3.7(0.05SD)            4            MPT       425
+ 5    25              PrCarbonate          lgK:4.0(0.1SD)            4            MPT       425
+
+
+Reaction No. 38537
+[18]N2O4:DiDec + Cs+1 = Cs+1_[18]N2O4:DiDec
+ No    t    I-Str       Medium            Value (Dev)            W           Tech.         Ref. #
+ 1    25               Methanol          lgK:3.08(3SF)           5               MMC        3854
+ 2    25               Methanol         dH:-21.7(3SF)kJ          4               MCL       3854
+
+
+
+
+                                      – Page 14 of 77 –
+JESS Thermodynamic Database v8.9                                    Cesium
+
+
+
+Reaction No. 38583
+[18]N2O4 + Cs+1 = Cs+1_[18]N2O4
+ No   t    I-Str        Medium                 Value (Dev)      W   Tech.    Ref. #
+ 1    25   0.05        Acetone               lgK:1.80(0.04SD)   5    MPT      4399
+                       Et4NClO4
+ 2    25   0.05        Acetone              dH:-23.9(0.3SD)kJ   5    MCL      4399
+                       Et4NClO4
+ 3    27     0            DMF                lgK:0.91(0.06SD)   5    MMR      6236
+                     Inf. Dilution
+ 4    25   0.05          MeCN                 lgK:2.69(3SF)     5    MPT      3850
+                       Et4NClO4
+ 5    25                 MeCN                lgK:2.5(0.04SD)    5    MCN      4650
+ 6    25   0.05          MeCN                 dH:-6.0(2SF)kJ    4    MCL      3850
+                       Et4NClO4
+
+
+Reaction No. 38633
+Monensin-1 + Cs+1 = Cs+1_Monensin-1
+ No   t    I-Str         Medium                 Value (Dev)     W   Tech.    Ref. #
+ 1    25     0             DMF                lgK:4.6(0.1SD)    5   MPT       4763
+                      Inf. Dilution
+ 2    25     0             DMSO               lgK:3.2(0.1SD)    5   MPT       4763
+                      Inf. Dilution
+ 3    25                 Ethanol               lgK:5.18(3SF)    4   MPT       2938
+ 4    25     0             MeCN               lgK:6.0(0.1SD)    5   MPT       4763
+                      Inf. Dilution
+ 5    25     0           Methanol             lgK:3.6(0.1SD)    5   MPT       4763
+                      Inf. Dilution
+ 6    25   0.16         Methanol              lgK:3.7(0.05SD)   5   MIS       4777
+                         Bu4NOH
+ 7    25   0.16         Methanol              lgK:3.7(0.1SD)    5   MCV       4777
+                         Bu4NOH
+ 8    25     0         PrCarbonate            lgK:5.5(0.1SD)    5   MPT       4763
+                      Inf. Dilution
+
+
+Reaction No. 38645
+Lasalocid-1 + Cs+1 = Cs+1_Lasalocid-1
+ No   t    I-Str         Medium                 Value (Dev)     W   Tech.    Ref. #
+ 1    25     0             DMF                lgK:3.7(0.1SD)    5   MPT       4763
+                      Inf. Dilution
+ 2    25     0           Ethanol              lgK:4.6(0.1SD)    5   MPT       4763
+                      Inf. Dilution
+
+
+
+
+                                        – Page 15 of 77 –
+JESS Thermodynamic Database v8.9                                           Cesium
+
+
+ 3    25        0           Methanol           lgK:3.7(0.1SD)        5      MPT      4763
+                         Inf. Dilution
+ 4    25        1           Methanol            lgK:3.43(3SF)        4      MPH      5674
+                          Tris buffer
+ 5    25                   Methanol             lgK:3.5(2SF)         5      MGL      2600
+ 6    25                   Methanol             lgK:3.36(3SF)        4      MPT      2604
+ 7    25                   Methanol            dH:-15.1(3SF)kJ       4      MCL      2600
+ 8    25        0         PrCarbonate          lgK:4.2(0.1SD)        5      MPT      4763
+                         Inf. Dilution
+
+
+Reaction No. 39359
+Pentaglyme + Cs+1 = Cs+1_Pentaglyme
+ No       t     I-Str       Medium           Value (Dev)         W       Tech.      Ref. #
+  1    25                  Methanol         lgK:1.76(3SF)        5       MCL         2511
+  2    25                  Methanol         lgK:1.72(3SF)        5       MCN         2511
+  3    25                  Methanol         lgK:1.85(3SF)        4       MIS         3735
+
+
+Reaction No. 39653
+[2.2.2]crypt:DiBenz + Cs+1 = Cs+1_[2.2.2]crypt:DiBenz
+ No   t       I-Str        Medium               Value (Dev)          W     Tech.    Ref. #
+ 1    25                    DMSO            dH:-8.200(0.001SD)       5      MCL      2185
+ 2    25       0.1          MeCN             lgK:2.5(0.08SD)         5      MGL      4796
+                          Et4NClO4
+ 3    25       0.1          MeCN               dG:-4.72(3SF)         5      EFE      4796
+                          Et4NClO4
+ 4    25                    MeCN             dH:-10.2(0.1SD)         5      MCL      2185
+ 5    25       0.1      Nitromethane           lgK:4.(0.2SD)         5      MGL      4796
+                          Et4NClO4
+ 6    25       0.1      Nitromethane           dG:-5.51(3SF)         5      EFE      4796
+                          Et4NClO4
+ 7    25       0.1      PrCarbonate            dG:-4.09(3SF)         5      EFE      4796
+                          Et4NClO4
+ 8    25                PrCarbonate          dH:-10.2(0.1SD)         5      MCL      2185
+
+
+Reaction No. 39933
+2<H+1> + [12]N4:MePhos*4-8 + Cs+1 = Cs+1_H+1(2)_[12]N4:MePhos*4-8
+ No    t       I-Str      Medium            Value (Dev)          W       Tech.      Ref. #
+ 1    25        0.1       Me4NNO3        lgK:27.2(0.03SD)        5        MGL        1318
+
+
+Reaction No. 39934
+
+
+
+
+                                         – Page 16 of 77 –
+JESS Thermodynamic Database v8.9                                               Cesium
+
+
+3<H+1> + [12]N4:MePhos*4-8 + Cs+1 = Cs+1_H+1(3)_[12]N4:MePhos*4-8
+ No       t     I-Str       Medium             Value (Dev)           W       Tech.       Ref. #
+ 1     25           0.1     Me4NNO3         lgK:36.2(0.03SD)         5       MGL          1318
+
+
+Reaction No. 39935
+4<H+1> + [12]N4:MePhos*4-8 + Cs+1 = Cs+1_H+1(4)_[12]N4:MePhos*4-8
+ No       t     I-Str       Medium             Value (Dev)           W       Tech.       Ref. #
+ 1     25           0.1     Me4NNO3         lgK:43.7(0.05SD)         5       MGL          1318
+
+
+Reaction No. 40445
+Pr22DiPhos-4 + Cs+1 = Cs+1_Pr22DiPhos-4
+ No       t     I-Str        Medium            Value (Dev)           W   Tech.           Ref. #
+  1    25           0.5      Me4NCl         lgK:1.4(0.05SD)          5       MGL          931
+
+
+Reaction No. 40446
+Cs+1 + H+1_Pr22DiPhos-4 = Cs+1_H+1_Pr22DiPhos-4
+ No       t     I-Str        Medium            Value (Dev)           W   Tech.           Ref. #
+  1    25           0.5      Me4NCl         lgK:0.4(0.03SD)          5       MGL          931
+
+
+Reaction No. 41343
+[15]O5 + Cs+1 = Cs+1_[15]O5
+ No   t       I-Str           Medium                 Value (Dev)         W     Tech.      Ref. #
+ 1    25        0         Inf. Dilution/m           lgK:0.79(2SF)        5         MPP     5757
+ 2    25       0.1          Many Media             lgK:0.8(0.2SD)        7         CIU    13297
+ 3    25       0.1            Unknown              lgK:0.8(0.2SD)        5         MCL     4523
+ 4    25       0.1          Many Media            dH:-5.4(0.8SD)kJ       6         CIU    13297
+ 5    25       0.1            Unknown              dH:-1.3(0.2SD)        5         MCL     4523
+ 6    25      0.05            Acetone             lgK:3.68(0.04SD)       5         MPT     4399
+                             Et4NClO4
+ 7    25       0.1            Acetone             lgK:3.68(0.04SD)       6         CIU    13297
+                              Unknown
+ 8    25      0.05            Acetone            dH:-19.4(0.4SD)kJ       5         MCL     4399
+                             Et4NClO4
+ 9    25       0.1            Acetone            dH:-19.4(0.4SD)kJ       6         CIU    13297
+                              Unknown
+ 10   27        0               DMF               lgK:1.88(0.04SD)       5         MMR     6236
+                           Inf. Dilution
+ 11   25      0.05             MeCN                 lgK:3.11(3SF)        5         MAG     5758
+                             Et4NClO4
+
+
+
+
+                                            – Page 17 of 77 –
+JESS Thermodynamic Database v8.9                                               Cesium
+
+
+ 12   25    0.1           MeCN                lgK:3.04(0.12SD)           7      CIU      13297
+                       Many Media
+ 13   25    0.05          MeCN                dH:-27.7(3SF)kJ            5      MCL      5758
+                        Et4NClO4
+ 14   25    0.1           MeCN                dH:-28.(1.SD)kJ            6      CIU      13297
+                       Many Media
+ 15   25    0.1         Methanol              lgK:2.69(0.08SD)           7      CIU      13297
+                       Many Media
+ 16   25                Methanol              lgK:2.18(0.02SD)           5      MCL      2944
+ 17   25                Methanol              dH:-11.7(0.4SD)            5      MCL      2944
+ 18   25    0.1      Methanol:Water           lgK:2.10(0.01SD)           6      CIU      13297
+                        90:10Wgt
+                         Unknown
+ 19   25    0.1       PrCarbonate             dH:-17.(1.SD)kJ            6      CIU      13297
+                        Unknown
+
+
+Reaction No. 42202
+5BrLasalocid-1 + Cs+1 = Cs+1_5BrLasalocid-1
+ No    t     I-Str      Medium             Value (Dev)           W           Tech.      Ref. #
+ 1     25              Methanol           lgK:3.44(3SF)          5           MGL         2600
+ 2     25              Methanol          dH:-14.4(3SF)kJ         4           MCL        2600
+
+
+Reaction No. 42369
+2<[18]O6> + Cs+1 = Cs+1_[18]O6(2)
+ No    t     I-Str      Medium             Value (Dev)           W           Tech.      Ref. #
+ 1     25     0.1        DMF              lgK:4.(0.3SD)          5           MCL         2802
+                       Et4NClO4
+ 2     25     0.1        DMF             dH:-14.316(5SF)         4           MCL         2802
+                       Et4NClO4
+
+
+Reaction No. 43913
+Picric-1 + Cs+1 = Cs+1_Picric-1
+ No    t    I-Str         Medium                Value (Dev)          W       Tech.      Ref. #
+ 1    25      0        Inf. Dilution          lgK:2.07(3SF)          4        MCN        906
+ 2    25      0        Inf. Dilution          lgK:2.07(3SF)          4        MDS        906
+ 3    25                                        lgK:2.7(2SF)         3        MSC        906
+ 4    30      0        Inf. Dilution          lgK:1.44(3SF)          3        MCN        1926
+ 5    25               Nitrobenzene           lgK:2.43(3SF)          5        MDS        906
+
+
+Reaction No. 45089
+Cs+1 + H+1(2)_MeEDTA-4 = Cs+1_H+1(2)_MeEDTA-4
+
+
+
+
+                                       – Page 18 of 77 –
+JESS Thermodynamic Database v8.9                                                 Cesium
+
+
+ No    t       I-Str      Medium              Value (Dev)           W       Tech.         Ref. #
+  1    25       0.5       Unknown           lgK:0.71(2SF)           4       MPL            906
+
+
+Reaction No. 45112
+Cs+1_[18]O6 + [18]O6 = Cs+1_[18]O6(2)
+ No        t     I-Str         Medium               Value (Dev)             W    Tech.     Ref. #
+ 1      25                    Acetone             lgK:1.531(4SF)            5     MMR       4829
+ 2      25                      DMF               lgK:0.387(3SF)            3     MMR       4829
+ 3      27         0           DMF               lgK:1.23(0.21SD)           5     MMR       6236
+                          Inf. Dilution
+ 4      25                      DMSO               lgK:0.0(1SF)             3     MMR       4829
+ 5      25                      MeCN              lgK:0.568(3SF)            3     MMR       4829
+ 6      25        0.1         Methanol           lgK:2.06(0.05SD)           6     CIU      13297
+                              Unknown
+ 7      25                    Methanol            lgK:2.1(0.05SD)           3     MCL       2944
+ 8      25                    Methanol            lgK:1.3(0.2SD)            3     MIS       6509
+ 9      25        0.1         Methanol           dH:-13.9(0.6SD)kJ          6     CIU      13297
+                              Unknown
+ 10     25                    Methanol            dH:-3.3(0.1SD)            5     MCL       2944
+ 11     25                 PrCarbonate            lgK:1.037(4SF)            5     MMR       4829
+ 12     -1                    Pyridine             lgK:2.34(3SF)            3     MGL       4940
+ 13    -18                    Pyridine             lgK:2.64(3SF)            3     MGL       4940
+ 14    -29                    Pyridine             lgK:2.8(2SF)             3     MGL       4940
+ 15    -38                    Pyridine             lgK:3.07(3SF)            3     MGL       4940
+ 16     12                    Pyridine             lgK:2.08(3SF)            3     MGL       4940
+ 17     24                    Pyridine             lgK:1.90(3SF)            3     MGL       4940
+ 18     25                    Pyridine            lgK:1.869(4SF)            5     MMR       4829
+ 19   -38:24                  Pyridine             dH:-5.8(2SF)             3     MTD       4940
+
+
+Reaction No. 45243
+Cs+1 + H+1(2)_CDTA-4 = Cs+1_H+1(2)_CDTA-4
+ No    t       I-Str      Medium              Value (Dev)           W       Tech.         Ref. #
+  1    25       0.5       Unknown           lgK:0.85(2SF)           4       MPM            906
+
+
+Reaction No. 45354
+[24]O8 + Cs+1 = Cs+1_[24]O8
+ No    t       I-Str      Medium              Value (Dev)               W    Tech.        Ref. #
+ 1    25                 Methanol           lgK:4.2(0.04SD)             5       MIS        6509
+
+
+
+
+                                          – Page 19 of 77 –
+JESS Thermodynamic Database v8.9                                               Cesium
+
+
+
+Reaction No. 45615
+Cs+1_[18]O6:DiBenzo + [18]O6:DiBenzo = Cs+1_[18]O6:DiBenzo(2)
+ No    t    I-Str       Medium            Value (Dev)            W           Tech.      Ref. #
+ 1    25               Methanol         lgK:2.9(0.07SD)          4           MIS         906
+ 2    25               Pyridine         lgK:2.362(4SF)           5           MMR         4829
+
+
+Reaction No. 45617
+[18]O6:[Hex]*2 + Cs+1 = Cs+1_[18]O6:[Hex]*2
+ No   t    I-Str         Medium                 Value (Dev)              W    Tech.     Ref. #
+ 1    10     0       Inf. Dilution            lgK:1.0(0.07SD)            3     MCL       6727
+ 2    23   0.01         Unknown               lgK:1.1(0.06SD)            4     MCL       6655
+ 3    25     0       Inf. Dilution            lgK:1.(0.06SD)             4     MCL       6727
+ 4    25                                       lgK:1.2(0.1SD)            3     MPT       6509
+ 5    40     0       Inf. Dilution            lgK:1.(0.03SD)             3     MCL       6727
+ 6    10     0       Inf. Dilution            dH:-2.4(0.1SD)             3     MCL       6747
+ 7    23   0.01         Unknown               dH:-2.0(0.1SD)             4     MTD       6655
+ 8    25     0       Inf. Dilution             dH:-2.41(3SF)             4     MCL       6727
+ 9    25                                        dH:-2.4(2SF)             3     ENS       3560
+ 10   40     0       Inf. Dilution            dH:-2.4(0.07SD)            3     MCL       6747
+ 11   27     0            DMF                 lgK:2.91(0.02SD)           5     MMR       6236
+                     Inf. Dilution
+ 12   25   0.05           MeCN                 lgK:5.40(3SF)             5     MAG       5758
+                        Et4NClO4
+ 13   25   0.05           MeCN                dH:-23.7(3SF)kJ            5     MCL       5758
+                        Et4NClO4
+ 14   25                Methanol               lgK:4.61(3SF)             5     MIS       6509
+
+
+Reaction No. 45624
+Cs+1_[18]O6:[Hex]*2 + [18]O6:[Hex]*2 = Cs+1_[18]O6:[Hex]*2(2)
+ No   t    I-Str         Medium                Value (Dev)           W       Tech.      Ref. #
+ 1    25                Acetone               lgK:4.00(3SF)          3        MMR        4829
+ 2    25                  DMF              lgK:3.447(4SF)            5        MMR        4829
+ 3    25                  DMSO             lgK:2.204(4SF)            5        MMR        4829
+ 4    25                  MeCN                lgK:4.00(3SF)          3        MMR        4829
+ 5    25                Methanol          lgK:0.6(0.05SD)            5        MIS        906
+ 6    25              PrCarbonate             lgK:4.00(3SF)          3        MMR        4829
+ 7    25                Pyridine              lgK:5.00(3SF)          3        MMR        4829
+
+
+
+
+                                      – Page 20 of 77 –
+JESS Thermodynamic Database v8.9                                     Cesium
+
+
+
+Reaction No. 45660
+[24]O8:DiBenzo + Cs+1 = Cs+1_[24]O8:DiBenzo
+ No    t    I-Str         Medium                Value (Dev)      W   Tech.    Ref. #
+ 1     0                   DMF                lgK:2.65(0.02SD)   4   MMR       3845
+ 2    10                   DMF                lgK:2.5(0.03SD)    4   MMR       3845
+ 3    20                   DMF                lgK:2.32(0.01SD)   4   MMR       3845
+ 4    27      0            DMF                lgK:2.21(0.03SD)   5   MMR       6236
+                      Inf. Dilution
+ 5    30                   DMF                lgK:2.2(0.03SD)    4   MMR       3845
+ 6    40                   DMF                lgK:2.02(0.01SD)   4   MMR       3845
+ 7    50                   DMF                lgK:1.89(0.01SD)   4   MMR       3845
+ 8     0                 DMF:MeCN             lgK:3.6(0.05SD)    4   MMR       3845
+                      22.69:77.31Vol
+ 9    10                 DMF:MeCN             lgK:3.35(0.02SD)   4   MMR       3845
+                      22.69:77.31Vol
+ 10   20                 DMF:MeCN             lgK:3.18(0.01SD)   4   MMR       3845
+                      22.69:77.31Vol
+ 11   30                 DMF:MeCN             lgK:3.03(0.01SD)   4   MMR       3845
+                      22.69:77.31Vol
+ 12   40                 DMF:MeCN             lgK:2.85(0.02SD)   4   MMR       3845
+                      22.69:77.31Vol
+ 13   50                 DMF:MeCN             lgK:2.68(0.02SD)   4   MMR       3845
+                      22.69:77.31Vol
+ 14   -10                DMF:MeCN             lgK:3.11(0.02SD)   4   MMR       3845
+                       61.5:38.5Vol
+ 15    0                 DMF:MeCN             lgK:2.98(0.02SD)   4   MMR       3845
+                       61.5:38.5Vol
+ 16   10                 DMF:MeCN             lgK:2.78(0.02SD)   4   MMR       3845
+                       61.5:38.5Vol
+ 17   20                 DMF:MeCN             lgK:2.54(0.02SD)   4   MMR       3845
+                       61.5:38.5Vol
+ 18   30                 DMF:MeCN             lgK:2.4(0.03SD)    4   MMR       3845
+                       61.5:38.5Vol
+ 19   40                 DMF:MeCN             lgK:2.3(0.03SD)    4   MMR       3845
+                       61.5:38.5Vol
+ 20    5                   MeCN               lgK:4.5(0.05SD)    4   MMR       3845
+ 21   30                   MeCN               lgK:3.9(0.07SD)    4   MMR       3845
+ 22   40                   MeCN               lgK:3.8(0.03SD)    4   MMR       3845
+ 23   50                   MeCN               lgK:3.6(0.05SD)    4   MMR       3845
+ 24   60                   MeCN               lgK:3.5(0.04SD)    4   MMR       3845
+ 25   75                   MeCN               lgK:3.2(0.03SD)    4   MMR       3845
+
+
+
+
+                                       – Page 21 of 77 –
+JESS Thermodynamic Database v8.9                                              Cesium
+
+
+ 26   25                 Methanol             lgK:3.8(0.08SD)           4      MIS      6509
+ 27   25    0.1       Methanol:Water         lgK:2.48(0.01SD)           5      MCL      4522
+                         70:30Wgt
+                         Unknown
+
+
+Reaction No. 45779
+2<[12]O4> + Cs+1 = Cs+1_[12]O4(2)
+ No    t    I-Str       Medium             Value (Dev)          W           Tech.      Ref. #
+ 1    25               Methanol           lgK:2.94(3SF)         5           MCN         2251
+ 2    25               Methanol          dH:-15.0(3SF)kJ        4           MCL        2251
+
+
+Reaction No. 45789
+[12]O4 + Cs+1 = Cs+1_[12]O4
+ No   t    I-Str        Medium               Value (Dev)            W        Tech.     Ref. #
+ 1    25    0.1        Methanol           lgK:1.62(0.05SD)          6         CIU      13297
+                       Unknown
+ 2    25               Methanol             dH:-9.1(2SF)kJ          4         MCL       2251
+ 3    25    0.1       PrCarbonate         lgK:1.43(0.05SD)          6         CIU      13297
+                        Unknown
+ 4    25              PrCarbonate         lgK:1.43(0.05SD)          3         MPL       2970
+
+
+Reaction No. 45880
+[2.2.2]crypt:56Benz + Cs+1 = Cs+1_[2.2.2]crypt:56Benz
+ No   t    I-Str        Medium               Value (Dev)            W        Tech.     Ref. #
+ 1    25               Acetone              lgK:3.54(3SF)           4         MMR       4781
+ 2    25                 DMF                lgK:1.70(3SF)           4         MMR       4781
+ 3    25                 MeCN               lgK:3.55(3SF)           4         MMR       4781
+ 4    25   0.02        Methanol            lgK:3.0(0.05SD)          5         MPT       4821
+                       Et4NClO4
+ 5    25   0.02        Methanol           dH:-31.8(0.8SD)kJ         5         MCL       4821
+                       Et4NClO4
+ 6    25             PrCarbonate            lgK:3.17(3SF)           4         MMR       4781
+ 7    25               Pyridine             lgK:3.76(3SF)           4         MMR       4781
+
+
+Reaction No. 45927
+Malonic-2 + Cs+1 = Cs+1_Malonic-2
+ No   t    I-Str          Medium               Value (Dev)          W        Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:0.579(3SF)         4         MCO       4861
+ 2    25     0        Inf. Dilution           lgK:0.7(1SF)          3         CRV       7271
+
+
+
+
+                                       – Page 22 of 77 –
+JESS Thermodynamic Database v8.9                                         Cesium
+
+
+Reaction No. 45936
+DiEtMalon-2 + Cs+1 = Cs+1_DiEtMalon-2
+ No   t     I-Str           Medium              Value (Dev)     W       Tech.     Ref. #
+ 1    15      0         Inf. Dilution         lgK:0.792(3SF)    4        MCO       4861
+ 2    25      0         Inf. Dilution         lgK:0.914(3SF)    4        MCO       4861
+ 3    30      0         Inf. Dilution         lgK:0.908(3SF)    4        MCO       4861
+ 4    35      0         Inf. Dilution         lgK:0.919(3SF)    4        MCO       4861
+ 5    25      0         Inf. Dilution         dH:-10.(6.SD)kJ   4        MCO       4861
+
+
+Reaction No. 46368
+[2.2.2]crypt:DiLactam + Cs+1 = Cs+1_[2.2.2]crypt:DiLactam
+ No   t     I-Str          Medium              Value (Dev)      W       Tech.     Ref. #
+ 1    25                Nitromethane        lgK:1.67(0.02SD)    4        MMR       4782
+ 2    25                  Pyridine          lgK:1.96(0.01SD)    4        MMR       4782
+
+
+Reaction No. 52744
+IO3-1 + Cs+1 = Cs+1_IO3-1
+ No   t     I-Str           Medium              Value (Dev)     W       Tech.     Ref. #
+ 1    25      0         Inf. Dilution         lgK:-0.12(2SF)    4       MCN       5398
+ 2    25      0         Inf. Dilution         lgK:-0.11(2SF)    3       MDG       5398
+ 3    25      0         Inf. Dilution          lgK:0.0(2SF)     4       EBU       6372
+
+
+Reaction No. 52760
+I-1 + Cs+1 = Cs+1_I-1
+ No    t    I-Str           Medium              Value (Dev)         W   Tech.     Ref. #
+ 1    100     0             P=500              lgK:0.87(2SF)        5    EOD       6495
+                        Inf. Dilution
+ 2    150     0             P=500               lgK:0.9(1SF)        5    EOD       6495
+                        Inf. Dilution
+ 3    200     0             P=500              lgK:0.97(2SF)        5    EOD       6495
+                        Inf. Dilution
+ 4    250     0             P=500              lgK:1.09(3SF)        4    EOD       6495
+                        Inf. Dilution
+ 5    300     0             P=500              lgK:1.26(3SF)        3    EOD       6495
+                        Inf. Dilution
+ 6    100     0            P=1000              lgK:0.79(2SF)        5    EOD       6495
+                        Inf. Dilution
+ 7    150     0            P=1000              lgK:0.82(2SF)        5    EOD       6495
+                        Inf. Dilution
+
+
+
+
+                                        – Page 23 of 77 –
+JESS Thermodynamic Database v8.9                                Cesium
+
+
+ 8    200    0          P=1000              lgK:0.88(2SF)   5   EOD      6495
+                     Inf. Dilution
+ 9    250    0          P=1000              lgK:0.96(2SF)   4   EOD      6495
+                     Inf. Dilution
+ 10   300    0          P=1000              lgK:1.07(3SF)   3   EOD      6495
+                     Inf. Dilution
+ 11   100    0          P=2000               lgK:0.7(1SF)   5   EOD      6495
+                     Inf. Dilution
+ 12   150    0          P=2000              lgK:0.72(2SF)   5   EOD      6495
+                     Inf. Dilution
+ 13   200    0          P=2000              lgK:0.75(2SF)   5   EOD      6495
+                     Inf. Dilution
+ 14   250    0          P=2000               lgK:0.8(1SF)   4   EOD      6495
+                     Inf. Dilution
+ 15   300    0          P=2000              lgK:0.86(2SF)   3   EOD      6495
+                     Inf. Dilution
+ 16   100    0          P=3000              lgK:0.66(2SF)   5   EOD      6495
+                     Inf. Dilution
+ 17   150    0          P=3000              lgK:0.66(2SF)   5   EOD      6495
+                     Inf. Dilution
+ 18   200    0          P=3000              lgK:0.68(2SF)   5   EOD      6495
+                     Inf. Dilution
+ 19   250    0          P=3000               lgK:0.7(1SF)   4   EOD      6495
+                     Inf. Dilution
+ 20   300    0          P=3000              lgK:0.74(2SF)   3   EOD      6495
+                     Inf. Dilution
+ 21   100    0          P=4000              lgK:0.66(2SF)   5   EOD      6495
+                     Inf. Dilution
+ 22   150    0          P=4000              lgK:0.64(2SF)   5   EOD      6495
+                     Inf. Dilution
+ 23   200    0          P=4000              lgK:0.64(2SF)   5   EOD      6495
+                     Inf. Dilution
+ 24   250    0          P=4000              lgK:0.65(2SF)   4   EOD      6495
+                     Inf. Dilution
+ 25   300    0          P=4000              lgK:0.67(2SF)   3   EOD      6495
+                     Inf. Dilution
+ 26   100    0          P=5000              lgK:0.68(2SF)   5   EOD      6495
+                     Inf. Dilution
+ 27   150    0          P=5000              lgK:0.65(2SF)   5   EOD      6495
+                     Inf. Dilution
+ 28   200    0          P=5000              lgK:0.63(2SF)   5   EOD      6495
+                     Inf. Dilution
+ 29   250    0          P=5000              lgK:0.62(2SF)   4   EOD      6495
+                     Inf. Dilution
+ 30   300    0          P=5000              lgK:0.62(2SF)   3   EOD      6495
+                     Inf. Dilution
+
+
+
+
+                                     – Page 24 of 77 –
+JESS Thermodynamic Database v8.9                                   Cesium
+
+
+ 31    0      0       Inf. Dilution          lgK:1.02(3SF)     4   EOD      6495
+ 32   25      0       Inf. Dilution          lgK:-0.70(2SF)    0   EES
+ 33   25      0       Inf. Dilution          lgK:-0.97(2SF)    0   MCN       356
+ 34   25      0       Inf. Dilution          lgK:-0.03(1SF)    0   MCN       931
+ 35   25      0       Inf. Dilution          lgK:-0.97(2SF)    0   MCN      5398
+ 36   25      0       Inf. Dilution          lgK:-0.53(2SF)    0   MDG      5398
+ 37   25      0       Inf. Dilution          lgK:0.10(2SF)     0   EBU      6372
+ 38   25      0       Inf. Dilution          lgK:0.98(2SF)     4   EOD      6495
+ 39   25      0       Inf. Dilution          lgK:-0.03(1SF)    0   CRV      7271
+ 40   25      0       Inf. Dilution          lgK:-0.37(2SF)    0   EMS      12547
+ 41   25      0       Inf. Dilution          lgK:1.05(3SF)     5   CRV      32222
+ 42   25      0       Inf. Dilution          lgK:-0.03(1SF)    2   CRV      32224
+Note (42): source indicates uncertainty
+ 43   50      0       Inf. Dilution          lgK:0.96(2SF)     3   EOD      6495
+ 44   75      0       Inf. Dilution          lgK:0.96(2SF)     2   EOD      6495
+ 45   100     0       Inf. Dilution          lgK:0.97(2SF)     1   EOD      6495
+ 46   125     0       Inf. Dilution          lgK:0.98(2SF)     1   EOD      6495
+ 47   150     0       Inf. Dilution          lgK:1.01(3SF)     1   EOD      6495
+ 48   175     0       Inf. Dilution          lgK:1.05(3SF)     1   EOD      6495
+ 49   200     0       Inf. Dilution           lgK:1.1(2SF)     0   EOD      6495
+ 50   225     0       Inf. Dilution          lgK:1.17(3SF)     0   EOD      6495
+ 51   250     0       Inf. Dilution          lgK:1.26(3SF)     0   EOD      6495
+ 52   275     0       Inf. Dilution          lgK:1.38(3SF)     0   EOD      6495
+ 53   300     0       Inf. Dilution          lgK:1.54(3SF)     0   EOD      6495
+ 54   25      0       Inf. Dilution         dH:-0.055(2SF)kJ   5   CRV      32222
+ 55   25                 Acetone             lgK:2.455(4SF)    3   MDG      5398
+ 56   25                   DMSO              lgK:0.12(2SF)     5   MCN      5398
+ 57   25                Dioxan:DMF           lgK:1.15(3SF)     5   MCN      5398
+                         10:90Wgt
+ 58   25                Dioxan:DMF           lgK:1.54(3SF)     5   MCN      5398
+                         20:80Wgt
+ 59   25                Dioxan:DMF           lgK:1.72(3SF)     5   MCN      5398
+                         30:70Wgt
+ 60   25                Dioxan:DMF           lgK:2.00(3SF)     5   MCN      5398
+                         40:60Wgt
+ 61   25                Dioxan:DMF           lgK:2.07(3SF)     5   MCN      5398
+                         45:55Wgt
+
+
+
+
+                                      – Page 25 of 77 –
+JESS Thermodynamic Database v8.9                                     Cesium
+
+
+ 62   25                   Dioxan:DMF            lgK:2.45(3SF)   5    MCN      5398
+                            50:50Wgt
+ 63   25                   Dioxan:DMF            lgK:2.66(3SF)   5    MCN      5398
+                            55:45Wgt
+ 64   25                   Dioxan:DMF            lgK:3.04(3SF)   5    MCN      5398
+                            60:40Wgt
+ 65   25                   Dioxan:DMF            lgK:3.44(3SF)   5    MCN      5398
+                            65:35Wgt
+ 66   25                   Dioxan:DMF            lgK:4.00(3SF)   5    MCN      5398
+                            70:30Wgt
+ 67   25                   Dioxan:DMF            lgK:4.60(3SF)   5    MCN      5398
+                            75:25Wgt
+ 68   25                   Dioxan:DMF            lgK:5.42(3SF)   5    MCN      5398
+                            80:20Wgt
+ 69   25                    Ethanol              lgK:2.00(3SF)   5    MCN      5398
+ 70   25              Ethanol:Water              lgK:1.72(3SF)   5    MCN      5398
+                       6.3:93.7Wgt
+ 71   25                    Methanol             lgK:0.97(2SF)   5    MCN      5398
+ 72   25                  Propan-1-ol            lgK:2.79(3SF)   5    MCN      5398
+
+
+Reaction No. 52843
+Br-1 + Cs+1 = Cs+1_Br-1
+ No    t    I-Str            Medium               Value (Dev)    W   Tech.    Ref. #
+ 1    100     0               P=500              lgK:0.23(2SF)   5    EOD      6495
+                          Inf. Dilution
+ 2    150     0               P=500               lgK:0.4(1SF)   5    EOD      6495
+                          Inf. Dilution
+ 3    200     0               P=500              lgK:0.57(2SF)   5    EOD      6495
+                          Inf. Dilution
+ 4    250     0               P=500              lgK:0.77(2SF)   4    EOD      6495
+                          Inf. Dilution
+ 5    300     0               P=500              lgK:1.02(3SF)   3    EOD      6495
+                          Inf. Dilution
+ 6    100     0              P=1000              lgK:0.17(2SF)   5    EOD      6495
+                          Inf. Dilution
+ 7    150     0              P=1000              lgK:0.33(2SF)   5    EOD      6495
+                          Inf. Dilution
+ 8    200     0              P=1000              lgK:0.48(2SF)   5    EOD      6495
+                          Inf. Dilution
+ 9    250     0              P=1000              lgK:0.64(2SF)   4    EOD      6495
+                          Inf. Dilution
+ 10   300     0              P=1000              lgK:0.82(2SF)   3    EOD      6495
+                          Inf. Dilution
+
+
+
+
+                                          – Page 26 of 77 –
+JESS Thermodynamic Database v8.9                                 Cesium
+
+
+ 11   100    0          P=2000               lgK:0.1(1SF)    5   EOD      6495
+                     Inf. Dilution
+ 12   150    0          P=2000              lgK:0.24(2SF)    5   EOD      6495
+                     Inf. Dilution
+ 13   200    0          P=2000              lgK:0.36(2SF)    5   EOD      6495
+                     Inf. Dilution
+ 14   250    0          P=2000              lgK:0.48(2SF)    4   EOD      6495
+                     Inf. Dilution
+ 15   300    0          P=2000               lgK:0.6(1SF)    3   EOD      6495
+                     Inf. Dilution
+ 16   100    0          P=3000              lgK:0.08(1SF)    5   EOD      6495
+                     Inf. Dilution
+ 17   150    0          P=3000              lgK:0.19(2SF)    5   EOD      6495
+                     Inf. Dilution
+ 18   200    0          P=3000              lgK:0.29(2SF)    5   EOD      6495
+                     Inf. Dilution
+ 19   250    0          P=3000              lgK:0.38(2SF)    4   EOD      6495
+                     Inf. Dilution
+ 20   300    0          P=3000              lgK:0.47(2SF)    3   EOD      6495
+                     Inf. Dilution
+ 21   100    0          P=4000              lgK:0.08(1SF)    5   EOD      6495
+                     Inf. Dilution
+ 22   150    0          P=4000              lgK:0.18(2SF)    5   EOD      6495
+                     Inf. Dilution
+ 23   200    0          P=4000              lgK:0.26(2SF)    5   EOD      6495
+                     Inf. Dilution
+ 24   250    0          P=4000              lgK:0.33(2SF)    4   EOD      6495
+                     Inf. Dilution
+ 25   300    0          P=4000              lgK:0.39(2SF)    3   EOD      6495
+                     Inf. Dilution
+ 26   100    0          P=5000               lgK:0.1(1SF)    5   EOD      6495
+                     Inf. Dilution
+ 27   150    0          P=5000              lgK:0.18(2SF)    5   EOD      6495
+                     Inf. Dilution
+ 28   200    0          P=5000              lgK:0.25(2SF)    5   EOD      6495
+                     Inf. Dilution
+ 29   250    0          P=5000               lgK:0.3(1SF)    4   EOD      6495
+                     Inf. Dilution
+ 30   300    0          P=5000              lgK:0.34(2SF)    3   EOD      6495
+                     Inf. Dilution
+ 31    0     0       Inf. Dilution          lgK:-0.08(1SF)   6   EOD      6495
+ 32   25     0       Inf. Dilution          lgK:-0.4(1SF)    4   MCN      316
+ 33   25     0       Inf. Dilution          lgK:-0.84(2SF)   3   MCN      356
+ 34   25     0       Inf. Dilution         lgK:0.03(0.1SD)   3   MCN      931
+
+
+
+
+                                     – Page 27 of 77 –
+JESS Thermodynamic Database v8.9                                   Cesium
+
+
+ 35   25      0        Inf. Dilution          lgK:-0.81(2SF)   3   EES      5398
+ 36   25      0        Inf. Dilution          lgK:0.09(1SF)    4   EBU      6372
+ 37   25      0        Inf. Dilution          lgK:0.02(1SF)    6   EOD      6495
+ 38   25      0        Inf. Dilution          lgK:-0.30(2SF)   2   EMS      12547
+ 39   25      0        Inf. Dilution          lgK:0.09(1SF)    5   CRV      32222
+ 40   25      0        Inf. Dilution          lgK:0.03(1SF)    2   CRV      32224
+Note (40): source indicates uncertainty
+ 41   25                                      lgK:0.05(1SF)    0   MAC       140
+ 42   50      0        Inf. Dilution          lgK:0.12(2SF)    3   EOD      6495
+ 43   75      0        Inf. Dilution          lgK:0.22(2SF)    3   EOD      6495
+ 44   100     0        Inf. Dilution          lgK:0.31(2SF)    2   EOD      6495
+ 45   125     0        Inf. Dilution           lgK:0.4(1SF)    2   EOD      6495
+ 46   150     0        Inf. Dilution           lgK:0.5(1SF)    2   EOD      6495
+ 47   175     0        Inf. Dilution          lgK:0.59(2SF)    2   EOD      6495
+ 48   200     0        Inf. Dilution           lgK:0.7(1SF)    1   EOD      6495
+ 49   225     0        Inf. Dilution          lgK:0.81(2SF)    1   EOD      6495
+ 50   250     0        Inf. Dilution          lgK:0.95(2SF)    1   EOD      6495
+ 51   275     0        Inf. Dilution          lgK:1.12(3SF)    0   EOD      6495
+ 52   300     0        Inf. Dilution          lgK:1.33(3SF)    0   EOD      6495
+ 53   25      0        Inf. Dilution         dH:5.922(4SF)kJ   5   CRV      32222
+ 54   25                   DMSO               lgK:0.39(2SF)    4   MCN      5398
+ 55   25               Dioxan:Water           lgK:0.74(2SF)    5   MCN      5398
+                         40:60Wgt
+ 56   25               Dioxan:Water           lgK:1.75(3SF)    5   MCN      5398
+                         60:40Wgt
+ 57   25               Dioxan:Water           lgK:2.42(3SF)    5   MCN      5398
+                         70:30Wgt
+ 58   25               Dioxan:Water           lgK:4.03(3SF)    5   MCN      5398
+                       82.8:17.2Wgt
+ 59   25                 THF:Water            lgK:-0.92(2SF)   5   MCN      5398
+                         15:85Wgt
+ 60   25                 THF:Water            lgK:0.07(1SF)    5   MCN      5398
+                         30:70Wgt
+ 61   25                 THF:Water            lgK:0.95(2SF)    5   MCN      5398
+                         50:50Wgt
+ 62   25                 THF:Water            lgK:2.00(3SF)    5   MCN      5398
+                         70:30Wgt
+ 63   25                 THF:Water            lgK:2.70(3SF)    5   MCN      5398
+                         80:20Wgt
+
+
+
+
+                                       – Page 28 of 77 –
+JESS Thermodynamic Database v8.9                                         Cesium
+
+
+ 64   25                    THF:Water          lgK:3.16(3SF)     5        MCN      5398
+                            85:15Wgt
+ 65   25                    THF:Water          lgK:3.90(3SF)     5        MCN      5398
+                            90:10Wgt
+
+
+Reaction No. 52942
+BrO3-1 + Cs+1 = Cs+1_BrO3-1
+ No   t    I-Str            Medium              Value (Dev)      W       Tech.    Ref. #
+ 1    25     0        Inf. Dilution            lgK:0.0(1SF)      3       MCN      5398
+ 2    25     0        Inf. Dilution           lgK:-0.065(2SF)    4       MCN      5398
+ 3    25     0        Inf. Dilution           lgK:-0.07(1SF)     5       MCN      22093
+ 4    30                                       lgK:0.40(2SF)     4        EES      5398
+
+
+Reaction No. 53616
+NO3-1 + Cs+1 = Cs+1_NO3-1
+ No   t    I-Str            Medium               Value (Dev)         W   Tech.    Ref. #
+ 1    18     0        Inf. Dilution             lgK:0.01(1SF)        2    MCN      140
+ 2    25     0        Inf. Dilution             lgK:0.11(2SF)        2    MPP      140
+ 3    25     0        Inf. Dilution             lgK:0.02(1SF)        2    MCN      5398
+ 4    25     0        Inf. Dilution            lgK:0.025(2SF)        2    MDG      5398
+ 5    25     0        Inf. Dilution             lgK:0.05(1SF)        2    EBU      6372
+ 6    25     0        Inf. Dilution             lgK:0.00(2SF)        0    EMS     12547
+ 7    25     0        Inf. Dilution             lgK:0.0(1SF)         2    MCN     22093
+ 8    25     0        Inf. Dilution            lgK:-1.71(3SF)        2    CRV     32222
+ 9    25     0        Inf. Dilution            lgK:-0.10(2SF)        4    CRV     32224
+ 10   25                                        lgK:0.77(2SF)        0    EES      5398
+ 11   25     0        Inf. Dilution           dH:10.450(5SF)kJ       3    CRV     32222
+ 12   25                    Dioxan              lgK:1.14(3SF)        4    MCN      5398
+ 13   25             Dioxan:Methanol            lgK:1.92(3SF)        4    MCN      5398
+                       29.3:70.7Wgt
+ 14   25             Dioxan:Methanol            lgK:2.80(3SF)        4    MCN      5398
+                       45.2:54.8Wgt
+ 15   25             Dioxan:Methanol            lgK:3.28(3SF)        4    MCN      5398
+                       52.6:47.4Wgt
+ 16   25             Dioxan:Methanol            lgK:4.06(3SF)        4    MCN      5398
+                       62.3:37.7Wgt
+ 17   25              Dioxan:Water              lgK:1.08(3SF)        4    MCN      5398
+                      55.7:44.3Wgt
+ 18   25              Dioxan:Water              lgK:1.23(3SF)        4    MCN      5398
+                        59:41Wgt
+
+
+
+
+                                        – Page 29 of 77 –
+JESS Thermodynamic Database v8.9                                                    Cesium
+
+
+ 19   25                      Dioxan:Water            lgK:1.54(3SF)           4         MCN     5398
+                                62:38Wgt
+ 20   25                      Dioxan:Water            lgK:2.06(3SF)           4         MCN     5398
+                              68.4:31.6Wgt
+ 21   25                      Dioxan:Water            lgK:2.34(3SF)           4         MCN     5398
+                              71.9:28.1Wgt
+ 22   25                      Dioxan:Water            lgK:2.63(3SF)           4         MCN     5398
+                              74.9:25.1Wgt
+
+
+Reaction No. 53812
+NO2-1 + Cs+1 = Cs+1_NO2-1
+ No   t        I-Str             Medium               Value (Dev)         W        Tech.      Ref. #
+ 1    25         0            Inf. Dilution         lgK:-0.36(2SF)        4         MCN         931
+
+
+Reaction No. 54021
+SO4-2 + Cs+1 = Cs+1_SO4-2
+ No   t        I-Str            Medium               Value (Dev)              W     Tech.      Ref. #
+ 1    25         0           Inf. Dilution           lgK:0.3(1SF)             3         CRV     552
+ 2    25         0           Inf. Dilution           lgK:0.8(1SF)             0         MAC     931
+ 3    25         0           Inf. Dilution          lgK:0.92(2SF)             0         EBU     6372
+Note (3): See comment 06DGC_32222, p. 13
+ 4    25         0           Inf. Dilution         lgK:0.33(0.05SD)           3         CMN     7391
+ 5    25        0.1             Unknown             lgK:0.3(0.2SD)            3         MAC     5583
+ 6    25        0.5             Unknown             lgK:0.60(2SF)             5         MSC    11516
+Note (6): Gilligan T et al., J. Phys. Chem., 1980, 84, 208
+ 7    25        0.7             Unknown           lgK:-0.41(0.05SD)           3         EES     7391
+ 8    25         1              Me4NCl            lgK:-0.10(0.05SD)           5         MGL     7406
+ 9    25         4              Me4NCl              lgK:-0.6(1SF)             3         EES
+ 10   37       0.15             Unknown             lgK:0.70(2SF)             0         CRV     552
+
+
+Reaction No. 54231
+Zn+2_Cl-1(3) + Cs+1 = Zn+2_Cs+1_Cl-1(3)
+ No        t         I-Str      Medium           Value (Dev)          W       Tech.           Ref. #
+  1       25           4        LiClO4          lgK:0.15(2SF)         2           MHG          931
+
+
+Reaction No. 54232
+Zn+2_Cl-1(3) + 2<Cs+1> = Zn+2_Cs+1(2)_Cl-1(3)
+ No        t         I-Str      Medium           Value (Dev)          W       Tech.           Ref. #
+  1       25           4        LiClO4          lgK:-0.5(1SF)         0           MHG          931
+
+
+
+
+                                              – Page 30 of 77 –
+JESS Thermodynamic Database v8.9                                                     Cesium
+
+
+
+Reaction No. 54244
+Pb+2_Cl-1(4) + Cs+1 = Pb+2_Cs+1_Cl-1(4)
+ No    t        I-Str         Medium            Value (Dev)           W           Tech.       Ref. #
+  1   25             3         LiCl            lgK:0.50(2SF)          5           MHG          931
+  2   25             3        LiClO4           lgK:0.0(1SF)           3           MHG          931
+
+
+Reaction No. 54250
+Pb+2_Cl-1(3) + Cs+1 = Pb+2_Cs+1_Cl-1(3)
+ No    t        I-Str         Medium            Value (Dev)           W           Tech.       Ref. #
+  1   25             3         LiCl            lgK:-0.1(1SF)          5           MHG          931
+
+
+Reaction No. 54259
+Bi+3_Cl-1(6) + Cs+1 = Bi+3_Cs+1_Cl-1(6)
+ No        t         I-Str        Medium               Value (Dev)            W      Tech.     Ref. #
+ 1        25             0     Inf. Dilution          lgK:0.3(1SF)            1         EES
+ 2        25             3            LiCl            lgK:0.40(2SF)           3         MHG     931
+ 3        45             3            LiCl            lgK:0.34(2SF)           3         MHG     931
+ 4        65             3            LiCl            lgK:0.28(2SF)           3         MHG     931
+ 5    25:65              3            LiCl            dH:-1.4(2SF)            3         MTD     931
+
+
+Reaction No. 54260
+Bi+3_Cl-1(6) + 2<Cs+1> = Bi+3_Cs+1(2)_Cl-1(6)
+ No   t        I-Str            Medium               Value (Dev)          W        Tech.      Ref. #
+ 1    25         0           Inf. Dilution           lgK:0.0(1SF)         1         EES
+ 2    25         3               LiCl                lgK:0.0(1SF)         3         MHG         931
+ 3    45         3               LiCl                lgK:0.2(1SF)         3         MHG         931
+ 4    65         3               LiCl                lgK:0.3(1SF)         3         MHG         931
+
+
+Reaction No. 54261
+Bi+3_Cl-1(6) + 3<Cs+1> = Bi+3_Cs+1(3)_Cl-1(6)
+ No   t        I-Str            Medium               Value (Dev)          W        Tech.      Ref. #
+ 1    25         0           Inf. Dilution           lgK:0.1(1SF)         1         EES
+ 2    25         3               LiCl                lgK:0.3(1SF)         3         MHG         931
+ 3    45         3               LiCl                lgK:0.2(1SF)         3         MHG         931
+
+
+Reaction No. 54312
+
+
+
+
+                                             – Page 31 of 77 –
+JESS Thermodynamic Database v8.9                                                        Cesium
+
+
+Zn+2_Br-1(4) + Cs+1 = Zn+2_Cs+1_Br-1(4)
+ No       t      I-Str           Medium           Value (Dev)         W           Tech.           Ref. #
+  1    25             3         Unknown         lgK:0.21(2SF)         4               MHG          931
+  2    25             4         Unknown         lgK:0.39(2SF)         4               MHG          931
+
+
+Reaction No. 54316
+Zn+2_Br-1(3) + Cs+1 = Zn+2_Cs+1_Br-1(3)
+ No       t      I-Str          Medium           Value (Dev)              W           Tech.       Ref. #
+  1    25             3         Unknown         lgK:-0.07(1SF)            4           MHG          931
+  2    25             4         Unknown         lgK:-0.3(1SF)             4           MHG          931
+
+
+Reaction No. 54319
+Cd+2_Br-1(4) + Cs+1 = Cd+2_Cs+1_Br-1(4)
+ No        t         I-Str       Medium          Value (Dev)          W           Tech.           Ref. #
+  1       25           4         LiClO4         lgK:-0.5(1SF)         4               MHG          931
+  2       35           4         LiClO4         lgK:-0.6(1SF)         4               MHG          931
+
+
+Reaction No. 54861
+2<Cs+1> + CrO4-2 = Cs+1(2)_CrO4-2_(s)
+ No   t        I-Str             Medium               Value (Dev)             W         Tech.     Ref. #
+ 1    25         0            Inf. Dilution         lgK:0.6(0.05SD)           4          ENS        766
+ 2    25         0            Inf. Dilution         dH:-7.5(0.1SD)            4          ENS        766
+
+
+Reaction No. 54942
+2<Cs+1> + Cr2O7-2 = Cs+1(2)_Cr2O7-2_(s)
+ No   t        I-Str             Medium               Value (Dev)             W         Tech.      Ref. #
+ 1    25         0           Inf. Dilution          lgK:17.8(4SF)             1             EOR
+ 2    25         0           Inf. Dilution         lgK:17.8(0.05SD)           4             ENS     766
+ 3    25         0           Inf. Dilution         dH:-22.9(0.1SD)            4             ENS     766
+
+
+Reaction No. 55944
+Cs+1 + H2O = Cs+1_OH-1 + H+1
+
+Note: Doubtful species
+ No   t        I-Str            Medium               Value (Dev)                  W     Tech.      Ref. #
+ 1    25         0           Inf. Dilution          lgK:-15.0(3SF)                0         ELC
+ 2    25         0           Inf. Dilution         lgK:-14.32(4SF)                0         EBU     6372
+ 3    25         0           Inf. Dilution         lgK:-15.64(4SF)                5         CRV    32222
+
+
+
+
+                                              – Page 32 of 77 –
+JESS Thermodynamic Database v8.9                                        Cesium
+
+
+ 4    25     0           CHEMVAL1        lgK:-14.00(0.01SD)     0       ENS      5156
+ 5    25     0           CHEMVAL2        lgK:-14.00(0.01SD)     0       ENS      5156
+ 6    25     0           CHEMVAL3        lgK:-14.00(0.01SD)     0       ENS      5156
+ 7    25     0           CHEMVAL4        lgK:-14.00(0.01SD)     0       ENS      5156
+
+
+Reaction No. 56238
+Cs+1_OH-1_(s) + H+1 = Cs+1 + H2O
+ No   t    I-Str          Medium             Value (Dev)        W       Tech.    Ref. #
+ 1    25     0        Inf. Dilution         lgK:27.7(3SF)       1       ELC
+ 2    25     0        Inf. Dilution        lgK:149.54(5SF)      0       CRV      32224
+ 3    25     0           CHEMVAL1        lgK:149.54(0.01SD)     0       ENS      5156
+ 4    25     0           CHEMVAL2        lgK:149.54(0.01SD)     0       ENS      5156
+ 5    25     0           CHEMVAL3        lgK:149.54(0.01SD)     0       ENS      5156
+ 6    25     0           CHEMVAL4        lgK:150.00(0.01SD)     0       ENS      5156
+
+
+Reaction No. 56239
+Cs2O(s) + 2<H+1> = 2<Cs+1> + H2O
+ No   t    I-Str        Medium               Value (Dev)            W   Tech.    Ref. #
+ 1    25     0       Inf. Dilution       lgK:89.68(0.19SD)          5    CRV     32222
+ 2    25     0       Inf. Dilution         lgK:124.41(5SF)          0    CRV     32224
+ 3    25     0         CHEMVAL1          lgK:89.88(0.01SD)          0    ENS      5156
+ 4    25     0         CHEMVAL2          lgK:89.88(0.01SD)          0    ENS      5156
+ 5    25     0         CHEMVAL3          lgK:89.88(0.01SD)          0    ENS      5156
+ 6    25     0         CHEMVAL4          lgK:90.00(0.01SD)          3    ENS      5156
+ 7    25     0       Inf. Dilution     dH:-456.100(1.029SD)kJ       5    CRV     32222
+
+
+Reaction No. 56240
+Cs+1(2)_CO3-2_(s) = 2<Cs+1> + CO3-2
+ No   t    I-Str        Medium               Value (Dev)        W       Tech.    Ref. #
+ 1    25     0       Inf. Dilution         lgK:8.856(4SF)       0        ELC
+ 2    25     0       Inf. Dilution         lgK:10.04(4SF)       0        EBU      6372
+ 3    25     0       Inf. Dilution        lgK:-9.90(0.20SD)     5        CRV     32222
+ 4    25     0         CHEMVAL1           lgK:10.08(0.01SD)     0        ENS      5156
+ 5    25     0         CHEMVAL2           lgK:10.08(0.01SD)     0        ENS      5156
+ 6    25     0         CHEMVAL3           lgK:10.08(0.01SD)     0        ENS      5156
+ 7    25     0         CHEMVAL4           lgK:10.10(0.01SD)     0        ENS      5156
+ 8    25     0       Inf. Dilution     dH:-55.348(1.063SD)kJ    5        CRV     32222
+
+
+
+
+                                      – Page 33 of 77 –
+JESS Thermodynamic Database v8.9                                        Cesium
+
+
+
+Reaction No. 56241
+Cs+1(2)_SO4-2_(s) = 2<Cs+1> + SO4-2
+ No   t    I-Str        Medium               Value (Dev)           W     Tech.   Ref. #
+ 1    25     0       Inf. Dilution          lgK:0.66(2SF)          3      EOD     24835
+Note (1): Taken from Altmaier et al., THEREDA database, 2011
+ 2    25     0       Inf. Dilution          lgK:0.91(2SF)          3      CRV     26559
+ 3    25     0       Inf. Dilution          lgK:0.58(2SF)          5      CRV     32222
+ 4    25     0         CHEMVAL1           lgK:0.87(0.01SD)         0      ENS     5156
+ 5    25     0         CHEMVAL2           lgK:0.87(0.01SD)         0      ENS     5156
+ 6    25     0         CHEMVAL3           lgK:0.87(0.01SD)         0      ENS     5156
+ 7    25     0         CHEMVAL4           lgK:0.87(0.01SD)         2      ENS     5156
+ 8    25     0       Inf. Dilution      dH:17.756(1.103SD)kJ       5      CRV     32222
+
+
+Reaction No. 56242
+Cs+1_Cl-1_(s) = Cs+1 + Cl-1
+ No   t    I-Str        Medium               Value (Dev)           W     Tech.   Ref. #
+ 1    25     0       Inf. Dilution          lgK:1.52(3SF)          5      MSL     14335
+ 2    25     0       Inf. Dilution          lgK:1.53(3SF)          3      EOD     24835
+Note (2): Taken from Altmaier et al., THEREDA database, 2011
+ 3    25     0       Inf. Dilution          lgK:1.52(3SF)          5      CRV     26559
+ 4    25     0       Inf. Dilution         lgK:1.515(4SF)          5      MSL     26595
+ 5    25     0       Inf. Dilution        lgK:1.55(0.10SD)         5      CRV     32222
+ 6    25     0         CHEMVAL1           lgK:1.53(0.01SD)         0      ENS     5156
+ 7    25     0         CHEMVAL2           lgK:1.53(0.01SD)         0      ENS     5156
+ 8    25     0         CHEMVAL3           lgK:1.53(0.01SD)         0      ENS     5156
+ 9    25     0         CHEMVAL4           lgK:1.53(0.01SD)         4      ENS     5156
+ 10   25     0       Inf. Dilution      dH:17.230(0.534SD)kJ       5      CRV     32222
+
+
+Reaction No. 56303
+Cs+1_NO3-1_(s) = Cs+1 + NO3-1
+ No    t    I-Str       Medium            Value (Dev)          W       Tech.     Ref. #
+ 1    25         0     CHEMVAL4        lgK:-1.01(0.01SD)       2       ENS       5156
+
+
+Reaction No. 57962
+Cs(s) - e-1 = Cs+1
+ No    t    I-Str        Medium               Value (Dev)          W     Tech.   Ref. #
+
+
+
+
+                                      – Page 34 of 77 –
+JESS Thermodynamic Database v8.9                               Cesium
+
+
+ 1    25    0      Inf. Dilution       lgK:51.06(0.09SD)   5    CRV     32222
+ 2    25    0      Inf. Dilution         lgK:49.70(4SF)    3    CRV     32224
+ 3    25    0      Inf. Dilution         dG:-69.71(4SF)    3    CRV     6488
+ 4    25    0      Inf. Dilution        dG:-291.5(4SF)kJ   2    CRV     6494
+ 5    25    0      Inf. Dilution       dG:-292.02(5SF)kJ   2    EFE     7275
+ 6    25    0      Inf. Dilution        dG:-292.0(4SF)kJ   2    CRV     7421
+ 7    25    0      Inf. Dilution        dG:-291.5(4SF)kJ   0    CRV     8746
+ 8    25    0      Inf. Dilution        dG:-69.718(5SF)    3    CRV     8875
+ 9    25    0      Inf. Dilution        dG:-69.710(5SF)    3    CRV     9029
+ 10   25    0      Inf. Dilution         dG:-69.71(4SF)    3    CRV     10174
+ 11   25    0      Inf. Dilution       dG:-292.02(5SF)kJ   5    CRV     28172
+ 12   25    0      Inf. Dilution       dG:-291.72(5SF)kJ   2    EOD     29489
+ 13   25    0      Inf. Dilution       dG:-291.46(5SF)kJ   5    EOD     29520
+ 14   25    0      Inf. Dilution       dG:-292.02(5SF)kJ   2    EOD     30015
+ 15   25    0      Inf. Dilution        dG:-292.0(4SF)kJ   4    EFE     32152
+ 16   50    0      Inf. Dilution         dG:-70.50(4SF)    2    CRV     10174
+ 17   75    0      Inf. Dilution         dG:-71.29(4SF)    2    CRV     10174
+ 18   100   0      Inf. Dilution         dG:-72.08(4SF)    1    CRV     10174
+ 19   125   0      Inf. Dilution         dG:-72.87(4SF)    1    CRV     10174
+ 20   150   0      Inf. Dilution         dG:-73.66(4SF)    0    CRV     10174
+ 21   175   0      Inf. Dilution         dG:-74.46(4SF)    0    CRV     10174
+ 22   200   0      Inf. Dilution         dG:-75.26(4SF)    0    CRV     10174
+ 23   225   0      Inf. Dilution         dG:-76.06(4SF)    0    CRV     10174
+ 24   250   0      Inf. Dilution         dG:-76.86(4SF)    0    CRV     10174
+ 25   300   0      Inf. Dilution         dG:-78.45(4SF)    0    CRV     10174
+ 26   25    0      Inf. Dilution          E:3.026(4SF)     3    CRV     6330
+ 27   25    0      Inf. Dilution           E:3.02(3SF)     0    ENS     7276
+ 28   25    0      Inf. Dilution           E:2.92(3SF)     0    ENS     7381
+ 29   25    0      Inf. Dilution          E:3.026(4SF)     3    CRV     7761
+ 30   25    0      Inf. Dilution          E:3.026(4SF)     3    CRV     22519
+ 31   25    0      Inf. Dilution        E:2.923(0.001SD)   0    CRV     22551
+ 32   25    0      Inf. Dilution        dH:-61.7(0.03SD)   5    CRV     5605
+ 33   25    0      Inf. Dilution         dH:-61.67(4SF)    4    CRV     6488
+ 34   25    0      Inf. Dilution        dH:-258.0(4SF)kJ   4    CRV     6494
+ 35   25    0      Inf. Dilution       dH:-258.28(5SF)kJ   3    MTD     7275
+ 36   25    0      Inf. Dilution        dH:-258.2(4SF)kJ   3    CRV     7761
+
+
+
+
+                                   – Page 35 of 77 –
+JESS Thermodynamic Database v8.9                                                         Cesium
+
+
+ 37   25        0               Inf. Dilution        dH:-258.00(0.50MD)kJ           6      CRV     8746
+ 38   25        0               Inf. Dilution          dH:-61.673(5SF)              4      CRV     8875
+ 39   25        0               Inf. Dilution          dH:-61.670(5SF)              4      CRV     9029
+ 40   25        0               Inf. Dilution         dH:-258.28(5SF)kJ             5      CRV     28172
+ 41   25        0               Inf. Dilution         dH:-258.04(5SF)kJ             2      EOD     29489
+ 42   25        0               Inf. Dilution         dH:-258.00(5SF)kJ             5      EOD     29520
+ 43   25        0               Inf. Dilution         dH:-258.28(5SF)kJ             2      EOD     30015
+ 44   25        0               Inf. Dilution          dH:-258.3(4SF)kJ             4      EFE     32152
+ 45   25        0               Inf. Dilution        dH:-258.00(0.5SD)kJ            5      CRV     32222
+ 46   25        0                 GAMSPATH            dH:-258.040(6SF)kJ            3      CRV     12638
+
+
+Reaction No. 58416
+P2O7-4 + Cs+1 = Cs+1_P2O7-4
+ No        t            I-Str            Medium             Value (Dev)         W        Tech.    Ref. #
+ 1    25:40               0          Inf. Dilution          lgK:2.3(2SF)        3         MGL      140
+
+
+Reaction No. 58443
+P3O10-5 + Cs+1 = Cs+1_P3O10-5
+ No   t        I-Str                  Medium              Value (Dev)       W           Tech.     Ref. #
+ 1    25         0                Inf. Dilution           lgK:2.8(2SF)      4            MGL       140
+ 2    40         0                Inf. Dilution           lgK:2.8(2SF)      4            MGL       140
+
+
+Reaction No. 58531
+Cs+1 + H+1_5ATP-4 = Cs+1_H+1_5ATP-4
+ No    t       I-Str                Medium              Value (Dev)         W           Tech.     Ref. #
+ 1    10            0             Pr4N+ salt           lgK:0.2(1SF)         4           MGL       1437
+ 2    10       0.04               Pr4N+ salt           lgK:-0.2(1SF)        4           MGL       1437
+ 3    10       0.16               Pr4N+ salt           lgK:-0.3(1SF)        4           MGL       1437
+ 4    10       0.25               Pr4N+ salt           lgK:-0.4(1SF)        4           MGL       1437
+ 5    10       0.49               Pr4N+ salt           lgK:-0.3(1SF)        4           MGL       1437
+ 6    10            1             Pr4N+ salt           lgK:-0.3(1SF)        4           MGL       1437
+ 7    25            0             Pr4N+ salt           lgK:0.32(2SF)        4           MGL       1437
+ 8    25       0.04               Pr4N+ salt          lgK:-0.09(1SF)        4           MGL       1437
+ 9    25       0.16               Pr4N+ salt          lgK:-0.22(2SF)        4           MGL       1437
+ 10   25       0.25               Pr4N+ salt          lgK:-0.24(2SF)        4           MGL       1437
+ 11   25       0.49               Pr4N+ salt           lgK:-0.2(1SF)        4           MGL       1437
+ 12   25            1             Pr4N+ salt          lgK:-0.03(1SF)        4           MGL       1437
+
+
+
+
+                                                  – Page 36 of 77 –
+JESS Thermodynamic Database v8.9                                                   Cesium
+
+
+ 13   35         0           Pr4N+ salt           lgK:0.4(1SF)           4        MGL        1437
+ 14   35        0.04         Pr4N+ salt           lgK:0.0(1SF)           4        MGL        1437
+ 15   35        0.16         Pr4N+ salt          lgK:-0.14(2SF)          4        MGL        1437
+ 16   35        0.25         Pr4N+ salt          lgK:-0.14(2SF)          4        MGL        1437
+ 17   35        0.49         Pr4N+ salt           lgK:-0.1(1SF)          4        MGL        1437
+ 18   35         1           Pr4N+ salt           lgK:0.1(1SF)           4        MGL        1437
+ 19   45         0           Pr4N+ salt           lgK:0.4(1SF)           4        MGL        1437
+ 20   45        0.04         Pr4N+ salt           lgK:0.1(1SF)           4        MGL        1437
+ 21   45        0.16         Pr4N+ salt           lgK:-0.1(1SF)          4        MGL        1437
+ 22   45        0.25         Pr4N+ salt           lgK:0.0(1SF)           4        MGL        1437
+ 23   45        0.49         Pr4N+ salt           lgK:0.0(1SF)           4        MGL        1437
+ 24   45         1           Pr4N+ salt           lgK:0.3(1SF)           4        MGL        1437
+ 25   25        0.32            CsCl              lgR:-0.3(1SF)          3        MGL        931
+
+
+Reaction No. 59142
+Tetraglyme + Cs+1 = Cs+1_Tetraglyme
+ No    t        I-Str          Medium            Value (Dev)         W           Tech.      Ref. #
+  1   25                      Methanol          lgK:1.45(3SF)        4           MIS         3735
+
+
+Reaction No. 59145
+Hexaglyme + Cs+1 = Cs+1_Hexaglyme
+ No    t        I-Str          Medium            Value (Dev)         W           Tech.      Ref. #
+  1   25                      Methanol          lgK:2.17(3SF)        4           MIS         3735
+
+
+Reaction No. 59641
+H+1 + 5ATP-4 + Cs+1 = Cs+1_H+1_5ATP-4
+ No        t         I-Str       Medium              Value (Dev)             W     Tech.    Ref. #
+ 1        25          0.25     Pr4N+ salt         lgK:6.66(0.09SD)           5      MGL      3595
+ 2    10:45           0.25     Pr4N+ salt            dH:15.(2SF)             3      MTD      3595
+
+
+Reaction No. 60761
+V10O28-6 + Cs+1 = Cs+1_V10O28-6
+ No   t        I-Str            Medium               Value (Dev)         W        Tech.     Ref. #
+ 1    20        0.1           Me4N+ salt            lgK:3.18(3SF)        5         CRV       2556
+ 2    25         0           Inf. Dilution          lgK:4.42(3SF)        2         EAE
+
+
+Reaction No. 60762
+
+
+
+
+                                             – Page 37 of 77 –
+JESS Thermodynamic Database v8.9                                                  Cesium
+
+
+Cs+1 + H+1_V10O28-6 = Cs+1_H+1_V10O28-6
+ No    t        I-Str            Medium              Value (Dev)        W       Tech.       Ref. #
+ 1    20         0.1           Me4N+ salt           lgK:2.20(3SF)       5        CRV         2556
+ 2    25             0       Inf. Dilution          lgK:3.23(3SF)       2        EAE
+
+
+Reaction No. 62690
+NTA-3 + Cs+1 = Cs+1_NTA-3
+ No        t         I-Str     Medium            Value (Dev)        W       Tech.           Ref. #
+  1       25          0.1      Unknown          lgK:0.2(1SF)        6           CRV          552
+  2       25          0.1      Unknown         lgK:0.09(1SF)        5           MSP         11516
+Note (2): Harju L, Finn. Chem. Lett., 1985, 235
+
+
+Reaction No. 63512
+Cs+1_OH-1(2) + 2<H+1> = Cs+1 + 2<H2O>
+ No    t        I-Str           Medium               Value (Dev)        W        Tech.      Ref. #
+ 1    25             0       Inf. Dilution         lgK:29.75(4SF)       1         EBU        6372
+
+
+Reaction No. 63513
+Cs+1_OH-1(3) + 3<H+1> = Cs+1 + 3<H2O>
+ No    t        I-Str           Medium               Value (Dev)        W        Tech.      Ref. #
+ 1    25             0       Inf. Dilution         lgK:46.18(4SF)       1         EBU        6372
+
+
+Reaction No. 63514
+F-1 + Cs+1 = Cs+1_F-1
+ No   t        I-Str          Medium                Value (Dev)             W     Tech.      Ref. #
+ 1    25         1            P=136.1              lgK:-0.16(2SF)           5         MSP     6571
+                             Unknown/m
+ 2    25         1            P=408.3              lgK:-0.18(2SF)           5         MSP     6571
+                             Unknown/m
+ 3    25         1            P=680.5              lgK:-0.21(2SF)           5         MSP     6571
+                             Unknown/m
+ 4    25         1            P=952.6              lgK:-0.24(2SF)           5         MSP     6571
+                             Unknown/m
+ 5    25         1            P=1225               lgK:-0.27(2SF)           5         MSP     6571
+                             Unknown/m
+ 6    25         1            P=1497               lgK:-0.30(2SF)           5         MSP     6571
+                             Unknown/m
+ 7    25         1            P=1769               lgK:-0.34(2SF)           5         MSP     6571
+                             Unknown/m
+
+
+
+
+                                             – Page 38 of 77 –
+JESS Thermodynamic Database v8.9                                         Cesium
+
+
+ 8    25    1           P=2041               lgK:-0.39(2SF)         5     MSP      6571
+                       Unknown/m
+ 9    25    0        Inf. Dilution           lgK:-0.19(2SF)         1     EBU      6372
+ 10   25    0        Inf. Dilution         lgK:-0.38(0.15SD)        5     CRV     32222
+ 11   25    1          Unknown/m             lgK:-0.16(2SF)         5     MSP      6571
+ 12   25    0        Inf. Dilution        dH:2.446(0.829SD)kJ       5     CRV     32222
+
+
+Reaction No. 63515
+2<F-1> + Cs+1 = Cs+1_F-1(2)
+ No    t   I-Str          Medium               Value (Dev)      W       Tech.     Ref. #
+ 1    25        0      Inf. Dilution         lgK:-0.71(2SF)     1       EBU       6372
+
+
+Reaction No. 63516
+3<F-1> + Cs+1 = Cs+1_F-1(3)
+ No    t   I-Str          Medium               Value (Dev)      W       Tech.     Ref. #
+ 1    25        0      Inf. Dilution         lgK:-1.45(3SF)     1       EBU       6372
+
+
+Reaction No. 63517
+4<F-1> + Cs+1 = Cs+1_F-1(4)
+ No    t   I-Str          Medium               Value (Dev)      W       Tech.     Ref. #
+ 1    25        0      Inf. Dilution         lgK:-2.33(3SF)     1       EBU       6372
+
+
+Reaction No. 63518
+5<F-1> + Cs+1 = Cs+1_F-1(5)
+ No    t   I-Str          Medium               Value (Dev)      W       Tech.     Ref. #
+ 1    25        0      Inf. Dilution         lgK:-3.35(3SF)     1       EBU       6372
+
+
+Reaction No. 63519
+6<F-1> + Cs+1 = Cs+1_F-1(6)
+ No    t   I-Str          Medium               Value (Dev)      W       Tech.     Ref. #
+ 1    25        0      Inf. Dilution         lgK:-4.48(3SF)     1       EBU       6372
+
+
+Reaction No. 63520
+2<Cl-1> + Cs+1 = Cs+1_Cl-1(2)
+ No    t   I-Str          Medium               Value (Dev)      W       Tech.     Ref. #
+ 1    25        0      Inf. Dilution         lgK:-0.95(2SF)     1       EBU       6372
+
+
+Reaction No. 63521
+
+
+
+
+                                       – Page 39 of 77 –
+JESS Thermodynamic Database v8.9                                  Cesium
+
+
+3<Cl-1> + Cs+1 = Cs+1_Cl-1(3)
+ No   t    I-Str          Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:-2.93(3SF)   1   EBU       6372
+
+
+Reaction No. 63522
+4<Cl-1> + Cs+1 = Cs+1_Cl-1(4)
+ No   t    I-Str          Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:-5.82(3SF)   1   EBU       6372
+
+
+Reaction No. 63523
+2<Br-1> + Cs+1 = Cs+1_Br-1(2)
+ No   t    I-Str          Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:-0.56(2SF)   1   EBU       6372
+
+
+Reaction No. 63524
+3<Br-1> + Cs+1 = Cs+1_Br-1(3)
+ No   t    I-Str          Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:-1.81(3SF)   1   EBU       6372
+
+
+Reaction No. 63525
+4<Br-1> + Cs+1 = Cs+1_Br-1(4)
+ No   t    I-Str          Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:-3.62(3SF)   1   EBU       6372
+
+
+Reaction No. 63526
+5<Br-1> + Cs+1 = Cs+1_Br-1(5)
+ No   t    I-Str          Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:-5.95(3SF)   1   EBU       6372
+
+
+Reaction No. 63527
+6<Br-1> + Cs+1 = Cs+1_Br-1(6)
+ No   t    I-Str          Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:-8.79(3SF)   1   EBU       6372
+
+
+Reaction No. 63528
+2<I-1> + Cs+1 = Cs+1_I-1(2)
+ No   t    I-Str          Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:-0.21(2SF)   1   EBU       6372
+
+
+
+
+                                      – Page 40 of 77 –
+JESS Thermodynamic Database v8.9                                   Cesium
+
+
+
+Reaction No. 63529
+3<I-1> + Cs+1 = Cs+1_I-1(3)
+ No   t    I-Str          Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-0.80(2SF)   1    EBU       6372
+
+
+Reaction No. 63530
+4<I-1> + Cs+1 = Cs+1_I-1(4)
+ No   t    I-Str          Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-1.61(3SF)   1    EBU       6372
+
+
+Reaction No. 63531
+5<I-1> + Cs+1 = Cs+1_I-1(5)
+ No   t    I-Str          Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-2.62(3SF)   1    EBU       6372
+
+
+Reaction No. 63532
+6<I-1> + Cs+1 = Cs+1_I-1(6)
+ No   t    I-Str          Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-3.82(3SF)   1    EBU       6372
+
+
+Reaction No. 63533
+2<IO3-1> + Cs+1 = Cs+1_IO3-1(2)
+ No   t    I-Str          Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-1.60(3SF)   1    EBU       6372
+
+
+Reaction No. 63534
+3<IO3-1> + Cs+1 = Cs+1_IO3-1(3)
+ No   t    I-Str          Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-4.55(3SF)   1    EBU       6372
+
+
+Reaction No. 63535
+2<SO4-2> + Cs+1 = Cs+1_SO4-2(2)
+ No   t    I-Str          Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:0.98(2SF)   1   EBU       6372
+
+
+Reaction No. 63536
+3<SO4-2> + Cs+1 = Cs+1_SO4-2(3)
+
+
+
+
+                                       – Page 41 of 77 –
+JESS Thermodynamic Database v8.9                                    Cesium
+
+
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution          lgK:0.41(2SF)   1   EBU       6372
+
+
+Reaction No. 63537
+4<SO4-2> + Cs+1 = Cs+1_SO4-2(4)
+ No   t    I-Str           Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:-0.66(2SF)   1    EBU       6372
+
+
+Reaction No. 63538
+5<SO4-2> + Cs+1 = Cs+1_SO4-2(5)
+ No   t    I-Str           Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:-2.20(3SF)   1    EBU       6372
+
+
+Reaction No. 63539
+6<SO4-2> + Cs+1 = Cs+1_SO4-2(6)
+ No   t    I-Str           Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:-4.16(3SF)   1    EBU       6372
+
+
+Reaction No. 63540
+NH3 + Cs+1 = Cs+1_NH3
+ No   t    I-Str           Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:-1.47(3SF)   1    EBU       6372
+
+
+Reaction No. 63541
+2<NH3> + Cs+1 = Cs+1_NH3(2)
+ No   t    I-Str           Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:-4.17(3SF)   1    EBU       6372
+
+
+Reaction No. 63542
+2<NO3-1> + Cs+1 = Cs+1_NO3-1(2)
+ No   t    I-Str           Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:-1.46(3SF)   1    EBU       6372
+
+
+Reaction No. 63543
+3<NO3-1> + Cs+1 = Cs+1_NO3-1(3)
+ No   t    I-Str           Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:-4.28(3SF)   1    EBU       6372
+
+
+
+
+                                        – Page 42 of 77 –
+JESS Thermodynamic Database v8.9                                   Cesium
+
+
+Reaction No. 63544
+Cs+1 + H+1_PO4-3 = Cs+1_H+1_PO4-3
+ No   t    I-Str          Medium                Value (Dev)   W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:0.99(2SF)   1   EBU       6372
+
+
+Reaction No. 63545
+Cs+1 + 2<H+1_PO4-3> = Cs+1_H+1(2)_PO4-3(2)
+ No   t    I-Str          Medium                Value (Dev)   W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:1.32(3SF)   1   EBU       6372
+
+
+Reaction No. 63546
+Cs+1 + 3<H+1_PO4-3> = Cs+1_H+1(3)_PO4-3(3)
+ No   t    I-Str          Medium                Value (Dev)   W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:1.24(3SF)   1   EBU       6372
+
+
+Reaction No. 63547
+Cs+1 + 4<H+1_PO4-3> = Cs+1_H+1(4)_PO4-3(4)
+ No   t    I-Str          Medium                Value (Dev)   W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:0.84(2SF)   1   EBU       6372
+
+
+Reaction No. 63548
+Cs+1 + 5<H+1_PO4-3> = Cs+1_H+1(5)_PO4-3(5)
+ No   t    I-Str          Medium                Value (Dev)   W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:0.18(2SF)   1   EBU       6372
+
+
+Reaction No. 63549
+Cs+1 + 6<H+1_PO4-3> = Cs+1_H+1(6)_PO4-3(6)
+ No   t    I-Str          Medium                Value (Dev)   W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-0.69(2SF)   1    EBU       6372
+
+
+Reaction No. 63550
+Cs+1 + H+1(2)_PO4-3 = Cs+1_H+1(2)_PO4-3
+ No   t    I-Str          Medium                Value (Dev)   W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:0.01(1SF)   1   EBU       6372
+
+
+Reaction No. 63551
+Cs+1 + 2<H+1(2)_PO4-3> = Cs+1_H+1(4)_PO4-3(2)
+ No   t    I-Str          Medium                Value (Dev)   W   Tech.     Ref. #
+
+
+
+
+                                       – Page 43 of 77 –
+JESS Thermodynamic Database v8.9                                        Cesium
+
+
+ 1    25     0        Inf. Dilution          lgK:-0.67(2SF)    1        EBU       6372
+
+
+Reaction No. 63552
+Cs+1 + 3<H+1(2)_PO4-3> = Cs+1_H+1(6)_PO4-3(3)
+ No   t    I-Str            Medium              Value (Dev)    W       Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-1.79(3SF)    1        EBU       6372
+
+
+Reaction No. 63553
+Cs+1 + 4<H+1(2)_PO4-3> = Cs+1_H+1(8)_PO4-3(4)
+ No   t    I-Str            Medium              Value (Dev)    W       Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-3.24(3SF)    1        EBU       6372
+
+
+Reaction No. 63554
+Cs+1 + 5<H+1(2)_PO4-3> = Cs+1_H+1(10)_PO4-3(5)
+ No   t    I-Str            Medium              Value (Dev)    W       Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-4.97(3SF)    1        EBU       6372
+
+
+Reaction No. 63555
+Cs+1 + 6<H+1(2)_PO4-3> = Cs+1_H+1(12)_PO4-3(6)
+ No   t    I-Str            Medium              Value (Dev)    W       Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-6.95(3SF)    1        EBU       6372
+
+
+Reaction No. 63556
+CO3-2 + Cs+1 = Cs+1_CO3-2
+ No   t    I-Str        Medium                  Value (Dev)        W    Tech.    Ref. #
+ 1    25     0       Inf. Dilution           lgK:2.06(3SF)         1     EBU      6372
+ 2    25     1          Me4NCl             lgK:-0.70(0.10SD)       5     MGL      7406
+
+
+Reaction No. 63557
+2<CO3-2> + Cs+1 = Cs+1_CO3-2(2)
+ No   t    I-Str            Medium              Value (Dev)    W       Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:2.80(3SF)    1       EBU       6372
+
+
+Reaction No. 63558
+3<CO3-2> + Cs+1 = Cs+1_CO3-2(3)
+ No   t    I-Str            Medium              Value (Dev)    W       Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:2.50(3SF)    1       EBU       6372
+
+
+
+
+                                       – Page 44 of 77 –
+JESS Thermodynamic Database v8.9                                      Cesium
+
+
+Reaction No. 63559
+4<CO3-2> + Cs+1 = Cs+1_CO3-2(4)
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0            Inf. Dilution          lgK:1.24(3SF)   1   EBU       6372
+
+
+Reaction No. 63560
+5<CO3-2> + Cs+1 = Cs+1_CO3-2(5)
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution             lgK:-0.92(2SF)   1    EBU       6372
+
+
+Reaction No. 63561
+Cs+1 + H+1_CO3-2 = Cs+1_H+1_CO3-2
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution             lgK:-0.14(2SF)   1    EBU       6372
+
+
+Reaction No. 63562
+Cs+1 + 2<H+1_CO3-2> = Cs+1_H+1(2)_CO3-2(2)
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution             lgK:-1.38(3SF)   1    EBU       6372
+
+
+Reaction No. 63563
+Cs+1 + 3<H+1_CO3-2> = Cs+1_H+1(3)_CO3-2(3)
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution             lgK:-3.49(3SF)   1    EBU       6372
+
+
+Reaction No. 63564
+Cs+1 + 4<H+1_CO3-2> = Cs+1_H+1(4)_CO3-2(4)
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution             lgK:-6.35(3SF)   1    EBU       6372
+
+
+Reaction No. 63565
+Cs+1 + CN-1 = Cs+1_CN-1
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution             lgK:-0.20(2SF)   1    EBU       6372
+
+
+Reaction No. 63566
+Cs+1 + 2<CN-1> = Cs+1_CN-1(2)
+ No   t    I-Str             Medium               Value (Dev)    W   Tech.     Ref. #
+
+
+
+
+                                          – Page 45 of 77 –
+JESS Thermodynamic Database v8.9                                    Cesium
+
+
+ 1    25     0        Inf. Dilution           lgK:-1.59(3SF)   1    EBU       6372
+
+
+Reaction No. 63567
+Cs+1 + 3<CN-1> = Cs+1_CN-1(3)
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-4.04(3SF)   1    EBU       6372
+
+
+Reaction No. 63568
+SCN-1 + Cs+1 = Cs+1_SCN-1
+ No   t    I-Str             Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:0.03(1SF)   1   EBU       6372
+
+
+Reaction No. 63569
+2<SCN-1> + Cs+1 = Cs+1_SCN-1(2)
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-1.22(3SF)   1    EBU       6372
+
+
+Reaction No. 63570
+3<SCN-1> + Cs+1 = Cs+1_SCN-1(3)
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-3.60(3SF)   1    EBU       6372
+
+
+Reaction No. 63571
+Acetic-1 + Cs+1 = Cs+1_Acetic-1
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-0.10(2SF)   1    EBU       6372
+ 2    25   0.16             Unknown           lgK:-0.33(2SF)   5    MGL      14764
+
+
+Reaction No. 63572
+2<Acetic-1> + Cs+1 = Cs+1_Acetic-1(2)
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-1.39(3SF)   1    EBU       6372
+
+
+Reaction No. 63573
+3<Acetic-1> + Cs+1 = Cs+1_Acetic-1(3)
+ No   t    I-Str            Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-3.62(3SF)   1    EBU       6372
+
+
+
+
+                                        – Page 46 of 77 –
+JESS Thermodynamic Database v8.9                                   Cesium
+
+
+Reaction No. 63574
+Benzoic-1 + Cs+1 = Cs+1_Benzoic-1
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-0.12(2SF)   1    EBU       6372
+
+
+Reaction No. 63575
+2<Benzoic-1> + Cs+1 = Cs+1_Benzoic-1(2)
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-1.60(3SF)   1    EBU       6372
+
+
+Reaction No. 63576
+3<Benzoic-1> + Cs+1 = Cs+1_Benzoic-1(3)
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-4.19(3SF)   1    EBU       6372
+
+
+Reaction No. 63577
+Cat-2 + Cs+1 = Cs+1_Cat-2
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:2.53(3SF)   1   EBU       6372
+
+
+Reaction No. 63578
+2<Cat-2> + Cs+1 = Cs+1_Cat-2(2)
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.58(3SF)   1   EBU       6372
+
+
+Reaction No. 63579
+3<Cat-2> + Cs+1 = Cs+1_Cat-2(3)
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.84(3SF)   1   EBU       6372
+
+
+Reaction No. 63580
+EtDiAm + Cs+1 = Cs+1_EtDiAm
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-1.45(3SF)   1    EBU       6372
+
+
+Reaction No. 63581
+Gly-1 + Cs+1 = Cs+1_Gly-1
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+
+
+
+
+                                       – Page 47 of 77 –
+JESS Thermodynamic Database v8.9                                  Cesium
+
+
+ 1    25     0        Inf. Dilution         lgK:-1.05(3SF)   1   EBU       6372
+
+
+Reaction No. 63582
+2<Gly-1> + Cs+1 = Cs+1_Gly-1(2)
+ No   t    I-Str          Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:-3.06(3SF)   1   EBU       6372
+
+
+Reaction No. 63583
+3<Gly-1> + Cs+1 = Cs+1_Gly-1(3)
+ No   t    I-Str          Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:-5.18(3SF)   1   EBU       6372
+
+
+Reaction No. 63584
+Glycolic-1 + Cs+1 = Cs+1_Glycolic-1
+ No   t    I-Str          Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:-0.08(1SF)   1   EBU       6372
+
+
+Reaction No. 63585
+2<Glycolic-1> + Cs+1 = Cs+1_Glycolic-1(2)
+ No   t    I-Str          Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:-1.27(3SF)   1   EBU       6372
+
+
+Reaction No. 63586
+3<Glycolic-1> + Cs+1 = Cs+1_Glycolic-1(3)
+ No   t    I-Str          Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:-3.33(3SF)   1   EBU       6372
+
+
+Reaction No. 63587
+4<Glycolic-1> + Cs+1 = Cs+1_Glycolic-1(4)
+ No   t    I-Str          Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:-6.16(3SF)   1   EBU       6372
+
+
+Reaction No. 63588
+Phenol-1 + Cs+1 = Cs+1_Phenol-1
+ No   t    I-Str          Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:-0.22(2SF)   1   EBU       6372
+
+
+Reaction No. 63589
+
+
+
+
+                                      – Page 48 of 77 –
+JESS Thermodynamic Database v8.9                                                      Cesium
+
+
+2<Phenol-1> + Cs+1 = Cs+1_Phenol-1(2)
+ No   t        I-Str              Medium               Value (Dev)          W        Tech.     Ref. #
+ 1    25         0             Inf. Dilution         lgK:-1.40(3SF)         1         EBU       6372
+
+
+Reaction No. 63590
+3<Phenol-1> + Cs+1 = Cs+1_Phenol-1(3)
+ No   t        I-Str              Medium               Value (Dev)          W        Tech.     Ref. #
+ 1    25         0             Inf. Dilution         lgK:-3.41(3SF)         1         EBU       6372
+
+
+Reaction No. 63591
+4<Phenol-1> + Cs+1 = Cs+1_Phenol-1(4)
+ No   t        I-Str              Medium               Value (Dev)          W        Tech.     Ref. #
+ 1    25         0             Inf. Dilution         lgK:-6.20(3SF)         1         EBU       6372
+
+
+Reaction No. 65651
+Fe+3_CN-1(6) + Cs+1 = Fe+3_Cs+1_CN-1(6)
+ No    t        I-Str             Medium            Value (Dev)         W           Tech.      Ref. #
+  1   25             3          Li+1 salt          lgK:0.52(2SF)        0           CRV         552
+
+
+Reaction No. 65879
+P4O12-4 + Cs+1 = Cs+1_P4O12-4
+ No   t        I-Str               Medium              Value (Dev)          W        Tech.     Ref. #
+ 1    25         0             Inf. Dilution          lgK:2.23(3SF)         4         CRV       552
+
+
+Reaction No. 65895
+P6O18-6 + Cs+1 = Cs+1_P6O18-6
+ No   t        I-Str               Medium              Value (Dev)          W        Tech.     Ref. #
+ 1    25         0             Inf. Dilution          lgK:3.82(3SF)         4         CRV       552
+
+
+Reaction No. 65929
+S2O8-2 + Cs+1 = Cs+1_S2O8-2
+ No        t         I-Str           Medium              Value (Dev)            W     Tech.    Ref. #
+ 1        25              0      Inf. Dilution         lgK:1.393(4SF)           1      EOR
+ 2        25              0      Inf. Dilution          lgK:1.41(3SF)           4      CRV       552
+ 3        25             0.1        Unknown             lgK:0.97(2SF)           6      CRV       552
+ 4    20:40               0      Inf. Dilution           dH:-1.(1SF)            4      CRV       552
+
+
+Reaction No. 65977
+
+
+
+
+                                               – Page 49 of 77 –
+JESS Thermodynamic Database v8.9                                          Cesium
+
+
+ClO4-1 + Cs+1 = Cs+1_ClO4-1
+ No    t    I-Str           Medium               Value (Dev)     W       Tech.     Ref. #
+ 1    25      0         Inf. Dilution           lgK:0.23(2SF)    3       CRV        552
+ 2    25      0         Inf. Dilution           lgK:0.22(2SF)    5       MCN       22093
+ 3    25                      MeCN               lgK:1.5(2SF)    4       MCN        6714
+
+
+Reaction No. 65978
+Cs+1_ClO4-1_(s) = Cs+1 + ClO4-1
+ No    t    I-Str          Medium                Value (Dev)     W       Tech.     Ref. #
+ 1    25      0         Inf. Dilution          lgK:-2.38(3SF)    4        CRV       552
+ 2    25      0         Inf. Dilution          lgK:-2.49(3SF)    4        CRV      22551
+ 3    25      0         Inf. Dilution          dH:13.260(5SF)    4        MCL      18892
+
+
+Reaction No. 66674
+3<Cs(s)> + As(s) + 2<O2(g)> = Cs+1(3)_AsO4-3_(s)
+ No    t     I-Str            Medium              Value (Dev)    W       Tech.     Ref. #
+ 1     25         0      Inf. Dilution          lgK:270.5(4SF)   4        ENS       6422
+ 2     27         0      Inf. Dilution          lgK:268.7(4SF)   0        ENS       6422
+ 3    127         0      Inf. Dilution          lgK:195.8(4SF)   2        ENS       6422
+ 4    227         0      Inf. Dilution          lgK:152.1(4SF)   1        ENS       6422
+ 5    327         0      Inf. Dilution          lgK:122.9(4SF)   0        ENS       6422
+ 6     25         0      Inf. Dilution          dG:-369.0(4SF)   4        EFE       6422
+ 7     25         0      Inf. Dilution          dH:-398.8(4SF)   4        MTD       6422
+ 8    127         0      Inf. Dilution          dH:-400.3(4SF)   1        MTD       6422
+ 9    227         0      Inf. Dilution          dH:-400.0(4SF)   0        MTD       6422
+ 10   327         0      Inf. Dilution          dH:-399.7(4SF)   0        MTD       6422
+
+
+Reaction No. 66675
+0.5<Br2(l)> + Cs(s) = Cs+1_Br-1_(s)
+ No    t    I-Str        Medium                  Value (Dev)         W     Tech.   Ref. #
+ 1    25      0       Inf. Dilution            lgK:68.51(4SF)        4      ENS     6422
+ 2    27      0       Inf. Dilution            lgK:68.07(4SF)        0      ENS     6422
+ 3    127     0       Inf. Dilution            lgK:49.92(4SF)        2      ENS     6422
+ 4    227     0       Inf. Dilution            lgK:38.88(4SF)        1      ENS     6422
+ 5    327     0       Inf. Dilution            lgK:31.54(4SF)        0      ENS     6422
+ 6    25      0       Inf. Dilution           dG:-391.4(4SF)kJ       3      CRV     6330
+ 7    25      0       Inf. Dilution            dG:-93.50(4SF)        4      EFE     6422
+
+
+
+
+                                         – Page 50 of 77 –
+JESS Thermodynamic Database v8.9                                    Cesium
+
+
+ 8    25      0      Inf. Dilution        dG:-391.41(5SF)kJ     2    CRV     24003
+ 9    25      0      Inf. Dilution      dG:-391.170(0.15SD)kJ   5    CRV     27292
+ 10   25      0      Inf. Dilution        dG:-391.41(5SF)kJ     2    EOD     29489
+ 11   25      0      Inf. Dilution        dG:-391.41(5SF)kJ     2    EOD     30015
+ 12   25      0      Inf. Dilution         dH:-405.8(4SF)kJ     3    CRV      6330
+ 13   25      0      Inf. Dilution          dH:-96.9(3SF)       4    MTD      6422
+ 14   25      0      Inf. Dilution      dH:-405.600(0.13SD)kJ   5    CRV     27292
+ 15   25      0      Inf. Dilution        dH:-405.81(5SF)kJ     2    EOD     29489
+ 16   25      0      Inf. Dilution        dH:-405.81(5SF)kJ     2    EOD     30015
+ 17   127     0      Inf. Dilution          dH:-101.0(4SF)      1    MTD      6422
+ 18   227     0      Inf. Dilution          dH:-100.9(4SF)      0    MTD      6422
+ 19   327     0      Inf. Dilution          dH:-100.8(4SF)      0    MTD      6422
+ 20   25      0      Inf. Dilution        Cp:52.930(5SF)J/K     5    CRV     27292
+
+
+Reaction No. 66676
+C(s) + 2<Cs(s)> + 1.5<O2(g)> = Cs+1(2)_CO3-2_(s)
+ No    t    I-Str        Medium               Value (Dev)       W   Tech.    Ref. #
+ 1    25      0       Inf. Dilution         lgK:204.7(4SF)      1    ELC
+ 2    25      0       Inf. Dilution         lgK:186.4(4SF)      0    ENS     6422
+ 3    27      0       Inf. Dilution         lgK:185.2(4SF)      0    ENS     6422
+ 4    127     0       Inf. Dilution         lgK:135.1(4SF)      0    ENS     6422
+ 5    227     0       Inf. Dilution         lgK:105.1(4SF)      0    ENS     6422
+ 6    327     0       Inf. Dilution         lgK:85.08(4SF)      0    ENS     6422
+ 7    25      0       Inf. Dilution        dG:-1054.3(5SF)kJ    0    CRV     6330
+ 8    25      0       Inf. Dilution         dG:-254.3(4SF)      0    EFE     6422
+ 9    25      0       Inf. Dilution       dG:-1054.40(6SF)kJ    0    EOD     29489
+ 10   25      0       Inf. Dilution        dH:-1139.7(5SF)kJ    2    CRV     6330
+ 11   25      0       Inf. Dilution         dH:-274.2(4SF)      0    MTD     6422
+ 12   25      0       Inf. Dilution        dH:-1139.7(5SF)kJ    2    EOD     29489
+ 13   127     0       Inf. Dilution         dH:-274.9(4SF)      2    MTD     6422
+ 14   227     0       Inf. Dilution         dH:-274.4(4SF)      0    MTD     6422
+ 15   327     0       Inf. Dilution         dH:-273.9(4SF)      0    MTD     6422
+
+
+Reaction No. 66677
+0.5<Cl2(g)> + Cs(s) = Cs+1_Cl-1_(s)
+ No    t    I-Str       Medium                Value (Dev)       W   Tech.    Ref. #
+
+
+
+
+                                      – Page 51 of 77 –
+JESS Thermodynamic Database v8.9                                        Cesium
+
+
+ 1    25     0       Inf. Dilution          lgK:72.59(4SF)          2    ENS      6422
+ 2    27     0       Inf. Dilution          lgK:72.12(4SF)          0    ENS      6422
+ 3    127    0       Inf. Dilution          lgK:52.76(4SF)          4    ENS      6422
+ 4    227    0       Inf. Dilution          lgK:41.16(4SF)          3    ENS      6422
+ 5    327    0       Inf. Dilution          lgK:33.44(4SF)          0    ENS      6422
+ 6    25     0       Inf. Dilution         dG:-414.5(4SF)kJ         2    CRV      6330
+ 7    25     0       Inf. Dilution          dG:-99.03(4SF)          2    EFE      6422
+ 8    25     0       Inf. Dilution        dG:-414.53(5SF)kJ         2    CRV     24003
+ 9    25     0       Inf. Dilution       dG:-413.810(0.1SD)kJ       5    CRV     27292
+ 10   25     0       Inf. Dilution        dG:-414.55(5SF)kJ         2    EOD     29489
+ 11   25     0       Inf. Dilution         dH:-443.0(4SF)kJ         2    CRV      6330
+ 12   25     0       Inf. Dilution          dH:-105.8(4SF)          4    MTD      6422
+ 13   25     0       Inf. Dilution      dH:-442.310(0.08SD)kJ       5    CRV     27292
+ 14   25     0       Inf. Dilution        dH:-443.04(5SF)kJ         2    EOD     29489
+ 15   127    0       Inf. Dilution          dH:-106.2(4SF)          2    MTD      6422
+ 16   227    0       Inf. Dilution          dH:-106.1(4SF)          0    MTD      6422
+ 17   327    0       Inf. Dilution          dH:-105.9(4SF)          0    MTD      6422
+ 18   25     0       Inf. Dilution        Cp:52.470(5SF)J/K         5    CRV     27292
+
+
+Reaction No. 66678
+Cs(s) + 0.5<F2(g)> = Cs+1_F-1_(s)
+ No    t    I-Str         Medium              Value (Dev)       W       Tech.    Ref. #
+ 1    25      0       Inf. Dilution         lgK:92.04(4SF)      4       ENS      6422
+ 2    27      0       Inf. Dilution         lgK:91.44(4SF)      0       ENS      6422
+ 3    127     0       Inf. Dilution         lgK:67.22(4SF)      3       ENS      6422
+ 4    227     0       Inf. Dilution         lgK:52.70(4SF)      2       ENS      6422
+ 5    327     0       Inf. Dilution         lgK:43.03(4SF)      0       ENS      6422
+ 6    25      0       Inf. Dilution         dG:-125.6(4SF)      4       EFE      6422
+ 7    25      0       Inf. Dilution        dG:-525.51(5SF)kJ    2       EOD      29489
+ 8    25      0       Inf. Dilution         dH:-132.6(4SF)      4       MTD      6422
+ 9    25      0       Inf. Dilution        dH:-553.54(5SF)kJ    2       EOD      29489
+ 10   127     0       Inf. Dilution         dH:-132.9(4SF)      2       MTD      6422
+ 11   227     0       Inf. Dilution         dH:-132.8(4SF)      1       MTD      6422
+ 12   327     0       Inf. Dilution         dH:-132.6(4SF)      0       MTD      6422
+
+
+Reaction No. 66679
+
+
+
+
+                                      – Page 52 of 77 –
+JESS Thermodynamic Database v8.9                                           Cesium
+
+
+Cs(s) + 0.5<I2(s)> = Cs+1_I-1_(s)
+ No    t    I-Str           Medium                Value (Dev)          W   Tech.    Ref. #
+ 1    25      0       Inf. Dilution             lgK:59.67(4SF)         4    ENS      6422
+ 2    27      0       Inf. Dilution             lgK:59.30(4SF)         0    ENS      6422
+ 3    127     0       Inf. Dilution             lgK:44.07(4SF)         3    ENS      6422
+ 4    227     0       Inf. Dilution             lgK:34.51(4SF)         2    ENS      6422
+ 5    327     0       Inf. Dilution             lgK:27.91(4SF)         0    ENS      6422
+ 6    25      0       Inf. Dilution             dG:-81.40(4SF)         4    EFE      6422
+ 7    25      0       Inf. Dilution            dG:-340.58(5SF)kJ       5    CRV     24003
+ 8    25      0       Inf. Dilution            dG:-340.58(5SF)kJ       2    EOD     29489
+ 9    25      0       Inf. Dilution            dG:-340.58(5SF)kJ       3    MSL     30015
+ 10   25      0       Inf. Dilution            dG:-341.90(5SF)kJ       2    EOD     30015
+ 11   25      0       Inf. Dilution            dG:-341.75(5SF)kJ       2    EOD     30015
+ 12   25      0       Inf. Dilution              dH:-82.8(3SF)         4    MTD      6422
+ 13   25      0       Inf. Dilution            dH:-345.60(5SF)kJ       2    EOD     29489
+ 14   25      0       Inf. Dilution            dH:-346.60(5SF)kJ       2    EOD     30015
+ 15   127     0       Inf. Dilution              dH:-85.4(3SF)         2    MTD      6422
+ 16   227     0       Inf. Dilution              dH:-90.6(3SF)         1    MTD      6422
+ 17   327     0       Inf. Dilution              dH:-90.5(3SF)         0    MTD      6422
+
+
+Reaction No. 66680
+Cs(s) + O2(g) = CsO2(s)
+ No    t    I-Str            Medium                Value (Dev)     W       Tech.    Ref. #
+ 1    25      0           Inf. Dilution          lgK:42.41(4SF)    4       ENS      6422
+ 2    27      0           Inf. Dilution          lgK:42.10(4SF)    4       ENS      6422
+ 3    127     0           Inf. Dilution          lgK:29.59(4SF)    4       ENS      6422
+ 4    227     0           Inf. Dilution          lgK:22.14(4SF)    4       ENS      6422
+ 5    327     0           Inf. Dilution          lgK:17.21(4SF)    4       ENS      6422
+ 6    25      0           Inf. Dilution          dG:-57.85(4SF)    4       EFE      6422
+ 7    25      0           Inf. Dilution          dH:-68.4(3SF)     4       MTD      6422
+ 8    127     0           Inf. Dilution          dH:-68.4(3SF)     4       MTD      6422
+ 9    227     0           Inf. Dilution          dH:-67.9(3SF)     4       MTD      6422
+ 10   327     0           Inf. Dilution          dH:-67.3(3SF)     4       MTD      6422
+
+
+Reaction No. 66681
+2<Cs(s)> + 0.5<O2(g)> = Cs2O(s)
+
+
+
+
+                                          – Page 53 of 77 –
+JESS Thermodynamic Database v8.9                                        Cesium
+
+
+ No    t    I-Str        Medium                Value (Dev)          W   Tech.    Ref. #
+ 1    25      0       Inf. Dilution           lgK:53.9(3SF)         1    ELC
+ 2    25      0       Inf. Dilution          lgK:54.03(4SF)         0    ENS      6422
+ 3    27      0       Inf. Dilution          lgK:53.66(4SF)         0    ENS      6422
+ 4    127     0       Inf. Dilution          lgK:38.42(4SF)         0    ENS      6422
+ 5    227     0       Inf. Dilution          lgK:29.27(4SF)         0    ENS      6422
+ 6    327     0       Inf. Dilution          lgK:23.18(4SF)         0    ENS      6422
+ 7    25      0       Inf. Dilution          dG:-73.71(4SF)         0    EFE      6422
+ 8    25      0       Inf. Dilution          dG:-73.65(4SF)         0    EFE      7382
+ 9    25      0       Inf. Dilution         dG:-308.36(5SF)kJ       2    EOD     29489
+ 10   25      0       Inf. Dilution          dG:-73.703(5SF)        3    CRV     31291
+ 11   25      0       Inf. Dilution           dH:-82.7(3SF)         0    MTD      6422
+ 12   25      0       Inf. Dilution          dH:-82.64(4SF)         0    EFE      7382
+ 13   25      0       Inf. Dilution         dH:-346.81(5SF)kJ       2    EOD     29489
+ 14   25      0       Inf. Dilution          dH:-82.690(5SF)        3    CRV     31291
+ 15   127     0       Inf. Dilution           dH:-83.7(3SF)         0    MTD      6422
+ 16   227     0       Inf. Dilution           dH:-83.6(3SF)         0    MTD      6422
+ 17   327     0       Inf. Dilution           dH:-83.5(3SF)         0    MTD      6422
+
+
+Reaction No. 66682
+2<Cs(s)> + 1.5<O2(g)> = Cs2O3(s)
+ No    t     I-Str         Medium               Value (Dev)     W       Tech.    Ref. #
+ 1    25       0       Inf. Dilution          lgK:78.17(4SF)    4       ENS      6422
+ 2    27       0       Inf. Dilution          lgK:77.60(4SF)    4       ENS      6422
+ 3    127      0       Inf. Dilution          lgK:54.83(4SF)    4       ENS      6422
+ 4    227      0       Inf. Dilution          lgK:41.22(4SF)    4       ENS      6422
+ 5    327      0       Inf. Dilution          lgK:32.19(4SF)    4       ENS      6422
+ 6    25       0       Inf. Dilution          dG:-106.6(4SF)    4       EFE      6422
+ 7    25       0       Inf. Dilution          dH:-124.3(4SF)    4       MTD      6422
+ 8    127      0       Inf. Dilution          dH:-124.8(4SF)    4       MTD      6422
+ 9    227      0       Inf. Dilution          dH:-124.2(4SF)    4       MTD      6422
+ 10   327      0       Inf. Dilution          dH:-123.6(4SF)    4       MTD      6422
+
+
+Reaction No. 66683
+Cs(s) + 0.5<H2(g)> + 0.5<O2(g)> = Cs+1_OH-1_(s)
+ No   t     I-Str        Medium                Value (Dev)          W   Tech.    Ref. #
+
+
+
+
+                                       – Page 54 of 77 –
+JESS Thermodynamic Database v8.9                                        Cesium
+
+
+ 1    25      0      Inf. Dilution          lgK:64.95(4SF)         4     ENS      6422
+ 2    27      0      Inf. Dilution          lgK:64.50(4SF)         0     ENS      6422
+ 3    127     0      Inf. Dilution          lgK:46.29(4SF)         2     ENS      6422
+ 4    137     0      Inf. Dilution          lgK:44.96(4SF)         2     ENS      6422
+ 5    25      0      Inf. Dilution          dG:-88.60(4SF)         4     EFE      6422
+ 6    25      0      Inf. Dilution        dG:-370.700(6SF)kJ       2     EOD     29489
+ 7    25      0      Inf. Dilution           dH:-99.6(3SF)         4     MTD      6422
+ 8    25      0      Inf. Dilution          dH:-99.72(4SF)         3     EFE      7382
+ 9    25      0      Inf. Dilution        dH:-415.720(6SF)kJ       2     EOD     29489
+ 10   127     0      Inf. Dilution           dH:-99.9(3SF)         2     MTD      6422
+ 11   137     0      Inf. Dilution           dH:-99.8(3SF)         2     MTD      6422
+
+
+Reaction No. 66684
+2<Cs(s)> + 2<O2(g)> + S(s) = Cs+1(2)_SO4-2_(s)
+ No    t    I-Str        Medium                  Value (Dev)       W    Tech.    Ref. #
+ 1    25      0       Inf. Dilution         lgK:231.9(4SF)         4     ENS      6422
+ 2    27      0       Inf. Dilution         lgK:230.3(4SF)         0     ENS      6422
+ 3    127     0       Inf. Dilution         lgK:167.3(4SF)         3     ENS      6422
+ 4    227     0       Inf. Dilution         lgK:129.4(4SF)         2     ENS      6422
+ 5    327     0       Inf. Dilution         lgK:104.2(4SF)         0     ENS      6422
+ 6    25      0       Inf. Dilution         dG:-316.3(4SF)         4     EFE      6422
+ 7    25      0       Inf. Dilution        dG:-1323.8(5SF)kJ       2     EOD     29489
+ 8    25      0       Inf. Dilution         dH:-344.9(4SF)         4    MTD       6422
+ 9    25      0       Inf. Dilution        dH:-1443.0(5SF)kJ       2     EOD     29489
+ 10   127     0       Inf. Dilution         dH:-346.5(4SF)         2     MTD      6422
+ 11   227     0       Inf. Dilution         dH:-346.6(4SF)         1     MTD      6422
+ 12   327     0       Inf. Dilution         dH:-346.4(4SF)         0     MTD      6422
+
+
+Reaction No. 66888
+Cs+1_IO4-1_(s) = Cs+1 + IO4-1
+ No   t     I-Str         Medium              Value (Dev)      W       Tech.     Ref. #
+ 1    25      0       Inf. Dilution         lgK:-2.65(3SF)     4       ENS        773
+
+
+Reaction No. 70355
+Cs+1_(g) + F-1_(g) = Cs+1 + F-1
+ No   t     I-Str        Medium               Value (Dev)      W       Tech.     Ref. #
+ 1    25      0       Inf. Dilution         dH:-782.(3SF)kJ    5        ENS       7275
+
+
+
+
+                                      – Page 55 of 77 –
+JESS Thermodynamic Database v8.9                                    Cesium
+
+
+
+Reaction No. 70360
+Cs+1_(g) + Cl-1_(g) = Cs+1 + Cl-1
+ No   t    I-Str         Medium                 Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         dH:-640.(3SF)kJ    0    ENS       7275
+
+
+Reaction No. 70365
+Cs+1_(g) + Br-1_(g) = Cs+1 + Br-1
+ No   t    I-Str         Medium                 Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         dH:-613.(3SF)kJ    0    ENS       7275
+
+
+Reaction No. 70370
+Cs+1_(g) + I-1_(g) = Cs+1 + I-1
+ No   t    I-Str         Medium                 Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         dH:-572.(3SF)kJ    5    ENS       7275
+
+
+Reaction No. 71165
+Cs+1 + 0.5<H2(g)> + e-1 = CsH(s)
+ No   t    I-Str         Medium                 Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution             E:-2.72(3SF)   3    CRV       7761
+ 2    25     0        Inf. Dilution         dH:203.8(4SF)kJ    3    CRV       7761
+
+
+Reaction No. 71166
+Cs+1_OH-1 + e-1 = Cs(s) + OH-1
+ No   t    I-Str          Medium                Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:-50.1(3SF)     1   ELC
+ 2    25     0        Inf. Dilution             E:-2.97(3SF)   0   CRV       7761
+
+
+Reaction No. 71205
+C(s) + 0.5<H2(g)> + Cs(s) + 1.5<O2(g)> = Cs+1_H+1_CO3-2_(s)
+ No   t    I-Str         Medium                 Value (Dev)    W   Tech.     Ref. #
+ 1    25     0       Inf. Dilution         dH:-966.1(4SF)kJ    5    CRV       6330
+
+
+Reaction No. 72505
+[15]N2O3:Meox*2 + Cs+1 = Cs+1_[15]N2O3:Meox*2
+ No   t    I-Str        Medium              Value (Dev)        W   Tech.     Ref. #
+ 1    25    0.05       Et4NClO4             lgK:2.(1SF)        3   MGL       5315
+
+
+
+
+                                      – Page 56 of 77 –
+JESS Thermodynamic Database v8.9                                                         Cesium
+
+
+ 2    25        0.05              DMF             lgK:2.31(0.05SD)             4         MMC        5315
+                                Et4NClO4
+ 3    25        0.05              MeCN            lgK:3.77(0.05SD)             4         MMC        5315
+                                Et4NClO4
+ 4    25        0.05            Methanol          lgK:3.46(0.05SD)             4         MMC        5315
+                                Et4NClO4
+ 5    25        0.05           PrCarbonate         lgK:3.6(0.01SD)             4         MMC        5315
+                                 Et4NClO4
+
+
+Reaction No. 72588
+ClO4 + Cs+1 = Cs+1_ClO4
+ No        t         I-Str       Medium           Value (Dev)          W           Tech.           Ref. #
+  1       25                      HMPT           lgK:1.19(3SF)         4               MCN          5756
+Note (1): Using Fuoss-Hia equ; other fits also given
+
+
+Reaction No. 73323
+Cs+1_[12]O4 + [12]O4 = Cs+1_[12]O4(2)
+ No       t      I-Str          Medium             Value (Dev)             W           Tech.       Ref. #
+ 1     25            0.1       Methanol         lgK:0.82(0.05SD)           6            CIU         13297
+                                Unknown
+
+
+Reaction No. 74609
+2<Cs(s)> + 3.5<O2(g)> + 2<Si(s)> + Zr(s) = Cs2ZrSi2O7(s)
+ No   t        I-Str            Medium                Value (Dev)                  W     Tech.      Ref. #
+ 1    25         0           Inf. Dilution       dH:-3587.0(10.0MD)kJ              6         CRV    20829
+
+
+Reaction No. 74826
+Cs(s) + 0.5<F2(g)> + 2<O2(g)> + S(s) = Cs+1_SO4F-1_(s)
+ No   t        I-Str             Medium               Value (Dev)                  W     Tech.      Ref. #
+ 1    25         0           Inf. Dilution        dG:-877.6(1.6SD)kJ               5         EFE    22863
+
+
+Reaction No. 75050
+CsVUO6(s) + 4<H+1> = Cs+1 + VO2+1 + UO2+2 + 2<H2O>
+ No    t        I-Str             Medium               Value (Dev)             W        Tech.      Ref. #
+ 1    25             0         Inf. Dilution         dH:95.67(4SF)kJ           1         MCL        22973
+
+
+Reaction No. 75054
+CsNbUO6(s) + 6<H+1> + 3<F-1> = Cs+1 + NbOF3 + UO2+2 + 3<H2O>
+ No    t        I-Str             Medium               Value (Dev)             W        Tech.      Ref. #
+ 1    25             0         Inf. Dilution         dH:250.1(4SF)kJ           1         MCL        22973
+
+
+
+                                               – Page 57 of 77 –
+JESS Thermodynamic Database v8.9                                          Cesium
+
+
+
+Reaction No. 75058
+Cs(s) + 3<O2(g)> + U(s) + V(s) = CsVUO6(s)
+ No   t    I-Str         Medium                 Value (Dev)      W       Tech.     Ref. #
+ 1    25     0       Inf. Dilution           dH:-2480.(4SF)kJ    1        MCL      22973
+
+
+Reaction No. 75062
+Cs(s) + Nb(s) + 3<O2(g)> + U(s) = CsNbUO6(s)
+ No   t    I-Str         Medium                 Value (Dev)      W       Tech.     Ref. #
+ 1    25     0       Inf. Dilution           dH:-2638.(4SF)kJ    1        MCL      22973
+
+
+Reaction No. 75547
+Cs(s) + 0.5<N2(g)> + 1.5<O2(g)> = Cs+1_NO3-1_(s)
+ No   t    I-Str        Medium                  Value (Dev)          W   Tech.     Ref. #
+ 1    25     0       Inf. Dilution           dG:-406.54(5SF)kJ       5    CRV      24003
+ 2    25     0       Inf. Dilution           dG:-406.60(5SF)kJ       2    EOD      29489
+ 3    25     0       Inf. Dilution           dH:-505.97(5SF)kJ       2    EOD      29489
+
+
+Reaction No. 75598
+0.5<Cl2(g)> + Cs(s) + 2<O2(g)> = Cs+1_ClO4-1_(s)
+ No   t    I-Str        Medium                  Value (Dev)          W   Tech.     Ref. #
+ 1    25     0       Inf. Dilution           dG:-314.3(4SF)kJ        3    CRV       6330
+ 2    25     0       Inf. Dilution           dG:-314.34(5SF)kJ       2    EOD      29489
+ 3    25     0       Inf. Dilution           dH:-443.1(4SF)kJ        3    CRV       6330
+ 4    25     0       Inf. Dilution           dH:-443.09(5SF)kJ       2    EOD      29489
+
+
+Reaction No. 76488
+ClO3-1 + Cs+1 = Cs+1_ClO3-1
+ No   t    I-Str          Medium                Value (Dev)      W       Tech.     Ref. #
+ 1    25     0        Inf. Dilution            lgK:-0.06(1SF)    5       MCN       22093
+
+
+Reaction No. 76524
+Mg+2_Cs+1_Cl-1(3)_H2O(6)_(s) = Cs+1 + Mg+2 + 3<Cl-1> + 6<H2O>
+ No   t    I-Str          Medium                Value (Dev)      W       Tech.     Ref. #
+ 1    25     0        Inf. Dilution            lgK:4.517(4SF)    0       MSL       14335
+ 2    25     0        Inf. Dilution            lgK:3.61(3SF)     2       EOD       24835
+Note (2): Taken from Altmaier et al., THEREDA database, 2011
+
+
+
+
+                                      – Page 58 of 77 –
+JESS Thermodynamic Database v8.9                                          Cesium
+
+
+ 3    25         0     Inf. Dilution           lgK:4.06(3SF)     2        CRV      26565
+Note (3): Authors state this value should replace their earlier one
+
+
+Reaction No. 76525
+Mg+2_Cs+1(2)_SO4-2(2)_H2O(6)_(s) = 2<Cs+1> + Mg+2 + 2<SO4-2> + 6<H2O >
+ No    t    I-Str          Medium               Value (Dev)      W       Tech.     Ref. #
+ 1    25         0     Inf. Dilution          lgK:-4.70(3SF)     3        EOD      24835
+Note (1): Taken from Altmaier et al., THEREDA database, 2011
+ 2    25         0     Inf. Dilution          lgK:-4.26(3SF)     3        CRV      26565
+Note (2): Authors state this value should replace their earlier one
+
+
+Reaction No. 76526
+Ca+2_Cs+1(5)_Cl-1(7)_(s) = 5<Cs+1> + Ca+2 + 7<Cl-1>
+ No    t    I-Str          Medium               Value (Dev)      W       Tech.     Ref. #
+ 1    25         0     Inf. Dilution          lgK:10.08(4SF)     5        CRV      26565
+
+
+Reaction No. 76527
+Ca+2_Cs+1(2)_Cl-1(4)_H2O(2)_(s) = 2<Cs+1> + Ca+2 + 4<Cl-1> + 2<H2O >
+ No    t    I-Str          Medium               Value (Dev)      W       Tech.     Ref. #
+ 1    25         0      Inf. Dilution          lgK:6.31(3SF)     5       CRV       26565
+
+
+Reaction No. 76536
+Cs+1_Br-1_(s) = Cs+1 + Br-1
+ No   t    I-Str        Medium                 Value (Dev)           W    Tech.    Ref. #
+ 1    25     0       Inf. Dilution           lgK:0.827(3SF)          5     MSL      14335
+ 2    25     0       Inf. Dilution           lgK:0.817(3SF)          5     MSL      26595
+ 3    25     0       Inf. Dilution          lgK:0.72(0.11SD)         5     CRV      32222
+ 4    25     0       Inf. Dilution        dH:26.190(0.579SD)kJ       5     CRV      32222
+
+
+Reaction No. 76537
+Mg+2_Cs+1_Br-1(3)_H2O(6)_(s) = Cs+1 + Mg+2 + 3<Br-1> + 6<H2O>
+ No    t    I-Str          Medium               Value (Dev)      W       Tech.     Ref. #
+ 1    25         0     Inf. Dilution          lgK:5.498(4SF)     5        MSL      14335
+
+
+Reaction No. 76716
+Cs(s) = Cs_(g)
+ No   t    I-Str        Medium                 Value (Dev)           W    Tech.    Ref. #
+
+
+
+
+                                        – Page 59 of 77 –
+JESS Thermodynamic Database v8.9                                              Cesium
+
+
+ 1    25    0        Inf. Dilution          dG:49.556(0.5SD)kJ           5     CRV      27292
+ 2    25    0        Inf. Dilution        dH:76.500(0.05SD)kJ            5     CRV      27292
+ 3    25    0        Inf. Dilution       Cp:20.786(0.001SD)J/K           5     CRV      27292
+
+
+Reaction No. 77355
+Am(s) + 3<Cl2(g)> + 2<Cs(s)> + Na(s) = Am+3_Cs+1(2)_Na+1_Cl-1(6)_(s)
+ No   t    I-Str         Medium                Value (Dev)           W        Tech.    Ref. #
+ 1    25     0        Inf. Dilution         dG:-2158.20(6SF)kJ       5         CRV     20827
+ 2    25     0        Inf. Dilution         dH:-2315.80(6SF)kJ       5         CRV     20827
+ 3    25     0        Inf. Dilution         Cp:260.000(6SF)J/K       5         CRV     20827
+
+
+Reaction No. 77392
+1.5<Br2(l)> + Cs(s) + 6<H2(g)> + Mg(s) + 3<O2(g)> = Mg+2_Cs+1_Br-1(3)_H2O(6)_(s)
+ No   t    I-Str          Medium                Value (Dev)          W       Tech.     Ref. #
+ 1    25     0        Inf. Dilution          dG:-2450.7(5SF)kJ       3        EPZ      14335
+
+
+Reaction No. 77393
+1.5<Cl2(g)> + Cs(s) + 6<H2(g)> + Mg(s) + 3<O2(g)> = Mg+2_Cs+1_Cl-1(3)_H2O(6)_(s)
+ No   t    I-Str          Medium                Value (Dev)          W       Tech.     Ref. #
+ 1    25     0        Inf. Dilution          dG:-2537.8(5SF)kJ       3        EPZ      14335
+
+
+Reaction No. 77602
+OH-1 + Cs+1 = Cs+1_OH-1_(s)
+ No    t   I-Str           Medium               Value (Dev)      W           Tech.     Ref. #
+ 1    25        0      Inf. Dilution          lgK:-13.72(4SF)    1            ELC
+
+
+Reaction No. 78250
+Zn+2 + Cs+1 + 3<Br-1> = Zn+2_Cs+1_Br-1(3)
+ No    t   I-Str           Medium               Value (Dev)      W           Tech.     Ref. #
+ 1    25        0       Inf. Dilution         lgK:1.355(4SF)     1           ELC
+
+
+Reaction No. 78264
+Zn+2 + Cs+1 + 4<Br-1> = Zn+2_Cs+1_Br-1(4)
+ No   t    I-Str          Medium                Value (Dev)          W       Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-0.09615(4SF)       1        ELC
+
+
+Reaction No. 78279
+Cs+1 + Cd+2 + 4<Br-1> = Cd+2_Cs+1_Br-1(4)
+
+
+
+
+                                        – Page 60 of 77 –
+JESS Thermodynamic Database v8.9                                    Cesium
+
+
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:2.55(4SF)    1   ELC
+
+
+Reaction No. 78286
+Cs+1 + 6<Cl-1> + Bi+3 = Bi+3_Cs+1_Cl-1(6)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:8.29(4SF)    1   ELC
+
+
+Reaction No. 78311
+2<Cs+1> + 6<Cl-1> + Bi+3 = Bi+3_Cs+1(2)_Cl-1(6)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:8.232(4SF)    1    ELC
+
+
+Reaction No. 78334
+3<Cs+1> + 6<Cl-1> + Bi+3 = Bi+3_Cs+1(3)_Cl-1(6)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:7.50(3SF)    1   ELC
+
+
+Reaction No. 78499
+Zn+2 + Cs+1 + 3<Cl-1> = Zn+2_Cs+1_Cl-1(3)
+ No   t    I-Str         Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:0.6242(4SF)   1    ELC
+
+
+Reaction No. 78535
+Pb+2 + Cs+1 + 3<Cl-1> = Pb+2_Cs+1_Cl-1(3)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:2.117(4SF)    1    ELC
+
+
+Reaction No. 78548
+Pb+2 + Cs+1 + 4<Cl-1> = Pb+2_Cs+1_Cl-1(4)
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:1.808(4SF)    1    ELC
+
+
+Reaction No. 78757
+PO4-3 + H+1 + Cs+1 = Cs+1_H+1_PO4-3
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:13.32(4SF)    1    ELC
+
+
+
+
+                                       – Page 61 of 77 –
+JESS Thermodynamic Database v8.9                                  Cesium
+
+
+Reaction No. 78758
+2<PO4-3> + 2<H+1> + Cs+1 = Cs+1_H+1(2)_PO4-3(2)
+ No   t    I-Str          Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:25.97(4SF)   1   ELC
+
+
+Reaction No. 78759
+3<PO4-3> + 3<H+1> + Cs+1 = Cs+1_H+1(3)_PO4-3(3)
+ No   t    I-Str          Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:38.22(4SF)   1   ELC
+
+
+Reaction No. 78760
+4<PO4-3> + 4<H+1> + Cs+1 = Cs+1_H+1(4)_PO4-3(4)
+ No   t    I-Str          Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:50.15(4SF)   1   ELC
+
+
+Reaction No. 78761
+5<PO4-3> + 5<H+1> + Cs+1 = Cs+1_H+1(5)_PO4-3(5)
+ No   t    I-Str          Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:61.81(4SF)   1   ELC
+
+
+Reaction No. 78762
+6<PO4-3> + 6<H+1> + Cs+1 = Cs+1_H+1(6)_PO4-3(6)
+ No   t    I-Str          Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:73.27(4SF)   1   ELC
+
+
+Reaction No. 78763
+PO4-3 + 2<H+1> + Cs+1 = Cs+1_H+1(2)_PO4-3
+ No   t    I-Str          Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:19.53(4SF)   1   ELC
+
+
+Reaction No. 78764
+2<PO4-3> + 4<H+1> + Cs+1 = Cs+1_H+1(4)_PO4-3(2)
+ No   t    I-Str          Medium              Value (Dev)    W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:38.37(4SF)   1   ELC
+
+
+Reaction No. 78765
+3<PO4-3> + 6<H+1> + Cs+1 = Cs+1_H+1(6)_PO4-3(3)
+ No   t    I-Str          Medium              Value (Dev)    W   Tech.     Ref. #
+
+
+
+
+                                      – Page 62 of 77 –
+JESS Thermodynamic Database v8.9                                       Cesium
+
+
+ 1    25     0        Inf. Dilution           lgK:56.77(4SF)      1   ELC
+
+
+Reaction No. 78766
+4<PO4-3> + 8<H+1> + Cs+1 = Cs+1_H+1(8)_PO4-3(4)
+ No   t    I-Str             Medium             Value (Dev)       W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:74.84(4SF)      1   ELC
+
+
+Reaction No. 78767
+5<PO4-3> + 10<H+1> + Cs+1 = Cs+1_H+1(10)_PO4-3(5)
+ No   t    I-Str             Medium             Value (Dev)       W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:92.63(4SF)      1   ELC
+
+
+Reaction No. 78768
+6<PO4-3> + 12<H+1> + Cs+1 = Cs+1_H+1(12)_PO4-3(6)
+ No   t    I-Str             Medium             Value (Dev)       W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:110.2(4SF)      1   ELC
+
+
+Reaction No. 78954
+3<Cs+1> + AsO4-3 = Cs+1(3)_AsO4-3_(s)
+ No   t    I-Str             Medium             Value (Dev)       W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:3.597(4SF)      1   ELC
+
+
+Reaction No. 78955
+F-1 + Cs+1 = Cs+1_F-1_(s)
+ No   t    I-Str            Medium              Value (Dev)       W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-8.394(4SF)     1    ELC
+
+
+Reaction No. 78981
+I-1 + Cs+1 = Cs+1_I-1_(s)
+ No   t    I-Str            Medium              Value (Dev)       W   Tech.     Ref. #
+ 1    25     0       Inf. Dilution           lgK:-0.5599(4SF)     1    ELC
+
+
+Reaction No. 79076
+Na+1 + 2<Cs+1> + 6<Cl-1> + Am+3 = Am+3_Cs+1(2)_Na+1_Cl-1(6)_(s)
+ No   t    I-Str            Medium              Value (Dev)       W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-12.92(4SF)     1    ELC
+
+
+Reaction No. 79468
+
+
+
+
+                                        – Page 63 of 77 –
+JESS Thermodynamic Database v8.9                                           Cesium
+
+
+Cs+1 + OH-1 = Cs+1_OH-1
+ No    t    I-Str            Medium               Value (Dev)     W       Tech.     Ref. #
+ 1    25         0        Inf. Dilution           lgK:-1.(1SF)    1       EES
+
+
+Reaction No. 79813
+2<Cr(s)> + 2<Cs(s)> + 3.5<O2(g)> = Cs+1(2)_Cr2O7-2_(s)
+ No   t    I-Str          Medium                 Value (Dev)          W    Tech.    Ref. #
+ 1    25     0       Inf. Dilution              lgK:350.7(4SF)        1     ELC
+ 2    25     0       Inf. Dilution            dG:-1908.3(5SF)kJ       0     EOD     29489
+ 3    25     0       Inf. Dilution            dH:-2088.8(5SF)kJ       2     EOD     29489
+
+
+Reaction No. 79814
+Al(s) + Cs(s) + 12<H2(g)> + 10<O2(g)> + 2<S(s)> = Al+3_Cs+1_SO4-2(2)_H2O(12)_(s)
+ No   t    I-Str          Medium                 Value (Dev)          W    Tech.    Ref. #
+ 1    25     0       Inf. Dilution            dG:-5168.1(5SF)kJ       2     EOD     29489
+ 2    25     0       Inf. Dilution            dH:-6094.8(5SF)kJ       2     EOD     29489
+
+
+Reaction No. 79815
+0.5<Br2(l)> + Cs(s) + 1.5<O2(g)> = Cs+1_BrO3-1_(s)
+ No   t    I-Str          Medium                 Value (Dev)          W    Tech.    Ref. #
+ 1    25     0       Inf. Dilution            dG:-284.97(5SF)kJ       2     EOD     29489
+ 2    25     0       Inf. Dilution            dH:-375.81(5SF)kJ       2     EOD     29489
+
+
+Reaction No. 79816
+0.5<Cl2(g)> + Cs(s) + 1.5<O2(g)> = Cs+1_ClO3-1_(s)
+ No   t    I-Str          Medium                 Value (Dev)          W    Tech.    Ref. #
+ 1    25     0       Inf. Dilution            dG:-307.94(5SF)kJ       2     EOD     29489
+ 2    25     0       Inf. Dilution            dH:-411.71(5SF)kJ       2     EOD     29489
+
+
+Reaction No. 79817
+1.5<Cl2(g)> + Cs(s) + Cu(s) = Cu+2_Cs+1_Cl-1(3)_(s)
+ No   t    I-Str          Medium                 Value (Dev)          W    Tech.    Ref. #
+ 1    25     0       Inf. Dilution            dG:-627.18(5SF)kJ       2     EOD     29489
+ 2    25     0       Inf. Dilution            dH:-698.73(5SF)kJ       2     EOD     29489
+
+
+Reaction No. 79818
+Cs(s) + 0.5<I2(s)> + 1.5<O2(g)> = Cs+1_IO3-1_(s)
+
+
+
+
+                                          – Page 64 of 77 –
+JESS Thermodynamic Database v8.9                                                  Cesium
+
+
+ No     t       I-Str            Medium                Value (Dev)           W    Tech.    Ref. #
+    1   25        0          Inf. Dilution          dG:-433.88(5SF)kJ        2     EOD     29489
+
+
+Reaction No. 79819
+Cs(s) + 0.5<I2(s)> + 2<O2(g)> = Cs+1_IO4-1_(s)
+ No     t       I-Str            Medium                Value (Dev)           W    Tech.    Ref. #
+    1   25        0          Inf. Dilution            lgK:64.1(3SF)          1     ELC
+    2   25        0          Inf. Dilution          dG:-380.74(5SF)kJ        0     EOD     29489
+
+
+Reaction No. 80135
+3<Cl2(g)> + Cs(s) + Ta(s) = Ta+5_Cs+1_Cl-1(6)_(s)
+ No      t       I-Str             Medium               Value (Dev)      W       Tech.     Ref. #
+    1   25           0         Inf. Dilution           dH:-337.(3SF)     4       CRV       22971
+
+
+Reaction No. 80180
+3<Cl2(g)> + Cs(s) + Nb(s) = Nb+5_Cs+1_Cl-1(6)_(s)
+ No      t       I-Str             Medium               Value (Dev)      W       Tech.     Ref. #
+    1   25           0         Inf. Dilution           dH:-318.(3SF)     4       CRV       22971
+
+
+Reaction No. 80672
+3<Cs(s)> + 2<Mo(s)> + Na(s) + 4<O2(g)> = Cs+1(3)_Na+1_MoO4-2(2)_(s)
+ No     t      I-Str            Medium                 Value (Dev)           W    Tech.    Ref. #
+    1   25       0          Inf. Dilution         dG:-2784.6(0.34SD)kJ       5     MCL      31329
+    2   25       0          Inf. Dilution          dH:-2998.5(3.0SD)kJ       5     MCL      31329
+
+
+
+
+                                            Data Assessment
+
+
+Weight                           Assessment
+9            highest accuracy
+8            multi-determined; excellent dependability
+7            trustworthy; outstanding single determination
+6            better than average reliability
+5            average single determination
+4            some doubt
+3            poorly known
+2            guess to achieve consistency (or just as bad)
+
+
+
+                                                – Page 65 of 77 –
+JESS Thermodynamic Database v8.9                               Cesium
+
+
+1        no information but consistent
+0        problematic/inconsistent
+
+
+
+
+                                        Techniques
+
+
+Abbrev                     Method
+CIU      Critical IUPAC publication (crit.)
+CMN      Several experimental values (crit.)
+CRV      Critical review
+EAE      Automated extrapolation
+EBU      Brown's Unified Theory
+EES      Personal estimate
+EFE      Free Energy relations
+EIU      Critical IUPAC review (estim.)
+ELC      Linear Combination of Reactions
+EMS      Mean Spherical Approximation
+ENS      Not specified
+EOD      Calculated from data of others
+EOR      Other Reaction Constants
+EPZ      Pitzer model correction
+MAC      Activity coefficient (not specified)
+MAG      Silver electrode e.m.f.
+MCL      Calorimetry
+MCN      Conductivity
+MCO      Colorimetry (often for measuring pH)
+MCV      Cyclic voltammetry
+MDG      Combination of Thermodynamic Data
+MDS      Distribution between two phases
+MGL      Glass electrode
+MHG      Emf with amalgam electrode
+MIS      Ion selective electrode
+MMC      Metal competition
+MMR      Nuclear magnetic resonance
+MPH      pH method, not specified
+
+
+
+
+                                           – Page 66 of 77 –
+JESS Thermodynamic Database v8.9                                      Cesium
+
+
+MPL    Polarography
+MPM    Polarimetry
+MPP    Partial pressure
+MPT    Potentiometry
+MSC    Miscellaneous
+MSL    Solubility
+MSP    Spectroscopy
+MTD    Temperature difference
+
+
+
+
+                                    References
+
+
+Reference No.: 140(64SiM)
+Stability Constants of Metal-ion Complexes SP17, 1964 Sillen LG; Martell AE; The
+Chemical Soc.,London
+
+Reference No.: 316(71PJD)
+J. Chem. Soc. (A), 1971,, 2116 - 2121; Paterson R; Jalota SK; Dunsmore HS; Ion
+Association of Caesium Chloride Solutions and Its Effect upon the Interionic Frictional
+Coefficients of an Irreversible Thermodynamic Analysis
+
+Reference No.: 356(71HPP)
+Electrochim. Acta, 1971, 16, 677 - 686; Hanna EM; Pethybridge AD; Prue JE; Ion
+Association and the Analysis of Precise Conductimetric Data
+
+Reference No.: 425(94LuL)
+Inorg. Chim. Acta, 1994, 219, 217 - 220; Lucas J; Lincoln SF; Solution Studies of
+Monovalent Metal Complex Ions of the Bibracchial Lariat Ether 7,16-Bis(2-methoxyethyl)-
+1,4,10,13- tetraoxa-7,16-diazacyclooctadecane
+
+Reference No.: 552(95SMM)
+NIST Critical Stability Constants of Metal Complexes Database, 1995 Smith RM; Martell
+AE; Motekaitis RJ; Version 2.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 766(87BrA)
+Report EPA/600/3-87/012, 1987 Brown DS; Allison JD; MINTEQA1, An Equilibrium Metal
+Speciation Model: Users Manual; U.S. Environmental Protection Agency, Athens, Georgia
+30613
+
+Reference No.: 773(85KoS)
+Handbook of Chemical Equilibria in Analytical Chemistry, 1985 Kotrly S; Sucha L; Ellis
+Horwood Series in Anal. Chem.; Eds. Chalmers RA & Masson M; Ellis Horwood, Chichester
+
+Reference No.: 903(77And)
+Critical Survey of Stability Constants of EDTA Complexes, 1977 Anderegg G; IUPAC
+Chemical Data Series. 14; Pergamon Press, Oxford
+
+
+
+
+                                      – Page 67 of 77 –
+JESS Thermodynamic Database v8.9                                      Cesium
+
+
+Reference No.: 906(79Per)
+IUPAC Chemical Data Series No. 22, 1979 Perrin DD; Stability Constants of Metal-Ion
+Complexes, First Edition Part B, Organic Ligands; Pergamon, Oxford
+
+Reference No.: 931(71SiM)
+Stability Constants of Metal-ion Complexes SP25, 1971 Sillen LG; Martell AE; Supplement
+No 1 to Special Publication No 25; Chemical Society, London
+
+Reference No.: 999(91MaM)
+Estimation of Constants for JESS Database, 1991 May PM; May RF
+
+Reference No.: 1230(81CDR)
+Inorg. Chim. Acta, 1981, 56, L45 - L47; Cucinotta V; Daniele PG; Rigano C; Sammartano
+S; The Formation of Proton and Alkali-Metal Complexes with Ligands of Biological
+Interest in Aqueous Solution. Potentiometric and PMR Investigation of Li+, Na+, K+,
+Rb+, Cs+ and NH4+ Complexes with Citrate
+
+Reference No.: 1318(90DSK)
+Helv. Chim. Acta, 1990, 73, 140 - 148; Delgado R; Siegfried LC; Kaden TA; Metal
+Complexes with Macrocyclic Ligands. Part XXXI. Protonation Studies and Complexation
+Properties of Tetraazamacrocyclic Methylenephosphonates with Earth-Alkali-Ions
+
+Reference No.: 1437(91SMC)
+Pure Appl. Chem., 1991, 63, 1015 - 1080; Smith RM; Martell AE; Chen YT; Critical
+Evaluation of Stability Constants for Nucleotide Complexes with Protons and Metal Ions
+
+Reference No.: 1926(79PSJ)
+J. Inorg. Nucl. Chem., 1979, 41, 1759 - 1763; Poonia NS; Sarad SK; Jayakumar A; Kumar
+GC; Coordination Chemistry of Alkali and Alkaline Earth Cations - 1. Lower Glycols as
+Ligands
+
+Reference No.: 1976(73CaS)
+J. Am. Chem. Soc., 1973, 95, 3569 - 3572; Carr JD; Swartzfager DG; Studies of the
+Alkali Metal Ion Complexes of 2,3-Diaminobutane-N,N,N',N'-tatraacetic Acid
+
+Reference No.: 2185(88DaS)
+J. Chem. Soc., Faraday Trans. 1, 1988, 84, 3539 - 3545; Danil de Namor AF; Salazar FF;
+Thermodynamic Parameters for the Complexation Process between Metal(I) Cations and
+Dibenzocryptand 222 in Dipolar, Aprotic Solvents
+
+Reference No.: 2251(87Bus)
+J. Solution Chem., 1987, 16, 181 - 190; Buschmann H-J; Stability Constants and
+Thermodynamic Data for Complexes of 12-Crown-4 with Alkali Metal and Alkaline-Earth
+Cations in Methanol Solutions
+
+Reference No.: 2360(83Van)
+Polyhedron, 1983, 2, 285 - 289; van Uitert LG; Chelate Compound Stability Constant
+Calculations on Metal Diketonate Complexes
+
+Reference No.: 2373(89And)
+Comprehensive Coordination Chemistry, Vol. 2, 1989, 777 - 792; Anderegg G; Complexones
+
+Reference No.: 2511(92Bus)
+Inorg. Chim. Acta, 1992, 195, 51 - 61; Buschmann H-J; A Comparison of Different
+Experimental Techniques for the Determination of the Stabilities of Polyether, Crown
+Ether and Cryptand Complexes in Solution
+
+Reference No.: 2556(93MSM)
+NIST Critical Stability Constants of Metal Complexes Database, 1993 Martell AE; Smith
+
+
+
+
+                                      – Page 68 of 77 –
+JESS Thermodynamic Database v8.9                                      Cesium
+
+
+RM; Motekaitis RJ; Version 1.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 2600(88PoJ)
+J. Chem. Soc., Faraday Trans. 1, 1988, 84, 959 - 967; Pointud Y; Juillard J;
+Interactions between Metal Cations and the Ionophore Lasalocid Part 2- Gibbs Functions,
+Enthalpies and Entropies for Complexation of Alkali-metal Cations by Lasalocid and
+Bromolasalocid
+
+Reference No.: 2604(82BDJ)
+Can. J. Chem., 1982, 60, 981 - 989; Bolte J; Demuynck C; Jeminet G; Juillard J; Tissier
+C; Etude Comparee de Trois Antibiotiques Ionophores: X.537 A (Lasalocide), A.23187
+(Calcimycine) et X.14547 A. Complexation des Cations IA et IIA, Transport de Ca++
+
+Reference No.: 2802(94OOK)
+J. Chem. Soc., Faraday Trans., 1994, 90, 127 - 131; Ozutsumi K; Ohtsu K; Kawashima T;
+Thermodynamics of Complexation of 18-Crown-6 with Sodium, Potassium, Rubidium, Caesium
+and Ammonium Ions in N,N-Dimethylformamide
+
+Reference No.: 2931(81CGS)
+J. Am. Chem. Soc., 1981, 103, 1384 - 1389; Cox BG; Garcia-Rosas J; Schneider H; Solvent
+Dependence of the Stability of Cryptate Complexes
+
+Reference No.: 2938(84CVR)
+J. Am. Chem. Soc., 1984, 106, 5965 - 5969; Cox BG; van Truong Ng.; Rzeszotarska J;
+Schneider H; Rates and Equilibria of Alkali Metal and Silver Ion Complex Formation with
+Monensin in Ethanol
+
+Reference No.: 2944(80LIS)
+J. Am. Chem. Soc., 1980, 102, 475 - 479; Lamb JD; Izatt RM; Swain CS; Christensen JJ; A
+Systematic Study of the Effect of Macrocycle Ring Size and Donor Atom Type on the Log
+K, delta H, and T delta S of Reactions at 25 C in Methanol of Mono- and Divalent
+Cations with Crown Ethers
+
+Reference No.: 2956(78CSS)
+J. Am. Chem. Soc., 1978, 100, 4746 - 4749; Cox BG; Schneider H; Stroka J; Kinetics of
+Alkali Metal Complex Formation with Cryptands in Methanol
+
+Reference No.: 2970(80MDD)
+J. Chem. Soc., Dalton Trans., 1980,, 865 - 868; Massaux J; Desreux JF; Duyckaerts G;
+Electrochemical Studies on Alkali-metal Complexes with the Small Macrocycle 1,4,7,10-
+Tetraoxacyclododecane. Polarographic and Potentiometric Determination of the Stability
+Constants in Propylene Carbonate
+
+Reference No.: 3283(75LeS)
+J. Am. Chem. Soc., 1975, 97, 6700 - 6707; Lehn J-M; Sauvage JP; [2]-Cryptates:
+Stability and Selectivity of Alkali and Alkaline-Earth Macrobicyclic Complexes
+
+Reference No.: 3303(75SNJ)
+J. Chem. Soc., Dalton Trans., 1975,, 2381 - 2386; Shchori E; Nae N; Jagur-Grodzinski
+JJ; Stability Constants of Complexes of a Series of Metal Cations with
+6,7,9,10,17,18,20,21-Octahydrodibenzo[b,k][1,4,7,10,13,16]hexa-oxa- -cylo-octadecin
+(Dibenzo-18-crown-6) in Aqueous Solutions
+
+Reference No.: 3560(75Mid)
+Chem. Soc. Rev., 1975, 4, 549 - 568; Midgley D; Alkali-metal Complexes in Aqueous
+Solution
+
+Reference No.: 3595(86DDS)
+J. Chem. Res. (S), 1986,, 164 - 165; De Robertis A; De Stefano C; Sammartano S; Cali R;
+
+
+
+                                      – Page 69 of 77 –
+JESS Thermodynamic Database v8.9                                      Cesium
+
+
+Purrello R; Rigano C; Alkali-metal and Alkaline-earth-metal Ion Complexes with
+Adenosine 5'-triphosphate in Aqueous Solution. Thermodynamic Parameters and their
+Dependence on Temperature and Ionic Strength
+
+Reference No.: 3735(75CJJ)
+Can. J. Chem., 1975, 53, 2240 - 2246; Chaput G; Jeminet G; Juillard J; Constantes
+d'Association de Quelques Ethers de Polyethylene Glycols avec Na+1, K+1, Cs+1 et Tl+1
+
+Reference No.: 3760(86RoP)
+Polyhedron, 1986, 5, 1935 - 1939; Rounaghi G; Popov AI; 133Cs NMR Study of the
+Cryptand-222-Cs+ Complex in Binary Solvent Mixtures
+
+Reference No.: 3845(86RoP)
+Inorg. Chim. Acta, 1986, 114, 145 - 149; Rounaghi G; Popov AI; Thermodynamic Studies of
+the Complexation of Dibenzo-27-crown-9 and Dibenzo-24-crown-8 with Cesium Ion in mixed
+Nonaqueous Solvents
+
+Reference No.: 3850(86Bus)
+Inorg. Chim. Acta, 1986, 120, 125 - 129; Buschmann H-J; The Macrocyclic and Cryptate
+Effect. 7. Influence of Structural Changes on the Complexation Behaviour of Aza Crown
+Ethers and Cryptands in Different Solvents
+
+Reference No.: 3854(86Bus)
+Inorg. Chim. Acta, 1986, 125, 31 - 35; Buschmann H-J; The Macrocyclic and Cryptate
+Effects. 5. Complexation of Alkali Ions by Monocyclic and Bicyclic Ligands in Methanol
+
+Reference No.: 4223(67CaI)
+Inorg. Chem., 1967, 6, 1994 - 1998; Carroll RL; Irani RR; On the Acidity of Substituted
+Methylenediphosphonates and Their Interaction with Alkali Metal Ions
+
+Reference No.: 4399(94BCS)
+J. Solution Chem., 1994, 23, 569 - 577; Buschmann H-J; Cleve E; Schollmeyer E; The
+Complexation of Alkaline Cations by Crown Ethers and Cryptands in Acetone
+
+Reference No.: 4522(76ITN)
+J. Am. Chem. Soc., 1976, 98, 7626 - 7630; Izatt RM; Terry RE; Nelson DP; Chan Y;
+Eatough DJ; Bradshaw JS; Hansen LD; Christensen JJ; Calorimetric Titration Study of the
+Interaction of Some Uni- and Bivalent Cations with Benzo-15-crown-5, 18-Crown-6,
+Dibenzo-24-crown-8, and Dibenzo-27-crown-9 in Methanol-Water Solvents, at 25 C and mu =
+0.1
+
+Reference No.: 4523(76ITH)
+J. Am. Chem. Soc., 1976, 98, 7620 - 7626; Izatt RM; Terry RE; Haymore BL; Hansen LD;
+Dalley NK; Avondet AG; Christensen JJ; Calorimetric Titration Study of the Interaction
+of Several Uni- and Bivalent Cations with 15-Crown-5, 18-Crown-6, and Two Isomers of
+Dicyclohexo-18-crown-6 in Aqueous Solution at 25C and mu = 0.1
+
+Reference No.: 4634(81RoP)
+J. Inorg. Nucl. Chem., 1981, 43, 911 - 915; Rounaghi G; Popov AI; Complexing Ability of
+Some Mixed Sulfur-Oxygen Crown Ethers in Nonaqueous Solvents
+
+Reference No.: 4650(80KuM)
+J. Inorg. Nucl. Chem., 1980, 42, 573 - 578; Kulstad S; Malmsten LA; Diaza-Crown Ethers
+- II. Stability Constants of a Cyclic and a Bicyclic Diaza-Polyether with Some Alkali
+Cations in Acetonitrile
+
+Reference No.: 4763(84CVR)
+J. Chem. Soc., Faraday Trans. 1, 1984, 80, 3275 - 3284; Cox BG; van Truong Ng.;
+Rzeszotarska J; Schneider H; Stability Constants of Complexes of Monensin and Lasalocid
+with Alkali-metal and Alkaline-earth-metal Ions in Protic and Polar Aprotic Solvents
+
+
+
+                                      – Page 70 of 77 –
+JESS Thermodynamic Database v8.9                                      Cesium
+
+
+Reference No.: 4777(78HoP)
+J. Solution Chem., 1978, 7, 357 - 372; Hoogerheide JG; Popov AI; Study of Monensin
+Complexes with Monovalent Metal Ions in Anhydrous Methanol Solutions
+
+Reference No.: 4781(77MLD)
+J. Solution Chem., 1977, 6, 771 - 778; Mei E; Liu L; Dye JL; Popov AI; Determination of
+Stability Constants of Cesium [2]-Cryptand Complexes in Nonaqueous Solvents by Cesium-
+133 NMR
+
+Reference No.: 4782(77HoP)
+J. Solution Chem., 1977, 6, 299 - 307; Hourdakis A; Popov AI; Lithium-7, Sodium-23, and
+Cesium-133 NMR and Far Infrared Study of Alkali Complexes with C222-Dilactam in Various
+Solvents
+
+Reference No.: 4796(87DSG)
+J. Chem. Soc., Faraday Trans. 1, 1987, 83, 2663 - 2670; Danil de Namor AF; Salazar FF;
+Greenwood P; Complexation and Transfer Free Energies of Metal-ion Dibenzocryptates
+
+Reference No.: 4798(86DGH)
+J. Chem. Soc., Faraday Trans. 1, 1986, 82, 349 - 357; Danil de Namor AF; Ghousseini L;
+Hill T; Alkali-metal Cryptates in Nitromethane
+
+Reference No.: 4799(85DGL)
+J. Chem. Soc., Faraday Trans. 1, 1985, 81, 2495 - 2502; Danil de Namor AF; Ghousseini
+L; Lee WH; Stability Constants and Free Energies of Complexation of Metal-ion Cryptates
+in Nitromethane
+
+Reference No.: 4801(85DaG)
+J. Chem. Soc., Faraday Trans. 1, 1985, 81, 781 - 791; Danil de Namor AF; Ghousseini L;
+Enthalpies and Entropies of Complexation of Cryptand 222 and Metal Ions in Propylene
+Carbonate and Acetonitrile
+
+Reference No.: 4802(84DaG)
+J. Chem. Soc., Faraday Trans. 1, 1984, 80, 2349 - 2360; Danil de Namor AF; Ghousseini
+L; Thermodynamics of Metal-ion Cryptates and Cryptand 222 in N,N-Dimethylformamide and
+Dimethyl Sulphoxide
+
+Reference No.: 4821(80CKS)
+J. Phys. Chem., 1980, 84, 320 - 323; Cox BG; Knop D; Schneider H; Thermodynamics and
+Kinetics of Alkali Metal Ion Complexes with 5,6-Benzo-4,7,13,16,21,24-hexaoxa-1,10-
+diazabicyclo[8.8.8] hexacosane in Methanol
+
+Reference No.: 4822(80CGS)
+J. Phys. Chem., 1980, 84, 3178 - 3183; Cox BG; Garcia-Rosas J; Schneider H; Kinetics
+and Equilibria of Cryptate Formation in Propylene Carbonate
+
+Reference No.: 4829(77MPD)
+J. Phys. Chem., 1977, 81, 1677 - 1681; Mei E; Popov AI; Dye JL; Complexation of the
+Cesium Cation by Macrocyclic Polyethers in Various Solvents. A Cesium-133 Nuclear
+Magnetic Resonance Study of the Thermodynamics and Kinetics of Exchange
+
+Reference No.: 4861(76KlO)
+J. Chem. Soc., Faraday Trans. 1, 1976, 72, 513 - 525; Klaning UK; Osterby O; Hydration
+and Ion Pairing of Maleinates, Malonates, and Substituted Malonates in Aqueous Solution
+
+Reference No.: 4940(77MDP)
+J. Am. Chem. Soc., 1977, 99, 5308 - 5311; Mei E; Dye JL; Popov AI; Cesium-133 Nuclear
+Magnetic Resonance Study of the Complexation of Cesium Tetraphenylborate by 18-Crown-6
+in Pyridine Solutions
+
+
+
+
+                                      – Page 71 of 77 –
+JESS Thermodynamic Database v8.9                                      Cesium
+
+
+Reference No.: 5156(91ReB)
+Radiochim. Acta, 1991, 52/53, 453 - 456; Read D; Broyd TW; Recent Progress in Testing
+Chemical Equilibrium Models: The CHEMVAL Project
+
+Reference No.: 5315(94LuL)
+J. Chem. Soc., Dalton Trans., 1994,, 423 - 427; Lucas JB; Lincoln SF; Monovalent Metal-
+ion Complexation by a Bibracchial Lariat Ether in Several Solvents
+
+Reference No.: 5326(86DDS)
+J. Chem. Res. (M), 1986,, 1301 - 1347; De Robertis A; De Stefano C; Sammartano S; Cali
+R; Purrello R; Rigano C; Alkali-metal and Alkali-earth-metal Ion Complexes with
+Adenosine 5'-Triphosphate in Aqueous Solution. Thermodynamic Parameters and their
+Dependence on Temperature and Ionic Strength
+
+Reference No.: 5398(82Hog)
+IUPAC Chemical Data Series No. 21, 1982 Hogfeldt E; Stability Constants of Metal-ion
+Complexes, 2nd Suppl., Part A, Inorganic Ligands; Pergamon, Oxford
+
+Reference No.: 5583(75Rea)
+J. Phys. Chem., 1975, 79, 422 - 425; Reardon EJ; Dissociation Constants of some
+Monovalent Sulfate Ion Pairs at 25C from Stoichiometric Activity Coefficients
+
+Reference No.: 5605(78CDH)
+J. Chem. Thermodyn., 1978, 10, 903 - 906; Cox JD; Drowart J; Hepler LG; Medvedev VA;
+Wagman DD; CODATA recommended Key Values for Thermodynamics, 1977. Report of the CODATA
+Task Group on Key Values for Thermodynamics, 1977
+
+Reference No.: 5674(74DeF)
+Biochemistry, 1974, 13, 5022 - 5032; Degani H; Friedman HL; Ion Binding by X-537A.
+Formulas, Formation Constants, and Spectra of Complexes
+
+Reference No.: 5756(74HPP)
+J. Solution Chem., 1974, 3, 563 - 583; Hanna EM; Pethybridge AD; Prue JE; Spiers DJ;
+Electrolyte Conductivity of Salts in Hexamethylphosphotriamide
+
+Reference No.: 5757(79HRB)
+J. Solution Chem., 1979, 8, 779 - 792; Hoiland H; Ringseth JA; Brun TS; Cation-Crown
+Ether Complex Formation in Water. II. Alkali and Alkaline Earth Cations and 12-Crown-4,
+15-Crown-5, and 18-Crown-6
+
+Reference No.: 5758(88Bus)
+J. Solution Chem., 1988, 17, 277 - 286; Buschmann H-J; The Influence of Acetonitrile on
+Complex Formation of Crown Ethers Containing Different Donor Atoms
+
+Reference No.: 6236(96GMS)
+Polyhedron, 1996, 15, 3897 - 3903; Goff CM; Matchette MA; Shabestary N; Khazaeli S;
+Complexation of Caesium and Rubidium Cations with Crown Ethers in N,N-Dimethylformamide
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+Reference No.: 6372(87BrW)
+OECD NEA Report, 1987 Brown PL; Wanner H; Predicted Formation Constants Using the
+Unified Theory of Metal Ion Complexation; Nuclear Energy Authority, Paris
+
+Reference No.: 6422(95BaP)
+Thermochemical Data of Pure Substances, 3rd Edn., 1995 Barin I; Platzki G; Weinheim,
+Germany
+
+
+
+
+                                      – Page 72 of 77 –
+JESS Thermodynamic Database v8.9                                      Cesium
+
+
+Reference No.: 6488(88ShH)
+Geochim. Cosmochim. Acta, 1988, 52, 2009 - 2036; Shock EL; Helgeson HC; Calculation of
+the Thermodynamic and Transport Properties of Aqueous Species at High Pressures and
+Temperatures: Correlation Algorithms for Ionic Species and Equation of State
+Predictions to 5 kb and 1000 C
+
+Reference No.: 6494(95RoH)
+U.S. Geol. Surv. Bull. 2131, 1995 Robie RA; Hemingway BS; Thermodynamic Properties of
+Minerals and Related Substances at 298.15 K and 1 Bar (10^5 Pascals) Pressure and at
+Higher Temperatures; U.S. Government Printing Office, Washington, U.S.A
+
+Reference No.: 6495(97SSH)
+Geochim. Cosmochim. Acta, 1997, 61, 1359 - 1412; Sverjensky DA; Shock EL; Helgeson HC;
+Prediction of the Thermodynamic Properties of Aqueous Metal Complexes to 1000C and 5kb
+
+Reference No.: 6509(71Fre)
+J. Am. Chem. Soc., 1971, 93, 600 - 606; Frensdorff HK; Stability Constants of Cyclic
+Polyether Complexes with Univalent Cations
+
+Reference No.: 6571(93MaA)
+J. Solution Chem., 1993, 22, 859 - 872; Manohar S; Atkinson G; The Effect of High
+Pressure on the Ion Pair Equilibrium Constant of Alkali Metal Fluorides: A
+Spectrophotometric Study
+
+Reference No.: 6655(69IRN)
+Science, 1969, 164, 443 - 444; Izatt RM; Rytting JH; Nelson DP; Haymore BL; Christensen
+JJ; Binding of Alkali Metal Ions by Cyclic Polyethers: Significance in Ion Transport
+Processes
+
+Reference No.: 6714(75YeK)
+Can. J. Chem., 1975, 53, 3448 - 3451; Yeager HL; Kratochvil B; Conductance Study of Ion
+Pairing of Alkali Metal Tetrafluoroborates and Hexafluorophosphates in Acetonitrile
+
+Reference No.: 6727(71INR)
+J. Am. Chem. Soc., 1971, 93, 1619 - 1623; Izatt RM; Nelson DP; Rytting JH; Haymore BL;
+Christensen JJ; A Calorimetric Study of the Interaction in Aqueous Solution of Several
+Uni- and Bivalent Metal Ions with the Cyclic Polyether Dicyclohexyl-18-crown-6 at 10,
+25, and 40C
+
+Reference No.: 6747(86BWF)
+Can. J. Chem., 1986, 64, 5 - 10; Boughriet A; Wartel M; Fischer J-C; Influence de
+Nitrates Metalliques sur l'Equilibre de Dissociation Ionique N2O4 = NO+1 + NO3-1 dans
+le Sulfolane
+
+Reference No.: 7229(75ElW)
+Mar. Chem., 1975, 3, 215 - 225; Elgquist B; Wedborg M; Stability of Ion Pairs from
+Gypsum Solubility Degree of Ion Pair Formation between the Major Constituents of
+Seawater
+
+Reference No.: 7232(95OKO)
+J. Chem. Soc., Faraday Trans., 1995, 91, 4375 - 4380; Ohtsu K; Kawashima T; Ozutsumi K;
+Thermodynamics of Complexation of Sodium, Potassium, Rubidium, Caesium and Ammonium
+Ions with 18-Crown-6 in Acetonitrile and Propylene Carbonate
+
+Reference No.: 7242(68Tru)
+J. Geol. Educ., 1968, 16, 17 - 20; Truesdell AH; The Advantage of Using pE Rather than
+Eh in Redox Equilibrium Calculations
+
+
+
+
+                                      – Page 73 of 77 –
+JESS Thermodynamic Database v8.9                                      Cesium
+
+
+Reference No.: 7271(98SMM)
+NIST Critical Stability Constants of Metal Complexes Database, 1998 Smith RM; Martell
+AE; Motekaitis RJ; Version 5.0; U.S. Dept. Commerce, Gaithersburg, MD, U.S.A.
+
+Reference No.: 7275(98Atk)
+Physical Chemistry, 6th Edn., 1998 Atkins PW; Oxford University Press, Oxford, U.K.
+
+Reference No.: 7276(88CoW)
+Advanced Inorganic Chemistry, 5th Edn., 1988 Cotton FA; Wilkinson G; John Wiley & Sons
+Inc., N.Y., U.S.A
+
+Reference No.: 7381(97Woo)
+Physical Chemistry, 1997 Woodbury G; Brooks/Cole Publishing Co., Pacific Grove, U.S.A.
+
+Reference No.: 7382(86Wea)
+CRC Handbook of Chemistry and Physics, 67th Edn., 1986 Weast RC; A Ready-Reference Book
+of Chemical and Physical Data; CRC Press Inc., Boca Raton, Florida, U.S.A.
+
+Reference No.: 7391(82MiS)
+Am. J. Sci., 1982, 282, 1508 - 1540; Millero FJ; Schreiber DR; Use of the Ion Pairing
+Model to Estimate Activity Coefficients of the Ionic Components of Natural Waters
+
+Reference No.: 7406(98CHM)
+J. Solution Chem., 1998, 27, 865 - 877; Capewell SG; Hefter G; May PM; Potentiometric
+Investigation of the Weak Association of Sodium and Carbonate Ions at 25C
+
+Reference No.: 7421(97Mar)
+Ion Properties, 1997 Marcus Y; Marcel Dekker Inc., New York, U.S.A.
+
+Reference No.: 7761(89Bra)
+J. Phys. Chem. Ref. Data, 1989, 18, 1 - 21; Bratsch SG; Standard Electrode Potentials
+and Temperature Coefficients in Water at 298.15 K
+
+Reference No.: 8746(89CWM)
+CODATA Key Values for Thermodynamics, 1989 Cox JD; Wagman DD; Medvedev VA; Values
+obtained from www.codata.org/codata/databases Apr. 2000 and
+http://www.codata.org/resources/databases/key1.html Sept. 2011; Hemisphere Publishing
+Corp., N.Y., U.S.A.
+
+Reference No.: 8875(81HKF)
+Am. J. Sci., 1981, 281, 1249 - 1516; Helgeson HC; Kirkham DH; Flowers GC; Theoretical
+Prediction of the Thermodynamic Behavior of Aqueous Electrolytes at High Pressures and
+Temperatures. IV. Calculation of Activity Coefficients, Osmotic Coefficients and
+Apparent Molal and Standard and Relative Partial Molal Properties to 600 C and 5 Kb
+
+Reference No.: 9029(97SSW)
+Geochim. Cosmochim. Acta, 1997, 61, 907 - 950; Shock EL; Sassani DC; Willis M;
+Sverjensky DA; Inorganic Species in Geologic Fluids: Correlations among Standard Molal
+Thermodynamic Properties of Aqueous Ions and Hydroxide Complexes
+
+Reference No.: 9361(84WCB)
+Am. J. Sci., 1984, 284, 668 - 705; Wood SA; Crerar DA; Brantley SL; Borcsik M; Mean
+Molal Stoichiometric Activity Coefficients of Alkali Halides and Related Electrolytes
+in Hydrothermal Solutions
+
+Reference No.: 10174(95OHS)
+J. Phys. Chem. Ref. Data, 1995, 24, 1401 - 1560; Oelkers EH; Helgeson HC; Shock EL;
+Sverjensky DA; Johnson JW; Pokrovskii VA; Summary of the Apparent Standard Partial
+
+
+
+
+                                      – Page 74 of 77 –
+JESS Thermodynamic Database v8.9                                      Cesium
+
+
+Molal Gibbs Free Energies of Formation of Aqueous Species, Minerals, and Gases at
+Pressures 1 to 5000 Bars and Temperatures 25 to 1000C
+
+Reference No.: 11516(00PeP)
+IUPAC Stability Constants Database, 2000 Pettit LD; Powell HKJ; Release 4; Academic
+Software, U.K.
+
+Reference No.: 12547(98SBB)
+J. Phys. Chem., 1998, B102, 4411 - 4417; Simonin J-P; Bernard O; Blum L; Real Ionic
+Solutions in the Mean Spherical Approximation. 3. Osmotic and Activity Coefficients for
+Associating Electrolytes in the Primitive Model
+
+Reference No.: 12638(99TPG)
+GAMSPATH Users Manual, 1999 Talman SJ; Perkins EH; Gunter WD; A Reaction Path - Mass
+Transfer Program
+
+Reference No.: 13297(03ADC)
+Pure Appl. Chem., 2003, 75, 71 - 102; Arnaud-Neu F; Delgado R; Chaves S; Critical
+Evaluation of Stability Constants and Thermodynamic Functions of Metal Complexes of
+Crown-ethers
+
+Reference No.: 14335(93BCV)
+J. Solution Chem., 1993, 22, 173 - 181; Balarew C; Christov C; Valyashko V; Petrenko S;
+Thermodynamics of Formation of Carnallite Type Double Salts
+
+Reference No.: 14764(64StS)
+Solubilities of Inorganic and Organic Compounds, Vol. 2, Part 2, 1964 Stephen H;
+Stephen T; Ternary and Multicomponent Systems, Part 2; Pergamon Press, The Macmillan
+Company, New York, 1964
+
+Reference No.: 18892(38Pit)
+J. Am. Chem. Soc., 1938, 60, 1828 - 1829; Pitzer KS; The Heats of Solution of Cesium
+Perchlorate, Rubidium Perchlorate, and Lead Phosphate
+
+Reference No.: 20827(03GFF)
+OECD Chemical Thermodynamics Series, Volume 5, 2003 Guillaumont R; Fanghanel T; Fuger
+J; Grenthe I; Neck V; Palmer DA; Rand MH; Update on the Chemical Thermodynamics of
+Uranium, Neptunium, Plutonium, Americium and Technetium; Elsevier Science
+
+Reference No.: 20829(05BCG)
+OECD Chemical Thermodynamics Series, Volume 8, 2005 Brown PL; Curti E; Grambow B;
+Ekberg C; Chemical Thermodynamics of Zirconium; Elsevier Science
+
+Reference No.: 22093(71JBJ)
+Electrochim. Acta, 1971, 16, 687 - 700; Justice M-C; Bury R; Justice J-C; Determination
+Conductimetrique des Coefficients d'Activite: sels Alcalins a Anions Oxygenes dans
+l'Eau a 25C
+
+Reference No.: 22519(05Lid)
+CRC Handbook of Chemistry and Physics, 86th Edn., 2005 Lide DR; A Ready-Reference Book
+of Chemical and Physical Data; Taylor & Francis, Boca Raton, USA
+
+Reference No.: 22551(06Inz)
+Encyclopedia of Electrochemistry, Vol. 7a, 2006, 17 - 75; Inzelt G; Standard, Formal
+and Other Characteristic Potentials of Selected Electrode Reactions
+
+Reference No.: 22863(82OFA)
+J. Chem. Thermodyn., 1982, 14, 1191 - 1196; O'Hare PAG; Flotow HE; Appelman EH; The
+Low-temperature (5 to 310 K) Heat Capacity and Thermodynamic Functions of Cesium
+
+
+
+
+                                      – Page 75 of 77 –
+JESS Thermodynamic Database v8.9                                      Cesium
+
+
+Fluoroxysulfate (CsSO4F) and the Standard Potential at 298.15 K for the Half-reaction:
+SO4F-(aq) + 2H+(aq) + 2<e-> = HSO4-(aq) + HF(aq)
+
+Reference No.: 22971(71HWH)
+Chem. Rev., 1971, 71, 127 - 137; Hill JO; Worsley IG; Hepler LG; Thermochemistry and
+Oxidation Potentials of Vanadium, Niobium and Tantalum
+
+Reference No.: 22973(96KCS)
+Thermochim. Acta, 1996, 277, 53 - 63; Kariakine N; Chernoroukov N; Souleimanov E; La
+Thermochimie des Oxydes Complexes d'Uranium(VI), du Vanadium(V), (du Niobium(V)) et des
+Elements Alcalins
+
+Reference No.: 24003(10Bal)
+Collect. Czech. Chem. Commun., 2010, 75, 21 - 31; Balej J; Verification of Accuracy of
+Standard Thermodynamic Data of Inorganic Substances
+
+Reference No.: 24835(12SMM)
+J. Chem. Eng. Data, 2012, 57, 1637 - 1647; Scharge T; Munoz AG; Moog HC; Activity
+Coefficients of Fission Products in Highly Salinary Solutions of Na+, K+, Mg2+, Ca2+,
+Cl-, and SO42-: Cs+
+
+Reference No.: 26559(13Hub)
+Russ. J. Phys. Chem., 2013, A87, 777 - 779; Hu B; Prediction of Phase Equilibrium for
+the Aqueous Systems Rb+, Cs+/Cl-, SO42- _ H2O and K+, Cs+/Cl-, SO42- _ H2O at 25 C
+
+Reference No.: 26565(13SMM)
+J. Chem. Eng. Data, 2013, 58, 187 - 188; Scharge T; Munoz AG; Moog HC; Addition to
+"Activity Coefficients of Fission Products in Highly Salinary Solutionsof Na+, K+,
+Mg2+, Ca2+, Cl-, and SO42- Cs+"
+
+Reference No.: 26595(07HSL)
+Calphad, 2007, 31, 541 - 544; Hu B; Song P; Li Y; Li W; Solubility Prediction in the
+Ternary Systems NaCl-RbCl-H2O, KCl-CsCl-H2O and KBr-CsBr-H2O at 25 C Using the Ion-
+Interaction Model
+
+Reference No.: 27292(13LBM)
+OECD Chemical Thermodynamics Series, Volume 13a, 2013 Lemire RJ; Berner U; Musikas C;
+Palmer DA; Taylor P; Tochiyama O; Chemical Thermodynamics of Iron Part 1; OECD (NEA)
+Issy-les-Moulineaux, France
+
+Reference No.: 28172(15DCC)
+J. Chem. Eng. Data, 2015, 60, 3792 - 3799; Djamali E; Chapman WG; Cox KR; Prediction of
+the Standard State Partial Molar Volume of Aqueous Electrolytes to High Temperatures
+and High Pressures
+
+Reference No.: 29489(87POG)
+Report PNL-6112 UC-70, 1987 Peterson SR; Opitz BE; Graham MJ; Eary LE; An Overview of
+the Geochemical Code MINTEQ: Applications to Performance Assessment for Low-Level
+Wastes; Battelle Mem. Inst., Pacific Northwest Lab., Dept. Energy, USA
+
+Reference No.: 29520(17WoC)
+Geochim. Cosmochim. Acta, 2017, 213, 635 - 676; Wolery TJ; Colon CFJ; Chemical
+Thermodynamic Data. 1. The Concept of Links to The Chemical Elements and the Historical
+Development of Key Thermodynamic Data
+
+Reference No.: 30015(16KAK)
+Fluid Phase Equilib., 2016, 412, 177 - 198; Kim SH; Anantpinijwatna A; Kang JW; Gani R;
+Analysis and Modeling of Alkali Halide Aqueous Solutions
+
+
+
+
+                                      – Page 76 of 77 –
+JESS Thermodynamic Database v8.9                                      Cesium
+
+
+Reference No.: 31291(84PSG)
+U.S. Bur. Mines Bull. 677, 1984 Pankratz LB; Stuve JM; Gokcen NA; Thermodynamic Data
+for Mineral Technology; US Det. Interior, Bur. Mines, Washington, DC, USA
+
+Reference No.: 31329(18SPV)
+J. Chem. Thermodyn., 2018, 120, 205 - 216; Smith AL; Pignie M-C; van Eijck L; Griveau
+J-C; Colineau E; Konigs RJM; Thermodynamic Study of Cs3Na(MoO4)2: Determination of the
+Standard Enthalpy of Formation and Standard Entropy at 298.15 K
+
+Reference No.: 32152(20AAG)
+Chem. Geol., 2020, 550, 119699-1 - 119699-12; Aranovich LYa; Akinfiev NN; Golunova M;
+Quartz Solubility in Sodium Carbonate Solutions at High Pressure and Temperature
+
+Reference No.: 32222(06DGC)
+Technical Report TR-O6-17, 2006 Duro L; Grive M; Cera E; Domenech C; Bruno J; Update of
+a Thermodynamic Database for Radionuclides to Assist Solubility Limits Calculation for
+Performance Assessment; Swedish Nucl. Fuel & Waste Management Co, Stockholm, Sweden
+
+Reference No.: 32224(80BeT)
+Lawrence Berkeley Laboratory Report LBL-11448, 1980 Benson LV; Teague LS; A Tabulation
+of Thermodynamic Data for Chemical Reactions Involving 8 Elements Common to Radioactive
+Waste Package Systems
+
+
+
+
+                                      – Page 77 of 77 –
+

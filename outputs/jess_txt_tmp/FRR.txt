@@ -1,0 +1,87 @@
+                        JESS Thermodynamic Database v8.9
+                                                Francium
+
+                                                24-Jan-23
+
+Reaction No. 71105
+Fr+1 + e-1 = Fr(s)
+ No      t      I-Str            Medium                Value (Dev)         W   Tech.   Ref. #
+    1   25        0        Inf. Dilution             dG:70.500(5SF)        0    CRV     9029
+Note (1): Low wgt for internal consistency
+    2   25        0        Inf. Dilution               E:-2.9(2SF)         4    CRV     6330
+    3   25        0        Inf. Dilution               E:-2.9(2SF)         4    CRV     7761
+    4   25        0        Inf. Dilution             dH:245.3(4SF)kJ       3    CRV     7761
+    5   25        0        Inf. Dilution             dH:62.500(5SF)        0    CRV     9029
+
+
+Reaction No. 71167
+Fr+1 + 0.5<H2(g)> + e-1 = FrH(s)
+ No      t      I-Str            Medium                Value (Dev)         W   Tech.   Ref. #
+    1   25        0        Inf. Dilution              E:-2.75(3SF)         3    CRV     7761
+    2   25        0        Inf. Dilution             dH:204.9(4SF)kJ       3    CRV     7761
+
+
+Reaction No. 71168
+Fr+1_OH-1 + e-1 = Fr(s) + OH-1
+ No      t       I-Str             Medium              Value (Dev)     W       Tech.   Ref. #
+    1   25         0            Inf. Dilution         E:-2.97(3SF)     3       CRV     7761
+
+
+
+
+                                          Data Assessment
+
+
+Weight                          Assessment
+9            highest accuracy
+8            multi-determined; excellent dependability
+7            trustworthy; outstanding single determination
+6            better than average reliability
+5            average single determination
+4            some doubt
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                   Francium
+
+
+3        poorly known
+2        guess to achieve consistency (or just as bad)
+1        no information but consistent
+0        problematic/inconsistent
+
+
+
+
+                                     Techniques
+
+
+Abbrev       Method
+CRV      Critical review
+
+
+
+
+                                     References
+
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+Reference No.: 7761(89Bra)
+J. Phys. Chem. Ref. Data, 1989, 18, 1 - 21; Bratsch SG; Standard Electrode Potentials
+and Temperature Coefficients in Water at 298.15 K
+
+Reference No.: 9029(97SSW)
+Geochim. Cosmochim. Acta, 1997, 61, 907 - 950; Shock EL; Sassani DC; Willis M;
+Sverjensky DA; Inorganic Species in Geologic Fluids: Correlations among Standard Molal
+Thermodynamic Properties of Aqueous Ions and Hydroxide Complexes
+
+
+
+
+                                         – Page 2 of 2 –
+

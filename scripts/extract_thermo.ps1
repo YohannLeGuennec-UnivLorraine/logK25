@@ -6,6 +6,7 @@ $outDir = Join-Path $root 'outputs'
 New-Item -ItemType Directory -Force -Path $outDir | Out-Null
 
 $records = New-Object System.Collections.Generic.List[object]
+$recordSigSet = New-Object System.Collections.Generic.HashSet[string]
 
 function Normalize-Species([string]$s) {
     if ($null -eq $s) { return '' }
@@ -13,8 +14,41 @@ function Normalize-Species([string]$s) {
     $x = $x -replace '\[',''
     $x = $x -replace '\]',''
     $x = $x -replace '\s+type=.*$',''
+    # Normalize split charge formatting from mixed sources.
+    $x = [regex]::Replace($x, '\s*([+-])\s*(\d+)\s*$', '$1$2')
+    $x = [regex]::Replace($x, '\s*(\d+)\s*([+-])\s*$', '$2$1')
+    if ($x -match '^(.*?)(\+{2,})$') { $x = ($matches[1] + '+' + $matches[2].Length) }
+    elseif ($x -match '^(.*?)(-{2,})$') { $x = ($matches[1] + '-' + $matches[2].Length) }
+    elseif ($x -match '^(.*?)(\d+)([+-])$') { $x = ($matches[1] + $matches[3] + $matches[2]) }
+    if ($x -match '^(.*?)([+-])1$') { $x = ($matches[1] + $matches[2]) }
     $x = $x -replace '\s+',' '
     return $x
+}
+
+function Normalize-EquationDisplay([string]$eq) {
+    if ([string]::IsNullOrWhiteSpace($eq)) { return '' }
+    $raw = ($eq -replace '\s+',' ').Trim()
+    if ($raw -notmatch '=') { return $raw }
+    $parts = $raw -split '='
+    if ($parts.Count -ne 2) { return $raw }
+    $normSide = {
+        param([string]$side)
+        $terms = $side.Trim() -split '\s+\+\s+'
+        $out = @()
+        foreach ($t in $terms) {
+            $tt = $t.Trim()
+            if ([string]::IsNullOrWhiteSpace($tt)) { continue }
+            if ($tt -match '^([+-]?\d+(?:\.\d+)?)\s+(.+)$') {
+                $out += ('{0} {1}' -f $matches[1], (Normalize-Species $matches[2]))
+            } else {
+                $out += (Normalize-Species $tt)
+            }
+        }
+        return ($out -join ' + ')
+    }
+    $lhs = & $normSide $parts[0]
+    $rhs = & $normSide $parts[1]
+    return ('{0} = {1}' -f $lhs, $rhs)
 }
 
 function Canonical-SpeciesKey([string]$s) {
@@ -53,11 +87,23 @@ function Make-Stoich-Signature($pairs) {
 
 function Add-Record($sourceFamily, $sourceFile, $product, $pairs, $logk25, $referenceShort, $referenceDetail, $equationFull, [string]$dbComment = '', [string]$conditionKey = 'T=25C') {
     if ($null -eq $logk25) { return }
+    $normProduct = Normalize-Species $product
+    $normEq = Normalize-EquationDisplay $equationFull
+    $refS = if ($null -eq $referenceShort) { '' } else { [string]$referenceShort }
+    $refD = if ($null -eq $referenceDetail) { '' } else { [string]$referenceDetail }
+    $dbc = if ($null -eq $dbComment) { '' } else { [string]$dbComment }
+    $ck = if ($null -eq $conditionKey) { '' } else { [string]$conditionKey }
+    $sig = ('{0}¦{1}¦{2}¦{3}¦{4}¦{5}¦{6}¦{7}¦{8}' -f
+        $sourceFamily, $sourceFile, $normProduct, (Make-Stoich-Signature $pairs),
+        [string]::Format([System.Globalization.CultureInfo]::InvariantCulture, '{0:0.###############}', [double]$logk25),
+        $refS, $refD, $dbc, $ck
+    )
+    if (-not $recordSigSet.Add($sig)) { return }
     $rec = [PSCustomObject]@{
         source_family = $sourceFamily
         source_file = $sourceFile
-        product = (Normalize-Species $product)
-        equation_full = $equationFull
+        product = $normProduct
+        equation_full = $normEq
         logK_definition = 'log10(K) at 25C for equation as written'
         stoich_signature = (Make-Stoich-Signature $pairs)
         logK_25C = $logk25
@@ -630,6 +676,31 @@ function Parse-IupacPka($csvPath, $sourceFamily) {
     }
 }
 
+function Parse-AqSolDB($csvPath, $sourceFamily) {
+    if (-not (Test-Path $csvPath)) { return }
+    foreach ($r in Import-Csv -Path $csvPath) {
+        $logS = Parse-Double ([string]$r.Solubility)
+        if ($null -eq $logS) { continue }
+        $name = ([string]$r.Name).Trim()
+        if ([string]::IsNullOrWhiteSpace($name)) { continue }
+        $product = "$name (aq)"
+        $solid = "$name (s)"
+        $pairs = @([PSCustomObject]@{coeff=1.0; species=$solid})
+        $eqn = ("1 {0} = 1 {1}" -f $solid, $product)
+        $ref = 'AqSolDB curated aqueous solubility dataset; Sorkun et al., Sci Data (2019), doi:10.1038/s41597-019-0151-1'
+        $dbCommentParts = @('AqSolDB logS value used as solubility-proxy; not a direct thermodynamic equilibrium constant')
+        if (-not [string]::IsNullOrWhiteSpace([string]$r.ID)) { $dbCommentParts += ('ID=' + [string]$r.ID) }
+        if (-not [string]::IsNullOrWhiteSpace([string]$r.InChIKey)) { $dbCommentParts += ('InChIKey=' + [string]$r.InChIKey) }
+        if (-not [string]::IsNullOrWhiteSpace([string]$r.SMILES)) { $dbCommentParts += ('SMILES=' + [string]$r.SMILES) }
+        if (-not [string]::IsNullOrWhiteSpace([string]$r.SD)) { $dbCommentParts += ('SD=' + [string]$r.SD) }
+        if (-not [string]::IsNullOrWhiteSpace([string]$r.Occurrences)) { $dbCommentParts += ('Occurrences=' + [string]$r.Occurrences) }
+        if (-not [string]::IsNullOrWhiteSpace([string]$r.Group)) { $dbCommentParts += ('Group=' + [string]$r.Group) }
+        $dbComment = ($dbCommentParts -join '; ')
+        $cond = Build-ConditionKey '' '' '' '' 'AqSolDB logS (temperature/ionic strength not specified)'
+        Add-Record $sourceFamily $csvPath $product $pairs $logS $ref '' $eqn $dbComment $cond
+    }
+}
+
 function Simplify-SourcePath([string]$p) {
     if ([string]::IsNullOrWhiteSpace($p)) { return '' }
     $x = $p -replace '/','\'
@@ -817,6 +888,9 @@ if (Test-Path $phreeqcThermo) { Parse-Phreeqc $phreeqcThermo 'Thermoddem-PHREEQC
 $psiNagraPhreeqc = Join-Path $root 'External databases\TDB\psinagra2020_v2-1-phreeqc\psinagra2020_v2-1ext.dat'
 if (Test-Path $psiNagraPhreeqc) { Parse-Phreeqc $psiNagraPhreeqc 'PSINagra-PHREEQC' }
 
+$jessPhreeqcLike = Join-Path $root 'outputs\jess_phreeqc_like.dat'
+if (Test-Path $jessPhreeqcLike) { Parse-Phreeqc $jessPhreeqcLike 'JESS-PHREEQC-like' }
+
 $crunchThermo = Join-Path $root 'External databases\Thermoddem\unzipped\crunch_thermoddemv1.10_15dec2020\Crunch_ThermoddemV1.10_15Dec2020.dbs'
 if (Test-Path $crunchThermo) { Parse-QuotedThermoddem $crunchThermo 'Thermoddem-Crunch' 'Reference not embedded in this export format' $false }
 
@@ -833,6 +907,10 @@ if (Test-Path $nistSql) { Parse-NistSrd46Raw $nistSql 'NIST-SRD46' }
 # IUPAC Dissociation Constants (25C pKa values)
 $iupacCsv = Join-Path $root 'External databases\IUPAC Dissociation Constants\iupac_high-confidence_v2_3.csv'
 if (Test-Path $iupacCsv) { Parse-IupacPka $iupacCsv 'IUPAC-pKa' }
+
+# AqSolDB curated aqueous solubility dataset
+$aqsolCsv = Join-Path $root 'External databases\AqSolDB\results\data_curated.csv'
+if (Test-Path $aqsolCsv) { Parse-AqSolDB $aqsolCsv 'AqSolDB-logS' }
 
 # Merge near-identical logK values (<=5% relative deviation) for same product key + stoichiometry + conditions
 $grouped = $records | Group-Object { '{0}|{1}|{2}' -f (Canonical-ProductKey $_.product), $_.stoich_signature, $_.condition_key }
@@ -897,7 +975,18 @@ foreach ($g in $grouped) {
     }
 }
 
-$final = $finalRows | Sort-Object product, {[double]$_.logK}
+$finalNoDup = New-Object System.Collections.Generic.List[object]
+$finalSig = New-Object System.Collections.Generic.HashSet[string]
+foreach ($r in $finalRows) {
+    $s = ('{0}¦{1}¦{2}¦{3}¦{4}¦{5}¦{6}' -f
+        ([string]$r.product), ([string]$r.equation_full), ([string]$r.logK),
+        ([string]$r.contributing_logK), ([string]$r.experimental_conditions),
+        ([string]$r.database_comments), ([string]$r.reference_consolidated)
+    )
+    if ($finalSig.Add($s)) { $finalNoDup.Add($r) | Out-Null }
+}
+
+$final = $finalNoDup | Sort-Object product, {[double]$_.logK}
 
 $tsvPath = Join-Path $outDir 'thermo_equilibrium_merged.tsv'
 $final | Export-Csv -Path $tsvPath -Delimiter "`t" -NoTypeInformation -Encoding UTF8

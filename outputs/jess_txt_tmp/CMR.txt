@@ -1,0 +1,1858 @@
+                          JESS Thermodynamic Database v8.9
+                                              Curium
+
+                                             24-Jan-23
+
+Reaction No. 2708
+F-1 + Cm+3 = Cm+3_F-1
+ No        t     I-Str           Medium              Value (Dev)               W    Tech.    Ref. #
+ 1      25            0      Inf. Dilution          lgK:4.36(4SF)              1      EOR
+ 2      25            0      Inf. Dilution         lgK:3.40(0.40SD)            4      CRV     32222
+ 3      25            0         CHEMVAL4           lgK:4.14(0.01SD)            3      ENS     5156
+ 4      25           0.5         NaClO4             lgK:2.61(3SF)              3      MDS      437
+ 5      25           0.5         NaClO4             lgK:3.34(3SF)              0      MDS     5398
+ 6      25            1          NaClO4             lgK:2.61(5.SD)             3      MIX      437
+ 7     10:60          1         Unknown                dH:3.(1SF)              4      CRV      552
+ 8      25            0      Inf. Dilution       dH:27.134(4.889SD)kJ          3      CRV     32222
+ 9      25            1          NaClO4              dH:6.0(5.SD)              0      EVK      437
+
+
+Reaction No. 2709
+Cm+3_F-1 + F-1 = Cm+3_F-1(2)
+  No       t     I-Str          Medium          Value (Dev)           W       Tech.         Ref. #
+  1        0         0.1        HClO4          lgK:3.87(3SF)          4       MSL            140
+  2     23           0.1        HClO4          lgK:3.60(3SF)          0       MSL            140
+  3     25           0.5        NaClO4         lgK:2.83(3SF)          0       MDS            437
+  4     47           0.1        HClO4          lgK:4.37(3SF)          4       MSL            140
+  5     23           0.1        HClO4          dH:4.28(3SF)           4       MTD            140
+
+
+Reaction No. 2710
+Cm+3_F-1(2) + F-1 = Cm+3_F-1(3)
+  No       t     I-Str          Medium          Value (Dev)           W       Tech.         Ref. #
+  1     25           0.5        NaClO4         lgK:2.90(3SF)          3       MDS            437
+
+
+Reaction No. 4754
+Cm+3 + 3<e-1> = Cm(s)
+ No    t       I-Str            Medium              Value (Dev)           W        Tech.     Ref. #
+  1    25        0           Inf. Dilution         dG:142.(2.SD)          3         ENS       3006
+  2    25        0           Inf. Dilution        dG:595.8(4SF)kJ         5         CRV       7421
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                                 Curium
+
+
+ 3    25         0           Inf. Dilution          dG:596.00(5SF)kJ     4       CRV      29375
+ 4    25         0           Inf. Dilution           E:-2.70(0.02SD)     0       MDG       775
+ 5    25         0           Inf. Dilution             E:-2.04(3SF)      0       CRV      6330
+ 6    25         0           Inf. Dilution             E:-2.06(3SF)      3       ENS      7276
+ 7    25         0           Inf. Dilution             E:-2.04(3SF)      0       CRV      7761
+ 8    25         0           Inf. Dilution             E:-2.06(3SF)      3       CRV      22551
+ 9    25         0           Inf. Dilution            dH:147.(1.SD)      3       ENS      3006
+ 10   25         0           Inf. Dilution           dH:615.5(4SF)kJ     3       CRV      7761
+
+
+Reaction No. 5504
+EDTA-4 + Cm+3 = Cm+3_EDTA-4
+ No   t        I-Str            Medium                 Value (Dev)       W       Tech.    Ref. #
+ 1    20        0.1             NH4ClO4             lgK:17.1(0.04SD)     7       EIU       903
+ 2    20        0.1             NH4ClO4             lgK:17.1(0.04SD)     4       MDS       903
+ 3    20        0.1             Unknown              lgK:17.10(4SF)      4       MTP       906
+ 4    22         0              Unknown              lgK:19.95(4SF)      4       MCE       903
+ 5    22        0.1             Unknown              lgK:17.29(4SF)      4       MCE       903
+ 6    23         0              NH4ClO4              lgK:20.0(0.1SD)     5       MIX       906
+ 7    23        0.1             NH4ClO4              lgK:17.29(4SF)      5       MIX       906
+ 8    25         0           Inf. Dilution           lgK:19.72(4SF)      1       EOR
+ 9    25        0.1               KCl               lgK:17.1(0.04SD)     4       MTP       903
+ 10   25        0.1              KNO3               lgK:17.1(0.04SD)     4       MTP       906
+ 11   25        0.1           Many Media            lgK:17.1(0.05SD)     7        EIU      903
+ 12   25        0.1             NH4ClO4              lgK:18.45(4SF)      0       MIX       140
+Note (12): Low wgt for internal consistency
+ 13   25        0.5             NaClO4              lgK:16.9(0.05SD)     4        ENS     1366
+ 14   25         2             Na+1 salt              lgK:16.9(3SF)      6       CRV       552
+ 15   25        0.5             NaClO4              dH:-29.3(1.3SD)kJ    5       MCL      1366
+
+
+Reaction No. 6339
+Oxalic-2 + Cm+3 = Cm+3_Oxalic-2
+ No        t         I-Str         Medium                Value (Dev)         W   Tech.    Ref. #
+ 1    20:25           0.2          Unknown              lgK:5.96(3SF)        2    MIX      931
+ 2        25           0        Inf. Dilution          lgK:6.657(4SF)        1    EOR
+ 3        25           0        Inf. Dilution           lgK:6.54(3SF)        4    CRV     31301
+ 4        25          0.1          Unknown             lgK:5.30(0.1SD)       4    MTP      6545
+
+
+
+
+                                                – Page 2 of 36 –
+JESS Thermodynamic Database v8.9                                                         Curium
+
+
+ 5        25             0.5          NaClO4            lgK:4.80(0.01SD)           2      MIX       931
+
+
+Reaction No. 6340
+Cm+3_Oxalic-2 + Oxalic-2 = Cm+3_Oxalic-2(2)
+ No       t      I-Str            Medium             Value (Dev)           W           Tech.      Ref. #
+  1    23            0.2         Unknown            lgK:4.19(3SF)          5           MIX        25802
+  2    25            0.1         Unknown           lgK:3.6(0.05SD)         4           MTP        6545
+  3    25            0.5          NaClO4            lgK:3.81(3SF)          5           MIX        11516
+Note (3): Aziz A et al., J. Inorg. Nucl. Chem., 1968, 30, 1013
+
+
+Reaction No. 6341
+2<Oxalic-2> + Cm+3 = Cm+3_Oxalic-2(2)
+ No        t         I-Str            Medium               Value (Dev)             W     Tech.    Ref. #
+ 1        20             0.1          NH4Cl               lgK:8.8(2SF)             2      MDS       906
+ 2    20:25              0.2         Unknown             lgK:10.15(4SF)            0      MIX       931
+ 3        25              0       Inf. Dilution          lgK:10.79(4SF)            1      EOR
+ 4        25              0       Inf. Dilution          lgK:10.57(4SF)            4      CRV      31301
+ 5        25             0.1         Unknown              lgK:8.90(3SF)            5      MTP      11516
+Note (5): Stepanov A, Zhur. Neorg. Khim., 1971, 16, 2981
+ 6        25             0.5          NaClO4            lgK:8.61(0.01SD)           3      MIX       931
+
+
+Reaction No. 6342
+3<Oxalic-2> + Cm+3 = Cm+3_Oxalic-2(3)
+ No    t        I-Str               Medium                Value (Dev)          W        Tech.     Ref. #
+ 1    20         0.1                 NH4Cl              lgK:12.1(3SF)          4         MDV       906
+ 2    25             0           Inf. Dilution          lgK:12.4(3SF)          1         ESC
+
+
+Reaction No. 6613
+Acetic-1 + Cm+3 = Cm+3_Acetic-1
+ No   t        I-Str              Medium                 Value (Dev)               W     Tech.    Ref. #
+ 1    0          2                NaClO4                lgK:1.73(3SF)              6      MDS      2112
+ 2    20        0.5               NaClO4             lgK:2.057(0.033SD)            6      MIX      22983
+ 3    23         0             Inf. Dilution            lgK:3.31(3SF)              2      MSC       906
+ 4    25         0             Inf. Dilution           lgK:3.107(4SF)              1      EOR
+ 5    25        0.5               Unknown               lgK:2.06(3SF)              3      EOD      31112
+ 6    25         2                NaClO4                lgK:2.03(3SF)              6      MDS      2112
+ 7    40         2                NaClO4                lgK:2.11(3SF)              4      MDS      2112
+
+
+
+
+                                                  – Page 3 of 36 –
+JESS Thermodynamic Database v8.9                                                     Curium
+
+
+ 8    55         2               NaClO4                lgK:2.27(3SF)           6      MDS      2112
+ 9    25         2               NaClO4               dG:-2.8(0.03SD)          5      ENS      2112
+ 10   25         2               NaClO4                dH:4.3(0.2SD)           5      MCL      2112
+ 11   25         2               NaClO4                dS:24.(0.7SD)           5      EFE      2112
+
+
+Reaction No. 6646
+2<Acetic-1> + Cm+3 = Cm+3_Acetic-1(2)
+ No   t        I-Str             Medium                 Value (Dev)            W     Tech.    Ref. #
+ 1    20        0.5              NaClO4             lgK:3.093(0.077SD)         6      MIX      22983
+ 2    23         0            Inf. Dilution            lgK:4.72(3SF)           4      MSC       906
+
+
+Reaction No. 6909
+Cm+3 + H+1_Gly-1 = Cm+3_H+1_Gly-1
+ No       t      I-Str          Medium             Value (Dev)             W       Tech.      Ref. #
+  1       0           2         NaClO4           lgK:0.6(0.05SD)           6       MDS        3232
+  2    11             2         NaClO4           lgK:0.7(0.06SD)           6       MDS        3232
+  3    25             2         NaClO4           lgK:0.81(0.02SD)          6       MDS        3232
+  4    40             2         NaClO4           lgK:0.95(0.02SD)          6       MDS        3232
+  5    25             2         NaClO4             dH:3.(0.4SD)            5       MDS        3232
+
+
+Reaction No. 9209
+NTA-3 + Cm+3 = Cm+3_NTA-3
+ No        t         I-Str          Medium                Value (Dev)          W     Tech.     Ref. #
+ 1    19:21               1          NH4Cl             lgK:10.9(0.04SD)        4      MIX       999
+ 2        20          0.1           Unknown             lgK:11.52(4SF)         4      MTP       1118
+ 3        23              0      Inf. Dilution          lgK:13.53(4SF)         4      EES       906
+ 4        25          0.1           NH4ClO4             lgK:11.80(4SF)         5      CMN       1118
+ 5        25          0.1           NH4ClO4            lgK:11.80(0.01SD)       4      MIX       1118
+ 6        25          0.5           NaClO4             lgK:11.30(0.01SD)       5      ENS       1366
+ 7        25              6         Unknown             lgK:11.18(4SF)         4      MDS       2261
+ 8        25          0.5           NaClO4             dH:-11.5(2.2SD)kJ       5      MCL       1366
+
+
+Reaction No. 9210
+2<NTA-3> + Cm+3 = Cm+3_NTA-3(2)
+ No       t      I-Str          Medium              Value (Dev)            W       Tech.      Ref. #
+ 1     20            0.1         NH4Cl            lgK:20.13(4SF)           4        MDS        1118
+ 2     20            0.1        Unknown           lgK:19.57(4SF)           4        MTP        1118
+
+
+
+
+                                                 – Page 4 of 36 –
+JESS Thermodynamic Database v8.9                                                    Curium
+
+
+ 3    25         0.1         NH4ClO4          lgK:20.58(4SF)          5            CMN        1118
+ 4    25         0.1         NH4ClO4         lgK:20.6(0.03SD)         4            MIX        1118
+ 5    25             6       Unknown          lgK:20.61(4SF)          4            MDS        2261
+
+
+Reaction No. 10391
+Squaric-2 + Cm+3 = Cm+3_Squaric-2
+ No    t        I-Str         Medium            Value (Dev)           W           Tech.      Ref. #
+ 1    25             1       NH4ClO4         lgK:2.34(0.02SD)         6            MGL        999
+
+
+Reaction No. 10392
+2<Squaric-2> + Cm+3 = Cm+3_Squaric-2(2)
+ No    t        I-Str         Medium            Value (Dev)           W           Tech.      Ref. #
+  1   25             1        NH4ClO4         lgK:3.5(0.03SD)         6            MGL        999
+
+
+Reaction No. 12167
+Citric-3 + Cm+3 = Cm+3_Citric-3
+ No   t        I-Str            Medium              Value (Dev)           W         Tech.    Ref. #
+ 1    25         0           Inf. Dilution         lgK:9.562(4SF)         1          EOR
+ 2    25         0           Inf. Dilution         lgK:7.99(3SF)          2          CRV      31301
+ 3    25        0.1             Unknown            lgK:7.68(3SF)          4          MDS       906
+ 4    25        0.1             Unknown           lgK:7.7(0.08SD)         4          MDG      6545
+
+
+Reaction No. 12168
+Cm+3_Citric-3 + Citric-3 = Cm+3_Citric-3(2)
+ No   t        I-Str             Medium             Value (Dev)           W        Tech.     Ref. #
+ 1    25         0           Inf. Dilution          lgK:4.2(2SF)          1         ELC
+ 2    25        0.1             Unknown            lgK:3.2(0.2SD)         0         MDG       6545
+
+
+Reaction No. 12169
+Cm+3_Citric-3 + H+1_Citric-3 = Cm+3_H+1_Citric-3(2)
+ No    t        I-Str          Medium           Value (Dev)           W           Tech.      Ref. #
+  1   25         0.1          Unknown         lgK:2.5(0.1SD)          4           MDG        6545
+
+
+Reaction No. 12543
+Cm+3 + NTA-3 + H+1_NTA-3 = Cm+3_H+1_NTA-3(2)
+ No        t         I-Str         Medium             Value (Dev)             W     Tech.    Ref. #
+ 1    19:21              1          NH4Cl            lgK:13.70(4SF)           6      MIX       999
+
+
+
+
+                                             – Page 5 of 36 –
+JESS Thermodynamic Database v8.9                                                        Curium
+
+
+ 2         20           0.1         Unknown              lgK:13.72(4SF)       6         MTP        999
+ 3         25            0       Inf. Dilution           lgK:13.9(3SF)        1         ESC
+
+
+Reaction No. 13997
+Cm+3 + H+1_EDTA-4 = Cm+3_H+1_EDTA-4
+ No    t         I-Str         Medium               Value (Dev)           W           Tech.      Ref. #
+ 1    20          0.1          Unknown             lgK:9.32(3SF)          5           MTP         906
+ 2    25          0.1           KNO3             lgK:9.32(0.02SD)         5           MTP         906
+
+
+Reaction No. 14627
+CDTA-4 + Cm+3 = Cm+3_CDTA-4
+ No   t         I-Str            Medium                 Value (Dev)           W        Tech.     Ref. #
+ 1    20         0.1               HCl                lgK:18.7(0.1SD)         3         MSC        999
+ 2    20         0.1               KCl                 lgK:18.7(3SF)          4         MSC        999
+ 3    20         0.1              NH4Cl               lgK:18.40(4SF)          5         MDS        999
+ 4    20         0.1             NH4ClO4              lgK:18.79(4SF)          5         MDS       11516
+Note (4): Gorski B et al., Radiochim. Acta, 1990, 51, 59
+ 5    23          0           Inf. Dilution            lgK:21.6(3SF)          5         MSC        906
+ 6    25          0           Inf. Dilution           lgK:21.62(4SF)          5         MIX        999
+ 7    25         0.1             NH4ClO4              lgK:18.81(4SF)          5         MIX        999
+ 8    25         0.1             Unknown             lgK:19.6(0.07SD)         6         CRV        552
+ 9    25         0.1             Unknown              lgK:18.96(4SF)          5         MIX        999
+ 10   25         0.1             Unknown              lgK:18.34(4SF)          5         MTP       11516
+Note (10): Shalinets A, Radiokhim., 1971, 13, 566
+ 11   25         0.5             NaClO4               lgK:18.1(0.1SD)         4         ENS       1366
+ 12   80        0.05             Unknown              lgK:19.46(4SF)          5         MIX        999
+ 13   80        0.06             Unknown              lgK:19.49(4SF)          5         MIX        999
+ 14   80        0.07             Unknown              lgK:19.35(4SF)          5         MIX        999
+ 15   80        0.17             Unknown              lgK:18.35(4SF)          5         MIX        999
+ 16   25         0.5             NaClO4              dH:-9.7(1.9SD)kJ         5         MCL       1366
+
+
+Reaction No. 14738
+DTPA-5 + Cm+3 = Cm+3_DTPA-5
+ No        t          I-Str         Medium                Value (Dev)             W     Tech.    Ref. #
+ 1    19:21             1           NH4Cl                lgK:21.1(3SF)            4      MIX       999
+ 2        20           0.5         Unknown             lgK:22.9(0.08SD)           0      MSP       999
+ 3        23            0       Inf. Dilution            lgK:25.7(3SF)            4      MSC       906
+
+
+
+
+                                                 – Page 6 of 36 –
+JESS Thermodynamic Database v8.9                                               Curium
+
+
+ 4     25      0.1         NH4ClO4              lgK:23.81(4SF)           0         MIX     999
+ 5     25      0.1         NH4ClO4              lgK:22.99(4SF)           5         MIX    13293
+ 6     25      0.1         Unknown              lgK:22.83(4SF)           6         MTP     999
+
+
+Reaction No. 14739
+Cm+3 + H+1_DTPA-5 = Cm+3_H+1_DTPA-5
+ No    t     I-Str      Medium              Value (Dev)          W       Tech.           Ref. #
+  1   25      0.1       NH4ClO4            lgK:15.48(4SF)        2           MIX          999
+  2   25      0.1       Unknown            lgK:14.40(4SF)        2           MTP          999
+
+
+Reaction No. 17675
+TriMDTA-4 + Cm+3 = Cm+3_TriMDTA-4
+ No   t     I-Str      Medium               Value (Dev)              W       Tech.       Ref. #
+ 1    25     0.1       Unknown             lgK:13.79(4SF)            6        CRV         552
+ 2    25     0.5       NaClO4             lgK:13.1(0.05SD)           4        ENS         1366
+ 3    25     0.5       NaClO4             dH:12.6(1.5SD)kJ           5        MCL         1366
+
+
+Reaction No. 19080
+N2COOEtIDA-3 + Cm+3 = Cm+3_N2COOEtIDA-3
+ No   t     I-Str      Medium               Value (Dev)              W       Tech.       Ref. #
+ 1    25     0.1      NH4ClO4         lgK:10.65(0.01SD)              6        MIX         999
+
+
+Reaction No. 19081
+2<N2COOEtIDA-3> + Cm+3 = Cm+3_N2COOEtIDA-3(2)
+ No   t     I-Str      Medium               Value (Dev)              W       Tech.       Ref. #
+ 1    25     0.1      NH4ClO4         lgK:17.95(0.02SD)              4        MIX         999
+
+
+Reaction No. 19082
+Cm+3 + H+1_N2COOEtIDA-3 = Cm+3_H+1_N2COOEtIDA-3
+ No    t     I-Str       Medium             Value (Dev)          W       Tech.           Ref. #
+  1   25      0.1       NH4ClO4            lgK:4.12(3SF)         6           MIX          999
+
+
+Reaction No. 19801
+Cm+3 + H+1_CDTA-4 = Cm+3_H+1_CDTA-4
+ No    t     I-Str       Medium             Value (Dev)          W       Tech.           Ref. #
+  1   25      0.1       Unknown            lgK:9.30(3SF)         6           MTP          999
+
+
+Reaction No. 20021
+
+
+
+
+                                      – Page 7 of 36 –
+JESS Thermodynamic Database v8.9                                           Curium
+
+
+2OH2MePropan-1 + Cm+3 = Cm+3_2OH2MePropan-1
+ No    t     I-Str       Medium             Value (Dev)     W           Tech.       Ref. #
+  1   25      0.1       Unknown         lgK:2.96(3SF)       6           MTP          999
+  2   25      0.5       NH4ClO4         lgK:2.46(3SF)       6           MIX          999
+
+
+Reaction No. 20022
+2<2OH2MePropan-1> + Cm+3 = Cm+3_2OH2MePropan-1(2)
+ No    t     I-Str       Medium             Value (Dev)     W           Tech.       Ref. #
+  1   25      0.1       Unknown         lgK:5.15(3SF)       6           MTP          999
+
+
+Reaction No. 20023
+3<2OH2MePropan-1> + Cm+3 = Cm+3_2OH2MePropan-1(3)
+ No    t     I-Str       Medium             Value (Dev)     W           Tech.       Ref. #
+  1   25      0.1       Unknown         lgK:6.36(3SF)       6           MTP          999
+
+
+Reaction No. 20024
+Cm+3_2OH2MePropan-1 + 2OH2MePropan-1 = Cm+3_2OH2MePropan-1(2)
+ No    t     I-Str       Medium             Value (Dev)     W           Tech.       Ref. #
+  1   25      0.5       NH4ClO4         lgK:2.02(3SF)       6           MIX          999
+
+
+Reaction No. 20025
+Cm+3_2OH2MePropan-1(2) + 2OH2MePropan-1 = Cm+3_2OH2MePropan-1(3)
+ No    t     I-Str       Medium             Value (Dev)     W           Tech.       Ref. #
+  1   25      0.5       NH4ClO4         lgK:1.04(3SF)       6           MIX          999
+
+
+Reaction No. 22375
+2<Tartaric-2> + Cm+3 = Cm+3_Tartaric-2(2)
+ No    t     I-Str     Medium           Value (Dev)             W       Tech.       Ref. #
+  1   20      0.1       NH4Cl         lgK:6.8(0.03SD)           4        MDS         999
+
+
+Reaction No. 24478
+Glycolic-1 + Cm+3 = Cm+3_Glycolic-1
+ No    t      I-Str     Medium               Value (Dev)            W    Tech.      Ref. #
+ 1    0.5       2       NaClO4              lgK:2.63(3SF)           6     MDS        2110
+ 2     20      0.5      NaClO4        lgK:2.845(0.036SD)            6     MIX        22983
+ 3     25       2       NaClO4              lgK:2.59(3SF)           6     MDS        2110
+ 4    40.6      2       NaClO4              lgK:2.52(3SF)           6     MDS        2110
+
+
+
+
+                                      – Page 8 of 36 –
+JESS Thermodynamic Database v8.9                                              Curium
+
+
+ 5     52              2        NaClO4        lgK:2.52(3SF)            6     MDS        2110
+ 6     25              2        NaClO4        dH:-0.93(2SF)            5     MCL        2110
+
+
+Reaction No. 24479
+Cm+3_Glycolic-1 + Glycolic-1 = Cm+3_Glycolic-1(2)
+ No        t       I-Str           Medium       Value (Dev)     W          Tech.       Ref. #
+  1    0.5                 2       NaClO4      lgK:1.83(3SF)    6           MDS         2110
+  2        20          0.5         NaClO4      lgK:1.90(3SF)    5           MDS        22983
+  3        25              2       NaClO4      lgK:1.97(3SF)    6           MDS         2110
+  4    40.6                2       NaClO4      lgK:1.88(3SF)    6           MDS         2110
+  5        52              2       NaClO4      lgK:1.82(3SF)    6           MDS         2110
+
+
+Reaction No. 25081
+N2PyridMeAsp-2 + Cm+3 = Cm+3_N2PyridMeAsp-2
+ No   t         I-Str           Medium         Value (Dev)      W          Tech.       Ref. #
+  1   25         0.1           NH4ClO4       lgK:9.2(0.08SD)    5           MIX         999
+
+
+Reaction No. 25082
+2<N2PyridMeAsp-2> + Cm+3 = Cm+3_N2PyridMeAsp-2(2)
+ No   t         I-Str          Medium          Value (Dev)         W        Tech.      Ref. #
+ 1    25         0.1           NH4ClO4      lgK:17.7(0.04SD)       5         MIX        999
+
+
+Reaction No. 25114
+HydrazineNNDiAcet-2 + Cm+3 = Cm+3_HydrazineNNDiAcet-2
+ No   t         I-Str          Medium          Value (Dev)         W        Tech.      Ref. #
+ 1    25         0.1            KNO3        lgK:11.0(0.05SD)       5         MTP        999
+ 2    25         0.1           Unknown       lgK:10.75(4SF)        6         CRV        552
+
+
+Reaction No. 25115
+2<HydrazineNNDiAcet-2> + Cm+3 = Cm+3_HydrazineNNDiAcet-2(2)
+ No   t         I-Str           Medium         Value (Dev)      W          Tech.       Ref. #
+  1   25         0.1             KNO3        lgK:20.0(0.2SD)    5           MTP         999
+  2   25         0.1           Unknown       lgK:20.25(4SF)     6           CRV         552
+
+
+Reaction No. 25116
+Cm+3 + H+1_HydrazineNNDiAcet-2 = Cm+3_H+1_HydrazineNNDiAcet-2
+ No    t        I-Str           Medium        Value (Dev)      W           Tech.       Ref. #
+
+
+
+
+                                            – Page 9 of 36 –
+JESS Thermodynamic Database v8.9                                               Curium
+
+
+  1    25     0.1        KNO3             lgK:4.1(0.2SD)        5           MTP          999
+
+
+Reaction No. 25564
+N2COOPhenIDA-3 + Cm+3 = Cm+3_N2COOPhenIDA-3
+ No    t     I-Str     Medium               Value (Dev)             W        Tech.      Ref. #
+ 1    25      0.1      NH4ClO4            lgK:9.27(0.02SD)          6         MIX        999
+
+
+Reaction No. 27487
+Cm+3 + H+1_PhosAcet-3 = Cm+3_H+1_PhosAcet-3
+ No   t     I-Str         Medium                Value (Dev)             W    Tech.      Ref. #
+ 1    25      0        Inf. Dilution           lgK:5.17(3SF)            6     MIX         906
+
+
+Reaction No. 27488
+Cm+3 + 2<H+1_PhosAcet-3> = Cm+3_H+1(2)_PhosAcet-3(2)
+ No   t     I-Str          Medium                Value (Dev)        W        Tech.      Ref. #
+ 1    25      0        Inf. Dilution            lgK:8.5(2SF)        6         MIX         906
+
+
+Reaction No. 27489
+Cm+3 + H+1(2)_PhosAcet-3 = Cm+3_H+1(2)_PhosAcet-3
+ No   t     I-Str         Medium                Value (Dev)             W    Tech.      Ref. #
+ 1    25      0        Inf. Dilution           lgK:2.72(3SF)            6     MIX         906
+
+
+Reaction No. 42827
+Cm+3 + H+1_MePhos-2 = Cm+3_H+1_MePhos-2
+ No   t     I-Str         Medium                Value (Dev)             W     Tech.     Ref. #
+ 1    25      0       Inf. Dilution            lgK:2.82(3SF)            5      MIX        906
+ 2    25     0.5        Many Media             lgK:1.9(0.2SD)           6      CIU       7242
+
+
+Reaction No. 42831
+Cm+3 + H+1_OHMePhos-2 = Cm+3_H+1_OHMePhos-2
+ No    t     I-Str       Medium             Value (Dev)         W           Tech.       Ref. #
+  1   25      0.2       NH4ClO4            lgK:1.65(3SF)        5           MIX          906
+
+
+Reaction No. 42832
+Cm+3 + 2<H+1_OHMePhos-2> = Cm+3_H+1(2)_OHMePhos-2(2)
+ No    t     I-Str       Medium             Value (Dev)         W           Tech.       Ref. #
+  1   25      0.2       NH4ClO4            lgK:3.28(3SF)        5           MIX          906
+
+
+
+
+                                       – Page 10 of 36 –
+JESS Thermodynamic Database v8.9                                                Curium
+
+
+Reaction No. 42883
+3<Acetic-1> + Cm+3 = Cm+3_Acetic-1(3)
+ No   t       I-Str          Medium               Value (Dev)            W     Tech.     Ref. #
+ 1    23        0         Inf. Dilution          lgK:6.30(3SF)           4      MSC        906
+
+
+Reaction No. 42884
+4<Acetic-1> + Cm+3 = Cm+3_Acetic-1(4)
+ No   t       I-Str          Medium               Value (Dev)            W     Tech.     Ref. #
+ 1    23        0         Inf. Dilution          lgK:6.56(3SF)           4      MSC        906
+
+
+Reaction No. 43068
+3<Lactic-1> + Cm+3 = Cm+3_Lactic-1(3)
+ No    t       I-Str       Medium             Value (Dev)        W           Tech.       Ref. #
+  1   20        0.5        NH4ClO4          lgK:6.46(3SF)        2            MDS         906
+  2   20        0.5        NH4ClO4          lgK:5.78(3SF)        2            MIX         906
+
+
+Reaction No. 43069
+Lactic-1 + Cm+3 = Cm+3_Lactic-1
+ No       t     I-Str      Medium            Value (Dev)         W           Tech.       Ref. #
+  1    10           1.5      KCl            lgK:2.59(3SF)        4           MEP          906
+
+
+Reaction No. 43070
+2<Lactic-1> + Cm+3 = Cm+3_Lactic-1(2)
+ No       t     I-Str      Medium            Value (Dev)         W           Tech.       Ref. #
+  1    10           1.5      KCl            lgK:4.29(3SF)        4           MEP          906
+
+
+Reaction No. 43480
+Cm+3 + H+1(2)_EDDPI-2 = Cm+3_H+1(2)_EDDPI-2
+ No    t       I-Str       Medium             Value (Dev)        W           Tech.       Ref. #
+  1   25        0.5        Unknown          lgK:6.40(3SF)        4            MIX         906
+
+
+Reaction No. 43490
+Etbis(ImMePhos)-4 + Cm+3 = Cm+3_Etbis(ImMePhos)-4
+ No    t       I-Str       Medium            Value (Dev)             W       Tech.       Ref. #
+  1   25        0.1       Unknown           lgK:16.57(4SF)           4        MTP         906
+
+
+Reaction No. 43491
+Cm+3 + H+1_Etbis(ImMePhos)-4 = Cm+3_H+1_Etbis(ImMePhos)-4
+
+
+
+
+                                          – Page 11 of 36 –
+JESS Thermodynamic Database v8.9                                       Curium
+
+
+ No    t     I-Str      Medium              Value (Dev)         W    Tech.      Ref. #
+  1   25      0.1       Unknown         lgK:12.24(4SF)          4     MTP        906
+
+
+Reaction No. 43492
+Cm+3 + H+1(2)_Etbis(ImMePhos)-4 = Cm+3_H+1(2)_Etbis(ImMePhos)-4
+ No   t     I-Str       Medium              Value (Dev)         W    Tech.      Ref. #
+  1   25     0.1       Unknown          lgK:7.80(3SF)           4     MTP        906
+  2   25     0.5       NH4ClO4         lgK:6.4(0.03SD)          4     MIX        906
+
+
+Reaction No. 43493
+Cm+3 + H+1(3)_Etbis(ImMePhos)-4 = Cm+3_H+1(3)_Etbis(ImMePhos)-4
+ No    t     I-Str       Medium             Value (Dev)         W   Tech.       Ref. #
+  1   25      0.1       Unknown         lgK:6.13(3SF)           4    MTP         906
+
+
+Reaction No. 43715
+Cm+3_OH-1 + Citric-3 = Cm+3_OH-1_Citric-3
+ No    t     I-Str       Medium             Value (Dev)     W       Tech.       Ref. #
+  1    23                               lgK:5.3(2SF)        4        ENS         906
+
+
+Reaction No. 43716
+Cm+3_OH-1 + 2<Citric-3> = Cm+3_OH-1_Citric-3(2)
+ No    t     I-Str      Medium              Value (Dev)     W       Tech.       Ref. #
+  1   23                                lgK:9.32(3SF)       4        ENS         906
+
+
+Reaction No. 43717
+Cm+3_OH-1(2) + Citric-3 = Cm+3_OH-1(2)_Citric-3
+ No    t     I-Str      Medium              Value (Dev)     W       Tech.       Ref. #
+  1   23                                lgK:5.38(3SF)       4        ENS         906
+
+
+Reaction No. 43718
+Cm+3 + 2<H+1(3)_Citric-3> = Cm+3_H+1_Citric-3(2) + 5<H+1>
+ No    t     I-Str      Medium              Value (Dev)         W    Tech.      Ref. #
+  1   25      0.1       NaClO4          lgK:-9.63(3SF)          5     MDS        2330
+  2   25      0.1       Unknown         lgK:-9.7(2SF)           4     MDS        906
+
+
+Reaction No. 44072
+HIMDA-2 + Cm+3 = Cm+3_HIMDA-2
+ No   t     I-Str       Medium              Value (Dev)         W    Tech.      Ref. #
+
+
+
+
+                                      – Page 12 of 36 –
+JESS Thermodynamic Database v8.9                                       Curium
+
+
+  1   25     0.1       NH4ClO4           lgK:9.2(0.03SD)    5        MIX         906
+  2   25     0.1       Unknown           lgK:9.3(0.06SD)    5        MDS         906
+  3   25     0.1       Unknown             lgK:9.2(2SF)     6        MTP         906
+
+
+Reaction No. 44073
+2<HIMDA-2> + Cm+3 = Cm+3_HIMDA-2(2)
+ No   t     I-Str      Medium              Value (Dev)          W    Tech.      Ref. #
+ 1    25     0.1      NH4ClO4           lgK:17.13(0.02SD)       4     MIX        906
+ 2    25     0.1      Unknown             lgK:16.7(3SF)         4     MTP        906
+
+
+Reaction No. 44074
+Cm+3 + H+1_HIMDA-2 = Cm+3_H+1_HIMDA-2
+ No    t     I-Str     Medium              Value (Dev)      W       Tech.       Ref. #
+  1   25      0.1       KNO3            lgK:9.2(0.08SD)     5        MTP         906
+
+
+Reaction No. 44075
+Cm+3 + 2<H+1_HIMDA-2> = Cm+3_H+1(2)_HIMDA-2(2)
+ No    t     I-Str      Medium             Value (Dev)      W       Tech.       Ref. #
+  1   25      0.1        KNO3            lgK:18.(0.3SD)     5       MTP          906
+
+
+Reaction No. 44162
+EDTMP-8 + Cm+3 = Cm+3_EDTMP-8
+ No   t     I-Str      Medium             Value (Dev)       W       Tech.       Ref. #
+  1   25     0.1        KNO3            lgK:21.9(0.09SD)    5        MTP         906
+
+
+Reaction No. 44163
+Cm+3 + H+1_EDTMP-8 = Cm+3_H+1_EDTMP-8
+ No   t     I-Str      Medium             Value (Dev)       W       Tech.       Ref. #
+  1   25     0.1        KNO3            lgK:17.7(0.07SD)    5        MTP         906
+
+
+Reaction No. 44164
+Cm+3 + H+1(2)_EDTMP-8 = Cm+3_H+1(2)_EDTMP-8
+ No   t     I-Str      Medium             Value (Dev)       W       Tech.       Ref. #
+  1   25     0.1        KNO3            lgK:14.5(0.06SD)    5        MTP         906
+
+
+Reaction No. 44165
+Cm+3 + H+1(3)_EDTMP-8 = Cm+3_H+1(3)_EDTMP-8
+ No   t     I-Str      Medium             Value (Dev)       W       Tech.       Ref. #
+
+
+
+
+                                        – Page 13 of 36 –
+JESS Thermodynamic Database v8.9                                         Curium
+
+
+  1   25     0.1        KNO3            lgK:10.8(0.09SD)          5     MTP        906
+
+
+Reaction No. 44166
+Cm+3 + H+1(4)_EDTMP-8 = Cm+3_H+1(4)_EDTMP-8
+ No   t     I-Str      Medium             Value (Dev)             W    Tech.      Ref. #
+  1   25     0.1        KNO3            lgK:4.73(0.02SD)          5     MTP        906
+
+
+Reaction No. 44167
+Cm+3 + H+1(5)_EDTMP-8 = Cm+3_H+1(5)_EDTMP-8
+ No    t     I-Str     Medium              Value (Dev)            W    Tech.      Ref. #
+  1   25      0.1       KNO3            lgK:4.7(0.04SD)           5     MTP        906
+
+
+Reaction No. 44530
+3<2ThenTriFAcone-1> + Cm+3 = Cm+3_2ThenTriFAcone-1(3)
+ No    t     I-Str      Medium             Value (Dev)            W    Tech.      Ref. #
+  1   25      0.1       Unknown           lgK:13.40(4SF)          4     MDS        906
+
+
+Reaction No. 44775
+3<F*3Benzoylacetone-1> + Cm+3 = Cm+3_F*3Benzoylacetone-1(3)
+ No    t     I-Str      Medium             Value (Dev)            W    Tech.      Ref. #
+  1   25      0.1       Unknown           lgK:15.15(4SF)          4     MDS        906
+
+
+Reaction No. 44921
+2<HOEDTA-3> + Cm+3 = Cm+3_HOEDTA-3(2)
+ No    t     I-Str       Medium             Value (Dev)           W    Tech.      Ref. #
+  1   25      0.1         KCl               lgK:4.1(2SF)          0     MDS        906
+  2   25       1        K+1 salt           lgK:27.2(3SF)          5     CRV        2556
+
+
+Reaction No. 44922
+Cm+3 + HOEDTA-3 + H+1_HOEDTA-3 = Cm+3_H+1_HOEDTA-3(2)
+ No    t     I-Str      Medium             Value (Dev)        W       Tech.       Ref. #
+  1   25      0.1         KCl             lgK:2.82(3SF)       4        MDS         906
+
+
+Reaction No. 44923
+Cm+3 + 2<H+1_HOEDTA-3> = Cm+3_H+1(2)_HOEDTA-3(2)
+ No    t      I-Str      Medium            Value (Dev)        W       Tech.       Ref. #
+  1    25      0.1        KCl             lgK:1.0(2SF)        4       MDS          906
+
+
+
+
+                                        – Page 14 of 36 –
+JESS Thermodynamic Database v8.9                                                         Curium
+
+
+Reaction No. 45960
+HOEDTA-3 + Cm+3 = Cm+3_HOEDTA-3
+ No        t         I-Str        Medium           Value (Dev)          W           Tech.         Ref. #
+  1       25          0.1        Unknown         lgK:15.9(3SF)          4           CRV           2556
+
+
+Reaction No. 45981
+2<Citric-3> + Cm+3 = Cm+3_Citric-3(2)
+ No    t        I-Str              Medium              Value (Dev)          W           Tech.     Ref. #
+ 1    25             0         Inf. Dilution         lgK:13.62(4SF)         1           EOR
+ 2    25         0.1               NaClO4            lgK:11.93(4SF)         4           MSE        2330
+ 3    25         0.1              Unknown             lgK:10.9(3SF)         4           CRV        2556
+ 4    25         0.1              Unknown            lgK:11.23(4SF)         5           MDG        6545
+
+
+Reaction No. 53191
+2<F-1> + Cm+3 = Cm+3_F-1(2)
+ No   t        I-Str            Medium                Value (Dev)               W        Tech.     Ref. #
+ 1    25         0           Inf. Dilution           lgK:7.64(4SF)              1         EOR
+ 2    25         0           Inf. Dilution         lgK:5.80(0.20SD)             0         CRV      32222
+ 3    25         0             CHEMVAL4            lgK:7.52(0.01SD)             4         ENS       5156
+ 4    25        0.5             NaClO4               lgK:6.18(3SF)              4         MDS       5398
+ 5    30         1              NH4NO3              lgK:2.4(0.1SD)              0         MSE       5612
+ 6    25         0           Inf. Dilution       dH:22.320(7.769SD)kJ           4         CRV      32222
+
+
+Reaction No. 53192
+3<F-1> + Cm+3 = Cm+3_F-1(3)
+ No   t        I-Str             Medium               Value (Dev)               W       Tech.      Ref. #
+ 1    25         0            Inf. Dilution          lgK:10.85(4SF)             1        EOR
+ 2    25         0            Inf. Dilution          lgK:10.82(4SF)             4        CRV       32222
+ 3    25         0              CHEMVAL4           lgK:10.70(0.01SD)            6        ENS        5156
+ 4    25        0.5              NaClO4               lgK:9.1(2SF)              5        MDS        5398
+ 5    25         0            Inf. Dilution        dH:-12.119(5SF)kJ            4        CRV       32222
+
+
+Reaction No. 53320
+SO4-2 + Cm+3 = Cm+3_SO4-2
+ No        t         I-Str         Medium               Value (Dev)                 W     Tech.    Ref. #
+ 1         0             2         NaClO4              lgK:1.08(3SF)                5       MDS     931
+ 2        15          0.1          NH4Cl               lgK:2.41(3SF)                5       MEP     5398
+
+
+
+
+                                               – Page 15 of 36 –
+JESS Thermodynamic Database v8.9                                     Curium
+
+
+ 3    20:25     0     Inf. Dilution           lgK:3.66(3SF)      4    MCE      140
+ 4    20:25   0.75        NH4Cl               lgK:1.75(3SF)      4    MCE      140
+ 5    24:25    0.5        NaClO4              lgK:1.86(3SF)      5    MCE      931
+ 6    24:25    0.5        NaClO4              lgK:1.84(3SF)      4    MDS      931
+ 7     25       0     Inf. Dilution          lgK:3.746(4SF)      1    EOR
+ 8     25       0     Inf. Dilution           lgK:3.88(3SF)      0    MDS      5398
+ 9     25       0     Inf. Dilution         lgK:3.30(0.15SD)     4    CRV     32222
+ 10    25       0        CHEMVAL4           lgK:2.95(0.01SD)     3    ENS      5156
+ 11    25      0.1        NH4Cl               lgK:2.45(3SF)      5    MEP      5398
+ 12    25       2         NaClO4              lgK:1.34(3SF)      5    MDS      931
+ 13    30       1         NH4NO3             lgK:1.5(0.05SD)     6    MSE      5612
+ 14    30       1          NaCl               lgK:1.51(3SF)      5    MDS      5612
+ 15    35      0.1        NH4Cl               lgK:2.48(3SF)      5    MEP      5398
+ 16    40       2         NaClO4              lgK:1.49(3SF)      5    MDS      931
+ 17    55       2         NaClO4              lgK:1.61(3SF)      5    MDS      931
+ 18   0:55      2         NaClO4               dH:4.1(2SF)       5    MTD      931
+ 19    25       0     Inf. Dilution       dH:15.493(2.159SD)kJ   2    CRV     32222
+
+
+Reaction No. 53321
+2<SO4-2> + Cm+3 = Cm+3_SO4-2(2)
+ No     t     I-Str       Medium               Value (Dev)       W   Tech.    Ref. #
+ 1      0       2         NaClO4              lgK:1.66(3SF)      5    MDS      931
+ 2    24:25    0.5        NaClO4              lgK:2.37(3SF)      2    MCE      931
+ 3    24:25    0.5        NaClO4             lgK:2.695(4SF)      4    MDS      931
+ 4     25       0     Inf. Dilution          lgK:5.136(4SF)      1    EOR
+ 5     25       0     Inf. Dilution           lgK:5.70(3SF)      4    MDS      5398
+ 6     25       0     Inf. Dilution         lgK:3.70(0.15SD)     0    CRV     32222
+ 7     25     0.75        NH4Cl               lgK:1.93(3SF)      0    MIX     25802
+ 8     25       2         NaClO4              lgK:1.86(3SF)      5    MDS      931
+ 9     30       1          NaCl               lgK:2.38(3SF)      5    MDS      5612
+ 10    40       2         NaClO4              lgK:2.05(3SF)      5    MDS      931
+ 11    55       2         NaClO4              lgK:2.30(3SF)      3    MDS      931
+ 12    25       0     Inf. Dilution       dH:20.927(2.046SD)kJ   4    CRV     32222
+
+
+Reaction No. 53322
+3<SO4-2> + Cm+3 = Cm+3_SO4-2(3)
+
+
+
+
+                                      – Page 16 of 36 –
+JESS Thermodynamic Database v8.9                                   Curium
+
+
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:5.15(4SF)   1    EOR
+ 2    25     0         Inf. Dilution          lgK:5.15(3SF)   4    MDS       5398
+
+
+Reaction No. 53375
+PO4-3 + Cm+3 = Cm+3_PO4-3
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    20     1                NH4Cl           lgK:1.48(3SF)   0    MIX       5398
+ 2    20     1                NH4Cl           lgK:17.5(3SF)   3    MIX      13360
+ 3    23     0         Inf. Dilution          lgK:2.40(3SF)   0    MSC       5398
+
+
+Reaction No. 53376
+2<PO4-3> + Cm+3 = Cm+3_PO4-3(2)
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    20     1                NH4Cl           lgK:2.08(3SF)   5    MIX       5398
+ 2    23     0         Inf. Dilution          lgK:3.60(3SF)   4    MSC       5398
+
+
+Reaction No. 53390
+3<PO4-3> + Cm+3 = Cm+3_PO4-3(3)
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    20     1                NH4Cl           lgK:2.84(3SF)   5    MIX       5398
+ 2    23     0         Inf. Dilution          lgK:5.61(3SF)   0    MSC       5398
+
+
+Reaction No. 53391
+4<PO4-3> + Cm+3 = Cm+3_PO4-3(4)
+ No   t    I-Str              Medium           Value (Dev)    W   Tech.     Ref. #
+ 1    20     1                NH4Cl            lgK:3.1(2SF)   5   MIX       5398
+ 2    23     0         Inf. Dilution           lgK:6.2(2SF)   0   MSC       5398
+
+
+Reaction No. 53444
+P3O9-3 + Cm+3 = Cm+3_P3O9-3
+ No   t    I-Str            Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution          lgK:6.26(3SF)   4    CRV       552
+ 2    25     0         Inf. Dilution          lgK:5.92(3SF)   4    MCE       931
+ 3    25     0         Inf. Dilution          lgK:6.08(3SF)   4    MIX       5398
+ 4    25    0.2             NH4ClO4           lgK:3.64(3SF)   4    MCE       931
+
+
+
+
+                                       – Page 17 of 36 –
+JESS Thermodynamic Database v8.9                                                         Curium
+
+
+Reaction No. 55644
+Cm+3 + e-1 = Cm+2
+ No    t         I-Str               Medium               Value (Dev)       W           Tech.     Ref. #
+ 1    25              0          Inf. Dilution            E:-4.4(2SF)       4           ENS       7276
+ 2    25              0             Unknown               E:-4.(0.5SD)      0           ENS       5256
+
+
+Reaction No. 56042
+Cm+3 + H2O = Cm+3_OH-1 + H+1
+ No   t         I-Str            Medium                  Value (Dev)                W     Tech.   Ref. #
+ 1    25          0           Inf. Dilution             lgK:-7.1(2SF)               1      ELC
+ 2    25          0           Inf. Dilution           lgK:-7.20(0.50SD)             4      CRV     32222
+ 3    25          0             CHEMVAL4              lgK:-5.30(0.01SD)             0      ENS     5156
+ 4    25          0           Inf. Dilution         dH:78.411(8.184SD)kJ            4      CRV     32222
+
+
+Reaction No. 56043
+NO3-1 + Cm+3 = Cm+3_NO3-1
+ No        t          I-Str           Medium               Value (Dev)              W    Tech.    Ref. #
+ 1    20:25               1        ClO4-1 salt            lgK:0.57(2SF)             4     MCE       140
+ 2    20:25               1           NH4Cl               lgK:0.57(2SF)             4     MCE       140
+ 3         25             0       Inf. Dilution           lgK:1.14(4SF)             1     EOR
+ 4         25             0          CHEMVAL4            lgK:1.14(0.01SD)           4     ENS      5156
+ 5         25             1          NH4ClO4              lgK:0.6(0.1SD)            5     ENS      5234
+ 6         30             1        ClO4-1 salt           lgK:0.3(0.03SD)            6     MSE      5612
+ 7         25             2           NH4NO3             lgR:-0.1(0.04SD)           5     MAX      5234
+
+
+Reaction No. 56044
+Cm+3 + Cl-1 = Cm+3_Cl-1
+ No   t         I-Str              Medium                 Value (Dev)           W        Tech.    Ref. #
+ 1    20          3                LiClO4               lgK:-0.25(2SF)          5         CRV      2556
+ 2    23          0            Inf. Dilution            lgK:1.17(3SF)           3         MCE      140
+ 3    25          0               CHEMVAL4             lgK:1.01(0.01SD)         4         ENS      5156
+
+
+Reaction No. 57355
+SCN-1 + Cm+3 = Cm+3_SCN-1
+ No        t          I-Str           Medium               Value (Dev)              W    Tech.    Ref. #
+ 1         10             5        ClO4-1 salt           lgK:0.5(0.03SD)            5     MSE      5243
+ 2         25             0       Inf. Dilution           lgK:1.383(4SF)            1     EOR
+
+
+
+
+                                                  – Page 18 of 36 –
+JESS Thermodynamic Database v8.9                                                   Curium
+
+
+ 3        25           1         NaClO4            lgK:0.4(0.05SD)            5     CMN      5234
+ 4        25           1         NaClO4             lgK:0.43(2SF)             5     MDS      11516
+Note (4): Choppin G et al., J. Inorg. Nucl. Chem., 1965, 27, 1335
+ 5        25           5      ClO4-1 salt          lgK:0.62(0.02SD)           5     MSE      5243
+ 6        30           1        NH4ClO4            lgK:0.18(0.05SD)           5     MSE      4610
+ 7        40           5      ClO4-1 salt          lgK:0.7(0.04SD)            5     MSE      5243
+ 8        55           5      ClO4-1 salt          lgK:0.8(0.04SD)            5     MSE      5243
+ 9    10:60            5        Unknown               dH:3.(1SF)              6     CRV       552
+
+
+Reaction No. 57356
+2<SCN-1> + Cm+3 = Cm+3_SCN-1(2)
+ No   t        I-Str          Medium                Value (Dev)           W       Tech.     Ref. #
+ 1    25         0         Inf. Dilution           lgK:2.2(2SF)           1        EDH
+ 2    25         0         Inf. Dilution          lgK:1.631(4SF)          2        EOR
+ 3    25         1            NaClO4              lgK:-0.07(1SF)          0        MDS      11516
+Note (3): Harmon H et al., J. Inorg. Nucl. Chem., 1972, 34, 1381
+ 4    25         2            NH4NO3             lgK:0.7(0.05SD)          5        MAX       5234
+ 5    30         1            NH4ClO4            lgK:0.61(0.03SD)         5        MSE       4610
+
+
+Reaction No. 57386
+Cm(s) + 0.5<N2(g)> + C(s) + S(s) = Cm+3_SCN-1 + 2<e-1>
+ No   t        I-Str          Medium                Value (Dev)       W           Tech.     Ref. #
+ 1    25         0         Inf. Dilution          dG:-0.8(0.03SD)     0            ENS       5243
+ 2    25         0         Inf. Dilution           dH:3.(0.5SD)       0            ENS       5243
+
+
+Reaction No. 57453
+3<SCN-1> + Cm+3 = Cm+3_SCN-1(3)
+ No   t        I-Str          Medium                Value (Dev)       W           Tech.     Ref. #
+ 1    25         0         Inf. Dilution          lgK:2.569(4SF)      1            EOR
+ 2    25         2            NH4NO3              lgK:1.1(0.05SD)     5            MAX       5234
+
+
+Reaction No. 58015
+Cm+3 + 2<NO3-1> = Cm+3_NO3-1(2)
+ No   t        I-Str          Medium              Value (Dev)         W           Tech.     Ref. #
+ 1    30         1         ClO4-1 salt          lgK:0.1(0.05SD)       6           MSE       5612
+
+
+Reaction No. 58530
+
+
+
+
+                                            – Page 19 of 36 –
+JESS Thermodynamic Database v8.9                                                    Curium
+
+
+Cm+3_SO4-2 + SO4-2 = Cm+3_SO4-2(2)
+ No        t         I-Str             Medium             Value (Dev)        W      Tech.     Ref. #
+ 1    20:25               0      Inf. Dilution           lgK:0.81(2SF)       4         MCE     140
+ 2    20:25           0.75             NH4Cl             lgK:0.18(2SF)       4         MCE     140
+ 3        25              0      Inf. Dilution           lgK:1.82(3SF)       5         MDS    11516
+Note (3): McDowell W et al., J. Inorg. Nucl. Chem., 1972, 34, 2837
+ 4        25          0.5              NaClO4            lgK:0.84(2SF)       5         MDS    11516
+Note (4): Aziz A et al., J. Inorg. Nucl. Chem., 1968, 30, 1013
+ 5        30              1             NaCl             lgK:0.87(2SF)       5         MDS     5612
+ 6        55              2            NaClO4            lgK:0.69(2SF)       5         MDS    11516
+Note (6): Carvalho R et al., J. Inorg. Nucl. Chem., 1967, 29, 725
+
+
+Reaction No. 60187
+Cm+3_EDTA-4 + H+1 = Cm+3_H+1_EDTA-4
+ No       t     I-Str          Medium              Value (Dev)           W       Tech.       Ref. #
+  1    25        0.1             KCl             lgK:2.4(0.2SD)          4        MTP         903
+
+
+Reaction No. 60426
+OH-1 + Cm+3 = Cm+3_OH-1
+ No   t        I-Str             Medium                 Value (Dev)          W     Tech.     Ref. #
+ 1    25         0            Inf. Dilution           lgK:6.924(4SF)         1      EOR
+ 2    25        0.1              Unknown               lgK:6.3(2SF)          4      CRV       2556
+
+
+Reaction No. 60709
+Br-1 + Cm+3 = Cm+3_Br-1
+ No       t      I-Str          Medium             Value (Dev)           W       Tech.       Ref. #
+  1    20             3         LiClO4            lgK:-0.4(1SF)          5       CRV         2556
+
+
+Reaction No. 62714
+Cm+3_N2COOEtIDA-3 + H+1 = Cm+3_H+1_N2COOEtIDA-3
+ No    t        I-Str           Medium              Value (Dev)          W       Tech.       Ref. #
+  1   25         0.1           Unknown            lgK:3.07(3SF)          6        CRV         552
+
+
+Reaction No. 65779
+N3-1 + Cm+3 = Cm+3_N3-1
+ No    t        I-Str           Medium              Value (Dev)          W       Tech.       Ref. #
+  1   25         0.5           Unknown            lgK:0.64(2SF)          6        CRV         552
+
+
+
+
+                                                – Page 20 of 36 –
+JESS Thermodynamic Database v8.9                                                   Curium
+
+
+  2    25           0.5      Unknown            dH:3.(1SF)          6           CRV          552
+
+
+Reaction No. 65801
+NO2-1 + Cm+3 = Cm+3_NO2-1
+ No   t       I-Str           Medium                Value (Dev)             W     Tech.     Ref. #
+ 1    25        0          Inf. Dilution          lgK:1.718(4SF)            1      EOR
+ 2    25        1             Unknown              lgK:0.82(2SF)            6      CRV        552
+
+
+Reaction No. 66129
+MeEDTA-4 + Cm+3 = Cm+3_MeEDTA-4
+ No       t     I-Str        Medium             Value (Dev)         W           Tech.       Ref. #
+  1    25           0.1      Unknown          lgK:17.6(3SF)         6           CRV          552
+
+
+Reaction No. 69869
+Cm+3_Citric-3(2) + 6<H+1> = Cm+3 + 2<H+1(3)_Citric-3>
+ No       t     I-Str       Medium             Value (Dev)          W           Tech.       Ref. #
+  1    25           0.1     NaClO4           lgK:14.23(4SF)         5           MDS         2330
+
+
+Reaction No. 69876
+Cm+3_H+1_Citric-3 + Citric-3 = Cm+3_H+1_Citric-3(2)
+ No       t     I-Str       Medium             Value (Dev)          W           Tech.       Ref. #
+  1    25           0.1     NaClO4           lgK:10.69(4SF)         4           MSE         2330
+
+
+Reaction No. 70275
+Cm+2 + 2<e-1> = Cm(s)
+ No    t       I-Str            Medium              Value (Dev)         W        Tech.      Ref. #
+ 1    25            0       Inf. Dilution           E:-0.9(1SF)         4         ENS        7276
+
+
+Reaction No. 71127
+Cm+4 + e-1 = Cm+3
+ No   t       I-Str          Medium                 Value (Dev)             W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution           lgK:52.40(4SF)            2      CRV       32224
+ 2    25        0         Inf. Dilution             E:3.0(2SF)              2      CRV       6330
+ 3    25        0         Inf. Dilution             E:3.0(2SF)              2      CRV       7761
+ 4    25        0         Inf. Dilution             E:3.0(2SF)              2      CRV       22519
+ 5    25        0         Inf. Dilution             E:3.1(2SF)              2      CRV       22551
+ 6    25        0         Inf. Dilution          dH:-240.6(4SF)kJ           2      CRV       7761
+
+
+
+
+                                            – Page 21 of 36 –
+JESS Thermodynamic Database v8.9                                              Curium
+
+
+Reaction No. 71436
+CO3-2 + Cm+3 = Cm+3_CO3-2
+ No   t    I-Str        Medium                 Value (Dev)               W    Tech.    Ref. #
+ 1    25     0       Inf. Dilution            lgK:8.3(4SF)               1     EOR
+ 2    25     0       Inf. Dilution            lgK:8.30(3SF)              5     MFL      8122
+ 3    25     0       Inf. Dilution          lgK:8.00(0.40SD)             3     EOD      32222
+ 4    25    0.7         NaClO4                lgK:5.73(3SF)              4     EFE      8782
+ 5    25     0       Inf. Dilution       dH:157.590(7.996SD)kJ           4     CRV      32222
+
+
+Reaction No. 71437
+Cm+3_CO3-2 + CO3-2 = Cm+3_CO3-2(2)
+ No    t    I-Str            Medium             Value (Dev)      W           Tech.     Ref. #
+ 1    25         0      Inf. Dilution          lgK:5.22(3SF)     5           MFL       8122
+
+
+Reaction No. 71438
+Cm+3_CO3-2(2) + CO3-2 = Cm+3_CO3-2(3)
+ No    t    I-Str           Medium              Value (Dev)          W       Tech.     Ref. #
+ 1    25         0     Inf. Dilution          lgK:2.00(3SF)          2        MFL       8122
+ 2    25         0     Inf. Dilution          lgK:0.9(0.1SD)         3        CRV      32233
+ 3    25         3           NaCl             lgK:2.0(0.1SD)         3        CRV      32233
+ 4    25         3           NaCl            dH:12.2(4.4SD)kJ        3        CRV      32233
+
+
+Reaction No. 71439
+Cm+3_CO3-2(3) + CO3-2 = Cm+3_CO3-2(4)
+ No    t    I-Str            Medium             Value (Dev)      W           Tech.     Ref. #
+ 1    25         0      Inf. Dilution         lgK:-2.16(3SF)     3            MFL       8122
+
+
+Reaction No. 71440
+2<CO3-2> + Cm+3 = Cm+3_CO3-2(2)
+ No   t    I-Str          Medium               Value (Dev)           W        Tech.    Ref. #
+ 1    25     0        Inf. Dilution           lgK:13.52(4SF)         1         EOR
+ 2    25     0        Inf. Dilution           lgK:13.52(4SF)         5         MFL      8122
+ 3    25     0        Inf. Dilution         lgK:12.90(0.60SD)        3         EOD     32222
+ 4    25    0.7           NaClO4              lgK:9.88(3SF)          4         EFE      8782
+
+
+Reaction No. 71441
+3<CO3-2> + Cm+3 = Cm+3_CO3-2(3)
+
+
+
+
+                                        – Page 22 of 36 –
+JESS Thermodynamic Database v8.9                                          Curium
+
+
+ No   t    I-Str          Medium                 Value (Dev)     W       Tech.     Ref. #
+ 1    25     0        Inf. Dilution            lgK:15.52(4SF)    1        EOR
+ 2    25     0        Inf. Dilution            lgK:15.52(4SF)    5        MFL       8122
+ 3    25     0        Inf. Dilution            lgK:15.00(4SF)    3        EOD      32222
+
+
+Reaction No. 71442
+4<CO3-2> + Cm+3 = Cm+3_CO3-2(4)
+ No   t    I-Str          Medium                 Value (Dev)     W       Tech.     Ref. #
+ 1    25     0        Inf. Dilution            lgK:13.36(4SF)    1        EOR
+ 2    25     0        Inf. Dilution            lgK:13.36(4SF)    3        MFL       8122
+
+
+Reaction No. 72113
+CmO2(am.,s) + 4<H+1> + e-1 = Cm+3 + 2<H2O>
+ No   t    I-Str          Medium                 Value (Dev)     W       Tech.     Ref. #
+ 1    25     0         Inf. Dilution            lgK:45.7(3SF)    1       ELC
+ 2    25     0         Inf. Dilution              E:2.9(2SF)     0       CRV       7761
+
+
+Reaction No. 72114
+CmO2(s) + 4<H+1> + e-1 = Cm+3 + 2<H2O>
+ No   t    I-Str         Medium                  Value (Dev)         W   Tech.     Ref. #
+ 1    25     0       Inf. Dilution               E:2.3(2SF)          3    CRV       7761
+ 2    25     0       Inf. Dilution            dH:-282.3(4SF)kJ       3    CRV       7761
+
+
+Reaction No. 72115
+CmO2(am.,s) + 2<H2O> + e-1 = Cm+3_OH-1(3)_(am.,s) + OH-1
+ No   t    I-Str          Medium                 Value (Dev)     W       Tech.     Ref. #
+ 1    25     0        Inf. Dilution               E:0.9(1SF)     3        CRV       7761
+ 2    25     0        Inf. Dilution            dH:-80.(2SF)kJ    3        EES       7761
+Note (2): By analogy with the crystalline solid
+
+
+Reaction No. 72116
+CmO2(s) + 2<H2O> + e-1 = Cm+3_OH-1(3)_(s) + OH-1
+ No   t    I-Str         Medium                  Value (Dev)     W       Tech.     Ref. #
+ 1    25     0        Inf. Dilution              E:0.4(1SF)      3        CRV       7761
+ 2    25     0        Inf. Dilution            dH:-81.7(3SF)kJ   3        CRV       7761
+
+
+Reaction No. 72117
+
+
+
+
+                                         – Page 23 of 36 –
+JESS Thermodynamic Database v8.9                                                      Curium
+
+
+Cm+3_OH-1(3)_(am.,s) + 3<e-1> = Cm(s) + 3<OH-1>
+ No   t       I-Str          Medium                Value (Dev)                 W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution          lgK:-129.9(4SF)               1      ELC
+ 2    25        0         Inf. Dilution           E:-2.48(3SF)                 0      CRV       7761
+ 3    25        0         Inf. Dilution           dH:640.(3SF)                 0      EES
+Note (3): By analogy with the crystalline solid
+
+
+Reaction No. 72118
+Cm+3_OH-1(3)_(s) + 3<e-1> = Cm(s) + 3<OH-1>
+ No   t       I-Str          Medium                Value (Dev)                 W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution           E:-2.52(3SF)                 4      CRV       7761
+ 2    25        0         Inf. Dilution          dH:643.1(4SF)kJ               3      CRV       7761
+
+
+Reaction No. 75145
+2<Glycolic-1> + Cm+3 = Cm+3_Glycolic-1(2)
+ No    t       I-Str      Medium             Value (Dev)                   W        Tech.      Ref. #
+ 1    20        0.5       NaClO4          lgK:4.745(0.044SD)               6         MIX        22983
+ 2    25            2     NaClO4            lgK:4.56(3SF)                  5         MDS        2110
+
+
+Reaction No. 75915
+Cm+3_Lactic-1 + Lactic-1 = Cm+3_Lactic-1(2)
+ No       t     I-Str       Medium            Value (Dev)          W               Tech.       Ref. #
+  1    10           1.5       KCl            lgK:1.70(3SF)         5               MEP         11516
+Note (1): Sakanoue M et al., Bull. Chem. Soc. Jpn., 1972, 45, 3429
+
+
+Reaction No. 76134
+Cm+3_SCN-1 + SCN-1 = Cm+3_SCN-1(2)
+ No    t       I-Str        Medium            Value (Dev)              W           Tech.       Ref. #
+  1   25            1       NaClO4           lgK:-0.52(2SF)            0            MDS        11516
+Note (1): Harmon H et al., J. Inorg. Nucl. Chem., 1972, 34, 1381
+  2   25            1       NaClO4           lgK:0.42(2SF)             3            MDS        11516
+Note (2): Choppin G et al., J. Inorg. Nucl. Chem., 1965, 27, 1335
+  3   30            1      NH4ClO4           lgK:0.43(2SF)             3            MDS         4610
+
+
+Reaction No. 76192
+Cm+3_NTA-3 + NTA-3 = Cm+3_NTA-3(2)
+ No       t     I-Str        Medium            Value (Dev)         W               Tech.       Ref. #
+
+
+
+
+                                           – Page 24 of 36 –
+JESS Thermodynamic Database v8.9                                            Curium
+
+
+  1    20       0.1        Unknown          lgK:8.05(3SF)        5        MTP        11516
+Note (1): Shalinets A, Radiokhim., 1971, 13, 566
+  2    25       0.1        NH4ClO4          lgK:8.78(3SF)        5        MIX        11516
+Note (2): Eberle S et al., Z. Anorg. Allg. Chem., 1968, 361, 1
+  3    25           6      Unknown          lgK:9.43(3SF)        5        MDS        11516
+Note (3): Korpusov G et al., Radiokhim., 1975, 17, 512
+
+
+Reaction No. 76256
+Cm+3_Acetic-1 + Acetic-1 = Cm+3_Acetic-1(2)
+ No       t     I-Str       Medium           Value (Dev)         W       Tech.       Ref. #
+  1    20           0.5     NaClO4          lgK:1.03(3SF)        5       MDS         22983
+
+
+Reaction No. 78148
+EDTA-4 + H+1 + Cm+3 = Cm+3_H+1_EDTA-4
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution         lgK:22.23(4SF)       1      ELC
+
+
+Reaction No. 78183
+2<Citric-3> + H+1 + Cm+3 = Cm+3_H+1_Citric-3(2)
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution         lgK:18.84(4SF)       1      ELC
+
+
+Reaction No. 78201
+Gly-1 + H+1 + Cm+3 = Cm+3_H+1_Gly-1
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution         lgK:10.61(4SF)       1      ELC
+
+
+Reaction No. 79101
+Citric-3 + H+1 + Cm+3 = Cm+3_H+1_Citric-3
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution         lgK:7.528(4SF)       1      ELC
+
+
+Reaction No. 79189
+3<OH-1> + Cm+3 = Cm+3_OH-1(3)_(am.,s)
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution         lgK:25.56(4SF)       1      ELC
+
+
+Reaction No. 79190
+
+
+
+
+                                          – Page 25 of 36 –
+JESS Thermodynamic Database v8.9                                          Curium
+
+
+3<OH-1> + Cm+3 = Cm+3_OH-1(3)_(s)
+ No   t    I-Str          Medium                Value (Dev)      W       Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:23.81(4SF)     1       ELC
+
+
+Reaction No. 79883
+Cm(s) + 0.5<H2(g)> + 0.5<O2(g)> - 2<e-1> = Cm+3_OH-1
+ No   t    I-Str        Medium                  Value (Dev)          W   Tech.     Ref. #
+ 1    25     0       Inf. Dilution           dG:-790.07(5SF)kJ       4    CRV      29375
+
+
+Reaction No. 79884
+Cm(s) + H2(g) + O2(g) - e-1 = Cm+3_OH-1(2)
+ No   t    I-Str        Medium                  Value (Dev)          W   Tech.     Ref. #
+ 1    25     0       Inf. Dilution           dG:-980.86(5SF)kJ       4    CRV      29375
+
+
+Reaction No. 79885
+Cm(s) + 1.5<H2(g)> + 1.5<O2(g)> = Cm+3_OH-1(3)
+ No   t    I-Str        Medium                  Value (Dev)          W   Tech.     Ref. #
+ 1    25     0       Inf. Dilution           dG:-1161.5(5SF)kJ       4    CRV      29375
+
+
+Reaction No. 79886
+0.5<Cl2(g)> + Cm(s) - 2<e-1> = Cm+3_Cl-1
+ No   t    I-Str        Medium                  Value (Dev)          W   Tech.     Ref. #
+ 1    25     0       Inf. Dilution           dG:-728.36(5SF)kJ       4    CRV      29375
+
+
+Reaction No. 79887
+Cl2(g) + Cm(s) - e-1 = Cm+3_Cl-1(2)
+ No   t    I-Str        Medium                  Value (Dev)          W   Tech.     Ref. #
+ 1    25     0       Inf. Dilution           dG:-851.01(5SF)kJ       4    CRV      29375
+
+
+Reaction No. 79888
+0.5<Cl2(g)> + Cm(s) + 1.5<H2(g)> + 1.5<O2(g)> + e-1 = Cm+3_Cl-1_OH-1(3)
+ No   t    I-Str        Medium                  Value (Dev)          W   Tech.     Ref. #
+ 1    25     0       Inf. Dilution           dG:-1297.2(5SF)kJ       4    CRV      29375
+
+
+Reaction No. 79889
+Cm(s) + 2<O2(g)> + S(s) - e-1 = Cm+3_SO4-2
+ No   t    I-Str        Medium                  Value (Dev)          W   Tech.     Ref. #
+ 1    25     0       Inf. Dilution           dG:-1362.2(5SF)kJ       4    CRV      29375
+
+
+
+
+                                      – Page 26 of 36 –
+JESS Thermodynamic Database v8.9                                       Curium
+
+
+
+Reaction No. 79890
+Cm(s) + 4<O2(g)> + 2<S(s)> + e-1 = Cm+3_SO4-2(2)
+ No   t    I-Str        Medium                 Value (Dev)         W   Tech.    Ref. #
+ 1    25     0       Inf. Dilution          lgK:370.9(4SF)         1   ELC
+ 2    25     0       Inf. Dilution        dG:-2109.3(5SF)kJ        0   CRV      29375
+
+
+Reaction No. 79891
+Cm(s) + 6<O2(g)> + 3<S(s)> + 3<e-1> = Cm+3_SO4-2(3)
+ No   t    I-Str        Medium                 Value (Dev)         W   Tech.    Ref. #
+ 1    25     0       Inf. Dilution          lgK:501.1(4SF)         1   ELC
+ 2    25     0       Inf. Dilution        dG:-2851.2(5SF)kJ        0   CRV      29375
+
+
+Reaction No. 79892
+C(s) + Cm(s) + 1.5<O2(g)> - e-1 = Cm+3_CO3-2
+ No   t    I-Str        Medium                 Value (Dev)         W   Tech.    Ref. #
+ 1    25     0       Inf. Dilution        dG:-1173.2(5SF)kJ        4   CRV      29375
+
+
+Reaction No. 79893
+2<C(s)> + Cm(s) + 3<O2(g)> + e-1 = Cm+3_CO3-2(2)
+ No   t    I-Str        Medium                 Value (Dev)         W   Tech.    Ref. #
+ 1    25     0       Inf. Dilution        dG:-1730.8(5SF)kJ        4   CRV      29375
+
+
+Reaction No. 79894
+3<C(s)> + Cm(s) + 4.5<O2(g)> + 3<e-1> = Cm+3_CO3-2(3)
+ No   t    I-Str        Medium                 Value (Dev)         W   Tech.    Ref. #
+ 1    25     0       Inf. Dilution        dG:-2273.4(5SF)kJ        4   CRV      29375
+
+
+Reaction No. 79895
+4<C(s)> + Cm(s) + 6<O2(g)> + 5<e-1> = Cm+3_CO3-2(4)
+ No   t    I-Str        Medium                 Value (Dev)         W   Tech.    Ref. #
+ 1    25     0       Inf. Dilution          lgK:488.0(4SF)         1   ELC
+ 2    25     0       Inf. Dilution        dG:-2796.2(5SF)kJ        0   CRV      29375
+
+
+Reaction No. 79896
+C(s) + 0.5<H2(g)> + Cm(s) + 1.5<O2(g)> - 2<e-1> = Cm+3_H+1_CO3-2
+ No   t    I-Str        Medium                 Value (Dev)         W   Tech.    Ref. #
+ 1    25     0       Inf. Dilution        dG:-1203.0(5SF)kJ        4   CRV      29375
+
+
+
+
+                                      – Page 27 of 36 –
+JESS Thermodynamic Database v8.9                                       Curium
+
+
+
+Reaction No. 79897
+2<C(s)> + H2(g) + 0.5<Cl2(g)> + 2<Cm(s)> + 3<O2(g)> - 3<e-1 > = Cm+3(2)_H+1(2)_Cl-
+1_CO3-2(2)
+ No   t    I-Str        Medium               Value (Dev)        W      Tech.    Ref. #
+ 1    25     0       Inf. Dilution        dG:-2572.6(5SF)kJ     4      CRV      29375
+
+
+Reaction No. 79898
+Ca(s) + Cm(s) + 1.5<H2(g)> + 1.5<O2(g)> - 2<e-1> = Cm+3_Ca+2_OH-1(3)
+ No   t    I-Str        Medium               Value (Dev)         W     Tech.    Ref. #
+ 1    25     0       Inf. Dilution        dG:-1717.8(5SF)kJ      4       CRV    29375
+
+
+Reaction No. 79899
+2<Ca(s)> + Cm(s) + 2<H2(g)> + 2<O2(g)> - 3<e-1> = Cm+3_Ca+2(2)_OH-1(4)
+ No   t    I-Str        Medium               Value (Dev)         W     Tech.    Ref. #
+ 1    25     0       Inf. Dilution        dG:-2443.0(5SF)kJ      4       CRV    29375
+
+
+Reaction No. 79900
+3<Ca(s)> + Cm(s) + 3<H2(g)> + 3<O2(g)> - 3<e-1> = Cm+3_Ca+2(3)_OH-1(6)
+ No   t    I-Str        Medium               Value (Dev)         W     Tech.    Ref. #
+ 1    25     0       Inf. Dilution        dG:-3339.5(5SF)kJ      4       CRV    29375
+
+
+Reaction No. 79954
+Cm(s) + 1.5<H2(g)> + 1.5<O2(g)> = Cm+3_OH-1(3)_(am.,s)
+ No   t    I-Str        Medium               Value (Dev)         W     Tech.    Ref. #
+ 1    25     0       Inf. Dilution        dG:-1213.7(5SF)kJ      4       CRV    29375
+
+
+Reaction No. 79955
+C(s) + 0.5<H2(g)> + Cm(s) + 2<O2(g)> = Cm+3_OH-1_CO3-2_(s)
+ No   t    I-Str        Medium               Value (Dev)         W     Tech.    Ref. #
+ 1    25     0       Inf. Dilution        dG:-1414.9(5SF)kJ      4       CRV    29375
+
+
+Reaction No. 79956
+3<C(s)> + 2<Cm(s)> + 4.5<O2(g)> = Cm+3(2)_CO3-2(3)_(s)
+ No   t    I-Str        Medium               Value (Dev)         W     Tech.    Ref. #
+ 1    25     0       Inf. Dilution        dG:-2996.3(5SF)kJ      4       CRV    29375
+
+
+Reaction No. 79957
+
+
+
+
+                                      – Page 28 of 36 –
+JESS Thermodynamic Database v8.9                                               Curium
+
+
+2<C(s)> + 6<H2(g)> + Cm(s) + Na(s) + 6<O2(g)> = Cm+3_Na+1_CO3-2(2)_H2O(6)_(s)
+ No   t    I-Str          Medium               Value (Dev)            W        Tech.    Ref. #
+ 1    25     0        Inf. Dilution         dG:-3463.6(5SF)kJ         4         CRV     29375
+
+
+Reaction No. 80578
+2<Cl-1> + Cm+3 = Cm+3_Cl-1(2)
+ No   t    I-Str          Medium               Value (Dev)            W        Tech.    Ref. #
+ 1    25     0        Inf. Dilution         lgK:-1.16(0.10MD)         4         MFL     31295
+ 2    25     0        Inf. Dilution           dH:60.5(1.5MD)          4         MTD     31295
+
+
+Reaction No. 80635
+Cm+3 + H+1_Citric-3 = Cm+3_H+1_Citric-3
+ No    t    I-Str           Medium              Value (Dev)       W           Tech.     Ref. #
+ 1    25         0      Inf. Dilution           lgK:1.2(2SF)      1           ELC
+ 2    25         0      Inf. Dilution          lgK:5.31(3SF)      0           CRV       31301
+
+
+Reaction No. 81089
+Cm+3 + 2<H2O> = Cm+3_OH-1(2) + 2<H+1>
+ No   t    I-Str        Medium                 Value (Dev)                W    Tech.    Ref. #
+ 1    25     0       Inf. Dilution         lgK:-15.10(0.70SD)             4     CRV      32222
+ 2    25     0       Inf. Dilution        dH:143.700(8.648SD)kJ           4     CRV      32222
+
+
+Reaction No. 81090
+Cm+3 + 3<H2O> = Cm+3_OH-1(3) + 3<H+1>
+ No   t    I-Str        Medium                 Value (Dev)                W    Tech.    Ref. #
+ 1    25     0       Inf. Dilution         lgK:-26.20(0.50SD)             4     CRV      32222
+ 2    25     0       Inf. Dilution        dH:230.130(9.184SD)kJ           4     CRV      32222
+
+
+Reaction No. 81091
+Cm2O3(s) + 6<H+1> = 2<Cm+3> + 3<H2O>
+ No    t    I-Str          Medium               Value (Dev)       W           Tech.     Ref. #
+ 1    25         0      Inf. Dilution         lgK:53.15(4SF)      2            CRV      32222
+Note (1): By analogy with Am
+
+
+Reaction No. 81092
+5<CO3-2> + Cm+3 = Cm+3_CO3-2(5)
+ No   t    I-Str          Medium               Value (Dev)            W        Tech.    Ref. #
+
+
+
+
+                                        – Page 29 of 36 –
+JESS Thermodynamic Database v8.9                                          Curium
+
+
+ 1    25    0           Inf. Dilution        lgK:-5.10(1.35SD)       1    EOD      32222
+
+
+Reaction No. 81375
+Cm(s) - 4<e-1> = Cm+4
+ No   t    I-Str            Medium               Value (Dev)     W       Tech.     Ref. #
+ 1    25     0           Inf. Dilution          lgK:53.0(3SF)    1       ELC
+ 2    25     0           Inf. Dilution         lgK:64.75(4SF)    0       CRV       32224
+
+
+Reaction No. 81376
+CmO2+1 + 4<H+1> + e-1 = Cm+4 + 2<H2O>
+ No   t    I-Str            Medium               Value (Dev)     W       Tech.     Ref. #
+ 1    25     0           Inf. Dilution         lgK:45.65(4SF)    1       CRV       32224
+Note (1): query species
+
+
+Reaction No. 81377
+CmO2+2 + 4<H+1> + 2<e-1> = Cm+4 + 2<H2O>
+ No   t    I-Str            Medium               Value (Dev)     W       Tech.     Ref. #
+ 1    25     0           Inf. Dilution         lgK:79.46(4SF)    1       CRV       32224
+Note (1): query species
+
+
+Reaction No. 81378
+Cm+3_OH-1 + H+1 = Cm+4 + e-1 + H2O
+ No   t    I-Str            Medium               Value (Dev)     W       Tech.     Ref. #
+ 1    25     0          Inf. Dilution          lgK:-44.3(3SF)    1        ELC
+ 2    25     0          Inf. Dilution          lgK:-49.00(4SF)   0        CRV      32224
+
+
+Reaction No. 81379
+Cm+3_OH-1(2) + 2<H+1> = Cm+4 + e-1 + 2<H2O>
+ No   t    I-Str            Medium               Value (Dev)     W       Tech.     Ref. #
+ 1    25     0           Inf. Dilution         lgK:-36.3(3SF)    1       ELC
+ 2    25     0           Inf. Dilution         lgK:-43.3(3SF)    0       CRV       32224
+Note (2): rxn unbalanced in source
+
+
+Reaction No. 81380
+Cm+3_Cl-1 = Cm+4 + Cl-1 + e-1
+ No   t    I-Str            Medium               Value (Dev)     W       Tech.     Ref. #
+ 1    25     0          Inf. Dilution          lgK:-52.58(4SF)   4        CRV      32224
+
+
+
+
+                                         – Page 30 of 36 –
+JESS Thermodynamic Database v8.9                                   Curium
+
+
+Reaction No. 81381
+Cm+3_F-1 = Cm+4 + F-1 + e-1
+ No   t    I-Str         Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:-55.74(4SF)   4    CRV      32224
+
+
+Reaction No. 81382
+Cm+3_F-1(2) = Cm+4 + 2<F-1> + e-1
+ No   t    I-Str         Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:-59.0(3SF)    1    ELC
+ 2    25     0        Inf. Dilution         lgK:-55.74(4SF)   0    CRV      32224
+
+
+Reaction No. 81383
+Cm+3_F-1(3) = Cm+4 + 3<F-1> + e-1
+ No   t    I-Str         Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:-61.48(4SF)   4    CRV      32224
+
+
+Reaction No. 81384
+Cm+3_NO3-1 = Cm+4 + NO3-1 + e-1
+ No   t    I-Str         Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:-52.97(4SF)   4    CRV      32224
+
+
+Reaction No. 81385
+Cm+3_SO4-2 = Cm+4 + SO4-2 + e-1
+ No   t    I-Str         Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:-55.2(3SF)    1    ELC
+ 2    25     0        Inf. Dilution         lgK:-54.26(4SF)   0    CRV      32224
+
+
+Reaction No. 81386
+Cm+3_H+1(2)_PO4-3 = Cm+4 + 2<H+1> + PO4-3 + e-1
+ No   t    I-Str         Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:-74.32(4SF)   4    CRV      32224
+
+
+Reaction No. 81387
+Cm+3_PO4-3 = Cm+4 + PO4-3 + e-1
+ No   t    I-Str          Medium              Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:-72.6(3SF)    4   CRV       32224
+
+
+
+
+                                      – Page 31 of 36 –
+JESS Thermodynamic Database v8.9                               Curium
+
+
+                                     Data Assessment
+
+
+Weight                       Assessment
+9        highest accuracy
+8        multi-determined; excellent dependability
+7        trustworthy; outstanding single determination
+6        better than average reliability
+5        average single determination
+4        some doubt
+3        poorly known
+2        guess to achieve consistency (or just as bad)
+1        no information but consistent
+0        problematic/inconsistent
+
+
+
+
+                                          Techniques
+
+
+Abbrev                    Method
+CIU      Critical IUPAC publication (crit.)
+CMN      Several experimental values (crit.)
+CRV      Critical review
+EDH      Debye-Hueckel corrections
+EES      Personal estimate
+EFE      Free Energy relations
+EIU      Critical IUPAC review (estim.)
+ELC      Linear Combination of Reactions
+ENS      Not specified
+EOD      Calculated from data of others
+EOR      Other Reaction Constants
+ESC      Standard conditions anchor
+EVK      Variation of lgK with T
+MAX      Anion exchange
+MCE      Cation exchange
+MCL      Calorimetry
+MDG      Combination of Thermodynamic Data
+
+
+
+
+                                           – Page 32 of 36 –
+JESS Thermodynamic Database v8.9                                      Curium
+
+
+MDS    Distribution between two phases
+MDV    Dilatometry, densimetry
+MEP    Electrophoresis
+MFL    Fluorescence
+MGL    Glass electrode
+MIX    Ion exchange
+MSC    Miscellaneous
+MSE    Solvent Extraction
+MSL    Solubility
+MSP    Spectroscopy
+MTD    Temperature difference
+MTP    Migration or transference number
+
+
+
+
+                                    References
+
+
+Reference No.: 140(64SiM)
+Stability Constants of Metal-ion Complexes SP17, 1964 Sillen LG; Martell AE; The
+Chemical Soc.,London
+
+Reference No.: 437(80BoH)
+IUPAC Chemical Data Series No. 27, 1980 Bond AM; Hefter GT; Critical Survey of
+Stability Constants and Related Thermodynamic Data of Fluoride Complexes in Aqueous
+Solution; Pergamon, Oxford, U.K.
+
+Reference No.: 552(95SMM)
+NIST Critical Stability Constants of Metal Complexes Database, 1995 Smith RM; Martell
+AE; Motekaitis RJ; Version 2.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 775(71CCM)
+Selected Constants, 1971 Charlot G; Collumeau A; Marchon MJC; Oxidation-Reduction
+Potentials of Inorganic Substances in Aqueous Solution; Butterworths, London
+
+Reference No.: 903(77And)
+Critical Survey of Stability Constants of EDTA Complexes, 1977 Anderegg G; IUPAC
+Chemical Data Series. 14; Pergamon Press, Oxford
+
+Reference No.: 906(79Per)
+IUPAC Chemical Data Series No. 22, 1979 Perrin DD; Stability Constants of Metal-Ion
+Complexes, First Edition Part B, Organic Ligands; Pergamon, Oxford
+
+Reference No.: 931(71SiM)
+Stability Constants of Metal-ion Complexes SP25, 1971 Sillen LG; Martell AE; Supplement
+No 1 to Special Publication No 25; Chemical Society, London
+
+
+
+
+                                         – Page 33 of 36 –
+JESS Thermodynamic Database v8.9                                      Curium
+
+
+Reference No.: 999(91MaM)
+Estimation of Constants for JESS Database, 1991 May PM; May RF
+
+Reference No.: 1118(82And)
+Pure Appl. Chem., 1982, 54, 2693 - 2758; Anderegg G; Critical Survey of Stability
+Constants of NTA Complexes
+
+Reference No.: 1366(87CRS)
+Inorg. Chem., 1987, 26, 2318 - 2320; Choppin GR; Rizkalla EN; Sullivan JC; Calorimetric
+Studies of Curium Complexation. 2. Amino Carboxylates
+
+Reference No.: 2110(72ChD)
+J. Inorg. Nucl. Chem., 1972, 34, 3473 - 3477; Choppin GR; Degischer G; Complexing of
+Trivalent Actinide Ions by Glycolate
+
+Reference No.: 2112(70ChS)
+J. Inorg. Nucl. Chem., 1970, 32, 3283 - 3288; Choppin GR; Schneider JK; The Acetate
+Complexing by Trivalent Actinide Ions
+
+Reference No.: 2261(93PeP)
+IUPAC Stability Constants Database, 1993 Pettit LD; Powell HKJ; IUPAC (in co-operation
+with Academic Software), Otley, UK
+
+Reference No.: 2330(74HHB)
+J. Inorg. Nucl. Chem., 1974, 36, 2361 - 2366; Hubert S; Hussonnois M; Brillard L; Goby
+G; Guillaumont R; Determination Simultanee de Constantes de Formation de Complexes
+Critrique de l'Americium, du Curium, du Californium, de l'Einsteinium et du Fermium
+
+Reference No.: 2556(93MSM)
+NIST Critical Stability Constants of Metal Complexes Database, 1993 Martell AE; Smith
+RM; Motekaitis RJ; Version 1.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 3006(85BPJ)
+Standard Potentials in Aqueous Solution, 1985 Bard AJ; Parsons R; Jordan J; Monographs
+in Electroanalytical Chemistry and Electrochemistry; Marcel Dekker Inc.,New York and
+Basel
+
+Reference No.: 3232(68TaC)
+Inorg. Chem., 1968, 7, 2046 - 2048; Tanner SP; Choppin GR; Lanthanide and Actinide
+Complexes of Glycine. Determination of Stability Constants and Thermodynamic Parameters
+by a Solvent Extraction Method
+
+Reference No.: 4610(74KhM)
+J. Inorg. Nucl. Chem., 1974, 36, 3819 - 3825; Khopkar PK; Mathur JN; Thiocyanate
+Complexing of Some Trivalent Actinides and Lanthanides
+
+Reference No.: 5156(91ReB)
+Radiochim. Acta, 1991, 52/53, 453 - 456; Read D; Broyd TW; Recent Progress in Testing
+Chemical Equilibrium Models: The CHEMVAL Project
+
+Reference No.: 5234(73CDS)
+J. Inorg. Nucl. Chem., 1973, 35, 3595 - 3604; Chiarizia R; Danesi PR; Scibona G; Magon
+L; Liquid Anion Exchange of Thiocyanate-Nitrate Actinide and Lanthanide Complexes
+
+Reference No.: 5243(74KiC)
+J. Inorg. Nucl. Chem., 1974, 36, 1131 - 1134; Kinard WF; Choppin GR; Complexing of
+Trivalent Actinide Ions By Thiocyanate
+
+
+
+
+                                      – Page 34 of 36 –
+JESS Thermodynamic Database v8.9                                      Curium
+
+
+Reference No.: 5256(91MiK)
+Coord. Chem. Rev., 1991, 109, 1 - 5; Mikheev NB; Kamenskaya AN; Complex Formation of
+the Lanthanides and Actinides in Lower Oxidation States
+
+Reference No.: 5398(82Hog)
+IUPAC Chemical Data Series No. 21, 1982 Hogfeldt E; Stability Constants of Metal-ion
+Complexes, 2nd Suppl., Part A, Inorganic Ligands; Pergamon, Oxford
+
+Reference No.: 5612(80KhM)
+J. Inorg. Nucl. Chem., 1980, 42, 109 - 113; Khopkar PK; Mathur JN; Complexing of
+Californium(III) and other Trivalent Actinides by Inorganic Ligands
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+Reference No.: 6545(71Ste)
+Russ. J. Inorg. Chem., 1971, 16, 1583 - 1586; Stepanov AV; Comparative Stability of the
+Complexes of Yttrium and Various Rare Earth and Actinide Elements with Oxalate,
+Citrate, Ethylenediaminetetra-acetate, and 1,2-Diaminecyclohexanetetra- -acetate
+
+Reference No.: 7242(68Tru)
+J. Geol. Educ., 1968, 16, 17 - 20; Truesdell AH; The Advantage of Using pE Rather than
+Eh in Redox Equilibrium Calculations
+
+Reference No.: 7276(88CoW)
+Advanced Inorganic Chemistry, 5th Edn., 1988 Cotton FA; Wilkinson G; John Wiley & Sons
+Inc., N.Y., U.S.A
+
+Reference No.: 7421(97Mar)
+Ion Properties, 1997 Marcus Y; Marcel Dekker Inc., New York, U.S.A.
+
+Reference No.: 7761(89Bra)
+J. Phys. Chem. Ref. Data, 1989, 18, 1 - 21; Bratsch SG; Standard Electrode Potentials
+and Temperature Coefficients in Water at 298.15 K
+
+Reference No.: 8122(99FKW)
+J. Solution Chem., 1999, 28, 447 - 462; Fanghanel T; Konnecke T; Weger H; Paviet-
+Hartmann P; Neck V; Kim JI; Thermodynamics of Cm(III) in Concentrated Salt Solutions:
+Carbonate Complexation in NaCl Solution at 25C
+
+Reference No.: 8782(87CaB)
+Geochim. Cosmochim. Acta, 1987, 51, 597 - 605; Cantrell KJ; Byrne RH; Rare Earth
+Element Complexation by Carbonate and Oxalate Ions
+
+Reference No.: 11516(00PeP)
+IUPAC Stability Constants Database, 2000 Pettit LD; Powell HKJ; Release 4; Academic
+Software, U.K.
+
+Reference No.: 13293(65Bay)
+J. Inorg. Nucl. Chem., 1965, 27, 1831 - 1839; Baybarz RD; Dissociation Constants of the
+Transplutonium Element Chelates of Diethylenetriaminepenta-acetic Acid (DTPA) and the
+Application of DTPA Chelates to Solvent Extraction Separations of Transplutonium
+Elements from the Lanthanide Elements
+
+Reference No.: 13360(71Mos)
+Radiokhimiya, 1971, 13, 659 - 661; Moskvin AI; Complex Formation of Neptunium(IV,V) and
+Plutonium(IV) with DTPA
+
+
+
+
+                                      – Page 35 of 36 –
+JESS Thermodynamic Database v8.9                                      Curium
+
+
+Reference No.: 22519(05Lid)
+CRC Handbook of Chemistry and Physics, 86th Edn., 2005 Lide DR; A Ready-Reference Book
+of Chemical and Physical Data; Taylor & Francis, Boca Raton, USA
+
+Reference No.: 22551(06Inz)
+Encyclopedia of Electrochemistry, Vol. 7a, 2006, 17 - 75; Inzelt G; Standard, Formal
+and Other Characteristic Potentials of Selected Electrode Reactions
+
+Reference No.: 22983(63Gre)
+Acta Chem. Scand., 1963, 17, 1814 - 1815; Grenthe I; On the Stability of the Acetate
+and Glycolate Complexes of Trivalent Curium
+
+Reference No.: 25802(60LPY)
+Radiokhimiya, 1960, 2, 549 - 558; Lebedev IA; Pirozhkov SV; Yakovlev GN; Determination
+of the Composition and of the Instability Constants of Oxalate, Nitrate, and Sulfate
+Complexes of Am(III) and Cm(III) by Ion Exchange
+
+Reference No.: 29375(17WAK)
+J. Solution Chem., 2017, 46, 521 - 588; Wang P; Anderko A; Kosinski JJ; Springer RD;
+Lencka MM; Modeling Speciation and Solubility in Aqueous Systems Containing U(IV, VI),
+Np(IV, V, VI), Pu(III, IV, V, VI), Am(III), and Cm(III)
+
+Reference No.: 31112(14Mis)
+Russ. J. Inorg. Chem., 2014, 59, 824 - 830; Mishustin AI; Temperature Dependence of
+Complex Formation Constants in Aqueous Solutions of Metal Acetates
+
+Reference No.: 31295(19KSP)
+J. Chem. Thermodyn., 2019, 131, 219 - 224; Koke C; Skerencak-Frech A; Panak PJ;
+Thermodynamics of the Complexation of Curium(III) with Chloride in Alkali and Alkali
+Earth Metal Solutions at Elevated Temperatures
+
+Reference No.: 31301(10KFD)
+Japan Atomic Energy Agency Data/Code 2009-024, 2010 Kitamura A; Fujiwara K; Doi R;
+Yoshida Y; Mihara M; Terashima M; Yui M; JAEA Thermodynamic Database for Performance
+Assessment of Geological Disposal of High-level Radioactive and TRU Wastes; Geological
+Isolation Research Unit, JAEA, Japan
+
+Reference No.: 32222(06DGC)
+Technical Report TR-O6-17, 2006 Duro L; Grive M; Cera E; Domenech C; Bruno J; Update of
+a Thermodynamic Database for Radionuclides to Assist Solubility Limits Calculation for
+Performance Assessment; Swedish Nucl. Fuel & Waste Management Co, Stockholm, Sweden
+
+Reference No.: 32224(80BeT)
+Lawrence Berkeley Laboratory Report LBL-11448, 1980 Benson LV; Teague LS; A Tabulation
+of Thermodynamic Data for Chemical Reactions Involving 8 Elements Common to Radioactive
+Waste Package Systems
+
+Reference No.: 32233(12RVD)
+Appl. Geochem., 2012, 27, 414 - 426; Reiller PE; Vercouter T; Duro L; Ekberg C;
+Thermodynamic Data Provided through the FUNMIG Project: Analyses and Prospective
+
+
+
+
+                                      – Page 36 of 36 –
+

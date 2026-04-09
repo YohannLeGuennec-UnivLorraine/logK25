@@ -1,0 +1,4470 @@
+                    JESS Thermodynamic Database v8.9
+                                         C20
+
+                                      24-Jan-23
+
+Reaction No. 1889
+H+1 + GSSG-4 = H+1_GSSG-4
+ No    t    I-Str         Medium            Value (Dev)       W   Tech.   Ref. #
+  1    5      1               NaCl      lgK:10.017(0.002MD)   5   MGL     22945
+  2   25      0               NaCl      lgK:10.481(0.006MD)   4   MGL     22945
+  3   25     0.1              KNO3        lgK:9.59(0.01SD)    5   MGL     4901
+  4   25     0.1              NaCl       lgK:9.700(0.005MD)   7   MGL     22945
+  5   25    0.15              KNO3        lgK:9.5(0.04SD)     3   MGL     2061
+  6   25    0.15              KNO3        lgK:9.72(0.02SD)    3   MGL     3562
+  7   25     0.2              KCl         lgK:9.9(0.03SD)     0   MGL      976
+  8   25     0.2              KNO3        lgK:9.5(0.03SD)     6   MPM     1059
+  9   25    0.25              NaCl       lgK:9.529(0.003MD)   7   MGL     22945
+ 10   25     0.4              KCl         lgK:9.5(0.04SD)     5   MGL     2421
+ 11   25     0.5              NaCl       lgK:9.455(0.002MD)   7   MGL     22945
+ 12   25    0.75              NaCl       lgK:9.447(0.002MD)   7   MGL     22945
+ 13   25      1               NaCl       lgK:9.462(0.002MD)   7   MGL     22945
+ 14   25      2               NaCl       lgK:9.590(0.002MD)   7   MGL     22945
+ 15   25      3               NaCl       lgK:9.751(0.002MD)   7   MGL     22945
+ 16   25      4               NaCl       lgK:9.926(0.001MD)   7   MGL     22945
+ 17   25     4.5              NaCl      lgK:10.016(0.002MD)   7   MGL     22945
+ 18   25      5               NaCl      lgK:10.108(0.002MD)   7   MGL     22945
+ 19   25     5.5              NaCl      lgK:10.200(0.003MD)   7   MGL     22945
+ 20   37    0.15       Blood Plasma       lgK:9.2(0.05SD)     3    ENS      94
+ 21   37    0.15          NaClO4         lgK:9.15(0.006SD)    3   MGL     1041
+ 22   45      1               NaCl       lgK:9.024(0.003MD)   6   MGL     22945
+ 23    5      1               NaCl      dH:-39.68(0.14MD)kJ   4   MTD     22945
+ 24   25      0               NaCl      dH:-31.66(0.18MD)kJ   4   MTD     22945
+ 25   25     0.1              NaCl        dH:-34.25(4SF)kJ    7   MTD     22945
+ 26   25    0.25              NaCl      dH:-35.14(0.16MD)kJ   7   MTD     22945
+ 27   25     0.5              NaCl      dH:-35.89(0.14MD)kJ   7   MTD     22945
+ 28   25    0.75              NaCl      dH:-36.35(0.14MD)kJ   7   MTD     22945
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                     C20
+
+
+ 29   25    1           NaCl            dH:-36.69(0.14MD)kJ   7    MTD     22945
+ 30   25    2           NaCl            dH:-37.56(0.14MD)kJ   7    MTD     22945
+ 31   25    3           NaCl            dH:-38.13(0.14MD)kJ   7    MTD     22945
+ 32   25    4           NaCl            dH:-38.59(0.12MD)kJ   4    MTD     22945
+Note (32): Assumed dH = -8.59 is a misprint for -38.59
+ 33   25   4.5          NaCl            dH:-38.79(0.14MD)kJ   3    MTD     22945
+ 34   25    5           NaCl            dH:-38.99(0.14MD)kJ   3    MTD     22945
+ 35   25   5.5          NaCl            dH:-39.17(0.16MD)kJ   7    MTD     22945
+ 36   45    1           NaCl            dH:-33.70(0.16MD)kJ   4    MTD     22945
+
+
+Reaction No. 1890
+2<H+1> + GSSG-4 = H+1(2)_GSSG-4
+ No   t    I-Str        Medium              Value (Dev)       W   Tech.    Ref. #
+ 1    25    0.1          KNO3            lgK:18.65(0.01SD)    5    MGL      4901
+ 2    25    0.2          KCl              lgK:18.3(0.03SD)    4    MGL      976
+ 3    37   0.15      Blood Plasma         lgK:17.8(0.05SD)    4    ENS       94
+ 4    37   0.15         NaClO4           lgK:17.60(0.005SD)   6    MGL      1041
+
+
+Reaction No. 1891
+3<H+1> + GSSG-4 = H+1(3)_GSSG-4
+ No   t    I-Str        Medium              Value (Dev)       W   Tech.    Ref. #
+ 1    25    0.1          KNO3             lgK:22.6(0.03SD)    5   MGL      4901
+ 2    25    0.2          KCl              lgK:22.2(0.03SD)    4   MGL       976
+ 3    37   0.15      Blood Plasma         lgK:21.7(0.05SD)    4   ENS        94
+ 4    37   0.15         NaClO4           lgK:21.65(0.01SD)    6   MGL      1041
+
+
+Reaction No. 1892
+4<H+1> + GSSG-4 = H+1(4)_GSSG-4
+ No   t    I-Str        Medium              Value (Dev)       W   Tech.    Ref. #
+ 1    25    0.1          KNO3            lgK:26.07(0.02SD)    5   MGL      4901
+ 2    25    0.2          KCl              lgK:25.3(0.04SD)    4   MGL       976
+ 3    37   0.15      Blood Plasma         lgK:24.8(0.05SD)    4   ENS        94
+ 4    37   0.15         NaClO4           lgK:24.83(0.02SD)    4   MGL      1041
+
+
+Reaction No. 1893
+5<H+1> + GSSG-4 = H+1(5)_GSSG-4
+ No   t    I-Str        Medium              Value (Dev)       W   Tech.    Ref. #
+
+
+
+
+                                      – Page 2 of 84 –
+JESS Thermodynamic Database v8.9                                           C20
+
+
+ 1    25    0.1          KNO3            lgK:28.5(0.04SD)    5        MGL         4901
+ 2    25    0.2          KCl             lgK:27.7(0.05SD)    4        MGL         976
+ 3    37   0.15      Blood Plasma        lgK:27.5(0.05SD)    4        ENS          94
+ 4    37   0.15         NaClO4          lgK:27.51(0.02SD)    6        MGL         1041
+
+
+Reaction No. 1894
+6<H+1> + GSSG-4 = H+1(6)_GSSG-4
+ No   t    I-Str        Medium              Value (Dev)      W       Tech.       Ref. #
+ 1    25     0       Inf. Dilution         lgK:31.7(3SF)     1        ELC
+ 2    25    0.1          KNO3            lgK:30.9(0.08SD)    0        MGL         4901
+ 3    25    0.2           KCl            lgK:29.5(0.08SD)    0        MGL         976
+ 4    37   0.15      Blood Plasma        lgK:28.9(0.05SD)    0        ENS          94
+ 5    37   0.15         NaClO4           lgK:29.50(0.02SD)   0        MGL         1041
+
+
+Reaction No. 1895
+GSSG-4 + Cu+2 = Cu+2_GSSG-4
+ No   t    I-Str        Medium              Value (Dev)          W   Tech.       Ref. #
+ 1    25     0      Inf. Dilution          lgK:15.9(3SF)         1    EDH
+ 2    25    0.1          KNO3           lgK:14.34(0.01SD)        4    MGL         4901
+ 3    25   0.15          KNO3           lgK:13.74(0.02SD)        2    MGL         3562
+ 4    25   0.15          KNO3             lgK:14.64(4SF)         0    MPL         5742
+ 5    25    0.2          KCl             lgK:13.9(0.03SD)        4    MGL         976
+ 6    37   0.15      Blood Plasma        lgK:13.8(0.05SD)        0    ENS          94
+ 7    37   0.15         NaClO4          lgK:13.37(0.008SD)       6    MGL         1041
+
+
+Reaction No. 1896
+2<GSSG-4> + Cu+2 = Cu+2_GSSG-4(2)
+ No   t    I-Str        Medium             Value (Dev)       W       Tech.       Ref. #
+ 1    25    0.1          KNO3           lgK:17.39(0.02SD)    5        MGL         4901
+ 2    37   0.15      Blood Plasma        lgK:15.5(0.05SD)    4        ENS          94
+ 3    37   0.15         NaClO4           lgK:15.4(0.07SD)    4        MGL         1041
+
+
+Reaction No. 1897
+GSSG-4 + 2<Cu+2> = Cu+2(2)_GSSG-4
+ No   t    I-Str        Medium             Value (Dev)       W       Tech.       Ref. #
+ 1    25    0.15         KNO3            lgK:16.3(0.08SD)    4       MGL         3562
+ 2    25    0.2           KCl            lgK:16.4(0.05SD)    4       MGL          976
+
+
+
+
+                                     – Page 3 of 84 –
+JESS Thermodynamic Database v8.9                                               C20
+
+
+ 3    37   0.15      Blood Plasma           lgK:16.1(0.05SD)    4        ENS           94
+ 4    37   0.15         NaClO4              lgK:16.0(0.06SD)    4        MGL          1041
+
+
+Reaction No. 1898
+H+1 + GSSG-4 + Cu+2 = Cu+2_H+1_GSSG-4
+ No   t    I-Str        Medium                 Value (Dev)          W   Tech.        Ref. #
+ 1    25   0.15          KNO3              lgK:18.2(0.04SD)         4    MGL          3562
+ 2    25    0.2          KCl               lgK:18.1(0.04SD)         4    MGL          976
+ 3    37   0.15      Blood Plasma          lgK:17.7(0.05SD)         4    ENS           94
+ 4    37   0.15         NaClO4            lgK:17.73(0.007SD)        6    MGL          1041
+
+
+Reaction No. 1899
+2<H+1> + GSSG-4 + Cu+2 = Cu+2_H+1(2)_GSSG-4
+ No   t    I-Str        Medium                  Value (Dev)         W   Tech.        Ref. #
+ 1    25     0       Inf. Dilution             lgK:24.2(3SF)        1    EDH
+ 2    25   0.15          KNO3               lgK:21.55(0.02SD)       6    MGL          3562
+ 3    25    0.2           KCl               lgK:21.6(0.05SD)        4    MGL          976
+ 4    37   0.15      Blood Plasma           lgK:21.5(0.05SD)        0    ENS           94
+ 5    37   0.15         NaClO4              lgK:20.7(0.04SD)        4    MGL          1041
+
+
+Reaction No. 1900
+2<H+1> + 2<GSSG-4> + Cu+2 = Cu+2_H+1(2)_GSSG-4(2)
+ No   t    I-Str        Medium                 Value (Dev)      W       Tech.        Ref. #
+ 1    25   0.15          KNO3               lgK:34.2(0.08SD)    4        MGL          3562
+ 2    37   0.15      Blood Plasma           lgK:28.0(0.05SD)    0        ENS           94
+
+
+Reaction No. 1901
+GSSG-4 + Cu+2 + OH-1 = Cu+2_OH-1_GSSG-4
+ No   t    I-Str         Medium                 Value (Dev)     W       Tech.        Ref. #
+ 1    37    0.15      Blood Plasma            lgK:4.1(0.05SD)   4       ENS            94
+
+
+Reaction No. 1902
+GSSG-4 + Zn+2 = Zn+2_GSSG-4
+ No   t    I-Str         Medium                 Value (Dev)     W       Tech.        Ref. #
+ 1    25    0.15          KNO3                 lgK:7.22(3SF)    6       MGL          2061
+ 2    25    0.2           KCl                 lgK:7.6(0.04SD)   4       MGL           976
+ 3    37    0.15      Blood Plasma            lgK:7.2(0.05SD)   4       ENS            94
+
+
+
+
+                                        – Page 4 of 84 –
+JESS Thermodynamic Database v8.9                                          C20
+
+
+
+Reaction No. 1903
+2<GSSG-4> + Zn+2 = Zn+2_GSSG-4(2)
+ No   t    I-Str        Medium                Value (Dev)      W   Tech.        Ref. #
+ 1    37   0.15      Blood Plasma           lgK:10.0(0.05SD)   3    ENS           94
+
+
+Reaction No. 1904
+GSSG-4 + Zn+2 + H+1 = Zn+2_H+1_GSSG-4
+ No   t    I-Str        Medium                Value (Dev)      W   Tech.        Ref. #
+ 1    25    0.2           KCl               lgK:13.8(0.05SD)   4    MGL          976
+ 2    37   0.15      Blood Plasma           lgK:12.6(0.05SD)   4    ENS           94
+
+
+Reaction No. 5287
+His-1 + Cu+2 + GSSG-4 = Cu+2_His-1_GSSG-4
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.        Ref. #
+ 1    25     0        Inf. Dilution           lgK:23.8(3SF)    1   ESC
+ 2    37   0.15        Blood Plasma           lgK:23.44(4SF)   6   ENS            94
+
+
+Reaction No. 5288
+H+1 + His-1 + Cu+2 + GSSG-4 = Cu+2_H+1_His-1_GSSG-4
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.        Ref. #
+ 1    25     0        Inf. Dilution           lgK:28.5(3SF)    1   ESC
+ 2    37   0.15        Blood Plasma           lgK:28.07(4SF)   6   ENS            94
+
+
+Reaction No. 5289
+2<H+1> + His-1 + Cu+2 + GSSG-4 = Cu+2_H+1(2)_His-1_GSSG-4
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.        Ref. #
+ 1    25     0        Inf. Dilution           lgK:32.7(3SF)    1   ESC
+ 2    37   0.15        Blood Plasma           lgK:32.28(4SF)   6   ENS            94
+
+
+Reaction No. 5290
+His-1 + Zn+2 + GSSG-4 = Zn+2_His-1_GSSG-4
+ No   t    I-Str          Medium               Value (Dev)     W   Tech.        Ref. #
+ 1    25     0        Inf. Dilution           lgK:11.8(3SF)    1   ESC
+ 2    37   0.15        Blood Plasma           lgK:11.50(4SF)   6   ENS            94
+
+
+Reaction No. 5291
+H+1 + His-1 + Zn+2 + GSSG-4 = Zn+2_H+1_His-1_GSSG-4
+
+
+
+
+                                        – Page 5 of 84 –
+JESS Thermodynamic Database v8.9                                                C20
+
+
+ No   t    I-Str          Medium                Value (Dev)         W    Tech.        Ref. #
+ 1    25     0        Inf. Dilution            lgK:19.3(3SF)        1     ESC
+ 2    37   0.15        Blood Plasma            lgK:19.00(4SF)       6     ENS           94
+
+
+Reaction No. 5292
+2<H+1> + His-1 + Zn+2 + GSSG-4 = Zn+2_H+1(2)_His-1_GSSG-4
+ No   t    I-Str          Medium                Value (Dev)         W    Tech.        Ref. #
+ 1    25     0        Inf. Dilution            lgK:25.4(3SF)        1     ESC
+ 2    37   0.15        Blood Plasma            lgK:25.00(4SF)       6     ENS           94
+
+
+Reaction No. 6456
+H+1 + Enalapril-1 = H+1_Enalapril-1
+ No   t     I-Str     Medium               Value (Dev)          W       Tech.         Ref. #
+ 1    37    0.15       NaCl             lgK:5.292(0.002SD)      6        MGL           954
+
+
+Reaction No. 6457
+2<H+1> + Enalapril-1 = H+1(2)_Enalapril-1
+ No    t    I-Str     Medium               Value (Dev)          W       Tech.         Ref. #
+ 1    37    0.15       NaCl             lgK:8.32(0.004SD)       6        MGL           954
+
+
+Reaction No. 6491
+H+1 + Enalapril-1 + Zn+2 = Zn+2_H+1_Enalapril-1
+ No    t    I-Str     Medium               Value (Dev)          W       Tech.         Ref. #
+ 1    37    0.15       NaCl             lgK:7.32(0.009SD)       6        MGL           954
+
+
+Reaction No. 6492
+Enalapril-1 + Zn+2 = Zn+2_Enalapril-1
+ No    t    I-Str      Medium              Value (Dev)          W       Tech.         Ref. #
+  1   37     0.15       NaCl             lgK:2.33(0.01SD)       6       MGL            954
+
+
+Reaction No. 6493
+Enalapril-1 + Zn+2 = H+1 + Zn+2_H+1(-1)_Enalapril-1
+ No    t    I-Str     Medium               Value (Dev)          W       Tech.         Ref. #
+ 1    37    0.15       NaCl             lgK:-4.96(0.01SD)       4        MGL           954
+
+
+Reaction No. 6494
+Enalapril-1 + Cu+2 = Cu+2_Enalapril-1
+ No    t    I-Str     Medium               Value (Dev)          W       Tech.         Ref. #
+
+
+
+
+                                         – Page 6 of 84 –
+JESS Thermodynamic Database v8.9                                              C20
+
+
+ 1    37    0.15       NaCl             lgK:3.12(0.006SD)         6     MGL          954
+
+
+Reaction No. 6495
+2<H+1> + 2<Enalapril-1> + Cu+2 = Cu+2_H+1(2)_Enalapril-1(2)
+ No   t     I-Str     Medium               Value (Dev)            W   Tech.         Ref. #
+ 1    37    0.15       NaCl             lgK:14.18(0.02SD)         4    MGL           954
+
+
+Reaction No. 6496
+Cu+2 + Enalapril-1 + Maleic-2 = Cu+2_Enalapril-1_Maleic-2
+ No   t     I-Str     Medium               Value (Dev)            W   Tech.         Ref. #
+ 1    37    0.15       NaCl             lgK:6.47(0.007SD)         6    MGL           954
+
+
+Reaction No. 6860
+GSSG-4 + Co+2 = Co+2_GSSG-4
+ No    t     I-Str     Medium              Value (Dev)        W       Tech.         Ref. #
+  1   25      0.2        KCl             lgK:7.1(0.04SD)      4        MGL           976
+
+
+Reaction No. 6861
+H+1 + GSSG-4 + Co+2 = Co+2_H+1_GSSG-4
+ No   t     I-Str      Medium              Value (Dev)        W       Tech.         Ref. #
+  1   25     0.2        KCl             lgK:13.8(0.06SD)      4        MGL           976
+
+
+Reaction No. 6862
+GSSG-4 + 2<Co+2> = Co+2(2)_GSSG-4
+ No    t     I-Str      Medium             Value (Dev)        W       Tech.         Ref. #
+  1   25      0.2        KCl             lgK:8.7(0.1SD)       3       MGL            976
+
+
+Reaction No. 6863
+GSSG-4 + Ni+2 = Ni+2_GSSG-4
+ No   t     I-Str      Medium              Value (Dev)        W       Tech.         Ref. #
+  1   25     0.2        KCl             lgK:9.08(0.03SD)      4        MGL           976
+
+
+Reaction No. 6864
+H+1 + GSSG-4 + Ni+2 = Ni+2_H+1_GSSG-4
+ No   t     I-Str      Medium              Value (Dev)        W       Tech.         Ref. #
+  1   25     0.2        KCl             lgK:15.0(0.04SD)      4        MGL           976
+
+
+Reaction No. 6865
+
+
+
+
+                                        – Page 7 of 84 –
+JESS Thermodynamic Database v8.9                                             C20
+
+
+GSSG-4 + 2<Ni+2> = Ni+2(2)_GSSG-4
+ No   t     I-Str      Medium             Value (Dev)       W       Tech.          Ref. #
+  1   25     0.2        KCl            lgK:11.1(0.08SD)     3        MGL            976
+
+
+Reaction No. 6866
+3<H+1> + GSSG-4 + Cu+2 = Cu+2_H+1(3)_GSSG-4
+ No   t     I-Str     Medium              Value (Dev)           W    Tech.         Ref. #
+ 1    25    0.15       KNO3            lgK:24.5(0.04SD)         4     MGL           3562
+ 2    25     0.2        KCl            lgK:24.6(0.05SD)         4     MGL           976
+ 3    37    0.15      NaClO4           lgK:24.51(0.01SD)        5     MGL           1041
+
+
+Reaction No. 6867
+GSSG-4 + 2<Zn+2> = Zn+2(2)_GSSG-4
+ No    t     I-Str      Medium            Value (Dev)       W       Tech.          Ref. #
+  1   25      0.2        KCl            lgK:9.8(0.1SD)      3       MGL             976
+
+
+Reaction No. 8100
+H+1_GSSG-4 + H+1 = H+1(2)_GSSG-4
+ No   t    I-Str     Medium               Value (Dev)           W    Tech.         Ref. #
+ 1    5      1        NaCl            lgK:9.337(0.002MD)        5     MGL           22945
+ 2    25    0.15      KNO3              lgK:8.6(0.04SD)         0     MGL           2061
+ 3    25    0.15      KNO3             lgK:8.87(0.02SD)         5     MGL           3562
+ 4    25    0.2       KNO3              lgK:8.8(0.03SD)         4     MGL           1059
+ 5    25    0.4        KCl              lgK:8.7(0.05SD)         5     MGL           2421
+ 6    25     1        NaCl            lgK:8.782(0.001MD)        6     MGL           22945
+ 7    45     1        NaCl            lgK:8.312(0.002MD)        6     MGL           22945
+ 8    5      1        NaCl            dH:-40.50(0.14MD)kJ       4     MTD           22945
+ 9    25     1        NaCl            dH:-39.12(0.12MD)kJ       4     MTD           22945
+ 10   45     1        NaCl            dH:-37.74(0.14MD)kJ       4     MTD           22945
+
+
+Reaction No. 8101
+H+1(2)_GSSG-4 + H+1 = H+1(3)_GSSG-4
+ No   t     I-Str     Medium              Value (Dev)           W    Tech.         Ref. #
+ 1    5       1        NaCl           lgK:3.732(0.002MD)        6     MGL          22945
+ 2    25    0.15       KNO3              lgK:4.03(3SF)          3     MGL           999
+ 3    25    0.15       KNO3            lgK:3.85(0.02SD)         5     MGL           3562
+ 4    25     0.2       KNO3             lgK:3.8(0.04SD)         4     MGL           1059
+
+
+
+
+                                        – Page 8 of 84 –
+JESS Thermodynamic Database v8.9                                       C20
+
+
+ 5    25      1        NaCl             lgK:3.687(4SF)     6   MGL           22945
+ 6    45      1        NaCl           lgK:3.663(0.002MD)   6   MGL           22945
+ 7    5       1        NaCl           dH:-0.94(0.14MD)kJ   4   MTD           22945
+ 8    25      1        NaCl           dH:0.28(0.10MD)kJ    4   MTD           22945
+ 9    45      1        NaCl           dH:1.49(0.14MD)kJ    4   MTD           22945
+
+
+Reaction No. 8102
+H+1(3)_GSSG-4 + H+1 = H+1(4)_GSSG-4
+ No   t     I-Str     Medium             Value (Dev)       W   Tech.         Ref. #
+ 1    5       1        NaCl           lgK:3.119(0.003MD)   6   MGL           22945
+ 2    25    0.15       KNO3             lgK:3.15(3SF)      6   MGL            999
+ 3    25    0.15       KNO3            lgK:3.05(0.02SD)    5   MGL           3562
+ 4    25     0.2       KNO3            lgK:3.2(0.04SD)     4   MPM           1059
+ 5    25      1        NaCl           lgK:3.092(0.002MD)   6   MGL           22945
+ 6    45      1        NaCl           lgK:3.052(0.002MD)   6   MGL           22945
+ 7    5       1        NaCl           dH:-0.45(0.16MD)kJ   4   MTD           22945
+ 8    25      1        NaCl           dH:-0.93(0.14MD)kJ   4   MTD           22945
+ 9    45      1        NaCl           dH:-1.41(0.14MD)kJ   4   MTD           22945
+
+
+Reaction No. 8103
+H+1(4)_GSSG-4 + H+1 = H+1(5)_GSSG-4
+ No   t     I-Str     Medium             Value (Dev)       W   Tech.         Ref. #
+ 1    5       1        NaCl           lgK:2.374(0.004MD)   6   MGL           22945
+ 2    25    0.15       KNO3            lgK:2.3(0.03SD)     5   MGL           3562
+ 3    25     0.2       KNO3            lgK:2.4(0.05SD)     4   MGL           1059
+ 4    25      1        NaCl           lgK:2.298(0.002MD)   6   MGL           22945
+ 5    45      1        NaCl           lgK:2.232(0.003MD)   6   MGL           22945
+ 6    5       1        NaCl           dH:-5.52(0.18MD)kJ   4   MTD           22945
+ 7    25      1        NaCl           dH:-5.52(0.14MD)kJ   4   MTD           22945
+ 8    45      1        NaCl           dH:-5.52(0.16MD)kJ   4   MTD           22945
+
+
+Reaction No. 8104
+H+1(5)_GSSG-4 + H+1 = H+1(6)_GSSG-4
+ No   t     I-Str     Medium             Value (Dev)       W   Tech.         Ref. #
+ 1    5       1        NaCl           lgK:1.773(0.001MD)   5   MGL           22945
+ 2    25    0.15       KNO3            lgK:1.2(0.04SD)     0   MGL           3562
+ 3    25     0.2       KNO3            lgK:1.8(0.07SD)     3   MGL           1059
+
+
+
+
+                                       – Page 9 of 84 –
+JESS Thermodynamic Database v8.9                                           C20
+
+
+ 4    25      1        NaCl           lgK:1.745(0.001MD)       5    MGL          22945
+ 5    45      1        NaCl           lgK:1.734(0.001MD)       5    MGL          22945
+ 6    5       1        NaCl           dH:-2.34(0.12MD)kJ       3    MTD          22945
+ 7    25      1        NaCl           dH:-1.86(0.12MD)kJ       3    MTD          22945
+ 8    45      1        NaCl           dH:-1.38(0.12MD)kJ       3    MTD          22945
+
+
+Reaction No. 8592
+H+1 + TyrTrp-2 = H+1_TyrTrp-2
+ No    t     I-Str     Medium             Value (Dev)      W       Tech.         Ref. #
+  1   25      0.1       KNO3           lgK:9.9(0.04SD)     3       MGL            958
+
+
+Reaction No. 8593
+2<H+1> + TyrTrp-2 = H+1(2)_TyrTrp-2
+ No   t     I-Str      Medium            Value (Dev)       W       Tech.         Ref. #
+  1   25     0.1        KNO3           lgK:17.3(0.05SD)    4        MGL           958
+
+
+Reaction No. 8594
+3<H+1> + TyrTrp-2 = H+1(3)_TyrTrp-2
+ No   t     I-Str      Medium            Value (Dev)       W       Tech.         Ref. #
+  1   25     0.1        KNO3           lgK:20.8(0.08SD)    3        MGL           958
+
+
+Reaction No. 8595
+H+1 + TyrTrp-2 + Cu+2 = Cu+2_H+1_TyrTrp-2
+ No   t     I-Str      Medium            Value (Dev)       W       Tech.         Ref. #
+  1   25     0.1        KNO3           lgK:15.6(0.09SD)    4        MGL           958
+
+
+Reaction No. 8596
+TyrTrp-2 + Cu+2 = Cu+2_TyrTrp-2
+ No   t     I-Str     Medium             Value (Dev)       W       Tech.         Ref. #
+ 1    25     0.1       KNO3           lgK:11.72(0.01SD)    6        MGL           958
+
+
+Reaction No. 8597
+TyrTrp-2 + Cu+2 = H+1 + Cu+2_H+1(-1)_TyrTrp-2
+ No    t     I-Str     Medium             Value (Dev)      W       Tech.         Ref. #
+  1   25      0.1       KNO3           lgK:2.8(0.07SD)     4       MGL            958
+
+
+Reaction No. 8598
+TyrTrp-2 + Cu+2 = 2<H+1> + Cu+2_H+1(-2)_TyrTrp-2
+
+
+
+
+                                       – Page 10 of 84 –
+JESS Thermodynamic Database v8.9                                           C20
+
+
+ No   t     I-Str     Medium             Value (Dev)           W   Tech.         Ref. #
+ 1    25     0.1       KNO3           lgK:-7.32(0.02SD)        6    MGL           958
+
+
+Reaction No. 8599
+TyrTrp-2 + Cu+2 = 3<H+1> + Cu+2_H+1(-3)_TyrTrp-2
+ No   t     I-Str     Medium             Value (Dev)           W   Tech.         Ref. #
+ 1    25     0.1       KNO3           lgK:-19.4(0.03SD)        4    MGL           958
+
+
+Reaction No. 8600
+2<TyrTrp-2> + 2<Cu+2> = 2<H+1> + Cu+2(2)_H+1(-2)_TyrTrp-2(2)
+ No    t     I-Str     Medium            Value (Dev)           W   Tech.         Ref. #
+  1   25      0.1       KNO3           lgK:9.3(0.08SD)         3   MGL            958
+
+
+Reaction No. 8818
+H+1 + GSSG-4 + 2<Cu+2> = Cu+2(2)_H+1_GSSG-4
+ No   t     I-Str      Medium            Value (Dev)           W   Tech.         Ref. #
+  1   25     0.15       KNO3           lgK:20.1(0.1SD)         3    MGL           3562
+  2   37     0.15      NaClO4         lgK:20.2(0.04SD)         3    MGL           1041
+
+
+Reaction No. 8819
+Cu+2 + GSSG-4 + H2O = Cu+2_OH-1_GSSG-4 + H+1
+ No    t     I-Str     Medium            Value (Dev)           W   Tech.         Ref. #
+  1   37     0.15      NaClO4          lgK:3.4(0.03SD)         4   MGL           1041
+
+
+Reaction No. 8829
+H+1 + HisProPhe-1 = H+1_HisProPhe-1
+ No   t     I-Str      Medium            Value (Dev)           W   Tech.         Ref. #
+  1   25     0.1        KNO3          lgK:7.57(0.01SD)         4    MGL           1024
+
+
+Reaction No. 8830
+2<H+1> + HisProPhe-1 = H+1(2)_HisProPhe-1
+ No   t     I-Str     Medium             Value (Dev)           W   Tech.         Ref. #
+ 1    25     0.1       KNO3           lgK:13.11(0.01SD)        4    MGL           1024
+
+
+Reaction No. 8831
+3<H+1> + HisProPhe-1 = H+1(3)_HisProPhe-1
+ No   t     I-Str     Medium             Value (Dev)           W   Tech.         Ref. #
+ 1    25     0.1       KNO3           lgK:16.37(0.01SD)        6    MGL           1024
+
+
+
+
+                                      – Page 11 of 84 –
+JESS Thermodynamic Database v8.9                                          C20
+
+
+
+Reaction No. 8851
+H+1 + HisProPhe-1 + Cu+2 = Cu+2_H+1_HisProPhe-1
+ No   t     I-Str      Medium              Value (Dev)       W    Tech.         Ref. #
+  1   25     0.1        KNO3            lgK:12.2(0.05SD)     4    MGL           1024
+
+
+Reaction No. 8852
+HisProPhe-1 + Cu+2 = Cu+2_HisProPhe-1
+ No   t     I-Str      Medium              Value (Dev)       W    Tech.         Ref. #
+  1   25     0.1        KNO3            lgK:8.81(0.01SD)     6    MGL           1024
+
+
+Reaction No. 8853
+HisProPhe-1 + Cu+2 = H+1 + Cu+2_H+1(-1)_HisProPhe-1
+ No   t     I-Str      Medium              Value (Dev)       W    Tech.         Ref. #
+  1   25     0.1        KNO3            lgK:1.81(0.01SD)     6    MGL           1024
+
+
+Reaction No. 8854
+HisProPhe-1 + Cu+2 = 2<H+1> + Cu+2_H+1(-2)_HisProPhe-1
+ No   t     I-Str      Medium              Value (Dev)       W    Tech.         Ref. #
+  1   25     0.1        KNO3            lgK:-9.1(0.03SD)     4    MGL           1024
+
+
+Reaction No. 8855
+2<HisProPhe-1> + Cu+2 = Cu+2_HisProPhe-1(2)
+ No   t     I-Str      Medium              Value (Dev)       W    Tech.         Ref. #
+  1   25     0.1        KNO3            lgK:14.6(0.09SD)     4    MGL           1024
+
+
+Reaction No. 8856
+2<HisProPhe-1> + Cu+2 = H+1 + Cu+2_H+1(-1)_HisProPhe-1(2)
+ No   t     I-Str     Medium               Value (Dev)        W   Tech.         Ref. #
+ 1    25     0.1       KNO3             lgK:-2.80(0.01SD)     6    MGL           1024
+
+
+Reaction No. 8857
+2<HisProPhe-1> + 2<Cu+2> = H+1 + Cu+2(2)_H+1(-1)_HisProPhe-1(2)
+ No   t     I-Str     Medium               Value (Dev)        W   Tech.         Ref. #
+ 1    25     0.1       KNO3             lgK:12.90(0.01SD)     4    MGL           1024
+
+
+Reaction No. 9138
+GSSG-4 + Cd+2 = Cd+2_GSSG-4
+
+
+
+
+                                        – Page 12 of 84 –
+JESS Thermodynamic Database v8.9                                              C20
+
+
+ No    t     I-Str     Medium              Value (Dev)        W       Tech.         Ref. #
+  1   25      0.2       KNO3             lgK:6.2(0.05SD)      4       MGL           1059
+
+
+Reaction No. 9139
+H+1 + GSSG-4 + Cd+2 = Cd+2_H+1_GSSG-4
+ No   t     I-Str      Medium              Value (Dev)        W       Tech.         Ref. #
+  1   25     0.2        KNO3             lgK:13.4(0.08SD)     4        MGL           1059
+
+
+Reaction No. 10028
+H+1 + DeDiMeAmTetracycline-2 = H+1_DeDiMeAmTetracycline-2
+ No   t     I-Str     Medium               Value (Dev)        W       Tech.         Ref. #
+ 1    37    0.15       NaCl             lgK:7.71(0.003SD)     6        MGL           1144
+
+
+Reaction No. 10029
+2<H+1> + DeDiMeAmTetracycline-2 = H+1(2)_DeDiMeAmTetracycline-2
+ No   t     I-Str     Medium               Value (Dev)            W   Tech.         Ref. #
+ 1    37    0.15       NaCl             lgK:13.22(0.005SD)        6    MGL           1144
+
+
+Reaction No. 10030
+DeDiMeAmTetracycline-2 + Ca+2 = Ca+2_DeDiMeAmTetracycline-2
+ No   t     I-Str     Medium               Value (Dev)        W       Tech.         Ref. #
+ 1    37    0.15       NaCl             lgK:4.06(0.003SD)     6        MGL           1144
+
+
+Reaction No. 10031
+2<DeDiMeAmTetracycline-2> + Ca+2 = Ca+2_DeDiMeAmTetracycline-2(2)
+ No    t     I-Str     Medium              Value (Dev)        W       Tech.         Ref. #
+  1   37     0.15       NaCl             lgK:5.9(0.03SD)      4       MGL           1144
+
+
+Reaction No. 10032
+DeDiMeAmTetracycline-2 + Mg+2 = Mg+2_DeDiMeAmTetracycline-2
+ No   t     I-Str     Medium               Value (Dev)            W   Tech.         Ref. #
+ 1    37    0.15       NaCl             lgK:4.744(0.002SD)        6    MGL           1144
+
+
+Reaction No. 10033
+2<DeDiMeAmTetracycline-2> + Mg+2 = Mg+2_DeDiMeAmTetracycline-2(2)
+ No    t     I-Str     Medium              Value (Dev)        W       Tech.         Ref. #
+  1   37     0.15       NaCl             lgK:7.6(0.03SD)      4       MGL           1144
+
+
+
+
+                                        – Page 13 of 84 –
+JESS Thermodynamic Database v8.9                                            C20
+
+
+Reaction No. 15232
+IPr2DTPA:DiHydroxam-5 + H+1 = H+1_IPr2DTPA:DiHydroxam-5
+ No   t     I-Str      Medium           Value (Dev)          W      Tech.         Ref. #
+  1   25     0.1        KNO3          lgK:10.9(0.03SD)       4       MGL           1339
+
+
+Reaction No. 15233
+H+1_IPr2DTPA:DiHydroxam-5 + H+1 = H+1(2)_IPr2DTPA:DiHydroxam-5
+ No   t     I-Str      Medium           Value (Dev)          W      Tech.         Ref. #
+  1   25     0.1        KNO3          lgK:10.1(0.03SD)       3       MGL           1339
+
+
+Reaction No. 15234
+H+1(2)_IPr2DTPA:DiHydroxam-5 + H+1 = H+1(3)_IPr2DTPA:DiHydroxam-5
+ No    t     I-Str     Medium            Value (Dev)         W      Tech.         Ref. #
+  1   25      0.1       KNO3          lgK:9.1(0.03SD)        4      MGL           1339
+
+
+Reaction No. 15235
+H+1(3)_IPr2DTPA:DiHydroxam-5 + H+1 = H+1(4)_IPr2DTPA:DiHydroxam-5
+ No    t     I-Str     Medium            Value (Dev)         W      Tech.         Ref. #
+  1   25      0.1       KNO3          lgK:5.9(0.03SD)        4      MGL           1339
+
+
+Reaction No. 15236
+H+1(4)_IPr2DTPA:DiHydroxam-5 + H+1 = H+1(5)_IPr2DTPA:DiHydroxam-5
+ No    t     I-Str     Medium            Value (Dev)         W      Tech.         Ref. #
+  1   25      0.1       KNO3          lgK:3.7(0.03SD)        4      MGL           1339
+
+
+Reaction No. 15237
+H+1(5)_IPr2DTPA:DiHydroxam-5 + H+1 = H+1(6)_IPr2DTPA:DiHydroxam-5
+ No    t     I-Str     Medium            Value (Dev)         W      Tech.         Ref. #
+  1   25      0.1       KNO3          lgK:2.1(0.05SD)        4      MGL           1339
+
+
+Reaction No. 15238
+H+1(6)_IPr2DTPA:DiHydroxam-5 + H+1 = H+1(7)_IPr2DTPA:DiHydroxam-5
+ No    t     I-Str     Medium            Value (Dev)         W      Tech.         Ref. #
+  1   25      0.1       KNO3          lgK:1.3(0.05SD)        3      MGL           1339
+
+
+Reaction No. 15239
+H+1(7)_IPr2DTPA:DiHydroxam-5 + H+1 = H+1(8)_IPr2DTPA:DiHydroxam-5
+ No    t     I-Str     Medium            Value (Dev)         W      Tech.         Ref. #
+
+
+
+
+                                      – Page 14 of 84 –
+JESS Thermodynamic Database v8.9                                             C20
+
+
+  1   25      0.1       KNO3             lgK:0.0(0.05SD)        6    MGL            1339
+
+
+Reaction No. 15240
+Fe+3_IPr2DTPA:DiHydroxam-5 + H2O = Fe+3_OH-1_IPr2DTPA:DiHydroxam-5 + H+1
+ No   t     I-Str     Medium               Value (Dev)          W    Tech.         Ref. #
+ 1    25     0.1       KNO3             lgK:-9.93(0.01SD)       3     MGL           1339
+
+
+Reaction No. 15241
+Fe+3_IPr2DTPA:DiHydroxam-5 + H+1 = Fe+3_H+1_IPr2DTPA:DiHydroxam-5
+ No    t     I-Str     Medium              Value (Dev)          W   Tech.          Ref. #
+  1   25      0.1       KNO3             lgK:8.1(0.03SD)        4    MGL            1339
+
+
+Reaction No. 15242
+Fe+3_H+1_IPr2DTPA:DiHydroxam-5 + H+1 = Fe+3_H+1(2)_IPr2DTPA:DiHydroxam-5
+ No   t     I-Str      Medium              Value (Dev)          W    Tech.         Ref. #
+  1   25     0.1        KNO3            lgK:6.12(0.02SD)        4     MGL           1339
+
+
+Reaction No. 15243
+Fe+3 + IPr2DTPA:DiHydroxam-5 = Fe+3_IPr2DTPA:DiHydroxam-5
+ No    t     I-Str      Medium             Value (Dev)      W       Tech.          Ref. #
+  1   25      0.1        KNO3             lgK:29.7(3SF)     4       MGL            1339
+
+
+Reaction No. 15363
+H+1 + SHBED-6 = H+1_SHBED-6
+ No   t     I-Str      Medium              Value (Dev)          W    Tech.         Ref. #
+  1   25     0.1        KCl             lgK:12.9(0.03SD)        3     MGL           1200
+  2   25     0.1        KCl              lgK:12.27(4SF)         0     MGL           3871
+
+
+Reaction No. 15364
+H+1_SHBED-6 + H+1 = H+1(2)_SHBED-6
+ No   t     I-Str     Medium               Value (Dev)          W    Tech.         Ref. #
+ 1    25     0.1        KCl             lgK:10.42(0.01SD)       6     MGL           1200
+ 2    25     0.1        KCl              lgK:10.65(4SF)         6     MGL           2552
+ 3    25     0.1        KCl              lgK:10.25(4SF)         6     MGL           3871
+
+
+Reaction No. 15365
+H+1(2)_SHBED-6 + H+1 = H+1(3)_SHBED-6
+ No   t     I-Str      Medium              Value (Dev)          W    Tech.         Ref. #
+
+
+
+
+                                        – Page 15 of 84 –
+JESS Thermodynamic Database v8.9                                                       C20
+
+
+  1   25        0.1          KCl          lgK:7.90(0.01SD)            4         MGL           1200
+  2   25        0.1          KCl           lgK:7.89(3SF)              6         MGL           2552
+  3   25        0.1          KCl           lgK:8.05(3SF)              6         MGL           3871
+
+
+Reaction No. 15366
+H+1(3)_SHBED-6 + H+1 = H+1(4)_SHBED-6
+ No    t       I-Str       Medium           Value (Dev)               W        Tech.         Ref. #
+  1   25        0.1          KCl          lgK:4.29(0.01SD)            6         MGL           1200
+  2   25        0.1          KCl           lgK:4.25(3SF)              6         MGL           2552
+  3   25        0.1          KCl           lgK:4.50(3SF)              6         MGL           3871
+
+
+Reaction No. 15367
+H+1(4)_SHBED-6 + H+1 = H+1(5)_SHBED-6
+ No   t       I-Str          Medium               Value (Dev)             W      Tech.        Ref. #
+ 1    25        0         Inf. Dilution          lgK:2.8(2SF)             1         EDH
+ 2    25       0.1             KCl             lgK:1.96(0.01SD)           0         MGL        1200
+ 3    25       0.1             KCl              lgK:2.59(3SF)             3         MGL        3871
+ 4    25       0.1           Unknown             lgK:2.0(2SF)             3         CRV        552
+
+
+Reaction No. 15368
+H+1(5)_SHBED-6 + H+1 = H+1(6)_SHBED-6
+ No   t       I-Str          Medium               Value (Dev)             W      Tech.        Ref. #
+ 1    25        0         Inf. Dilution          lgK:1.7(2SF)             1         EDH
+ 2    25       0.1             KCl             lgK:1.20(0.01SD)           2         MGL        1200
+ 3    25       0.1             KCl              lgK:1.80(3SF)             2         MGL        3871
+
+
+Reaction No. 15369
+Fe+2 + SHBED-6 = Fe+2_SHBED-6
+ No       t     I-Str       Medium           Value (Dev)          W           Tech.          Ref. #
+  1    25           0.1      KNO3          lgK:19.75(4SF)         6            MGL            1330
+
+
+Reaction No. 15370
+Fe+2_SHBED-6 + H+1 = Fe+2_H+1_SHBED-6
+ No       t     I-Str        Medium          Value (Dev)          W           Tech.          Ref. #
+  1    25           0.1       KNO3          lgK:6.25(3SF)         6           MGL            1330
+
+
+Reaction No. 15371
+
+
+
+
+                                          – Page 16 of 84 –
+JESS Thermodynamic Database v8.9                                             C20
+
+
+Fe+2_H+1_SHBED-6 + H+1 = Fe+2_H+1(2)_SHBED-6
+ No    t     I-Str      Medium              Value (Dev)     W       Tech.          Ref. #
+  1   25      0.1           KNO3           lgK:4.73(3SF)    6       MGL            1330
+
+
+Reaction No. 15681
+H+1 + HBED-4 = H+1_HBED-4
+ No   t     I-Str      Medium               Value (Dev)         W    Tech.         Ref. #
+ 1    20     0.1       Unknown             lgK:12.41(4SF)       4     CRV           552
+ 2    25     0.1            KCl        lgK:12.6(0.03SD)         4     MGL           1200
+ 3    25     0.1            KCl            lgK:12.35(4SF)       5     MGL           1358
+ 4    25     0.1        KNO3               lgK:12.46(4SF)       5     MGL           1941
+
+
+Reaction No. 15742
+H+1 + HBEDPOMe-4 = H+1_HBEDPOMe-4
+ No    t     I-Str      Medium             Value (Dev)      W       Tech.          Ref. #
+  1   25      0.1           KCl        lgK:12.23(4SF)       6        MGL            1260
+
+
+Reaction No. 15743
+H+1_HBEDPOMe-4 + H+1 = H+1(2)_HBEDPOMe-4
+ No    t     I-Str      Medium             Value (Dev)      W       Tech.          Ref. #
+  1   25      0.1           KCl        lgK:11.64(4SF)       6        MGL            1260
+
+
+Reaction No. 15744
+H+1(2)_HBEDPOMe-4 + H+1 = H+1(3)_HBEDPOMe-4
+ No    t     I-Str      Medium              Value (Dev)     W       Tech.          Ref. #
+  1   25      0.1            KCl           lgK:7.04(3SF)    6       MGL            1260
+
+
+Reaction No. 15745
+H+1(3)_HBEDPOMe-4 + H+1 = H+1(4)_HBEDPOMe-4
+ No    t     I-Str      Medium              Value (Dev)     W       Tech.          Ref. #
+  1   25      0.1            KCl           lgK:3.33(3SF)    6       MGL            1260
+
+
+Reaction No. 15746
+Cu+2 + HBEDPOMe-4 = Cu+2_HBEDPOMe-4
+ No    t     I-Str      Medium             Value (Dev)      W       Tech.          Ref. #
+  1   25      0.1           KCl        lgK:23.04(4SF)       6        MGL            1260
+
+
+Reaction No. 15747
+
+
+
+
+                                      – Page 17 of 84 –
+JESS Thermodynamic Database v8.9                                      C20
+
+
+Cu+2_HBEDPOMe-4 + H+1 = Cu+2_H+1_HBEDPOMe-4
+ No    t     I-Str      Medium           Value (Dev)      W   Tech.         Ref. #
+  1   25      0.1         KCl           lgK:6.60(3SF)     6   MGL           1260
+
+
+Reaction No. 15748
+Cu+2_H+1_HBEDPOMe-4 + H+1 = Cu+2_H+1(2)_HBEDPOMe-4
+ No    t     I-Str      Medium           Value (Dev)      W   Tech.         Ref. #
+  1   25      0.1         KCl           lgK:3.74(3SF)     6   MGL           1260
+
+
+Reaction No. 15749
+Cu+2 + H+1(2)_HBEDPOMe-4 = Cu+2_H+1(2)_HBEDPOMe-4
+ No    t     I-Str      Medium           Value (Dev)      W   Tech.         Ref. #
+  1   25      0.1         KCl           lgK:9.51(3SF)     6    MGL           1260
+
+
+Reaction No. 15750
+Ni+2 + HBEDPOMe-4 = Ni+2_HBEDPOMe-4
+ No    t     I-Str      Medium           Value (Dev)      W   Tech.         Ref. #
+  1   25      0.1        KCl           lgK:18.51(4SF)     6    MGL           1260
+
+
+Reaction No. 15751
+Ni+2_HBEDPOMe-4 + H+1 = Ni+2_H+1_HBEDPOMe-4
+ No    t     I-Str      Medium           Value (Dev)      W   Tech.         Ref. #
+  1   25      0.1         KCl           lgK:7.04(3SF)     6   MGL           1260
+
+
+Reaction No. 15752
+Ni+2_H+1_HBEDPOMe-4 + H+1 = Ni+2_H+1(2)_HBEDPOMe-4
+ No    t     I-Str      Medium           Value (Dev)      W   Tech.         Ref. #
+  1   25      0.1         KCl           lgK:3.98(3SF)     6   MGL           1260
+
+
+Reaction No. 15753
+Ni+2 + H+1(2)_HBEDPOMe-4 = Ni+2_H+1(2)_HBEDPOMe-4
+ No    t     I-Str      Medium           Value (Dev)      W   Tech.         Ref. #
+  1   25      0.1         KCl           lgK:5.66(3SF)     6    MGL           1260
+
+
+Reaction No. 15754
+Co+2 + HBEDPOMe-4 = Co+2_HBEDPOMe-4
+ No    t     I-Str      Medium           Value (Dev)      W   Tech.         Ref. #
+  1   25      0.1        KCl           lgK:19.11(4SF)     6    MGL           1260
+
+
+
+
+                                      – Page 18 of 84 –
+JESS Thermodynamic Database v8.9                                      C20
+
+
+
+Reaction No. 15755
+Co+2_HBEDPOMe-4 + H+1 = Co+2_H+1_HBEDPOMe-4
+ No    t     I-Str      Medium           Value (Dev)      W   Tech.         Ref. #
+  1   25      0.1         KCl           lgK:6.92(3SF)     6   MGL           1260
+
+
+Reaction No. 15756
+Co+2_H+1_HBEDPOMe-4 + H+1 = Co+2_H+1(2)_HBEDPOMe-4
+ No    t     I-Str      Medium           Value (Dev)      W   Tech.         Ref. #
+  1   25      0.1         KCl           lgK:5.93(3SF)     6   MGL           1260
+
+
+Reaction No. 15757
+Co+2 + H+1(2)_HBEDPOMe-4 = Co+2_H+1(2)_HBEDPOMe-4
+ No    t     I-Str      Medium           Value (Dev)      W   Tech.         Ref. #
+  1   25      0.1         KCl           lgK:8.09(3SF)     6    MGL           1260
+
+
+Reaction No. 15758
+Zn+2 + HBEDPOMe-4 = Zn+2_HBEDPOMe-4
+ No    t     I-Str      Medium           Value (Dev)      W   Tech.         Ref. #
+  1   25      0.1        KCl           lgK:17.61(4SF)     6    MGL           1260
+
+
+Reaction No. 15759
+Zn+2_HBEDPOMe-4 + H+1 = Zn+2_H+1_HBEDPOMe-4
+ No    t     I-Str      Medium           Value (Dev)      W   Tech.         Ref. #
+  1   25      0.1         KCl           lgK:6.63(3SF)     6   MGL           1260
+
+
+Reaction No. 15760
+Zn+2_H+1_HBEDPOMe-4 + H+1 = Zn+2_H+1(2)_HBEDPOMe-4
+ No    t     I-Str      Medium           Value (Dev)      W   Tech.         Ref. #
+  1   25      0.1         KCl           lgK:5.43(3SF)     6   MGL           1260
+
+
+Reaction No. 15761
+Zn+2 + H+1(2)_HBEDPOMe-4 = Zn+2_H+1(2)_HBEDPOMe-4
+ No    t     I-Str      Medium           Value (Dev)      W   Tech.         Ref. #
+  1   25      0.1         KCl           lgK:5.80(3SF)     6    MGL           1260
+
+
+Reaction No. 15762
+Fe+3 + HBEDPOMe-4 = Fe+3_HBEDPOMe-4
+
+
+
+
+                                      – Page 19 of 84 –
+JESS Thermodynamic Database v8.9                                          C20
+
+
+ No    t     I-Str      Medium           Value (Dev)      W       Tech.         Ref. #
+  1   25      0.1        KCl           lgK:28.21(4SF)     6        MGL           1260
+
+
+Reaction No. 15763
+Fe+3_OH-1_HBEDPOMe-4 + H+1 = Fe+3_HBEDPOMe-4 + H2O
+ No    t     I-Str      Medium           Value (Dev)      W       Tech.         Ref. #
+  1   25      0.1         KCl           lgK:6.72(3SF)     6       MGL           1260
+
+
+Reaction No. 15764
+In+3 + HBEDPOMe-4 = In+3_HBEDPOMe-4
+ No    t     I-Str      Medium           Value (Dev)      W       Tech.         Ref. #
+  1   25      0.1        KCl           lgK:28.12(4SF)     6        MGL           1260
+
+
+Reaction No. 15765
+In+3_OH-1_HBEDPOMe-4 + H+1 = In+3_HBEDPOMe-4 + H2O
+ No    t     I-Str      Medium           Value (Dev)      W       Tech.         Ref. #
+  1   25      0.1         KCl           lgK:6.63(3SF)     6       MGL           1260
+
+
+Reaction No. 15766
+Ga+3 + HBEDPOMe-4 = Ga+3_HBEDPOMe-4
+ No    t     I-Str      Medium           Value (Dev)      W       Tech.         Ref. #
+  1   25      0.1        KCl           lgK:28.03(4SF)     6        MGL           1260
+
+
+Reaction No. 15767
+Ga+3_OH-1_HBEDPOMe-4 + H+1 = Ga+3_HBEDPOMe-4 + H2O
+ No    t     I-Str      Medium           Value (Dev)      W       Tech.         Ref. #
+  1   25      0.1         KCl           lgK:6.51(3SF)     6       MGL           1260
+
+
+Reaction No. 15794
+H+1_HBED-4 + H+1 = H+1(2)_HBED-4
+ No    t     I-Str      Medium           Value (Dev)          W   Tech.         Ref. #
+  1   20      0.1       Unknown         lgK:11.19(4SF)        6    CRV           552
+  2   25      0.1         KCl           lgK:12.08(4SF)        0    MGL           1358
+  3   25      0.1         KCl           lgK:11.03(4SF)        6    MGL           2552
+  4   25      0.1        KNO3           lgK:11.00(4SF)        6    MGL           1941
+
+
+Reaction No. 15795
+H+1(2)_HBED-4 + H+1 = H+1(3)_HBED-4
+
+
+
+
+                                      – Page 20 of 84 –
+JESS Thermodynamic Database v8.9                                           C20
+
+
+ No   t     I-Str      Medium            Value (Dev)          W    Tech.         Ref. #
+ 1    20     0.1       Unknown          lgK:8.32(3SF)         4     CRV           552
+ 2    25     0.1         KCl          lgK:8.44(0.01SD)        5     MGL           1200
+ 3    25     0.1         KCl            lgK:8.45(3SF)         5     MGL           1358
+ 4    25     0.1         KCl            lgK:8.37(3SF)         6     MGL           2552
+ 5    25     0.1        KNO3            lgK:8.32(3SF)         6     MGL           1941
+
+
+Reaction No. 15796
+H+1(3)_HBED-4 + H+1 = H+1(4)_HBED-4
+ No   t     I-Str      Medium            Value (Dev)          W    Tech.         Ref. #
+ 1    20     0.1       Unknown          lgK:4.64(3SF)         4     CRV           552
+ 2    25     0.1         KCl          lgK:4.72(0.01SD)        5     MGL           1200
+ 3    25     0.1         KCl            lgK:4.76(3SF)         6     MGL           1358
+ 4    25     0.1         KCl            lgK:4.71(3SF)         5     MGL           2552
+ 5    25     0.1        KNO3            lgK:4.64(3SF)         4     MGL           1941
+
+
+Reaction No. 15797
+H+1(4)_HBED-4 + H+1 = H+1(5)_HBED-4
+ No   t     I-Str      Medium            Value (Dev)          W    Tech.         Ref. #
+ 1    20     0.1       Unknown           lgK:2.0(2SF)         4     CRV           552
+ 2    25     0.1         KCl          lgK:2.53(0.01SD)        6     MGL           1200
+ 3    25     0.1         KCl            lgK:2.18(3SF)         4     MGL           1358
+ 4    25     0.1         KCl            lgK:2.35(3SF)         5     MGL           2552
+
+
+Reaction No. 15798
+H+1(5)_HBED-4 + H+1 = H+1(6)_HBED-4
+ No   t     I-Str      Medium            Value (Dev)          W    Tech.         Ref. #
+ 1    20     0.1       Unknown           lgK:1.9(2SF)         4     CRV           552
+ 2    25     0.1         KCl          lgK:1.70(0.01SD)        4     MGL           1200
+ 3    25     0.1         KCl            lgK:1.17(3SF)         4     MGL           1358
+
+
+Reaction No. 15799
+HBED-4 + Cu+2 = Cu+2_HBED-4
+ No    t     I-Str      Medium           Value (Dev)      W       Tech.          Ref. #
+  1   25      0.1        KCl           lgK:23.69(4SF)     6       MGL            1260
+  2   25      0.1        KNO3          lgK:21.38(4SF)     0       MGL            1941
+
+
+
+
+                                      – Page 21 of 84 –
+JESS Thermodynamic Database v8.9                                                  C20
+
+
+Reaction No. 15800
+Cu+2_HBED-4 + H+1 = Cu+2_H+1_HBED-4
+ No       t     I-Str      Medium            Value (Dev)         W       Tech.          Ref. #
+  1    25           0.1      KCl            lgK:8.49(3SF)        6       MGL            1260
+
+
+Reaction No. 15801
+Cu+2_H+1_HBED-4 + H+1 = Cu+2_H+1(2)_HBED-4
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.        Ref. #
+ 1    25        0         Inf. Dilution           lgK:3.2(2SF)       1      ELC
+ 2    25       0.1             KCl               lgK:5.04(3SF)       0      MGL          1260
+
+
+Reaction No. 15802
+HBED-4 + Ni+2 = Ni+2_HBED-4
+ No    t       I-Str       Medium            Value (Dev)         W       Tech.          Ref. #
+  1   25        0.1         KCl            lgK:19.31(4SF)        6        MGL            1260
+  2   25        0.1         KNO3           lgK:19.31(4SF)        6        MGL            1941
+
+
+Reaction No. 15803
+Ni+2_HBED-4 + H+1 = Ni+2_H+1_HBED-4
+ No       t     I-Str      Medium            Value (Dev)         W       Tech.          Ref. #
+  1    25           0.1      KCl            lgK:8.51(3SF)        6       MGL            1260
+
+
+Reaction No. 15804
+Ni+2_H+1_HBED-4 + H+1 = Ni+2_H+1(2)_HBED-4
+ No       t     I-Str      Medium            Value (Dev)         W       Tech.          Ref. #
+  1    25           0.1      KCl            lgK:6.45(3SF)        6       MGL            1260
+
+
+Reaction No. 15805
+Co+2 + HBED-4 = Co+2_HBED-4
+ No    t       I-Str       Medium            Value (Dev)         W       Tech.          Ref. #
+  1   25        0.1         KCl            lgK:19.89(4SF)        6        MGL            1260
+  2   25        0.1         KNO3           lgK:19.89(4SF)        6        MGL            1941
+
+
+Reaction No. 15806
+Co+2_HBED-4 + H+1 = Co+2_H+1_HBED-4
+ No       t     I-Str      Medium            Value (Dev)         W       Tech.          Ref. #
+  1    25           0.1      KCl            lgK:7.77(3SF)        6       MGL            1260
+
+
+
+
+                                          – Page 22 of 84 –
+JESS Thermodynamic Database v8.9                                           C20
+
+
+Reaction No. 15807
+Co+2_H+1_HBED-4 + H+1 = Co+2_H+1(2)_HBED-4
+ No    t     I-Str      Medium           Value (Dev)      W       Tech.          Ref. #
+  1   25      0.1         KCl           lgK:5.56(3SF)     6       MGL            1260
+
+
+Reaction No. 15808
+HBED-4 + Zn+2 = Zn+2_HBED-4
+ No    t     I-Str      Medium           Value (Dev)      W       Tech.          Ref. #
+  1   25      0.1        KCl           lgK:18.37(4SF)     6        MGL            1260
+  2   25      0.1        KNO3          lgK:18.37(4SF)     6        MGL            1941
+
+
+Reaction No. 15809
+Zn+2_HBED-4 + H+1 = Zn+2_H+1_HBED-4
+ No    t     I-Str      Medium           Value (Dev)      W       Tech.          Ref. #
+  1   25      0.1         KCl           lgK:8.27(3SF)     6       MGL            1260
+
+
+Reaction No. 15810
+Zn+2_H+1_HBED-4 + H+1 = Zn+2_H+1(2)_HBED-4
+ No    t     I-Str      Medium           Value (Dev)      W       Tech.          Ref. #
+  1   25      0.1         KCl           lgK:5.99(3SF)     6       MGL            1260
+
+
+Reaction No. 15811
+HBED-4 + Fe+3 = Fe+3_HBED-4
+ No    t     I-Str      Medium           Value (Dev)      W       Tech.          Ref. #
+  1   25      0.1        KCl           lgK:39.68(4SF)     5        MGL            1260
+  2   25      0.1        KCl           lgK:36.74(4SF)     0        MGL            1358
+  3   25      0.1        KCl           lgK:39.83(4SF)     6        MGL            2552
+  4   25      0.1        KNO3          lgK:39.68(4SF)     6        MGL            1941
+
+
+Reaction No. 15812
+In+3 + HBED-4 = In+3_HBED-4
+ No   t     I-Str      Medium           Value (Dev)           W    Tech.         Ref. #
+  1   25     0.1        KCl           lgK:32.2(0.06SD)        0     EMU           1200
+  2   25     0.1        KCl            lgK:39.66(4SF)         0     MGL           1260
+  3   25     0.1        KCl            lgK:27.90(4SF)         4     MGL           1358
+
+
+Reaction No. 15813
+
+
+
+
+                                      – Page 23 of 84 –
+JESS Thermodynamic Database v8.9                                                  C20
+
+
+Ga+3 + HBED-4 = Ga+3_HBED-4
+ No       t    I-Str       Medium            Value (Dev)         W       Tech.          Ref. #
+  1    25       0.1          KCl           lgK:40.(0.3SD)        0        MGL            1200
+  2    25       0.1          KCl           lgK:37.73(4SF)        6        MGL            1358
+
+
+Reaction No. 16698
+Cu+2 + H+1_HBED-4 = Cu+2_H+1_HBED-4
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.        Ref. #
+ 1    25        0         Inf. Dilution          lgK:21.0(3SF)       1      ELC
+ 2    25       0.1            KNO3              lgK:17.55(4SF)       0      MGL          1941
+
+
+Reaction No. 16699
+Cu+2 + H+1(2)_HBED-4 = Cu+2_H+1(2)_HBED-4
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.        Ref. #
+ 1    25        0         Inf. Dilution          lgK:12.6(3SF)       1      EDH
+ 2    25       0.1            KNO3              lgK:11.73(4SF)       6      MGL          1941
+ 3    25       0.1            KNO3               dH:4.17(3SF)        5      MCL          1941
+
+
+Reaction No. 16700
+H+1 + HBEDNH2-4 = H+1_HBEDNH2-4
+ No       t    I-Str       Medium            Value (Dev)         W       Tech.          Ref. #
+  1    25       0.1         KNO3           lgK:11.00(4SF)        6        MGL            1240
+
+
+Reaction No. 16701
+H+1_HBEDNH2-4 + H+1 = H+1(2)_HBEDNH2-4
+ No       t    I-Str       Medium            Value (Dev)         W       Tech.          Ref. #
+  1    25       0.1         KNO3           lgK:10.16(4SF)        6        MGL            1240
+
+
+Reaction No. 16702
+H+1(2)_HBEDNH2-4 + H+1 = H+1(3)_HBEDNH2-4
+ No       t     I-Str       Medium           Value (Dev)         W       Tech.          Ref. #
+  1    25           0.1      KNO3           lgK:6.54(3SF)        6       MGL            1240
+
+
+Reaction No. 16703
+H+1(3)_HBEDNH2-4 + H+1 = H+1(4)_HBEDNH2-4
+ No       t     I-Str       Medium           Value (Dev)         W       Tech.          Ref. #
+  1    25           0.1      KNO3           lgK:1.89(3SF)        6       MGL            1240
+
+
+
+
+                                          – Page 24 of 84 –
+JESS Thermodynamic Database v8.9                                           C20
+
+
+Reaction No. 16704
+Cu+2 + HBEDNH2-4 = Cu+2_HBEDNH2-4
+ No    t     I-Str      Medium              Value (Dev)   W       Tech.          Ref. #
+  1   25      0.1        KNO3          lgK:21.19(4SF)     6        MGL            1240
+
+
+Reaction No. 16705
+Cu+2 + H+1_HBEDNH2-4 = Cu+2_H+1_HBEDNH2-4
+ No    t     I-Str      Medium              Value (Dev)   W       Tech.          Ref. #
+  1   25      0.1        KNO3          lgK:16.86(4SF)     6        MGL            1240
+
+
+Reaction No. 16706
+Cu+2 + H+1(2)_HBEDNH2-4 = Cu+2_H+1(2)_HBEDNH2-4
+ No    t     I-Str      Medium              Value (Dev)   W       Tech.          Ref. #
+  1   25      0.1        KNO3           lgK:9.73(3SF)     6       MGL            1240
+
+
+Reaction No. 16707
+Cu+2_HBEDNH2-4 + H+1 = Cu+2_H+1_HBEDNH2-4
+ No    t     I-Str      Medium              Value (Dev)   W       Tech.          Ref. #
+  1   25      0.1        KNO3           lgK:6.67(3SF)     6       MGL            1240
+
+
+Reaction No. 16708
+Cu+2_H+1_HBEDNH2-4 + H+1 = Cu+2_H+1(2)_HBEDNH2-4
+ No    t     I-Str      Medium              Value (Dev)   W       Tech.          Ref. #
+  1   25      0.1        KNO3           lgK:3.03(3SF)     6       MGL            1240
+
+
+Reaction No. 17229
+Fe+3 + SHBED-6 = Fe+3_SHBED-6
+ No   t     I-Str      Medium           Value (Dev)           W    Tech.         Ref. #
+  1   25     0.1        KCl           lgK:36.9(0.06SD)        4     MGL           1200
+  2   25     0.1        KCl            lgK:38.30(4SF)         0     MGL           3871
+Note (2): Low wgt for internal consistency
+
+
+Reaction No. 17230
+Fe+3_OH-1_SHBED-6 + H+1 = Fe+3_SHBED-6 + H2O
+ No   t     I-Str     Medium            Value (Dev)           W    Tech.         Ref. #
+ 1    25     0.1        KCl          lgK:10.57(0.01SD)        6     MGL           1200
+
+
+Reaction No. 17231
+
+
+
+
+                                      – Page 25 of 84 –
+JESS Thermodynamic Database v8.9                                               C20
+
+
+Ga+3 + SHBED-6 = Ga+3_SHBED-6
+ No    t     I-Str      Medium             Value (Dev)        W       Tech.          Ref. #
+  1   25      0.1        KCl             lgK:37.(0.3SD)       5       MGL            1200
+  2   25      0.1        KCl             lgK:37.95(4SF)       0       MGL            3871
+Note (2): Low wgt for internal consistency
+
+
+Reaction No. 17232
+Ga+3_SHBED-6 + H+1 = Ga+3_H+1_SHBED-6
+ No   t     I-Str      Medium              Value (Dev)        W       Tech.          Ref. #
+  1   25     0.1        KCl             lgK:1.18(0.01SD)      4        MGL            1200
+  2   25     0.1        KCl               lgK:2.62(3SF)       0        MGL            3871
+Note (2): Low wgt for internal consistency
+
+
+Reaction No. 17233
+In+3 + SHBED-6 = In+3_SHBED-6
+ No   t     I-Str      Medium              Value (Dev)        W       Tech.          Ref. #
+  1   25     0.1        KCl             lgK:29.4(0.06SD)      3        MGL            1200
+  2   25     0.1        KCl              lgK:37.40(4SF)       0        MGL            3871
+
+
+Reaction No. 17234
+In+3_SHBED-6 + H+1 = In+3_H+1_SHBED-6
+ No   t     I-Str      Medium              Value (Dev)        W       Tech.          Ref. #
+  1   25     0.1        KCl             lgK:2.82(0.01SD)      6        MGL            1200
+
+
+Reaction No. 17235
+In+3_OH-1_SHBED-6 + H+1 = In+3_SHBED-6 + H2O
+ No   t     I-Str     Medium               Value (Dev)            W    Tech.         Ref. #
+ 1    25     0.1        KCl             lgK:10.82(0.01SD)         6     MGL           1200
+
+
+Reaction No. 17236
+Gd+3 + SHBED-6 = Gd+3_SHBED-6
+ No    t     I-Str      Medium             Value (Dev)        W       Tech.          Ref. #
+  1   25      0.1        KCl             lgK:23.36(4SF)       6       MGL            1475
+
+
+Reaction No. 17680
+H+1(4)_[30]N10 + Fe+2_CN-1(6) = Fe+2_H+1(4)_[30]N10_CN-1(6)
+ No    t     I-Str     Medium              Value (Dev)        W       Tech.          Ref. #
+
+
+
+
+                                        – Page 26 of 84 –
+JESS Thermodynamic Database v8.9                                          C20
+
+
+  1   25     0.15      NaClO4         lgK:3.7(0.05SD)         4   MGL           1365
+
+
+Reaction No. 17681
+H+1(5)_[30]N10 + Fe+2_CN-1(6) = Fe+2_H+1(5)_[30]N10_CN-1(6)
+ No    t     I-Str     Medium            Value (Dev)          W   Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:4.8(0.05SD)         4   MGL           1365
+
+
+Reaction No. 17682
+H+1(6)_[30]N10 + Fe+2_CN-1(6) = Fe+2_H+1(6)_[30]N10_CN-1(6)
+ No    t     I-Str     Medium            Value (Dev)          W   Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:6.2(0.06SD)         4   MGL           1365
+
+
+Reaction No. 17683
+H+1(7)_[30]N10 + Fe+2_CN-1(6) = Fe+2_H+1(7)_[30]N10_CN-1(6)
+ No    t     I-Str     Medium            Value (Dev)          W   Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:7.9(0.07SD)         4   MGL           1365
+
+
+Reaction No. 17684
+H+1(8)_[30]N10 + Fe+2_CN-1(6) = Fe+2_H+1(8)_[30]N10_CN-1(6)
+ No    t     I-Str     Medium            Value (Dev)          W   Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:9.0(0.08SD)         3   MGL           1365
+
+
+Reaction No. 17695
+H+1(4)_[30]N10 + Co+3_CN-1(6) = Co+3_H+1(4)_[30]N10_CN-1(6)
+ No    t     I-Str     Medium            Value (Dev)          W   Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:2.0(0.04SD)         4   MGL           1365
+
+
+Reaction No. 17696
+H+1(5)_[30]N10 + Co+3_CN-1(6) = Co+3_H+1(5)_[30]N10_CN-1(6)
+ No    t     I-Str     Medium            Value (Dev)          W   Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:2.1(0.04SD)         4   MGL           1365
+
+
+Reaction No. 17697
+H+1(6)_[30]N10 + Co+3_CN-1(6) = Co+3_H+1(6)_[30]N10_CN-1(6)
+ No    t     I-Str     Medium            Value (Dev)          W   Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:2.4(0.04SD)         4   MGL           1365
+
+
+Reaction No. 17698
+
+
+
+
+                                      – Page 27 of 84 –
+JESS Thermodynamic Database v8.9                                               C20
+
+
+H+1(7)_[30]N10 + Co+3_CN-1(6) = Co+3_H+1(7)_[30]N10_CN-1(6)
+ No    t     I-Str     Medium              Value (Dev)        W       Tech.          Ref. #
+  1   25     0.15      NaClO4            lgK:3.2(0.04SD)      4        MGL            1365
+
+
+Reaction No. 17699
+H+1(8)_[30]N10 + Co+3_CN-1(6) = Co+3_H+1(8)_[30]N10_CN-1(6)
+ No    t     I-Str     Medium              Value (Dev)        W       Tech.          Ref. #
+  1   25     0.15      NaClO4            lgK:3.7(0.04SD)      4        MGL            1365
+
+
+Reaction No. 17700
+H+1(9)_[30]N10 + Co+3_CN-1(6) = Co+3_H+1(9)_[30]N10_CN-1(6)
+ No    t     I-Str     Medium              Value (Dev)        W       Tech.          Ref. #
+  1   25     0.15      NaClO4            lgK:4.4(0.04SD)      4        MGL            1365
+
+
+Reaction No. 18483
+Gd+3_SHBED-6 + H+1 = Gd+3_H+1_SHBED-6
+ No    t     I-Str      Medium             Value (Dev)        W       Tech.          Ref. #
+  1   25      0.1         KCl             lgK:3.86(3SF)       6       MGL            1475
+
+
+Reaction No. 18484
+Gd+3_H+1_SHBED-6 + H+1 = Gd+3_H+1(2)_SHBED-6
+ No    t     I-Str      Medium             Value (Dev)        W       Tech.          Ref. #
+  1   25      0.1         KCl             lgK:5.10(3SF)       6       MGL            1475
+
+
+Reaction No. 18485
+Gd+3_H+1(2)_SHBED-6 + H+1 = Gd+3_H+1(3)_SHBED-6
+ No    t     I-Str      Medium             Value (Dev)        W       Tech.          Ref. #
+  1   25      0.1         KCl             lgK:4.03(3SF)       6       MGL            1475
+
+
+Reaction No. 18486
+Gd+3_H+1(3)_SHBED-6 + H+1 = Gd+3_H+1(4)_SHBED-6
+ No    t     I-Str      Medium             Value (Dev)        W       Tech.          Ref. #
+  1   25      0.1         KCl             lgK:1.96(3SF)       6       MGL            1475
+
+
+Reaction No. 20398
+AmImDiBenzHis-1 + H+1 = H+1_AmImDiBenzHis-1
+ No   t     I-Str     Medium               Value (Dev)            W    Tech.         Ref. #
+ 1    25     0.1       KNO3             lgK:8.47(0.004SD)         6     MGL           1620
+
+
+
+
+                                        – Page 28 of 84 –
+JESS Thermodynamic Database v8.9                                            C20
+
+
+
+Reaction No. 20399
+H+1_AmImDiBenzHis-1 + H+1 = H+1(2)_AmImDiBenzHis-1
+ No   t     I-Str     Medium            Value (Dev)             W   Tech.         Ref. #
+ 1    25     0.1       KNO3          lgK:5.50(0.008SD)          6    MGL           1620
+
+
+Reaction No. 20400
+H+1(2)_AmImDiBenzHis-1 + H+1 = H+1(3)_AmImDiBenzHis-1
+ No   t     I-Str      Medium           Value (Dev)             W   Tech.         Ref. #
+  1   25     0.1        KNO3          lgK:1.97(0.02SD)          4   MGL           1620
+
+
+Reaction No. 20401
+AmImDiBenzHis-1 + Ni+2 = Ni+2_AmImDiBenzHis-1
+ No   t     I-Str     Medium            Value (Dev)             W   Tech.         Ref. #
+ 1    25     0.1       KNO3          lgK:8.01(0.004SD)          4    MGL           1620
+
+
+Reaction No. 20402
+2<AmImDiBenzHis-1> + Ni+2 = Ni+2_AmImDiBenzHis-1(2)
+ No   t     I-Str     Medium            Value (Dev)             W   Tech.         Ref. #
+ 1    25     0.1       KNO3          lgK:15.14(0.004SD)         6    MGL           1620
+
+
+Reaction No. 20403
+H+1 + 2<AmImDiBenzHis-1> + Ni+2 = Ni+2_H+1_AmImDiBenzHis-1(2)
+ No   t     I-Str      Medium           Value (Dev)             W   Tech.         Ref. #
+  1   25     0.1        KNO3          lgK:19.3(0.06SD)          3   MGL           1620
+
+
+Reaction No. 20404
+AmImDiBenzHis-1 + Cu+2 = Cu+2_AmImDiBenzHis-1
+ No   t     I-Str     Medium            Value (Dev)             W   Tech.         Ref. #
+ 1    25     0.1       KNO3          lgK:8.96(0.003SD)          4    MGL           1620
+
+
+Reaction No. 20405
+2<AmImDiBenzHis-1> + Cu+2 = Cu+2_AmImDiBenzHis-1(2)
+ No   t     I-Str     Medium            Value (Dev)             W   Tech.         Ref. #
+ 1    25     0.1       KNO3          lgK:16.76(0.01SD)          6    MGL           1620
+
+
+Reaction No. 20406
+H+1 + AmImDiBenzHis-1 + Cu+2 = Cu+2_H+1_AmImDiBenzHis-1
+
+
+
+
+                                      – Page 29 of 84 –
+JESS Thermodynamic Database v8.9                                                C20
+
+
+ No   t     I-Str      Medium           Value (Dev)             W       Tech.         Ref. #
+  1   25     0.1        KNO3          lgK:12.5(0.04SD)          4       MGL           1620
+
+
+Reaction No. 20407
+H+1 + 2<AmImDiBenzHis-1> + Cu+2 = Cu+2_H+1_AmImDiBenzHis-1(2)
+ No   t     I-Str      Medium           Value (Dev)             W       Tech.         Ref. #
+  1   25     0.1        KNO3          lgK:21.0(0.06SD)          4       MGL           1620
+
+
+Reaction No. 20408
+2<H+1> + 2<AmImDiBenzHis-1> + Cu+2 = Cu+2_H+1(2)_AmImDiBenzHis-1(2)
+ No   t     I-Str      Medium           Value (Dev)             W       Tech.         Ref. #
+  1   25     0.1        KNO3          lgK:25.3(0.06SD)          4       MGL           1620
+
+
+Reaction No. 20409
+AmImDiBenzHis-1 + Zn+2 = Zn+2_AmImDiBenzHis-1
+ No   t     I-Str     Medium            Value (Dev)             W       Tech.         Ref. #
+ 1    25     0.1       KNO3          lgK:5.74(0.003SD)          6        MGL           1620
+
+
+Reaction No. 20410
+2<AmImDiBenzHis-1> + Zn+2 = Zn+2_AmImDiBenzHis-1(2)
+ No   t    I-Str     Medium             Value (Dev)                 W   Tech.         Ref. #
+ 1    25    0.1       KNO3          lgK:11.488(0.002SD)             6    MGL           1620
+
+
+Reaction No. 20411
+H+1 + 2<AmImDiBenzHis-1> + Zn+2 = Zn+2_H+1_AmImDiBenzHis-1(2)
+ No   t     I-Str     Medium            Value (Dev)             W       Tech.         Ref. #
+ 1    25     0.1       KNO3          lgK:16.92(0.01SD)          4        MGL           1620
+
+
+Reaction No. 20420
+AmImDiBenzHis-1 + Ni+2 + DHis-1 = Ni+2_AmImDiBenzHis-1_DHis-1
+ No   t     I-Str     Medium            Value (Dev)             W       Tech.         Ref. #
+ 1    25     0.1       KNO3          lgK:16.11(0.007SD)         6        MGL           1620
+
+
+Reaction No. 20421
+AmImDiBenzHis-1 + Ni+2 + His-1 = Ni+2_AmImDiBenzHis-1_His-1
+ No   t     I-Str     Medium            Value (Dev)             W       Tech.         Ref. #
+ 1    25     0.1       KNO3          lgK:15.36(0.01SD)          6        MGL           1620
+
+
+
+
+                                      – Page 30 of 84 –
+JESS Thermodynamic Database v8.9                                            C20
+
+
+Reaction No. 20422
+H+1 + AmImDiBenzHis-1 + Cu+2 + DHis-1 = Cu+2_H+1_AmImDiBenzHis-1_DHis-1
+ No   t     I-Str     Medium             Value (Dev)            W   Tech.         Ref. #
+ 1    25     0.1       KNO3           lgK:22.73(0.01SD)         6    MGL           1620
+
+
+Reaction No. 20423
+H+1 + AmImDiBenzHis-1 + Cu+2 + His-1 = Cu+2_H+1_AmImDiBenzHis-1_His-1
+ No   t     I-Str     Medium             Value (Dev)            W   Tech.         Ref. #
+ 1    25     0.1       KNO3           lgK:22.80(0.008SD)        6    MGL           1620
+
+
+Reaction No. 20424
+AmImDiBenzHis-1 + Cu+2 + DHis-1 = Cu+2_AmImDiBenzHis-1_DHis-1
+ No   t     I-Str     Medium             Value (Dev)            W   Tech.         Ref. #
+ 1    25     0.1       KNO3           lgK:17.41(0.02SD)         6    MGL          1620
+
+
+Reaction No. 20425
+AmImDiBenzHis-1 + Cu+2 + His-1 = Cu+2_AmImDiBenzHis-1_His-1
+ No   t     I-Str     Medium             Value (Dev)            W   Tech.         Ref. #
+ 1    25     0.1       KNO3           lgK:17.24(0.02SD)         4   MGL           1620
+
+
+Reaction No. 20426
+AmImDiBenzHis-1 + Zn+2 + DHis-1 = Zn+2_AmImDiBenzHis-1_DHis-1
+ No   t     I-Str     Medium             Value (Dev)            W   Tech.         Ref. #
+ 1    25     0.1       KNO3           lgK:12.28(0.006SD)        6    MGL           1620
+
+
+Reaction No. 20427
+AmImDiBenzHis-1 + Zn+2 + His-1 = Zn+2_AmImDiBenzHis-1_His-1
+ No   t     I-Str     Medium             Value (Dev)            W   Tech.         Ref. #
+ 1    25     0.1       KNO3           lgK:12.04(0.008SD)        4    MGL           1620
+
+
+Reaction No. 22077
+H+1 + Calcon-3 = H+1_Calcon-3
+ No   t     I-Str     Medium             Value (Dev)            W   Tech.         Ref. #
+ 1    25    0.01       KCl            lgK:11.22(0.004SD)        6    MSP           1840
+
+
+Reaction No. 22078
+2<H+1> + Calcon-3 = H+1(2)_Calcon-3
+ No   t     I-Str     Medium             Value (Dev)            W   Tech.         Ref. #
+
+
+
+
+                                       – Page 31 of 84 –
+JESS Thermodynamic Database v8.9                                                 C20
+
+
+ 1    25    0.01       KCl             lgK:19.51(0.005SD)           6     MSP           1840
+
+
+Reaction No. 22079
+3<H+1> + Calcon-3 = H+1(3)_Calcon-3
+ No   t     I-Str      Medium             Value (Dev)           W        Tech.         Ref. #
+  1   25     0.01       KCl             lgK:21.2(0.09SD)        3         MSP           1840
+
+
+Reaction No. 22080
+H+1_Calcon-3 + H+1 = H+1(2)_Calcon-3
+ No   t     I-Str     Medium              Value (Dev)           W        Tech.         Ref. #
+ 1    25    0.01        KCl            lgK:8.29(0.005SD)        6         MSP           1840
+
+
+Reaction No. 22081
+H+1(2)_Calcon-3 + H+1 = H+1(3)_Calcon-3
+ No    t     I-Str     Medium              Value (Dev)          W       Tech.          Ref. #
+  1   25     0.01        KCl            lgK:1.7(0.06SD)         3        MSP            1840
+
+
+Reaction No. 22082
+Calcon-3 + Cu+2 = Cu+2_Calcon-3
+ No   t     I-Str     Medium              Value (Dev)           W        Tech.         Ref. #
+ 1    25    0.01        KCl            lgK:19.75(0.02SD)        3         MSP           1840
+
+
+Reaction No. 22083
+Calcon-3 + Cu+2 = H+1 + Cu+2_H+1(-1)_Calcon-3
+ No    t     I-Str     Medium              Value (Dev)          W       Tech.          Ref. #
+  1   25     0.01        KCl            lgK:2.8(0.04SD)         4        MSP            1840
+
+
+Reaction No. 24293
+HBED-4 + Ca+2 = Ca+2_HBED-4
+ No    t     I-Str      Medium             Value (Dev)      W           Tech.          Ref. #
+  1   25      0.1        KNO3             lgK:9.29(3SF)     6           MGL            1941
+
+
+Reaction No. 24294
+Ca+2 + H+1_HBED-4 = Ca+2_H+1_HBED-4
+ No    t     I-Str      Medium             Value (Dev)      W           Tech.          Ref. #
+  1   25      0.1        KNO3             lgK:5.52(3SF)     6           MGL            1941
+
+
+Reaction No. 24295
+
+
+
+
+                                        – Page 32 of 84 –
+JESS Thermodynamic Database v8.9                                          C20
+
+
+Ca+2 + H+1(2)_HBED-4 = Ca+2_H+1(2)_HBED-4
+ No    t     I-Str      Medium              Value (Dev)   W       Tech.         Ref. #
+  1   25      0.1        KNO3           lgK:2.02(3SF)     6       MGL           1941
+  2   25      0.1        KNO3           dH:2.61(3SF)      5       MCL           1941
+
+
+Reaction No. 24296
+HBED-4 + Cd+2 = Cd+2_HBED-4
+ No    t     I-Str      Medium              Value (Dev)   W       Tech.         Ref. #
+  1   25      0.1        KNO3          lgK:17.52(4SF)     6        MGL           1941
+
+
+Reaction No. 24297
+Cd+2 + H+1_HBED-4 = Cd+2_H+1_HBED-4
+ No    t     I-Str      Medium              Value (Dev)   W       Tech.         Ref. #
+  1   25      0.1        KNO3          lgK:13.17(4SF)     6        MGL           1941
+
+
+Reaction No. 24298
+Cd+2 + H+1(2)_HBED-4 = Cd+2_H+1(2)_HBED-4
+ No    t     I-Str      Medium              Value (Dev)   W       Tech.         Ref. #
+  1   25      0.1        KNO3           lgK:8.85(3SF)     6       MGL           1941
+  2   25      0.1        KNO3           dH:1.73(3SF)      5       MCL           1941
+
+
+Reaction No. 24299
+Co+2 + H+1_HBED-4 = Co+2_H+1_HBED-4
+ No    t     I-Str      Medium              Value (Dev)   W       Tech.         Ref. #
+  1   25      0.1        KNO3          lgK:15.20(4SF)     6        MGL           1941
+
+
+Reaction No. 24300
+Co+2 + H+1(2)_HBED-4 = Co+2_H+1(2)_HBED-4
+ No    t     I-Str      Medium              Value (Dev)   W       Tech.         Ref. #
+  1   25      0.1        KNO3           lgK:9.76(3SF)     6       MGL           1941
+  2   25      0.1        KNO3           dH:2.02(3SF)      5       MCL           1941
+
+
+Reaction No. 24301
+HBED-4 + Lu+3 = Lu+3_HBED-4
+ No    t     I-Str      Medium              Value (Dev)       W   Tech.         Ref. #
+  1   20      0.1       Unknown         lgK:20.70(4SF)        6    CRV           552
+  2   25      0.1        KNO3           lgK:20.38(4SF)        6    MGL           1941
+
+
+
+
+                                      – Page 33 of 84 –
+JESS Thermodynamic Database v8.9                                      C20
+
+
+Reaction No. 24302
+Lu+3 + H+1(2)_HBED-4 = Lu+3_H+1(2)_HBED-4
+ No    t     I-Str      Medium              Value (Dev)   W   Tech.         Ref. #
+  1   25      0.1        KNO3           lgK:7.06(3SF)     6   MGL           1941
+  2   25      0.1        KNO3           dH:2.03(3SF)      5   MCL           1941
+
+
+Reaction No. 24303
+HBED-4 + Mg+2 = Mg+2_HBED-4
+ No    t     I-Str      Medium              Value (Dev)   W   Tech.         Ref. #
+  1   25      0.1        KNO3          lgK:10.51(4SF)     6    MGL           1941
+
+
+Reaction No. 24304
+Mg+2 + H+1_HBED-4 = Mg+2_H+1_HBED-4
+ No    t     I-Str      Medium              Value (Dev)   W   Tech.         Ref. #
+  1   25      0.1        KNO3           lgK:6.20(3SF)     6   MGL           1941
+
+
+Reaction No. 24305
+Mg+2 + H+1(2)_HBED-4 = Mg+2_H+1(2)_HBED-4
+ No    t     I-Str      Medium              Value (Dev)   W   Tech.         Ref. #
+  1   25      0.1        KNO3           lgK:2.21(3SF)     6   MGL           1941
+  2   25      0.1        KNO3           dH:2.32(3SF)      5   MCL           1941
+
+
+Reaction No. 24306
+HBED-4 + Mn+2 = Mn+2_HBED-4
+ No    t     I-Str      Medium              Value (Dev)   W   Tech.         Ref. #
+  1   25      0.1        KNO3          lgK:14.78(4SF)     6    MGL           1941
+
+
+Reaction No. 24307
+Mn+2 + H+1_HBED-4 = Mn+2_H+1_HBED-4
+ No    t     I-Str      Medium              Value (Dev)   W   Tech.         Ref. #
+  1   25      0.1        KNO3           lgK:9.98(3SF)     6   MGL           1941
+
+
+Reaction No. 24308
+Mn+2 + H+1(2)_HBED-4 = Mn+2_H+1(2)_HBED-4
+ No    t     I-Str      Medium              Value (Dev)   W   Tech.         Ref. #
+  1   25      0.1        KNO3           lgK:5.56(3SF)     6   MGL           1941
+  2   25      0.1        KNO3           dH:2.15(3SF)      5   MCL           1941
+
+
+
+
+                                      – Page 34 of 84 –
+JESS Thermodynamic Database v8.9                                      C20
+
+
+Reaction No. 24309
+Ni+2 + H+1_HBED-4 = Ni+2_H+1_HBED-4
+ No    t     I-Str      Medium              Value (Dev)   W   Tech.         Ref. #
+  1   25      0.1        KNO3          lgK:15.36(4SF)     6    MGL           1941
+
+
+Reaction No. 24310
+Ni+2 + H+1(2)_HBED-4 = Ni+2_H+1(2)_HBED-4
+ No    t     I-Str      Medium              Value (Dev)   W   Tech.         Ref. #
+  1   25      0.1        KNO3          lgK:10.81(4SF)     6    MGL           1941
+  2   25      0.1        KNO3           dH:2.92(3SF)      5    MCL           1941
+
+
+Reaction No. 24311
+HBED-4 + Pb+2 = Pb+2_HBED-4
+ No    t     I-Str      Medium              Value (Dev)   W   Tech.         Ref. #
+  1   25      0.1        KNO3          lgK:18.24(4SF)     6    MGL           1941
+
+
+Reaction No. 24312
+Pb+2 + H+1_HBED-4 = Pb+2_H+1_HBED-4
+ No    t     I-Str      Medium              Value (Dev)   W   Tech.         Ref. #
+  1   25      0.1        KNO3          lgK:14.76(4SF)     6    MGL           1941
+
+
+Reaction No. 24313
+Pb+2 + H+1(2)_HBED-4 = Pb+2_H+1(2)_HBED-4
+ No    t     I-Str      Medium              Value (Dev)   W   Tech.         Ref. #
+  1   25      0.1        KNO3          lgK:10.38(4SF)     6    MGL           1941
+  2   25      0.1        KNO3           dH:1.84(3SF)      5    MCL           1941
+
+
+Reaction No. 24314
+Zn+2 + H+1_HBED-4 = Zn+2_H+1_HBED-4
+ No    t     I-Str      Medium              Value (Dev)   W   Tech.         Ref. #
+  1   25      0.1        KNO3          lgK:14.18(4SF)     6    MGL           1941
+
+
+Reaction No. 24315
+Zn+2 + H+1(2)_HBED-4 = Zn+2_H+1(2)_HBED-4
+ No    t     I-Str      Medium              Value (Dev)   W   Tech.         Ref. #
+  1   25      0.1        KNO3           lgK:9.17(3SF)     6   MGL           1941
+  2   25      0.1        KNO3           dH:2.76(3SF)      5   MCL           1941
+
+
+
+
+                                      – Page 35 of 84 –
+JESS Thermodynamic Database v8.9                                                   C20
+
+
+Reaction No. 24497
+H+1 + DodecMDTA-4 = H+1_DodecMDTA-4
+ No    t       I-Str    Medium            Value (Dev)             W       Tech.          Ref. #
+  1   20        0.1      KNO3           lgK:10.55(4SF)            6        MGL            188
+  2   20         1       KNO3           lgK:10.62(4SF)            6        MGL            188
+
+
+Reaction No. 24624
+H+1_DodecMDTA-4 + H+1 = H+1(2)_DodecMDTA-4
+ No    t       I-Str     Medium           Value (Dev)         W           Tech.          Ref. #
+  1   20        0.1       KNO3           lgK:9.96(3SF)        6            MGL            188
+  2   20         1        KNO3           lgK:9.95(3SF)        6            MGL            188
+
+
+Reaction No. 24625
+H+1(2)_DodecMDTA-4 + H+1 = H+1(3)_DodecMDTA-4
+ No       t     I-Str    Medium           Value (Dev)         W           Tech.          Ref. #
+  1    20        0.1      KNO3           lgK:2.6(2SF)         4           MGL             188
+  2    20         1       KNO3           lgK:2.5(2SF)         4           MGL             188
+
+
+Reaction No. 24626
+H+1(3)_DodecMDTA-4 + H+1 = H+1(4)_DodecMDTA-4
+ No       t     I-Str    Medium           Value (Dev)         W           Tech.          Ref. #
+  1    20        0.1      KNO3           lgK:2.5(2SF)         4           MGL             188
+  2    20         1       KNO3           lgK:2.5(2SF)         4           MGL             188
+
+
+Reaction No. 25487
+H+1 + Quinine = H+1_Quinine
+ No   t       I-Str        Medium               Value (Dev)           W     Tech.        Ref. #
+ 1    25                Phenol:Water         lgK:2.34(3SF)            3      MGL          2261
+                           9:1Vol
+
+
+Reaction No. 25488
+H+1 + Quinidine = H+1_Quinidine
+ No   t       I-Str        Medium               Value (Dev)           W     Tech.        Ref. #
+ 1    25                Phenol:Water         lgK:2.42(3SF)            3      MGL          2261
+                           9:1Vol
+
+
+Reaction No. 25489
+H+1 + Papaverine = H+1_Papaverine
+
+
+
+
+                                       – Page 36 of 84 –
+JESS Thermodynamic Database v8.9                                               C20
+
+
+ No   t    I-Str          Medium                Value (Dev)        W    Tech.        Ref. #
+ 1    25     0         Inf. Dilution           lgK:6.40(3SF)       5     CRV          6330
+ 2    25               Phenol:Water            lgK:3.12(3SF)       3     MGL          2261
+                          9:1Vol
+
+
+Reaction No. 26724
+H+1(4)_[30]N10 + H+1 = H+1(5)_[30]N10
+ No    t     I-Str     Medium              Value (Dev)         W       Tech.         Ref. #
+  1   25     0.15      NaClO4           lgK:7.8(0.03SD)        5       MPT           4391
+
+
+Reaction No. 26726
+H+1_[30]N10 + H+1 = H+1(2)_[30]N10
+ No    t     I-Str     Medium              Value (Dev)         W       Tech.         Ref. #
+  1   25     0.15      NaClO4           lgK:9.4(0.03SD)        5       MPT           4391
+
+
+Reaction No. 26728
+H+1 + [30]N10 = H+1_[30]N10
+ No    t     I-Str     Medium              Value (Dev)         W       Tech.         Ref. #
+  1   25     0.15      NaClO4           lgK:9.9(0.03SD)        5       MPT           4391
+
+
+Reaction No. 26796
+H+1(5)_[30]N10 + H+1 = H+1(6)_[30]N10
+ No    t     I-Str     Medium              Value (Dev)         W       Tech.         Ref. #
+  1   25     0.15      NaClO4           lgK:5.2(0.03SD)        5       MPT           4391
+
+
+Reaction No. 26797
+H+1(3)_[30]N10 + H+1 = H+1(4)_[30]N10
+ No    t     I-Str     Medium              Value (Dev)         W       Tech.         Ref. #
+  1   25     0.15      NaClO4           lgK:8.6(0.03SD)        5       MPT           4391
+
+
+Reaction No. 26798
+H+1(2)_[30]N10 + H+1 = H+1(3)_[30]N10
+ No    t     I-Str     Medium              Value (Dev)         W       Tech.         Ref. #
+  1   25     0.15      NaClO4           lgK:8.9(0.03SD)        5       MPT           4391
+
+
+Reaction No. 26859
+H+1(4)_[30]N10 + Pt+2_CN-1(4) = Pt+2_H+1(4)_[30]N10_CN-1(4)
+ No    t     I-Str     Medium              Value (Dev)         W       Tech.         Ref. #
+
+
+
+
+                                        – Page 37 of 84 –
+JESS Thermodynamic Database v8.9                                                C20
+
+
+  1   25     0.15      NaClO4         lgK:2.7(0.03SD)           5       MGL           1782
+
+
+Reaction No. 26860
+H+1(5)_[30]N10 + Pt+2_CN-1(4) = Pt+2_H+1(5)_[30]N10_CN-1(4)
+ No    t     I-Str     Medium            Value (Dev)            W       Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:2.8(0.03SD)           5       MGL           1782
+
+
+Reaction No. 26861
+H+1(6)_[30]N10 + Pt+2_CN-1(4) = Pt+2_H+1(6)_[30]N10_CN-1(4)
+ No    t     I-Str     Medium            Value (Dev)            W       Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:3.1(0.04SD)           5       MGL           1782
+
+
+Reaction No. 26862
+H+1(7)_[30]N10 + Pt+2_CN-1(4) = Pt+2_H+1(7)_[30]N10_CN-1(4)
+ No    t     I-Str     Medium            Value (Dev)            W       Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:3.4(0.03SD)           5       MGL           1782
+
+
+Reaction No. 26863
+H+1(8)_[30]N10 + Pt+2_CN-1(4) = Pt+2_H+1(8)_[30]N10_CN-1(4)
+ No    t     I-Str     Medium            Value (Dev)            W       Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:3.4(0.04SD)           5       MGL           1782
+
+
+Reaction No. 26864
+H+1(9)_[30]N10 + Pt+2_CN-1(4) = Pt+2_H+1(9)_[30]N10_CN-1(4)
+ No    t     I-Str     Medium            Value (Dev)            W       Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:3.8(0.04SD)           5       MGL           1782
+
+
+Reaction No. 29342
+H+1 + Phenanth + Cu+2 + TyrTrp-2 = Cu+2_H+1_Phenanth_TyrTrp-2
+ No   t     I-Str     Medium            Value (Dev)                 W   Tech.         Ref. #
+ 1    25     0.1       KNO3          lgK:25.33(0.007SD)             6    MGL           2416
+
+
+Reaction No. 29343
+Phenanth + Cu+2 + TyrTrp-2 = Cu+2_Phenanth_TyrTrp-2
+ No   t     I-Str     Medium            Value (Dev)             W       Tech.         Ref. #
+ 1    25     0.1       KNO3          lgK:18.05(0.01SD)          6        MGL           2416
+
+
+Reaction No. 29358
+
+
+
+
+                                      – Page 38 of 84 –
+JESS Thermodynamic Database v8.9                                                C20
+
+
+H+1 + Bipy + Cu+2 + TyrTrp-2 = Cu+2_H+1_Bipy_TyrTrp-2
+ No   t     I-Str     Medium              Value (Dev)               W   Tech.         Ref. #
+ 1    25     0.1       KNO3          lgK:24.19(0.006SD)             6    MGL           2416
+
+
+Reaction No. 29359
+Bipy + Cu+2 + TyrTrp-2 = Cu+2_Bipy_TyrTrp-2
+ No   t     I-Str     Medium              Value (Dev)               W   Tech.         Ref. #
+ 1    25     0.1       KNO3          lgK:16.49(0.007SD)             6    MGL           2416
+
+
+Reaction No. 29360
+Bipy + Cu+2 + TyrTrp-2 = H+1 + Cu+2_H+1(-1)_Bipy_TyrTrp-2
+ No   t     I-Str      Medium             Value (Dev)           W       Tech.         Ref. #
+  1   25     0.1        KNO3          lgK:6.76(0.01SD)          6        MGL           2416
+
+
+Reaction No. 29374
+H+1 + EtDiAm + Cu+2 + TyrTrp-2 = Cu+2_H+1_EtDiAm_TyrTrp-2
+ No   t     I-Str     Medium              Value (Dev)           W       Tech.         Ref. #
+ 1    25     0.1       KNO3          lgK:26.07(0.02SD)          6        MGL           2416
+
+
+Reaction No. 29375
+EtDiAm + Cu+2 + TyrTrp-2 = Cu+2_EtDiAm_TyrTrp-2
+ No   t     I-Str      Medium             Value (Dev)           W       Tech.         Ref. #
+  1   25     0.1        KNO3          lgK:18.2(0.03SD)          6        MGL           2416
+
+
+Reaction No. 29376
+EtDiAm + Cu+2 + TyrTrp-2 = H+1 + Cu+2_H+1(-1)_EtDiAm_TyrTrp-2
+ No    t     I-Str     Medium             Value (Dev)           W       Tech.         Ref. #
+  1   25      0.1       KNO3          lgK:8.1(0.03SD)           6       MGL           2416
+
+
+Reaction No. 29475
+[30]N10 + Pb+2 = Pb+2_[30]N10
+ No   t     I-Str      Medium             Value (Dev)           W       Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:10.2(0.07SD)          6        MGL           2584
+
+
+Reaction No. 29476
+H+1 + [30]N10 + Pb+2 = Pb+2_H+1_[30]N10
+ No   t     I-Str      Medium             Value (Dev)           W       Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:19.8(0.05SD)          6        MGL           2584
+
+
+
+
+                                      – Page 39 of 84 –
+JESS Thermodynamic Database v8.9                                        C20
+
+
+
+Reaction No. 29477
+Pb+2 + [30]N10 + 2<H+1> = Pb+2_H+1(2)_[30]N10
+ No   t     I-Str      Medium             Value (Dev)       W   Tech.         Ref. #
+  1   25     0.15      NaClO4           lgK:28.7(0.05SD)    6    MGL           2584
+
+
+Reaction No. 29478
+Pb+2 + [30]N10 + 3<H+1> = Pb+2_H+1(3)_[30]N10
+ No   t     I-Str      Medium             Value (Dev)       W   Tech.         Ref. #
+  1   25     0.15      NaClO4           lgK:36.3(0.03SD)    6    MGL           2584
+
+
+Reaction No. 29479
+Pb+2_[30]N10 + H+1 = Pb+2_H+1_[30]N10
+ No    t     I-Str      Medium             Value (Dev)      W   Tech.         Ref. #
+  1   25     0.15       NaClO4           lgK:9.6(0.1SD)     6   MGL           2584
+
+
+Reaction No. 29480
+Pb+2_H+1_[30]N10 + H+1 = Pb+2_H+1(2)_[30]N10
+ No    t     I-Str      Medium             Value (Dev)      W   Tech.         Ref. #
+  1   25     0.15       NaClO4           lgK:8.9(0.1SD)     6   MGL           2584
+
+
+Reaction No. 29481
+Pb+2_H+1(2)_[30]N10 + H+1 = Pb+2_H+1(3)_[30]N10
+ No    t     I-Str      Medium             Value (Dev)      W   Tech.         Ref. #
+  1   25     0.15       NaClO4           lgK:7.5(0.1SD)     6   MGL           2584
+
+
+Reaction No. 29482
+Pb+2 + H+1_[30]N10 = Pb+2_H+1_[30]N10
+ No    t     I-Str     Medium              Value (Dev)      W   Tech.         Ref. #
+  1   25     0.15      NaClO4           lgK:10.(0.07SD)     6    MGL           2584
+
+
+Reaction No. 29483
+Pb+2 + H+1(2)_[30]N10 = Pb+2_H+1(2)_[30]N10
+ No    t     I-Str     Medium              Value (Dev)      W   Tech.         Ref. #
+  1   25     0.15      NaClO4           lgK:9.4(0.07SD)     6    MGL           2584
+
+
+Reaction No. 29484
+Pb+2 + H+1(3)_[30]N10 = Pb+2_H+1(3)_[30]N10
+
+
+
+
+                                        – Page 40 of 84 –
+JESS Thermodynamic Database v8.9                                                C20
+
+
+ No       t     I-Str     Medium           Value (Dev)          W       Tech.         Ref. #
+  1    25       0.15      NaClO4         lgK:8.0(0.05SD)        6       MGL           2584
+
+
+Reaction No. 29501
+2<Pb+2> + [30]N10 = Pb+2(2)_[30]N10
+ No    t       I-Str     Medium            Value (Dev)          W       Tech.         Ref. #
+ 1    25        0.15     NaClO4         lgK:20.70(0.02SD)       6        MGL           2584
+
+
+Reaction No. 29502
+2<Pb+2> + H+1 + [30]N10 = Pb+2(2)_H+1_[30]N10
+ No       t     I-Str     Medium           Value (Dev)          W       Tech.         Ref. #
+  1    25       0.15      NaClO4        lgK:27.4(0.04SD)        6        MGL           2584
+
+
+Reaction No. 29503
+2<Pb+2> + 2<H+1> + [30]N10 = Pb+2(2)_H+1(2)_[30]N10
+ No       t     I-Str     Medium           Value (Dev)          W       Tech.         Ref. #
+  1    25       0.15      NaClO4        lgK:33.8(0.03SD)        6        MGL           2584
+
+
+Reaction No. 29504
+3<Pb+2> + 3<H+1> + [30]N10 = Pb+2(3)_H+1(3)_[30]N10
+ No       t     I-Str     Medium           Value (Dev)          W       Tech.         Ref. #
+  1    25       0.15      NaClO4        lgK:39.3(0.05SD)        6        MGL           2584
+
+
+Reaction No. 29505
+2<Pb+2> + 4<H+1> + [30]N10 = Pb+2(2)_H+1(4)_[30]N10
+ No    t       I-Str     Medium            Value (Dev)          W       Tech.         Ref. #
+ 1    25        0.15     NaClO4         lgK:45.20(0.02SD)       6        MGL           2584
+
+
+Reaction No. 29506
+2<Pb+2> + [30]N10 + H2O = Pb+2(2)_[30]N10_OH-1 + H+1
+ No    t       I-Str     Medium            Value (Dev)          W       Tech.         Ref. #
+ 1    25        0.15     NaClO4         lgK:10.79(0.02SD)       6        MGL           2584
+
+
+Reaction No. 29507
+Pb+2(2)_[30]N10 + 2<H2O> = Pb+2(2)_[30]N10_OH-1(2) + 2<H+1>
+ No   t       I-Str        Medium               Value (Dev)         W     Tech.       Ref. #
+ 1    25        0       Inf. Dilution        lgK:-19.84(4SF)        1      ELC
+ 2    25      0.15         NaClO4           lgK:-0.28(0.02SD)       0      MGL         2584
+
+
+
+
+                                        – Page 41 of 84 –
+JESS Thermodynamic Database v8.9                                        C20
+
+
+
+Reaction No. 29508
+Pb+2(2)_[30]N10 + H+1 = Pb+2(2)_H+1_[30]N10
+ No    t     I-Str     Medium              Value (Dev)      W   Tech.         Ref. #
+  1   25     0.15      NaClO4           lgK:6.7(0.06SD)     6   MGL           2584
+
+
+Reaction No. 29509
+Pb+2(2)_H+1_[30]N10 + H+1 = Pb+2(2)_H+1(2)_[30]N10
+ No    t     I-Str     Medium              Value (Dev)      W   Tech.         Ref. #
+  1   25     0.15      NaClO4           lgK:6.4(0.07SD)     6   MGL           2584
+
+
+Reaction No. 29510
+Pb+2(2)_H+1(2)_[30]N10 + H+1 = Pb+2(2)_H+1(3)_[30]N10
+ No    t     I-Str     Medium              Value (Dev)      W   Tech.         Ref. #
+  1   25     0.15      NaClO4           lgK:5.6(0.08SD)     6   MGL           2584
+
+
+Reaction No. 29511
+Pb+2(2)_H+1(3)_[30]N10 + H+1 = Pb+2(2)_H+1(4)_[30]N10
+ No    t     I-Str     Medium              Value (Dev)      W   Tech.         Ref. #
+  1   25     0.15      NaClO4           lgK:5.9(0.07SD)     6   MGL           2584
+
+
+Reaction No. 29512
+Pb+2_[30]N10 + Pb+2 = Pb+2(2)_[30]N10
+ No   t     I-Str      Medium             Value (Dev)       W   Tech.         Ref. #
+  1   25     0.15      NaClO4           lgK:10.5(0.09SD)    6    MGL           2584
+
+
+Reaction No. 29513
+2<Pb+2> + H+1_[30]N10 = Pb+2(2)_H+1_[30]N10
+ No   t     I-Str      Medium             Value (Dev)       W   Tech.         Ref. #
+  1   25     0.15      NaClO4           lgK:17.5(0.06SD)    6    MGL           2584
+
+
+Reaction No. 29514
+2<Pb+2> + H+1(2)_[30]N10 = Pb+2(2)_H+1(2)_[30]N10
+ No   t     I-Str      Medium             Value (Dev)       W   Tech.         Ref. #
+  1   25     0.15      NaClO4           lgK:14.5(0.05SD)    6    MGL           2584
+
+
+Reaction No. 29515
+2<Pb+2> + H+1(3)_[30]N10 = Pb+2(2)_H+1(3)_[30]N10
+
+
+
+
+                                        – Page 42 of 84 –
+JESS Thermodynamic Database v8.9                                               C20
+
+
+ No   t     I-Str      Medium           Value (Dev)               W    Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:11.1(0.07SD)            6     MGL           2584
+
+
+Reaction No. 29516
+2<Pb+2> + H+1(4)_[30]N10 = Pb+2(2)_H+1(4)_[30]N10
+ No    t     I-Str     Medium            Value (Dev)              W   Tech.          Ref. #
+  1   25     0.15      NaClO4         lgK:8.0(0.04SD)             6    MGL            2584
+
+
+Reaction No. 29517
+Pb+2(2)_[30]N10 + OH-1 = Pb+2(2)_[30]N10_OH-1
+ No    t     I-Str     Medium            Value (Dev)              W   Tech.          Ref. #
+  1   25     0.15      NaClO4         lgK:3.8(0.04SD)             6    MGL            2584
+
+
+Reaction No. 29518
+Pb+2(2)_[30]N10_OH-1 + OH-1 = Pb+2(2)_[30]N10_OH-1(2)
+ No   t     I-Str     Medium            Value (Dev)               W    Tech.         Ref. #
+ 1    25    0.15      NaClO4         lgK:2.665(0.05SD)            6     MGL           2584
+
+
+Reaction No. 31180
+DeDiMeAmTetracycline-2 + Cu+2 = Cu+2_DeDiMeAmTetracycline-2
+ No    t     I-Str      Medium           Value (Dev)          W       Tech.          Ref. #
+  1   37      0.15      NaClO4          lgK:9.(0.6SD)         6        MGL            2024
+
+
+Reaction No. 31181
+H+1 + DeDiMeAmTetracycline-2 + Cu+2 = Cu+2_H+1_DeDiMeAmTetracycline-2
+ No    t     I-Str      Medium           Value (Dev)          W       Tech.          Ref. #
+  1   37     0.15       NaClO4         lgK:14.(0.5SD)         6        MGL            2024
+
+
+Reaction No. 31182
+H+1 + 2<DeDiMeAmTetracycline-2> + Cu+2 = Cu+2_H+1_DeDiMeAmTetracycline-2(2)
+ No    t     I-Str      Medium           Value (Dev)          W       Tech.          Ref. #
+  1   37      0.15      NaClO4          lgK:23.(2.SD)         4       MGL            2024
+
+
+Reaction No. 31183
+2<H+1> + 2<DeDiMeAmTetracycline-2> + Cu+2 = Cu+2_H+1(2)_DeDiMeAmTetracycline-2(2)
+ No    t     I-Str      Medium           Value (Dev)          W       Tech.          Ref. #
+  1   37      0.15      NaClO4          lgK:26.(2.SD)         4       MGL            2024
+
+
+
+
+                                      – Page 43 of 84 –
+JESS Thermodynamic Database v8.9                                            C20
+
+
+Reaction No. 31208
+[30]N10 + 2<Co+2> = Co+2(2)_[30]N10
+ No   t     I-Str     Medium             Value (Dev)          W     Tech.         Ref. #
+ 1    25    0.15      NaClO4          lgK:21.85(0.02SD)       6      MGL           2726
+
+
+Reaction No. 31209
+3<H+1> + [30]N10 + 2<Co+2> = Co+2(2)_H+1(3)_[30]N10
+ No   t     I-Str      Medium            Value (Dev)          W     Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:39.8(0.04SD)        6      MGL          2726
+
+
+Reaction No. 31210
+2<H+1> + [30]N10 + 2<Co+2> = Co+2(2)_H+1(2)_[30]N10
+ No   t     I-Str     Medium             Value (Dev)          W     Tech.         Ref. #
+ 1    25    0.15      NaClO4          lgK:34.67(0.01SD)       6      MGL           2726
+
+
+Reaction No. 31211
+2<Co+2> + [30]N10 + H2O = Co+2(2)_[30]N10_OH-1 + H+1
+ No   t     I-Str      Medium            Value (Dev)          W     Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:11.9(0.06SD)        6      MGL          2726
+
+
+Reaction No. 31670
+H+1 + [30]N10 + 2<Co+2> + PO4-3 = Co+2(2)_H+1_[30]N10_PO4-3
+ No   t     I-Str      Medium            Value (Dev)          W     Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:35.4(0.07SD)        6      MGL          2683
+
+
+Reaction No. 31671
+2<H+1> + [30]N10 + 2<Co+2> + PO4-3 = Co+2(2)_H+1(2)_[30]N10_PO4-3
+ No   t     I-Str      Medium            Value (Dev)          W     Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:44.0(0.03SD)        6     MGL           2683
+
+
+Reaction No. 31672
+3<H+1> + [30]N10 + 2<Co+2> + PO4-3 = Co+2(2)_H+1(3)_[30]N10_PO4-3
+ No   t     I-Str      Medium            Value (Dev)          W     Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:50.0(0.03SD)        6     MGL           2683
+
+
+Reaction No. 31673
+2<H+1> + [30]N10 + Co+2 + PO4-3 = Co+2_H+1(2)_[30]N10_PO4-3
+ No   t     I-Str      Medium            Value (Dev)          W     Tech.         Ref. #
+
+
+
+
+                                      – Page 44 of 84 –
+JESS Thermodynamic Database v8.9                                                       C20
+
+
+  1   25        0.15          NaClO4        lgK:35.2(0.09SD)         6         MGL            2683
+
+
+Reaction No. 31674
+4<H+1> + [30]N10 + Co+2 + PO4-3 = Co+2_H+1(4)_[30]N10_PO4-3
+ No   t         I-Str         Medium          Value (Dev)            W        Tech.          Ref. #
+  1   25        0.15          NaClO4        lgK:51.5(0.09SD)         6         MGL            2683
+
+
+Reaction No. 34336
+H+1 + EriochromeBT-3 = H+1_EriochromeBT-3
+ No        t       I-Str          Medium          Value (Dev)            W     Tech.         Ref. #
+ 1    18:20         0.08         Unknown        lgK:11.55(4SF)           5      MSP            140
+ 2    18:20            0.3       Unknown        lgK:11.31(4SF)           5      MSP            931
+ 3         25          0.1        NaClO4       lgK:11.636(5SF)           5      MGL           3108
+
+
+Reaction No. 34337
+H+1_EriochromeBT-3 + H+1 = H+1(2)_EriochromeBT-3
+ No        t        I-Str         Medium          Value (Dev)            W     Tech.         Ref. #
+ 1    18:20         0.008         Unknown        lgK:6.3(2SF)            5      MSP            140
+ 2    18:20             0.3       Unknown        lgK:6.80(3SF)           5      MSP            931
+ 3         25           0.1       NaClO4        lgK:6.383(4SF)           5      MGL           3108
+ 4         25                      MeCN          lgK:9.1(2SF)            4      MSP            906
+
+
+Reaction No. 34338
+H+1(2)_EriochromeBT-3 + H+1 = H+1(3)_EriochromeBT-3
+ No    t         I-Str          Medium         Value (Dev)       W           Tech.           Ref. #
+  1    20                                      dH:0.0(1SF)       0            ENS
+
+
+Reaction No. 34339
+EriochromeBT-3 + Cd+2 = Cd+2_EriochromeBT-3
+ No    t        I-Str          Medium          Value (Dev)           W        Tech.          Ref. #
+  1   20         0.3           NaClO4        lgK:12.74(4SF)          5         MSP            931
+
+
+Reaction No. 34340
+EriochromeBT-3 + Co+2 = Co+2_EriochromeBT-3
+ No    t        I-Str          Medium           Value (Dev)          W        Tech.          Ref. #
+  1   20         0.3           Unknown        lgK:20.0(3SF)          5         MSP            931
+
+
+Reaction No. 34341
+
+
+
+
+                                            – Page 45 of 84 –
+JESS Thermodynamic Database v8.9                                                              C20
+
+
+EriochromeBT-3 + Cu+2 = Cu+2_EriochromeBT-3
+ No       t         I-Str              Medium            Value (Dev)         W       Tech.          Ref. #
+  1    20               0.3            NaClO4          lgK:21.38(4SF)        5       MSP             931
+
+
+Reaction No. 34342
+EriochromeBT-3 + Pb+2 = Pb+2_EriochromeBT-3
+ No       t         I-Str              Medium            Value (Dev)         W       Tech.          Ref. #
+  1    20               0.3            NaClO4          lgK:13.19(4SF)        5       MSP             931
+
+
+Reaction No. 34343
+EriochromeBT-3 + Zn+2 = Zn+2_EriochromeBT-3
+ No       t         I-Str              Medium            Value (Dev)         W       Tech.          Ref. #
+  1    20               0.3            NaClO4          lgK:12.31(4SF)        5       MSP             931
+
+
+Reaction No. 34344
+Zn+2 + EriochromeBT-3 + NTA-3 = Zn+2_EriochromeBT-3_NTA-3
+ No   t           I-Str                  Medium               Value (Dev)        W     Tech.        Ref. #
+ 1    20           0.3                   NaClO4             lgK:15.15(4SF)       0      MSP           931
+ 2    25            0                 Inf. Dilution          lgK:13.8(3SF)       1      ELC
+
+
+Reaction No. 34345
+Zn+2_NTA-3 + EriochromeBT-3 = Zn+2_EriochromeBT-3_NTA-3
+ No   t           I-Str                   Medium              Value (Dev)        W    Tech.         Ref. #
+ 1    20           0.3                    NaClO4             lgK:2.83(3SF)       5     MSP            931
+ 2    25            0                 Inf. Dilution           lgK:2.9(2SF)       1     ESC
+
+
+Reaction No. 34346
+EriochromeBT-3 + Ca+2 = Ca+2_EriochromeBT-3
+ No           t               I-Str         Medium          Value (Dev)      W       Tech.          Ref. #
+  1       18:20               0.02         Unknown          lgK:5.4(2SF)     5        MSP            140
+
+
+Reaction No. 34347
+EriochromeBT-3 + Mg+2 = Mg+2_EriochromeBT-3
+ No           t               I-Str         Medium          Value (Dev)      W       Tech.          Ref. #
+  1       18:20               0.08         Unknown          lgK:7.0(2SF)     5        MSP            140
+
+
+Reaction No. 34557
+Mg+2 + H+1(2)_EriochromeBT-3 = Mg+2_EriochromeBT-3 + 2<H+1>
+
+
+
+
+                                                      – Page 46 of 84 –
+JESS Thermodynamic Database v8.9                                              C20
+
+
+ No    t     I-Str      Medium              Value (Dev)      W       Tech.          Ref. #
+  1   25                 MeCN              lgK:3.97(3SF)     4        MSP            906
+
+
+Reaction No. 34558
+Mg+2 + H+1_EriochromeBT-3 = Mg+2_EriochromeBT-3 + H+1
+ No    t     I-Str      Medium              Value (Dev)      W       Tech.          Ref. #
+  1   25                 MeCN              lgK:5.02(3SF)     4       MSP             906
+
+
+Reaction No. 34559
+UO2+2_EriochromeBT-3 + EriochromeBT-3 = UO2+2_EriochromeBT-3(2)
+ No    t     I-Str      Medium              Value (Dev)      W       Tech.          Ref. #
+  1   25      0.1       NaClO4            lgK:12.04(4SF)     5        MGL            3108
+
+
+Reaction No. 34560
+EriochromeBT-3 + UO2+2 = UO2+2_EriochromeBT-3
+ No    t     I-Str      Medium              Value (Dev)      W       Tech.          Ref. #
+  1   25      0.1       NaClO4            lgK:14.39(4SF)     5        MGL            3108
+
+
+Reaction No. 34579
+H+1(9)_[30]N10 + H+1 = H+1(10)_[30]N10
+ No    t     I-Str      Medium              Value (Dev)      W       Tech.          Ref. #
+  1   25     0.15       NaClO4            lgK:1.8(0.1SD)     5        MPT            4391
+
+
+Reaction No. 34580
+H+1(8)_[30]N10 + H+1 = H+1(9)_[30]N10
+ No   t     I-Str      Medium              Value (Dev)           W    Tech.         Ref. #
+  1   25     0.15      NaClO4            lgK:1.97(0.01SD)        5     MPT           4391
+
+
+Reaction No. 34581
+H+1(7)_[30]N10 + H+1 = H+1(8)_[30]N10
+ No   t     I-Str      Medium              Value (Dev)           W    Tech.         Ref. #
+  1   25     0.15      NaClO4            lgK:3.02(0.02SD)        5     MPT           4391
+
+
+Reaction No. 34582
+H+1(6)_[30]N10 + H+1 = H+1(7)_[30]N10
+ No    t     I-Str     Medium               Value (Dev)          W   Tech.          Ref. #
+  1   25     0.15      NaClO4            lgK:3.8(0.03SD)         5    MPT            4391
+
+
+
+
+                                         – Page 47 of 84 –
+JESS Thermodynamic Database v8.9                                                    C20
+
+
+Reaction No. 36096
+Co+2(2)_[30]N10 + OH-1 = Co+2(2)_[30]N10_OH-1
+ No       t     I-Str         Medium          Value (Dev)          W       Tech.          Ref. #
+  1    25           0.15      NaClO4         lgK:3.82(3SF)         5       MGL            2726
+
+
+Reaction No. 36124
+[18]O6:DiBenzo + Na+1 = Na+1_[18]O6:DiBenzo
+ No   t       I-Str           Medium               Value (Dev)         W      Tech.        Ref. #
+ 1    25        0          Inf. Dilution         lgK:1.164(4SF)        4         MSP        3303
+ 2    23                      Acetone            lgK:4.602(4SF)        4         MMR        4532
+ 3    25                        DMF              lgK:2.78(3SF)         3         MCN        906
+ 4    25      0.05             MeCN              lgK:4.89(3SF)         5         MAG        5758
+                             Et4NClO4
+ 5    25      0.05             MeCN             dH:-15.0(3SF)kJ        5         MCL        5758
+                             Et4NClO4
+ 6    25                     Methanol           lgK:4.4(0.04SD)        4         MIS        6509
+ 7    25       0.1          PrCarbonate         lgK:5.03(0.02SD)       5         MPT        2839
+                             Et4NClO4
+
+
+Reaction No. 36125
+[18]O6:DiBenzo + K+1 = K+1_[18]O6:DiBenzo
+ No   t       I-Str            Medium              Value (Dev)         W     Tech.        Ref. #
+ 1    25        0          Inf. Dilution         lgK:1.667(4SF)        4      MSP          3303
+ 2    23                      Acetone             lgK:4.30(3SF)        3      MMR          4532
+ 3    25      0.05              MeCN              lgK:4.78(3SF)        5      MAG          5758
+                              Et4NClO4
+ 4    25      0.05              MeCN             dH:-18.6(3SF)kJ       5      MCL          5758
+                              Et4NClO4
+ 5    25                      Methanol           lgK:5.0(0.04SD)       4      MIS          6509
+
+
+Reaction No. 36126
+[18]O6:DiBenzo + Cs+1 = Cs+1_[18]O6:DiBenzo
+ No   t       I-Str           Medium               Value (Dev)         W      Tech.        Ref. #
+ 1    25        0          Inf. Dilution         lgK:0.833(3SF)        4         MSP        3303
+ 2    25                      Acetone            lgK:3.00(3SF)         3         MMR        4829
+ 3    25                        DMF              lgK:1.477(4SF)        5         MMR        4829
+ 4    27        0               DMF             lgK:1.63(0.02SD)       5         MMR        6236
+                           Inf. Dilution
+ 5    25                       DMSO              lgK:1.342(4SF)        5         MMR        4829
+
+
+
+
+                                           – Page 48 of 84 –
+JESS Thermodynamic Database v8.9                                                C20
+
+
+ 6    25                  MeCN                 lgK:1.544(4SF)       5         MMR       4829
+ 7    25                Methanol               lgK:3.6(0.2SD)       4         MIS       6509
+ 8    25              PrCarbonate              lgK:3.00(3SF)        5         MMR       4829
+ 9    25                Pyridine               lgK:3.845(4SF)       5         MMR       4829
+
+
+Reaction No. 36735
+SHBED-6 + Cu+2 = Cu+2_SHBED-6
+ No    t     I-Str      Medium             Value (Dev)          W       Tech.         Ref. #
+  1    25     0.1        KCl             lgK:24.44(4SF)         6        MGL           3871
+
+
+Reaction No. 36736
+Cu+2_SHBED-6 + H+1 = Cu+2_H+1_SHBED-6
+ No    t     I-Str      Medium             Value (Dev)          W       Tech.         Ref. #
+  1    25     0.1         KCl             lgK:7.57(3SF)         6       MGL           3871
+
+
+Reaction No. 36737
+Cu+2_H+1_SHBED-6 + H+1 = Cu+2_H+1(2)_SHBED-6
+ No    t     I-Str      Medium             Value (Dev)          W       Tech.         Ref. #
+  1    25     0.1         KCl             lgK:4.09(3SF)         6       MGL           3871
+
+
+Reaction No. 36738
+SHBED-6 + Ni+2 = Ni+2_SHBED-6
+ No    t     I-Str      Medium             Value (Dev)          W       Tech.         Ref. #
+  1    25     0.1        KCl             lgK:22.47(4SF)         6        MGL           3871
+
+
+Reaction No. 36739
+Ni+2_SHBED-6 + H+1 = Ni+2_H+1_SHBED-6
+ No    t     I-Str      Medium             Value (Dev)          W       Tech.         Ref. #
+  1    25     0.1         KCl             lgK:7.05(3SF)         6       MGL           3871
+
+
+Reaction No. 36740
+Ni+2_H+1_SHBED-6 + H+1 = Ni+2_H+1(2)_SHBED-6
+ No    t     I-Str      Medium             Value (Dev)          W       Tech.         Ref. #
+  1    25     0.1         KCl             lgK:5.24(3SF)         6       MGL           3871
+
+
+Reaction No. 36741
+SHBED-6 + Co+2 = Co+2_SHBED-6
+ No    t     I-Str      Medium             Value (Dev)          W       Tech.         Ref. #
+
+
+
+
+                                        – Page 49 of 84 –
+JESS Thermodynamic Database v8.9                                                   C20
+
+
+  1    25           0.1      KCl           lgK:20.66(4SF)         6        MGL            3871
+
+
+Reaction No. 36742
+Co+2_SHBED-6 + H+1 = Co+2_H+1_SHBED-6
+ No       t     I-Str       Medium           Value (Dev)          W       Tech.          Ref. #
+  1    25           0.1       KCl           lgK:6.51(3SF)         6       MGL            3871
+
+
+Reaction No. 36743
+Co+2_H+1_SHBED-6 + H+1 = Co+2_H+1(2)_SHBED-6
+ No       t     I-Str       Medium           Value (Dev)          W       Tech.          Ref. #
+  1    25           0.1       KCl           lgK:4.97(3SF)         6       MGL            3871
+
+
+Reaction No. 36744
+SHBED-6 + Zn+2 = Zn+2_SHBED-6
+ No       t     I-Str       Medium           Value (Dev)          W       Tech.          Ref. #
+  1    25           0.1      KCl           lgK:20.23(4SF)         6        MGL            3871
+
+
+Reaction No. 36745
+Zn+2_SHBED-6 + H+1 = Zn+2_H+1_SHBED-6
+ No       t     I-Str       Medium           Value (Dev)          W       Tech.          Ref. #
+  1    25           0.1       KCl           lgK:6.90(3SF)         6       MGL            3871
+
+
+Reaction No. 36746
+Zn+2_H+1_SHBED-6 + H+1 = Zn+2_H+1(2)_SHBED-6
+ No       t     I-Str       Medium           Value (Dev)          W       Tech.          Ref. #
+  1    25           0.1       KCl           lgK:5.10(3SF)         6       MGL            3871
+
+
+Reaction No. 36747
+In+3_SHBED-6 + 2<H+1> = In+3_H+1(2)_SHBED-6
+ No       t     I-Str       Medium           Value (Dev)          W       Tech.          Ref. #
+  1    25           0.1       KCl           lgK:5.31(3SF)         3       MGL            3871
+
+
+Reaction No. 36796
+[18]O6:DiBenzo + Sr+2 = Sr+2_[18]O6:DiBenzo
+ No   t       I-Str          Medium               Value (Dev)         W     Tech.        Ref. #
+ 1    25        0         Inf. Dilution          lgK:1.0(2SF)         0      MSP          3303
+ 2    25      0.05           LiClO4             lgK:3.556(4SF)        5      MSF          3887
+ 3    25                       DMF              lgK:2.4(0.08SD)       4      MPS          3910
+
+
+
+
+                                          – Page 50 of 84 –
+JESS Thermodynamic Database v8.9                                           C20
+
+
+ 4    25                  DMSO                lgK:2.1(0.07SD)    4   MPS         3910
+ 5    25                Methanol              lgK:3.5(0.08SD)    4   MPS         3910
+
+
+Reaction No. 38285
+[18]O6:DiBenzo + Pb+2 = Pb+2_[18]O6:DiBenzo
+ No   t    I-Str        Medium                  Value (Dev)      W   Tech.       Ref. #
+ 1    25     0       Inf. Dilution            lgK:1.886(4SF)     5    MSP         3303
+ 2    25              MeCN:Water               lgK:2.65(3SF)     4    MCN         5726
+                       70:30Wgt
+ 3    25              MeCN:Water          dH:-28.9(1.6SD)kJ      4    MTD         5726
+                       70:30Wgt
+ 4    25              MeCN:Water               lgK:3.15(3SF)     4    MCN         5726
+                       80:20Wgt
+ 5    25              MeCN:Water          dH:-37.1(2.8SD)kJ      4    MTD         5726
+                       80:20Wgt
+ 6    25              MeCN:Water               lgK:3.99(3SF)     4    MCN         5726
+                       90:10Wgt
+ 7    25              MeCN:Water          dH:-53.1(3.3SD)kJ      4    MTD         5726
+                       90:10Wgt
+ 8    25    0.1       PrCarbonate             lgK:9.7(0.04SD)    5    MIS         2922
+                        Et4NClO4
+
+
+Reaction No. 38286
+[18]O6:DiBenzo + Rb+1 = Rb+1_[18]O6:DiBenzo
+ No   t    I-Str         Medium                 Value (Dev)      W   Tech.       Ref. #
+ 1    25     0       Inf. Dilution            lgK:1.097(4SF)     5   MSP         3303
+ 2    27     0            DMF                 lgK:2.38(0.11SD)   5   MMR          6236
+                     Inf. Dilution
+ 3    25   0.05           MeCN                dH:-12.0(3SF)kJ    5   MCL          5758
+                        Et4NClO4
+
+
+Reaction No. 38287
+[18]O6:DiBenzo + Ag+1 = Ag+1_[18]O6:DiBenzo
+ No   t    I-Str        Medium                  Value (Dev)      W   Tech.       Ref. #
+ 1    25     0       Inf. Dilution            lgK:1.415(4SF)     5    MSP         3303
+ 2    25              MeCN:Water               lgK:2.12(3SF)     4    MCN         5726
+                       70:30Wgt
+ 3    25              MeCN:Water          dH:-21.1(1.3SD)kJ      4    MTD         5726
+                       70:30Wgt
+ 4    25              MeCN:Water               lgK:2.73(3SF)     4    MCN         5726
+                       80:20Wgt
+
+
+
+
+                                      – Page 51 of 84 –
+JESS Thermodynamic Database v8.9                                                C20
+
+
+ 5    25              MeCN:Water            dH:-28.2(1.5SD)kJ       4      MTD         5726
+                       80:20Wgt
+ 6    25              MeCN:Water              lgK:3.44(3SF)         4      MCN         5726
+                       90:10Wgt
+ 7    25              MeCN:Water            dH:-36.7(1.1SD)kJ       4      MTD         5726
+                       90:10Wgt
+
+
+Reaction No. 38295
+H+1 + [12]N4:2OHPr*4 = H+1_[12]N4:2OHPr*4
+ No    t     I-Str     Medium            Value (Dev)            W       Tech.         Ref. #
+  1    25     0.1       NaNO3         lgK:10.(0.03SD)           5       MGL           3898
+
+
+Reaction No. 38296
+H+1_[12]N4:2OHPr*4 + H+1 = H+1(2)_[12]N4:2OHPr*4
+ No    t     I-Str     Medium            Value (Dev)            W       Tech.         Ref. #
+  1    25     0.1       NaNO3         lgK:8.3(0.03SD)           5       MGL           3898
+
+
+Reaction No. 38297
+[12]N4:2OHPr*4 + Cu+2 = Cu+2_[12]N4:2OHPr*4
+ No    t    I-Str      Medium           Value (Dev)             W       Tech.         Ref. #
+  1    25    0.5       NaNO3          lgK:19.5(0.04SD)          5        MGL           3898
+
+
+Reaction No. 38298
+[12]N4:2OHPr*4 + Zn+2 = Zn+2_[12]N4:2OHPr*4
+ No    t    I-Str      Medium           Value (Dev)             W       Tech.         Ref. #
+  1    25    0.1       NaNO3          lgK:13.5(0.03SD)          5        MGL           3898
+
+
+Reaction No. 38299
+[12]N4:2OHPr*4 + Cd+2 = Cd+2_[12]N4:2OHPr*4
+ No    t    I-Str      Medium           Value (Dev)             W       Tech.         Ref. #
+  1    25    0.5       NaNO3          lgK:17.5(0.05SD)          5        MGL           3898
+
+
+Reaction No. 38300
+[12]N4:2OHPr*4 + Pb+2 = Pb+2_[12]N4:2OHPr*4
+ No    t    I-Str     Medium            Value (Dev)             W       Tech.         Ref. #
+ 1    25     0.1       NaNO3         lgK:15.07(0.01SD)          5        MGL           3898
+
+
+Reaction No. 38301
+[12]N4:2OHPr*4 + Ca+2 = Ca+2_[12]N4:2OHPr*4
+
+
+
+
+                                      – Page 52 of 84 –
+JESS Thermodynamic Database v8.9                                                 C20
+
+
+ No    t    I-Str      Medium           Value (Dev)             W       Tech.          Ref. #
+  1   25     0.1       NaNO3          lgK:5.68(0.01SD)          5        MGL            3898
+
+
+Reaction No. 38302
+[12]N4:2OHPr*4 + Sr+2 = Sr+2_[12]N4:2OHPr*4
+ No    t     I-Str     Medium            Value (Dev)            W       Tech.          Ref. #
+  1   25      0.1       NaNO3         lgK:5.0(0.03SD)           5       MGL            3898
+
+
+Reaction No. 38303
+[12]N4:2OHPr*4 + Ba+2 = Ba+2_[12]N4:2OHPr*4
+ No    t    I-Str      Medium           Value (Dev)             W       Tech.          Ref. #
+  1   25     0.1       NaNO3          lgK:3.74(0.01SD)          5        MGL            3898
+
+
+Reaction No. 38732
+[18]O6:DiBenzo + Mg+2 = Mg+2_[18]O6:DiBenzo
+ No    t    I-Str       Medium            Value (Dev)           W       Tech.          Ref. #
+ 1    25                 DMF              lgK:2.0(2SF)          3        MPS            3910
+ 2    25                 DMSO             lgK:2.0(2SF)          3        MPS            3910
+ 3    25               Methanol         lgK:2.3(0.07SD)         4        MPS            3910
+
+
+Reaction No. 38733
+[18]O6:DiBenzo + Ca+2 = Ca+2_[18]O6:DiBenzo
+ No    t    I-Str       Medium            Value (Dev)           W       Tech.          Ref. #
+ 1    25                 DMF            lgK:2.0(0.07SD)         4        MPS            3910
+ 2    25                 DMSO             lgK:2.0(2SF)          3        MPS            3910
+ 3    25               Methanol         lgK:2.8(0.08SD)         4        MPS            3910
+
+
+Reaction No. 38734
+[18]O6:DiBenzo + Ba+2 = Ba+2_[18]O6:DiBenzo
+ No   t    I-Str         Medium                 Value (Dev)         W     Tech.        Ref. #
+ 1    25     0        Inf. Dilution           lgK:1.954(4SF)        5      MSP          3303
+ 2    25                   DMF                lgK:3.2(0.07SD)       4      MPS          3910
+ 3    25                  DMSO                lgK:2.6(0.09SD)       4      MPS          3910
+ 4    25   0.05           MeCN                  lgK:5.(1SF)         3      MAG          5758
+                        Et4NClO4
+ 5    25   0.05           MeCN                dH:-24.4(3SF)kJ       5      MCL          5758
+                        Et4NClO4
+ 6    25                Methanol              lgK:4.4(0.09SD)       4      MPS          3910
+
+
+
+
+                                      – Page 53 of 84 –
+JESS Thermodynamic Database v8.9                                      C20
+
+
+
+Reaction No. 38995
+2<Cu+2> + [30]N10 = Cu+2(2)_[30]N10
+ No   t     I-Str      Medium           Value (Dev)       W   Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:37.8(0.04SD)    5   MPT           4391
+  2   25     0.15      NaClO4           dH:45.5(3SF)      5   MCL           4391
+
+
+Reaction No. 38996
+2<Cu+2> + [30]N10 + H+1 = Cu+2(2)_H+1_[30]N10
+ No   t     I-Str      Medium           Value (Dev)       W   Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:43.4(0.03SD)    5   MPT           4391
+
+
+Reaction No. 38997
+2<H+1> + [30]N10 + 2<Cu+2> = Cu+2(2)_H+1(2)_[30]N10
+ No   t     I-Str      Medium           Value (Dev)       W   Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:47.2(0.03SD)    5   MPT           4391
+
+
+Reaction No. 38998
+3<H+1> + [30]N10 + 2<Cu+2> = Cu+2(2)_H+1(3)_[30]N10
+ No   t     I-Str      Medium           Value (Dev)       W   Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:50.5(0.03SD)    5   MPT           4391
+
+
+Reaction No. 38999
+2<Cu+2> + [30]N10 + H2O = Cu+2(2)_[30]N10_OH-1 + H+1
+ No   t     I-Str      Medium           Value (Dev)       W   Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:26.4(0.05SD)    5   MPT           4391
+
+
+Reaction No. 39008
+[30]N10 + 2<Zn+2> = Zn+2(2)_[30]N10
+ No   t     I-Str      Medium           Value (Dev)       W   Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:22.5(0.05SD)    6   MPT           4246
+
+
+Reaction No. 39011
+2<H+1> + [30]N10 + 2<Zn+2> = Zn+2(2)_H+1(2)_[30]N10
+ No   t     I-Str      Medium           Value (Dev)       W   Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:35.2(0.05SD)    6   MPT           4246
+
+
+Reaction No. 39012
+
+
+
+
+                                      – Page 54 of 84 –
+JESS Thermodynamic Database v8.9                                            C20
+
+
+3<H+1> + [30]N10 + 2<Zn+2> = Zn+2(2)_H+1(3)_[30]N10
+ No   t     I-Str      Medium            Value (Dev)            W   Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:40.4(0.06SD)          6    MPT           4246
+
+
+Reaction No. 39013
+2<Zn+2> + [30]N10 + H2O = Zn+2(2)_[30]N10_OH-1 + H+1
+ No   t     I-Str      Medium            Value (Dev)            W   Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:14.2(0.05SD)          6    MPT           4246
+
+
+Reaction No. 39014
+2<Zn+2> + [30]N10 + 2<H2O> = Zn+2(2)_[30]N10_OH-1(2) + 2<H+1>
+ No    t     I-Str     Medium            Value (Dev)            W   Tech.         Ref. #
+  1   25     0.15      NaClO4          lgK:3.2(0.06SD)          6   MPT           4246
+
+
+Reaction No. 39028
+[30]N10 + 2<Cd+2> = Cd+2(2)_[30]N10
+ No   t     I-Str     Medium             Value (Dev)            W   Tech.         Ref. #
+ 1    25    0.15      NaClO4          lgK:23.21(0.01SD)         6    MPT           4256
+
+
+Reaction No. 39029
+2<H+1> + [30]N10 + 2<Cd+2> = Cd+2(2)_H+1(2)_[30]N10
+ No   t     I-Str     Medium             Value (Dev)            W   Tech.         Ref. #
+ 1    25    0.15      NaClO4          lgK:35.07(0.01SD)         6    MPT           4256
+
+
+Reaction No. 39030
+3<H+1> + [30]N10 + 2<Cd+2> = Cd+2(2)_H+1(3)_[30]N10
+ No   t     I-Str      Medium            Value (Dev)            W   Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:39.9(0.03SD)          6    MPT           4256
+
+
+Reaction No. 39059
+[30]N10 + 2<Ni+2> = Ni+2(2)_[30]N10
+ No   t     I-Str      Medium            Value (Dev)            W   Tech.         Ref. #
+  1   25     0.15      NaClO4         lgK:30.0(0.03SD)          6    MPT           4258
+
+
+Reaction No. 39060
+2<H+1> + [30]N10 + 2<Ni+2> = Ni+2(2)_H+1(2)_[30]N10
+ No   t     I-Str     Medium             Value (Dev)            W   Tech.         Ref. #
+ 1    25    0.15      NaClO4          lgK:40.17(0.02SD)         6    MPT           4258
+
+
+
+
+                                      – Page 55 of 84 –
+JESS Thermodynamic Database v8.9                                                 C20
+
+
+
+Reaction No. 39512
+[18]O6:DiBenzo + Tl+1 = Tl+1_[18]O6:DiBenzo
+ No   t    I-Str         Medium                 Value (Dev)          W    Tech.        Ref. #
+ 1    25     0       Inf. Dilution            lgK:1.502(4SF)         5     MSP          3303
+ 2    23   0.05          Acetone               lgK:4.60(3SF)         5     MPL          3344
+                        Bu4NClO4
+ 3    23   0.05       Benzonitrile             lgK:5.30(3SF)         5     MPL          3344
+                        Bu4NClO4
+ 4    23   0.05            DMF                 lgK:1.96(3SF)         5     MPL          3344
+                        Bu4NClO4
+ 5    23                  DMF                  lgK:1.96(3SF)         4     MCV          2817
+ 6    23   0.05           DMSO                 lgK:0.78(2SF)         5     MPL          3344
+                        Bu4NClO4
+ 7    23   0.05           MeCN                 lgK:4.80(3SF)         5     MPL          3344
+                        Bu4NClO4
+ 8    23   0.05         MeCONMe2               lgK:2.06(3SF)         5     MPL          3344
+                        Bu4NClO4
+ 9    23                Methanol               lgK:3.38(3SF)         4     MCV          2817
+ 10   25                Methanol              lgK:4.4(0.06SD)        5     MFL          2314
+ 11   23   0.05        NMePrAmide              lgK:2.00(3SF)         5     MPL          3344
+                        Bu4NClO4
+ 12   23   0.05       PrCarbonate              lgK:4.92(3SF)         5     MPL          3344
+                       Bu4NClO4
+ 13   25    0.1       PrCarbonate             lgK:4.98(0.02SD)       5     MIS          2922
+                       Et4NClO4
+ 14   30   0.05        Sulfolane               lgK:4.10(3SF)         5     MPL          3344
+                       Bu4NClO4
+
+
+Reaction No. 39861
+2<H+1> + AmImDiBenzHis-1 = H+1(2)_AmImDiBenzHis-1
+ No    t    I-Str     Medium            Value (Dev)              W       Tech.         Ref. #
+ 1    25     0.1       KNO3          lgK:13.98(0.01SD)           6        MGL           1643
+
+
+Reaction No. 39862
+3<H+1> + AmImDiBenzHis-1 = H+1(3)_AmImDiBenzHis-1
+ No    t    I-Str      Medium           Value (Dev)              W       Tech.         Ref. #
+  1   25     0.1        KNO3          lgK:15.9(0.03SD)           6       MGL           1643
+
+
+Reaction No. 39863
+AmImDiBenzHis-1 + Cu+2 + Trp-1 = Cu+2_AmImDiBenzHis-1_Trp-1
+
+
+
+
+                                      – Page 56 of 84 –
+JESS Thermodynamic Database v8.9                                                C20
+
+
+ No   t     I-Str     Medium             Value (Dev)            W       Tech.         Ref. #
+ 1    25     0.1       KNO3           lgK:16.86(0.007SD)        6        MGL           1643
+
+
+Reaction No. 39864
+AmImDiBenzHis-1 + Cu+2 + Phe-1 = Cu+2_AmImDiBenzHis-1_Phe-1
+ No   t     I-Str     Medium             Value (Dev)            W       Tech.         Ref. #
+ 1    25     0.1       KNO3           lgK:16.48(0.007SD)        6        MGL           1643
+
+
+Reaction No. 39865
+AmImDiBenzHis-1 + Cu+2 + Val-1 = Cu+2_AmImDiBenzHis-1_Val-1
+ No    t    I-Str     Medium             Value (Dev)            W       Tech.         Ref. #
+ 1    25     0.1       KNO3           lgK:16.42(0.01SD)         6       MGL           1643
+
+
+Reaction No. 39866
+AmImDiBenzHis-1 + Cu+2 + Glu-2 = Cu+2_AmImDiBenzHis-1_Glu-2
+ No   t     I-Str     Medium             Value (Dev)            W       Tech.         Ref. #
+ 1    25     0.1       KNO3           lgK:16.64(0.004SD)        6        MGL           1643
+
+
+Reaction No. 41655
+[18]O6:DiBenzo + Hg+2 = Hg+2_[18]O6:DiBenzo
+ No   t    I-Str         Medium                Value (Dev)          W   Tech.         Ref. #
+ 1    25    0.1           MeCN                lgK:3.0(0.1SD)        5    MPL           4472
+                        Et4NClO4
+ 2    25    0.1       Nitrobenzene            lgK:2.7(0.1SD)        5    MPL           4472
+                        Et4NClO4
+
+
+Reaction No. 41686
+[18]O6:[Hex]*2 + Hg+2 = Hg+2_[18]O6:[Hex]*2
+ No   t    I-Str          Medium                Value (Dev)         W    Tech.        Ref. #
+ 1    25     0        Inf. Dilution            lgK:2.75(3SF)        4     MCL          3839
+ 2    25     0        Inf. Dilution            dH:-0.71(2SF)        4     MCL          3839
+ 3    25    0.1            MeCN               lgK:5.0(0.1SD)        5     MPL          4472
+                         Et4NClO4
+ 4    25    0.1        Nitrobenzene           lgK:7.8(0.2SD)        5     MPL          4472
+                         Et4NClO4
+
+
+Reaction No. 45615
+Cs+1_[18]O6:DiBenzo + [18]O6:DiBenzo = Cs+1_[18]O6:DiBenzo(2)
+ No    t    I-Str       Medium             Value (Dev)          W       Tech.         Ref. #
+
+
+
+
+                                      – Page 57 of 84 –
+JESS Thermodynamic Database v8.9                                                C20
+
+
+ 1    25               Methanol         lgK:2.9(0.07SD)          4       MIS           906
+ 2    25               Pyridine         lgK:2.362(4SF)           5       MMR          4829
+
+
+Reaction No. 45616
+[18]O6:[Hex]*2 + Ag+1 = Ag+1_[18]O6:[Hex]*2
+ No   t    I-Str          Medium                Value (Dev)          W   Tech.        Ref. #
+ 1    25     0        Inf. Dilution            lgK:2.36(3SF)         4    MCL         3839
+ 2    25                                       lgK:2.3(0.1SD)        3    MIS          6509
+ 3    25     0        Inf. Dilution             dH:0.07(1SF)         4    MCL         3839
+
+
+Reaction No. 45617
+[18]O6:[Hex]*2 + Cs+1 = Cs+1_[18]O6:[Hex]*2
+ No   t    I-Str         Medium                 Value (Dev)          W   Tech.        Ref. #
+ 1    10     0       Inf. Dilution            lgK:1.0(0.07SD)        3    MCL          6727
+ 2    23   0.01         Unknown               lgK:1.1(0.06SD)        4    MCL          6655
+ 3    25     0       Inf. Dilution             lgK:1.(0.06SD)        4    MCL          6727
+ 4    25                                       lgK:1.2(0.1SD)        3    MPT          6509
+ 5    40     0       Inf. Dilution             lgK:1.(0.03SD)        3    MCL          6727
+ 6    10     0       Inf. Dilution             dH:-2.4(0.1SD)        3    MCL          6747
+ 7    23   0.01         Unknown                dH:-2.0(0.1SD)        4    MTD          6655
+ 8    25     0       Inf. Dilution             dH:-2.41(3SF)         4    MCL          6727
+ 9    25                                        dH:-2.4(2SF)         3    ENS          3560
+ 10   40     0       Inf. Dilution            dH:-2.4(0.07SD)        3    MCL          6747
+ 11   27     0            DMF                 lgK:2.91(0.02SD)       5    MMR          6236
+                     Inf. Dilution
+ 12   25   0.05           MeCN                 lgK:5.40(3SF)         5    MAG          5758
+                        Et4NClO4
+ 13   25   0.05           MeCN                dH:-23.7(3SF)kJ        5    MCL          5758
+                        Et4NClO4
+ 14   25                Methanol               lgK:4.61(3SF)         5    MIS          6509
+
+
+Reaction No. 45618
+[18]O6:[Hex]*2 + K+1 = K+1_[18]O6:[Hex]*2
+ No   t    I-Str         Medium                 Value (Dev)          W   Tech.        Ref. #
+ 1    10     0       Inf. Dilution            lgK:2.15(0.02SD)       3    MCL          6727
+ 2    23   0.01         Unknown               lgK:2.01(0.02SD)       4    MCL          6655
+ 3    25     0       Inf. Dilution            lgK:2.0(0.03SD)        4    MCL          6727
+ 4    25                                      lgK:2.2(0.04SD)        3    MIS          6509
+
+
+
+
+                                      – Page 58 of 84 –
+JESS Thermodynamic Database v8.9                                                     C20
+
+
+ 5    40        0       Inf. Dilution         lgK:1.9(0.03SD)            3      MCL         6747
+ 6    10        0       Inf. Dilution          dH:-4.1(0.1SD)            3      MTD         6747
+ 7    23      0.01         Unknown            dH:-3.9(0.06SD)            4      MCL         6655
+ 8    25        0       Inf. Dilution          dH:-3.88(3SF)             4      MCL         6727
+ 9    25                                        dH:-3.9(2SF)             3      ENS         3560
+ 10   40        0       Inf. Dilution         dH:-3.58(0.01SD)           3      MCL         6747
+ 11   25      0.05          MeCN               lgK:6.19(3SF)             5      MAG         5758
+                          Et4NClO4
+ 12   25      0.05          MeCN              dH:-29.6(3SF)kJ            5      MCL         5758
+                          Et4NClO4
+ 13   25                  Methanol             lgK:6.01(3SF)             5      MIS         6509
+
+
+Reaction No. 45619
+[18]O6:[Hex]*2 + Li+1 = Li+1_[18]O6:[Hex]*2
+ No       t     I-Str     Medium           Value (Dev)           W           Tech.         Ref. #
+  1    25                                lgK:0.6(0.3SD)          4           MIS            6509
+
+
+Reaction No. 45620
+[18]O6:[Hex]*2 + Na+1 = Na+1_[18]O6:[Hex]*2
+ No   t       I-Str        Medium              Value (Dev)           W        Tech.        Ref. #
+ 1    25                                     lgK:1.7(0.2SD)          4         MIS          6509
+ 2    25                                       dH:0.0(1SF)           3         ENS          3560
+ 3    25       0.05         MeCN              lgK:5.33(3SF)          5         MAG          5758
+                          Et4NClO4
+ 4    25       0.05         MeCN            dH:-20.0(3SF)kJ          5         MCL          5758
+                          Et4NClO4
+ 5    25                  Methanol            lgK:4.08(3SF)          5         MIS          6509
+ 6    25       0.1       PrCarbonate        lgK:5.7(0.04SD)          5         MPT          2839
+                          Et4NClO4
+
+
+Reaction No. 45621
+[18]O6:[Hex]*2 + Ba+2 = Ba+2_[18]O6:[Hex]*2
+ No   t       I-Str        Medium               Value (Dev)              W     Tech.       Ref. #
+ 1    10        0       Inf. Dilution         lgK:3.8(0.03SD)            3      MCL         6727
+ 2    25        0       Inf. Dilution         lgK:3.57(0.02SD)           4      MCL         6727
+ 3    40        0       Inf. Dilution         lgK:3.47(0.01SD)           3      MCL         6727
+ 4    10        0       Inf. Dilution         dH:-4.97(0.02SD)           3      MCL         6747
+ 5    25        0       Inf. Dilution          dH:-4.92(3SF)             4      MCL         6727
+ 6    40        0       Inf. Dilution          dH:-4.8(0.1SD)            3      MCL         6747
+
+
+
+
+                                        – Page 59 of 84 –
+JESS Thermodynamic Database v8.9                                               C20
+
+
+ 7    25   0.05           MeCN                  lgK:5.(1SF)          3    MAG         5758
+                        Et4NClO4
+ 8    25   0.05           MeCN                dH:-48.1(3SF)kJ        5    MCL         5758
+                        Et4NClO4
+
+
+Reaction No. 45622
+[18]O6:[Hex]*2 + Rb+1 = Rb+1_[18]O6:[Hex]*2
+ No   t    I-Str         Medium                 Value (Dev)          W   Tech.       Ref. #
+ 1    10     0       Inf. Dilution            lgK:1.61(0.01SD)       3    MCL         6727
+ 2    23   0.01         Unknown               lgK:1.47(0.02SD)       4    MCL         6655
+ 3    25     0       Inf. Dilution            lgK:1.52(0.01SD)       4    MCL         6727
+ 4    40     0       Inf. Dilution            lgK:1.40(0.02SD)       3    MCL         6727
+ 5    10     0       Inf. Dilution            dH:-3.4(0.03SD)        3    MCL         6747
+ 6    23   0.01         Unknown               dH:-3.5(0.06SD)        4    MTD         6655
+ 7    25     0       Inf. Dilution             dH:-3.33(3SF)         4    MCL         6727
+ 8    25                                        dH:-3.3(2SF)         3    ENS         3560
+ 9    40     0       Inf. Dilution            dH:-3.3(0.03SD)        3    MCL         6747
+ 10   27     0            DMF                 lgK:3.70(0.11SD)       5    MMR         6236
+                     Inf. Dilution
+ 11   25   0.05           MeCN                 lgK:6.05(3SF)         5    MAG         5758
+                        Et4NClO4
+ 12   25   0.05           MeCN                dH:-24.5(3SF)kJ        5    MCL         5758
+                        Et4NClO4
+
+
+Reaction No. 45623
+[18]O6:[Hex]*2 + Sr+2 = Sr+2_[18]O6:[Hex]*2
+ No   t    I-Str         Medium                 Value (Dev)          W   Tech.       Ref. #
+ 1    10     0       Inf. Dilution            lgK:3.43(0.01SD)       3    MCL         6727
+ 2    25     0       Inf. Dilution            lgK:3.24(0.02SD)       4    MCL         6727
+ 3    40     0       Inf. Dilution             lgK:3.2(0.1SD)        3    MCL         6727
+ 4    10     0       Inf. Dilution            dH:-3.68(0.01SD)       3    MCL         6747
+ 5    25     0       Inf. Dilution             dH:-3.68(3SF)         4    MCL         6727
+ 6    40     0       Inf. Dilution             dH:-3.7(0.1SD)        3    MCL         6747
+
+
+Reaction No. 45624
+Cs+1_[18]O6:[Hex]*2 + [18]O6:[Hex]*2 = Cs+1_[18]O6:[Hex]*2(2)
+ No   t    I-Str         Medium                Value (Dev)       W       Tech.       Ref. #
+ 1    25                Acetone               lgK:4.00(3SF)      3       MMR          4829
+ 2    25                  DMF              lgK:3.447(4SF)        5       MMR          4829
+
+
+
+
+                                      – Page 60 of 84 –
+JESS Thermodynamic Database v8.9                                                C20
+
+
+ 3    25                  DMSO              lgK:2.204(4SF)          5    MMR           4829
+ 4    25                  MeCN                lgK:4.00(3SF)         3    MMR           4829
+ 5    25                Methanol            lgK:0.6(0.05SD)         5    MIS           906
+ 6    25              PrCarbonate             lgK:4.00(3SF)         3    MMR           4829
+ 7    25                Pyridine              lgK:5.00(3SF)         3    MMR           4829
+
+
+Reaction No. 45806
+[18]O6:[Hex]*2 + Tl+1 = Tl+1_[18]O6:[Hex]*2
+ No   t    I-Str         Medium                 Value (Dev)         W    Tech.        Ref. #
+ 1    25     0        Inf. Dilution            lgK:2.44(3SF)        4     MCL          3839
+ 2    25     0        Inf. Dilution            dH:-3.62(3SF)        4     MCL          3839
+ 3    23                   DMF                 lgK:3.30(3SF)        4     MCV          2817
+ 4    23                Methanol               lgK:4.95(3SF)        4     MCV          2817
+ 5    25                Methanol              lgK:4.7(0.06SD)       4     MFL          2314
+
+
+Reaction No. 45808
+[18]O6:DiBenzo + UO2+2 = UO2+2_[18]O6:DiBenzo
+ No   t    I-Str         Medium               Value (Dev)           W   Tech.         Ref. #
+ 1    25    0.1       PrCarbonate           lgK:5.5(0.2SD)          5    MSP           2839
+                       Et4NClO4
+ 2    25    0.1       PrCarbonate           lgK:5.5(0.06SD)         5    MPT           2839
+                       Et4NClO4
+
+
+Reaction No. 45809
+[18]O6:[Hex]*2 + UO2+2 = UO2+2_[18]O6:[Hex]*2
+ No   t    I-Str         Medium               Value (Dev)           W   Tech.         Ref. #
+ 1    25    0.1       PrCarbonate           lgK:5.8(0.07SD)         5    MSP           2839
+                       Et4NClO4
+ 2    25    0.1       PrCarbonate           lgK:5.6(0.07SD)         5    MPT           2839
+                       Et4NClO4
+
+
+Reaction No. 45868
+Cu+2 + H+1_GSSG-4 = Cu+2_H+1_GSSG-4
+ No    t    I-Str     Medium             Value (Dev)            W       Tech.         Ref. #
+ 1    25     0.1       KNO3           lgK:18.72(0.01SD)         0       MGL           4901
+
+
+Reaction No. 45869
+Cu+2 + H+1(2)_GSSG-4 = Cu+2_H+1(2)_GSSG-4
+ No    t    I-Str     Medium             Value (Dev)            W       Tech.         Ref. #
+
+
+
+
+                                      – Page 61 of 84 –
+JESS Thermodynamic Database v8.9                                                C20
+
+
+ 1    25     0.1       KNO3          lgK:22.43(0.01SD)          0        MGL           4901
+
+
+Reaction No. 45870
+Cu+2 + H+1(3)_GSSG-4 = Cu+2_H+1(3)_GSSG-4
+ No   t     I-Str     Medium            Value (Dev)             W       Tech.         Ref. #
+ 1    25     0.1       KNO3          lgK:25.51(0.02SD)          0        MGL           4901
+
+
+Reaction No. 45871
+Cu+2 + H+1(3)_GSSG-4 + Phenanth = Cu+2_H+1(3)_Phenanth_GSSG-4
+ No   t     I-Str      Medium           Value (Dev)             W       Tech.         Ref. #
+  1   25     0.1        KNO3          lgK:34.4(0.04SD)          3       MGL           4901
+
+
+Reaction No. 45872
+Cu+2 + H+1(2)_GSSG-4 + Phenanth = Cu+2_H+1(2)_Phenanth_GSSG-4
+ No   t     I-Str     Medium            Value (Dev)             W       Tech.         Ref. #
+ 1    25     0.1       KNO3          lgK:31.21(0.02SD)          3        MGL           4901
+
+
+Reaction No. 45873
+Cu+2 + H+1_GSSG-4 + Phenanth = Cu+2_H+1_Phenanth_GSSG-4
+ No   t     I-Str     Medium            Value (Dev)             W       Tech.         Ref. #
+ 1    25     0.1       KNO3          lgK:27.04(0.01SD)          3        MGL           4901
+
+
+Reaction No. 45874
+Cu+2_GSSG-4 + Phenanth = Cu+2_Phenanth_GSSG-4
+ No   t     I-Str      Medium           Value (Dev)             W       Tech.         Ref. #
+  1   25     0.1        KNO3          lgK:17.9(0.04SD)          0       MGL           4901
+
+
+Reaction No. 45883
+H+1 + [18]O6:DiBenzo = H+1_[18]O6:DiBenzo
+ No   t    I-Str         Medium              Value (Dev)            W   Tech.         Ref. #
+ 1    25                 Acetone            lgK:3.00(3SF)           3    MMR           4829
+ 2    25                   DMF              lgK:1.477(4SF)          5    MMR           4829
+ 3    25                  DMSO              lgK:1.342(4SF)          5    MMR           4829
+ 4    25                  MeCN              lgK:1.544(4SF)          3    MMR           4829
+ 5    25                  MeCN               lgK:3.7(2SF)           4    MCN           4967
+ 6    25               PrCarbonate          lgK:3.00(3SF)           3    MMR           4829
+ 7    25                Pyridine            lgK:3.845(4SF)          5    MMR           4829
+
+
+
+
+                                      – Page 62 of 84 –
+JESS Thermodynamic Database v8.9                                      C20
+
+
+Reaction No. 46430
+[16]N2O2:DiBenz + Co+2 = Co+2_[16]N2O2:DiBenz
+ No   t    I-Str         Medium                 Value (Dev)    W   Tech.    Ref. #
+ 1    25    0.1      Ethanol:Water           lgK:3.1(0.3MD)    4   MGL       2197
+                        65:35Vol
+                        Me4NNO3
+ 2    25    0.1      Ethanol:Water          lgK:5.2(0.1MD)w    0   MPH       2980
+                        65:35Vol
+                        Me4NNO3
+ 3    25    0.1      Methanol:Water         lgK:4.10(0.06MD)   4   MGL       2197
+                        95:5Vol
+                        Et4NClO4
+ 4    25    0.1      Methanol:Water             lgK:4.5(2SF)   3   MGL       2197
+                        95:5Vol
+                         Me4NCl
+
+
+Reaction No. 46437
+[16]N2O2:DiBenz + Cu+2 = Cu+2_[16]N2O2:DiBenz
+ No   t    I-Str         Medium                 Value (Dev)    W   Tech.    Ref. #
+ 1    25    0.1      Ethanol:Water           lgK:7.2(0.2MD)    4   MGL       2197
+                        65:35Vol
+                        Me4NNO3
+ 2    25    0.1      Ethanol:Water          lgK:8.4(0.1MD)w    0   MPH       2980
+                        65:35Vol
+                        Me4NNO3
+ 3    25    0.1      Methanol:Water          lgK:7.7(0.1MD)    4   MGL       5281
+                        85:5Vol
+                         Me4NCl
+ 4    25    0.1      Methanol:Water         lgK:7.09(0.03MD)   4   MGL       2197
+                        95:5Vol
+                        Et4NClO4
+
+
+Reaction No. 46438
+[16]N2O2:DiBenz + Ni+2 = Ni+2_[16]N2O2:DiBenz
+ No   t    I-Str         Medium                 Value (Dev)    W   Tech.    Ref. #
+ 1    25    0.1           KCl                lgK:5.2(0.2MD)    5   MGL      2942
+ 2    25     1            KCl                lgK:5.5(0.2MD)    5   MGL      2942
+ 3    25    0.1      Ethanol:Water          lgK:4.85(0.02MD)   4   MGL       2197
+                        65:35Vol
+                        Me4NNO3
+ 4    25    0.1      Ethanol:Water          lgK:7.7(0.1MD)w    0   MPH       2980
+                        65:35Vol
+                        Me4NNO3
+ 5    25    0.1      Methanol:Water         lgK:4.97(0.05MD)   4   MGL       2197
+                        95:5Vol
+                        Et4NClO4
+
+
+
+
+                                      – Page 63 of 84 –
+JESS Thermodynamic Database v8.9                                                            C20
+
+
+ 6    25         0.1           Methanol:Water           lgK:5.8(0.1MD)          4       MGL        2942
+                                  95:5Vol
+                                   Me4NCl
+
+
+Reaction No. 46439
+H+1_[16]N2O2:DiBenz + H+1 = H+1(2)_[16]N2O2:DiBenz
+ No   t        I-Str                Medium                   Value (Dev)            W    Tech.     Ref. #
+ 1    25        0.1                   KCl                   lgK:7.71(3SF)           5     MGL       2942
+ 2    25         1                    KCl                   lgK:8.07(3SF)           5     MGL       2942
+ 3    25        0.1          Ethanol:Ethanol:Water        lgK:6.50(0.02MD)          4     MGL       2197
+                                   65:35Vol
+                                    Me4NNO3
+ 4    25        0.1              Ethanol:Water            lgK:7.03(0.06MD)w         0     MPH       2980
+                                   65:35Vol
+                                    Me4NNO3
+ 5    25        0.1             Methanol:Water            lgK:6.83(0.04MD)          4     MGL       2197
+                                    95:5Vol
+                                   Et4NClO4
+ 6    25        0.1             Methanol:Water              lgK:7.09(3SF)           4     MGL       2942
+                                    95:5Vol
+                                    Me4NCl
+
+
+Reaction No. 46440
+H+1 + [16]N2O2:DiBenz = H+1_[16]N2O2:DiBenz
+ No    t        I-Str              Medium                Value (Dev)            W       Tech.     Ref. #
+ 1    25         0.1                KCl                 lgK:9.95(3SF)           5       MGL        2942
+ 2    25             1              KCl                lgK:10.14(4SF)           5       MGL        2942
+ 3    25         0.1           Ethanol:Water          lgK:9.08(0.02MD)          4       MGL        2197
+                                  65:35Vol
+                                  Me4NNO3
+ 4    25         0.1           Ethanol:Water          lgK:9.95(0.04MD)w         0       MPH        2980
+                                  65:35Vol
+                                  Me4NNO3
+ 5    25         0.1          Methanol:Water          lgK:10.03(0.03MD)         4       MGL        2197
+                                 95:5Vol
+                                 Et4NClO4
+ 6    25         0.1          Methanol:Water           lgK:10.07(4SF)           4       MGL        2942
+                                 95:5Vol
+                                  Me4NCl
+
+
+Reaction No. 54433
+H+1_[5.5.5]N5:124DiNitrBenz713DiMe + H+1 = H+1(2)_[5.5.5]N5:124DiNitrBenz713DiMe
+ No        t         I-Str         Medium              Value (Dev)          W       Tech.         Ref. #
+
+
+
+
+                                                 – Page 64 of 84 –
+JESS Thermodynamic Database v8.9                                              C20
+
+
+ 1    25     0.1       DMSO:Water         lgK:3.845(4SF)        6       MGL         5968
+                        50:50Vol
+                         Me4NNO3
+
+
+Reaction No. 54434
+H+1 + [5.5.5]N5:124DiNitrBenz713DiMe = H+1_[5.5.5]N5:124DiNitrBenz713DiMe
+ No    t    I-Str       Medium                Value (Dev)       W       Tech.       Ref. #
+ 1    25     0.1      DMSO:Water         lgK:12.768(5SF)        6       MGL          5968
+                       50:50Vol
+                        Me4NNO3
+
+
+Reaction No. 58616
+H+1 + [17]N3O2:DiBenz = H+1_[17]N3O2:DiBenz
+ No   t    I-Str         Medium                 Value (Dev)         W    Tech.      Ref. #
+ 1    25    0.1      Water:Methanol           lgK:9.7(0.03SD)       5     MGL        3790
+                         5:95Vol
+                        Et4NClO4
+
+
+Reaction No. 58617
+H+1_[17]N3O2:DiBenz + H+1 = H+1(2)_[17]N3O2:DiBenz
+ No   t    I-Str         Medium                 Value (Dev)         W    Tech.      Ref. #
+ 1    25    0.1      Water:Methanol           lgK:8.4(0.04SD)       5     MGL        3790
+                         5:95Vol
+                        Et4NClO4
+
+
+Reaction No. 58618
+H+1(2)_[17]N3O2:DiBenz + H+1 = H+1(3)_[17]N3O2:DiBenz
+ No   t    I-Str         Medium                 Value (Dev)         W    Tech.      Ref. #
+ 1    25    0.1      Water:Methanol           lgK:2.0(0.09SD)       5     MGL        3790
+                         5:95Vol
+                        Et4NClO4
+
+
+Reaction No. 58619
+[17]N3O2:DiBenz + Zn+2 = Zn+2_[17]N3O2:DiBenz
+ No   t    I-Str         Medium                 Value (Dev)         W    Tech.      Ref. #
+ 1    25    0.1      Water:Methanol           lgK:7.5(0.03SD)       5     MGL        3790
+                         5:95Vol
+                        Et4NClO4
+
+
+Reaction No. 58620
+Zn+2 + H+1_[17]N3O2:DiBenz = Zn+2_H+1_[17]N3O2:DiBenz
+ No   t    I-Str          Medium                Value (Dev)         W   Tech.       Ref. #
+
+
+
+
+                                      – Page 65 of 84 –
+JESS Thermodynamic Database v8.9                                                            C20
+
+
+ 1    25        0.1        Water:Methanol           lgK:4.(0.3SD)           4      MGL              3790
+                              5:95Vol
+                              Et4NClO4
+
+
+Reaction No. 58621
+[17]N3O2:DiBenz + Cd+2 = Cd+2_[17]N3O2:DiBenz
+ No   t        I-Str          Medium                Value (Dev)             W      Tech.           Ref. #
+ 1    25        0.1       Water:Methanol          lgK:8.7(0.07SD)           5         MGL           3790
+                              5:95Vol
+                             Et4NClO4
+
+
+Reaction No. 58622
+Cd+2 + H+1_[17]N3O2:DiBenz = Cd+2_H+1_[17]N3O2:DiBenz
+ No   t        I-Str           Medium                Value (Dev)            W     Tech.            Ref. #
+ 1    25        0.1        Water:Methanol           lgK:4.(0.3SD)           4      MGL              3790
+                              5:95Vol
+                              Et4NClO4
+
+
+Reaction No. 58668
+2<H+1> + [16]N2O2:DiBenz = H+1(2)_[16]N2O2:DiBenz
+ No   t        I-Str          Medium                 Value (Dev)            W      Tech.           Ref. #
+ 1    25        0.1       Water:Methanol           lgK:17.16(4SF)           5         MGL           4921
+                             5:95Vol
+                              Me4NCl
+
+
+Reaction No. 59135
+Zn+2(2)_[30]N10 + OH-1 = Zn+2(2)_[30]N10_OH-1
+ No        t      I-Str      Medium            Value (Dev)          W           Tech.             Ref. #
+  1       25      0.15       NaClO4           lgK:5.4(2SF)          5           MPT                4246
+
+
+Reaction No. 59136
+Zn+2(2)_[30]N10_OH-1 + OH-1 = Zn+2(2)_[30]N10_OH-1(2)
+ No        t      I-Str      Medium            Value (Dev)          W           Tech.             Ref. #
+  1       25      0.15       NaClO4           lgK:2.7(2SF)          5           MPT               4246
+
+
+Reaction No. 62158
+Ni+2_AmImDiBenzHis-1(2) + H+1 = Ni+2_H+1_AmImDiBenzHis-1(2)
+ No       t      I-Str       Medium             Value (Dev)             W       Tech.             Ref. #
+  1    25         0.1       Unknown           lgK:4.18(3SF)             6        CRV               552
+
+
+Reaction No. 62159
+
+
+
+
+                                            – Page 66 of 84 –
+JESS Thermodynamic Database v8.9                                             C20
+
+
+Cu+2_AmImDiBenzHis-1 + H+1 = Cu+2_H+1_AmImDiBenzHis-1
+ No    t     I-Str       Medium           Value (Dev)         W      Tech.         Ref. #
+  1   25      0.1       Unknown         lgK:3.50(3SF)         6      CRV            552
+
+
+Reaction No. 62160
+Cu+2_H+1_AmImDiBenzHis-1(2) + H+1 = Cu+2_H+1(2)_AmImDiBenzHis-1(2)
+ No    t     I-Str       Medium           Value (Dev)         W      Tech.         Ref. #
+  1   25      0.1       Unknown         lgK:4.32(3SF)         6       CRV           552
+
+
+Reaction No. 62161
+Cu+2_AmImDiBenzHis-1(2) + H+1 = Cu+2_H+1_AmImDiBenzHis-1(2)
+ No    t     I-Str       Medium           Value (Dev)         W      Tech.         Ref. #
+  1   25      0.1       Unknown         lgK:4.26(3SF)         6       CRV           552
+
+
+Reaction No. 62162
+Zn+2_AmImDiBenzHis-1(2) + H+1 = Zn+2_H+1_AmImDiBenzHis-1(2)
+ No    t     I-Str       Medium           Value (Dev)         W      Tech.         Ref. #
+  1   25      0.1       Unknown         lgK:5.43(3SF)         6       CRV           552
+
+
+Reaction No. 62320
+Mg+2_HBED-4 + H+1 = Mg+2_H+1_HBED-4
+ No    t     I-Str       Medium           Value (Dev)         W      Tech.         Ref. #
+  1   25      0.1       Unknown         lgK:8.15(3SF)         6      CRV            552
+
+
+Reaction No. 62321
+Mg+2_H+1_HBED-4 + H+1 = Mg+2_H+1(2)_HBED-4
+ No    t     I-Str       Medium           Value (Dev)         W      Tech.         Ref. #
+  1   25      0.1       Unknown         lgK:7.01(3SF)         6      CRV            552
+
+
+Reaction No. 62322
+Ca+2_HBED-4 + H+1 = Ca+2_H+1_HBED-4
+ No    t     I-Str       Medium           Value (Dev)         W      Tech.         Ref. #
+  1   25      0.1       Unknown         lgK:8.69(3SF)         6      CRV            552
+
+
+Reaction No. 62323
+Ca+2_H+1_HBED-4 + H+1 = Ca+2_H+1(2)_HBED-4
+ No    t     I-Str       Medium           Value (Dev)         W      Tech.         Ref. #
+  1   25      0.1       Unknown         lgK:7.50(3SF)         6      CRV            552
+
+
+
+
+                                      – Page 67 of 84 –
+JESS Thermodynamic Database v8.9                                          C20
+
+
+
+Reaction No. 62324
+HBED-4 + La+3 = La+3_HBED-4
+ No    t     I-Str      Medium           Value (Dev)          W   Tech.         Ref. #
+  1   25      0.1       Unknown         lgK:16.42(4SF)        6    CRV           552
+
+
+Reaction No. 62325
+La+3_HBED-4 + H+1 = La+3_H+1_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:7.1(2SF)     6       CRV            552
+
+
+Reaction No. 62326
+La+3_H+1_HBED-4 + H+1 = La+3_H+1(2)_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:6.0(2SF)     6       CRV            552
+
+
+Reaction No. 62327
+HBED-4 + Ce+3 = Ce+3_HBED-4
+ No    t     I-Str      Medium           Value (Dev)          W   Tech.         Ref. #
+  1   20      0.1       Unknown         lgK:17.16(4SF)        6    CRV           552
+
+
+Reaction No. 62328
+Ce+3_HBED-4 + H+1 = Ce+3_H+1_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:6.0(2SF)     6       CRV            552
+
+
+Reaction No. 62329
+Ce+3_H+1_HBED-4 + H+1 = Ce+3_H+1(2)_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:5.4(2SF)     6       CRV            552
+
+
+Reaction No. 62330
+HBED-4 + Pr+3 = Pr+3_HBED-4
+ No    t     I-Str      Medium           Value (Dev)          W   Tech.         Ref. #
+  1   20      0.1       Unknown         lgK:17.85(4SF)        6    CRV           552
+
+
+Reaction No. 62331
+Pr+3_HBED-4 + H+1 = Pr+3_H+1_HBED-4
+
+
+
+
+                                      – Page 68 of 84 –
+JESS Thermodynamic Database v8.9                                          C20
+
+
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:5.8(2SF)     6       CRV            552
+
+
+Reaction No. 62332
+Pr+3_H+1_HBED-4 + H+1 = Pr+3_H+1(2)_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:5.3(2SF)     6       CRV            552
+
+
+Reaction No. 62333
+HBED-4 + Nd+3 = Nd+3_HBED-4
+ No    t     I-Str      Medium           Value (Dev)          W   Tech.         Ref. #
+  1   20      0.1       Unknown         lgK:18.32(4SF)        6    CRV           552
+
+
+Reaction No. 62334
+Nd+3_HBED-4 + H+1 = Nd+3_H+1_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:5.6(2SF)     6       CRV            552
+
+
+Reaction No. 62335
+Nd+3_H+1_HBED-4 + H+1 = Nd+3_H+1(2)_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:5.2(2SF)     6       CRV            552
+
+
+Reaction No. 62336
+HBED-4 + Sm+3 = Sm+3_HBED-4
+ No    t     I-Str      Medium           Value (Dev)          W   Tech.         Ref. #
+  1   20      0.1       Unknown         lgK:19.24(4SF)        6    CRV           552
+
+
+Reaction No. 62337
+Sm+3_HBED-4 + H+1 = Sm+3_H+1_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:5.5(2SF)     6       CRV            552
+
+
+Reaction No. 62338
+Sm+3_H+1_HBED-4 + H+1 = Sm+3_H+1(2)_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:5.0(2SF)     6       CRV            552
+
+
+
+
+                                      – Page 69 of 84 –
+JESS Thermodynamic Database v8.9                                          C20
+
+
+Reaction No. 62339
+HBED-4 + Eu+2 = Eu+2_HBED-4
+ No    t     I-Str      Medium           Value (Dev)          W   Tech.         Ref. #
+  1   20      0.1       Unknown         lgK:19.28(4SF)        6    CRV           552
+
+
+Reaction No. 62340
+Eu+2_HBED-4 + H+1 = Eu+2_H+1_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:5.5(2SF)     6       CRV            552
+
+
+Reaction No. 62341
+Eu+2_H+1_HBED-4 + H+1 = Eu+2_H+1(2)_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:5.0(2SF)     6       CRV            552
+
+
+Reaction No. 62342
+HBED-4 + Gd+3 = Gd+3_HBED-4
+ No    t     I-Str      Medium           Value (Dev)          W   Tech.         Ref. #
+  1   20      0.1       Unknown         lgK:19.16(4SF)        6    CRV           552
+
+
+Reaction No. 62343
+Gd+3_HBED-4 + H+1 = Gd+3_H+1_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:5.7(2SF)     6       CRV            552
+
+
+Reaction No. 62344
+Gd+3_H+1_HBED-4 + H+1 = Gd+3_H+1(2)_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:5.1(2SF)     6       CRV            552
+
+
+Reaction No. 62345
+HBED-4 + Tb+3 = Tb+3_HBED-4
+ No    t     I-Str      Medium           Value (Dev)          W   Tech.         Ref. #
+  1   20      0.1       Unknown         lgK:19.61(4SF)        6    CRV           552
+
+
+Reaction No. 62346
+Tb+3_HBED-4 + H+1 = Tb+3_H+1_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+
+
+
+
+                                      – Page 70 of 84 –
+JESS Thermodynamic Database v8.9                                          C20
+
+
+  1   20      0.1        Unknown         lgK:5.3(2SF)     6       CRV            552
+
+
+Reaction No. 62347
+Tb+3_H+1_HBED-4 + H+1 = Tb+3_H+1(2)_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:4.9(2SF)     6       CRV            552
+
+
+Reaction No. 62348
+HBED-4 + Dy+3 = Dy+3_HBED-4
+ No    t     I-Str      Medium           Value (Dev)          W   Tech.         Ref. #
+  1   20      0.1       Unknown         lgK:19.90(4SF)        6    CRV           552
+
+
+Reaction No. 62349
+Dy+3_HBED-4 + H+1 = Dy+3_H+1_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:5.2(2SF)     6       CRV            552
+
+
+Reaction No. 62350
+Dy+3_H+1_HBED-4 + H+1 = Dy+3_H+1(2)_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:4.8(2SF)     6       CRV            552
+
+
+Reaction No. 62351
+HBED-4 + Ho+3 = Ho+3_HBED-4
+ No    t     I-Str      Medium           Value (Dev)          W   Tech.         Ref. #
+  1   20      0.1       Unknown         lgK:19.97(4SF)        6    CRV           552
+
+
+Reaction No. 62352
+Ho+3_HBED-4 + H+1 = Ho+3_H+1_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:5.2(2SF)     6       CRV            552
+
+
+Reaction No. 62353
+Ho+3_H+1_HBED-4 + H+1 = Ho+3_H+1(2)_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:4.8(2SF)     6       CRV            552
+
+
+Reaction No. 62354
+
+
+
+
+                                      – Page 71 of 84 –
+JESS Thermodynamic Database v8.9                                          C20
+
+
+HBED-4 + Er+3 = Er+3_HBED-4
+ No    t     I-Str      Medium           Value (Dev)          W   Tech.         Ref. #
+  1   20      0.1       Unknown         lgK:20.15(4SF)        6    CRV           552
+
+
+Reaction No. 62355
+Er+3_HBED-4 + H+1 = Er+3_H+1_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:5.1(2SF)     6       CRV            552
+
+
+Reaction No. 62356
+Er+3_H+1_HBED-4 + H+1 = Er+3_H+1(2)_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:4.7(2SF)     6       CRV            552
+
+
+Reaction No. 62357
+HBED-4 + Tm+3 = Tm+3_HBED-4
+ No    t     I-Str      Medium           Value (Dev)          W   Tech.         Ref. #
+  1   20      0.1       Unknown         lgK:20.31(4SF)        6    CRV           552
+
+
+Reaction No. 62358
+Tm+3_HBED-4 + H+1 = Tm+3_H+1_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:5.0(2SF)     6       CRV            552
+
+
+Reaction No. 62359
+Tm+3_H+1_HBED-4 + H+1 = Tm+3_H+1(2)_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:4.6(2SF)     6       CRV            552
+
+
+Reaction No. 62360
+HBED-4 + Yb+3 = Yb+3_HBED-4
+ No    t     I-Str      Medium           Value (Dev)          W   Tech.         Ref. #
+  1   20      0.1       Unknown         lgK:20.50(4SF)        6    CRV           552
+
+
+Reaction No. 62361
+Yb+3_HBED-4 + H+1 = Yb+3_H+1_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:5.0(2SF)     6       CRV            552
+
+
+
+
+                                      – Page 72 of 84 –
+JESS Thermodynamic Database v8.9                                      C20
+
+
+
+Reaction No. 62362
+Yb+3_H+1_HBED-4 + H+1 = Yb+3_H+1(2)_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W   Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:4.5(2SF)     6   CRV            552
+
+
+Reaction No. 62363
+Lu+3_HBED-4 + H+1 = Lu+3_H+1_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W   Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:4.9(2SF)     6   CRV            552
+
+
+Reaction No. 62364
+Lu+3_H+1_HBED-4 + H+1 = Lu+3_H+1(2)_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W   Tech.         Ref. #
+  1   20      0.1        Unknown         lgK:4.4(2SF)     6   CRV            552
+
+
+Reaction No. 62365
+Mn+2_HBED-4 + H+1 = Mn+2_H+1_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W   Tech.         Ref. #
+  1   20      0.1       Unknown         lgK:7.66(3SF)     6    CRV           552
+
+
+Reaction No. 62366
+Mn+2_H+1_HBED-4 + H+1 = Mn+2_H+1(2)_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W   Tech.         Ref. #
+  1   20      0.1       Unknown         lgK:6.58(3SF)     6    CRV           552
+
+
+Reaction No. 62367
+Cd+2_HBED-4 + H+1 = Cd+2_H+1_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W   Tech.         Ref. #
+  1   25      0.1       Unknown         lgK:8.11(3SF)     6    CRV           552
+
+
+Reaction No. 62368
+Cd+2_H+1_HBED-4 + H+1 = Cd+2_H+1(2)_HBED-4
+ No    t     I-Str       Medium           Value (Dev)     W   Tech.         Ref. #
+  1   25      0.1       Unknown         lgK:6.68(3SF)     6    CRV           552
+
+
+Reaction No. 62369
+Pb+2_HBED-4 + H+1 = Pb+2_H+1_HBED-4
+
+
+
+
+                                      – Page 73 of 84 –
+JESS Thermodynamic Database v8.9                                                            C20
+
+
+ No       t     I-Str        Medium            Value (Dev)         W               Tech.          Ref. #
+  1    25           0.1      Unknown         lgK:8.98(3SF)         6               CRV             552
+
+
+Reaction No. 62370
+Pb+2_H+1_HBED-4 + H+1 = Pb+2_H+1(2)_HBED-4
+ No       t     I-Str        Medium            Value (Dev)         W               Tech.          Ref. #
+  1    25           0.1      Unknown         lgK:6.62(3SF)         6               CRV             552
+
+
+Reaction No. 67755
+NH3 + H+1_[18]O6:[Hex]*2 = H+1_[18]O6:[Hex]*2_NH3
+ No       t     I-Str       Medium            Value (Dev)          W               Tech.          Ref. #
+  1    25                                   lgK:1.4(0.1SD)         0               MIS             6509
+
+
+Reaction No. 67756
+[18]O6:[Hex]*2 + Cd+2 = Cd+2_[18]O6:[Hex]*2
+ No    t       I-Str        Medium             Value (Dev)             W            Tech.         Ref. #
+ 1    25                   Methanol         lgK:4.61(0.02SD)           4             MIS           6509
+
+
+Reaction No. 67757
+Cd+2_[18]O6:[Hex]*2 + [18]O6:[Hex]*2 = Cd+2_[18]O6:[Hex]*2(2)
+ No    t       I-Str        Medium             Value (Dev)             W            Tech.         Ref. #
+ 1    25                   Methanol          lgK:0.6(0.05SD)           4             MIS           6509
+
+
+Reaction No. 67947
+[18]O6:[Hex]*2 + Pb+2 = Pb+2_[18]O6:[Hex]*2
+ No   t       I-Str            Medium              Value (Dev)             W        Tech.         Ref. #
+ 1    25        0          Inf. Dilution           lgK:5.0(2SF)            4         MCL           3839
+ 2    25        0          Inf. Dilution          dH:-5.58(3SF)            4         MCL           3839
+
+
+Reaction No. 68091
+HBED-4 + Al+3 = Al+3_HBED-4
+ No       t     I-Str       Medium            Value (Dev)          W               Tech.          Ref. #
+  1    25       0.12          KCl           lgK:24.78(4SF)         4               ENS            6953
+
+
+Reaction No. 68821
+[18]O6:[Hex]*2 + H+1_NH3 = H+1_[18]O6:[Hex]*2_NH3
+ No   t       I-Str          Medium                Value (Dev)                 W     Tech.        Ref. #
+ 1    25        0         Inf. Dilution         lgK:1.33(0.02SD)               4      MGL          6747
+
+
+
+
+                                           – Page 74 of 84 –
+JESS Thermodynamic Database v8.9                                                       C20
+
+
+ 2    25       0           Inf. Dilution        dH:-2.2(0.03SD)           4         MCL        6747
+
+
+Reaction No. 69147
+H+1 + [18]O6:[Hex]*2 = H+1_[18]O6:[Hex]*2
+ No        t       I-Str      Medium          Value (Dev)         W       Tech.              Ref. #
+  1    25                      MeCN          lgK:8.2(2SF)         4           MCN             4967
+
+
+Reaction No. 70036
+25DiNitrphenol-1 + K+1 + [18]O6:[Hex]*2 = K+1_[18]O6:[Hex]*2_25DiNitrphenol-1
+ No    t       I-Str           Medium             Value (Dev)         W        Tech.         Ref. #
+ 1    20                     DiClMethane         lgK:3.98(3SF)        3         MPS           2896
+
+
+Reaction No. 70037
+K+1_[18]O6:[Hex]*2_25DiNitrphenol-1 = K+1_[18]O6:[Hex]*2 + 25DiNitrphenol-1
+ No    t       I-Str           Medium             Value (Dev)         W        Tech.         Ref. #
+ 1    20                     DiClMethane         lgK:-4.6(2SF)        3         MPS           2896
+
+
+Reaction No. 70038
+26DiNitrphenol-1 + K+1 + [18]O6:[Hex]*2 = K+1_[18]O6:[Hex]*2_26DiNitrphenol-1
+ No    t       I-Str           Medium             Value (Dev)         W        Tech.         Ref. #
+ 1    20                     DiClMethane         lgK:4.26(3SF)        3         MPS           2896
+
+
+Reaction No. 70039
+K+1_[18]O6:[Hex]*2_26DiNitrphenol-1 = K+1_[18]O6:[Hex]*2 + 26DiNitrphenol-1
+ No    t       I-Str           Medium             Value (Dev)         W        Tech.         Ref. #
+ 1    20                     DiClMethane         lgK:-4.7(2SF)        3         MPS           2896
+
+
+Reaction No. 70040
+Picric-1 + Na+1 + [18]O6:[Hex]*2 = Na+1_[18]O6:[Hex]*2_Picric-1
+ No    t       I-Str           Medium             Value (Dev)         W        Tech.         Ref. #
+ 1    20                     DiClMethane         lgK:4.20(3SF)        3         MPS           2896
+
+
+Reaction No. 70041
+Na+1_[18]O6:[Hex]*2_Picric-1 = Na+1_[18]O6:[Hex]*2 + Picric-1
+ No    t       I-Str           Medium             Value (Dev)         W        Tech.         Ref. #
+ 1    20                     DiClMethane         lgK:-4.1(2SF)        3         MPS           2896
+
+
+Reaction No. 70042
+
+
+
+
+                                           – Page 75 of 84 –
+JESS Thermodynamic Database v8.9                                                    C20
+
+
+Picric-1 + K+1 + [18]O6:[Hex]*2 = K+1_[18]O6:[Hex]*2_Picric-1
+ No   t     I-Str         Medium               Value (Dev)         W        Tech.         Ref. #
+ 1    20               DiClMethane            lgK:6.36(3SF)        3         MPS           2896
+
+
+Reaction No. 70043
+K+1_[18]O6:[Hex]*2_Picric-1 = K+1_[18]O6:[Hex]*2 + Picric-1
+ No   t     I-Str         Medium               Value (Dev)         W        Tech.         Ref. #
+ 1    20               DiClMethane            lgK:-4.6(2SF)        3         MPS           2896
+
+
+Reaction No. 72663
+[18]O6:DiBenzo + Cd+2 = Cd+2_[18]O6:DiBenzo
+ No   t    I-Str       Medium                 Value (Dev)              W     Tech.        Ref. #
+ 1    25             MeCN:Water            lgK:2.27(3SF)               4      MCN          5726
+                      70:30Wgt
+ 2    25             MeCN:Water          dH:-22.1(2.5SD)kJ             4      MTD          5726
+                      70:30Wgt
+ 3    25             MeCN:Water            lgK:2.78(3SF)               4      MCN          5726
+                      80:20Wgt
+ 4    25             MeCN:Water          dH:-31.1(1.5SD)kJ             4      MTD          5726
+                      80:20Wgt
+ 5    25             MeCN:Water            lgK:3.86(3SF)               4      MCN          5726
+                      90:10Wgt
+ 6    25             MeCN:Water          dH:-48.6(2.0SD)kJ             4      MTD          5726
+                      90:10Wgt
+
+
+Reaction No. 80611
+H+1(4)_GSSG-4 + 2<H+1> + 2<e-1> = 2<H+1(3)_GSH-3>
+ No   t    I-Str           Medium               Value (Dev)        W        Tech.         Ref. #
+ 1    25     0         Inf. Dilution            E:0.228(3SF)       2         MEF           31509
+ 2    25     0         Inf. Dilution            E:0.264(3SF)       5         CRV           31561
+
+
+Reaction No. 80800
+Neotame + Zn+2 = Zn+2_Neotame
+ No    t     I-Str       Medium            Value (Dev)         W           Tech.          Ref. #
+  1   23         0      Unknown          lgK:4.09(3SF)         1           EMU            31641
+
+
+
+
+                                   Data Assessment
+
+
+
+
+                                       – Page 76 of 84 –
+JESS Thermodynamic Database v8.9                               C20
+
+
+Weight                       Assessment
+9        highest accuracy
+8        multi-determined; excellent dependability
+7        trustworthy; outstanding single determination
+6        better than average reliability
+5        average single determination
+4        some doubt
+3        poorly known
+2        guess to achieve consistency (or just as bad)
+1        no information but consistent
+0        problematic/inconsistent
+
+
+
+
+                                          Techniques
+
+
+Abbrev                    Method
+CRV      Critical review
+EDH      Debye-Hueckel corrections
+ELC      Linear Combination of Reactions
+EMU      Method unknown
+ENS      Not specified
+ESC      Standard conditions anchor
+MAG      Silver electrode e.m.f.
+MCL      Calorimetry
+MCN      Conductivity
+MCV      Cyclic voltammetry
+MEF      Electromotoric force, not specified
+MFL      Fluorescence
+MGL      Glass electrode
+MIS      Ion selective electrode
+MMR      Nuclear magnetic resonance
+MPH      pH method, not specified
+MPL      Polarography
+MPM      Polarimetry
+MPS      Potentiometry and Spectrophotometry
+
+
+
+
+                                           – Page 77 of 84 –
+JESS Thermodynamic Database v8.9                                         C20
+
+
+MPT    Potentiometry
+MSF    Stopped Flow
+MSP    Spectroscopy
+MTD    Temperature difference
+
+
+
+
+                                    References
+
+
+Reference No.: 94(77MLW)
+J. Chem. Soc., Dalton Trans., 1977,, 588 - 595; May PM; Linder PW; Williams DR;
+Computer Simulation of Metal-ion Equilibria in Biofluids: Models for the Low-Molecular-
+Weight Complex Distribution of Calcium(II), Magnesium(II), Manganese(II), Iron(III),
+Copper(II), Zinc(II), and Lead(II) Ions in Human Blood Plasma
+
+Reference No.: 140(64SiM)
+Stability Constants of Metal-ion Complexes SP17, 1964 Sillen LG; Martell AE; The
+Chemical Soc.,London
+
+Reference No.: 188(67And)
+Helv. Chim. Acta, 1967, 50, 2333 - 2340; Anderegg G; Komplexone XL. Die
+Protonierungskonstanten einiger Komplexone in Verschiedenen Wasserigen Salzmedien
+(NaClO4, (CH3)4NCl, KNO3)
+
+Reference No.: 552(95SMM)
+NIST Critical Stability Constants of Metal Complexes Database, 1995 Smith RM; Martell
+AE; Motekaitis RJ; Version 2.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 906(79Per)
+IUPAC Chemical Data Series No. 22, 1979 Perrin DD; Stability Constants of Metal-Ion
+Complexes, First Edition Part B, Organic Ligands; Pergamon, Oxford
+
+Reference No.: 931(71SiM)
+Stability Constants of Metal-ion Complexes SP25, 1971 Sillen LG; Martell AE; Supplement
+No 1 to Special Publication No 25; Chemical Society, London
+
+Reference No.: 954(88BCD)
+Inorg. Chim. Acta, 1988, 152, 81 - 90; Balman JA; Christie GL; Duffield JR; Williams
+DR; The Binding of Metal Ions by Enalapril Maleate and Lisinopril
+
+Reference No.: 958(85YTO)
+J. Am. Chem. Soc., 1985, 107, 659 - 665; Yamauchi O; Tsujide K; Odani A; Copper(II)
+Complexes of Tyrosine-Containing Dipeptides. Effects of Side-Chain Groups on Spectral
+and Solution Chemical Properties and Their Structural Implication
+
+Reference No.: 976(88VSK)
+Inorg. Chim. Acta, 1988, 151, 117 - 123; Varnagy K; Sovago I; Kozlowski H; Transition
+Metal Complexes of Amino Acids and Derivatives Containing Disulphide Bridges
+
+Reference No.: 999(91MaM)
+Estimation of Constants for JESS Database, 1991 May PM; May RF
+
+
+
+
+                                      – Page 78 of 84 –
+JESS Thermodynamic Database v8.9                                         C20
+
+
+Reference No.: 1024(88RLL)
+J. Chem. Soc., Dalton Trans., 1988,, 887 - 894; Reverend BD-L; Liman F; Livera C;
+Pettit LD; Pyburn SI; Kozlowski H; A Pentiometric and Spectroscopic Study of the
+Interaction of Angiotensin II and some of its Peptide Fragments with Copper(II)
+
+Reference No.: 1041(82BlB)
+J. Chem. Soc., Dalton Trans., 1982,, 1803 - 1808; Blais M-J; Berthon G; A New
+Contribution to the Determination of the Complex Equilibria of Oxidised Glutathione
+with Proton and Copper(II) in Aqueous Solution
+
+Reference No.: 1059(90KUS)
+Polyhedron, 1990, 9, 831 - 837; Kozlowski H; Urbanska J; Sovago I; Varnagy K; Kiss A;
+Spychala J; Cherifi K; Cadmium Ion Interaction with Sulphur Containing Amino Acid and
+Peptide Ligands
+
+Reference No.: 1144(88LVD)
+J. Inorg. Biochem., 1988, 33, 193 - 210; Lambs L; Venturini M; Decock-Le Reverend B;
+Kozlowski H; Berthon G; Metal Ion-Tetracycline Interactions in Biological Fluids. Part
+8. Potentiometric and Spectroscopic Studies on the Formation of Ca(II) and Mg(II)
+Complexes with 4-Dedimethylamino-Tetracycline and 6-Desoxy-6-Demethyl-Tetracycline
+
+Reference No.: 1200(90MMW)
+Inorg. Chem., 1990, 29, 1463 - 1467; Motekaitis RJ; Martell AE; Welch MJ; Stabilities
+of Trivalent Metal Complexes of Phenolic Ligands Related to N,N'-Bis(2-
+hydroxybenzyl)ethylene- diamine-N,N'-diacetic Acid (HBED)
+
+Reference No.: 1240(86MMC)
+Can. J. Chem., 1986, 64, 449 - 456; Martell AE; Motekaitis RJ; Clarke ET; Harrison JJ;
+Synthesis of N,N'-di(2-hydroxybenzyl)ethylenediamine-N,N'-diacetic acid (HBED) and
+Derivatives
+
+Reference No.: 1260(84TaM)
+J. Coord. Chem., 1984, 13, 249 - 264; Taliaferro CH; Martell AE; New Multidentate
+Ligands. XXVI. N,N'-Bis(2-Hydroxybenzyl) Ethylenediamine-N,N'-Bis(Methylenephosphonic
+Acid Mono- methyl Ester), and N,N'-Bis(2-Hydroxybenzyl) Ethylene- diamine-N,N'-
+Bis(Methylenephosphonic Acid Monoethylester): New Chelating Ligands for Trivalent Metal
+Ions
+
+Reference No.: 1330(88ClM)
+Inorg. Chem., 1988, 27, 1297 - 1298; Clark NH; Martell AE; Ferrous Chelates of EDTA,
+HEDTA, and SHBED
+
+Reference No.: 1339(88TRS)
+Inorg. Chem., 1988, 27, 474 - 481; Turowski PN; Rodgers SJ; Scarrow RC; Raymond KN;
+Ferric Ion Sequestering Agents. 18. Two Dihydroxamic Acid Derivatives of EDTA and DTPA
+
+Reference No.: 1358(91MSM)
+Inorg. Chem., 1991, 30, 2737 - 2740; Motekaitis RJ; Sun Y; Martell AE; Welch MJ;
+Stabilities of Gallium(III), Iron(III) Chelates of Hydroxyaromatic Ligands with
+Different Overall Charges
+
+Reference No.: 1365(87BBG)
+Inorg. Chem., 1987, 26, 3902 - 3907; Bencini A; Bianchi A; Garcia-Espana E; Giusti M;
+Mangani S; Micheloni M; Orioli P; Paoletti P; Anion Coordination Chemistry. 2.
+Electrochemical, Thermodynamic, and Structural Studies on Supercomplex Formation
+between Large Polyammonium Cycloalkanes and the Two Complex Anions Hexacyanoferrate(II)
+and Hexacyanocobaltate(III)
+
+Reference No.: 1475(89MSM)
+Inorg. Chim. Acta, 1989, 159, 29 - 39; Motekaitis RJ; Sun Y; Martell AE; N,N'-
+
+
+
+                                      – Page 79 of 84 –
+JESS Thermodynamic Database v8.9                                         C20
+
+
+Bispyridoxylethylenediamine-N,N'-diacetic acid (PLED) and N,N'-Bis(2-hydroxy-5-
+sulfobenzylethylene)- diamine-N,N'-diacetic acid (SHBED)
+
+Reference No.: 1620(76BrP)
+J. Chem. Soc., Dalton Trans., 1976,, 1224 - 1227; Brookes G; Pettit LD; Formation
+Constants of Metal Complexes of N3-Benzyl-L-histidine and NaN3-Dibenzyl-L-histidine and
+Stereoselectivity in the Ternary Complexes with D- and L-Histidine
+
+Reference No.: 1643(77BrP)
+J. Chem. Soc., Dalton Trans., 1977,, 1918 - 1924; Brookes G; Pettit LD; Complex
+Formation and Stereoselectivity in the Ternary Systems Copper(II)-D/L-Histidine-L-
+Amino-acids
+
+Reference No.: 1782(92BBD)
+Inorg. Chem., 1992, 31, 1902 - 1908; Bencini A; Bianchi A; Dapporto P; Garcia-Espana E;
+Micheloni M; Ramirez JA; Paoletti P; Paoli P; Thermodynamic and Structural Aspects of
+the Interaction between Macrocyclic Polyammonium and Complexed Anions
+
+Reference No.: 1840(83LeP)
+Ann. Chim. (Rome), 1983, 73, 481 - 493; Leporati E; Pellinghelli MA; A
+Spectrophotometric Study on Equilibria of Congo Red with Proton and or Eriochrome Blue
+Black R with Proton and Copper(II) in Aqueous Solution
+
+Reference No.: 1941(67LMM)
+J. Am. Chem. Soc., 1967, 89, 837 - 843; L'Eplattenier F; Murase I; Martell AE; New
+Multidentate Ligands. VI. Chelating Tendencies of N,N'-Di(2-
+hydroxybenzyl)ethylenediamine-N,N'-diacetic Acid
+
+Reference No.: 2024(93JLK)
+Inorg. Chem., 1993, 32, 428 - 437; Jezowska-Bojczuk M; Lambs L; Kozlowski H; Berthon G;
+Metal Ion-Tetracycline Interactions in Biological Fluids. 10. Structural Investigations
+on Copper(II) Complexes of Tetracycline, Oxytetracycline, Chlortetracycline, 4-
+(Dedimethylamino)tetracycline, and 6-Desoxy-6-demethyltetracycline and Discussion of
+Their Binding Modes
+
+Reference No.: 2061(54LGB)
+J. Am. Chem. Soc., 1954, 76, 225 - 229; Li NC; Gawron O; Bascuas G; Stability of Zinc
+Complexes with Glutathione and Oxidised Glutathione
+
+Reference No.: 2197(88ALL)
+J. Chem. Soc., Dalton Trans., 1988,, 1733 - 1735; Adam KR; Leong AJ; Lindoy LF;
+Anderegg G; Studies Involving Mixed-donor Macrocyclic Ligands. A Comparative Study of
+the Influence of Medium Effects on the Stabilities of Complexes of Co(II), Ni(II) and
+Cu(II) with 14- to 16-Membered O2N2-Donor Macrocycles
+
+Reference No.: 2261(93PeP)
+IUPAC Stability Constants Database, 1993 Pettit LD; Powell HKJ; IUPAC (in co-operation
+with Academic Software), Otley, UK
+
+Reference No.: 2314(93PaS)
+Talanta, 1993, 40, 1353 - 1356; Parham H; Shamsipur M; Spectrofluorometric Study of
+Thallium(I) Complexes with Several Macrocyclic Ligands in Methanol Solution
+
+Reference No.: 2416(93SSM)
+Inorg. Chem., 1993, 32, 4951 - 4959; Sugimori T; Shibakawa K; Masuda H; Odani A;
+Yamauchi O; Ternary Metal(II) Complexes with Tyrosine-Containing Dipeptides. Structures
+of Copper(II) and Palladium(II) Complexes Involving L-Tyrosylglycine and Stabilization
+of Copper(II) Complexes Due to Intramolecular Aromatic Ring Stacking
+
+
+
+
+                                      – Page 80 of 84 –
+JESS Thermodynamic Database v8.9                                         C20
+
+
+Reference No.: 2421(84TCA)
+Can. J. Chem., 1984, 62, 1312 - 1319; Theriault Y; Cheesman BV; Arnold AP; Rabenstein
+DL; Nuclear Magnetic Resonance Studies of the Acid-base Chemistry of Amino Acids and
+Peptides. IV. Mixed Disulfides of Cysteine, Penicillamine, and Glutathione
+
+Reference No.: 2552(91ClM)
+Inorg. Chim. Acta, 1991, 181, 273 - 280; Clarke ET; Martell AE; Stabilities of the
+Fe(III), Ga(III) and In(III) Chelates of N,N',N"-Triazacyclononanetriacetic Acid
+
+Reference No.: 2584(93ABC)
+J. Chem. Soc., Dalton Trans., 1993,, 3507 - 3513; Andres A; Bencini A; Carachalios A;
+Bianchi A; Dapporto P; Garcia-Espana E; Paoletti P; Paoli P; Interaction of Lead(II)
+with Highly-Dentate Linear and Cyclic Polyamines
+
+Reference No.: 2683(93BBP)
+Inorg. Chim. Acta, 1993, 204, 227 - 230; Bencini A; Bianchi A; Paoletti P; Cabani S;
+Ceccanti N; Tine MR; Garcia-Espana E; Cascade Complex Formation by Phosphate in the
+Cobalt(II)/[30]aneN10 Anaerobic System
+
+Reference No.: 2726(89BBG)
+Inorg. Chem., 1989, 28, 2480 - 2482; Bencini A; Bianchi A; Garcia-Espana E; Micheloni
+M; Paoletti P; Anaerobic Complexation of Cobalt(II) by [3k]aneNk (k=7-12)
+Polyazacycloalkanes
+
+Reference No.: 2817(88LFK)
+Aust. J. Chem., 1988, 41, 437 - 441; Lada E; Filipek S; Kalinowski MK; Complexation of
+Thallium(I) by 18-Crown-6, Dibenzo-18-6 and Dicyclohexyl-18-6 in Methanol and N,N-
+Dimethylformamide. Polarographic and MNDO Studies
+
+Reference No.: 2839(84FLL)
+Anal. Chem., 1984, 56, 160 - 163; Fux P; Lagrange J; Lagrange P; Sodium Glass Electrode
+in Propylene Carbonate for Study of Uranyl Ion Complexed to 18-Crown-6 and Substituted
+Derivatives
+
+Reference No.: 2896(78JaI)
+Talanta, 1978, 25, 91 - 95; Jawaid M; Ingman F; Ion-pair Extraction of Na+. K+ and Ca+2
+with some Organic Counterions and Dicyclohexyl-18-crown-6 as Adduct-forming Reagent
+
+Reference No.: 2922(82MaD)
+J. Am. Chem. Soc., 1982, 104, 2967 - 2972; Massaux J; Desreux JF; An Electrochemical
+Investigation of the Effect of Macrocycle Ring Size on the Binding of Di- and Trivalent
+Lanthanide Cations by 12-Crown-4, 15-Crown-5, 4-tert-Butylbenzo-15-crown-5, and
+Dibenzo-30-crown-10 in Propylene Carbonate
+
+Reference No.: 2942(80AEL)
+J. Am. Chem. Soc., 1980, 102, 2670 - 2674; Anderegg G; Ekstrom A; Lindoy LF; Smith RJ;
+Metal-Ion Recognition by Macrocyclic Ligands. Thermodynamic Stabilities of Nickel
+Complexes of a Series of O2N2-Donor Macrocyclic Ligands
+
+Reference No.: 2980(82WaC)
+J. Chem. Soc., Dalton Trans., 1982,, 2565 - 2566; Wang B; Chung C-S; Thermodynamic
+Stabilities of Cobalt(II), Nickel(II), and Copper(II) Complexes of O2N2-Donor
+Macrocyclic Ligands
+
+Reference No.: 3108(73MPM)
+J. Inorg. Nucl. Chem., 1973, 35, 2119 - 2123; Mushran SP; Prakash O; Murti R;
+Uranium(VI) Complexes with Mordant Black Dyes: Spectrophotometric and Potentiometric
+Studies
+
+
+
+
+                                      – Page 81 of 84 –
+JESS Thermodynamic Database v8.9                                         C20
+
+
+Reference No.: 3303(75SNJ)
+J. Chem. Soc., Dalton Trans., 1975,, 2381 - 2386; Shchori E; Nae N; Jagur-Grodzinski
+JJ; Stability Constants of Complexes of a Series of Metal Cations with
+6,7,9,10,17,18,20,21-Octahydrodibenzo[b,k][1,4,7,10,13,16]hexa-oxa- -cylo-octadecin
+(Dibenzo-18-crown-6) in Aqueous Solutions
+
+Reference No.: 3344(91LaK)
+Monatsh. Chem., 1991, 122, 1 - 8; Lada E; Kalinowski MK; Electrochemical Studies of
+Tl(I) Crown-Ether Complexes in Nonaqueous Media
+
+Reference No.: 3560(75Mid)
+Chem. Soc. Rev., 1975, 4, 549 - 568; Midgley D; Alkali-metal Complexes in Aqueous
+Solution
+
+Reference No.: 3562(80AEJ)
+J. Chim. Phys. Phys. Chim. Biol., 1980, 77, 537 - 543; Abello L; Ensuque A; Jouini M;
+Lapluye G; Contribution a l'Etude des Complexes Chelates du Glutathion II. Etude de la
+Complexation Cu(II)-Glutathion Oxyde en Solution Aqueuse
+
+Reference No.: 3790(88ADL)
+J. Am. Chem. Soc., 1988, 110, 8471 - 8477; Adam KR; Dancey KP; Leong AJ; Lindoy LF;
+McCool BJ; McPartlin M; Tasker PA; Metal-Ion Recognition. 2. Structural Dislocation
+Behavior in the Interaction of Zinc(II) and Cadmium(II) with a Series of O2N3-Donor
+Macrocycles
+
+Reference No.: 3839(73IEC)
+Struct. Bonding (Berlin), 1973, 16, 161 - 189; Izatt RM; Eatough DJ; Christensen JJ;
+Thermodynamics of Cation-Macrocyclic Compound Interaction
+
+Reference No.: 3871(84TaM)
+Inorg. Chim. Acta, 1984, 85, 9 - 15; Taliaferro CH; Martell AE; New Multidentate
+Ligands. XXIV. Disodium-N,N'-bis(2-hydroxy-5-sulfobenzyl)-ethylenediaminediacetic Acid,
+a New Chelating Ligand for Trivalent Metal Ions
+
+Reference No.: 3887(82CFS)
+Inorg. Chim. Acta, 1982, 64, L263 - L265; Cox BG; Firman P; Schneider H; Kinetics of
+Complexation of Dibenzo-18-Crown-6 with Strontium Ion in Methanol at -15 C Studied by
+Stopped Flow Technique
+
+Reference No.: 3898(88HSD)
+Inorg. Chim. Acta, 1988, 154, 229 - 238; Hancock RD; Shaikjee MS; Dobson SM; Boeyens
+JCA; The Stereochemical Activity or Non-activity of the 'Inert' Pair of Electrons on
+Lead(II) in Relation to its Complex Stability and Structural Properties. Some
+Considerations in Ligand Design
+
+Reference No.: 3910(89KaS)
+Inorg. Chim. Acta, 1989, 155, 203 - 206; Kashanian S; Shamsipur M; Complex Formation of
+Alkaline Earth Cations with Benzo-15-Crown-5 and some 18-Crowns in methanol,
+Dimethylformamide and Dimethyl sulfoxide Solutions
+
+Reference No.: 4246(88BBG)
+Inorg. Chem., 1988, 27, 1104 - 1107; Bencini A; Bianchi A; Garcia-Espana E; Mangani S;
+Micheloni M; Orioli P; Paoletti P; Polynuclear Zinc(II) Complexes with Large
+Polyazacycloalkanes. Equilibrium Studies and Crystal Structure of the Binuclear [Zn2
+([30]aneN10)(NCS)](ClO4)3 Complex
+
+Reference No.: 4256(89BBC)
+Inorg. Chem., 1989, 28, 347 - 351; Bencini A; Bianchi A; Castello M; Di Vaira M; Faus
+J; Garcia-Espana E; Micheloni M; Paoletti P; Thermodynamic Study of the Formation in
+Aqueous Solution of Cadmium(II) Complexes with Polyazacycloalkanes. Synthesis and
+
+
+
+                                      – Page 82 of 84 –
+JESS Thermodynamic Database v8.9                                           C20
+
+
+Crystal Structure of the Dicadmium(II) Complex Na[Cd2(L)Cl2](ClO4)3 (L =
+1,4,7,10,13,16,19,22,25,28- Decaazacyclotriacontane)
+
+Reference No.: 4258(89BBC)
+Inorg. Chem., 1989, 28, 3175 - 3181; Bencini A; Bianchi A; Castello M; Dapporto P; Faus
+J; Garcia-Espana E; Micheloni M; Paoletti P; Paoli P; Nickel(II) Complexes of [3k]aneNk
+Polyazacycloalkanes (k = 7-12). Solution and Solid-State Studies
+
+Reference No.: 4391(87BBG)
+Inorg. Chem., 1987, 26, 1243 - 1247; Bencini A; Bianchi A; Garcia-Espana E; Giusti M;
+Mangani S; Micheloni M; Orioli P; Paoletti P; Synthesis and Complexing Properties of
+the Large Polyazacycloalkane 1,4,7,10,13,16,19,22,25,28-Decaazacyclotriacontane (L).
+Crystal Structure of the Monoprotonated Dicopper(II) Complex [Cu2(L)HCl2](ClO4)3.4H2O
+
+Reference No.: 4472(94RSA)
+Talanta, 1994, 41, 1465 - 1469; Rouhollahi A; Shamsipur M; Amini MK; Differential Pulse
+Polarographic Studies of Mercury Complexes with some Crown Ethers in Nonaqueous
+Solvents
+
+Reference No.: 4532(76LiC)
+J. Am. Chem. Soc., 1976, 98, 3769 - 3778; Live D; Chan SI; Nuclear Magnetic Resonance
+Study of the Solution Structures of Some Crown Ethers and Their Cation Complexes
+
+Reference No.: 4829(77MPD)
+J. Phys. Chem., 1977, 81, 1677 - 1681; Mei E; Popov AI; Dye JL; Complexation of the
+Cesium Cation by Macrocyclic Polyethers in Various Solvents. A Cesium-133 Nuclear
+Magnetic Resonance Study of the Thermodynamics and Kinetics of Exchange
+
+Reference No.: 4901(95PSZ)
+J. Chem. Soc., Dalton Trans., 1995,, 1267 - 1271; Piu P; Sanna G; Zoroddu MA; Seeber R;
+Basosi R; Pogni R; Potentiometric and Spectroscopic Study of Ternary Complexes of
+Copper(II), 1,10-Phenanthroline and Oxidised Glutathione
+
+Reference No.: 4921(79ALS)
+J. Chem. Soc., Chem. Commun., 1979,, 812 - 813; Adam KR; Lindoy LF; Smith RJ; Anderegg
+G; Henrick K; McPartlin M; Tasker PA; Macrocyclic Ligand Control of the Thermodynamic
+Stabilities of Nickel Complexes Containing 14- to 17-Membered Macrocyclic Rings. X-Ray
+Crystal Structure of the trans Nickel(II) Bromide Complex of the 16-Membered Ring.
+
+Reference No.: 4967(83KWC)
+Anal. Chem., 1983, 55, 1202 - 1204; Kolthoff IM; Wang WJ; Chantooni MK; Protonation and
+Hydronium Complexation Stability Constants of Several Crown Ethers in Acetonitrile
+
+Reference No.: 5281(80AAL)
+Inorg. Chem., 1980, 19, 2956 - 2964; Adam KR; Anderegg G; Lindoy LF; Lip HC; McPartlin
+M; Rea JH; Smith RJ; Tasker PA; Metal-Ion Recognition by Macrocyclic Ligands.
+Synthetic, Thermodynamic, Kinetic, and Structural Aspects of the Interaction of
+Copper(II) with 14- to 17-Membered Cyclic Ligands Containing an O2N2-Donor Set
+
+Reference No.: 5726(95SwA)
+J. Chem. Soc., Faraday Trans., 1995, 91, 1607 - 1610; Sway MI; Ambushamieh AS;
+Thermodynamic Study of the Binding of Dibenzo-18-crown-6 with Ag+, Pb+2 and Cd+2 in
+Acetonitrile-Water Solvents
+
+Reference No.: 5742(56WML)
+J. Am. Chem. Soc., 1956, 78, 2367 - 2370; White JM; Manning RA; Li NC; Metal
+Interaction with Sulfur-containing Amino Acids. II. Nickel and Copper(II) Complexes
+
+
+
+
+                                      – Page 83 of 84 –
+JESS Thermodynamic Database v8.9                                         C20
+
+
+Reference No.: 5758(88Bus)
+J. Solution Chem., 1988, 17, 277 - 286; Buschmann H-J; The Influence of Acetonitrile on
+Complex Formation of Crown Ethers Containing Different Donor Atoms
+
+Reference No.: 5968(96BBC)
+Supramol. Chem., 1996, 7, 61 - 66; Bazzicalupi C; Bencini A; Ciampolini M; Fusi V;
+Micheloni M; Nardi N; Razzolini I; Valtancoli B; Coloured Aza-cages for Lithium
+Encapsulation
+
+Reference No.: 6236(96GMS)
+Polyhedron, 1996, 15, 3897 - 3903; Goff CM; Matchette MA; Shabestary N; Khazaeli S;
+Complexation of Caesium and Rubidium Cations with Crown Ethers in N,N-Dimethylformamide
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+Reference No.: 6509(71Fre)
+J. Am. Chem. Soc., 1971, 93, 600 - 606; Frensdorff HK; Stability Constants of Cyclic
+Polyether Complexes with Univalent Cations
+
+Reference No.: 6655(69IRN)
+Science, 1969, 164, 443 - 444; Izatt RM; Rytting JH; Nelson DP; Haymore BL; Christensen
+JJ; Binding of Alkali Metal Ions by Cyclic Polyethers: Significance in Ion Transport
+Processes
+
+Reference No.: 6727(71INR)
+J. Am. Chem. Soc., 1971, 93, 1619 - 1623; Izatt RM; Nelson DP; Rytting JH; Haymore BL;
+Christensen JJ; A Calorimetric Study of the Interaction in Aqueous Solution of Several
+Uni- and Bivalent Metal Ions with the Cyclic Polyether Dicyclohexyl-18-crown-6 at 10,
+25, and 40C
+
+Reference No.: 6747(86BWF)
+Can. J. Chem., 1986, 64, 5 - 10; Boughriet A; Wartel M; Fischer J-C; Influence de
+Nitrates Metalliques sur l'Equilibre de Dissociation Ionique N2O4 = NO+1 + NO3-1 dans
+le Sulfolane
+
+Reference No.: 6953(96NoM)
+The Environmental Chemistry of Aluminum, 2nd. Edn., 1996, 39 - 80; Nordstrom DK; May
+HM; Aqueous Equilibrium Data for Mononuclear Aluminum Species
+
+Reference No.: 22945(08CDK)
+J. Solution Chem., 2008, 37, 1245 - 1259; Crea P; De Stefano C; Kambarami M; Millero
+FJ; Sharma VK; Effect of Ionic Strength and Temperature on the Protonation of Oxidised
+Glutathione
+
+Reference No.: 31509(23DiQ)
+J. Chem. Soc. Trans., 1923, 123, 2943 - 2953; Dixon M; Quastel JH; CCCXLVII1.- A New
+Type of Reduction-Oxidation System. Part I. Cysteine and Glutathione
+
+Reference No.: 31561(00JCM)
+Free Radical Biol. Med., 2000, 28, 625 - 635; Jones DP; Carlson JL; Mody VC Jr; Cai J;
+Lynn MJ; Sternberg P Jr; Redox State of Glutathione in Human Plasma
+
+Reference No.: 31641(19SKB)
+Sci Rep., 2019, 9, 18414-1 Sharma DD; Kanchi S; Bathinapatla A; Inamuddin; Asiri AM;
+Modeling of Neotame and Fructose Thermochemistry: Comparison with Mono and Divalent
+Metal Ions by Computational and Experimental Approach
+
+
+
+
+                                      – Page 84 of 84 –
+

@@ -1,0 +1,957 @@
+                     JESS Thermodynamic Database v8.9
+                                          Promethium
+
+                                          24-Jan-23
+
+Reaction No. 2677
+F-1 + Pm+3 = Pm+3_F-1
+ No    t    I-Str              Medium            Value (Dev)          W    Tech.   Ref. #
+  1   25       0        Inf. Dilution           lgK:3.63(3SF)         3     CRV     8781
+  2   25       0        Inf. Dilution           lgK:3.96(3SF)         4     EDH     8917
+  3   25     0.1               NaClO4           lgK:3.32(3SF)         5     MTP     6681
+  4   25     0.1              Unknown           lgK:3.52(3SF)         6     CRV      552
+  5   25     0.68              NaClO4           lgK:3.07(3SF)         5     EFE     8917
+  6   25       1                NaCl           lgK:3.11(0.02SD)       5     MDS     5385
+  7   25       1               NaClO4          lgK:3.2(0.05SD)        6     MDS      437
+
+
+Reaction No. 5479
+EDTA-4 + Pm+3 = Pm+3_EDTA-4
+ No    t    I-Str              Medium            Value (Dev)          W    Tech.   Ref. #
+  1   20     0.1               NH4Cl           lgK:17.0(0.04SD)       7     EIU      903
+  2   20     0.1               NH4Cl            lgK:16.94(4SF)        6     MSL      906
+  3   20     0.1              NH4ClO4          lgK:17.0(0.04SD)       5     MDS      903
+  4   23       0              NH4ClO4           lgK:19.41(4SF)        4     MCE      906
+  5   23     0.1              NH4ClO4           lgK:16.75(4SF)        4     MCE      906
+  6   25       0        Inf. Dilution           lgK:17.3(3SF)         1     ESC
+
+
+Reaction No. 6436
+Oxalic-2 + Pm+3 = Pm+3_Oxalic-2
+ No    t     I-Str              Medium            Value (Dev)         W    Tech.   Ref. #
+  1    25      0          Inf. Dilution          lgK:6.01(4SF)        1     EOR
+  2    25     0.1              Unknown          lgK:5.2(0.1SD)        4     MTP     6545
+
+
+Reaction No. 6437
+Pm+3_Oxalic-2 + Oxalic-2 = Pm+3_Oxalic-2(2)
+ No     t     I-Str           Medium          Value (Dev)         W       Tech.    Ref. #
+  1    25       0.1       Unknown           lgK:3.6(0.05SD)       4       MTP      6545
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                      Promethium
+
+
+Reaction No. 6916
+Pm+3 + H+1_Gly-1 = Pm+3_H+1_Gly-1
+ No    t    I-Str       Medium            Value (Dev)         W           Tech.    Ref. #
+  1    0         2      NaClO4          lgK:0.4(0.05SD)       6           MDS      3232
+  2   11         2      NaClO4          lgK:0.5(0.08SD)       6           MDS      3232
+  3   25         2      NaClO4          lgK:0.7(0.03SD)       6           MDS      3232
+  4   40         2      NaClO4          lgK:0.8(0.03SD)       6           MDS      3232
+  5   25     0.1       Unknown            dH:4.(1SF)          3           CRV       552
+  6   25         2      NaClO4           dH:4.(0.4SD)         5           MDS      3232
+
+
+Reaction No. 7555
+CO3-2 + Pm+3 = Pm+3_CO3-2
+ No   t    I-Str             Medium            Value (Dev)        W        Tech.   Ref. #
+ 1    25     0         Inf. Dilution         lgK:7.81(3SF)        4         EFE     8712
+ 2    25     0         Inf. Dilution         lgK:7.22(3SF)        3         CRV     8781
+
+
+Reaction No. 9159
+NTA-3 + Pm+3 = Pm+3_NTA-3
+
+Note: Value of GugC fixed by similarity of this parameter with other REEs
+ No   t    I-Str             Medium            Value (Dev)        W        Tech.   Ref. #
+ 1    20    0.1               KNO3            lgK:11.(2SF)        3         MDS     1118
+ 2    25     0         Inf. Dilution         lgK:12.8(3SF)        4         EES
+Note (2): Based on lanthanide neighbours (see Li & Byrne, Aq. Geochem., 1997)
+ 3    25    0.1             K+1 salt         lgK:19.7(3SF)        0         CRV     552
+
+
+Reaction No. 9160
+Pm+3_NTA-3 + NTA-3 = Pm+3_NTA-3(2)
+ No   t    I-Str              Medium           Value (Dev)        W       Tech.    Ref. #
+ 1    20    0.1                KNO3           lgK:8.7(2SF)        4        CMN      1118
+ 2    25     0         Inf. Dilution          lgK:8.9(2SF)        1        ESC
+
+
+Reaction No. 12179
+Citric-3 + Pm+3 = Pm+3_Citric-3
+ No   t    I-Str            Medium            Value (Dev)             W    Tech.   Ref. #
+ 1    25     0        Inf. Dilution          lgK:8.905(4SF)           1     EOR
+ 2    25    0.1              NaCl            lgK:7.00(3SF)            6     MIX      999
+ 3    25    0.1             Unknown         lgK:7.7(0.08SD)           4     MDG     6545
+
+
+
+
+                                       – Page 2 of 19 –
+JESS Thermodynamic Database v8.9                                         Promethium
+
+
+
+Reaction No. 12180
+Pm+3_Citric-3 + Citric-3 = Pm+3_Citric-3(2)
+ No   t       I-Str          Medium              Value (Dev)         W     Tech.      Ref. #
+ 1    25        0         Inf. Dilution          lgK:4.6(2SF)        1      EDH
+ 2    25       0.1            NaCl              lgK:4.91(3SF)        2      MIX        11516
+Note (2): Ohyoshi A et al., J. Inorg. Nucl. Chem., 1972, 34, 1955
+ 3    25       0.1           Unknown            lgK:3.2(0.2SD)       2      MDG        6545
+
+
+Reaction No. 12181
+Pm+3_Citric-3 + H+1_Citric-3 = Pm+3_H+1_Citric-3(2)
+ No   t       I-Str          Medium              Value (Dev)         W     Tech.      Ref. #
+ 1    25        0         Inf. Dilution          lgK:4.3(2SF)        1      ELC
+ 2    25       0.1           Unknown            lgK:2.4(0.1SD)       0      MDG        6545
+
+
+Reaction No. 12182
+2<Citric-3> + Pm+3 = Pm+3_Citric-3(2)
+ No   t       I-Str          Medium              Value (Dev)         W     Tech.      Ref. #
+ 1    25        0         Inf. Dilution         lgK:13.75(4SF)       1      EOR
+ 2    25       0.1            NaCl              lgK:11.91(4SF)       6      MIX         999
+ 3    25       0.1           Unknown            lgK:3.20(3SF)        0      MDG        6545
+
+
+Reaction No. 12562
+2<NTA-3> + Pm+3 = Pm+3_NTA-3(2)
+ No   t       I-Str          Medium              Value (Dev)         W     Tech.      Ref. #
+ 1    20       0.1           NaClO4             lgK:19.71(4SF)       5      MDS        1118
+ 2    25        0         Inf. Dilution         lgK:20.0(3SF)        1      ESC
+
+
+Reaction No. 13501
+Mandelic-1 + Pm+3 = Pm+3_Mandelic-1
+ No       t     I-Str       Medium          Value (Dev)          W       Tech.        Ref. #
+  1    20           0.2     NaClO4         lgK:2.32(3SF)         6        MIX          999
+
+
+Reaction No. 13502
+2<Mandelic-1> + Pm+3 = Pm+3_Mandelic-1(2)
+ No       t     I-Str       Medium          Value (Dev)          W       Tech.        Ref. #
+  1    20           0.2     NaClO4         lgK:4.02(3SF)         6        MIX          999
+
+
+
+
+                                          – Page 3 of 19 –
+JESS Thermodynamic Database v8.9                                             Promethium
+
+
+Reaction No. 13503
+3<Mandelic-1> + Pm+3 = Pm+3_Mandelic-1(3)
+ No       t     I-Str       Medium          Value (Dev)          W           Tech.        Ref. #
+  1    20           0.2     NaClO4         lgK:5.11(3SF)         6            MIX          999
+
+
+Reaction No. 14634
+CDTA-4 + Pm+3 = Pm+3_CDTA-4
+ No    t       I-Str       Medium            Value (Dev)             W        Tech.       Ref. #
+  1   20        0.1         NH4Cl          lgK:18.17(4SF)            6         MDS         999
+  2   25            0      Unknown         lgK:21.16(4SF)            6         MIX         999
+  3   25        0.1        Unknown         lgK:18.50(4SF)            6         MIX         999
+  4   80        0.05       Unknown         lgK:18.99(4SF)            6         MIX         999
+  5   80        0.06       Unknown         lgK:19.01(4SF)            6         MIX         999
+  6   80        0.07       Unknown         lgK:18.93(4SF)            6         MIX         999
+  7   80        0.17       Unknown         lgK:17.83(4SF)            6         MIX         999
+
+
+Reaction No. 19485
+2<Oxalic-2> + Pm+3 = Pm+3_Oxalic-2(2)
+ No   t       I-Str          Medium              Value (Dev)             W     Tech.      Ref. #
+ 1    20       0.1            NH4Cl              lgK:8.3(2SF)            4      MDS         906
+ 2    25        0         Inf. Dilution         lgK:10.03(4SF)           1      EOR
+ 3    25       0.1           Unknown            lgK:8.80(3SF)            5      MTP        11516
+Note (3): Stepanov A, Zhur. Neorg. Khim., 1971, 16, 2981
+
+
+Reaction No. 19486
+3<Oxalic-2> + Pm+3 = Pm+3_Oxalic-2(3)
+ No   t       I-Str           Medium              Value (Dev)            W     Tech.      Ref. #
+ 1    20       0.1            NH4Cl             lgK:11.8(3SF)            4      MDS         906
+ 2    25        0         Inf. Dilution         lgK:12.1(3SF)            1      ESC
+
+
+Reaction No. 19568
+Lactic-1 + Pm+3 = Pm+3_Lactic-1
+ No       t     I-Str       Medium          Value (Dev)          W           Tech.        Ref. #
+  1    10           1.5      KCl           lgK:2.54(3SF)         6            MSC          999
+  2    20           0.2     NaClO4         lgK:2.43(3SF)         6            MIX          999
+
+
+Reaction No. 19569
+
+
+
+
+                                          – Page 4 of 19 –
+JESS Thermodynamic Database v8.9                                   Promethium
+
+
+2<Lactic-1> + Pm+3 = Pm+3_Lactic-1(2)
+ No    t     I-Str       Medium            Value (Dev)         W    Tech.       Ref. #
+  1   10      1.5         KCl             lgK:4.24(3SF)        6      MSC        999
+  2   20      0.2        NaClO4           lgK:4.20(3SF)        6      MIX        999
+  3   25      0.1       Unknown           lgK:5.38(3SF)        5      MIX       11516
+Note (3): Deelstra H et al., Bull. Soc. Chim. Belges, 1967, 76, 557
+
+
+Reaction No. 19570
+3<Lactic-1> + Pm+3 = Pm+3_Lactic-1(3)
+ No    t     I-Str      Medium            Value (Dev)       W      Tech.        Ref. #
+  1   20      0.2       NaClO4           lgK:5.35(3SF)      6       MIX          999
+
+
+Reaction No. 20036
+2OH2MePropan-1 + Pm+3 = Pm+3_2OH2MePropan-1
+ No    t     I-Str       Medium            Value (Dev)         W    Tech.       Ref. #
+  1   20      0.2        NaClO4           lgK:2.63(3SF)        6      MIX        999
+  2   25      0.1       Unknown           lgK:2.79(3SF)        6      MTP        999
+
+
+Reaction No. 20037
+2<2OH2MePropan-1> + Pm+3 = Pm+3_2OH2MePropan-1(2)
+ No    t     I-Str       Medium            Value (Dev)         W    Tech.       Ref. #
+  1   20      0.2        NaClO4           lgK:4.78(3SF)        6      MIX        999
+  2   23                                  lgK:6.00(3SF)        0      MCE        906
+  3   25      0.1       Unknown           lgK:4.69(3SF)        6      MTP        999
+
+
+Reaction No. 20038
+3<2OH2MePropan-1> + Pm+3 = Pm+3_2OH2MePropan-1(3)
+ No    t     I-Str       Medium            Value (Dev)         W    Tech.       Ref. #
+  1   20      0.2        NaClO4           lgK:5.90(3SF)        6      MIX        999
+  2   25      0.1       Unknown           lgK:6.20(3SF)        6      MTP        999
+
+
+Reaction No. 22385
+Tartaric-2 + Pm+3 = Pm+3_Tartaric-2
+ No    t     I-Str       Medium           Value (Dev)      W       Tech.        Ref. #
+  1    20     0.1        NH4Cl            lgK:3.9(2SF)     4        MDS          999
+
+
+Reaction No. 22386
+
+
+
+
+                                        – Page 5 of 19 –
+JESS Thermodynamic Database v8.9                                                       Promethium
+
+
+2<Tartaric-2> + Pm+3 = Pm+3_Tartaric-2(2)
+ No       t         I-Str             Medium           Value (Dev)         W           Tech.        Ref. #
+  1    20               0.1            NH4Cl           lgK:6.8(2SF)        0            MDS          999
+Note (1): Low wgt for internal consistency
+  2    22               0.1            NaCl           lgK:5.81(3SF)        6            MSC          999
+
+
+Reaction No. 22858
+Pm+3 + H+1_Citric-3 + Citric-3 = Pm+3_H+1_Citric-3(2)
+ No           t           I-Str          Medium           Value (Dev)          W        Tech.       Ref. #
+ 1     24:26                  0.15       LiClO4         lgK:11.13(4SF)         6         MDS         999
+
+
+Reaction No. 22866
+Pm+3 + H+1_Citric-3 = Pm+3_H+1_Citric-3
+ No       t         I-Str             Medium           Value (Dev)         W           Tech.        Ref. #
+  1    25               0.1            NaCl           lgK:5.46(3SF)        6            MIX          999
+
+
+Reaction No. 22867
+Pm+3_H+1_Citric-3 + H+1_Citric-3 = Pm+3_H+1(2)_Citric-3(2)
+ No       t         I-Str             Medium           Value (Dev)         W           Tech.        Ref. #
+  1    25               0.1            NaCl           lgK:8.42(3SF)        6            MIX          999
+
+
+Reaction No. 24764
+Pm+3 + H+1_CO3-2 = Pm+3_H+1_CO3-2
+ No   t           I-Str                 Medium               Value (Dev)           W     Tech.      Ref. #
+ 1    25            0                Inf. Dilution         lgK:1.79(3SF)           3      CRV        8781
+
+
+Reaction No. 27490
+Pm+3 + H+1_PhosAcet-3 = Pm+3_H+1_PhosAcet-3
+ No   t           I-Str                 Medium               Value (Dev)           W     Tech.      Ref. #
+ 1    25            0                Inf. Dilution         lgK:5.15(3SF)           6      MIX         906
+
+
+Reaction No. 27491
+Pm+3 + 2<H+1_PhosAcet-3> = Pm+3_H+1(2)_PhosAcet-3(2)
+ No   t           I-Str                 Medium               Value (Dev)           W     Tech.      Ref. #
+ 1    25            0                Inf. Dilution         lgK:8.50(3SF)           6      MIX         906
+
+
+Reaction No. 27492
+Pm+3 + H+1(2)_PhosAcet-3 = Pm+3_H+1(2)_PhosAcet-3
+
+
+
+
+                                                     – Page 6 of 19 –
+JESS Thermodynamic Database v8.9                                         Promethium
+
+
+ No   t       I-Str           Medium              Value (Dev)        W     Tech.      Ref. #
+ 1    25        0         Inf. Dilution         lgK:2.75(3SF)        6      MIX         906
+
+
+Reaction No. 30236
+[Pent]11OHCOO-1 + Pm+3 = Pm+3_[Pent]11OHCOO-1
+ No       t     I-Str       Medium          Value (Dev)          W       Tech.        Ref. #
+  1    25           0.1     NaClO4         lgK:2.73(3SF)         5        EIE         2150
+
+
+Reaction No. 30237
+Pm+3_[Pent]11OHCOO-1 + [Pent]11OHCOO-1 = Pm+3_[Pent]11OHCOO-1(2)
+ No       t     I-Str       Medium          Value (Dev)          W       Tech.        Ref. #
+  1    25           0.1     NaClO4         lgK:2.04(3SF)         5        EIE          2150
+
+
+Reaction No. 30238
+Pm+3_[Pent]11OHCOO-1(2) + [Pent]11OHCOO-1 = Pm+3_[Pent]11OHCOO-1(3)
+ No       t     I-Str       Medium          Value (Dev)          W       Tech.        Ref. #
+  1    25           0.1     NaClO4         lgK:1.40(3SF)         5        EIE         2150
+
+
+Reaction No. 42828
+Pm+3 + H+1_MePhos-2 = Pm+3_H+1_MePhos-2
+ No   t       I-Str          Medium              Value (Dev)         W      Tech.     Ref. #
+ 1    25        0         Inf. Dilution         lgK:2.67(3SF)        5       MIX        906
+ 2    25       0.5         Many Media           lgK:1.7(0.2SD)       6       CIU       7242
+
+
+Reaction No. 42833
+Pm+3 + H+1_OHMePhos-2 = Pm+3_H+1_OHMePhos-2
+ No    t       I-Str        Medium           Value (Dev)         W        Tech.       Ref. #
+  1   25        0.2        NH4ClO4          lgK:1.65(3SF)        5        MIX          906
+
+
+Reaction No. 42834
+Pm+3 + 2<H+1_OHMePhos-2> = Pm+3_H+1(2)_OHMePhos-2(2)
+ No    t       I-Str        Medium           Value (Dev)         W        Tech.       Ref. #
+  1   25        0.2        NH4ClO4          lgK:3.30(3SF)        5        MIX          906
+
+
+Reaction No. 43482
+Pm+3 + H+1(2)_EDDPI-2 = Pm+3_H+1(2)_EDDPI-2
+ No    t       I-Str        Medium           Value (Dev)         W        Tech.       Ref. #
+  1   25        0.5        Unknown          lgK:5.78(3SF)        4        MIX          906
+
+
+
+
+                                          – Page 7 of 19 –
+JESS Thermodynamic Database v8.9                                            Promethium
+
+
+
+Reaction No. 43494
+Pm+3 + H+1(2)_Etbis(ImMePhos)-4 = Pm+3_H+1(2)_Etbis(ImMePhos)-4
+ No    t       I-Str      Medium             Value (Dev)            W        Tech.       Ref. #
+  1   25        0.5       NH4ClO4          lgK:5.7(0.06SD)          4         MIX         906
+
+
+Reaction No. 44086
+HIMDA-2 + Pm+3 = Pm+3_HIMDA-2
+ No    t       I-Str      Medium             Value (Dev)            W        Tech.       Ref. #
+  1   25        0.1       Unknown          lgK:9.0(0.05SD)          5         MDS         906
+
+
+Reaction No. 44646
+Oxine-1 + Pm+3 = Pm+3_Oxine-1
+ No       t     I-Str      Medium           Value (Dev)         W           Tech.        Ref. #
+  1    23                                  lgK:6.91(3SF)        4            MDS          906
+
+
+Reaction No. 44647
+2<Oxine-1> + Pm+3 = Pm+3_Oxine-1(2)
+ No    t       I-Str       Medium           Value (Dev)         W            Tech.       Ref. #
+  1   23                                  lgK:13.25(4SF)        4            MDS          906
+
+
+Reaction No. 44648
+3<Oxine-1> + Pm+3 = Pm+3_Oxine-1(3)
+ No    t       I-Str       Medium           Value (Dev)         W            Tech.       Ref. #
+  1   23                                  lgK:19.08(4SF)        4            MDS          906
+
+
+Reaction No. 52227
+Pm+3 + OH-1 = Pm+3_OH-1
+ No   t       I-Str          Medium               Value (Dev)           W     Tech.      Ref. #
+ 1    25        0         Inf. Dilution         lgK:5.77(3SF)           3      EDH        8781
+
+
+Reaction No. 52746
+IO3-1 + Pm+3 = Pm+3_IO3-1
+ No   t       I-Str          Medium               Value (Dev)           W     Tech.      Ref. #
+ 1    25        0         Inf. Dilution         lgK:1.81(3SF)           4      CRV         552
+ 2    25       0.1           NaClO4             lgK:1.12(3SF)           5      MDS        5398
+
+
+Reaction No. 52979
+
+
+
+
+                                          – Page 8 of 19 –
+JESS Thermodynamic Database v8.9                                         Promethium
+
+
+Cl-1 + Pm+3 = Pm+3_Cl-1
+ No   t       I-Str          Medium              Value (Dev)         W     Tech.      Ref. #
+ 1    15                                        lgK:0.70(2SF)        0      MEP        5398
+ 2    25        0       Inf. Dilution           lgK:0.31(2SF)        3      CRV        8781
+ 3    25       0.5           Inert              lgK:-0.48(2SF)       4      MLC        8917
+ 4    25        1            Inert              lgK:-0.54(2SF)       4      MLC        8917
+
+
+Reaction No. 52980
+Pm+3_Cl-1 + Cl-1 = Pm+3_Cl-1(2)
+ No       t     I-Str      Medium           Value (Dev)          W       Tech.        Ref. #
+  1    15                                  lgK:-0.8(1SF)         0        MEP          5398
+
+
+Reaction No. 53368
+Pm+3 + H+1(2)_PO4-3 = Pm+3_H+1(2)_PO4-3
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.      Ref. #
+ 1    25        0         Inf. Dilution         lgK:2.51(3SF)        4      MIX        5398
+ 2    25        0         Inf. Dilution         lgK:2.27(3SF)        3      CRV        8781
+ 3    25       0.2           NH4ClO4            lgK:1.69(3SF)        5      MCE         931
+
+
+Reaction No. 53442
+P3O9-3 + Pm+3 = Pm+3_P3O9-3
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.      Ref. #
+ 1    25        0         Inf. Dilution         lgK:5.74(3SF)        4      MCE         931
+ 2    25        0         Inf. Dilution         lgK:6.26(3SF)        4      MIX        5398
+ 3    25       0.2           NH4ClO4            lgK:3.80(3SF)        4      MCE         931
+
+
+Reaction No. 53830
+NO3-1 + Pm+3 = Pm+3_NO3-1
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.      Ref. #
+ 1    25        0         Inf. Dilution         lgK:1.31(3SF)        4      EOD        7141
+ 2    25        0         Inf. Dilution         lgK:0.88(2SF)        3      EDH        8781
+ 3    25        1             HClO4             lgK:0.39(2SF)        5      MDS         931
+ 4    25        1             Inert             lgK:0.50(2SF)        4      MLC        8917
+ 5    25        1            NaClO4             lgK:0.26(2SF)        5      MDS         931
+
+
+Reaction No. 54039
+SO4-2 + Pm+3 = Pm+3_SO4-2
+
+
+
+
+                                          – Page 9 of 19 –
+JESS Thermodynamic Database v8.9                                            Promethium
+
+
+ No        t         I-Str         Medium                Value (Dev)    W       Tech.    Ref. #
+ 1         0           2           NaClO4               lgK:1.08(3SF)   5        MDS      931
+ 2        25           0        Inf. Dilution            lgK:3.5(2SF)   3        EES
+ 3        25           0        Inf. Dilution           lgK:3.42(4SF)   1        EOR
+ 4        25           0        Inf. Dilution           lgK:3.34(3SF)   3        CRV      8781
+ 5        25           2           NaClO4               lgK:1.34(3SF)   5        MDS      931
+ 6        40           2           NaClO4               lgK:1.49(3SF)   5        MDS      931
+ 7        55           2           NaClO4               lgK:1.60(3SF)   5        MDS      931
+ 8    0:55             2           NaClO4                dH:3.9(2SF)    5        MTD      931
+
+
+Reaction No. 54040
+2<SO4-2> + Pm+3 = Pm+3_SO4-2(2)
+ No   t        I-Str              Medium                Value (Dev)     W       Tech.    Ref. #
+ 1    0          2                NaClO4               lgK:1.62(3SF)    5       MDS       931
+ 2    25         0            Inf. Dilution             lgK:5.1(2SF)    3       EES
+ 3    25         0            Inf. Dilution             lgK:5.1(4SF)    1       EOR
+ 4    25         2                NaClO4               lgK:1.88(3SF)    5       MDS       931
+ 5    40         2                NaClO4               lgK:2.00(3SF)    5       MDS       931
+ 6    55         2                NaClO4               lgK:2.28(3SF)    5       MDS       931
+
+
+Reaction No. 55662
+Pm+3 + e-1 = Pm+2
+ No   t        I-Str             Medium                 Value (Dev)     W       Tech.    Ref. #
+ 1    25         0           Inf. Dilution              E:-2.6(2SF)     0        CRV      6330
+Note (1): Low wgt for inter-reaction consistency
+ 2    25         0           Inf. Dilution              E:-2.6(2SF)     0        CRV      7761
+ 3    25         0              Unknown                E:-2.5(0.2SD)    3        ENS      5256
+ 4    25         0           Inf. Dilution            dH:294.0(4SF)kJ   3        CRV      7761
+
+
+Reaction No. 57781
+2<F-1> + Pm+3 = Pm+3_F-1(2)
+ No   t        I-Str            Medium                  Value (Dev)         W   Tech.    Ref. #
+ 1    25         0           Inf. Dilution            lgK:6.42(3SF)         4    EDH      8917
+ 2    25       0.68             NaClO4                lgK:5.08(3SF)         5    EFE      8917
+ 3    25         1               NaCl                lgK:5.60(0.02SD)       6    MDS      5385
+
+
+Reaction No. 65774
+
+
+
+
+                                                – Page 10 of 19 –
+JESS Thermodynamic Database v8.9                                           Promethium
+
+
+N3-1 + Pm+3 = Pm+3_N3-1
+ No       t     I-Str        Medium            Value (Dev)         W        Tech.       Ref. #
+  1    25           0.5      Unknown         lgK:0.52(2SF)         6        CRV          552
+
+
+Reaction No. 66000
+Pm+3_IO3-1(3)_(s) = Pm+3 + 3<IO3-1>
+ No   t       I-Str          Medium                Value (Dev)         W      Tech.      Ref. #
+ 1    25        0         Inf. Dilution         lgK:-11.3(0.1SD)       4          CRV     552
+ 2    25       0.1           Unknown               dH:5.8(2SF)         6          CRV     552
+
+
+Reaction No. 66252
+Pm+3 + 3<e-1> = Pm(s)
+ No   t       I-Str           Medium               Value (Dev)         W      Tech.     Ref. #
+ 1    25        0         Inf. Dilution          dG:663.(3SF)kJ        5       CRV       7421
+ 2    25        0         Inf. Dilution          dG:158.000(6SF)       2       CRV       9029
+ 3    25        0         Inf. Dilution           E:-2.42(3SF)         0       MDG        140
+ 4    25        0         Inf. Dilution           E:-2.30(3SF)         2       CRV       6330
+ 5    25        0         Inf. Dilution           E:-2.29(3SF)         4       ENS       7276
+ 6    25        0         Inf. Dilution           E:-2.30(3SF)         2       CRV       7761
+ 7    25        0         Inf. Dilution          dH:690.8(4SF)kJ       3       CRV       7761
+ 8    25        0         Inf. Dilution          dH:164.000(6SF)       3       CRV       9029
+
+
+Reaction No. 66870
+Pm+3_OH-1(3)_(s) = Pm+3 + 3<OH-1>
+ No   t       I-Str           Medium               Value (Dev)         W      Tech.     Ref. #
+ 1    25        0          Inf. Dilution         lgK:-24.0(3SF)        4       EES
+ 2    25        0          Inf. Dilution          lgK:-25.(2SF)        0       ENS        773
+ 3    25        1             Unknown            lgK:-22.4(3SF)        4       EES
+ 4    25        1             Unknown            lgK:-23.4(3SF)        0       ENS        773
+
+
+Reaction No. 67539
+DETAP-4 + Pm+3 = Pm+3_DETAP-4
+ No       t     I-Str        Medium           Value (Dev)          W       Tech.        Ref. #
+  1    25           0.1       KNO3           lgK:15.1(3SF)         3        MGL         6529
+
+
+Reaction No. 67540
+Pm+3 + H+1_DETAP-4 = Pm+3_H+1_DETAP-4
+
+
+
+
+                                           – Page 11 of 19 –
+JESS Thermodynamic Database v8.9                                           Promethium
+
+
+ No       t     I-Str        Medium           Value (Dev)          W       Tech.        Ref. #
+  1    25           0.1       KNO3           lgK:9.5(2SF)          3        MGL         6529
+
+
+Reaction No. 71040
+Pm+2 + 2<e-1> = Pm(s)
+ No   t       I-Str          Medium                Value (Dev)         W      Tech.      Ref. #
+ 1    25        0         Inf. Dilution            E:-2.2(2SF)         4          CRV     6330
+ 2    25        0         Inf. Dilution            E:-2.2(2SF)         3          CRV     7761
+ 3    25        0         Inf. Dilution          dH:407.3(4SF)kJ       3          CRV     7761
+
+
+Reaction No. 72057
+Pm+3_OH-1 + H+1 + 3<e-1> = Pm(s) + H2O
+ No   t       I-Str          Medium                Value (Dev)         W      Tech.      Ref. #
+ 1    25        0         Inf. Dilution          lgK:-108.0(4SF)       1          ELC
+ 2    25        0         Inf. Dilution           E:-2.14(3SF)         0          CRV     7761
+
+
+Reaction No. 72059
+Pm+3_OH-1(3)_(s) + 3<e-1> = Pm(s) + 3<OH-1>
+ No   t       I-Str          Medium                Value (Dev)         W      Tech.      Ref. #
+ 1    25        0         Inf. Dilution          lgK:-140.2(4SF)       1          ELC
+ 2    25        0         Inf. Dilution           E:-2.78(3SF)         0          CRV     7761
+ 3    25        0         Inf. Dilution          dH:719.2(4SF)kJ       3          CRV     7761
+
+
+Reaction No. 72195
+Pm+3 + H+1_PO4-3 = Pm+3_H+1_PO4-3
+ No   t       I-Str           Medium               Value (Dev)         W     Tech.      Ref. #
+ 1    25        0          Inf. Dilution          lgK:5.27(3SF)        3      CRV        8781
+
+
+Reaction No. 72206
+2<CO3-2> + Pm+3 = Pm+3_CO3-2(2)
+ No   t       I-Str           Medium               Value (Dev)         W     Tech.       Ref. #
+ 1    25        0         Inf. Dilution          lgK:13.08(4SF)        4      EFE         8712
+ 2    25        0         Inf. Dilution          lgK:11.96(4SF)        3      CRV         8781
+
+
+Reaction No. 72211
+Pm+3 + 2<H+1_PO4-3> = Pm+3_H+1(2)_PO4-3(2)
+ No   t       I-Str           Medium               Value (Dev)         W     Tech.      Ref. #
+
+
+
+
+                                           – Page 12 of 19 –
+JESS Thermodynamic Database v8.9                                           Promethium
+
+
+ 1    25        0          Inf. Dilution          lgK:8.81(3SF)        3      CRV        8781
+
+
+Reaction No. 72283
+PO4-3 + Pm+3 = Pm+3_PO4-3
+ No   t       I-Str           Medium               Value (Dev)         W     Tech.      Ref. #
+ 1    25        0         Inf. Dilution          lgK:11.95(4SF)        1      EOR
+ 2    25        0         Inf. Dilution          lgK:11.95(4SF)        4      EFE        8712
+
+
+Reaction No. 72286
+2<PO4-3> + Pm+3 = Pm+3_PO4-3(2)
+ No   t       I-Str           Medium               Value (Dev)         W     Tech.      Ref. #
+ 1    25        0         Inf. Dilution          lgK:19.96(4SF)        1      EOR
+ 2    25        0         Inf. Dilution          lgK:19.96(4SF)        4      EFE        8712
+
+
+Reaction No. 72325
+Pm+3 + H2O = Pm+3_OH-1 + H+1
+ No   t       I-Str           Medium               Value (Dev)         W     Tech.      Ref. #
+ 1    25        0         Inf. Dilution          lgK:-8.06(3SF)        4      EFE        8712
+
+
+Reaction No. 72326
+Pm+3 + 2<H2O> = Pm+3_OH-1(2) + 2<H+1>
+ No   t       I-Str          Medium                Value (Dev)         W      Tech.     Ref. #
+ 1    25        0         Inf. Dilution          lgK:-16.78(4SF)       4       EFE       8712
+
+
+Reaction No. 72327
+Pm+3 + 3<H2O> = Pm+3_OH-1(3) + 3<H+1>
+ No   t       I-Str          Medium                Value (Dev)         W      Tech.     Ref. #
+ 1    25        0         Inf. Dilution          lgK:-26.15(4SF)       4       EFE       8712
+
+
+Reaction No. 75923
+Pm+3_Lactic-1 + Lactic-1 = Pm+3_Lactic-1(2)
+ No       t     I-Str       Medium            Value (Dev)          W       Tech.        Ref. #
+  1    10           1.5       KCl            lgK:1.70(3SF)         5        MEP         11516
+Note (1): Sakanoue M et al., Bull. Chem. Soc. Jpn., 1972, 45, 3429
+  2    20           0.2     NaClO4           lgK:1.77(3SF)         5        MIX         11516
+Note (2): Winkler K et al., Z. Phys. Chem., 1968, 238, 348
+
+
+Reaction No. 78064
+
+
+
+
+                                           – Page 13 of 19 –
+JESS Thermodynamic Database v8.9                                  Promethium
+
+
+PO4-3 + Pm+3 + 2<H+1> = Pm+3_H+1(2)_PO4-3
+ No   t    I-Str          Medium               Value (Dev)    W       Tech.    Ref. #
+ 1    25     0        Inf. Dilution          lgK:21.96(4SF)   1        ELC
+ 2    25     0        Inf. Dilution          lgK:22.03(4SF)   4        CRV     32224
+
+
+Reaction No. 78374
+Citric-3 + Pm+3 + H+1 = Pm+3_H+1_Citric-3
+ No   t    I-Str          Medium               Value (Dev)    W       Tech.    Ref. #
+ 1    25     0        Inf. Dilution          lgK:13.05(4SF)   1        ELC
+
+
+Reaction No. 78397
+2<Citric-3> + Pm+3 + H+1 = Pm+3_H+1_Citric-3(2)
+ No   t    I-Str          Medium               Value (Dev)    W       Tech.    Ref. #
+ 1    25     0        Inf. Dilution          lgK:19.57(4SF)   1        ELC
+
+
+Reaction No. 78415
+Gly-1 + Pm+3 + H+1 = Pm+3_H+1_Gly-1
+ No   t    I-Str          Medium               Value (Dev)    W       Tech.    Ref. #
+ 1    25     0        Inf. Dilution          lgK:10.46(4SF)   1        ELC
+
+
+Reaction No. 78422
+2<Citric-3> + Pm+3 + 2<H+1> = Pm+3_H+1(2)_Citric-3(2)
+ No   t    I-Str          Medium               Value (Dev)    W       Tech.    Ref. #
+ 1    25     0        Inf. Dilution          lgK:28.22(4SF)   1        ELC
+
+
+Reaction No. 79222
+PO4-3 + Pm+3 + H+1 = Pm+3_H+1_PO4-3
+ No   t    I-Str          Medium               Value (Dev)    W       Tech.    Ref. #
+ 1    25     0         Inf. Dilution          lgK:17.6(4SF)   1       ELC
+
+
+Reaction No. 79233
+2<PO4-3> + Pm+3 + 2<H+1> = Pm+3_H+1(2)_PO4-3(2)
+ No   t    I-Str          Medium               Value (Dev)    W       Tech.    Ref. #
+ 1    25     0        Inf. Dilution          lgK:33.46(4SF)   1        ELC
+
+
+Reaction No. 80249
+1.5<O2(g)> + 2<Pm(s)> = Pm2O3(s)
+ No   t    I-Str        Medium                Value (Dev)         W    Tech.   Ref. #
+
+
+
+
+                                       – Page 14 of 19 –
+JESS Thermodynamic Database v8.9                                           Promethium
+
+
+    1   25        0         Inf. Dilution           dG:-1736.(4SF)kJ       5     CRV    30332
+Note (1): Value from LW3JTH option 2
+    2   25        0         Inf. Dilution          dH:-1824.2(5SF)kJ       5     CRV    30332
+
+
+Reaction No. 80715
+Pm+2 + H+1 + 0.25<O2> = Pm+3 + 0.5<H2O>
+ No      t       I-Str           Medium                Value (Dev)     W       Tech.    Ref. #
+    1   25         0         Inf. Dilution            lgK:63.3(3SF)    1        ELC
+    2   25         0         Inf. Dilution           lgK:65.28(4SF)    0        CRV     31585
+
+
+Reaction No. 81555
+Pm+3_OH-1(3)_(s) + 3<H+1> = Pm+3 + 3<H2O>
+ No      t       I-Str           Medium                Value (Dev)     W       Tech.    Ref. #
+    1   25         0         Inf. Dilution            lgK:18.0(3SF)    1       ELC
+
+
+Reaction No. 81556
+Pm2O3(s) + 6<H+1> = 2<Pm+3> + 3<H2O>
+ No      t       I-Str           Medium                Value (Dev)     W       Tech.    Ref. #
+    1   25         0         Inf. Dilution            lgK:52.9(3SF)    1       ELC
+
+
+
+
+                                          Data Assessment
+
+
+Weight                          Assessment
+9            highest accuracy
+8            multi-determined; excellent dependability
+7            trustworthy; outstanding single determination
+6            better than average reliability
+5            average single determination
+4            some doubt
+3            poorly known
+2            guess to achieve consistency (or just as bad)
+1            no information but consistent
+0            problematic/inconsistent
+
+
+
+
+                                               – Page 15 of 19 –
+JESS Thermodynamic Database v8.9                                 Promethium
+
+
+                                       Techniques
+
+
+Abbrev                        Method
+CIU      Critical IUPAC publication (crit.)
+CMN      Several experimental values (crit.)
+CRV      Critical review
+EDH      Debye-Hueckel corrections
+EES      Personal estimate
+EFE      Free Energy relations
+EIE      Interpolation/Extrapolation (not Debye-Huekel)
+EIU      Critical IUPAC review (estim.)
+ELC      Linear Combination of Reactions
+ENS      Not specified
+EOD      Calculated from data of others
+EOR      Other Reaction Constants
+ESC      Standard conditions anchor
+MCE      Cation exchange
+MDG      Combination of Thermodynamic Data
+MDS      Distribution between two phases
+MEP      Electrophoresis
+MGL      Glass electrode
+MIX      Ion exchange
+MLC      Ligand competition
+MSC      Miscellaneous
+MSL      Solubility
+MTD      Temperature difference
+MTP      Migration or transference number
+
+
+
+
+                                       References
+
+
+Reference No.: 140(64SiM)
+Stability Constants of Metal-ion Complexes SP17, 1964 Sillen LG; Martell AE; The
+Chemical Soc.,London
+
+
+
+
+                                           – Page 16 of 19 –
+JESS Thermodynamic Database v8.9                                 Promethium
+
+
+Reference No.: 437(80BoH)
+IUPAC Chemical Data Series No. 27, 1980 Bond AM; Hefter GT; Critical Survey of
+Stability Constants and Related Thermodynamic Data of Fluoride Complexes in Aqueous
+Solution; Pergamon, Oxford, U.K.
+
+Reference No.: 552(95SMM)
+NIST Critical Stability Constants of Metal Complexes Database, 1995 Smith RM; Martell
+AE; Motekaitis RJ; Version 2.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 773(85KoS)
+Handbook of Chemical Equilibria in Analytical Chemistry, 1985 Kotrly S; Sucha L; Ellis
+Horwood Series in Anal. Chem.; Eds. Chalmers RA & Masson M; Ellis Horwood, Chichester
+
+Reference No.: 903(77And)
+Critical Survey of Stability Constants of EDTA Complexes, 1977 Anderegg G; IUPAC
+Chemical Data Series. 14; Pergamon Press, Oxford
+
+Reference No.: 906(79Per)
+IUPAC Chemical Data Series No. 22, 1979 Perrin DD; Stability Constants of Metal-Ion
+Complexes, First Edition Part B, Organic Ligands; Pergamon, Oxford
+
+Reference No.: 931(71SiM)
+Stability Constants of Metal-ion Complexes SP25, 1971 Sillen LG; Martell AE; Supplement
+No 1 to Special Publication No 25; Chemical Society, London
+
+Reference No.: 999(91MaM)
+Estimation of Constants for JESS Database, 1991 May PM; May RF
+
+Reference No.: 1118(82And)
+Pure Appl. Chem., 1982, 54, 2693 - 2758; Anderegg G; Critical Survey of Stability
+Constants of NTA Complexes
+
+Reference No.: 2150(66PoR)
+Inorg. Chem., 1966, 5, 819 - 822; Powell JE; Rowlands DLG; The Successive Stabilities
+and Proposed Models of the Rare Earth 1-Hydroxycyclopentanecarboxylic Acid Chelates
+
+Reference No.: 3232(68TaC)
+Inorg. Chem., 1968, 7, 2046 - 2048; Tanner SP; Choppin GR; Lanthanide and Actinide
+Complexes of Glycine. Determination of Stability Constants and Thermodynamic Parameters
+by a Solvent Extraction Method
+
+Reference No.: 5256(91MiK)
+Coord. Chem. Rev., 1991, 109, 1 - 5; Mikheev NB; Kamenskaya AN; Complex Formation of
+the Lanthanides and Actinides in Lower Oxidation States
+
+Reference No.: 5385(85BeB)
+J. Solution Chem., 1985, 14, 407 - 415; Becker P; Bilal BA; Lanthanide-Fluoride Ion
+Association in Aqueous Sodium Chloride Solutions at 25 degrees Celsius
+
+Reference No.: 5398(82Hog)
+IUPAC Chemical Data Series No. 21, 1982 Hogfeldt E; Stability Constants of Metal-ion
+Complexes, 2nd Suppl., Part A, Inorganic Ligands; Pergamon, Oxford
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+
+
+
+                                      – Page 17 of 19 –
+JESS Thermodynamic Database v8.9                                 Promethium
+
+
+Reference No.: 6529(85PoL)
+Inorg. Chem., 1985, 24, 2967 - 2969; Powell JE; Ling DR; On Altering the Lanthanide
+Chelate Formation Constant Sequence to Improve Am+3 - Ln+3 Separations in Cation-
+Exchange Elutions
+
+Reference No.: 6545(71Ste)
+Russ. J. Inorg. Chem., 1971, 16, 1583 - 1586; Stepanov AV; Comparative Stability of the
+Complexes of Yttrium and Various Rare Earth and Actinide Elements with Oxalate,
+Citrate, Ethylenediaminetetra-acetate, and 1,2-Diaminecyclohexanetetra- -acetate
+
+Reference No.: 6681(73MSS)
+Russ. J. Inorg. Chem., 1973, 18, 783 - 785; Makarova TP; Stepanov AV; Shestakov BI;
+Electromigration Investigation of the Comparative Stability of Fluoro-complexes of the
+MF+2 Type of Certain Rare-Earth and Actinide Elements
+
+Reference No.: 7141(90Woo)
+Chem. Geol., 1990, 82, 159 - 186; Wood SA; The Aqueous Geochemistry of the Rare-Earth
+Elements and Yttrium. 1. Review of Available Low-Temperature Data for Inorganic
+Complexes and the Inorganic REE Speciation of Natural Waters
+
+Reference No.: 7242(68Tru)
+J. Geol. Educ., 1968, 16, 17 - 20; Truesdell AH; The Advantage of Using pE Rather than
+Eh in Redox Equilibrium Calculations
+
+Reference No.: 7276(88CoW)
+Advanced Inorganic Chemistry, 5th Edn., 1988 Cotton FA; Wilkinson G; John Wiley & Sons
+Inc., N.Y., U.S.A
+
+Reference No.: 7421(97Mar)
+Ion Properties, 1997 Marcus Y; Marcel Dekker Inc., New York, U.S.A.
+
+Reference No.: 7761(89Bra)
+J. Phys. Chem. Ref. Data, 1989, 18, 1 - 21; Bratsch SG; Standard Electrode Potentials
+and Temperature Coefficients in Water at 298.15 K
+
+Reference No.: 8712(92LeB)
+Geochim. Cosmochim. Acta, 1992, 56, 1127 - 1137; Lee JH; Byrne RH; Examination of
+Comparative Rare Earth Element Complexation Behavior using Linear Free-Energy
+Relationships
+
+Reference No.: 8781(92Mil)
+Geochim. Cosmochim. Acta, 1992, 56, 3123 - 3132; Millero FJ; Stability Constants for
+the Formation of Rare Earth Inorganic Complexes as a Function of Ionic Strength
+
+Reference No.: 8917(93LeB)
+J. Solution Chem., 1993, 22, 751 - 766; Lee JH; Byrne RH; Rare Earth Element
+Complexation by Fluoride Ions in Aqueous Solution
+
+Reference No.: 9029(97SSW)
+Geochim. Cosmochim. Acta, 1997, 61, 907 - 950; Shock EL; Sassani DC; Willis M;
+Sverjensky DA; Inorganic Species in Geologic Fluids: Correlations among Standard Molal
+Thermodynamic Properties of Aqueous Ions and Hydroxide Complexes
+
+Reference No.: 11516(00PeP)
+IUPAC Stability Constants Database, 2000 Pettit LD; Powell HKJ; Release 4; Academic
+Software, U.K.
+
+Reference No.: 30332(17ZhJ)
+Calphad, 2017, 58, 169 - 203; Zhang Y; Jung I-H; Critical Evaluation of Thermodynamic
+
+
+
+
+                                      – Page 18 of 19 –
+JESS Thermodynamic Database v8.9                                 Promethium
+
+
+Properties of Rare Earth Sesquioxides (RE = La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho,
+Er, Tm, Yb, Lu, Sc and Y)
+
+Reference No.: 31585(19RVE)
+J. Hazard. Mater., 2019, 380, 120725-1 - 120725-17; Ram R; Vaughan J; Etschmann B;
+Brugger J; The Aqueous Chemistry of Polonium (Po) in Environmental and Anthropogenic
+Processes
+
+Reference No.: 32224(80BeT)
+Lawrence Berkeley Laboratory Report LBL-11448, 1980 Benson LV; Teague LS; A Tabulation
+of Thermodynamic Data for Chemical Reactions Involving 8 Elements Common to Radioactive
+Waste Package Systems
+
+
+
+
+                                      – Page 19 of 19 –
+

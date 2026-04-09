@@ -25,6 +25,11 @@ const statusEl = document.getElementById("status");
 const loadAllBtn = document.getElementById("loadAllBtn");
 const exportCsvBtn = document.getElementById("exportCsvBtn");
 const searchInput = document.getElementById("searchInput");
+const dbPanel = document.querySelector(".db-panel");
+const dbToggleBtn = document.getElementById("dbToggleBtn");
+const dbFilters = document.getElementById("dbFilters");
+const dbAllBtn = document.getElementById("dbAllBtn");
+const dbNoneBtn = document.getElementById("dbNoneBtn");
 const countVisible = document.getElementById("countVisible");
 const countLoaded = document.getElementById("countLoaded");
 const countTotal = document.getElementById("countTotal");
@@ -42,6 +47,13 @@ let loadAllMode = false;
 let manifestLoaded = false;
 let dataVersion = "";
 let searchText = "";
+const selectedSources = new Set();
+
+function setDbPanelCollapsed(collapsed) {
+  if (!dbPanel || !dbToggleBtn) return;
+  dbPanel.classList.toggle("collapsed", !!collapsed);
+  dbToggleBtn.textContent = collapsed ? "Expand" : "Reduce";
+}
 
 function setStatus(msg) {
   statusEl.textContent = msg || "";
@@ -73,10 +85,28 @@ function rowHasAllAtoms(row, atoms) {
   return true;
 }
 
+function rowHasSelectedSources(row, sources) {
+  if (!sources || sources.size === 0) return false;
+  const rowSources = row.s || [];
+  for (const s of rowSources) {
+    if (sources.has(s)) return true;
+  }
+  return false;
+}
+
 function updateCounts() {
   if (countVisible) countVisible.textContent = String(filteredRows.length);
   if (countLoaded) countLoaded.textContent = String(loadedRows.length);
   if (countTotal) countTotal.textContent = manifest ? String(manifest.total_rows || 0) : "0";
+}
+
+function escHtml(v) {
+  return String(v ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/\"/g, "&quot;")
+    .replace(/'/g, "&#39;");
 }
 
 function renderTable() {
@@ -88,13 +118,13 @@ function renderTable() {
 
   tbody.innerHTML = rows.map(r => `
     <tr>
-      <td class="mono">${r.p || ""}</td>
-      <td class="mono">${r.e || ""}</td>
-      <td class="mono">${r.k || ""}</td>
-      <td class="mono">${r.c || ""}</td>
-      <td>${r.x || ""}</td>
-      <td>${r.m || ""}</td>
-      <td>${r.rf || ""}</td>
+      <td class="mono">${escHtml(r.p)}</td>
+      <td class="mono">${escHtml(r.e)}</td>
+      <td class="mono">${escHtml(r.k)}</td>
+      <td class="mono">${escHtml(r.c)}</td>
+      <td>${escHtml(r.x)}</td>
+      <td>${escHtml(r.m)}</td>
+      <td>${escHtml(r.rf)}</td>
     </tr>
   `).join("");
 
@@ -107,6 +137,7 @@ function renderTable() {
 function applyFilterSortAndRender() {
   filteredRows = loadedRows.filter(r => {
     if (!rowHasAllAtoms(r, selectedAtoms)) return false;
+    if (!rowHasSelectedSources(r, selectedSources)) return false;
     if (!searchText) return true;
     const blob = [r.p, r.e, r.k, r.c, r.x, r.m, r.rf].join(" ").toLowerCase();
     return blob.includes(searchText);
@@ -197,15 +228,24 @@ async function loadChunks(chunkKeys) {
 
 function getCandidateChunkKeys() {
   if (!manifest) return [];
-  if (loadAllMode) return (manifest.chunks || []).map(c => c.key);
+  if (selectedSources.size === 0) return [];
+
+  const bySource = new Set();
+  for (const s of selectedSources) {
+    const arr = (manifest.source_to_chunks && manifest.source_to_chunks[s]) ? manifest.source_to_chunks[s] : [];
+    arr.forEach(k => bySource.add(k));
+  }
+
+  if (loadAllMode) return [...bySource];
   if (selectedAtoms.size === 0) return [];
 
-  const keys = new Set();
+  const byAtom = new Set();
   for (const a of selectedAtoms) {
     const arr = (manifest.atom_to_chunks && manifest.atom_to_chunks[a]) ? manifest.atom_to_chunks[a] : [];
-    arr.forEach(k => keys.add(k));
+    arr.forEach(k => byAtom.add(k));
   }
-  return [...keys];
+
+  return [...byAtom].filter(k => bySource.has(k));
 }
 
 async function refreshDataFromSelection() {
@@ -214,7 +254,9 @@ async function refreshDataFromSelection() {
     if (candidate.length === 0) {
       filteredRows = [];
       renderTable();
-      if (selectedAtoms.size === 0) {
+      if (selectedSources.size === 0) {
+        setStatus("Select at least one database to include.");
+      } else if (selectedAtoms.size === 0) {
         setStatus("Select atoms (fast cached mode) or click Load All Data for the full dataset.");
       } else {
         setStatus("No data for selected atom combination.");
@@ -227,6 +269,34 @@ async function refreshDataFromSelection() {
     applyFilterSortAndRender();
   } catch (err) {
     setStatus(`Load error: ${err.message}`);
+  }
+}
+
+function buildDatabaseFilters() {
+  if (!dbFilters || !manifest) return;
+  dbFilters.innerHTML = "";
+  const sources = manifest.sources || [];
+  for (const src of sources) {
+    const id = `db_${src.replace(/[^a-zA-Z0-9_-]/g, "_")}`;
+    const label = document.createElement("label");
+    label.className = "db-item";
+    const cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.id = id;
+    cb.checked = true;
+    cb.dataset.source = src;
+    selectedSources.add(src);
+    cb.addEventListener("change", async () => {
+      if (cb.checked) selectedSources.add(src);
+      else selectedSources.delete(src);
+      page = 1;
+      await refreshDataFromSelection();
+    });
+    const text = document.createElement("span");
+    text.textContent = src;
+    label.appendChild(cb);
+    label.appendChild(text);
+    dbFilters.appendChild(label);
   }
 }
 
@@ -316,16 +386,55 @@ function bindEvents() {
       applyFilterSortAndRender();
     });
   }
+
+  if (dbAllBtn) {
+    dbAllBtn.addEventListener("click", async () => {
+      selectedSources.clear();
+      document.querySelectorAll("#dbFilters input[type='checkbox']").forEach(el => {
+        el.checked = true;
+        selectedSources.add(el.dataset.source);
+      });
+      page = 1;
+      await refreshDataFromSelection();
+    });
+  }
+
+  if (dbNoneBtn) {
+    dbNoneBtn.addEventListener("click", async () => {
+      selectedSources.clear();
+      document.querySelectorAll("#dbFilters input[type='checkbox']").forEach(el => {
+        el.checked = false;
+      });
+      page = 1;
+      await refreshDataFromSelection();
+    });
+  }
+
+  if (dbToggleBtn) {
+    dbToggleBtn.addEventListener("click", () => {
+      const next = !dbPanel.classList.contains("collapsed");
+      setDbPanelCollapsed(next);
+      try {
+        localStorage.setItem("dbPanelCollapsed", next ? "1" : "0");
+      } catch (_) { /* ignore storage errors */ }
+    });
+  }
 }
 
 async function init() {
   buildPeriodic();
   bindEvents();
   try {
+    setDbPanelCollapsed(localStorage.getItem("dbPanelCollapsed") === "1");
+  } catch (_) {
+    setDbPanelCollapsed(false);
+  }
+  try {
     manifest = await fetchJson("./data/manifest.json");
     manifestLoaded = true;
     dataVersion = manifest.generated_at || "";
     countTotal.textContent = String(manifest.total_rows || 0);
+    buildDatabaseFilters();
     setStatus("Ready. Select atoms (fast cached mode) or click Load All Data for the full dataset.");
     filteredRows = [];
     renderTable();

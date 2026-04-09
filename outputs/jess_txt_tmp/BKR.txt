@@ -1,0 +1,445 @@
+                        JESS Thermodynamic Database v8.9
+                                               Berkelium
+
+                                               24-Jan-23
+
+Reaction No. 2711
+F-1 + Bk+3 = Bk+3_F-1
+ No         t         I-Str         Medium             Value (Dev)        W    Tech.   Ref. #
+  1        25           0       Inf. Dilution        lgK:3.788(4SF)       1     EOR
+  2        25           1           NaClO4            lgK:2.89(3SF)       5     MDS     437
+  3    10:50            1          Unknown             dH:3.(1SF)         6     CRV     552
+  4        25           1           NaClO4            dH:6.0(5.SD)        0     EVK     437
+
+
+Reaction No. 4732
+Bk+4 + e-1 = Bk+3
+ No    t        I-Str             Medium             Value (Dev)      W       Tech.    Ref. #
+  1    25         0            Inf. Dilution         E:1.67(3SF)      4       CRV      6330
+  2    25         0            Inf. Dilution         E:1.67(3SF)      4       CRV      22519
+  3    25         0            Inf. Dilution         E:1.67(3SF)      4       CRV      22551
+  4    25         1                HClO4             E:1.6(0.1SD)     5       ENS       775
+
+
+Reaction No. 4733
+Bk+3 + 3<e-1> = Bk(s)
+ No    t        I-Str            Medium              Value (Dev)      W       Tech.    Ref. #
+  1    25         0           Inf. Dilution         dG:139.(2.SD)     2        ENS      3006
+  2    25         0           Inf. Dilution         dG:574.(3SF)kJ    2        CRV      7421
+  3    25         0           Inf. Dilution         E:-2.4(0.1SD)     0        MDG      775
+  4    25         0           Inf. Dilution          E:-1.97(3SF)     0        ENS      7276
+  5    25         0           Inf. Dilution          E:-2.0(2SF)      2        CRV     22551
+  6    25         0           Inf. Dilution         dH:144.(1.SD)     2        ENS      3006
+
+
+Reaction No. 6334
+Oxalic-2 + Bk+3 = Bk+3_Oxalic-2
+ No    t        I-Str            Medium              Value (Dev)      W       Tech.    Ref. #
+  1    25         0           Inf. Dilution         lgK:6.738(4SF)    1        EOR
+  2    25        0.1             Unknown            lgK:5.5(0.1SD)    4        MTP      6545
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                                        Berkelium
+
+
+Reaction No. 6335
+Bk+3_Oxalic-2 + Oxalic-2 = Bk+3_Oxalic-2(2)
+ No    t            I-Str           Medium               Value (Dev)            W       Tech.           Ref. #
+  1   25             0.1            Unknown            lgK:3.7(0.05SD)          4           MTP          6545
+
+
+Reaction No. 6611
+Acetic-1 + Bk+3 = Bk+3_Acetic-1
+ No           t            I-Str          Medium               Value (Dev)              W     Tech.      Ref. #
+ 1    0.70001                2            NaClO4              lgK:1.77(3SF)             6         MDS     2112
+ 2        10.4               2            NaClO4              lgK:1.98(3SF)             4         MDS     2112
+ 3            25             0         Inf. Dilution          lgK:2.802(4SF)            1         EOR
+ 4            25             2            NaClO4              lgK:2.05(3SF)             6         MDS     2112
+ 5            25             2            Unknown             lgK:2.06(3SF)             3         EOD    31112
+ 6        39.8               2            NaClO4              lgK:2.18(3SF)             6         MDS     2112
+ 7            25             2            NaClO4             dG:-2.79(0.01SD)           5         ENS     2112
+ 8            25             2            NaClO4              dH:4.4(0.1SD)             5         MCL     2112
+ 9            25             2            NaClO4              dS:24.(0.3SD)             5         EFE     2112
+
+
+Reaction No. 12160
+Citric-3 + Bk+3 = Bk+3_Citric-3
+ No   t            I-Str              Medium                 Value (Dev)            W        Tech.      Ref. #
+ 1    25             0             Inf. Dilution           lgK:9.772(4SF)           1         EOR
+ 2    25            0.1               Unknown              lgK:7.9(0.08SD)          4         MDG        6545
+
+
+Reaction No. 12161
+Bk+3_Citric-3 + Citric-3 = Bk+3_Citric-3(2)
+ No       t          I-Str           Medium              Value (Dev)           W        Tech.           Ref. #
+  1   25              0.1           Unknown            lgK:3.3(0.2SD)          3            MDG         6545
+
+
+Reaction No. 12162
+Bk+3_Citric-3 + H+1_Citric-3 = Bk+3_H+1_Citric-3(2)
+ No       t          I-Str           Medium              Value (Dev)           W        Tech.           Ref. #
+  1   25              0.1           Unknown            lgK:2.6(0.1SD)          4            MDG         6545
+
+
+Reaction No. 14647
+CDTA-4 + Bk+3 = Bk+3_CDTA-4
+ No   t            I-Str              Medium                Value (Dev)             W        Tech.      Ref. #
+
+
+
+
+                                                    – Page 2 of 9 –
+JESS Thermodynamic Database v8.9                                                 Berkelium
+
+
+ 1    25          0              Inf. Dilution         lgK:21.6(3SF)         1      EDH
+ 2    25         0.1                NH4ClO4            lgK:19.16(4SF)        2      MIX        999
+ 3    25         0.1                Unknown           lgK:20.1(0.03SD)       2      CRV        552
+
+
+Reaction No. 14860
+DTPA-5 + Bk+3 = Bk+3_DTPA-5
+ No    t          I-Str            Medium           Value (Dev)          W       Tech.       Ref. #
+  1    25             0.1          NH4ClO4         lgK:22.79(4SF)        6        MIX         999
+
+
+Reaction No. 24480
+Glycolic-1 + Bk+3 = Bk+3_Glycolic-1
+ No         t            I-Str        Medium         Value (Dev)         W       Tech.       Ref. #
+  1        0.5              2         NaClO4        lgK:2.73(3SF)        6        MDS        2110
+  2       10.1              2         NaClO4        lgK:2.70(3SF)        6        MDS        2110
+  3        25               2         NaClO4        lgK:2.65(3SF)        6        MDS        2110
+  4       40.6              2         NaClO4        lgK:2.62(3SF)        6        MDS        2110
+  5       52.8              2         NaClO4        lgK:2.57(3SF)        6        MDS        2110
+  6        25               2         NaClO4        dH:-1.21(3SF)        5        MCL        2110
+
+
+Reaction No. 24481
+Bk+3_Glycolic-1 + Glycolic-1 = Bk+3_Glycolic-1(2)
+ No         t            I-Str        Medium         Value (Dev)         W       Tech.       Ref. #
+  1        0.5              2         NaClO4        lgK:1.91(3SF)        6        MDS        2110
+  2       10.1              2         NaClO4        lgK:1.94(3SF)        6        MDS        2110
+  3        25               2         NaClO4        lgK:2.05(3SF)        6        MDS        2110
+  4       40.6              2         NaClO4        lgK:1.90(3SF)        6        MDS        2110
+  5       52.8              2         NaClO4        lgK:1.98(3SF)        6        MDS        2110
+
+
+Reaction No. 45982
+2<Citric-3> + Bk+3 = Bk+3_Citric-3(2)
+ No   t          I-Str               Medium              Value (Dev)         W    Tech.      Ref. #
+ 1    25           0              Inf. Dilution        lgK:13.07(4SF)        1     EOR
+ 2    25          0.1                Unknown            lgK:11.2(3SF)        4     CRV        2556
+
+
+Reaction No. 53017
+Cl-1 + Bk+3 = Bk+3_Cl-1
+ No   t          I-Str               Medium              Value (Dev)         W    Tech.      Ref. #
+
+
+
+
+                                                  – Page 3 of 9 –
+JESS Thermodynamic Database v8.9                                           Berkelium
+
+
+ 1    20        3               LiClO4              lgK:-0.23(2SF)     5        CRV      2556
+ 2    25        0            Inf. Dilution          lgK:1.196(4SF)     1        EOR
+ 3    25        1               NaClO4              lgK:-0.02(1SF)     4        MDS      5398
+
+
+Reaction No. 53323
+SO4-2 + Bk+3 = Bk+3_SO4-2
+ No   t        I-Str             Medium               Value (Dev)      W       Tech.    Ref. #
+ 1    25         0           Inf. Dilution           lgK:3.71(4SF)     1       EOR
+ 2    25         0           Inf. Dilution           lgK:3.71(3SF)     4       MDS      5398
+
+
+Reaction No. 53324
+2<SO4-2> + Bk+3 = Bk+3_SO4-2(2)
+ No   t        I-Str             Medium               Value (Dev)      W       Tech.    Ref. #
+ 1    25         0           Inf. Dilution           lgK:5.59(4SF)     1       EOR
+ 2    25         0           Inf. Dilution           lgK:5.59(3SF)     4       MDS      5398
+
+
+Reaction No. 53325
+3<SO4-2> + Bk+3 = Bk+3_SO4-2(3)
+ No   t        I-Str             Medium               Value (Dev)      W       Tech.    Ref. #
+ 1    25         0           Inf. Dilution           lgK:5.04(4SF)     1       EOR
+ 2    25         0           Inf. Dilution           lgK:5.04(3SF)     4       MDS      5398
+
+
+Reaction No. 55643
+Bk+3 + e-1 = Bk+2
+ No   t        I-Str             Medium               Value (Dev)      W       Tech.    Ref. #
+ 1    25         0           Inf. Dilution            E:-2.8(2SF)      5       CRV      6330
+ 2    25         0           Inf. Dilution            E:-2.8(2SF)      4       ENS      7276
+ 3    25         0           Inf. Dilution            E:-2.8(2SF)      4       CRV      22519
+ 4    25         0              Unknown              E:-2.5(0.2SD)     0       ENS      5256
+
+
+Reaction No. 57384
+SCN-1 + Bk+3 = Bk+3_SCN-1
+ No        t         I-Str        Medium                Value (Dev)        W    Tech.   Ref. #
+ 1        10           5        ClO4-1 salt          lgK:0.9(0.04SD)       5     MSE     5243
+ 2        25           0       Inf. Dilution          lgK:1.534(4SF)       1     EOR
+ 3        25           1          NaClO4             lgK:0.5(0.03SD)       5     MSE     5612
+ 4        25           1          NaClO4               lgK:0.49(2SF)       5     MDS    11516
+
+
+
+
+                                               – Page 4 of 9 –
+JESS Thermodynamic Database v8.9                                                Berkelium
+
+
+Note (4): Harmon H et al., J. Inorg. Nucl. Chem., 1972, 34, 1381
+ 5        25           5      ClO4-1 salt         lgK:0.9(0.04SD)               5         MSE     5243
+ 6        40           5      ClO4-1 salt         lgK:0.9(0.04SD)               5         MSE     5243
+ 7        55           5      ClO4-1 salt         lgK:0.9(0.05SD)               5         MSE     5243
+ 8    10:60            5        Unknown              dH:1.(1SF)                 6         CRV     552
+
+
+Reaction No. 57387
+Bk(s) + 0.5<N2(g)> + C(s) + S(s) = Bk+3_SCN-1 + 2<e-1>
+ No   t        I-Str          Medium               Value (Dev)              W         Tech.     Ref. #
+ 1    25         0         Inf. Dilution         dG:-1.2(0.04SD)            0          ENS       5243
+ 2    25         0         Inf. Dilution         dH:0.68(0.4SD)             0          ENS       5243
+
+
+Reaction No. 60188
+EDTA-4 + Bk+3 = Bk+3_EDTA-4
+ No   t        I-Str          Medium               Value (Dev)              W         Tech.     Ref. #
+ 1    25         0         Inf. Dilution         lgK:21.32(4SF)             1          EOR
+ 2    25        0.1           NH4ClO4            lgK:18.9(0.2SD)            4          MIX        903
+ 3    25        0.1           Unknown             lgK:18.5(3SF)             6          CRV        552
+
+
+Reaction No. 60427
+OH-1 + Bk+3 = Bk+3_OH-1
+ No   t        I-Str           Medium              Value (Dev)              W        Tech.      Ref. #
+ 1    25         0         Inf. Dilution         lgK:7.224(4SF)             1         EOR
+ 2    25        0.1           Unknown             lgK:6.6(2SF)              4         CRV        2556
+
+
+Reaction No. 60710
+Br-1 + Bk+3 = Bk+3_Br-1
+ No       t      I-Str       Medium           Value (Dev)           W           Tech.           Ref. #
+  1    20             3      LiClO4          lgK:-0.8(1SF)          4               CRV         2556
+
+
+Reaction No. 66197
+TriMDTA-4 + Bk+3 = Bk+3_TriMDTA-4
+ No    t        I-Str        Medium           Value (Dev)               W           Tech.       Ref. #
+  1   25         0.1        Unknown          lgK:14.36(4SF)             6           CRV          552
+
+
+Reaction No. 70274
+Bk+2 + 2<e-1> = Bk(s)
+
+
+
+
+                                            – Page 5 of 9 –
+JESS Thermodynamic Database v8.9                                              Berkelium
+
+
+ No      t       I-Str             Medium              Value (Dev)    W        Tech.      Ref. #
+    1    25        0            Inf. Dilution          E:-1.6(2SF)    5         CRV       6330
+    2    25        0            Inf. Dilution          E:-1.6(2SF)    4         ENS       7276
+    3    25        0            Inf. Dilution          E:-1.6(2SF)    4         CRV       22519
+
+
+Reaction No. 72331
+CO3-2 + Bk+3 = Bk+3_CO3-2
+ No      t       I-Str           Medium                Value (Dev)        W    Tech.      Ref. #
+    1   25         0        Inf. Dilution            lgK:7.765(4SF)       1     EOR
+    2   25        0.7            NaClO4               lgK:5.95(3SF)       4     EFE        8782
+
+
+Reaction No. 72332
+2<CO3-2> + Bk+3 = Bk+3_CO3-2(2)
+ No      t       I-Str           Medium                Value (Dev)        W    Tech.      Ref. #
+    1   25         0        Inf. Dilution            lgK:12.62(4SF)       1     EOR
+    2   25        0.7            NaClO4               lgK:10.2(3SF)       4     EFE        8782
+
+
+Reaction No. 75933
+2<Oxalic-2> + Bk+3 = Bk+3_Oxalic-2(2)
+ No      t       I-Str           Medium                Value (Dev)        W    Tech.      Ref. #
+    1   25         0        Inf. Dilution            lgK:10.85(4SF)       1     EOR
+    2   25        0.1            Unknown              lgK:9.19(3SF)       5     MTP       11516
+Note (2): Stepanov A, Zhur. Neorg. Khim., 1971, 16, 2981
+
+
+Reaction No. 77909
+2<Citric-3> + H+1 + Bk+3 = Bk+3_H+1_Citric-3(2)
+ No      t       I-Str           Medium                Value (Dev)        W    Tech.      Ref. #
+    1   25         0        Inf. Dilution            lgK:18.71(4SF)       1     ELC
+
+
+
+
+                                           Data Assessment
+
+
+Weight                          Assessment
+9            highest accuracy
+8            multi-determined; excellent dependability
+7            trustworthy; outstanding single determination
+6            better than average reliability
+
+
+
+                                                – Page 6 of 9 –
+JESS Thermodynamic Database v8.9                                  Berkelium
+
+
+5        average single determination
+4        some doubt
+3        poorly known
+2        guess to achieve consistency (or just as bad)
+1        no information but consistent
+0        problematic/inconsistent
+
+
+
+
+                                        Techniques
+
+
+Abbrev                   Method
+CRV      Critical review
+EDH      Debye-Hueckel corrections
+EFE      Free Energy relations
+ELC      Linear Combination of Reactions
+ENS      Not specified
+EOD      Calculated from data of others
+EOR      Other Reaction Constants
+EVK      Variation of lgK with T
+MCL      Calorimetry
+MDG      Combination of Thermodynamic Data
+MDS      Distribution between two phases
+MIX      Ion exchange
+MSE      Solvent Extraction
+MTP      Migration or transference number
+
+
+
+
+                                        References
+
+
+Reference No.: 437(80BoH)
+IUPAC Chemical Data Series No. 27, 1980 Bond AM; Hefter GT; Critical Survey of
+Stability Constants and Related Thermodynamic Data of Fluoride Complexes in Aqueous
+Solution; Pergamon, Oxford, U.K.
+
+Reference No.: 552(95SMM)
+NIST Critical Stability Constants of Metal Complexes Database, 1995 Smith RM; Martell
+
+
+
+
+                                           – Page 7 of 9 –
+JESS Thermodynamic Database v8.9                                  Berkelium
+
+
+AE; Motekaitis RJ; Version 2.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 775(71CCM)
+Selected Constants, 1971 Charlot G; Collumeau A; Marchon MJC; Oxidation-Reduction
+Potentials of Inorganic Substances in Aqueous Solution; Butterworths, London
+
+Reference No.: 903(77And)
+Critical Survey of Stability Constants of EDTA Complexes, 1977 Anderegg G; IUPAC
+Chemical Data Series. 14; Pergamon Press, Oxford
+
+Reference No.: 999(91MaM)
+Estimation of Constants for JESS Database, 1991 May PM; May RF
+
+Reference No.: 2110(72ChD)
+J. Inorg. Nucl. Chem., 1972, 34, 3473 - 3477; Choppin GR; Degischer G; Complexing of
+Trivalent Actinide Ions by Glycolate
+
+Reference No.: 2112(70ChS)
+J. Inorg. Nucl. Chem., 1970, 32, 3283 - 3288; Choppin GR; Schneider JK; The Acetate
+Complexing by Trivalent Actinide Ions
+
+Reference No.: 2556(93MSM)
+NIST Critical Stability Constants of Metal Complexes Database, 1993 Martell AE; Smith
+RM; Motekaitis RJ; Version 1.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 3006(85BPJ)
+Standard Potentials in Aqueous Solution, 1985 Bard AJ; Parsons R; Jordan J; Monographs
+in Electroanalytical Chemistry and Electrochemistry; Marcel Dekker Inc.,New York and
+Basel
+
+Reference No.: 5243(74KiC)
+J. Inorg. Nucl. Chem., 1974, 36, 1131 - 1134; Kinard WF; Choppin GR; Complexing of
+Trivalent Actinide Ions By Thiocyanate
+
+Reference No.: 5256(91MiK)
+Coord. Chem. Rev., 1991, 109, 1 - 5; Mikheev NB; Kamenskaya AN; Complex Formation of
+the Lanthanides and Actinides in Lower Oxidation States
+
+Reference No.: 5398(82Hog)
+IUPAC Chemical Data Series No. 21, 1982 Hogfeldt E; Stability Constants of Metal-ion
+Complexes, 2nd Suppl., Part A, Inorganic Ligands; Pergamon, Oxford
+
+Reference No.: 5612(80KhM)
+J. Inorg. Nucl. Chem., 1980, 42, 109 - 113; Khopkar PK; Mathur JN; Complexing of
+Californium(III) and other Trivalent Actinides by Inorganic Ligands
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+Reference No.: 6545(71Ste)
+Russ. J. Inorg. Chem., 1971, 16, 1583 - 1586; Stepanov AV; Comparative Stability of the
+Complexes of Yttrium and Various Rare Earth and Actinide Elements with Oxalate,
+Citrate, Ethylenediaminetetra-acetate, and 1,2-Diaminecyclohexanetetra- -acetate
+
+
+
+
+                                       – Page 8 of 9 –
+JESS Thermodynamic Database v8.9                                  Berkelium
+
+
+Reference No.: 7276(88CoW)
+Advanced Inorganic Chemistry, 5th Edn., 1988 Cotton FA; Wilkinson G; John Wiley & Sons
+Inc., N.Y., U.S.A
+
+Reference No.: 7421(97Mar)
+Ion Properties, 1997 Marcus Y; Marcel Dekker Inc., New York, U.S.A.
+
+Reference No.: 8782(87CaB)
+Geochim. Cosmochim. Acta, 1987, 51, 597 - 605; Cantrell KJ; Byrne RH; Rare Earth
+Element Complexation by Carbonate and Oxalate Ions
+
+Reference No.: 11516(00PeP)
+IUPAC Stability Constants Database, 2000 Pettit LD; Powell HKJ; Release 4; Academic
+Software, U.K.
+
+Reference No.: 22519(05Lid)
+CRC Handbook of Chemistry and Physics, 86th Edn., 2005 Lide DR; A Ready-Reference Book
+of Chemical and Physical Data; Taylor & Francis, Boca Raton, USA
+
+Reference No.: 22551(06Inz)
+Encyclopedia of Electrochemistry, Vol. 7a, 2006, 17 - 75; Inzelt G; Standard, Formal
+and Other Characteristic Potentials of Selected Electrode Reactions
+
+Reference No.: 31112(14Mis)
+Russ. J. Inorg. Chem., 2014, 59, 824 - 830; Mishustin AI; Temperature Dependence of
+Complex Formation Constants in Aqueous Solutions of Metal Acetates
+
+
+
+
+                                       – Page 9 of 9 –
+

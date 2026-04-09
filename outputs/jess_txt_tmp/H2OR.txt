@@ -1,0 +1,2393 @@
+                   JESS Thermodynamic Database v8.9
+                                                H2O
+
+                                           24-Jan-23
+
+Reaction No. 1
+H+1 + OH-1 = H2O
+
+Note: Morel & Herring [6405] give kf = 1.4e11 and kb = 2.5e-5
+  No      t      I-Str            Medium               Value (Dev)      W   Tech.   Ref. #
+   1      25       0               P=200              lgK:13.928(5SF)   2    EOD    23375
+                               Inf. Dilution
+Note (1): with pKw = 14.000 and Kp/K = 1.18 from 41OwB_11928
+   2      0        0               P=250              lgK:14.848(5SF)   5    CRV    30834
+                              Inf. Dilution/m
+   3      25       0               P=250              lgK:13.908(5SF)   5    CRV    30834
+                              Inf. Dilution/m
+   4      50       0               P=250              lgK:13.181(5SF)   5    CRV    30834
+                              Inf. Dilution/m
+   5      75       0               P=250              lgK:12.613(5SF)   5    CRV    30834
+                              Inf. Dilution/m
+   6     100       0               P=250              lgK:12.165(5SF)   5    CRV    30834
+                              Inf. Dilution/m
+   7     150       0               P=250              lgK:11.543(5SF)   5    CRV    30834
+                              Inf. Dilution/m
+   8     200       0               P=250              lgK:11.189(5SF)   5    CRV    30834
+                              Inf. Dilution/m
+   9     250       0               P=250              lgK:11.050(5SF)   5    CRV    30834
+                              Inf. Dilution/m
+  10      25       0               P=400              lgK:13.843(5SF)   3    CRV    11928
+                               Inf. Dilution
+Note (10): with lgK0=14.000 & Kp/K=1.435)
+  11      25       0               P=400              lgK:13.863(5SF)   2    EOD    23375
+                               Inf. Dilution
+Note (11): with pKw = 14.000 and Kp/K = 1.37 from 41OwB_11928
+  12      0        0               P=500              lgK:14.754(5SF)   5    CRV    30834
+                              Inf. Dilution/m
+  13      25       0               P=500              lgK:13.824(5SF)   5    CRV    30834
+                              Inf. Dilution/m
+  14      50       0               P=500              lgK:13.102(5SF)   5    CRV    30834
+                              Inf. Dilution/m
+  15      75       0               P=500              lgK:12.533(5SF)   5    CRV    30834
+                              Inf. Dilution/m
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                       H2O
+
+
+ 16    100      0           P=500                lgK:12.084(5SF)   5   CRV   30834
+                       Inf. Dilution/m
+ 17    150      0           P=500                lgK:11.450(5SF)   5   CRV   30834
+                       Inf. Dilution/m
+ 18    200      0           P=500                lgK:11.076(5SF)   5   CRV   30834
+                       Inf. Dilution/m
+ 19    250      0           P=500                lgK:10.898(5SF)   5   CRV   30834
+                       Inf. Dilution/m
+ 20     25      0           P=600                lgK:13.799(5SF)   2   EOD   23375
+                        Inf. Dilution
+Note (20): with pKw = 14.000 and Kp/K = 1.59 from 41OwB_11928
+ 21     0       0           P=750                lgK:14.665(5SF)   5   CRV   30834
+                       Inf. Dilution/m
+ 22     25      0           P=750                lgK:13.745(5SF)   5   CRV   30834
+                       Inf. Dilution/m
+ 23     50      0           P=750                lgK:13.026(5SF)   5   CRV   30834
+                       Inf. Dilution/m
+ 24     75      0           P=750                lgK:12.458(5SF)   5   CRV   30834
+                       Inf. Dilution/m
+ 25    100      0           P=750                lgK:12.006(5SF)   5   CRV   30834
+                       Inf. Dilution/m
+ 26    150      0           P=750                lgK:11.364(5SF)   5   CRV   30834
+                       Inf. Dilution/m
+ 27    200      0           P=750                lgK:10.974(5SF)   5   CRV   30834
+                       Inf. Dilution/m
+ 28    250      0           P=750                lgK:10.769(5SF)   5   CRV   30834
+                       Inf. Dilution/m
+ 29     25      0           P=800                lgK:13.735(5SF)   2   EOD   23375
+                        Inf. Dilution
+Note (29): with pKw = 14.000 and Kp/K = 1.84 from 41OwB_11928
+ 30     0       0           P=1000               lgK:14.580(5SF)   5   CRV   30834
+                       Inf. Dilution/m
+ 31     25      0           P=1000               lgK:13.70(4SF)    4   MCN   7397
+                        Inf. Dilution
+ 32     25      0           P=1000               lgK:13.627(5SF)   3   CRV   11928
+                        Inf. Dilution
+Note (32): with lgK0=14.000 & Kp/K=1.2.358
+ 33     25      0           P=1000               lgK:13.676(5SF)   2   EOD   23375
+                        Inf. Dilution
+Note (33): with pKw = 14.000 and Kp/K = 2.11 from 41OwB_11928
+ 34     25      0           P=1000               lgK:13.668(5SF)   5   CRV   30834
+                       Inf. Dilution/m
+ 35     50      0           P=1000               lgK:12.953(5SF)   5   CRV   30834
+                       Inf. Dilution/m
+
+
+
+
+                                        – Page 2 of 48 –
+JESS Thermodynamic Database v8.9                                      H2O
+
+
+ 36     75      0          P=1000               lgK:12.385(5SF)   5   CRV   30834
+                      Inf. Dilution/m
+ 37    100      0          P=1000               lgK:11.933(5SF)   5   CRV   30834
+                      Inf. Dilution/m
+ 38    150      0          P=1000               lgK:11.283(5SF)   5   CRV   30834
+                      Inf. Dilution/m
+ 39    200      0          P=1000               lgK:10.880(5SF)   5   CRV   30834
+                      Inf. Dilution/m
+ 40    250      0          P=1000               lgK:10.655(5SF)   5   CRV   30834
+                      Inf. Dilution/m
+ 41     25      0          P=1250               lgK:13.58(4SF)    4   MCN   7397
+                       Inf. Dilution
+ 42     0       0          P=1500               lgK:14.422(5SF)   5   CRV   30834
+                      Inf. Dilution/m
+ 43     25      0          P=1500               lgK:13.48(4SF)    4   MCN   7397
+                       Inf. Dilution
+ 44     25      0          P=1500               lgK:13.524(5SF)   5   CRV   30834
+                      Inf. Dilution/m
+ 45     50      0          P=1500               lgK:12.815(5SF)   5   CRV   30834
+                      Inf. Dilution/m
+ 46     75      0          P=1500               lgK:12.249(5SF)   5   CRV   30834
+                      Inf. Dilution/m
+ 47    100      0          P=1500               lgK:11.795(5SF)   5   CRV   30834
+                      Inf. Dilution/m
+ 48    150      0          P=1500               lgK:11.135(5SF)   5   CRV   30834
+                      Inf. Dilution/m
+ 49    200      0          P=1500               lgK:10.713(5SF)   5   CRV   30834
+                      Inf. Dilution/m
+ 50    250      0          P=1500               lgK:10.458(5SF)   5   CRV   30834
+                      Inf. Dilution/m
+ 51     25      0          P=1750               lgK:13.36(4SF)    4   MCN   7397
+                       Inf. Dilution
+ 52     0       0          P=2000               lgK:14.278(5SF)   5   CRV   30834
+                      Inf. Dilution/m
+ 53     25      0          P=2000               lgK:13.390(5SF)   5   CRV   30834
+                      Inf. Dilution/m
+ 54     50      0          P=2000               lgK:12.687(5SF)   5   CRV   30834
+                      Inf. Dilution/m
+ 55     75      0          P=2000               lgK:12.123(5SF)   5   CRV   30834
+                      Inf. Dilution/m
+ 56    100      0          P=2000               lgK:11.668(5SF)   5   CRV   30834
+                      Inf. Dilution/m
+ 57    150      0          P=2000               lgK:11.000(5SF)   5   CRV   30834
+                      Inf. Dilution/m
+ 58    200      0          P=2000               lgK:10.564(5SF)   5   CRV   30834
+                      Inf. Dilution/m
+
+
+
+
+                                       – Page 3 of 48 –
+JESS Thermodynamic Database v8.9                                       H2O
+
+
+ 59    250      0          P=2000               lgK:10.289(5SF)    5   CRV   30834
+                      Inf. Dilution/m
+ 60     0       0          P=2500               lgK:14.145(5SF)    5   CRV   30834
+                      Inf. Dilution/m
+ 61     25      0          P=2500               lgK:13.265(5SF)    5   CRV   30834
+                      Inf. Dilution/m
+ 62     50      0          P=2500               lgK:12.567(5SF)    5   CRV   30834
+                      Inf. Dilution/m
+ 63     75      0          P=2500               lgK:12.004(5SF)    5   CRV   30834
+                      Inf. Dilution/m
+ 64    100      0          P=2500               lgK:11.549(5SF)    5   CRV   30834
+                      Inf. Dilution/m
+ 65    150      0          P=2500               lgK:10.876(5SF)    5   CRV   30834
+                      Inf. Dilution/m
+ 66    200      0          P=2500               lgK:10.430(5SF)    5   CRV   30834
+                      Inf. Dilution/m
+ 67    250      0          P=2500               lgK:10.140(5SF)    5   CRV   30834
+                      Inf. Dilution/m
+ 68     0       0          P=3000               lgK:14.021(5SF)    5   CRV   30834
+                      Inf. Dilution/m
+ 69     25      0          P=3000               lgK:13.148(5SF)    5   CRV   30834
+                      Inf. Dilution/m
+ 70     50      0          P=3000               lgK:12.453(5SF)    5   CRV   30834
+                      Inf. Dilution/m
+ 71     75      0          P=3000               lgK:11.892(5SF)    5   CRV   30834
+                      Inf. Dilution/m
+ 72    100      0          P=3000               lgK:11.437(5SF)    5   CRV   30834
+                      Inf. Dilution/m
+ 73    150      0          P=3000               lgK:10.760(5SF)    5   CRV   30834
+                      Inf. Dilution/m
+ 74    200      0          P=3000               lgK:10.306(5SF)    5   CRV   30834
+                      Inf. Dilution/m
+ 75    250      0          P=3000               lgK:10.005(5SF)    5   CRV   30834
+                      Inf. Dilution/m
+ 76     0       0      Inf. Dilution         lgK:14.952(0.001SD)   4   CMN    792
+ 77     0       0      Inf. Dilution         lgK:14.946(0.005SD)   4   MCN   5343
+ 78     0       0      Inf. Dilution            lgK:14.948(5SF)    4   CRV   5945
+ 79     0       0      Inf. Dilution            lgK:14.941(5SF)    4   EDH   5947
+ 80     0       0     Inf. Dilution/m           lgK:14.939(5SF)    0   MEF   5841
+ 81     0       0     Inf. Dilution/m          lgK:14.9440(6SF)    2   MHY   5870
+ 82     0       0     Inf. Dilution/m          lgK:14.9440(6SF)    7   CRV   11989
+ 83     0       0     Inf. Dilution/m           lgK:14.946(5SF)    5   CRV   30834
+ 84     0       0         NaCl/m                lgK:14.945(5SF)    3   MHY   5848
+
+
+
+
+                                       – Page 4 of 48 –
+JESS Thermodynamic Database v8.9                                        H2O
+
+
+ 85     0      0.1            KCl/m              lgK:14.740(5SF)    6   MHY   5947
+ 86     0      0.1             KNO3              lgK:14.98(4SF)     3   MGL   6257
+ 87     0      0.5            KCl/m              lgK:14.684(5SF)    6   MHY   5947
+ 88     0       1             KCl/m              lgK:14.725(5SF)    6   MHY   5947
+ 89     0       3             KCl/m              lgK:15.004(5SF)    6   MHY   5947
+ 90     5       0       Inf. Dilution         lgK:14.740(0.001SD)   4   CMN    792
+ 91     5       0       Inf. Dilution            lgK:14.74(4SF)     4   MHY   5078
+ 92     5       0       Inf. Dilution            lgK:14.73(4SF)     4   CRV   6496
+ 93     5       0      Inf. Dilution/m           lgK:14.730(5SF)    4   MEF   5841
+ 94     5       0      Inf. Dilution/m          lgK:14.7340(6SF)    2   MHY   5870
+ 95     5       0      Inf. Dilution/m          lgK:14.7340(6SF)    7   CRV   11989
+ 96     5      0.1            NaNO3              lgK:14.48(4SF)     4   EES   5797
+ 97     5      0.2             NaCl              lgK:14.46(4SF)     4   MGL   5322
+ 98     5      0.4             NaCl              lgK:14.42(4SF)     4   MGL   5322
+ 99     5      0.7             NaCl              lgK:14.44(4SF)     4   MGL   5322
+ 100    10      0       Inf. Dilution         lgK:14.541(0.001SD)   4   CMN    792
+ 101    10      0       Inf. Dilution            lgK:14.53(4SF)     4   CRV   6496
+ 102    10      0      Inf. Dilution/m           lgK:14.533(5SF)    4   MEF   5841
+ 103    10      0      Inf. Dilution/m          lgK:14.5350(6SF)    2   MHY   5870
+ 104    10      0      Inf. Dilution/m          lgK:14.5350(6SF)    7   CRV   11989
+ 105    10      0             NaCl/m             lgK:14.535(5SF)    3   MHY   5848
+ 106    15      0       Inf. Dilution         lgK:14.352(0.001SD)   4   CMN    792
+ 107    15      0       Inf. Dilution            lgK:14.35(4SF)     4   MHY   5078
+ 108    15      0       Inf. Dilution            lgK:14.34(4SF)     4   CRV   6496
+ 109    15      0      Inf. Dilution/m           lgK:14.345(5SF)    4   MEF   5841
+ 110    15      0      Inf. Dilution/m          lgK:14.3460(6SF)    2   MHY   5870
+ 111    15      0      Inf. Dilution/m          lgK:14.3460(6SF)    7   CRV   11989
+ 112    15     0.06            KNO3           lgK:14.159(0.002SD)   7   MGL   5255
+ 113    15     0.1             KNO3           lgK:14.132(0.002SD)   7   MGL   5255
+ 114    15     0.14            KNO3           lgK:14.116(0.002SD)   7   MGL   5255
+ 115    15     0.18            KNO3            lgK:14.10(0.003SD)   7   MGL   5255
+ 116    15     0.2            LiCl/m             lgK:14.057(5SF)    4   MHY   8938
+Note (116): See spreadsheet
+ 117    15     0.2             NaCl              lgK:14.06(4SF)     4   MGL   5322
+ 118    15     0.4             NaCl              lgK:14.04(4SF)     4   MGL   5322
+ 119    15     0.5            LiCl/m             lgK:13.990(5SF)    4   MHY   8938
+
+
+
+
+                                        – Page 5 of 48 –
+JESS Thermodynamic Database v8.9                                       H2O
+
+
+ 120    15     0.7         NaCl                 lgK:14.05(4SF)     4   MGL   5322
+ 121    15    1.01        LiCl/m                lgK:13.957(5SF)    4   MHY   8938
+ 122    15    2.01        LiCl/m                lgK:13.975(5SF)    2   MHY   8938
+ 123    15    3.01        LiCl/m                lgK:14.040(5SF)    2   MHY   8938
+ 124    15    4.01        LiCl/m                lgK:14.123(5SF)    2   MHY   8938
+ 125    15    5.01        LiCl/m                lgK:14.250(5SF)    4   MHY   8938
+ 126    20      0      Inf. Dilution         lgK:14.173(0.001SD)   7   CMN    792
+ 127    20      0      Inf. Dilution            lgK:14.16(4SF)     5   CRV   6496
+ 128    20      0     Inf. Dilution/m           lgK:14.167(5SF)    4   MEF   5841
+ 129    20      0     Inf. Dilution/m          lgK:14.1670(6SF)    2   MHY   5870
+ 130    20      0     Inf. Dilution/m          lgK:14.1670(6SF)    7   CRV   11989
+ 131    20      0         NaCl/m                lgK:14.167(5SF)    3   MHY   5848
+ 132    20     0.1        Unknown               lgK:13.95(4SF)     6   CRV    552
+ 133    20     0.2        LiCl/m                lgK:13.877(5SF)    4   MHY   8938
+ 134    20     0.5        LiCl/m                lgK:13.809(5SF)    4   MHY   8938
+ 135    20    1.01        LiCl/m                lgK:13.774(5SF)    4   MHY   8938
+ 136    20    2.01        LiCl/m                lgK:13.788(5SF)    2   MHY   8938
+ 137    20    3.01        LiCl/m                lgK:13.851(5SF)    2   MHY   8938
+ 138    20    4.01        LiCl/m                lgK:13.931(5SF)    2   MHY   8938
+ 139    20    5.01        LiCl/m                lgK:14.057(5SF)    4   MHY   8938
+ 140    23     0.5        Unknown               lgK:13.89(4SF)     5   ENS   6405
+ 141    25      0      Inf. Dilution         lgK:14.004(0.001SD)   0   CMN    792
+ 142    25      0      Inf. Dilution            lgK:14.007(5SF)    0   MEF   1732
+ 143    25      0      Inf. Dilution            lgK:14.00(4SF)     4   MHY   5078
+ 144    25      0      Inf. Dilution            lgK:14.005(5SF)    4   MEF   5313
+ 145    25      0      Inf. Dilution         lgK:13.999(0.005SD)   4   MCN   5343
+ 146    25      0      Inf. Dilution          lgK:13.99(0.009SD)   4   EDT   5416
+ 147    25      0      Inf. Dilution            lgK:13.999(5SF)    4   CRV   5945
+ 148    25      0      Inf. Dilution            lgK:13.993(5SF)    4   EDH   5947
+ 149    25      0      Inf. Dilution            lgK:13.996(5SF)    4   MGL   6238
+ 150    25      0      Inf. Dilution           lgK:14.4(0.03SD)    0   ENS   6334
+ 151    25      0      Inf. Dilution             lgK:14.0(3SF)     4   CRV   6496
+ 152    25      0      Inf. Dilution            lgK:13.26(4SF)     0   MCN   7397
+ 153    25      0      Inf. Dilution            lgK:13.84(4SF)     0   MCN   7397
+ 154    25      0      Inf. Dilution            lgK:13.98(4SF)     0   MCN   7397
+ 155    25      0      Inf. Dilution            lgK:14.12(4SF)     0   MCN   7397
+
+
+
+
+                                       – Page 6 of 48 –
+JESS Thermodynamic Database v8.9                                       H2O
+
+
+ 156    25      0      Inf. Dilution            lgK:14.28(4SF)     0   MCN   7397
+ 157    25      0      Inf. Dilution            lgK:13.979(5SF)    0   ENS   7694
+ 158    25      0      Inf. Dilution            lgK:13.995(5SF)    5   MEF   7824
+Note (158): p.2260
+ 159    25      0      Inf. Dilution            lgK:14.00(4SF)     4   MSL   8620
+ 160    25      0      Inf. Dilution            lgK:13.993(5SF)    4   EDN   9075
+ 161    25      0      Inf. Dilution            lgK:14.00(4SF)     5   CRV   9402
+ 162    25      0      Inf. Dilution            lgK:13.996(5SF)    3   EOD   13213
+Note (162): p. 252
+ 163    25      0      Inf. Dilution            lgK:13.99(4SF)     4   CRV   32224
+ 164    25      0        CHEMVAL1             lgK:14.00(0.01SD)    0   ENS   5156
+ 165    25      0        CHEMVAL2             lgK:14.00(0.01SD)    0   ENS   5156
+ 166    25      0        CHEMVAL3             lgK:13.99(0.01SD)    0   ENS   5156
+ 167    25      0        CHEMVAL4             lgK:14.00(0.01SD)    4   ENS   5156
+ 168    25      0          DELTA                lgK:13.99(4SF)     0   CMN   5416
+ 169    25      0     Inf. Dilution/m           lgK:14.004(5SF)    3   CRV   5237
+ 170    25      0     Inf. Dilution/m           lgK:13.996(5SF)    4   MEF   5841
+ 171    25      0     Inf. Dilution/m           lgK:13.99(4SF)     4   MEF   5844
+ 172    25      0     Inf. Dilution/m           lgK:13.997(5SF)    4   MCN   5846
+ 173    25      0     Inf. Dilution/m          lgK:13.9970(6SF)    2   MHY   5870
+ 174    25      0     Inf. Dilution/m          lgK:13.9970(6SF)    4   CRV   11989
+ 175    25      0     Inf. Dilution/m           lgK:13.999(5SF)    5   EIE   12692
+Note (175): p. 182
+ 176    25      0     Inf. Dilution/m         lgK:14.00(0.02SD)    4   CRV   13451
+ 177    25      0     Inf. Dilution/m           lgK:13.99(4SF)     3   CRV   24953
+ 178    25      0     Inf. Dilution/m           lgK:13.995(5SF)    5   CRV   30834
+ 179    25      0          KNO3              lgK:13.993(0.008SD)   4   MPT   5829
+ 180    25      0         KNO3/m                lgK:13.996(5SF)    2   ENS   6335
+ 181    25      0         Me4NNO3            lgK:13.982(0.009SD)   0   MPT   5829
+ 182    25      0         Na(Cl)                lgK:14.01(4SF)     6   MHY   10238
+ 183    25      0       NaCF3SO3/m            lgK:14.00(0.01MD)    4   MHY   6707
+ 184    25      0         NaCl/m                lgK:13.997(5SF)    3   MHY   5848
+ 185    25      0         SOLMNEQ               lgK:14.00(4SF)     0   CMN   5416
+ 186    25      0         SOLVEQ                lgK:13.99(4SF)     0   CMN   5416
+ 187    25      0        SUPCRT92               lgK:13.995(5SF)    4   CRV   8839
+ 188    25      0         Unknown               lgK:13.998(5SF)    3   ENS   7373
+
+
+
+
+                                       – Page 7 of 48 –
+JESS Thermodynamic Database v8.9                                         H2O
+
+
+ 189    25      0           WATCH                lgK:13.99(4SF)      0   CMN   5416
+ 190    25      0           WATEQF               lgK:14.00(4SF)      0   CMN   5416
+ 191    25    0.0087         KNO3              lgK:13.910(0.001SD)   5   ENS   6334
+ 192    25    0.0182         KNO3              lgK:13.880(0.001SD)   5   ENS   6334
+ 193    25     0.05         Na(Cl)             lgK:13.805(0.010MD)   6   MHY   10238
+ 194    25     0.05          NaCl               lgK:13.81(0.01SD)    6   ENS   6334
+ 195    25     0.06          KNO3              lgK:13.809(0.002SD)   5   MGL   5255
+ 196    25     0.1           KCl                lgK:13.78(0.01SD)    5   MEF     9
+ 197    25     0.1          KCl/m                lgK:13.781(5SF)     6   MHY   5947
+ 198    25     0.1          KCl/m               lgK:13.78(0.05MD)    5   CRV   6438
+ 199    25     0.1           KNO3               lgK:13.8(0.05SD)     5   MGL    10
+ 200    25     0.1           KNO3                lgK:13.9(0.1MD)     0   EES    807
+ 201    25     0.1           KNO3              lgK:13.778(0.002SD)   5   MGL   5255
+ 202    25     0.1           KNO3                lgK:13.78(4SF)      5   ENS   6334
+ 203    25     0.1           KNO3                lgK:13.732(5SF)     2   MGL   6335
+ 204    25     0.1          KNO3/m               lgK:13.732(5SF)     2   EPZ   6335
+ 205    25     0.1          LiBr/m               lgK:13.759(5SF)     4   MHY   18615
+Note (205): See spreadsheet for [33HaC_8938]
+ 206    25     0.1          Me4NCl             lgK:13.726(0.001SD)   4   MGL   7174
+ 207    25     0.1          Na(Cl)             lgK:13.775(0.001MD)   6   MHY   10238
+ 208    25     0.1           NaCl               lgK:13.71(0.01SD)    5   MGL   5027
+ 209    25     0.1           NaCl               lgK:13.78(0.01SD)    6   ENS   6334
+ 210    25     0.1           NaCl              lgK:13.75(0.003SD)    6   MGL   7256
+ 211    25     0.1          NaClO4              lgK:13.78(0.01SD)    5   ENS     9
+ 212    25     0.1          NaClO4               lgK:13.75(4SF)      5   MGL   3223
+ 213    25     0.1          NaClO4              lgK:13.79(0.03SD)    5   MGL   6238
+ 214    25     0.1          NaClO4              lgK:13.8(0.03SD)     5   ENS   6334
+ 215    25     0.1          NaClO4               lgK:13.81(4SF)      4   EOD   31146
+ 216    25     0.1          NaClO4              lgK:13.78(0.02SD)    5   MGL   31342
+ 217    25     0.1          NaNO3               lgK:13.86(0.02MD)    5   MGL    807
+ 218    25     0.14          KNO3              lgK:13.753(0.002SD)   5   MGL   5255
+ 219    25     0.18          KNO3              lgK:13.750(0.002SD)   5   MGL   5255
+ 220    25     0.2          KNO3/m               lgK:13.669(5SF)     0   EPZ   6335
+ 221    25     0.2          LiBr/m               lgK:13.702(5SF)     4   MHY   18615
+ 222    25     0.2          LiCl/m               lgK:13.705(5SF)     4   MHY   8938
+ 223    25     0.2          Na(Cl)             lgK:13.749(0.008MD)   6   MHY   10238
+
+
+
+
+                                      – Page 8 of 48 –
+JESS Thermodynamic Database v8.9                                           H2O
+
+
+ 224    25     0.2           NaCl               lgK:13.72(4SF)         4   MGL   5322
+ 225    25     0.2           NaCl             lgK:13.75(0.008SD)       6   ENS   6334
+ 226    25     0.2           NaCl             lgK:13.70(0.002SD)       6   MGL   7256
+ 227    25     0.2           NaCl            lgK:13.449(0.001SD)       0   MGL   31106
+ 228    25     0.25         Me4NCl           lgK:13.694(0.001SD)       4   MGL   7174
+ 229    25     0.26         NaClO4            lgK:13.73(0.01SD)        5   ENS   6334
+ 230    25    0.262          KNO3            lgK:13.730(0.001SD)       5   ENS   6334
+ 231    25     0.3          KNO3/m              lgK:13.640(5SF)        0   EPZ   6335
+ 232    25     0.3          NaClO4              lgK:13.76(4SF)         5   ENS    49
+ 233    25     0.4          LiBr/m              lgK:13.642(5SF)        4   MHY   18615
+ 234    25     0.4          Na(Cl)           lgK:13.733(0.004MD)       6   MHY   10238
+ 235    25     0.4           NaCl               lgK:13.75(4SF)         5   ENS    405
+ 236    25     0.4           NaCl               lgK:13.69(4SF)         4   MGL   5322
+ 237    25     0.4           NaCl             lgK:13.73(0.004SD)       6   ENS   6334
+ 238    25     0.4          NaClO4            lgK:13.78(0.03SD)        0   ENS   6334
+Note (238): From Carpeni et al., J. Chim. Phys., 1973, 69, 1445-1447
+ 239    25     0.5           KCl               lgK:13.8(0.05SD)        0   MEF     9
+ 240    25     0.5          KCl/m               lgK:13.717(5SF)        6   MHY   5947
+ 241    25     0.5           KNO3            lgK:13.874(0.006MD)       0   MGL    807
+ 242    25     0.5          LiCl/m              lgK:13.637(5SF)        4   MHY   8938
+ 243    25     0.5        Me4N+ salt            lgK:13.77(4SF)         6   CRV    552
+ 244    25     0.5          Me4NCl           lgK:13.732(0.0009SD)      5   MGL   7174
+ 245    25     0.5           NaCl               lgK:13.62(4SF)         0   ENS    196
+ 246    25     0.5           NaCl            lgK:13.674(0.0003SD)      5   ENS    901
+ 247    25     0.5           NaCl             lgK:13.67(0.01SD)        7   MGL   5027
+ 248    25     0.5           NaCl            lgK:13.700(0.0003SD)      6   MGL   6334
+ 249    25     0.5           NaCl            lgK:13.732(0.0003SD)      7   MHY   6334
+ 250    25     0.5           NaCl             lgK:13.66(0.003SD)       6   MGL   7256
+ 251    25     0.5           NaCl             lgK:13.70(0.03MD)        6   MHY   22981
+ 252    25     0.5          NaClO4            lgK:13.74(0.01SD)        5   ENS     9
+ 253    25     0.5          NaClO4            lgK:13.74(0.02SD)        5   MGL   31342
+ 254    25     0.5         Unknown              lgK:13.74(4SF)         5   MGL   6460
+ 255    25     0.51         KCl/m             lgK:13.75(0.05MD)        5   CRV   6438
+ 256    25     0.51         KNO3/m              lgK:13.627(5SF)        0   EPZ   6335
+ 257    25     0.6          LiBr/m              lgK:13.619(5SF)        4   MHY   18615
+ 258    25     0.6          Na(Cl)           lgK:13.727(0.001MD)       6   MHY   10238
+
+
+
+
+                                       – Page 9 of 48 –
+JESS Thermodynamic Database v8.9                                       H2O
+
+
+ 259    25     0.6         NaCl                lgK:13.76(4SF)      5   ENS    405
+ 260    25     0.6         NaCl               lgK:13.727(5SF)      6   MGL    911
+ 261    25     0.6         NaCl                lgK:13.72(4SF)      5   CRV   30909
+ 262    25     0.7         KCl                lgK:13.8(0.03SD)     0   MPS    769
+ 263    25     0.7         NaCl               lgK:13.7(0.03SD)     3   MPS    769
+ 264    25     0.7         NaCl                lgK:13.70(4SF)      4   MGL   5322
+ 265    25    0.72        KNO3/m              lgK:13.625(5SF)      0   EPZ   6335
+ 266    25     0.8        LiBr/m              lgK:13.603(5SF)      4   MHY   18615
+ 267    25     0.8         NaCl                lgK:13.78(4SF)      5   ENS    405
+ 268    25    0.94        KNO3/m              lgK:13.648(5SF)      0   EPZ   6335
+ 269    25      1         CsCl/m               lgK:13.80(4SF)      0   MGL   6337
+ 270    25      1          KBr                lgK:13.824(5SF)      7   MGL   9373
+ 271    25      1         KBr/m                lgK:13.82(4SF)      0   MGL   6337
+ 272    25      1          KCl               lgK:13.80(0.01SD)     5   MEF     9
+ 273    25      1          KCl              lgK:13.76(0.004SD)     6   MGL   7256
+ 274    25      1          KCl                lgK:13.784(5SF)      7   MGL   9373
+ 275    25      1         KCl/m               lgK:13.753(5SF)      6   MHY   5947
+ 276    25      1           KI                lgK:13.834(5SF)      7   MGL   9373
+ 277    25      1          KI/m                lgK:13.83(4SF)      0   MGL   6337
+ 278    25      1          KI/m                lgK:13.83(4SF)      3   EOD   21396
+ 279    25      1         LiBr/m              lgK:13.597(5SF)      4   MHY   18615
+ 280    25      1         Me4NCl           lgK:13.926(0.0008SD)    3   MGL   7174
+ 281    25      1         Me4NCl            lgK:13.930(0.001SD)    4   MGL   7174
+ 282    25      1         Me4NCl            lgK:13.911(0.001SD)    4   MGL   7174
+ 283    25      1         Me4NCl            lgK:13.94(0.002SD)     3   MGL   7256
+ 284    25      1        Me4NCl/m              lgK:13.88(4SF)      0   MGL   6337
+ 285    25      1       NaCF3SO3/m           lgK:13.73(0.01MD)     6   MEF   6707
+ 286    25      1          NaCl            lgK:13.727(0.0004SD)    5   ENS    196
+ 287    25      1          NaCl             lgK:13.714(0.002SD)    5   ENS    901
+ 288    25      1          NaCl             lgK:13.717(0.001SD)    7   MGL   5600
+ 289    25      1          NaCl                lgK:13.78(4SF)      5   ENS   6334
+ 290    25      1          NaCl            lgK:13.717(0.0004SD)    6   MGL   6334
+ 291    25      1          NaCl            lgK:13.7560(0.0002SD)   7   MHY   6334
+ 292    25      1          NaCl             lgK:13.73(0.003SD)     6   MGL   7256
+ 293    25      1          NaCl             lgK:13.719(0.001SD)    6   MGL   7256
+ 294    25      1          NaCl              lgK:13.69(0.01MD)     4   MGL   29345
+
+
+
+
+                                     – Page 10 of 48 –
+JESS Thermodynamic Database v8.9                                          H2O
+
+
+ 295    25      1           NaCl/m               lgK:13.744(5SF)      6   MHY    5856
+ 296    25      1           NaCl/m                lgK:13.62(4SF)      0   ENS    6334
+Note (296): From Ferse, Z. Phys. Chem. (Leipzig), 1965, 229, 51-57
+ 297    25      1           NaCl/m             lgK:13.696(0.008MD)    5   MHY    7400
+ 298    25      1           NaCl/m                lgK:13.73(4SF)      3   EOD    21396
+ 299    25      1           NaClO4               lgK:13.8(0.05SD)     4   MEF      2
+ 300    25      1           NaClO4              lgK:13.80(0.01SD)     5   ENS      9
+ 301    25      1           NaClO4              lgK:13.77(0.01SD)     5   ENS     455
+ 302    25      1           NaClO4             lgK:13.746(0.001SD)    7   MGL    5600
+ 303    25      1           NaClO4          lgK:13.7520(0.0008SD)     5   MGL    6141
+ 304    25      1           NaClO4              lgK:13.81(0.04SD)     5   MGL    6238
+ 305    25      1           NaClO4              lgK:13.77(0.01SD)     5   MGL    6334
+ 306    25      1           NaClO4              lgK:13.76(0.02SD)     5   MGL    31342
+ 307    25      1          NaClO4/m               lgK:13.77(4SF)      3   EOD    21396
+ 308    25      1          Unknown                lgK:13.94(4SF)      4   CRV     552
+ 309    25      1          Unknown                lgK:13.79(4SF)      5   EOD    5876
+ 310    25     1.01          KNO3              lgK:13.730(0.001SD)    5   ENS    6334
+ 311    25     1.01         LiCl/m               lgK:13.599(5SF)      3   MHY    8938
+ 312    25     1.03         KCl/m               lgK:13.90(0.10MD)     0   CRV    6438
+ 313    25     1.03         KCl/m               lgK:13.93(0.10MD)     0   CRV    6438
+ 314    25     1.03         KCl/m               lgK:13.77(0.05MD)     5   CRV    6438
+ 315    25     1.15         KNO3/m               lgK:13.653(5SF)      0   EPZ    6335
+ 316    25     1.25         LiBr/m               lgK:13.592(5SF)      2   MHY    18615
+ 317    25     1.38         KNO3/m               lgK:13.669(5SF)      0   EPZ    6335
+ 318    25     1.5         Et4NCl/m               lgK:14.22(4SF)      0   MGL    6337
+ 319    25     1.5          LiBr/m               lgK:13.597(5SF)      2   MHY    18615
+Note (319): See spreadsheet for [33HaC_8938]
+ 320    25     1.5          Me4NCl             lgK:14.085(0.0006SD)   3   MGL    7174
+ 321    25     1.5          NaClO4                lgK:13.95(4SF)      0   ENS    6334
+Note (321): From Burkov et al., Vestn Leningr Univ Fiz Khim (1), 1975, 144-145
+ 322    25     1.5          NaClO4              lgK:13.82(0.02SD)     5   MGL    31342
+ 323    25     1.6          KNO3/m               lgK:13.687(5SF)      0   EPZ    6335
+ 324    25      2           CsCl/m                lgK:13.95(4SF)      0   MGL    6337
+ 325    25      2            KBr                 lgK:14.009(5SF)      7   MGL    9373
+ 326    25      2           KBr/m                 lgK:13.98(4SF)      0   MGL    6337
+ 327    25      2            KCl                 lgK:14.0(0.05SD)     5   MEF      2
+
+
+
+
+                                      – Page 11 of 48 –
+JESS Thermodynamic Database v8.9                                     H2O
+
+
+ 327    25      2           KCl              lgK:14.0(0.05SD)    5   MEF     2
+ 328    25      2           KCl             lgK:13.96(0.01SD)    5   MEF     9
+ 329    25      2           KCl              lgK:14.0(0.03SD)    5   ENS   6334
+ 330    25      2           KCl              lgK:13.952(5SF)     7   MGL   9373
+ 331    25      2           KI               lgK:14.041(5SF)     5   MGL   9373
+ 332    25      2          KI/m               lgK:14.02(4SF)     0   MGL   6337
+ 333    25      2          KNO3            lgK:13.880(0.001SD)   5   ENS   6334
+ 334    25      2         KNO3/m              lgK:13.88(4SF)     3   EOD   21396
+ 335    25      2         Me4NCl          lgK:14.259(0.0007SD)   0   MGL   7174
+ 336    25      2        Me4NCl/m             lgK:14.28(4SF)     0   MGL   6337
+ 337    25      2         Na(Cl)           lgK:13.866(0.003MD)   6   MHY   10238
+ 338    25      2          NaCl            lgK:13.87(0.003SD)    6   ENS   6334
+ 339    25      2          NaCl            lgK:13.80(0.003SD)    0   MGL   7256
+ 340    25      2         NaClO4            lgK:13.97(0.01SD)    5   ENS     9
+ 341    25      2         NaClO4           lgK:13.96(0.004SD)    6   MHY   7022
+ 342    25      2         NaClO4            lgK:13.87(0.03SD)    5   MGL   31342
+ 343    25      2          NaNO3              lgK:13.86(4SF)     5   ENS    670
+ 344    25      2         Unknown             lgK:13.96(4SF)     5   EOD   5876
+ 345    25    2.01        LiCl/m             lgK:13.609(5SF)     2   MHY   8938
+ 346    25    2.13         KCl/m            lgK:13.90(0.05MD)    5   CRV   6438
+ 347    25    2.13         KCl/m            lgK:13.91(0.05MD)    5   CRV   6438
+ 348    25     2.2       Et4NCl/m             lgK:14.78(4SF)     0   MGL   6337
+ 349    25     2.5       Et4NCl/m             lgK:15.00(4SF)     0   MGL   6337
+ 350    25     2.5         KNO3           lgK:13.982(0.0005SD)   6   MGL   6334
+ 351    25     2.5        Me4NCl          lgK:14.472(0.0008SD)   0   MGL   7174
+ 352    25     2.9       Et4NCl/m             lgK:15.35(4SF)     0   MGL   6337
+ 353    25    2.99          KCl             lgK:14.17(0.01SD)    5   MEF     9
+ 354    25    2.99        NaClO4            lgK:14.20(0.01SD)    5   ENS     9
+ 355    25      3         CsCl/m              lgK:14.15(4SF)     0   MGL   6337
+ 356    25      3           KBr              lgK:14.254(5SF)     3   MGL   9373
+ 357    25      3          KBr/m              lgK:14.16(4SF)     0   MGL   6337
+ 358    25      3           KCl              lgK:14.2(0.05SD)    5   MEF     2
+ 359    25      3           KCl              lgK:14.2(0.03SD)    5   ENS   6334
+ 360    25      3           KCl           lgK:14.146(0.0003SD)   6   MGL   6334
+ 361    25      3           KCl           lgK:14.157(0.0004SD)   7   MHY   6334
+ 362    25      3           KCl              lgK:14.161(5SF)     7   MGL   9373
+
+
+
+
+                                    – Page 12 of 48 –
+JESS Thermodynamic Database v8.9                                         H2O
+
+
+ 363    25      3           KCl/m               lgK:14.005(5SF)      0   MHY   5947
+ 364    25      3             KI                lgK:14.346(5SF)      0   MGL   9373
+ 365    25      3            KI/m                lgK:14.29(4SF)      0   MGL   6337
+ 366    25      3           Me4NCl            lgK:14.690(0.001SD)    0   MGL   7174
+ 367    25      3          Me4NCl/m              lgK:14.72(4SF)      0   MGL   6337
+ 368    25      3         NaCF3SO3/m           lgK:14.01(0.02MD)     6   MHY   6707
+ 369    25      3            NaCl                lgK:14.02(4SF)      5   ENS    196
+ 370    25      3            NaCl             lgK:13.989(0.002SD)    5   ENS    901
+ 371    25      3            NaCl              lgK:13.99(0.01SD)     3   MGL   5027
+ 372    25      3            NaCl                lgK:14.03(4SF)      5   ENS   6334
+ 373    25      3            NaCl            lgK:14.025(0.0006SD)    6   MGL   6334
+ 374    25      3            NaCl            lgK:14.089(0.0003SD)    7   MHY   6334
+ 375    25      3            NaCl             lgK:13.99(0.004SD)     6   MGL   7256
+ 376    25      3            NaCl                lgK:14.07(4SF)      6   MHY   22981
+ 377    25      3           NaCl/m              lgK:13.992(5SF)      6   MHY   5856
+ 378    25      3           NaCl/m               lgK:13.88(4SF)      0   ENS   6334
+Note (378): From Ferse, Z. Phys. Chem. (Leipzig), 1965, 229, 51-57
+ 379    25      3           NaClO4            lgK:14.184(0.002SD)    5   ENS    56
+ 380    25      3           NaClO4             lgK:14.15(0.01SD)     5   ENS    196
+ 381    25      3           NaClO4             lgK:14.22(0.02SD)     5   ENS    426
+ 382    25      3           NaClO4               lgK:13.87(4SF)      0   CRV    552
+ 383    25      3           NaClO4               lgK:14.22(4SF)      5   CRV   5528
+ 384    25      3           NaClO4             lgK:14.21(0.07SD)     5   MGL   6238
+ 385    25      3           NaClO4               lgK:14.09(4SF)      5   ENS   6334
+ 386    25      3           NaClO4              lgK:14.2(0.03SD)     5   ENS   6334
+ 387    25      3           NaClO4             lgK:14.17(0.01SD)     5   ENS   6334
+ 388    25      3           NaNO3               lgK:14.0(0.05SD)     4   MGL   6334
+ 389    25     3.01         LiCl/m              lgK:13.669(5SF)      2   MHY   8938
+ 390    25     3.18        Et4NCl/m              lgK:15.65(4SF)      0   MGL   6337
+ 391    25     3.3          KCl/m              lgK:14.08(0.05MD)     0   CRV   6438
+ 392    25     3.31         KCl/m              lgK:14.08(0.05MD)     3   CRV   6438
+ 393    25     3.31         KCl/m              lgK:14.09(0.05MD)     3   CRV   6438
+ 394    25     3.5          Me4NCl            lgK:14.872(0.001SD)    0   MGL   7174
+ 395    25     3.5          Me4NCl            lgK:14.903(0.002SD)    0   MGL   7174
+ 396    25     3.5          Me4NCl            lgK:14.933(0.002SD)    0   MGL   7174
+ 397    25     3.5          NaCl/m               lgK:14.03(4SF)      3   EOD   21396
+
+
+
+
+                                       – Page 13 of 48 –
+JESS Thermodynamic Database v8.9                                      H2O
+
+
+ 398    25     3.5       NaClO4/m              lgK:14.17(4SF)     3   EOD   21396
+ 399    25    3.72         KCl               lgK:14.34(0.01SD)    5   MEF     9
+ 400    25     3.8        NaClO4             lgK:14.42(0.02SD)    0   ENS     9
+ 401    25      4         CsCl/m               lgK:14.40(4SF)     0   MGL   6337
+ 402    25      4          KBr                lgK:14.527(5SF)     0   MGL   9373
+ 403    25      4          KCl                lgK:14.401(5SF)     3   MGL   9373
+ 404    25      4           KI                lgK:14.612(5SF)     0   MGL   9373
+ 405    25      4          KI/m                lgK:14.70(4SF)     0   MGL   6337
+ 406    25      4         Me4NCl            lgK:15.085(0.002SD)   0   MGL   7174
+ 407    25      4        Me4NCl/m              lgK:15.38(4SF)     0   MGL   6337
+ 408    25      4         NaClO4           lgK:14.516(0.0008SD)   0   MHY   7022
+ 409    25    4.01        LiCl/m              lgK:13.746(5SF)     1   MHY   8938
+ 410    25     4.2        KBr/m                lgK:14.53(4SF)     0   MGL   6337
+ 411    25    4.22        KCl/m              lgK:14.24(0.10MD)    0   CRV   6438
+ 412    25     4.5        Me4NCl            lgK:15.598(0.001SD)   0   MGL   7174
+ 413    25     4.6       Me4NCl/m              lgK:15.80(4SF)     0   MGL   6337
+ 414    25    4.82        KCl/m              lgK:14.27(0.10MD)    0   CRV   6438
+ 415    25      5           KI                lgK:14.978(5SF)     0   MGL   9373
+ 416    25      5         Me4NCl            lgK:15.725(0.002SD)   0   MGL   7174
+ 417    25      5         Me4NCl            lgK:15.943(0.002SD)   0   MGL   7174
+ 418    25      5         Me4NCl            lgK:15.997(0.002SD)   0   MGL   7174
+ 419    25      5       NaCF3SO3/m           lgK:14.31(0.04MD)    3   MHY   6707
+ 420    25      5          NaCl              lgK:14.47(0.01SD)    6   MGL   5027
+ 421    25      5          NaCl              lgK:14.58(0.04SD)    3   MGL   6238
+ 422    25      5          NaCl            lgK:14.489(0.0006SD)   6   MGL   6334
+ 423    25      5          NaCl            lgK:14.538(0.0003SD)   3   MHY   6334
+ 424    25      5          NaCl             lgK:14.44(0.004SD)    6   MGL   7256
+ 425    25      5         NaClO4             lgK:14.90(0.06SD)    0   MGL   6238
+ 426    25      5         NaClO4              lgK:14.9(0.03SD)    0   ENS   6334
+ 427    25      5         NaNO3             lgK:14.34(0.0006SD)   3   MGL   6334
+ 428    25    5.01        LiCl/m              lgK:13.872(5SF)     4   MHY   8938
+ 429    25     5.1         KI/m                lgK:15.05(4SF)     0   MGL   6337
+ 430    25    5.34        CsCl/m               lgK:14.77(4SF)     0   MGL   6337
+ 431    25     5.5        Me4NCl            lgK:16.23(0.003SD)    3   MGL   7174
+ 432    25      6         NaCl/m               lgK:14.22(4SF)     4   ENS   6334
+ 433    25      6         NaClO4           lgK:15.223(0.0007SD)   4   MHY   7022
+
+
+
+
+                                     – Page 14 of 48 –
+JESS Thermodynamic Database v8.9                                         H2O
+
+
+ 434    25     6.9            CsCl/m              lgK:15.22(4SF)     0   MGL   6337
+ 435    25      7         NaCF3SO3/m            lgK:14.57(0.06MD)    6   MHY   6707
+ 436    25      8             NaClO4          lgK:15.940(0.0008SD)   4   MHY   7022
+ 437    30      0       Inf. Dilution          lgK:13.842(0.001SD)   7   CMN    792
+ 438    30      0      Inf. Dilution/m           lgK:13.832(5SF)     4   MEF   5841
+ 439    30      0      Inf. Dilution/m           lgK:13.8330(6SF)    2   MHY   5870
+ 440    30      0      Inf. Dilution/m           lgK:13.8330(6SF)    7   CRV   11989
+ 441    30      0             NaCl/m             lgK:13.833(5SF)     3   MHY   5848
+ 442    30     0.2            LiCl/m             lgK:13.538(5SF)     4   MHY   8938
+ 443    30     0.5            LiCl/m             lgK:13.469(5SF)     4   MHY   8938
+ 444    30      1             NaCl/m           lgK:13.535(0.006MD)   5   MHY   7400
+ 445    30     1.01           LiCl/m             lgK:13.429(5SF)     2   MHY   8938
+ 446    30     2.01           LiCl/m             lgK:13.435(5SF)     2   MHY   8938
+ 447    30     3.01           LiCl/m             lgK:13.491(5SF)     2   MHY   8938
+ 448    30     4.01           LiCl/m             lgK:13.566(5SF)     1   MHY   8938
+ 449    30     5.01           LiCl/m             lgK:13.689(5SF)     4   MHY   8938
+ 450    35      0       Inf. Dilution          lgK:13.690(0.001SD)   7   CMN    792
+ 451    35      0       Inf. Dilution             lgK:13.68(4SF)     4   MHY   5078
+ 452    35      0      Inf. Dilution/m           lgK:13.680(5SF)     4   MEF   5841
+ 453    35      0      Inf. Dilution/m           lgK:13.6800(6SF)    2   MHY   5870
+ 454    35      0      Inf. Dilution/m           lgK:13.6800(6SF)    7   CRV   11989
+ 455    35     0.06            KNO3            lgK:13.491(0.002SD)   7   MGL   5255
+ 456    35     0.1             KNO3            lgK:13.457(0.002SD)   7   MGL   5255
+ 457    35     0.14            KNO3            lgK:13.441(0.002SD)   7   MGL   5255
+ 458    35     0.18            KNO3            lgK:13.423(0.002SD)   7   MGL   5255
+ 459    35     0.2            LiCl/m             lgK:13.384(5SF)     4   MHY   8938
+ 460    35     0.5            LiCl/m             lgK:13.315(5SF)     4   MHY   8938
+ 461    35     1.01           LiCl/m             lgK:13.271(5SF)     2   MHY   8938
+ 462    35     2.01           LiCl/m             lgK:13.275(5SF)     2   MHY   8938
+ 463    35     3.01           LiCl/m             lgK:13.326(5SF)     2   MHY   8938
+ 464    35     4.01           LiCl/m             lgK:13.398(5SF)     1   MHY   8938
+ 465    35     5.01           LiCl/m             lgK:13.520(5SF)     4   MHY   8938
+Note (465): See spreadsheet
+ 466    37     0.15            NaCl              lgK:13.3(0.03SD)    5   MGL    243
+ 467    37     0.15           NaClO4             lgK:13.4(0.03SD)    5   MGL    243
+ 468    37     0.15           Unknown             lgK:13.38(4SF)     6   CRV    552
+
+
+
+
+                                        – Page 15 of 48 –
+JESS Thermodynamic Database v8.9                                        H2O
+
+
+ 469    40      0      Inf. Dilution          lgK:13.545(0.001SD)   7   CMN    792
+ 470    40      0      Inf. Dilution             lgK:13.53(4SF)     5   CRV   6496
+ 471    40      0      Inf. Dilution            lgK:13.535(5SF)     3   CRV   17118
+ 472    40      0     Inf. Dilution/m           lgK:13.535(5SF)     4   MEF   5841
+ 473    40      0     Inf. Dilution/m           lgK:13.5350(6SF)    2   MHY   5870
+ 474    40      0     Inf. Dilution/m           lgK:13.5350(6SF)    7   CRV   11989
+ 475    40      0         NaCl/m                lgK:13.536(5SF)     3   MHY   5848
+ 476    40      0        SUPCRT92               lgK:13.539(5SF)     4   CRV   8839
+ 477    40      1         NaCl/m              lgK:13.234(0.008MD)   5   MHY   7400
+ 478    45      0      Inf. Dilution          lgK:13.407(0.001SD)   7   CMN    792
+ 479    45      0      Inf. Dilution             lgK:13.40(4SF)     4   MHY   5078
+ 480    45      0     Inf. Dilution/m           lgK:13.396(5SF)     4   MEF   5841
+ 481    45      0     Inf. Dilution/m           lgK:13.3960(6SF)    2   MHY   5870
+ 482    45      0     Inf. Dilution/m           lgK:13.3960(6SF)    7   CRV   11989
+ 483    45    0.06         KNO3               lgK:13.203(0.002SD)   7   MGL   5255
+ 484    45     0.1         KNO3               lgK:13.168(0.002SD)   7   MGL   5255
+ 485    45    0.14         KNO3               lgK:13.15(0.004SD)    7   MGL   5255
+ 486    45    0.18         KNO3               lgK:13.14(0.003SD)    7   MGL   5255
+ 487    50      0      Inf. Dilution          lgK:13.276(0.001SD)   7   CMN    792
+ 488    50      0      Inf. Dilution          lgK:13.276(0.005SD)   5   MCN   5343
+ 489    50      0      Inf. Dilution          lgK:13.27(0.006SD)    4   EDT   5416
+ 490    50      0      Inf. Dilution            lgK:13.276(5SF)     6   CRV   5945
+ 491    50      0      Inf. Dilution            lgK:13.272(5SF)     5   EDH   5947
+ 492    50      0      Inf. Dilution            lgK:13.271(5SF)     4   EDN   9075
+ 493    50      0          DELTA                 lgK:13.27(4SF)     0   CMN   5416
+ 494    50      0     Inf. Dilution/m           lgK:13.262(5SF)     4   MEF   5841
+ 495    50      0     Inf. Dilution/m            lgK:13.24(4SF)     0   MEF   5844
+ 496    50      0     Inf. Dilution/m           lgK:13.262(5SF)     4   MCN   5846
+ 497    50      0     Inf. Dilution/m           lgK:13.2620(6SF)    2   MHY   5870
+ 498    50      0     Inf. Dilution/m           lgK:13.2620(6SF)    7   CRV   11989
+ 499    50      0     Inf. Dilution/m            lgK:13.27(4SF)     2   CRV   24953
+ 500    50      0     Inf. Dilution/m           lgK:13.264(5SF)     5   CRV   30834
+ 501    50      0       NaCF3SO3/m             lgK:13.28(0.01MD)    5   MHY   6707
+ 502    50      0         NaCl/m                lgK:13.261(5SF)     3   MHY   5848
+ 503    50      0         SOLMNEQ                lgK:13.26(4SF)     0   CMN   5416
+ 504    50      0         SOLVEQ                 lgK:13.26(4SF)     0   CMN   5416
+
+
+
+
+                                       – Page 16 of 48 –
+JESS Thermodynamic Database v8.9                                        H2O
+
+
+ 505    50      0          WATCH                 lgK:13.27(4SF)     0   CMN   5416
+ 506    50      0         WATEQF                 lgK:13.24(4SF)     0   CMN   5416
+ 507    50     0.1         KCl/m                lgK:13.047(5SF)     6   MHY   5947
+ 508    50     0.1         NaNO3                 lgK:13.02(4SF)     4   EES   5797
+ 509    50     0.5         KCl/m                lgK:12.973(5SF)     6   MHY   5947
+ 510    50      1          KCl/m                lgK:13.003(5SF)     6   MHY   5947
+ 511    50      1       NaCF3SO3/m             lgK:12.98(0.01MD)    6   MHY   6707
+ 512    50      1         NaCl/m                lgK:12.990(5SF)     6   MHY   5856
+ 513    50      1         NaCl/m              lgK:12.955(0.008MD)   5   MHY   7400
+ 514    50      3          KCl/m                lgK:13.226(5SF)     6   MHY   5947
+ 515    50      3       NaCF3SO3/m             lgK:13.26(0.02MD)    6   MHY   6707
+ 516    50      3         NaCl/m                lgK:13.219(5SF)     6   MHY   5856
+ 517    50      5       NaCF3SO3/m             lgK:13.55(0.02MD)    3   MHY   6707
+ 518    50      7       NaCF3SO3/m             lgK:13.80(0.04MD)    6   MHY   6707
+ 519    55      0      Inf. Dilution          lgK:13.150(0.001SD)   7   CMN    792
+ 520    55      0     Inf. Dilution/m           lgK:13.137(5SF)     4   MEF   5841
+ 521    55      0     Inf. Dilution/m           lgK:13.1370(6SF)    2   MHY   5870
+ 522    55      0     Inf. Dilution/m           lgK:13.1370(6SF)    7   CRV   11989
+ 523    60      0      Inf. Dilution          lgK:13.031(0.001SD)   7   CMN    792
+ 524    60      0      Inf. Dilution            lgK:13.017(5SF)     3   CRV   17118
+ 525    60      0     Inf. Dilution/m           lgK:13.017(5SF)     4   MEF   5841
+ 526    60      0     Inf. Dilution/m           lgK:13.0170(6SF)    2   MHY   5870
+ 527    60      0     Inf. Dilution/m           lgK:13.0170(6SF)    7   CRV   11989
+ 528    60      0         NaCl/m                lgK:13.015(5SF)     3   MHY   5848
+ 529    60      0        SUPCRT92               lgK:13.028(5SF)     4   CRV   8839
+ 530    60      1         NaCl/m              lgK:12.698(0.008MD)   5   MHY   7400
+ 531    70      1         NaCl/m              lgK:12.461(0.008MD)   5   MHY   7400
+ 532    75      0      Inf. Dilution          lgK:12.710(0.005SD)   5   MCN   5343
+ 533    75      0      Inf. Dilution          lgK:12.71(0.006SD)    4   EDT   5416
+ 534    75      0      Inf. Dilution            lgK:12.711(5SF)     0   CRV   5945
+ 535    75      0      Inf. Dilution            lgK:12.709(5SF)     5   EDH   5947
+ 536    75      0      Inf. Dilution            lgK:12.705(5SF)     4   EDN   9075
+ 537    75      0      Inf. Dilution             lgK:12.70(4SF)     3   CRV   17118
+ 538    75      0          DELTA                 lgK:12.71(4SF)     0   CMN   5416
+ 539    75      0     Inf. Dilution/m            lgK:12.68(4SF)     0   MEF   5844
+ 540    75      0     Inf. Dilution/m           lgK:12.697(5SF)     4   MCN   5846
+
+
+
+
+                                       – Page 17 of 48 –
+JESS Thermodynamic Database v8.9                                        H2O
+
+
+ 541    75      0     Inf. Dilution/m            lgK:12.71(4SF)     2   CRV   24953
+ 542    75      0     Inf. Dilution/m           lgK:12.696(5SF)     5   CRV   30834
+ 543    75      0         SOLMNEQ                lgK:12.70(4SF)     0   CMN   5416
+ 544    75      0          WATCH                 lgK:12.70(4SF)     0   CMN   5416
+ 545    75      0         WATEQF                 lgK:12.59(4SF)     0   CMN   5416
+ 546    75     0.1         KCl/m                lgK:12.468(5SF)     6   MHY   5947
+ 547    75     0.5         KCl/m                lgK:12.382(5SF)     6   MHY   5947
+ 548    75      1          KCl/m                lgK:12.404(5SF)     6   MHY   5947
+ 549    75      3          KCl/m                lgK:12.596(5SF)     6   MHY   5947
+ 550    80      0        SUPCRT92               lgK:12.605(5SF)     4   CRV   8839
+ 551    80      1         NaCl/m              lgK:12.243(0.007MD)   5   MHY   7400
+ 552    90      0      Inf. Dilution             lgK:12.42(4SF)     5   CRV   8740
+ 553    90      0      Inf. Dilution             lgK:12.42(4SF)     3   CRV   17118
+ 554    90      1         NaCl/m              lgK:12.038(0.007MD)   5   MHY   7400
+ 555   100      0      Inf. Dilution            lgK:12.3(0.05SD)    0   CMN     3
+ 556   100      0      Inf. Dilution          lgK:12.264(0.005SD)   5   MCN   5343
+ 557   100      0      Inf. Dilution          lgK:12.26(0.009SD)    4   EDT   5416
+ 558   100      0      Inf. Dilution             lgK:12.26(4SF)     4   EES   5416
+ 559   100      0      Inf. Dilution             lgK:12.23(4SF)     0   MCN   5846
+ 560   100      0      Inf. Dilution            lgK:12.266(5SF)     6   CRV   5945
+ 561   100      0      Inf. Dilution            lgK:12.264(5SF)     5   EDH   5947
+ 562   100      0      Inf. Dilution             lgK:11.27(4SF)     0   CRV   6496
+ 563   100      0      Inf. Dilution            lgK:12.255(5SF)     4   EDN   9075
+ 564   100      0          DELTA                 lgK:12.26(4SF)     0   CMN   5416
+ 565   100      0     Inf. Dilution/m            lgK:12.24(4SF)     0   MEF   5844
+ 566   100      0     Inf. Dilution/m            lgK:12.26(4SF)     4   MCN   5846
+ 567   100      0     Inf. Dilution/m            lgK:12.28(4SF)     0   CRV   24953
+ 568   100      0     Inf. Dilution/m           lgK:12.252(5SF)     5   CRV   30834
+ 569   100      0       NaCF3SO3/m             lgK:12.27(0.01MD)    5   MHY   6707
+ 570   100      0         SOLMNEQ                lgK:12.26(4SF)     0   CMN   5416
+ 571   100      0         SOLVEQ                 lgK:12.24(4SF)     0   CMN   5416
+ 572   100      0          WATCH                 lgK:12.26(4SF)     0   CMN   5416
+ 573   100      0         WATEQF                 lgK:12.03(4SF)     0   CMN   5416
+ 574   100     0.1         KCl/m                lgK:12.004(5SF)     6   MHY   5947
+ 575   100     0.5         KCl/m                lgK:11.903(5SF)     6   MHY   5947
+ 576   100      1          KCl/m                lgK:11.916(5SF)     6   MHY   5947
+
+
+
+
+                                       – Page 18 of 48 –
+JESS Thermodynamic Database v8.9                                        H2O
+
+
+ 577   100      1       NaCF3SO3/m             lgK:11.90(0.01MD)    6   MHY   6707
+ 578   100      1         NaCl/m                lgK:11.887(5SF)     6   MHY   5856
+ 579   100      1         NaCl/m              lgK:11.854(0.008MD)   5   MHY   7400
+ 580   100      3          KCl/m                lgK:12.074(5SF)     6   MHY   5947
+ 581   100      3       NaCF3SO3/m             lgK:12.15(0.02MD)    6   MHY   6707
+ 582   100      3         NaCl/m                lgK:12.040(5SF)     3   MHY   5856
+ 583   100      5       NaCF3SO3/m             lgK:12.41(0.02MD)    3   MHY   6707
+ 584   100      7       NaCF3SO3/m             lgK:12.62(0.02MD)    6   MHY   6707
+ 585   110      1         NaCl/m              lgK:11.682(0.007MD)   5   MHY   7400
+ 586   120      1         NaCl/m              lgK:11.521(0.007MD)   5   MHY   7400
+ 587   125      0      Inf. Dilution          lgK:11.914(0.005SD)   5   MCN   5343
+ 588   125      0      Inf. Dilution          lgK:11.91(0.009SD)    4   EDT   5416
+ 589   125      0      Inf. Dilution            lgK:11.916(5SF)     6   CRV   5945
+ 590   125      0      Inf. Dilution            lgK:11.914(5SF)     5   EDH   5947
+ 591   125      0      Inf. Dilution            lgK:11.898(5SF)     4   EDN   9075
+ 592   125      0          DELTA                 lgK:11.91(4SF)     0   CMN   5416
+ 593   125      0     Inf. Dilution/m            lgK:11.88(4SF)     4   MEF   5844
+ 594   125      0     Inf. Dilution/m            lgK:11.91(4SF)     4   MCN   5846
+ 595   125      0         SOLMNEQ                lgK:11.91(4SF)     0   CMN   5416
+ 596   125      0          WATCH                 lgK:11.91(4SF)     0   CMN   5416
+ 597   125      0         WATEQF                 lgK:11.54(4SF)     0   CMN   5416
+ 598   125     0.1         KCl/m                lgK:11.631(5SF)     6   MHY   5947
+ 599   125     0.5         KCl/m                lgK:11.512(5SF)     6   MHY   5947
+ 600   125      1          KCl/m                lgK:11.514(5SF)     6   MHY   5947
+ 601   125      3          KCl/m                lgK:11.634(5SF)     6   MHY   5947
+ 602   130      1         NaCl/m              lgK:11.374(0.007MD)   5   MHY   7400
+ 603   140      1         NaCl/m              lgK:11.236(0.007MD)   5   MHY   7400
+ 604   150      0      Inf. Dilution          lgK:11.644(0.005SD)   5   MCN   5343
+ 605   150      0      Inf. Dilution           lgK:11.64(0.01SD)    4   EDT   5416
+ 606   150      0      Inf. Dilution             lgK:11.64(4SF)     4   EES   5416
+ 607   150      0      Inf. Dilution             lgK:11.22(4SF)     4   MCN   5846
+ 608   150      0      Inf. Dilution            lgK:11.646(5SF)     6   CRV   5945
+ 609   150      0      Inf. Dilution            lgK:11.642(5SF)     5   EDH   5947
+ 610   150      0      Inf. Dilution            lgK:11.617(5SF)     4   EDN   9075
+ 611   150      0          DELTA                 lgK:11.64(4SF)     0   CMN   5416
+ 612   150      0     Inf. Dilution/m           lgK:11.641(5SF)     5   CRV   30834
+
+
+
+
+                                       – Page 19 of 48 –
+JESS Thermodynamic Database v8.9                                        H2O
+
+
+ 613   150      0     Inf. Dilution/m            lgK:11.64(4SF)     4   MEF   5844
+ 614   150      0     Inf. Dilution/m            lgK:11.64(4SF)     4   MCN   5846
+ 615   150      0     Inf. Dilution/m            lgK:11.71(4SF)     2   CRV   24953
+ 616   150      0       NaCF3SO3/m             lgK:11.64(0.01MD)    5   MHY   6707
+ 617   150      0         SOLMNEQ                lgK:11.64(4SF)     0   CMN   5416
+ 618   150      0         SOLVEQ                 lgK:11.59(4SF)     0   CMN   5416
+ 619   150      0          WATCH                 lgK:11.64(4SF)     0   CMN   5416
+ 620   150      0         WATEQF                 lgK:11.11(4SF)     0   CMN   5416
+ 621   150     0.1         KCl/m                lgK:11.334(5SF)     6   MHY   5947
+ 622   150     0.5         KCl/m                lgK:11.193(5SF)     6   MHY   5947
+ 623   150      1          KCl/m                lgK:11.181(5SF)     6   MHY   5947
+ 624   150      1       NaCF3SO3/m             lgK:11.17(0.01MD)    6   MHY   6707
+ 625   150      1         NaCl/m                lgK:11.136(5SF)     6   MHY   5856
+ 626   150      1         NaCl/m              lgK:11.106(0.007MD)   4   MHY   7400
+ 627   150      3          KCl/m                lgK:11.259(5SF)     6   MHY   5947
+ 628   150      3       NaCF3SO3/m             lgK:11.36(0.01MD)    6   MHY   6707
+ 629   150      3         NaCl/m                lgK:11.186(5SF)     3   MHY   5856
+ 630   150      5       NaCF3SO3/m             lgK:11.57(0.01MD)    6   MHY   6707
+ 631   150      7       NaCF3SO3/m             lgK:11.72(0.03MD)    6   MHY   6707
+ 632   160      1         NaCl/m              lgK:10.988(0.008MD)   4   MHY   7400
+ 633   170      1         NaCl/m              lgK:10.870(0.05MD)    4   EOD   7400
+ 634   175      0      Inf. Dilution          lgK:11.442(0.005SD)   5   MCN   5343
+ 635   175      0      Inf. Dilution           lgK:11.44(0.01SD)    4   EDT   5416
+ 636   175      0      Inf. Dilution            lgK:11.441(5SF)     5   EDH   5947
+ 637   175      0      Inf. Dilution            lgK:11.401(5SF)     4   EDN   9075
+ 638   175      0          DELTA                 lgK:11.44(4SF)     0   CMN   5416
+ 639   175      0     Inf. Dilution/m            lgK:11.43(4SF)     4   MEF   5844
+ 640   175      0     Inf. Dilution/m            lgK:11.42(4SF)     4   MCN   5846
+ 641   175      0         SOLMNEQ                lgK:11.43(4SF)     0   CMN   5416
+ 642   175      0          WATCH                 lgK:11.42(4SF)     0   CMN   5416
+ 643   175      0         WATEQF                 lgK:10.72(4SF)     0   CMN   5416
+ 644   175     0.1         KCl/m                lgK:11.102(5SF)     6   MHY   5947
+ 645   175     0.5         KCl/m                lgK:10.943(5SF)     6   MHY   5947
+ 646   175      1          KCl/m                lgK:10.907(5SF)     6   MHY   5947
+ 647   175      3          KCl/m                lgK:10.937(5SF)     3   MHY   5947
+ 648   180      1         NaCl/m                 lgK:10.76(4SF)     3   EOD   7400
+
+
+
+
+                                       – Page 20 of 48 –
+JESS Thermodynamic Database v8.9                                        H2O
+
+
+ 649    190     1         NaCl/m                 lgK:10.67(4SF)     3   EOD   7400
+ 650   195.9    0      Inf. Dilution            lgK:11.225(5SF)     5   EOD   17946
+ 651    200     0      Inf. Dilution          lgK:11.303(0.005SD)   5   MCN   5343
+ 652    200     0      Inf. Dilution           lgK:11.30(0.01SD)    4   EDT   5416
+ 653    200     0      Inf. Dilution             lgK:11.26(4SF)     4   EES   5416
+ 654    200     0      Inf. Dilution             lgK:11.20(4SF)     4   MCN   5846
+ 655    200     0      Inf. Dilution            lgK:11.302(5SF)     5   EDH   5947
+ 656    200     0      Inf. Dilution            lgK:11.244(5SF)     4   EDN   9075
+ 657    200     0          DELTA                 lgK:11.30(4SF)     0   CMN   5416
+ 658    200     0     Inf. Dilution/m           lgK:11.310(5SF)     5   CRV   30834
+ 659    200     0     Inf. Dilution/m            lgK:11.26(4SF)     4   MEF   5844
+ 660    200     0     Inf. Dilution/m            lgK:11.26(4SF)     4   MCN   5846
+ 661    200     0       NaCF3SO3/m             lgK:11.29(0.01MD)    3   MHY   6707
+ 662    200     0         SOLMNEQ                lgK:11.26(4SF)     0   CMN   5416
+ 663    200     0         SOLVEQ                 lgK:11.22(4SF)     0   CMN   5416
+ 664    200     0          WATCH                 lgK:11.25(4SF)     0   CMN   5416
+ 665    200     0         WATEQF                 lgK:10.38(4SF)     0   CMN   5416
+ 666    200    0.1         KCl/m                lgK:10.928(5SF)     6   MHY   5947
+ 667    200    0.5         KCl/m                lgK:10.727(5SF)     6   MHY   5947
+ 668    200     1          KCl/m                lgK:10.680(5SF)     6   MHY   5947
+ 669    200     1       NaCF3SO3/m             lgK:10.69(0.01MD)    6   MHY   6707
+ 670    200     1         NaCl/m                lgK:10.612(5SF)     6   MHY   5856
+ 671    200     1         NaCl/m                 lgK:10.57(4SF)     3   EOD   7400
+ 672    200     3          KCl/m                lgK:10.656(5SF)     3   MHY   5947
+ 673    200     3       NaCF3SO3/m             lgK:10.80(0.01MD)    6   MHY   6707
+ 674    200     3         NaCl/m                lgK:10.539(5SF)     0   MHY   5856
+ 675    200     5       NaCF3SO3/m             lgK:10.95(0.01MD)    3   MHY   6707
+ 676    210     1         NaCl/m                 lgK:10.48(4SF)     3   EOD   7400
+ 677   217.8    0      Inf. Dilution            lgK:11.215(5SF)     5   EOD   17946
+ 678    220     1         NaCl/m                 lgK:10.38(4SF)     3   EOD   7400
+ 679    225     0      Inf. Dilution          lgK:11.223(0.005SD)   5   MCN   5343
+ 680    225     0      Inf. Dilution           lgK:11.22(0.01SD)    3   EDT   5416
+ 681    225     0      Inf. Dilution            lgK:11.222(5SF)     5   EDH   5947
+ 682    225     0      Inf. Dilution            lgK:11.145(5SF)     4   EDN   9075
+ 683    225     0          DELTA                 lgK:11.22(4SF)     0   CMN   5416
+ 684    225     0     Inf. Dilution/m            lgK:11.14(4SF)     4   MCN   5846
+
+
+
+
+                                       – Page 21 of 48 –
+JESS Thermodynamic Database v8.9                                       H2O
+
+
+ 685   225      0         SOLMNEQ                lgK:11.13(4SF)    0   CMN   5416
+ 686   225      0          WATCH                 lgK:11.13(4SF)    0   CMN   5416
+ 687   225      0         WATEQF                 lgK:10.07(4SF)    0   CMN   5416
+ 688   225     0.1         KCl/m                lgK:10.804(5SF)    3   MHY   5947
+ 689   225     0.5         KCl/m                lgK:10.563(5SF)    6   MHY   5947
+ 690   225      1          KCl/m                lgK:10.490(5SF)    6   MHY   5947
+ 691   225      3          KCl/m                lgK:10.402(5SF)    3   MHY   5947
+ 692   230      1         NaCl/m                 lgK:10.31(4SF)    3   EOD   7400
+ 693   250      0      Inf. Dilution          lgK:11.203(0.01SD)   3   MCN   5343
+ 694   250      0      Inf. Dilution           lgK:11.20(0.02SD)   3   EDT   5416
+ 695   250      0      Inf. Dilution             lgK:11.05(4SF)    3   EES   5416
+ 696   250      0      Inf. Dilution             lgK:11.23(4SF)    4   MCN   5846
+ 697   250      0      Inf. Dilution            lgK:11.196(5SF)    3   EDH   5947
+ 698   250      0      Inf. Dilution            lgK:11.107(5SF)    3   EDN   9075
+ 699   250      0          DELTA                 lgK:11.20(4SF)    0   CMN   5416
+ 700   250      0     Inf. Dilution/m           lgK:11.205(5SF)    5   CRV   30834
+ 701   250      0     Inf. Dilution/m            lgK:11.05(4SF)    4   MCN   5846
+ 702   250      0       NaCF3SO3/m             lgK:11.18(0.01MD)   3   MHY   6707
+ 703   250      0         SOLMNEQ                lgK:11.05(4SF)    0   CMN   5416
+ 704   250      0         SOLVEQ                 lgK:11.09(4SF)    0   CMN   5416
+ 705   250      0          WATCH                 lgK:11.05(4SF)    0   CMN   5416
+ 706   250      0         WATEQF                 lgK:9.79(3SF)     0   CMN   5416
+ 707   250     0.1         KCl/m                lgK:10.723(5SF)    3   MHY   5947
+ 708   250     0.5         KCl/m                lgK:10.429(5SF)    5   MHY   5947
+ 709   250      1          KCl/m                lgK:10.323(5SF)    5   MHY   5947
+ 710   250      1       NaCF3SO3/m             lgK:10.38(0.01MD)   5   MHY   6707
+ 711   250      1         NaCl/m                lgK:10.241(5SF)    5   MHY   5856
+ 712   250      3          KCl/m                lgK:10.156(5SF)    0   MHY   5947
+ 713   250      3       NaCF3SO3/m             lgK:10.39(0.02MD)   3   MHY   6707
+ 714   250      3         NaCl/m                lgK:10.009(5SF)    0   MHY   5856
+ 715   250      5       NaCF3SO3/m             lgK:10.45(0.03MD)   0   MHY   6707
+ 716   275      0      Inf. Dilution          lgK:11.251(0.02SD)   3   MCN   5343
+ 717   275      0      Inf. Dilution            lgK:11.2(0.03SD)   0   EDT   5416
+ 718   275      0      Inf. Dilution            lgK:11.224(5SF)    3   EDH   5947
+ 719   275      0      Inf. Dilution            lgK:11.137(5SF)    3   EDN   9075
+ 720   275      0      Inf. Dilution            lgK:11.085(5SF)    5   EOD   17946
+
+
+
+
+                                       – Page 22 of 48 –
+JESS Thermodynamic Database v8.9                                       H2O
+
+
+ 721   275      0          DELTA                 lgK:11.22(4SF)    0   CMN   5416
+ 722   275      0     Inf. Dilution/m            lgK:11.01(4SF)    4   MCN   5846
+ 723   275      0         SOLMNEQ                lgK:11.01(4SF)    0   CMN   5416
+ 724   275      0          WATCH                 lgK:11.02(4SF)    0   CMN   5416
+ 725   275      0         WATEQF                 lgK:9.54(3SF)     0   CMN   5416
+ 726   275     0.1         KCl/m                lgK:10.676(5SF)    3   MHY   5947
+ 727   275     0.5         KCl/m                lgK:10.310(5SF)    4   MHY   5947
+ 728   275      1          KCl/m                lgK:10.160(5SF)    4   MHY   5947
+ 729   275      3          KCl/m                 lgK:9.892(4SF)    0   MHY   5947
+ 730   295      1         NaCl/m                 lgK:9.943(4SF)    0   MHY   5856
+ 731   295      3         NaCl/m                 lgK:9.562(4SF)    0   MHY   5856
+ 732   300      0      Inf. Dilution          lgK:11.382(0.03SD)   3   MCN   5343
+ 733   300      0      Inf. Dilution            lgK:11.3(0.04SD)   3   EDT   5416
+ 734   300      0      Inf. Dilution             lgK:11.04(4SF)    0   EES   5416
+ 735   300      0      Inf. Dilution             lgK:11.33(4SF)    4   MCN   5846
+ 736   300      0      Inf. Dilution            lgK:11.301(5SF)    3   EDH   5947
+ 737   300      0      Inf. Dilution             lgK:11.30(4SF)    3   ENS   6333
+ 738   300      0      Inf. Dilution            lgK:11.258(5SF)    3   EDN   9075
+ 739   300      0          DELTA                 lgK:11.30(4SF)    0   CMN   5416
+ 740   300      0     Inf. Dilution/m            lgK:11.04(4SF)    4   MCN   5846
+ 741   300      0         SOLMNEQ                lgK:11.04(4SF)    0   CMN   5416
+ 742   300      0         SOLVEQ                 lgK:11.28(4SF)    0   CMN   5416
+ 743   300      0          WATCH                 lgK:11.04(4SF)    0   CMN   5416
+ 744   300      0         WATEQF                 lgK:9.30(3SF)     0   CMN   5416
+ 745   300     0.1         KCl/m                lgK:10.653(5SF)    3   MHY   5947
+ 746   300     0.5         KCl/m                lgK:10.187(5SF)    3   MHY   5947
+ 747   300      1          KCl/m                 lgK:9.975(4SF)    0   MHY   5947
+ 748   300      3          KCl/m                 lgK:9.572(4SF)    0   MHY   5947
+ 749   325      0      Inf. Dilution          lgK:11.638(0.05SD)   3   MCN   5343
+ 750   325      0      Inf. Dilution             lgK:11.49(4SF)    3   ENS   6333
+ 751   325      0      Inf. Dilution            lgK:11.517(5SF)    4   EDN   9075
+ 752   325      0     Inf. Dilution/m            lgK:11.15(4SF)    4   MCN   5846
+ 753   325      0         SOLMNEQ                lgK:11.17(4SF)    0   CMN   5416
+ 754   325      0          WATCH                 lgK:11.15(4SF)    0   CMN   5416
+ 755   325      0         WATEQF                 lgK:9.09(3SF)     0   CMN   5416
+ 756   350      0      Inf. Dilution           lgK:12.144(0.1SD)   0   MCN   5343
+
+
+
+
+                                       – Page 23 of 48 –
+JESS Thermodynamic Database v8.9                                        H2O
+
+
+ 757   350      0      Inf. Dilution             lgK:11.42(4SF)     0   EES   5416
+ 758   350      0      Inf. Dilution             lgK:11.90(4SF)     4   MCN   5846
+ 759   350      0      Inf. Dilution             lgK:11.83(4SF)     0   ENS   6333
+ 760   350      0      Inf. Dilution            lgK:12.065(5SF)     0   EDN   9075
+ 761   350      0     Inf. Dilution/m            lgK:11.42(4SF)     4   MCN   5846
+ 762   350      0         SOLMNEQ                lgK:11.42(4SF)     0   CMN   5416
+ 763   350      0          WATCH                 lgK:11.42(4SF)     0   CMN   5416
+ 764   350      0         WATEQF                 lgK:8.90(3SF)      0   CMN   5416
+ 765    0       0      Inf. Dilution         dH:-62.69(0.005SD)kJ   5   MCL   5343
+ 766    0       0      Inf. Dilution            dH:-15.0(0.06SD)    4   MTD   5416
+ 767    0       0      Inf. Dilution           dH:-62.785(5SF)kJ    6   CRV   5945
+ 768    0       0     Inf. Dilution/m           dH:-14.513(5SF)     4   MTD   5841
+ 769    0       0     Inf. Dilution/m           dH:-14.645(5SF)     5   MTD   14495
+ 770    0       0          KBr/m                dH:-14.531(5SF)     3   MMX   14679
+ 771    0       0          KCl/m              dH:-14.954(0.063SD)   4   MTD   5947
+ 772    0       0          KCl/m                dH:-14.567(5SF)     3   MMX   14679
+ 773    0       0         NaBr/m                dH:-14.472(5SF)     3   MMX   14679
+ 774    0      0.1         KCl/m              dH:-15.096(0.063SD)   4   MTD   5947
+ 775    0      0.5         KCl/m              dH:-15.196(0.069SD)   4   MTD   5947
+ 776    0       1          KCl/m              dH:-15.261(0.075SD)   4   MTD   5947
+ 777    0       1          NaNO3               dH:-14.52(0.04SD)    7   MCL   5305
+ 778    0       3          KCl/m              dH:-15.618(0.054SD)   4   MTD   5947
+ 779    0       3          NaNO3               dH:-14.16(0.06SD)    7   MCL   5305
+ 780    5       0     Inf. Dilution/m           dH:-14.312(5SF)     4   MTD   5841
+ 781    5       0     Inf. Dilution/m           dH:-14.435(5SF)     5   MTD   14495
+ 782    5       0          KBr/m                dH:-14.326(5SF)     3   MMX   14679
+ 783    5       0          KCl/m                dH:-14.365(5SF)     3   MMX   14679
+ 784    5       0         NaBr/m                dH:-14.283(5SF)     3   MMX   14679
+ 785    10      0      Inf. Dilution             dH:-14.18(4SF)     6   CRV    552
+ 786    10      0     Inf. Dilution/m           dH:-14.109(5SF)     4   MTD   5841
+ 787    10      0     Inf. Dilution/m           dH:-14.198(5SF)     5   MTD   14495
+ 788    10      0          KBr/m                dH:-14.121(5SF)     3   MMX   14679
+ 789    10      0          KCl/m                dH:-14.139(5SF)     3   MMX   14679
+ 790    10      0         NaBr/m                dH:-14.079(5SF)     3   MMX   14679
+ 791    10     0.5         NaNO3               dH:-14.18(0.04SD)    7   MCL   5305
+ 792    10      1          NaNO3              dH:-14.12(0.017SD)    7   MCL   5305
+
+
+
+
+                                       – Page 24 of 48 –
+JESS Thermodynamic Database v8.9                                         H2O
+
+
+ 793    10      3          NaNO3              dH:-13.88(0.005SD)     3   MCL   5305
+ 794    15      0      Inf. Dilution             dH:-13.96(4SF)      5   MCL   4987
+ 795    15      0     Inf. Dilution/m           dH:-13.901(5SF)      4   MTD   5841
+ 796    15      0     Inf. Dilution/m           dH:-13.980(5SF)      5   MTD   14495
+ 797    15      0          KBr/m                dH:-13.906(5SF)      3   MMX   14679
+ 798    15      0          KCl/m                dH:-13.921(5SF)      3   MMX   14679
+ 799    15      0         NaBr/m                dH:-13.871(5SF)      3   MMX   14679
+ 800    15     0.5         KNO3                  dH:-13.90(4SF)      5   MCL   4987
+ 801    15     0.5         LiNO3                 dH:-14.00(4SF)      5   MCL   4987
+ 802    15     0.5         NaCl                  dH:-13.95(4SF)      5   MCL   4987
+ 803    15     0.5        NaClO4                 dH:-13.94(4SF)      5   MCL   4987
+ 804    15      1          KNO3                  dH:-13.92(4SF)      5   MCL   4987
+ 805    15      1          LiNO3                 dH:-14.20(4SF)      5   MCL   4987
+ 806    15      1          NaCl                  dH:-14.04(4SF)      5   MCL   4987
+ 807    15      1         NaClO4                 dH:-13.83(4SF)      5   MCL   4987
+ 808    15      2          KNO3                  dH:-13.95(4SF)      5   MCL   4987
+ 809    15      2          LiNO3                 dH:-14.55(4SF)      5   MCL   4987
+ 810    15      2          NaCl                  dH:-14.08(4SF)      5   MCL   4987
+ 811    15      2         NaClO4                 dH:-13.69(4SF)      5   MCL   4987
+ 812    18     0.5         NaNO3               dH:-13.85(0.04SD)     7   MCL   5305
+ 813    18      1          NaNO3              dH:-13.86(0.035SD)     7   MCL   5305
+ 814    18      3          NaNO3              dH:-13.76(0.048SD)     7   MCL   5305
+ 815    20      0     Inf. Dilution/m           dH:-13.692(5SF)      4   MTD   5841
+ 816    20      0     Inf. Dilution/m           dH:-13.744(5SF)      5   MTD   14495
+ 817    20      0          KBr/m                dH:-13.693(5SF)      3   MMX   14679
+ 818    20      0          KCl/m                dH:-13.699(5SF)      3   MMX   14679
+ 819    20      0         NaBr/m                dH:-13.660(5SF)      3   MMX   14679
+ 820    25      0      Inf. Dilution            dH:-13.3(0.1SD)      5   CMN     8
+ 821    25      0      Inf. Dilution         dH:-55.815(0.005SD)kJ   5   MCL   5343
+ 822    25      0      Inf. Dilution            dH:-13.3(0.02SD)     4   MTD   5416
+ 823    25      0      Inf. Dilution            dH:-13.336(5SF)      5   MCL   5859
+ 824    25      0      Inf. Dilution           dH:-55.815(5SF)kJ     6   CRV   5945
+ 825    25      0      Inf. Dilution             dH:-13.3(3SF)       5   MCL   6323
+ 826    25      0      Inf. Dilution             dH:-13.34(4SF)      5   CRV   9402
+ 827    25      0     Inf. Dilution/m          dH:-55.815(5SF)kJ     6   CRV   5237
+ 828    25      0     Inf. Dilution/m           dH:-13.481(5SF)      4   MTD   5841
+
+
+
+
+                                       – Page 25 of 48 –
+JESS Thermodynamic Database v8.9                                      H2O
+
+
+ 829    25      0     Inf. Dilution/m         dH:-54.95(4SF)kJ    4   MTD   5844
+ 830    25      0     Inf. Dilution/m         dH:-13.520(5SF)     5   MTD   14495
+ 831    25      0          KBr/m              dH:-13.472(5SF)     3   MMX   14679
+ 832    25      0          KCl/m            dH:-13.340(0.024SD)   4   MTD   5947
+ 833    25      0          KCl/m              dH:-13.488(5SF)     3   MMX   14679
+ 834    25      0         NaBr/m              dH:-13.445(5SF)     3   MMX   14679
+ 835    25      0       NaCF3SO3/m           dH:-55.8(0.1MD)kJ    6   MTD   6707
+ 836    25      0         Unknown             dH:-13.345(5SF)     3   ENS   7373
+ 837    25     0.1         KCl/m            dH:-13.532(0.024SD)   4   MTD   5947
+ 838    25     0.1         NaCl                dH:-13.24(4SF)     5   MCL   6323
+ 839    25     0.1        NaClO4              dH:-56.4(1.SD)kJ    5   MCL   3223
+ 840    25     0.1        NaClO4               dH:-14.(0.3SD)     5   MCL   6323
+ 841    25     0.5         KCl/m            dH:-13.674(0.045SD)   4   MTD   5947
+ 842    25     0.5         KNO3               dH:-13.6(0.1SD)     5   MCL   6336
+ 843    25     0.5         NaCl               dH:-13.3(0.1SD)     5   MCL   6323
+ 844    25     0.5         NaCl               dH:-13.7(0.03SD)    5   MCL   6336
+ 845    25     0.5        NaClO4              dH:-12.7(0.1SD)     3   MCL   6323
+ 846    25     0.5        NaClO4              dH:-13.2(0.06SD)    5   MCL   6336
+ 847    25     0.5         NaNO3             dH:-13.60(0.01SD)    7   MCL   5305
+ 848    25      1          KCl/m            dH:-13.766(0.063SD)   4   MTD   5947
+ 849    25      1          KNO3               dH:-13.6(0.04SD)    5   MCL   6336
+ 850    25      1          LiNO3              dH:-13.8(0.04SD)    5   MCL   6336
+ 851    25      1       NaCF3SO3/m           dH:-57.1(0.3MD)kJ    6   MTD   6707
+ 852    25      1          NaCl               dH:-13.3(0.2SD)     5   MCL   6323
+ 853    25      1          NaCl               dH:-13.7(0.03SD)    5   MCL   6336
+ 854    25      1         NaClO4              dH:-57.2(3SF)kJ     5   MCL   5942
+ 855    25      1         NaClO4               dH:-12.(0.4SD)     3   MCL   6323
+ 856    25      1         NaClO4             dH:-13.41(0.02SD)    5   MCL   6336
+ 857    25      1          NaNO3               dH:-13.61(4SF)     6   CRV    552
+ 858    25      1          NaNO3            dH:-13.61(0.017SD)    7   MCL   5305
+ 859    25      2          KNO3               dH:-13.6(0.05SD)    5   MCL   6336
+ 860    25      2          NaCl               dH:-13.8(0.03SD)    5   MCL   6336
+ 861    25      2         NaClO4             dH:-13.27(0.02SD)    5   MCL   6336
+ 862    25      3          KCl/m            dH:-14.215(0.117SD)   4   MTD   5947
+ 863    25      3          KNO3               dH:-13.5(0.07SD)    5   MCL   6336
+ 864    25      3         LiClO4               dH:-13.52(4SF)     6   CRV    552
+
+
+
+
+                                     – Page 26 of 48 –
+JESS Thermodynamic Database v8.9                                       H2O
+
+
+ 865    25      3          LiNO3                dH:-14.2(0.03SD)   5   MCL   6336
+ 866    25      3       NaCF3SO3/m             dH:-57.3(0.9MD)kJ   6   MTD   6707
+ 867    25      3          NaCl                 dH:-13.5(0.2SD)    5   MCL   6323
+ 868    25      3          NaCl                 dH:-14.0(0.02SD)   5   MCL   6336
+ 869    25      3         NaClO4                 dH:-12.(0.7SD)    0   MCL   6323
+ 870    25      3         NaClO4               dH:-13.10(0.02SD)   3   MCL   6336
+ 871    25      3          NaNO3              dH:-13.62(0.018SD)   7   MCL   5305
+ 872    25      5       NaCF3SO3/m             dH:-57.6(1.4MD)kJ   6   MTD   6707
+ 873    25      5          NaCl                 dH:-14.2(0.2SD)    5   MCL   6323
+ 874    25      5         NaClO4                 dH:-11.(0.9SD)    0   MCL   6323
+ 875    25      7       NaCF3SO3/m             dH:-58.3(2.0MD)kJ   6   MTD   6707
+ 876    30      0     Inf. Dilution/m           dH:-13.267(5SF)    4   MTD   5841
+ 877    30      0     Inf. Dilution/m           dH:-13.272(5SF)    5   MTD   14495
+ 878    30      0          KBr/m                dH:-13.242(5SF)    3   MMX   14679
+ 879    30      0          KCl/m                dH:-13.235(5SF)    3   MMX   14679
+ 880    30      0         NaBr/m                dH:-13.226(5SF)    3   MMX   14679
+ 881    35      0      Inf. Dilution             dH:-13.03(4SF)    5   MCL   4987
+ 882    35      0     Inf. Dilution/m           dH:-13.051(5SF)    4   MTD   5841
+ 883    35      0     Inf. Dilution/m           dH:-13.025(5SF)    5   MTD   14495
+ 884    35      0          KBr/m                dH:-13.023(5SF)    3   MMX   14679
+ 885    35      0          KCl/m                dH:-12.997(5SF)    3   MMX   14679
+ 886    35      0         NaBr/m                dH:-13.016(5SF)    3   MMX   14679
+ 887    35     0.5         KNO3                  dH:-13.27(4SF)    5   MCL   4987
+ 888    35     0.5         LiNO3                 dH:-13.24(4SF)    5   MCL   4987
+ 889    35     0.5         NaCl                 dH:-13.4(0.1SD)    5   MCL     1
+ 890    35     0.5         NaCl                 dH:-13.4(0.1SD)    5   MCL   4987
+ 891    35     0.5        NaClO4                 dH:-13.08(4SF)    5   MCL   4987
+ 892    35      1          KNO3                  dH:-13.30(4SF)    5   MCL   4987
+ 893    35      1          LiNO3                 dH:-13.43(4SF)    5   MCL   4987
+ 894    35      1          NaCl                 dH:-13.5(0.1SD)    5   MCL     1
+ 895    35      1          NaCl                 dH:-13.5(0.1SD)    5   MCL   4987
+ 896    35      1         NaClO4                 dH:-12.98(4SF)    5   MCL   4987
+ 897    35      2          KNO3                  dH:-13.37(4SF)    5   MCL   4987
+ 898    35      2          LiNO3                 dH:-13.79(4SF)    5   MCL   4987
+ 899    35      2          NaCl                  dH:-13.60(4SF)    5   MCL   4987
+ 900    35      2         NaClO4                 dH:-12.85(4SF)    5   MCL   4987
+
+
+
+
+                                       – Page 27 of 48 –
+JESS Thermodynamic Database v8.9                                        H2O
+
+
+ 901    40      0      Inf. Dilution             dH:-12.67(4SF)     6   CRV    552
+ 902    40      0     Inf. Dilution/m           dH:-12.833(5SF)     4   MTD   5841
+ 903    40      0     Inf. Dilution/m           dH:-12.768(5SF)     5   MTD   14495
+ 904    40      0          KBr/m                dH:-12.794(5SF)     3   MMX   14679
+ 905    40      0          KCl/m                dH:-12.768(5SF)     3   MMX   14679
+ 906    40      0         NaBr/m                dH:-12.778(5SF)     3   MMX   14679
+ 907    40     0.5         NaNO3              dH:-13.02(0.013SD)    7   MCL   5305
+ 908    40      1          NaNO3              dH:-13.13(0.042SD)    7   MCL   5305
+ 909    40      3          NaNO3              dH:-13.35(0.039SD)    7   MCL   5305
+ 910    45      0     Inf. Dilution/m           dH:-12.612(5SF)     4   MTD   5841
+ 911    45      0     Inf. Dilution/m           dH:-12.525(5SF)     5   MTD   14495
+ 912    45      0          KBr/m                dH:-12.569(5SF)     3   MMX   14679
+ 913    45      0          KCl/m                dH:-12.526(5SF)     3   MMX   14679
+ 914    45      0         NaBr/m                dH:-12.548(5SF)     3   MMX   14679
+ 915    50      0      Inf. Dilution            dH:-12.1(0.1SD)     5   CMN     6
+ 916    50      0      Inf. Dilution         dH:-50.91(0.005SD)kJ   5   MCL   5343
+ 917    50      0      Inf. Dilution            dH:-12.1(0.03SD)    4   MTD   5416
+ 918    50      0      Inf. Dilution           dH:-50.877(5SF)kJ    6   CRV   5945
+ 919    50      0     Inf. Dilution/m           dH:-12.390(5SF)     4   MTD   5841
+ 920    50      0     Inf. Dilution/m           dH:-12.275(5SF)     5   MTD   14495
+ 921    50      0          KBr/m                dH:-12.334(5SF)     3   MMX   14679
+ 922    50      0          KCl/m              dH:-12.111(0.033SD)   4   MTD   5947
+ 923    50      0          KCl/m                dH:-12.279(5SF)     3   MMX   14679
+ 924    50      0         NaBr/m                dH:-12.316(5SF)     3   MMX   14679
+ 925    50      0       NaCF3SO3/m             dH:-50.7(0.2MD)kJ    6   MTD   6707
+ 926    50     0.1         KCl/m              dH:-12.385(0.033SD)   4   MTD   5947
+ 927    50     0.5         KCl/m              dH:-12.595(0.051SD)   4   MTD   5947
+ 928    50      1          KCl/m              dH:-12.725(0.069SD)   4   MTD   5947
+ 929    50      1       NaCF3SO3/m             dH:-52.8(0.3MD)kJ    6   MTD   6707
+ 930    50      3          KCl/m              dH:-13.296(0.132SD)   4   MTD   5947
+ 931    50      3       NaCF3SO3/m             dH:-53.6(0.7MD)kJ    6   MTD   6707
+ 932    50      5       NaCF3SO3/m             dH:-54.5(1.2MD)kJ    6   MTD   6707
+ 933    50      7       NaCF3SO3/m             dH:-55.7(1.6MD)kJ    6   MTD   6707
+ 934    55      0     Inf. Dilution/m           dH:-12.164(5SF)     4   MTD   5841
+ 935    55      0          KBr/m                dH:-12.084(5SF)     3   MMX   14679
+ 936    55      0          KCl/m                dH:-12.030(5SF)     3   MMX   14679
+
+
+
+
+                                       – Page 28 of 48 –
+JESS Thermodynamic Database v8.9                                        H2O
+
+
+ 937    55      0         NaBr/m                dH:-12.079(5SF)     3   MMX   14679
+ 938    55     0.5         NaNO3               dH:-12.53(0.01SD)    7   MCL   5305
+ 939    55      1          NaNO3              dH:-12.65(0.055SD)    7   MCL   5305
+ 940    55      3          NaNO3               dH:-13.05(0.07SD)    7   MCL   5305
+ 941    60      0     Inf. Dilution/m           dH:-11.936(5SF)     4   MTD   5841
+ 942    60      0          KBr/m                dH:-11.849(5SF)     3   MMX   14679
+ 943    60      0          KCl/m                dH:-11.777(5SF)     3   MMX   14679
+ 944    60      0         NaBr/m                dH:-11.849(5SF)     3   MMX   14679
+ 945    70      1          NaNO3               dH:-12.16(0.04SD)    7   MCL   5305
+ 946    70      3          NaNO3               dH:-12.80(0.05SD)    7   MCL   5305
+ 947    75      0      Inf. Dilution         dH:-46.50(0.005SD)kJ   5   MCL   5343
+ 948    75      0      Inf. Dilution            dH:-11.1(0.06SD)    4   MTD   5416
+ 949    75      0      Inf. Dilution           dH:-46.488(5SF)kJ    6   CRV   5945
+ 950    75      0          KCl/m              dH:-11.063(0.057SD)   4   MTD   5947
+ 951    75     0.1         KCl/m              dH:-11.449(0.054SD)   4   MTD   5947
+ 952    75     0.5         KCl/m              dH:-11.753(0.066SD)   4   MTD   5947
+ 953    75      1          KCl/m              dH:-11.939(0.078SD)   4   MTD   5947
+ 954    75      3          KCl/m              dH:-12.661(0.153SD)   4   MTD   5947
+ 955   100      0      Inf. Dilution            dH:-10.0(0.1SD)     5   CMN     4
+ 956   100      0      Inf. Dilution         dH:-42.05(0.005SD)kJ   5   MCL   5343
+ 957   100      0      Inf. Dilution            dH:-10.0(0.08SD)    4   MTD   5416
+ 958   100      0      Inf. Dilution           dH:-42.025(5SF)kJ    6   CRV   5945
+ 959   100      0          KCl/m              dH:-10.045(0.084SD)   4   MTD   5947
+ 960   100      0       NaCF3SO3/m             dH:-42.3(0.3MD)kJ    6   MTD   6707
+ 961   100     0.1         KCl/m              dH:-10.571(0.084SD)   4   MTD   5947
+ 962   100     0.5         KCl/m              dH:-10.999(0.09SD)    4   MTD   5947
+ 963   100      1          KCl/m              dH:-11.259(0.099SD)   4   MTD   5947
+ 964   100      1       NaCF3SO3/m             dH:-46.9(0.3MD)kJ    6   MTD   6707
+ 965   100      3          KCl/m              dH:-12.171(0.183SD)   4   MTD   5947
+ 966   100      3       NaCF3SO3/m             dH:-49.2(0.4MD)kJ    6   MTD   6707
+ 967   100      5       NaCF3SO3/m             dH:-51.5(0.7MD)kJ    6   MTD   6707
+ 968   100      7       NaCF3SO3/m             dH:-54.1(1.0MD)kJ    6   MTD   6707
+ 969   125      0      Inf. Dilution         dH:-37.30(0.005SD)kJ   5   MCL   5343
+ 970   125      0      Inf. Dilution            dH:-8.9(0.09SD)     4   MTD   5416
+ 971   125      0      Inf. Dilution           dH:-37.308(5SF)kJ    6   CRV   5945
+ 972   125      0          KCl/m              dH:-8.943(0.089SD)    4   MTD   5947
+
+
+
+
+                                       – Page 29 of 48 –
+JESS Thermodynamic Database v8.9                                        H2O
+
+
+ 973    125    0.1         KCl/m              dH:-9.641(0.099SD)    4   MTD   5947
+ 974    125    0.5         KCl/m              dH:-10.228(0.105SD)   4   MTD   5947
+ 975    125     1          KCl/m              dH:-10.584(0.117SD)   4   MTD   5947
+ 976    125     3          KCl/m              dH:-11.737(0.216SD)   4   MTD   5947
+ 977    150     0      Inf. Dilution         dH:-31.96(0.005SD)kJ   5   MCL   5343
+ 978    150     0      Inf. Dilution             dH:-7.7(0.1SD)     4   MTD   5416
+ 979    150     0      Inf. Dilution           dH:-32.188(5SF)kJ    6   CRV   5945
+ 980    150     0          KCl/m              dH:-7.666(0.096SD)    4   MTD   5947
+ 981    150     0       NaCF3SO3/m              dH:-32.7(3SF)kJ     6   MTD   6707
+ 982    150    0.1         KCl/m                dH:-8.579(0.1SD)    4   MTD   5947
+ 983    150    0.5         KCl/m              dH:-9.375(0.105SD)    4   MTD   5947
+ 984    150     1          KCl/m              dH:-9.860(0.177SD)    4   MTD   5947
+ 985    150     1       NaCF3SO3/m             dH:-40.7(0.3MD)kJ    0   MTD   6707
+ 986    150     3          KCl/m              dH:-11.320(0.25SD)    4   MTD   5947
+ 987    150     3       NaCF3SO3/m             dH:-45.1(0.5MD)kJ    6   MTD   6707
+ 988    150     5       NaCF3SO3/m             dH:-49.1(0.7MD)kJ    6   MTD   6707
+ 989    150     7       NaCF3SO3/m             dH:-53.7(1.0MD)kJ    6   MTD   6707
+ 990    175     0      Inf. Dilution         dH:-25.68(0.005SD)kJ   5   MCL   5343
+ 991    175     0      Inf. Dilution             dH:-6.1(0.1SD)     4   MTD   5416
+ 992    175     0          KCl/m                dH:-6.137(0.1SD)    4   MTD   5947
+ 993    175    0.1         KCl/m                dH:-7.338(0.1SD)    4   MTD   5947
+ 994    175    0.5         KCl/m              dH:-8.421(0.105SD)    4   MTD   5947
+ 995    175     1          KCl/m               dH:-9.086(0.13SD)    4   MTD   5947
+ 996    175     3          KCl/m              dH:-10.957(0.29SD)    4   MTD   5947
+ 997    200     0      Inf. Dilution         dH:-17.98(0.005SD)kJ   5   MCL   5343
+ 998    200     0      Inf. Dilution             dH:-4.3(0.2SD)     4   MTD   5416
+ 999    200     0          KCl/m              dH:-4.286(0.190SD)    4   MTD   5947
+ 1000   200     0       NaCF3SO3/m             dH:-18.7(0.6MD)kJ    6   MTD   6707
+ 1001   200    0.1         KCl/m              dH:-5.904(0.168SD)    4   MTD   5947
+ 1002   200    0.5         KCl/m               dH:-7.405(0.17SD)    4   MTD   5947
+ 1003   200     1          KCl/m                dH:-8.331(0.2SD)    4   MTD   5947
+ 1004   200     1       NaCF3SO3/m             dH:-32.6(0.5MD)kJ    3   MTD   6707
+ 1005   200     3          KCl/m              dH:-10.778(0.40SD)    4   MTD   5947
+ 1006   200     3       NaCF3SO3/m             dH:-40.1(0.9MD)kJ    3   MTD   6707
+ 1007   200     5       NaCF3SO3/m             dH:-46.6(1.4MD)kJ    6   MTD   6707
+ 1008   225     0      Inf. Dilution          dH:-8.02(0.005SD)kJ   4   MCL   5343
+
+
+
+
+                                       – Page 30 of 48 –
+JESS Thermodynamic Database v8.9                                        H2O
+
+
+ 1009   225     0      Inf. Dilution             dH:-2.(0.4SD)      3   MTD   5416
+ 1010   225     0          KCl/m               dH:-2.038(0.36SD)    4   MTD   5947
+ 1011   225    0.1         KCl/m               dH:-4.297(0.33SD)    4   MTD   5947
+ 1012   225    0.5         KCl/m               dH:-6.437(0.32SD)    4   MTD   5947
+ 1013   225     1          KCl/m               dH:-7.763(0.36SD)    4   MTD   5947
+ 1014   225     3          KCl/m              dH:-11.060(0.63SD)    4   MTD   5947
+ 1015   250     0      Inf. Dilution           dH:5.66(0.01SD)kJ    0   MCL   5343
+ 1016   250     0      Inf. Dilution            dH:0.711(0.6SD)     3   MTD   5416
+ 1017   250     0          KCl/m                dH:0.711(0.60SD)    4   MTD   5947
+ 1018   250     0       NaCF3SO3/m              dH:2.5(1.9MD)kJ     6   MTD   6707
+ 1019   250    0.1         KCl/m               dH:-2.562(0.56SD)    4   MTD   5947
+ 1020   250    0.5         KCl/m               dH:-5.719(0.55SD)    4   MTD   5947
+ 1021   250     1          KCl/m               dH:-7.678(0.63SD)    4   MTD   5947
+ 1022   250     1       NaCF3SO3/m             dH:-24.8(1.8MD)kJ    3   MTD   6707
+ 1023   250     3          KCl/m              dH:-12.293(1.065SD)   4   MTD   5947
+ 1024   250     3       NaCF3SO3/m             dH:-38.0(2.1MD)kJ    3   MTD   6707
+ 1025   250     5       NaCF3SO3/m             dH:-48.5(2.8MD)kJ    6   MTD   6707
+ 1026   275     0      Inf. Dilution          dH:26.00(0.02SD)kJ    3   MCL   5343
+ 1027   275     0      Inf. Dilution              dH:4.(0.9SD)      0   MTD   5416
+ 1028   275     0          KCl/m                dH:4.172(0.93SD)    4   MTD   5947
+ 1029   275    0.1         KCl/m                dH:0.729(0.86SD)    4   MTD   5947
+ 1030   275    0.5         KCl/m               dH:-5.536(0.88SD)    4   MTD   5947
+ 1031   275     1          KCl/m               dH:-8.535(1.06SD)    4   MTD   5947
+ 1032   275     3          KCl/m              dH:-15.291(1.88SD)    4   MTD   5947
+ 1033   300     0      Inf. Dilution          dH:60.14(0.03SD)kJ    0   MCL   5343
+ 1034   300     0      Inf. Dilution              dH:9.(1.SD)       0   MTD   5416
+ 1035   300     0          KCl/m                dH:8.905(1.35SD)    3   MTD   5947
+ 1036   300    0.1         KCl/m                dH:1.367(1.24SD)    4   MTD   5947
+ 1037   300    0.5         KCl/m               dH:-6.186(1.37SD)    4   MTD   5947
+ 1038   300     1          KCl/m              dH:-10.949(1.82SD)    4   MTD   5947
+ 1039   300     3          KCl/m               dH:-21.377(3.5SD)    0   MTD   5947
+ 1040   325     0      Inf. Dilution          dH:130.5(0.05SD)kJ    3   MCL   5343
+ 1041   350     0      Inf. Dilution           dH:359.3(0.1SD)kJ    3   MCL   5343
+ 1042   50      0          P=100               Cp:-194.(5.SD)J/K    5   MCL   29316
+                       Inf. Dilution
+ 1043   100     0          P=100               Cp:-167.(4.SD)J/K    5   MCL   29316
+                       Inf. Dilution
+
+
+
+
+                                       – Page 31 of 48 –
+JESS Thermodynamic Database v8.9                                       H2O
+
+
+ 1044   150     0          P=100               Cp:-222.(5.SD)J/K   5   MCL   29316
+                       Inf. Dilution
+ 1045   200     0          P=100              Cp:-344.(11.SD)J/K   4   MCL   29316
+                       Inf. Dilution
+ 1046   250     0          P=100              Cp:-531.(24.SD)J/K   3   MCL   29316
+                       Inf. Dilution
+ 1047   300     0          P=100              Cp:-928.(70.SD)J/K   2   MCL   29316
+                       Inf. Dilution
+ 1048    0      0      Inf. Dilution            Cp:366.(3SF)J/K    5   MCL   5343
+ 1049    0      0      Inf. Dilution            Cp:308.5(4SF)J/K   6   CRV   5945
+ 1050   25      0      Inf. Dilution            Cp:219.(3SF)J/K    5   MCL   5343
+ 1051   25      0      Inf. Dilution            Cp:231.5(4SF)J/K   6   CRV   5945
+ 1052   25      0      Inf. Dilution             Cp:55.50(4SF)     5   CRV   9402
+ 1053   25      0      Inf. Dilution            Cp:215.2(4SF)J/K   5   CRV   11874
+ 1054   25      0      Inf. Dilution            Cp:213.8(4SF)J/K   7   MCL   13945
+ 1055   25      0      Inf. Dilution            Cp:215.(3SF)J/K    5   MCL   22170
+ 1056   25      0     Inf. Dilution/m           Cp:215.0(4SF)J/K   6   CRV   5237
+ 1057   25      0     Inf. Dilution/m           Cp:215.(3SF)J/K    7   CRV   6235
+ 1058   25      0       NaCF3SO3/m              Cp:234.(8.MD)J/K   6   MTD   6707
+ 1059   25      1       NaCF3SO3/m              Cp:207.(8.MD)J/K   6   MTD   6707
+ 1060   25      3       NaCF3SO3/m             Cp:185.(10.MD)J/K   6   MTD   6707
+ 1061   25      5       NaCF3SO3/m             Cp:164.(13.MD)J/K   6   MTD   6707
+ 1062   25      7       NaCF3SO3/m             Cp:142.(16.MD)J/K   6   MTD   6707
+ 1063   50      0      Inf. Dilution            Cp:182.(3SF)J/K    5   MCL   5343
+ 1064   50      0      Inf. Dilution            Cp:188.7(4SF)J/K   6   CRV   5945
+ 1065   50      0       NaCF3SO3/m              Cp:183.(7.MD)J/K   6   MTD   6707
+ 1066   50      1       NaCF3SO3/m              Cp:144.(7.MD)J/K   6   MTD   6707
+ 1067   50      3       NaCF3SO3/m             Cp:118.(10.MD)J/K   6   MTD   6707
+ 1068   50      5       NaCF3SO3/m              Cp:93.(14.MD)J/K   6   MTD   6707
+ 1069   50      7       NaCF3SO3/m              Cp:68.(18.MD)J/K   6   MTD   6707
+ 1070   75      0      Inf. Dilution            Cp:175.(3SF)J/K    5   MCL   5343
+ 1071   75      0      Inf. Dilution            Cp:180.0(4SF)J/K   6   CRV   5945
+ 1072   100     0      Inf. Dilution            Cp:182.(3SF)J/K    5   MCL   5343
+ 1073   100     0      Inf. Dilution            Cp:205.5(4SF)J/K   6   CRV   5945
+ 1074   100     0       NaCF3SO3/m              Cp:167.(5.MD)J/K   6   MTD   6707
+ 1075   100     1       NaCF3SO3/m              Cp:110.(5.MD)J/K   6   MTD   6707
+ 1076   100     3       NaCF3SO3/m              Cp:75.(9.MD)J/K    6   MTD   6707
+ 1077   100     5       NaCF3SO3/m              Cp:43.(15.MD)J/K   6   MTD   6707
+
+
+
+
+                                       – Page 32 of 48 –
+JESS Thermodynamic Database v8.9                                         H2O
+
+
+ 1078   100     7       NaCF3SO3/m              Cp:11.(21.MD)J/K     6   MTD   6707
+ 1079   125     0      Inf. Dilution            Cp:200.(3SF)J/K      5   MCL   5343
+ 1080   125     0      Inf. Dilution            Cp:265.1(4SF)J/K     5   CRV   5945
+ 1081   150     0      Inf. Dilution            Cp:230.(3SF)J/K      5   MCL   5343
+ 1082   150     0       NaCF3SO3/m              Cp:227.(7.MD)J/K     6   MTD   6707
+ 1083   150     1       NaCF3SO3/m              Cp:143.(7.MD)J/K     6   MTD   6707
+ 1084   150     3       NaCF3SO3/m              Cp:95.(11.MD)J/K     6   MTD   6707
+ 1085   150     5       NaCF3SO3/m              Cp:53.(17.MD)J/K     6   MTD   6707
+ 1086   150     7       NaCF3SO3/m              Cp:12.(24.MD)J/K     6   MTD   6707
+ 1087   175     0      Inf. Dilution            Cp:278.(3SF)J/K      5   MCL   5343
+ 1088   200     0      Inf. Dilution            Cp:352.(3SF)J/K      5   MCL   5343
+ 1089   200     0       NaCF3SO3/m             Cp:341.(21.MD)J/K     6   MTD   6707
+ 1090   200     1       NaCF3SO3/m             Cp:174.(20.MD)J/K     6   MTD   6707
+ 1091   200     3       NaCF3SO3/m              Cp:94.(21.MD)J/K     6   MTD   6707
+ 1092   200     5       NaCF3SO3/m              Cp:34.(26.MD)J/K     6   MTD   6707
+ 1093   225     0      Inf. Dilution            Cp:474.(3SF)J/K      5   MCL   5343
+ 1094   250     0      Inf. Dilution            Cp:690.(3SF)J/K      5   MCL   5343
+ 1095   250     0       NaCF3SO3/m             Cp:545.(39.MD)J/K     6   MTD   6707
+ 1096   250     1       NaCF3SO3/m             Cp:124.(38.MD)J/K     6   MTD   6707
+ 1097   250     3       NaCF3SO3/m             Cp:-49.(39.MD)J/K     6   MTD   6707
+ 1098   250     5       NaCF3SO3/m            Cp:-155.(44.MD)J/K     6   MTD   6707
+ 1099   275     0      Inf. Dilution            Cp:1121.(4SF)J/K     5   MCL   5343
+ 1100   300     0      Inf. Dilution            Cp:2164.(4SF)J/K     5   MCL   5343
+ 1101   25      1       MeCN:Water           lgK:13.752(0.0008SD)    5   MGL   7147
+                         0:100Vol
+                          NaClO4
+ 1102   25      1       MeCN:Water           lgK:13.9160(0.001SD)    5   MGL   6141
+                         10:90Vol
+                          NaClO4
+ 1103   25      1       MeCN:Water            lgK:13.916(0.001SD)    5   MGL   7147
+                         10:90Vol
+                          NaClO4
+ 1104   25      1       MeCN:Water           lgK:14.1920(0.001SD)    5   MGL   6141
+                         20:80Vol
+                          NaClO4
+ 1105   25      1       MeCN:Water            lgK:14.192(0.001SD)    5   MGL   7147
+                         20:80Vol
+                          NaClO4
+ 1106   25      1       MeCN:Water           lgK:14.4180(0.0007SD)   5   MGL   6141
+                         30:70Vol
+                          NaClO4
+
+
+
+
+                                       – Page 33 of 48 –
+JESS Thermodynamic Database v8.9                                                        H2O
+
+
+ 1107        25           1       MeCN:Water         lgK:14.418(0.0007SD)       5       MGL     7147
+                                   30:70Vol
+                                    NaClO4
+ 1108        25           1       MeCN:Water         lgK:14.9710(0.0009SD)      5       MGL     6141
+                                   50:50Vol
+                                    NaClO4
+ 1109        25           1       MeCN:Water         lgK:14.971(0.0009SD)       5       MGL     7147
+                                   50:50Vol
+                                    NaClO4
+ 1110        25           1       MeCN:Water         lgK:15.9190(0.0017SD)      5       MGL     6141
+                                   70:30Vol
+                                    NaClO4
+ 1111        25           1       MeCN:Water          lgK:15.919(0.002SD)       5       MGL     7147
+                                   70:30Vol
+                                    NaClO4
+
+
+Reaction No. 4811
+O2(g) + 4<e-1> + 4<H+1> = 2<H2O>
+ No     t         I-Str          Medium                Value (Dev)          W    Tech.        Ref. #
+ 1      25          0         Inf. Dilution          lgK:83.00(4SF)         0       CRV        6405
+ 2      25          0         Inf. Dilution           E:1.229(4SF)          0       CRV        6330
+ 3      25          0         Inf. Dilution           E:1.229(4SF)          0       ENS        7276
+ 4      25          0         Inf. Dilution           E:1.229(4SF)          0       ENS        7381
+ 5      25          0         Inf. Dilution          E:1.2291(5SF)          9       CRV        7761
+ 6      25          0         Inf. Dilution           E:1.229(4SF)          0       CRV       17631
+ 7      25          0         Inf. Dilution           E:1.229(4SF)          0       CRV       22551
+ 8      25          0         Inf. Dilution         dH:-571.7(4SF)kJ        2       CRV        7761
+
+
+Reaction No. 4812
+O2(g) + 2<H2O> + 4<e-1> = 4<OH-1>
+ No     t         I-Str          Medium                Value (Dev)          W    Tech.        Ref. #
+ 1      25          0         Inf. Dilution          lgK:27.15(4SF)         1       ELC
+ 2      25          0         Inf. Dilution           E:0.401(3SF)          0       CRV        6330
+ 3      25          0         Inf. Dilution           E:0.401(3SF)          0       ENS        7276
+ 4      25          0         Inf. Dilution           E:0.401(3SF)          0       ENS        7381
+ 5      25          0         Inf. Dilution          E:0.4011(4SF)          0       CRV        7761
+ 6      25          0         Inf. Dilution         dH:-348.3(4SF)kJ        2       CRV        7761
+
+
+Reaction No. 54633
+H+1 + e-1 = 0.5<H2(g)>
+ No      t         I-Str            Medium             Value (Dev)     W        Tech.         Ref. #
+
+
+
+
+                                               – Page 34 of 48 –
+JESS Thermodynamic Database v8.9                                                H2O
+
+
+ 1    25      0            Inf. Dilution           dG:0.0(6SF)        9   CDF         802
+ 2    25      0            Inf. Dilution            E:0.0(1SF)        9   CDF         140
+ 3    25      0            Inf. Dilution            E:0.0(1SF)        9   CDF         6330
+ 4    25      0            Inf. Dilution            E:0.0(1SF)        9   CDF         7761
+ 5    25      0            Inf. Dilution           dH:0.0(6SF)        9   CDF         802
+
+
+Reaction No. 54645
+H2(g) + 0.5<O2(g)> = H2O
+No     t      I-Str          Medium                  Value (Dev)          W   Tech.   Ref. #
+ 1     25         0    Inf. Dilution               lgK:41.55(4SF)         4     ENS    6422
+ 2     27         0    Inf. Dilution               lgK:41.24(4SF)         0     ENS    6422
+ 3   100.15       0    Inf. Dilution               lgK:31.52(4SF)         0     ENS    6422
+ 4     0          0   Inf. Dilution              dG:-57.67(0.005SD)       0     CRV    5169
+ 5     25         0    Inf. Dilution             dG:-56.69(0.005SD)       2     CRV    5169
+ 6     25         0    Inf. Dilution               dG:-56.675(5SF)        4     EFE    6482
+ 7     25         0    Inf. Dilution              dG:-237.13(5SF)kJ       5     EFE    7275
+ 8     25         0    Inf. Dilution             dG:-237.130(6SF)kJ       5     CRV    8695
+ 9     25         0    Inf. Dilution              dG:-237.1(4SF)kJ        2     CRV    8746
+10     25         0    Inf. Dilution             dG:-237.140(6SF)kJ       6     CRV    8798
+11     25         0    Inf. Dilution             dG:-237.130(6SF)kJ       5     CRV    9015
+12     25         0    Inf. Dilution               dG:-56.69(4SF)         2     CRV   10174
+13     25         0    Inf. Dilution            dG:-237.14(0.04SD)kJ      4     CRV   13451
+14     25         0    Inf. Dilution            dG:-237.14(0.041SD)kJ     6     CRV   14923
+15     25         0    Inf. Dilution           dG:-237.140(0.041MD)kJ     7     CRV   20827
+16     25         0    Inf. Dilution             dG:-237.180(6SF)kJ       2     CRV   23205
+17     25         0    Inf. Dilution             dG:-237.180(6SF)kJ       3     EOD   23205
+18     25         0    Inf. Dilution              dG:-237.13(5SF)kJ       3     EOD   26787
+19     25         0    Inf. Dilution              dG:-237.18(5SF)kJ       3     EFE   28693
+20     25         0    Inf. Dilution              dG:-237.18(5SF)kJ       3     CRV   29482
+21     25         0    Inf. Dilution               dG:-56.69(4SF)         2     EOD   29489
+22     25         0    Inf. Dilution              dG:-237.14(5SF)kJ       5     EOD   29520
+23     25         0    Inf. Dilution              dG:-237.14(5SF)kJ       4     CRV   29556
+24     25         0    Inf. Dilution              dG:-237.14(5SF)kJ       3     CRV   30197
+25     25         0         GAMSPATH              dG:-237.2(4SF)kJ        2     CRV   12638
+26     25         0   Inf. Dilution/m             dG:-237.15(5SF)kJ       5     EPZ    8833
+27     25         0   Inf. Dilution/m            dG:-237.130(6SF)kJ       3     CRV   24953
+
+
+
+
+                                           – Page 35 of 48 –
+JESS Thermodynamic Database v8.9                                       H2O
+
+
+28     50     0      Inf. Dilution          dG:-55.72(0.005SD)     3   CRV   5169
+29     50     0      Inf. Dilution            dG:-57.12(4SF)       0   CRV   10174
+30     75     0      Inf. Dilution          dG:-54.77(0.005SD)     0   CRV   5169
+31     75     0      Inf. Dilution            dG:-57.59(4SF)       0   CRV   10174
+32    100     0      Inf. Dilution          dG:-53.82(0.005SD)     0   CRV   5169
+33    100     0      Inf. Dilution            dG:-58.10(4SF)       0   CRV   10174
+34    125     0      Inf. Dilution          dG:-52.90(0.005SD)     0   CRV   5169
+35    125     0      Inf. Dilution            dG:-58.63(4SF)       0   CRV   10174
+36    150     0      Inf. Dilution          dG:-51.94(0.005SD)     0   CRV   5169
+37    150     0      Inf. Dilution            dG:-59.19(4SF)       0   CRV   10174
+38    175     0      Inf. Dilution            dG:-59.78(4SF)       0   CRV   10174
+39    200     0      Inf. Dilution            dG:-60.39(4SF)       0   CRV   10174
+40    225     0      Inf. Dilution            dG:-61.03(4SF)       0   CRV   10174
+41    250     0      Inf. Dilution            dG:-61.69(4SF)       0   CRV   10174
+42    300     0      Inf. Dilution            dG:-63.07(4SF)       0   CRV   10174
+43     25     0      Inf. Dilution           dH:-68.32(0.01SD)     4   CRV   5605
+44     25     0      Inf. Dilution            dH:-68.32(4SF)       4   MTD   6422
+45     25     0      Inf. Dilution            dH:-68.315(5SF)      4   EFE   6482
+46     25     0      Inf. Dilution           dH:-285.83(5SF)kJ     5   EFE   7275
+47     25     0      Inf. Dilution          dH:-285.830(6SF)kJ     5   CRV   8695
+48     25     0      Inf. Dilution        dH:-285.830(0.040MD)kJ   6   CRV   8746
+49     25     0      Inf. Dilution          dH:-285.830(6SF)kJ     6   CRV   8798
+50     25     0      Inf. Dilution          dH:-285.830(6SF)kJ     5   CRV   9015
+51     25     0      Inf. Dilution           dH:-285.83(5SF)kJ     4   CRV   13451
+52     25     0      Inf. Dilution         dH:-285.83(0.040SD)kJ   6   CRV   14923
+53     25     0      Inf. Dilution        dH:-285.830(0.040MD)kJ   7   CRV   20827
+54     25     0      Inf. Dilution           dH:-285.83(5SF)kJ     3   EOD   26787
+55     25     0      Inf. Dilution           dH:-285.84(5SF)kJ     5   CRV   29482
+56     25     0      Inf. Dilution            dH:-68.32(4SF)       2   EOD   29489
+57     25     0      Inf. Dilution           dH:-285.89(5SF)kJ     3   MCL   29513
+58     25     0      Inf. Dilution           dH:-285.83(5SF)kJ     5   EOD   29520
+59     25     0      Inf. Dilution           dH:-285.83(5SF)kJ     4   CRV   29556
+60     25     0        GAMSPATH              dH:-285.83(5SF)kJ     3   CRV   12638
+61     25     0     Inf. Dilution/m         dH:-285.830(6SF)kJ     3   CRV   24953
+62     27     0      Inf. Dilution            dH:-68.30(4SF)       0   MTD   6422
+63   100.15   0      Inf. Dilution            dH:-67.75(4SF)       0   MTD   6422
+
+
+
+
+                                      – Page 36 of 48 –
+JESS Thermodynamic Database v8.9                                             H2O
+
+
+64       25      0         Inf. Dilution         Cp:75.351(0.080MD)J/K   7   CRV   20827
+65       25      0         Inf. Dilution           Cp:75.19(4SF)J/K      3   EOD   26787
+
+
+
+
+                                     Data Assessment
+
+
+Weight                       Assessment
+9        highest accuracy
+8        multi-determined; excellent dependability
+7        trustworthy; outstanding single determination
+6        better than average reliability
+5        average single determination
+4        some doubt
+3        poorly known
+2        guess to achieve consistency (or just as bad)
+1        no information but consistent
+0        problematic/inconsistent
+
+
+
+
+                                           Techniques
+
+
+Abbrev                         Method
+CDF      Definition
+CMN      Several experimental values (crit.)
+CRV      Critical review
+EDH      Debye-Hueckel corrections
+EDN      Density model (estim.)
+EDT      Debye-Hueckel & Temperature corrections
+EES      Personal estimate
+EFE      Free Energy relations
+EIE      Interpolation/Extrapolation (not Debye-Huekel)
+ELC      Linear Combination of Reactions
+ENS      Not specified
+EOD      Calculated from data of others
+EPZ      Pitzer model correction
+
+
+
+                                            – Page 37 of 48 –
+JESS Thermodynamic Database v8.9                                         H2O
+
+
+MCL    Calorimetry
+MCN    Conductivity
+MEF    Electromotoric force, not specified
+MGL    Glass electrode
+MHY    Emf with hydrogen electrode
+MMX    Mixed techniques
+MPS    Potentiometry and Spectrophotometry
+MPT    Potentiometry
+MSL    Solubility
+MTD    Temperature difference
+
+
+
+
+                                     References
+
+
+Reference No.: 1(74VaS)
+Zh. Neorg. Khim., 1974, 19, 2969(E:1623) - 2972; Vasil'ev VP; Shekhanova LD;
+Calorimetric Determination of the Heat of Ionization of Water in the Presence of
+Different Electrolytes
+
+Reference No.: 2(72CBP)
+J. Chim. Phys., 1972, 69, 1437 - 1439; Carpeni G; Boitard E; Pilard R; Poize S; Sabiani
+N; Potentiometric Determination of H+ Ion Concentrations and the Ionic Product of a
+Given Solvent
+
+Reference No.: 3(69Hol)
+J. Chem. Phys., 1969, 50, 4424 - 4428; Holzappel WB; Effect of Pressure and Temperature
+on the Conductivity and Ionic Dissociation of Water up to 100 kbar and 1000C
+
+Reference No.: 4(73OlO)
+J. Chem. Thermodyn., 1973, 5, 533 - 539; Olofsson G; Olofsson I; Calorimetric
+Determination of the Enthalpy of Ionization of Water from 298 to 418 K
+
+Reference No.: 6(70GOG)
+Acta Chem. Scand., 1970, 24, 1067 - 1080; Grenthe I; Ots H; Ginstrup O; Calorimetric
+Determination of the Enthalpy of Ionization of Water and the Enthalpy of Protonation of
+THAM [Tris(hydroxymethyl)aminomethane] at 5, 20, 25, 35, and 50C
+
+Reference No.: 8(76SmM)
+Critical Stability Constants, Vol. 4, 1976 Smith RM; Martell AE; Plenum, New York
+
+Reference No.: 9(64FiB)
+Bull. Soc. Chim. Fr., 1964,, 2920 - 2929; Fischer R; Bye J; Etude de l'Influence des
+Sels de Fond sur le Produit Ionique Apparent de l'Eau et la Constante Apparente de la
+Deuxieme Alcalinite de l'Ethylene Diamine
+
+Reference No.: 10(82SmM)
+Critical Stability Constants, Vol. 5, 1982 Smith RM; Martell AE; Plenum, New York
+
+
+
+
+                                      – Page 38 of 48 –
+JESS Thermodynamic Database v8.9                                         H2O
+
+
+Reference No.: 49(60CaO)
+Acta Chem. Scand., 1960, 14, 1999 - 2008; Carell B; Olin A; Studies on the Hydrolysis
+of Metal Ions. 31. The Complex Formation between Pb2+ and OH- in Na+(OH-, CLO4-) Medium
+
+Reference No.: 56(71Per)
+Acta Chem. Scand., 1971, 25, 543 - 550; Persson H; The Complex Formation in the Zinc
+Cyanide and Cadmium Cyanide Systems
+
+Reference No.: 140(64SiM)
+Stability Constants of Metal-ion Complexes SP17, 1964 Sillen LG; Martell AE; The
+Chemical Soc.,London
+
+Reference No.: 196(55Agr)
+Acta Chem. Scand., 1955, 9, 39 - 48; Agren A; The Complex Formation between Iron(III)
+Ion and Some Phenols. III. Salicylaldehyde, o-Hydroxyacetophenone, Salicylamide and
+Methyl Salicylate
+
+Reference No.: 243(89Ber)
+Private Communication, 1989 Berthon G
+
+Reference No.: 405(73DyH)
+Mar. Chem., 1973, 1, 137 - 149; Dyrssen D; Hansson I; Ionic Medium Effects in Seawater
+- A Comparison of Acidity Constants of Carbonic Acid and Boric Acid in Sodium Chloride
+and Synthetic Seawater
+
+Reference No.: 426(57ILF)
+Acta Chem. Scand., 1957, 11, 1034 - 1058; Ingri N; Lagerstrom G; Frydman M; Sillen LG;
+Equilibrium Studies of Polyanions. II. Polyborates in NaClo4 Medium
+
+Reference No.: 455(74SaS)
+J. Chem. Soc., Dalton Trans., 1974,, 181 - 184; Santschi PH; Schindler PW; Complex
+Formation in the Ternary Systems Ca+2-H4SiO4-H2O and Mg+2-H4SiO4-H2O
+
+Reference No.: 552(95SMM)
+NIST Critical Stability Constants of Metal Complexes Database, 1995 Smith RM; Martell
+AE; Motekaitis RJ; Version 2.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 670(65Hug)
+Bull. Soc. Chim. Fr., 1965,, 968 - 971; Hugel R; Etude de l'Hydrolyse de l'Ion Pb+2
+dans les Solutions de Nitrate de Sodium
+
+Reference No.: 769(88RoV)
+Talanta, 1988, 35, 271 - 275; Rogers HR; van den Berg CMG; Determination of Borate Ion-
+Pair Stability Constants by Potentiometry and Non-approximative Linearization of
+Titration Data
+
+Reference No.: 792(64KrS)
+Vestn. Leningr. Univ., Fiz., Khim., 1964, 10, 90 Kravtsov VI; Simakov BV; Study of the
+Kinetics of Electrode Processes in the Hexachloroplatinate (IV)-
+Tetrachloroplatinate(II) System. II. Influence of the Temperature on the Polarization
+Curve on Platinum, Rhodium and Iridium Electrodes
+
+Reference No.: 802(90Wea)
+CRC Handbook of Chemistry and Physics, 70th Edn., 1990 Weast RC; A Ready-Reference Book
+of Chemical and Physical Data; CRC Press, Cleveland, Ohio
+
+Reference No.: 807(91SZY)
+Anal. Chim. Acta, 1991, 255, 63 - 72; Sigel H; Zuberbuhler AD; Yamauchi O; Comments on
+
+
+
+
+                                        – Page 39 of 48 –
+JESS Thermodynamic Database v8.9                                         H2O
+
+
+Potentiometric pH Titrations and the Relationship between pH-meter Reading and Hydrogen
+Ion Concentration
+
+Reference No.: 901(90VHM)
+Miner. Metall. Process., 1990, 7, 185 - 188; Verhoeven P; Hefter G; May PM;
+Dissociation Constant of Hydrogen Cyanide in Saline Solutions
+
+Reference No.: 911(90Ohm)
+Acta Chem. Scand., 1990, 44, 793 - 795; Ohman L-O; Equilibrium and Structural Studies
+of Silicon(IV) and Aluminium(III) in Aqueous Solution. 26. The Solubility of Aluminium
+Tris(tropolonate)
+
+Reference No.: 1732(77CFR)
+J. Chem. Soc., Faraday Trans. 1, 1977, 73, 1721 - 1730; Covington AK; Ferra MIA;
+Robinson RA; Ionic Product and Enthalpy of Ionization of Water from Electromotive Force
+Measurements
+
+Reference No.: 3223(79BCR)
+Inorg. Chem., 1979, 18, 3417 - 3422; Bonomo RP; Cali R; Riggi F; Rizzarelli E;
+Sammartano S; Siracusa G; Thermodynamic and Spectroscopic Properties of Mixed Complexes
+in Aqueous Solution. Copper(II) Complexes of 2,2'-Bipyridyl and Iminodiacetic or
+Pyridine-2,6-dicarboxylic Acid
+
+Reference No.: 4987(74VaS)
+Russ. J. Inorg. Chem., 1974, 19, 1623 - 1625; Vasil'ev VP; Shekhanova LD; Calorimetric
+Determination of the Heat of Ionisation of Water in the Presence of Various
+Electrolytes Calorimetric Determination of the Heat of Ionisation of Water in the
+Presence of Various Electrlytes
+
+Reference No.: 5027(66ElL)
+Acta Chem. Scand., 1966, 20, 706 - 715; Elding LI; Leden I; On the Stepwise
+Dissociation of the Tetrachloridoplatinate(II) Ion in Aqueous Solution . I. Equilibria
+at 25 degrees Celsius
+
+Reference No.: 5078(54GiM)
+Trans. Faraday Soc., 1954, 50, 965 - 972; Gimblett FGR; Monk CB; EMF Studies of
+Electrolytic Dissociation Part 7. Some Alkali and Alkaline Earth Metal Hydroxides in
+Water
+
+Reference No.: 5156(91ReB)
+Radiochim. Acta, 1991, 52/53, 453 - 456; Read D; Broyd TW; Recent Progress in Testing
+Chemical Equilibrium Models: The CHEMVAL Project
+
+Reference No.: 5169(92PoP)
+Geochim. Cosmochim. Acta, 1992, 56, 3157 - 3178; Pourbaix M; Pourbaix A; Potential-pH
+Equilibrium Diagrams for the System S-H2O from 25 to 150 C: Influence of Access of
+Oxygen in Sulphide Solutions
+
+Reference No.: 5237(79HeH)
+Rev. Inorg. Chem., 1979, 1, 303 - 332; Hepler LG; Hopkins HP Jr; Thermodynamics of
+Ionization of Inorganic Acids and Bases in Aqueous Solution
+
+Reference No.: 5255(72JaW)
+J. Chem. Soc., Dalton Trans., 1972,, 2607 - 2610; Jameson RF; Wilson MF; Apparent Molar
+Ionic Products of Water in Aqueous Potassium Nitrate Solutions and Calibration of the
+Glass Electrode as a Wide-range Proton Concentration Probe
+
+Reference No.: 5305(67VaL)
+Russ. J. Phys. Chem., 1967, 41, 434 - 437; Vasil'ev VP; Lobanov GA; Calorimetric
+
+
+
+
+                                      – Page 40 of 48 –
+JESS Thermodynamic Database v8.9                                         H2O
+
+
+Determination of the Heat of Ionisation of Water in the Temperature Range 0-70C at
+Various Ionic Strengths
+
+Reference No.: 5313(30Rob)
+J. Am. Chem. Soc., 1930, 52, 3877 - 3881; Roberts EJ; The Ionization Constant of Water
+at 25C from the Electromotive Force of Cells without Liquid Junction
+
+Reference No.: 5322(79JoW)
+Mar. Chem., 1979, 8, 57 - 69; Johansson O; Wedborg M; Stability Constants of Phosphoric
+Acid in Seawater of 5-40% Salinity and Temperatures of 5-25C
+
+Reference No.: 5343(94COG)
+J. Solution Chem., 1994, 23, 747 - 768; Chen X; Oscarson JL; Gillespie SE; Cao H; Izatt
+RM; Determination of Enthalpy of Ionization of Water from 250 to 350C
+
+Reference No.: 5416(86Chi)
+ISEI Tech. Report, Ser. B, No. 3, 1986 Chiba H; Compilation of Dissociation Constants
+of Major Aqueous Species Present in Geothermal Fluids. Comparison of Thermodynamic Data
+Base of Aqueous Speciation Codes.; Inst. Study Earth's Interior, Okayama Univ., Japan
+
+Reference No.: 5528(75MWB)
+CIM Bull., 1975,, 101 - 110; McAndrew RT; Wang SS; Brown WR; Precipitation of Iron
+Compounds from Sulphuric Acid Leach Solutions
+
+Reference No.: 5600(95SHM)
+Aust. J. Chem., 1995, 48, 1283 - 1292; Solis JS; Hefter G; May PM; Chemical Speciation
+in the Copper(I)-Ammonia-Chloride System
+
+Reference No.: 5605(78CDH)
+J. Chem. Thermodyn., 1978, 10, 903 - 906; Cox JD; Drowart J; Hepler LG; Medvedev VA;
+Wagman DD; CODATA recommended Key Values for Thermodynamics, 1977. Report of the CODATA
+Task Group on Key Values for Thermodynamics, 1977
+
+Reference No.: 5797(95CMH)
+Polyhedron, 1995, 14, 1661 - 1674; Cukrowski I; Marsicano F; Hancock RD; Tshetlho PT;
+van Otterlo WAL; The Neutral Oxygen Donor in Complexes of Lead and Cadmium: A
+Differential Pulse Polarographic, Potentiometric and Calorimetric Study
+
+Reference No.: 5829(95AnK)
+Talanta, 1995, 42, 1067 - 1079; Anderegg G; Kholeif S; Extrapolation of Molar
+Equilibrium Constants to Zero Ionic Strength and Parameters Dependent on it.
+Copper(II), Nickel(II), Hydrogen(I) Complexes with Glycinate Ion and Calcium(II),
+Hydrogen(I) Complexes with Nitrilotriacetate Ion
+
+Reference No.: 5841(33HaH)
+J. Am. Chem. Soc., 1933, 55, 2194 - 2206; Harned HS; Hamer WJ; The Ionization Constant
+of Water and the Dissociation of Water in Potassium Chloride Solutions from
+Electromotive Forces of Cells without Liquid Junction
+
+Reference No.: 5844(73MBO)
+Can. J. Chem., 1973, 51, 2590 - 2595; MacDonald DD; Butler P; Owen D; High Temperature
+Aqueous Electrolyte Concentration Cells and the Ionization of Liquid Water to 200C
+
+Reference No.: 5846(72FiB)
+J. Phys. Chem., 1972, 76, 90 - 99; Fisher JR; Barnes HL; The Ion-Product Constant of
+Water to 350 C
+
+
+
+
+                                      – Page 41 of 48 –
+JESS Thermodynamic Database v8.9                                         H2O
+
+
+Reference No.: 5848(35HaM)
+J. Am. Chem. Soc., 1935, 57, 1873 - 1876; Harned HS; Mannweiler GE; The Thermodynamics
+of Ionized Water in Sodium Chloride Solutions
+
+Reference No.: 5856(76BuM)
+J. Solution Chem., 1976, 5, 147 - 152; Busey RH; Mesmer RE; The Ionization of Water in
+NaCl Media to 300 C
+
+Reference No.: 5859(63VaS)
+J. Phys. Chem., 1963, 67, 2608 - 2612; Vanderzee CE; Swanson JA; The Heat of Ionization
+of Water
+
+Reference No.: 5870(40HaR)
+Trans. Faraday Soc., 1940, 36, 973 - 978; Harned HS; Robinson RA; A Note on the
+Temperature Variation of the Ionisation Constants of Weak Electrolytes
+
+Reference No.: 5876(87Luo)
+Hydrometallurgy, 1987, 17, 177 - 199; Luo R; Overall Equilibrium Diagrams for
+Hydrometallurgical Systems: Copper-Ammonia-Water System
+
+Reference No.: 5942(90NNT)
+Inorg. Chem., 1990, 29, 147 - 149; Nakasuka N; Natsume Y; Tanaka M; Complexation of
+Lithium and Sodium Ions with o-Phenylenediaminetetraacetate in Aqueous Solutions
+
+Reference No.: 5945(75OlH)
+J. Solution Chem., 1975, 4, 127 - 143; Olofsson G; Hepler LG; Thermodynamics of
+Ionization of Water over Wide Ranges of Temperature and Pressure
+
+Reference No.: 5947(74SMB)
+J. Solution Chem., 1974, 3, 191 - 214; Sweeton FH; Mesmer RE; Baes CF Jr; Acidity
+Measurements at Elevated Temperatures. VII. Dissociation of Water
+
+Reference No.: 6141(96KGM)
+J. Coord. Chem., 1996, 38, 183 - 197; Kurnia K; Giles D; May PM; Singh P; Hefter G;
+Cyanide Thermodynamics. 1. Stability Constants of Cadmium(II) and Zinc(II) Cyanide
+Complexes in Aqueous Acetonitrile Mixtures
+
+Reference No.: 6235(96HeH)
+Can. J. Chem., 1996, 74, 639 - 649; Hepler LG; Hovey JK; Standard State Heat Capacities
+of Aqueous Electrolytes and Some Related Undissociated Species
+
+Reference No.: 6238(96FNK)
+J. Solution Chem., 1996, 25, 327 - 343; Fanghanel T; Neck V; Kim JI; The Ion Product of
+H2O, Dissociation Constants of H2CO3 and Pitzer Parameters in the System Na+/H+/OH-/
+HCO3-/CO32-/ClO4-/H2O at 25 C
+
+Reference No.: 6257(96SIU)
+J. Chem. Soc., Dalton Trans., 1996,, 3077 - 3085; Sawada K; Ichikawa T; Uehara K;
+Eight-membered Chelate-Ring Complexes of Cobalt(III)- Polyamine Complexes of
+Aminopolyphosphonates in Aqueous Solution
+
+Reference No.: 6323(00Wag)
+Properties Water Steam, Proc. 13th Int. Conf., 2000, 1 - 12; Wagner W; Accurate
+Equations of State - From the Past to the Future
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+
+
+
+                                      – Page 42 of 48 –
+JESS Thermodynamic Database v8.9                                         H2O
+
+
+Reference No.: 6333(96DPS)
+Geochim. Cosmochim. Acta, 1996, 60, 197 - 211; Diakonov I; Pokrovskii VA; Schott J;
+Castet S; Gout R; An Experimental and Computational Study of Sodium-Aluminium
+Complexing in Crustal Fluids
+
+Reference No.: 6334(95KMM)
+Monatsh. Chem., 1995, 126, 819 - 837; Kron I; Marshall SL; May PM; Hefter G;
+Konigsberger E; The Ionic Product of Water in Highly Concentrated Aqueous Electrolyte
+Solutions
+
+Reference No.: 6335(95BFS)
+Ber. Bunsenges. Phys. Chem., 1995, 99, 749 - 752; Brandariz I; Fiol S; Sastre de
+Vicente ME; Study of the Influence of Ionic Strength on the Ionic Product of Water in
+Saline Media at 25C Using the Pitzer Equations
+
+Reference No.: 6336(69LoV)
+Izv. Vyssh. Ucheb. Zaved., 1969, 12(6), 740 - 743; Lobanov GA; Vasil'ev VP; Heat of
+Ionization of Water in Some 1:1 Electrolytes at 25C
+
+Reference No.: 6337(67Luc)
+Bull. Soc. Chim. Fr., 1967,, 3842 - 3848; Lucas M; Les Proprietes Acide-Base dans les
+Solutions Salines Concentrees. III. Application de la Theorie de Robinson et Stokes au
+Calcul de Valeurs des Constants
+
+Reference No.: 6405(93MoH)
+Principles and Applications of Aquatic Chemistry, 1993 Morel FMM; Hering JG; John Wiley
+& Sons,Inc
+
+Reference No.: 6422(95BaP)
+Thermochemical Data of Pure Substances, 3rd Edn., 1995 Barin I; Platzki G; Weinheim,
+Germany
+
+Reference No.: 6438(97GPS)
+Modelling in Aquatic Chemistry, 1997, 325 - 426; Grenthe I; Plyasunov AV; Spahiu K;
+Estimation of Medium Effects on Thermodynamic Data
+
+Reference No.: 6460(97CuA)
+Anal. Chim. Acta, 1997, 429, 129 - 137; Cukrowski I; Adsetts M; Experimental and
+Calculated Complex Formation Curves for a Labile Metal-Ligand System. A Differential
+Pulse Polarographic Study of the Pb(II)-(N,N,N',N'-tetramethylethylenediamine)-OH
+System at Fixed Ligand Ratio and Varied pH
+
+Reference No.: 6482(88Ber)
+J. Petrology, 1988, 29, 445 - 522; Berman RG; Internally-Consistent Thermodynamic Data
+for Minerals in the System Na2O-K2O-CaO-MgO-FeO-Fe2O3-Al2O3-SiO2-TiO2-H2O-CO2
+
+Reference No.: 6496(96StM)
+Aquatic Chemistry, 3rd Edn., 1996 Stumm W; Morgan JJ; Chemical Equilibria and Rates in
+Natural Waters; John Wiley & Sons, Inc., New York
+
+Reference No.: 6707(88PaD)
+J. Solution Chem., 1988, 17, 153 - 164; Palmer DA; Drummond SE; The Molal Dissociation
+Quotients of Water in Sodium Trifluoromethanesulfonate Solutions to High Temperatures
+
+Reference No.: 7022(98THM)
+Talanta, 1998, 45, 931 - 934; Turonek ML; Hefter GT; May PM; The Ionic Product of Water
+in Highly Concentrated Sodium Perchlorate Solutions
+
+
+
+
+                                      – Page 43 of 48 –
+JESS Thermodynamic Database v8.9                                         H2O
+
+
+Reference No.: 7147(96KGM)
+Talanta, 1996, 43, 2045 - 2051; Kurnia K; Giles DE; May PM; Singh P; Hefter GT; Cyanide
+Thermodynamics. 2. Stability Constants of Copper(I) Cyanide Complexes in Aqueous
+Acetonitrile Mixtures
+
+Reference No.: 7174(97SBM)
+Talanta, 1997, 44, 617 - 620; Sipos P; Bodi I; May PM; Hefter GT; The Ionic Product of
+Water in Concentrated Tetramethylammonium Chloride Solutions
+
+Reference No.: 7256(97CHS)
+J. Solution Chem., 1997, 26, 957 - 972; Capewell SG; Hefter GT; Sipos P; May PM;
+Protonation and Sodium Ion-Pairing of the Sulfite Ion in Concentrated Aqueous
+Electrolyte Solutions
+
+Reference No.: 7275(98Atk)
+Physical Chemistry, 6th Edn., 1998 Atkins PW; Oxford University Press, Oxford, U.K.
+
+Reference No.: 7276(88CoW)
+Advanced Inorganic Chemistry, 5th Edn., 1988 Cotton FA; Wilkinson G; John Wiley & Sons
+Inc., N.Y., U.S.A
+
+Reference No.: 7373(96WBF)
+Water Resources Res., 1996, 32, 3173 - 3187; Wunderly MD; Blowes DW; Frind EO; Ptacek
+CJ; Sulfide Mineral Oxidation and Subsequent Reactive Transport of Oxidation Products
+in Mine Tailings Impoundments: A Numerical Model
+
+Reference No.: 7381(97Woo)
+Physical Chemistry, 1997 Woodbury G; Brooks/Cole Publishing Co., Pacific Grove, U.S.A.
+
+Reference No.: 7397(79FiF)
+J. Solution Chem., 1979, 8, 309 - 328; Fisher FH; Fox AP; Divalent Sulfate Ion Pairs in
+Aqueous Solutions at Pressures up to 2000 atm
+
+Reference No.: 7400(85BeB)
+J. Solution Chem., 1985, 14, 367 - 373; Becker P; Bilal BA; Ion Products of Water in 1m
+NaCl under Hydrothermal Conditions
+
+Reference No.: 7694(84IPZ)
+Russ. J. Inorg. Chem., 1984, 29, 860 - 862; Ivanov-Emin BN; Petrishcheva LP; Zaitsev
+BE; Izmailovich AS; Hydroxo-compounds of Copper(II)
+
+Reference No.: 7761(89Bra)
+J. Phys. Chem. Ref. Data, 1989, 18, 1 - 21; Bratsch SG; Standard Electrode Potentials
+and Temperature Coefficients in Water at 298.15 K
+
+Reference No.: 7824(17LBS)
+J. Am. Chem. Soc., 1917, 39, 2245 - 2261; Lewis GN; Brighton TB; Sebastian RL; A Study
+of Hydrogen and Calomel Electrodes
+
+Reference No.: 8620(69Sin)
+Can. J. Chem., 1969, 47, 663 - 667; Singh SS; Neutralization of Dilute Aqueous
+Aluminium Sulfate Solutions wuth a Base
+
+Reference No.: 8695(00KlR)
+Chemical Thermodynamics, 6th Edn., 2000 Klotz IM; Rosenberg RM; Basic Theory and
+Methods; John Wiley & Sons, N.Y., U.S.A.
+
+Reference No.: 8740(98PoS)
+Geochim. Cosmochim. Acta, 1998, 62, 3413 - 3428; Pokrovski GS; Schott J; Experimental
+
+
+
+
+                                      – Page 44 of 48 –
+JESS Thermodynamic Database v8.9                                         H2O
+
+
+Study of the Complexation of Silicon and Germanium with Aqueous Organic Species:
+Implications for Germanium and Silicon Transport and Ge/Si Ratio in Natural Waters
+
+Reference No.: 8746(89CWM)
+CODATA Key Values for Thermodynamics, 1989 Cox JD; Wagman DD; Medvedev VA; Values
+obtained from www.codata.org/codata/databases Apr. 2000 and
+http://www.codata.org/resources/databases/key1.html Sept. 2011; Hemisphere Publishing
+Corp., N.Y., U.S.A.
+
+Reference No.: 8798(99ArS)
+Am. J. Sci., 1999, 299, 173 - 209; Arnorsson S; Stefansson A; Assessment of Feldspar
+Solubility Constants in Water in the Range 0 to 350C at Vapour Saturation Pressures
+
+Reference No.: 8833(80HaW)
+Geochim. Cosmochim. Acta, 1980, 44, 981 - 997; Harvie CE; Weare JH; The Prediction of
+Mineral Solubilities in Natural Waters: The Na-K-Mg-Ca-Cl-SO4-H2O System from Zero to
+High Concentration at 25C
+
+Reference No.: 8839(92JOH)
+Comput. Geosci., 1992, 18, 899 - 947; Johnson JM; Oelkers EH; Helgeson HC; SUPCRT92: A
+Software Package for Calculating the Standard Molal Thermodynamic Properties of
+Minerals, Gases, Aqueous Species and Reactions from 1 to 5000 bars and 0 to 1000C
+
+Reference No.: 8938(33HaC)
+J. Am. Chem. Soc., 1933, 55, 2206 - 2215; Harned HS; Copson HR; The Dissociation of
+Water in Lithium Chloride Solutions
+
+Reference No.: 9015(82WEP)
+J. Phys. Chem. Ref. Data, Vol. 11, Suppl. 2, 1982 Wagman DD; Evans WH; Parker VB;
+Schumm RH; Halow I; Bailey SM; Churney KL; Nuttall RL; The NBS Tables of Chemical
+Thermodynamic Properties - Selected Values for Inorganic and C1 and C2 Organic
+Substances in SI Units
+
+Reference No.: 9075(91ACS)
+Geochim. Cosmochim. Acta, 1991, 55, 1769 - 1779; Anderson GM; Castet S; Schott J;
+Mesmer RE; The Density Model for Estimation of Thermodynamic Parameters of Reactions at
+High Temperatures and Pressures
+
+Reference No.: 9373(00SCS)
+Aust. J. Chem., 2000, 53, 369 - 373; Samani FK; Capewell SG; Sipos P; May PM; Hefter G;
+Ionization of Water in Concentrated Potassium Halide Media
+
+Reference No.: 9402(86Wan)
+EIR-Bericht Nr. 589, 1986 Wanner H; Modelling Interaction of Deep Groundwaters with
+Bentonite and Radionuclide Speciation; Swiss Federal Institute for Reactor Research,
+Wurenlingen, Suisse
+
+Reference No.: 10174(95OHS)
+J. Phys. Chem. Ref. Data, 1995, 24, 1401 - 1560; Oelkers EH; Helgeson HC; Shock EL;
+Sverjensky DA; Johnson JW; Pokrovskii VA; Summary of the Apparent Standard Partial
+Molal Gibbs Free Energies of Formation of Aqueous Species, Minerals, and Gases at
+Pressures 1 to 5000 Bars and Temperatures 25 to 1000C
+
+Reference No.: 10238(83SHN)
+Mar. Chem., 1983, 13, 35 - 44; Sjoberg S; Haegglund Y; Nordin A; Ingri N; Equilibrium
+and Structural Studies on Silicon(IV) and Aluminum(III) in Aqueous Solution. V. Acidity
+Constants of Silicic Acid and the Ionic Product of Water in the Medium Range 0.05-2.0 M
+Sodium Chloride at 25C
+
+
+
+
+                                      – Page 45 of 48 –
+JESS Thermodynamic Database v8.9                                         H2O
+
+
+Reference No.: 11874(76SWM)
+Can. J. Chem., 1976, 54, 3315 - 3318; Singh PP; Woolley EM; McCurdy KG; Hepler LG; Heat
+Capacities of Aqueous Electrolytes: Eight 1:1 Electrolytes and dCp0 for Ionization of
+Water at 298K
+
+Reference No.: 11928(41OwB)
+Chem. Rev., 1941, 29, 461 - 474; Owen BB; Brinkley SR Jr; Calculation of the Effect of
+Pressure upon Ionic Equilibria in Pure Water and in Salt Solutions
+
+Reference No.: 11989(58HaO)
+The Physical Chemistry of Electrolytic Solutions, 3rd Edn., 1958 Harned HS; Owen BB;
+American Chemical Society Monograph Series No: 137; Reinhold Publishing Corp., N.Y.
+
+Reference No.: 12638(99TPG)
+GAMSPATH Users Manual, 1999 Talman SJ; Perkins EH; Gunter WD; A Reaction Path - Mass
+Transfer Program
+
+Reference No.: 12692(66Gug)
+Applications of Statistical Mechanics, 1966 Guggenheim EA; Clarendon Press, Oxford,
+U.K.
+
+Reference No.: 13213(61Mac)
+The Principles of Electrochemistry, 1961 MacInnes DA; Dover Publications, New York
+
+Reference No.: 13451(01ZhM)
+Hydrometallurgy, 2001, 60, 215 - 236; Zhang Y; Muhammed M; Critical Evaluation of
+Thermodynamics of Complex Formation of Metal Ions in Aqueous Solutions. VI. Hydrolysis
+and Hydroxo-complexes of Zn2+ at 298.15 K
+
+Reference No.: 13945(77SMW)
+J. Solution Chem., 1977, 6, 327 - 330; Singh PP; McCurdy KG; Woolley EM; Hepler LG;
+Heat Capacities of Aqueous Perchloric Acid and Sodium Perchlorate at 298 K: dCp0 of
+Ionization of Water
+
+Reference No.: 14495(53HaP)
+J. Phys. Chem., 1953, 57, 531 - 535; Harned HS; Paxton TR; The Thermodynamics of
+Ionized Water in Strontium Chloride Solutions from Electromotive Force Measurements
+
+Reference No.: 14679(33HaH)
+J. Am. Chem. Soc., 1933, 55, 4496 - 4507; Harned HS; Hamer WJ; The Thermodynamics of
+Ionized Water in Potassium and Sodium Bromide Solutions
+
+Reference No.: 14923(05ONO)
+OECD Chemical Thermodynamics Series, Volume 7, 2005 Olin A; Nolang B; Ohman L-O;
+Osadchii EG; Rosen E; Chemical Thermodynamics of Selenium
+
+Reference No.: 17118(87LMO)
+J. Appl. Electrochem., 1987, 17, 505 - 514; Longhi P; Mussini T; Orsenigo R; Rondinini
+S; Redetermination of the Standard Potential of the Mercuric Oxide Electrode at
+Temperatures between 283 and 363 K and the Solubility Product of Mercuric Hydroxide
+
+Reference No.: 17631(01Bro)
+Thesis, Univ. Western Sydney, 2001 Brown SA; The Aqueous Chemistry of Polonium and Its
+Relationship to Mineral Processing Streams; Univ. Western Sydney, N.S.W., Australia
+
+Reference No.: 17946(02ZiW)
+J. Solution Chem., 2002, 31, 995 - 1017; Zimmerman GH; Wood RH; Conductance of Dilute
+Sodium Acetate Solutions to 469K and of Acetic Acid and Sodium Acetate/Acetic Acid
+Mixtures to 548K and 20 MPa
+
+
+
+
+                                      – Page 46 of 48 –
+JESS Thermodynamic Database v8.9                                         H2O
+
+
+Reference No.: 18615(33Van)
+J. Am. Chem. Soc., 1933, 55, 4518 - 4521; Vance JE; The Dissociation of Water in
+Lithium Bromide Solutions at 25C
+
+Reference No.: 20827(03GFF)
+OECD Chemical Thermodynamics Series, Volume 5, 2003 Guillaumont R; Fanghanel T; Fuger
+J; Grenthe I; Neck V; Palmer DA; Rand MH; Update on the Chemical Thermodynamics of
+Uranium, Neptunium, Plutonium, Americium and Technetium; Elsevier Science
+
+Reference No.: 21396(86Bie)
+Metal Complexes in Solution, 1986, 303 - 314; Biedermann G; Introduction to the
+Specific Interaction Theory with Emphasis on Chemical Equilibria
+
+Reference No.: 22170(77ESW)
+J. Chem. Thermodyn., 1977, 9, 731 - 734; Enea O; Singh PP; Woolley EM; McCurdy KG;
+Hepler LG; Heat Capacities of Aqueous Nitric Acid, Sodium Nitrate, and Potassium
+Nitrate at 298.15 K: deltaCp0 of Ionization of Water
+
+Reference No.: 22551(06Inz)
+Encyclopedia of Electrochemistry, Vol. 7a, 2006, 17 - 75; Inzelt G; Standard, Formal
+and Other Characteristic Potentials of Selected Electrode Reactions
+
+Reference No.: 22981(63Ing)
+Acta Chem. Scand., 1963, 17, 597 - 616; Ingri N; Equilibrium Studies of Polyanions. 12.
+Polygermanates in Na(Cl) Medium
+
+Reference No.: 23205(09SDK)
+Appl. Geochem., 2009, 24, 1287 - 1300; Shao H; Dmytrieva SV; Kolditz O; Kulik DA;
+Pfingsten W; Kosakowski G; Modeling Reactive Transport in Non-ideal Aqueous-solid
+Solution System
+
+Reference No.: 23375(68LTW)
+Trans. Faraday Soc., 1968, 64, 2073 - 2080; Lown DA; Thirsk HR; Wynne-Jones L; Effect
+of Pressue on Ionization Equilibria in Water at 25C
+
+Reference No.: 24953(85PPS)
+Report LBL-14996, 1985 Phillips SL; Phillips CA; Skeen J; Hydrolysis, Formation and
+Ionization Constants at 25C, and at High Temperature - High Ionic Strength; Lawrence
+Berkeley Laboratory, Univ. California, U.S.A.
+
+Reference No.: 26787(07BPA)
+Geochim. Cosmochim. Acta, 2007, 71, 4438 - 4455; Benezeth P; Palmer DA; Anovitz LM;
+Horita J; Dawsonite Synthesis and Reevaluation of Its Thermodynamic Properties from
+Solubility Measurements: Implications for Mineral Trapping of CO2
+
+Reference No.: 28693(16MWK)
+Geochim. Cosmochim. Acta, 2016, 187, 41 - 78; Miron GD; Wagner T; Kulik DA; Heinrich
+CA; Internally Consistent Thermodynamic Data for Aqueous Species in the System Na-K-Al-
+Si-O-H-Cl
+
+Reference No.: 29316(17HBM)
+J. Chem. Eng. Data, 2017, 62, 2959 - 2972; Hnedkovsky L; Bochmann S; May PM; Hefter G;
+Molar Volumes and Heat Capacities of Aqueous Solutions of Potassium Hydroxide and for
+Water Ionization up to 573 K at 10 MPa
+
+Reference No.: 29345(17PMH)
+J. Mol. Liq., 2017, 233, 288 - 291; Perez AG; Madden WG; Hernandez L; Del Carpio E;
+Lubes V; Stability Constants of the Ternary Nickel(II) Complexes with Salicylic Acid
+and Selected Amino Acids
+
+
+
+
+                                      – Page 47 of 48 –
+JESS Thermodynamic Database v8.9                                         H2O
+
+
+Reference No.: 29482(16ZZL)
+Comput. Geosci., 2016, 90, 97 - 111; Zimmer K; Zhang Y; Lu P; Chen Y; Zhang G; Dalkilic
+M; Zhu C; SUPCRTBL: A Revised and Extended Thermodynamic Dataset and Software Package
+of SUPCRT92
+
+Reference No.: 29489(87POG)
+Report PNL-6112 UC-70, 1987 Peterson SR; Opitz BE; Graham MJ; Eary LE; An Overview of
+the Geochemical Code MINTEQ: Applications to Performance Assessment for Low-Level
+Wastes; Battelle Mem. Inst., Pacific Northwest Lab., Dept. Energy, USA
+
+Reference No.: 29513(31Ros)
+J. Res. Natl. Bur. Stand., 1931, 6, 1 - 35; Rossini FD; The Heat of Formation of Water
+
+Reference No.: 29520(17WoC)
+Geochim. Cosmochim. Acta, 2017, 213, 635 - 676; Wolery TJ; Colon CFJ; Chemical
+Thermodynamic Data. 1. The Concept of Links to The Chemical Elements and the Historical
+Development of Key Thermodynamic Data
+
+Reference No.: 29556(13Nor)
+Procedia Earth Planet. Sci., 2013, 7, 624 - 627; Nordstrom DK; Improving Internal
+Consistency of Standard State Thermodynamic Data for Sulfate Ion, Portlandite, Gypsum,
+Barite, Celestine, and Associated Ions
+
+Reference No.: 30197(17LAL)
+Appl. Geochem., 2017, 78, 311 - 320; Lach A; Andre L; Lassin A; Darapskite Solubility
+in Basic Solutions at 25 C: A Pitzer Model for the Na-NO3-SO4-OH-H2O System
+
+Reference No.: 30834(07#IA)
+Int. Assoc. Prop. Water Steam, 2007; Release on the Ionization Constant of H2O; IAPWS
+Meeting, Lucerne, Switzerland, Aug. 2007
+
+Reference No.: 30909(14ExS)
+Spectrochim. Acta, 2014, A117, 820 - 821; Exley C; Sjoberg S; Silicon Species in
+Seawater
+
+Reference No.: 31106(84Lit)
+Thesis, Univ. Cape Town, M.Sc., 1984 Little JC; Chemical Modelling of Urine; University
+of Cape Town, South Africa
+
+Reference No.: 31146(61DyH)
+Acta Chem. Scand., 1961, 15, 47 - 61; Dyrssen D; Hennichs M; The Solution Chemistry of
+Copper and Nickel Complexes with Dimethylglyoxime
+
+Reference No.: 31342(19FZZ)
+J. Solution Chem., 2019, 48, 212 - 233; Friend MT; Zhao P; Zavarin M; Wall NA;
+Complexation of Plutonium(IV) with trans-1,2-Diaminocyclo hexane-N,N,N,N-tetraacetic
+Acid (CDTA) in Acidic Solution
+
+Reference No.: 32224(80BeT)
+Lawrence Berkeley Laboratory Report LBL-11448, 1980 Benson LV; Teague LS; A Tabulation
+of Thermodynamic Data for Chemical Reactions Involving 8 Elements Common to Radioactive
+Waste Package Systems
+
+
+
+
+                                      – Page 48 of 48 –
+

@@ -1,0 +1,95 @@
+                       JESS Thermodynamic Database v8.9
+                                              Astatine
+
+                                          24-Jan-23
+
+Reaction No. 71190
+At2 + 2<e-1> = 2<At-1>
+ No     t     I-Str              Medium             Value (Dev)     W       Tech.    Ref. #
+  1    25          0          Inf. Dilution          E:0.3(1SF)     5       CRV      6330
+
+
+Reaction No. 74191
+H+1_AtO3-1 + 4<e-1> + 4<H+1> = H+1_AtO-1 + 2<H2O>
+ No     t     I-Str              Medium             Value (Dev)     W       Tech.    Ref. #
+  1    25          0          Inf. Dilution          E:1.4(2SF)     3       CRV      22551
+
+
+Reaction No. 74192
+2<H+1_AtO-1> + 2<e-1> + 2<H+1> = At2(s) + 2<H2O>
+ No     t     I-Str              Medium             Value (Dev)     W       Tech.    Ref. #
+  1    25          0          Inf. Dilution          E:0.7(1SF)     3       CRV      22551
+
+
+Reaction No. 74193
+At2(s) + 2<e-1> = 2<At-1>
+ No     t     I-Str              Medium             Value (Dev)     W       Tech.    Ref. #
+  1    25          0          Inf. Dilution          E:0.2(1SF)     3       CRV      22551
+
+
+Reaction No. 74194
+AtO3-1 + 4<e-1> + 2<H2O> = AtO-1 + 4<OH-1>
+ No     t     I-Str              Medium             Value (Dev)     W       Tech.    Ref. #
+  1    25          0          Inf. Dilution          E:0.5(1SF)     3       CRV      22551
+
+
+Reaction No. 79458
+At(s) + e-1 = At-1
+ No    t     I-Str             Medium               Value (Dev)         W    Tech.   Ref. #
+  1   25       0          Inf. Dilution           dG:-7.95(3SF)kJ       5     CRV     7421
+
+
+
+
+                                        Data Assessment
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                      Astatine
+
+
+
+Weight                      Assessment
+9        highest accuracy
+8        multi-determined; excellent dependability
+7        trustworthy; outstanding single determination
+6        better than average reliability
+5        average single determination
+4        some doubt
+3        poorly known
+2        guess to achieve consistency (or just as bad)
+1        no information but consistent
+0        problematic/inconsistent
+
+
+
+
+                                         Techniques
+
+
+Abbrev       Method
+CRV      Critical review
+
+
+
+
+                                         References
+
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+Reference No.: 7421(97Mar)
+Ion Properties, 1997 Marcus Y; Marcel Dekker Inc., New York, U.S.A.
+
+Reference No.: 22551(06Inz)
+Encyclopedia of Electrochemistry, Vol. 7a, 2006, 17 - 75; Inzelt G; Standard, Formal
+and Other Characteristic Potentials of Selected Electrode Reactions
+
+
+
+
+                                           – Page 2 of 2 –
+

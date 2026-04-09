@@ -39,6 +39,22 @@
     <div id="periodic" class="periodic" title="Click atoms to filter rows"></div>
     <div class="note">Click atoms to filter rows containing all selected atoms. Atom filtering loads only relevant data chunks.</div>
 
+    <div class="db-panel">
+      <div class="db-panel-head">
+        <strong>Databases to include</strong>
+        <div class="db-panel-head-actions">
+          <button id="dbToggleBtn" type="button">Reduce</button>
+        </div>
+      </div>
+      <div id="dbPanelBody">
+        <div class="db-panel-actions">
+          <button id="dbAllBtn" type="button">All</button>
+          <button id="dbNoneBtn" type="button">None</button>
+        </div>
+        <div id="dbFilters" class="db-filters"></div>
+      </div>
+    </div>
+
     <div class="table-wrap">
       <table id="tbl">
         <thead>

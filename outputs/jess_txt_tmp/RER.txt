@@ -1,0 +1,586 @@
+                        JESS Thermodynamic Database v8.9
+                                               Rhenium
+
+                                              24-Jan-23
+
+Reaction No. 4864
+Re+3 + 3<e-1> = Re(s)
+ No    t     I-Str               Medium               Value (Dev)        W    Tech.   Ref. #
+  1    20       0             Inf. Dilution           E:0.3(0.1SD)       3     EES      775
+  2    25       0             Inf. Dilution           E:0.300(3SF)       5     CRV     6330
+
+
+Reaction No. 5226
+Re(s) + e-1 = Re-1
+  No    t      I-Str           Medium             Value (Dev)        W       Tech.    Ref. #
+  1     25          0         Unknown            lgK:-2.4(2SF)       4       ENS       773
+
+
+Reaction No. 5227
+Re+1 + 2<e-1> = Re-1
+  No    t      I-Str           Medium             Value (Dev)        W       Tech.    Ref. #
+  1     25          0         Unknown            lgK:-7.8(2SF)       4       ENS       773
+
+
+Reaction No. 32876
+ReO4-2 + 2<H2O> + 2<e-1> = ReO2(s) + 4<OH-1>
+ No     t     I-Str               Medium              Value (Dev)        W    Tech.   Ref. #
+  1    25       0             Inf. Dilution           E:-0.5(1SF)        3     CRV     7761
+
+
+Reaction No. 36010
+Thiourea + ReO+2 = ReO+2_Thiourea
+  No    t      I-Str          Medium             Value (Dev)         W       Tech.    Ref. #
+  1     25          4          HCl             lgK:2.4(0.05SD)       4        MIX      4140
+
+
+Reaction No. 36011
+2<Thiourea> + ReO+2 = ReO+2_Thiourea(2)
+  No    t      I-Str          Medium             Value (Dev)         W       Tech.    Ref. #
+  1     25          4           HCl             lgK:5.5(0.2SD)       4       MIX      4140
+
+
+Reaction No. 36012
+3<Thiourea> + ReO+2 = ReO+2_Thiourea(3)
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                     Rhenium
+
+
+ No    t     I-Str      Medium             Value (Dev)         W   Tech.       Ref. #
+  1   25       4         HCl              lgK:6.9(0.1SD)       4   MIX         4140
+
+
+Reaction No. 36013
+4<Thiourea> + ReO+2 = ReO+2_Thiourea(4)
+ No    t     I-Str      Medium             Value (Dev)         W   Tech.       Ref. #
+  1   25       4         HCl              lgK:8.8(0.2SD)       4   MIX         4140
+
+
+Reaction No. 36014
+Thiourea + ReO+3 = ReO+3_Thiourea
+ No    t     I-Str     Medium              Value (Dev)         W   Tech.       Ref. #
+  1   25       6         HCl          lgK:3.5(0.03SD)          4    MPS         4142
+
+
+Reaction No. 36015
+2<Thiourea> + ReO+3 = ReO+3_Thiourea(2)
+ No    t     I-Str     Medium              Value (Dev)         W   Tech.       Ref. #
+  1   25       6         HCl          lgK:5.6(0.06SD)          4    MPS         4142
+
+
+Reaction No. 36016
+3<Thiourea> + ReO+3 = ReO+3_Thiourea(3)
+ No    t     I-Str     Medium              Value (Dev)         W   Tech.       Ref. #
+  1   25       6         HCl          lgK:6.5(0.09SD)          4    MPS         4142
+
+
+Reaction No. 36017
+4<Thiourea> + ReO+3 = ReO+3_Thiourea(4)
+ No    t     I-Str      Medium             Value (Dev)         W   Tech.       Ref. #
+  1   25       6         HCl              lgK:7.5(0.1SD)       4   MPS         4142
+
+
+Reaction No. 42817
+ReO+2_Thiourea(4) + Cl-1 = ReO+2_Thiourea(3)_Cl-1 + Thiourea
+ No    t     I-Str     Medium              Value (Dev)         W   Tech.       Ref. #
+  1   23       4         HCl          lgR:2.4(0.05SD)          4    MIX         4140
+
+
+Reaction No. 42818
+ReO+2_Thiourea(4) + 2<Cl-1> = ReO+2_Thiourea(2)_Cl-1(2) + 2<Thiourea>
+ No    t     I-Str      Medium             Value (Dev)         W   Tech.       Ref. #
+  1   23       4         HCl              lgR:5.5(0.2SD)       4    MIX        4140
+
+
+
+
+                                      – Page 2 of 12 –
+JESS Thermodynamic Database v8.9                                                Rhenium
+
+
+Reaction No. 42819
+ReO+2_Thiourea(4) + 3<Cl-1> = ReO+2_Thiourea_Cl-1(3) + 3<Thiourea>
+ No    t       I-Str        Medium           Value (Dev)              W        Tech.      Ref. #
+  1   23            4        HCl           lgR:6.9(0.08SD)            4         MIX        4140
+
+
+Reaction No. 42820
+ReO+2_Thiourea(4) + 4<Cl-1> = ReO+2_Cl-1(4) + 4<Thiourea>
+ No    t       I-Str        Medium           Value (Dev)              W       Tech.       Ref. #
+  1   23            4         HCl          lgR:8.8(0.2SD)             4        MIX         4140
+
+
+Reaction No. 52478
+Re+3(2)_Cl-1(2)_Propanoic-1(4) + Br-1 = Re+3(2)_Br-1_Cl-1_Propanoic-1(4) + Cl-1
+ No       t    I-Str        Medium           Value (Dev)              W       Tech.       Ref. #
+  1    25                    MeCN          lgK:1.959(4SF)             4        MSP         4565
+
+
+Reaction No. 52479
+Re+3(2)_Br-1_Cl-1_Propanoic-1(4) + Br-1 = Re+3(2)_Br-1(2)_Propanoic-1(4) + Cl-1
+ No       t    I-Str        Medium           Value (Dev)              W       Tech.       Ref. #
+  1    25                    MeCN          lgK:2.398(4SF)             4        MSP         4565
+
+
+Reaction No. 54199
+Cl-1 + Re+2 = Re+2_Cl-1
+ No       t     I-Str        Medium          Value (Dev)          W           Tech.       Ref. #
+  1    25           0.32      H2SO4          lgK:2.0(2SF)         5           MKN          931
+
+
+Reaction No. 54294
+Re+3_Br-1(5) + Br-1 = Re+3_Br-1(6)
+ No       t     I-Str        Medium          Value (Dev)          W           Tech.       Ref. #
+  1    15            3       HClO4          lgK:5.26(3SF)         4            MAG         931
+
+
+Reaction No. 54667
+ReO4-1 + 2<H+1> + e-1 = ReO3(s) + H2O
+ No   t       I-Str           Medium              Value (Dev)             W     Tech.      Ref. #
+ 1    25        0          Inf. Dilution         E:0.77(0.01SD)           2      MEF        775
+ 2    25        0          Inf. Dilution          E:0.768(3SF)            2      CRV        6330
+
+
+Reaction No. 54668
+ReO4-1 + 4<H+1> + 3<e-1> = ReO2(s) + 2<H2O>
+
+
+
+
+                                           – Page 3 of 12 –
+JESS Thermodynamic Database v8.9                                  Rhenium
+
+
+ No   t     I-Str           Medium            Value (Dev)     W   Tech.     Ref. #
+ 1    25      0       Inf. Dilution          lgK:29.4(3SF)    1    ELC
+ 2    25      0       Inf. Dilution          E:0.51(0.01SD)   0    MEF       775
+ 3    25      0       Inf. Dilution           E:0.510(3SF)    0    CRV       6330
+
+
+Reaction No. 54669
+ReO4-1 + 8<H+1> + 7<e-1> = Re(s) + 4<H2O>
+ No   t     I-Str           Medium            Value (Dev)     W   Tech.     Ref. #
+ 1    20      0       Inf. Dilution          E:0.37(0.01SD)   4    MDG       775
+ 2    25      0       Inf. Dilution           E:0.368(3SF)    5    CRV       6330
+
+
+Reaction No. 54670
+ReO3(s) + 2<H+1> + 2<e-1> = ReO2(s) + H2O
+ No   t     I-Str           Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25      0        Inf. Dilution         lgK:16.3(3SF)    1   EAE
+ 2    20      0        Inf. Dilution          E:0.4(0.1SD)    0   MDG        775
+
+
+Reaction No. 54671
+ReO2(s) + 4<H+1> + 4<e-1> = Re(s) + 2<H2O>
+ No   t     I-Str           Medium            Value (Dev)     W   Tech.     Ref. #
+ 1    25      0       Inf. Dilution          lgK:14.6(3SF)    1    ELC
+ 2    25      0       Inf. Dilution          E:0.26(0.01SD)   0    MDG       775
+ 3    25      0       Inf. Dilution          E:0.2513(4SF)    0    CRV       6330
+
+
+Reaction No. 65649
+ReO4-1 + K+1 = K+1_ReO4-1
+ No   t     I-Str           Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25      0        Inf. Dilution         lgK:0.72(2SF)    4   CRV        552
+ 2    25      0        Inf. Dilution         lgK:0.72(2SF)    4   MCN       7981
+
+
+Reaction No. 67213
+7<As(s)> + 3<Re(s)> = Re3As7(s)
+ No    t     I-Str          Medium             Value (Dev)    W   Tech.     Ref. #
+ 1    25          0    Inf. Dilution         lgK:15.53(4SF)   4    ENS       6422
+ 2    27          0    Inf. Dilution         lgK:15.42(4SF)   0    ENS       6422
+ 3    127         0    Inf. Dilution         lgK:11.27(4SF)   2    ENS       6422
+ 4    227         0    Inf. Dilution         lgK:8.778(4SF)   1    ENS       6422
+
+
+
+
+                                       – Page 4 of 12 –
+JESS Thermodynamic Database v8.9                                    Rhenium
+
+
+ 5    327     0        Inf. Dilution           lgK:7.116(4SF)   0    ENS      6422
+ 6    25      0        Inf. Dilution           dG:-21.18(4SF)   4    EFE      6422
+ 7    25      0        Inf. Dilution           dH:-22.80(4SF)   4    MTD      6422
+ 8    127     0        Inf. Dilution           dH:-22.81(4SF)   1    MTD      6422
+ 9    227     0        Inf. Dilution           dH:-22.81(4SF)   0    MTD      6422
+ 10   327     0        Inf. Dilution           dH:-22.81(4SF)   0    MTD      6422
+
+
+Reaction No. 67214
+As(s) + 2<O2(g)> + Re(s) = Re+3_AsO4-3_(s)
+ No    t    I-Str          Medium                Value (Dev)    W   Tech.     Ref. #
+ 1    25      0        Inf. Dilution           lgK:118.9(4SF)   4    ENS      6422
+ 2    27      0        Inf. Dilution           lgK:118.0(4SF)   0    ENS      6422
+ 3    127     0        Inf. Dilution           lgK:84.47(4SF)   2    ENS      6422
+ 4    227     0        Inf. Dilution           lgK:64.39(4SF)   1    ENS      6422
+ 5    327     0        Inf. Dilution           lgK:51.05(4SF)   0    ENS      6422
+ 6    25      0        Inf. Dilution           dG:-162.1(4SF)   4    EFE      6422
+ 7    25      0        Inf. Dilution           dH:-184.4(4SF)   4    MTD      6422
+ 8    127     0        Inf. Dilution           dH:-184.0(4SF)   1    MTD      6422
+ 9    227     0        Inf. Dilution           dH:-183.4(4SF)   0    MTD      6422
+ 10   327     0        Inf. Dilution           dH:-182.7(4SF)   0    MTD      6422
+
+
+Reaction No. 67215
+1.5<Br2(l)> + Re(s) = Re+3_Br-1(3)_(s)
+ No    t    I-Str          Medium                Value (Dev)    W   Tech.     Ref. #
+ 1    25      0        Inf. Dilution           lgK:27.44(4SF)   4    ENS      6422
+ 2    27      0        Inf. Dilution           lgK:27.25(4SF)   4    ENS      6422
+ 3    127     0        Inf. Dilution           lgK:18.41(4SF)   4    ENS      6422
+ 4    227     0        Inf. Dilution           lgK:12.70(4SF)   4    ENS      6422
+ 5    327     0        Inf. Dilution           lgK:8.957(4SF)   4    ENS      6422
+ 6    25      0        Inf. Dilution           dG:-37.44(4SF)   4    EFE      6422
+ 7    25      0        Inf. Dilution           dH:-42.00(4SF)   4    MTD      6422
+ 8    27      0        Inf. Dilution           dH:-42.01(4SF)   4    MTD      6422
+ 9    127     0        Inf. Dilution           dH:-52.50(4SF)   4    MTD      6422
+ 10   227     0        Inf. Dilution           dH:-51.79(4SF)   4    MTD      6422
+ 11   327     0        Inf. Dilution           dH:-50.95(4SF)   4    MTD      6422
+
+
+Reaction No. 67216
+
+
+
+
+                                         – Page 5 of 12 –
+JESS Thermodynamic Database v8.9                                      Rhenium
+
+
+1.5<Cl2(g)> + Re(s) = Re+3_Cl-1(3)_(s)
+ No    t    I-Str            Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25      0       Inf. Dilution             lgK:33.33(4SF)    4    ENS       6422
+ 2    27      0       Inf. Dilution             lgK:33.04(4SF)    0    ENS       6422
+ 3    127     0       Inf. Dilution             lgK:21.59(4SF)    4    ENS       6422
+ 4    227     0       Inf. Dilution             lgK:14.79(4SF)    3    ENS       6422
+ 5    327     0       Inf. Dilution             lgK:10.31(4SF)    0    ENS       6422
+ 6    25      0       Inf. Dilution            dG:-188.0(4SF)kJ   3    CRV       6330
+ 7    25      0       Inf. Dilution             dG:-45.47(4SF)    4    EFE       6422
+ 8    25      0       Inf. Dilution            dH:-264.0(4SF)kJ   3    CRV       6330
+ 9    25      0       Inf. Dilution             dH:-63.10(4SF)    4    MTD       6422
+ 10   127     0       Inf. Dilution             dH:-62.57(4SF)    4    MTD       6422
+ 11   227     0       Inf. Dilution             dH:-61.88(4SF)    3    MTD       6422
+ 12   327     0       Inf. Dilution             dH:-61.09(4SF)    0    MTD       6422
+
+
+Reaction No. 67217
+O2(g) + Re(s) = ReO2(s)
+ No    t    I-Str            Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25      0           Inf. Dilution         lgK:68.53(4SF)    3    ENS      6422
+ 2    27      0           Inf. Dilution         lgK:68.04(4SF)    0    ENS      6422
+ 3    127     0           Inf. Dilution         lgK:48.51(4SF)    2    ENS      6422
+ 4    227     0           Inf. Dilution         lgK:36.80(4SF)    1    ENS      6422
+ 5    327     0           Inf. Dilution         lgK:29.02(4SF)    0    ENS      6422
+ 6    25      0           Inf. Dilution         dG:-93.49(4SF)    3    EFE      6422
+ 7    25      0           Inf. Dilution         dG:-93.494(5SF)   3    CRV      31291
+ 8    25      0           Inf. Dilution         dH:-107.3(4SF)    1    MTD      6422
+ 9    127     0           Inf. Dilution         dH:-107.2(4SF)    0    MTD      6422
+ 10   227     0           Inf. Dilution         dH:-107.0(4SF)    0    MTD      6422
+ 11   327     0           Inf. Dilution         dH:-106.7(4SF)    0    MTD      6422
+
+
+Reaction No. 67218
+1.5<O2(g)> + Re(s) = ReO3(s)
+ No    t    I-Str            Medium               Value (Dev)     W   Tech.     Ref. #
+ 1    25      0           Inf. Dilution          lgK:93.8(3SF)    1    ELC
+ 2    25      0           Inf. Dilution         lgK:88.84(4SF)    0    ENS      6422
+ 3    27      0           Inf. Dilution         lgK:88.21(4SF)    0    ENS      6422
+
+
+
+
+                                          – Page 6 of 12 –
+JESS Thermodynamic Database v8.9                                   Rhenium
+
+
+ 4    127     0        Inf. Dilution         lgK:62.58(4SF)    0    ENS       6422
+ 5    227     0        Inf. Dilution         lgK:47.24(4SF)    0    ENS       6422
+ 6    327     0        Inf. Dilution         lgK:37.05(4SF)    0    ENS       6422
+ 7    25      0        Inf. Dilution         dG:-121.2(4SF)    0    EFE       6422
+ 8    25      0        Inf. Dilution         dG:-121.22(5SF)   0    CRV      31291
+ 9    25      0        Inf. Dilution         dH:-140.8(4SF)    0    MTD       6422
+ 10   127     0        Inf. Dilution         dH:-140.6(4SF)    0    MTD       6422
+ 11   227     0        Inf. Dilution         dH:-140.2(4SF)    0    MTD       6422
+ 12   327     0        Inf. Dilution         dH:-139.7(4SF)    0    MTD       6422
+
+
+Reaction No. 67219
+3.5<O2(g)> + 2<Re(s)> = Re2O7(s)
+ No    t    I-Str           Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25      0        Inf. Dilution         lgK:190.8(4SF)    3    ENS       6422
+ 2    27      0        Inf. Dilution         lgK:189.4(4SF)    0    ENS       6422
+ 3    127     0        Inf. Dilution         lgK:134.5(4SF)    2    ENS       6422
+ 4    140     0        Inf. Dilution         lgK:129.3(4SF)    2    ENS       6422
+ 5    25      0        Inf. Dilution         dG:-260.3(4SF)    3    EFE       6422
+ 6    25      0        Inf. Dilution         dG:-260.33(5SF)   3    CRV      31291
+ 7    25      0        Inf. Dilution         dH:-301.9(4SF)    2    MTD       6422
+ 8    127     0        Inf. Dilution         dH:-301.4(4SF)    1    MTD       6422
+ 9    140     0        Inf. Dilution         dH:-301.3(4SF)    1    MTD       6422
+
+
+Reaction No. 67220
+Re(s) + 2<S(s)> = ReS2(s)
+ No    t    I-Str           Medium             Value (Dev)     W   Tech.     Ref. #
+ 1    25      0        Inf. Dilution         lgK:29.21(4SF)    4    ENS      6422
+ 2    27      0        Inf. Dilution         lgK:29.02(4SF)    4    ENS      6422
+ 3    127     0        Inf. Dilution         lgK:21.21(4SF)    4    ENS      6422
+ 4    227     0        Inf. Dilution         lgK:16.38(4SF)    4    ENS      6422
+ 5    327     0        Inf. Dilution         lgK:13.11(4SF)    4    ENS      6422
+ 6    25      0        Inf. Dilution         dG:-39.85(4SF)    4    EFE      6422
+ 7    25      0        Inf. Dilution         dH:-42.70(4SF)    4    MTD      6422
+ 8    127     0        Inf. Dilution         dH:-43.86(4SF)    4    MTD      6422
+ 9    227     0        Inf. Dilution         dH:-44.62(4SF)    4    MTD      6422
+ 10   327     0        Inf. Dilution         dH:-45.18(4SF)    4    MTD      6422
+
+
+
+
+                                       – Page 7 of 12 –
+JESS Thermodynamic Database v8.9                                      Rhenium
+
+
+Reaction No. 67221
+2<Re(s)> + 7<S(s)> = Re2S7(s)
+ No    t     I-Str         Medium              Value (Dev)    W       Tech.     Ref. #
+ 1    25          0    Inf. Dilution         lgK:72.30(4SF)   4        ENS       6422
+ 2    27          0    Inf. Dilution         lgK:71.81(4SF)   4        ENS       6422
+ 3    127         0    Inf. Dilution         lgK:52.05(4SF)   4        ENS       6422
+ 4    227         0    Inf. Dilution         lgK:39.70(4SF)   4        ENS       6422
+ 5    327         0    Inf. Dilution         lgK:31.26(4SF)   4        ENS       6422
+ 6    25          0    Inf. Dilution         dG:-98.63(4SF)   4        EFE       6422
+ 7    25          0    Inf. Dilution         dH:-107.9(4SF)   4        MTD       6422
+ 8    127         0    Inf. Dilution         dH:-111.9(4SF)   4        MTD       6422
+ 9    227         0    Inf. Dilution         dH:-114.7(4SF)   4        MTD       6422
+ 10   327         0    Inf. Dilution         dH:-116.9(4SF)   4        MTD       6422
+
+
+Reaction No. 67222
+2<Re(s)> + 5<Te(s)> = Re2Te5(s)
+ No    t     I-Str         Medium              Value (Dev)    W       Tech.     Ref. #
+ 1    25          0    Inf. Dilution         lgK:12.91(4SF)   4        ENS       6422
+ 2    27          0    Inf. Dilution         lgK:12.81(4SF)   4        ENS       6422
+ 3    127         0    Inf. Dilution         lgK:8.696(4SF)   4        ENS       6422
+ 4    227         0    Inf. Dilution         lgK:6.206(4SF)   4        ENS       6422
+ 5    327         0    Inf. Dilution         lgK:4.519(4SF)   4        ENS       6422
+ 6    25          0    Inf. Dilution         dG:-17.61(4SF)   4        EFE       6422
+ 7    25          0    Inf. Dilution         dH:-22.50(4SF)   4        MTD       6422
+ 8    127         0    Inf. Dilution         dH:-22.66(4SF)   4        MTD       6422
+ 9    227         0    Inf. Dilution         dH:-22.96(4SF)   4        MTD       6422
+ 10   327         0    Inf. Dilution         dH:-23.39(4SF)   4        MTD       6422
+
+
+Reaction No. 71027
+ReO4-1 + 4<H2O> + 7<e-1> = Re(s) + 8<OH-1>
+ No   t     I-Str         Medium              Value (Dev)     W       Tech.     Ref. #
+ 1    25      0       Inf. Dilution          lgK:-68.1(3SF)   1       ELC
+ 2    25      0       Inf. Dilution          E:-0.584(3SF)    0       CRV       6330
+
+
+Reaction No. 72376
+2<O2(g)> + Re(s) + e-1 = ReO4-1
+ No   t     I-Str         Medium               Value (Dev)        W   Tech.     Ref. #
+
+
+
+
+                                       – Page 8 of 12 –
+JESS Thermodynamic Database v8.9                                         Rhenium
+
+
+ 1    25          0    Inf. Dilution          lgK:122.3(4SF)         2    EOR
+ 2    25          0    Inf. Dilution          dG:-166.0(4SF)         0    CRV       6488
+ 3    25          0    Inf. Dilution         dG:-694.5(4SF)kJ        3    CRV       7421
+ 4    25          0    Inf. Dilution         dG:-166.000(6SF)        0    CRV       9029
+ 5    25          0    Inf. Dilution          dG:-166.00(5SF)        0    CRV      10174
+ 6    50          0    Inf. Dilution          dG:-167.20(5SF)        0    CRV      10174
+ 7    75          0    Inf. Dilution          dG:-168.41(5SF)        0    CRV      10174
+ 8    100         0    Inf. Dilution          dG:-169.62(5SF)        0    CRV      10174
+ 9    125         0    Inf. Dilution          dG:-170.83(5SF)        0    CRV      10174
+ 10   150         0    Inf. Dilution          dG:-172.03(5SF)        0    CRV      10174
+ 11   175         0    Inf. Dilution          dG:-173.22(5SF)        0    CRV      10174
+ 12   200         0    Inf. Dilution          dG:-174.40(5SF)        0    CRV      10174
+ 13   225         0    Inf. Dilution          dG:-175.54(5SF)        0    CRV      10174
+ 14   250         0    Inf. Dilution          dG:-176.64(5SF)        0    CRV      10174
+ 15   300         0    Inf. Dilution          dG:-178.59(5SF)        0    CRV      10174
+ 16   25          0    Inf. Dilution          dH:-188.2(4SF)         1    CRV       6488
+ 17   25          0    Inf. Dilution         dH:-188.200(6SF)        1    CRV       9029
+
+
+Reaction No. 79466
+3<Cl2(g)> + Re(s) + 2<e-1> = Re+4_Cl-1(6)
+ No   t     I-Str         Medium               Value (Dev)       W       Tech.     Ref. #
+ 1    25      0       Inf. Dilution          dG:-589.4(4SF)kJ    2        CRV       7421
+
+
+Reaction No. 79672
+2<H+1_ReO4-1_(s)> = Re2O7(s) + H2O(g)
+ No   t     I-Str        Medium                Value (Dev)           W    Tech.    Ref. #
+ 1    25      0       Inf. Dilution         dG:4.460(0.018SD)        5     ETR     29294
+ 2    25      0       Inf. Dilution         dH:11.020(0.100SD)       5     ETR     29294
+
+
+Reaction No. 80966
+Ph4As+1_ReO4-1_(s) = Ph4As+1 + ReO4-1
+ No   t     I-Str          Medium               Value (Dev)      W       Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:-8.49(3SF)     4       MSL       32204
+
+
+
+
+                                    Data Assessment
+
+
+
+
+                                        – Page 9 of 12 –
+JESS Thermodynamic Database v8.9                               Rhenium
+
+
+
+Weight                       Assessment
+9        highest accuracy
+8        multi-determined; excellent dependability
+7        trustworthy; outstanding single determination
+6        better than average reliability
+5        average single determination
+4        some doubt
+3        poorly known
+2        guess to achieve consistency (or just as bad)
+1        no information but consistent
+0        problematic/inconsistent
+
+
+
+
+                                          Techniques
+
+
+Abbrev                   Method
+CRV      Critical review
+EAE      Automated extrapolation
+EES      Personal estimate
+EFE      Free Energy relations
+ELC      Linear Combination of Reactions
+ENS      Not specified
+EOR      Other Reaction Constants
+ETR      Thermodynamic relationships
+MAG      Silver electrode e.m.f.
+MCN      Conductivity
+MDG      Combination of Thermodynamic Data
+MEF      Electromotoric force, not specified
+MIX      Ion exchange
+MKN      Rate of reaction
+MPS      Potentiometry and Spectrophotometry
+MSL      Solubility
+MSP      Spectroscopy
+MTD      Temperature difference
+
+
+
+
+                                           – Page 10 of 12 –
+JESS Thermodynamic Database v8.9                                      Rhenium
+
+
+
+
+                                    References
+
+
+Reference No.: 552(95SMM)
+NIST Critical Stability Constants of Metal Complexes Database, 1995 Smith RM; Martell
+AE; Motekaitis RJ; Version 2.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 773(85KoS)
+Handbook of Chemical Equilibria in Analytical Chemistry, 1985 Kotrly S; Sucha L; Ellis
+Horwood Series in Anal. Chem.; Eds. Chalmers RA & Masson M; Ellis Horwood, Chichester
+
+Reference No.: 775(71CCM)
+Selected Constants, 1971 Charlot G; Collumeau A; Marchon MJC; Oxidation-Reduction
+Potentials of Inorganic Substances in Aqueous Solution; Butterworths, London
+
+Reference No.: 931(71SiM)
+Stability Constants of Metal-ion Complexes SP25, 1971 Sillen LG; Martell AE; Supplement
+No 1 to Special Publication No 25; Chemical Society, London
+
+Reference No.: 4140(71MBP)
+Zh. Neorg. Khim., 1971, 16, 1869 - 1872; Marov IN; Borisova LV; Plastinina EI;
+Kalinichenko NB; Complexing of Rhenium(IV) with Thiourea in a Hydrochloric Acid
+Solution
+
+Reference No.: 4142(74KZF)
+Zh. Neorg. Khim., 1974, 19, 737 - 742; Kotegov KV; Zegzhda TV; Fadeeva NV; Kukushkin
+YuN; The Formation of Rhenium(V) Complexes of Thiourea
+
+Reference No.: 4565(74WeE)
+J. Am. Chem. Soc., 1974, 96, 6289 - 6294; Webb TR; Espenson JH; Mechanism of Halide
+Substitution in Dichloro-mu-tetrapropionato-dirhenium(III)
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+Reference No.: 6422(95BaP)
+Thermochemical Data of Pure Substances, 3rd Edn., 1995 Barin I; Platzki G; Weinheim,
+Germany
+
+Reference No.: 6488(88ShH)
+Geochim. Cosmochim. Acta, 1988, 52, 2009 - 2036; Shock EL; Helgeson HC; Calculation of
+the Thermodynamic and Transport Properties of Aqueous Species at High Pressures and
+Temperatures: Correlation Algorithms for Ionic Species and Equation of State
+Predictions to 5 kb and 1000 C
+
+Reference No.: 7421(97Mar)
+Ion Properties, 1997 Marcus Y; Marcel Dekker Inc., New York, U.S.A.
+
+Reference No.: 7761(89Bra)
+J. Phys. Chem. Ref. Data, 1989, 18, 1 - 21; Bratsch SG; Standard Electrode Potentials
+and Temperature Coefficients in Water at 298.15 K
+
+
+
+
+                                      – Page 11 of 12 –
+JESS Thermodynamic Database v8.9                                     Rhenium
+
+
+Reference No.: 7981(48Mon)
+J. Am. Chem. Soc., 1948, 70, 3281 - 3283; Monk CB; The Conductance of Potassium Iodate
+at 25C, and Comments on the Conductances of Some Salts of Oxyacids
+
+Reference No.: 9029(97SSW)
+Geochim. Cosmochim. Acta, 1997, 61, 907 - 950; Shock EL; Sassani DC; Willis M;
+Sverjensky DA; Inorganic Species in Geologic Fluids: Correlations among Standard Molal
+Thermodynamic Properties of Aqueous Ions and Hydroxide Complexes
+
+Reference No.: 10174(95OHS)
+J. Phys. Chem. Ref. Data, 1995, 24, 1401 - 1560; Oelkers EH; Helgeson HC; Shock EL;
+Sverjensky DA; Johnson JW; Pokrovskii VA; Summary of the Apparent Standard Partial
+Molal Gibbs Free Energies of Formation of Aqueous Species, Minerals, and Gases at
+Pressures 1 to 5000 Bars and Temperatures 25 to 1000C
+
+Reference No.: 29294(53SCB)
+J. Am. Chem. Soc., 1953, 75, 5773 - 5776; Smith WT Jr; Cobble JW; Boyd GE;
+Thermodynamic Properties of Technetium and Rhenium Compounds. I. Vapor Pressures of
+Technetium Heptoxide, Pertechnic Acid and Aqueous Solutions of Pertechnic Acid
+
+Reference No.: 31291(84PSG)
+U.S. Bur. Mines Bull. 677, 1984 Pankratz LB; Stuve JM; Gokcen NA; Thermodynamic Data
+for Mineral Technology; US Det. Interior, Bur. Mines, Washington, DC, USA
+
+Reference No.: 32204(64CoP)
+Proc. Iowa Acad. Sci., 1964, 71, 145 - 150; Cole JJ; Pflaum RT; The Solubility and
+Thermal Decomposition Characteristics of Some Tetraphenylarsonium Compounds
+
+
+
+
+                                      – Page 12 of 12 –
+

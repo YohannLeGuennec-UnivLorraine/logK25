@@ -1,0 +1,1626 @@
+                     JESS Thermodynamic Database v8.9
+                                          Tungsten
+
+                                          24-Jan-23
+
+Reaction No. 4899
+WO3(s) + H+1 + e-1 = 0.5<W2O5(s)> + 0.5<H2O>
+ No    t    I-Str             Medium            Value (Dev)          W   Tech.   Ref. #
+  1   25       0        Inf. Dilution          lgK:-0.5(1SF)         1    ELC
+  2   25       0        Inf. Dilution         E:-0.015(0.05SD)       0    MDG     775
+
+
+Reaction No. 4900
+WO3(s) + 6<e-1> + 6<H+1> = W(s) + 3<H2O>
+ No    t     I-Str            Medium             Value (Dev)     W       Tech.   Ref. #
+  1   25       0         Inf. Dilution         E:-0.09(0.01SD)   6        MDG     775
+  2   25       0         Inf. Dilution          E:-0.090(2SF)    5        CRV     6330
+  3   25       0         Inf. Dilution          E:-0.090(2SF)    5        CRV    22519
+  4   25       0         Inf. Dilution          E:-0.09(1SF)     4        CRV    22551
+
+
+Reaction No. 4901
+WO4-2 + 6<e-1> + 4<H2O> = W(s) + 8<OH-1>
+ No    t     I-Str            Medium             Value (Dev)     W       Tech.   Ref. #
+  1   25       0         Inf. Dilution         lgK:-106.4(4SF)   1        ELC
+  2   25       0         Inf. Dilution         E:-1.01(0.01SD)   0        MEF     775
+  3   25       0         Inf. Dilution          E:-1.074(4SF)    0        CRV    22551
+
+
+Reaction No. 4902
+H+1(2)_WO4-2 + 6<H+1> + 6<e-1> = W(s) + 4<H2O>
+ No    t     I-Str             Medium            Value (Dev)     W       Tech.   Ref. #
+  1    25      0          Inf. Dilution         lgK:-6.2(2SF)    1       ELC
+
+
+Reaction No. 4903
+0.5<W2O5(s)> + H+1 + e-1 = WO2(s) + 0.5<H2O>
+ No    t     I-Str            Medium             Value (Dev)     W       Tech.   Ref. #
+  1   25       0         Inf. Dilution          lgK:1.9(2SF)     1        ELC
+  2   25       0         Inf. Dilution         E:-0.02(0.01SD)   0        MDG     775
+
+
+Reaction No. 4904
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                        Tungsten
+
+
+WO2(s) + 4<H+1> + 4<e-1> = W(s) + 2<H2O>
+ No   t    I-Str         Medium                 Value (Dev)         W     Tech.    Ref. #
+ 1    25     0        Inf. Dilution            lgK:-10.4(3SF)       1      ELC
+ 2    25     0        Inf. Dilution           E:-0.12(0.01SD)       0      MDG       775
+ 3    25     0        Inf. Dilution            E:-0.119(3SF)        0      CRV      6330
+ 4    25     0        Inf. Dilution            E:-0.119(3SF)        0      CRV      22519
+
+
+Reaction No. 7668
+2<WO4-2> + DLyxose + 2<H+1> = H+1(2)_DLyxose_WO4-2(2)
+ No    t    I-Str      Medium              Value (Dev)          W       Tech.      Ref. #
+  1   25     0.1        KCl            lgK:18.1(0.06SD)         4        MGL        1070
+
+
+Reaction No. 7669
+2<WO4-2> + DMannose + 2<H+1> = H+1(2)_DMannose_WO4-2(2)
+ No    t    I-Str      Medium              Value (Dev)          W       Tech.      Ref. #
+  1   25     0.1        KCl            lgK:17.5(0.06SD)         4        MGL        1070
+
+
+Reaction No. 7672
+2<WO4-2> + LRhamnose + 2<H+1> = H+1(2)_LRhamnose_WO4-2(2)
+ No    t    I-Str      Medium              Value (Dev)          W       Tech.      Ref. #
+  1   25     0.1        KCl            lgK:17.0(0.06SD)         4        MGL        1070
+
+
+Reaction No. 7673
+2<WO4-2> + LRhamnose + 3<H+1> = H+1(3)_LRhamnose_WO4-2(2)
+ No    t     I-Str     Medium              Value (Dev)          W       Tech.      Ref. #
+  1   25      0.1        KCl           lgK:20.5(0.1SD)          3       MGL        1070
+
+
+Reaction No. 9379
+MoO4-2 + WO3_NTA-3 = MoO3_NTA-3 + WO4-2
+ No   t    I-Str          Medium                Value (Dev)         W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution            lgK:1.0(2SF)        1     ELC
+ 2    28    1.3           Unknown              lgK:0.15(2SF)        6     MMR       1118
+
+
+Reaction No. 9381
+WO4-2 + NTA-3 + 2<H+1> = WO3_NTA-3 + H2O
+ No    t    I-Str      Medium               Value (Dev)         W       Tech.      Ref. #
+ 1    25    0.15       Unknown            lgK:18.9(0.05SD)      4        MGL        1118
+
+
+
+
+                                       – Page 2 of 33 –
+JESS Thermodynamic Database v8.9                                        Tungsten
+
+
+ 2    25     0.5       NaClO4          lgK:17.8(0.03SD)         4        MGL        1118
+ 3    25         3     NaClO4          lgK:19.0(0.2SD)          5        MPS        6969
+ 4    35    1:2.5      Unknown         lgK:19.1(0.2SD)          3        MMR        1118
+
+
+Reaction No. 17981
+WO4-2 + IDA-2 + 2<H+1> = H+1(2)_IDA-2_WO4-2
+ No    t    I-Str       Medium           Value (Dev)            W       Tech.      Ref. #
+  1   25     0.15      Unknown         lgK:18.5(0.2SD)          3       MGL        1397
+
+
+Reaction No. 17982
+WO4-2 + MIDA-2 + 2<H+1> = H+1(2)_MIDA-2_WO4-2
+ No   t     I-Str      Medium            Value (Dev)            W       Tech.      Ref. #
+ 1    25    0.15      Unknown         lgK:18.70(0.01SD)         6        MGL        1397
+
+
+Reaction No. 17985
+WO4-2 + NTA-3 + 2<H+1> = H+1(2)_WO4-2_NTA-3
+ No    t    I-Str      Medium            Value (Dev)            W       Tech.      Ref. #
+ 1    25    0.15       Unknown         lgK:18.9(0.05SD)         4        MGL        1397
+
+
+Reaction No. 17986
+EDTA-4 + WO4-2 + 2<H+1> = H+1(2)_WO4-2_EDTA-4
+ No   t    I-Str          Medium                Value (Dev)         W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:19.7(4SF)         1     EOR
+ 2    25   0.15          Unknown              lgK:19.(0.4SD)        3     MGL       1397
+
+
+Reaction No. 17989
+H+1(2)_WO4-2_EDTA-4 + WO4-2 + 2<H+1> = H+1(4)_WO4-2(2)_EDTA-4
+ No    t    I-Str       Medium           Value (Dev)            W       Tech.      Ref. #
+  1   25     0.15      Unknown         lgK:16.9(0.2SD)          4       MGL        1397
+
+
+Reaction No. 19280
+IDA-2 + WO4-2 = IDA-2_WO4-2
+ No    t    I-Str      Medium           Value (Dev)             W       Tech.      Ref. #
+  1   25         3     NaClO4         lgK:18.1(0.05SD)          4       MGL        1659
+
+
+Reaction No. 19281
+NTA-3 + WO4-2 = WO4-2_NTA-3
+ No    t    I-Str      Medium           Value (Dev)             W       Tech.      Ref. #
+
+
+
+
+                                      – Page 3 of 33 –
+JESS Thermodynamic Database v8.9                                              Tungsten
+
+
+  1   25            3      NaClO4         lgK:19.0(0.08SD)           3         MGL        1659
+
+
+Reaction No. 19282
+EDDA-2 + WO4-2 = EDDA-2_WO4-2
+ No    t       I-Str       Medium           Value (Dev)              W        Tech.      Ref. #
+  1   25            3      NaClO4         lgK:19.6(0.06SD)           3         MGL        1659
+
+
+Reaction No. 19283
+EDTA-4 + WO4-2 = WO4-2_EDTA-4
+ No   t       I-Str          Medium              Value (Dev)             W      Tech.     Ref. #
+ 1    25        0         Inf. Dilution        lgK:18.38(4SF)            1         EOR
+ 2    25        3            NaClO4           lgK:19.7(0.05SD)           3         MGL     1659
+
+
+Reaction No. 19284
+2<EDTA-4> + WO4-2 = WO4-2_EDTA-4(2)
+ No   t       I-Str          Medium              Value (Dev)             W      Tech.     Ref. #
+ 1    25        0         Inf. Dilution        lgK:30.92(4SF)            1         EOR
+ 2    25        3            NaClO4           lgK:36.2(0.06SD)           4         MGL     1659
+
+
+Reaction No. 29648
+Asp-2 + WO2+2 = WO2+2_Asp-2
+ No       t     I-Str        Medium         Value (Dev)          W           Tech.       Ref. #
+  1    25           0.1      NaClO4        lgK:8.20(3SF)         5           MGL         1814
+
+
+Reaction No. 29649
+WO2+2_Asp-2 + Asp-2 = WO2+2_Asp-2(2)
+ No       t     I-Str        Medium         Value (Dev)          W           Tech.       Ref. #
+  1    25           0.1      NaClO4        lgK:5.87(3SF)         5           MGL         1814
+
+
+Reaction No. 29650
+WO2+2_Asp-2(2) + Asp-2 = WO2+2_Asp-2(3)
+ No       t     I-Str        Medium         Value (Dev)          W           Tech.       Ref. #
+  1    25           0.1      NaClO4        lgK:3.81(3SF)         5           MGL         1814
+
+
+Reaction No. 29651
+Glu-2 + WO2+2 = WO2+2_Glu-2
+ No       t     I-Str        Medium         Value (Dev)          W           Tech.       Ref. #
+  1    25           0.1      NaClO4        lgK:7.95(3SF)         5           MGL         1814
+
+
+
+
+                                          – Page 4 of 33 –
+JESS Thermodynamic Database v8.9                                     Tungsten
+
+
+
+Reaction No. 29652
+WO2+2_Glu-2 + Glu-2 = WO2+2_Glu-2(2)
+ No    t     I-Str      Medium             Value (Dev)      W       Tech.       Ref. #
+  1   25      0.1       NaClO4            lgK:5.45(3SF)     5       MGL         1814
+
+
+Reaction No. 29653
+WO2+2_Glu-2(2) + Glu-2 = WO2+2_Glu-2(3)
+ No    t     I-Str      Medium             Value (Dev)      W       Tech.       Ref. #
+  1   25      0.1       NaClO4            lgK:3.60(3SF)     5       MGL         1814
+
+
+Reaction No. 30905
+2<H+1> + 2<Lactic-1> + WO3 = H+1(2)_WO3_Lactic-1(2)
+ No   t     I-Str     Medium              Value (Dev)           W    Tech.      Ref. #
+ 1    25      1        NaCl            lgK:17.47(0.01SD)        5     MGL        1938
+ 2    25      1        NaCl             dH:-80.(2.SD)kJ         5     MCL        1938
+
+
+Reaction No. 30906
+3<H+1> + 2<Lactic-1> + WO3 = H+1(3)_WO3_Lactic-1(2)
+ No    t     I-Str     Medium             Value (Dev)           W   Tech.       Ref. #
+  1   25       1        NaCl            lgK:18.4(0.1SD)         5    MGL         1938
+
+
+Reaction No. 30907
+2<H+1> + Lactic-1 + WO3 = H+1(2)_WO3_Lactic-1
+ No   t     I-Str      Medium             Value (Dev)           W    Tech.      Ref. #
+  1   25      1         NaCl           lgK:13.0(0.07SD)         5     MGL        1938
+
+
+Reaction No. 30908
+3<H+1> + Lactic-1 + WO3 = H+1(3)_WO3_Lactic-1
+ No    t     I-Str     Medium             Value (Dev)           W   Tech.       Ref. #
+  1   25       1        NaCl            lgK:14.6(0.1SD)         5    MGL         1938
+
+
+Reaction No. 30909
+3<H+1> + 2<Lactic-1> + 2<WO3> = H+1(3)_WO3(2)_Lactic-1(2)
+ No    t     I-Str     Medium             Value (Dev)           W   Tech.       Ref. #
+  1   25       1        NaCl            lgK:25.5(0.1SD)         5    MGL         1938
+
+
+Reaction No. 36324
+
+
+
+
+                                       – Page 5 of 33 –
+JESS Thermodynamic Database v8.9                                               Tungsten
+
+
+WO4-2 + Sulfox-2 + 2<H+1> = WO3_Sulfox-2 + H2O
+ No        t         I-Str     Medium            Value (Dev)              W    Tech.      Ref. #
+ 1    15:17           0.1       KNO3           lgK:19.9(0.07SD)           4     MGL         906
+
+
+Reaction No. 37542
+WO4-2 + 2<H+1(2)_Cat-2> = WO2+2_Cat-2(2) + 2<H2O>
+ No    t       I-Str          Medium           Value (Dev)        W           Tech.       Ref. #
+  1   20        0.1           NaHSO3          lgK:6.53(3SF)       5            MSP         140
+
+
+Reaction No. 40407
+H+1(2)_WO4-2 + H+1(2)_Oxalic-2 = H+1(2)_WO3_Oxalic-2 + H2O
+ No   t          I-Str           Medium           Value (Dev)             W    Tech.      Ref. #
+ 1    25       0.08:0.24         H2SO4          lgK:4.8(0.09SD)           4     MPL         931
+ 2    25                                        lgK:5.1(0.05SD)           4     MKN         931
+
+
+Reaction No. 40408
+H+1(2)_WO3_Oxalic-2 + H+1(2)_Oxalic-2 = WO2+2_H+1(2)_Oxalic-2(2) + H2O
+ No   t          I-Str           Medium           Value (Dev)             W    Tech.      Ref. #
+ 1    25       0.08:0.24             H2SO4       lgK:7.5(0.1SD)           4     MPL         931
+
+
+Reaction No. 42161
+WO4-2 + Cys-2 + 2<H+1> = WO3_Cys-2 + H2O
+ No    t       I-Str         Medium            Value (Dev)            W       Tech.       Ref. #
+  1   18         1            NaCl           lgK:18.8(0.2SD)          5        MGL         2547
+
+
+Reaction No. 43051
+Malonic-2 + WO2+2 = WO2+2_Malonic-2
+ No    t       I-Str          Medium           Value (Dev)        W           Tech.       Ref. #
+  1   23                                      lgK:1.34(3SF)       3            ENS         906
+
+
+Reaction No. 43217
+Succinic-2 + WO2+2 = WO2+2_Succinic-2
+ No    t       I-Str          Medium            Value (Dev)       W           Tech.       Ref. #
+  1   22        0.1          Unknown           lgK:1.06(3SF)      4            MIX         906
+
+
+Reaction No. 44093
+2<35DiNitrCat-2> + WO2+2 = WO2+2_35DiNitrCat-2(2)
+ No    t       I-Str         Medium            Value (Dev)        W           Tech.       Ref. #
+
+
+
+
+                                             – Page 6 of 33 –
+JESS Thermodynamic Database v8.9                                                 Tungsten
+
+
+  1    25       0.1       NaNO3         lgK:20.74(4SF)           4               MSP          906
+
+
+Reaction No. 44399
+WO2+2 + 2<H+1_BenzHydroxam-1> = WO2+2_BenzHydroxam-1(2) + 2<H+1>
+ No       t     I-Str     Medium            Value (Dev)          W           Tech.           Ref. #
+  1    23           4      HCl             lgR:7.11(3SF)         4               MDS          906
+
+
+Reaction No. 44896
+WO4-2 + EDTA-4 + 2<H+1> = WO3_EDTA-4 + H2O
+ No    t       I-Str     Medium             Value (Dev)          W               Tech.       Ref. #
+  1    25       0.15     Unknown           lgK:19.(0.4SD)        4               MGL          906
+  2    35      1:2.5     Unknown           lgK:19.(0.3SD)        4               MMR          906
+
+
+Reaction No. 44897
+WO4-2 + WO3_EDTA-4 + 2<H+1> = WO3(2)_EDTA-4 + H2O
+ No    t       I-Str     Medium             Value (Dev)              W           Tech.       Ref. #
+  1   25       0.15     Unknown          lgK:16.9(0.2SD)             4            MGL         906
+  2   35       1:2.5    Unknown            lgK:17.(0.3SD)            4            MMR         906
+
+
+Reaction No. 44898
+WO3_EDTA-4 + H+1 = H+1_WO3_EDTA-4
+ No   t       I-Str        Medium               Value (Dev)              W        Tech.      Ref. #
+ 1    25        0       Inf. Dilution           lgK:7.5(2SF)             1         ESC
+ 2    35      1:2.5        Unknown             lgK:7.5(0.2SD)            4         MMR         906
+
+
+Reaction No. 54623
+Pb(s) + W(s) + 2<O2(g)> = Pb+2_WO4-2_(s)
+ No    t      I-Str        Medium                Value (Dev)                 W     Tech.      Ref. #
+ 1    25        0       Inf. Dilution          lgK:178.8(4SF)                4         ENS     6422
+ 2    27        0       Inf. Dilution          lgK:177.6(4SF)                4         ENS     6422
+ 3    127       0       Inf. Dilution          lgK:128.8(4SF)                4         ENS     6422
+ 4    227       0       Inf. Dilution          lgK:99.55(4SF)                4         ENS     6422
+ 5    327       0       Inf. Dilution          lgK:80.11(4SF)                4         ENS     6422
+ 6    25        0       Inf. Dilution          dG:-243.9(4SF)                4         EFE     6422
+ 7    25        0       Inf. Dilution         dH:-269.4(0.1SD)               4         MCL     5029
+ 8    25        0       Inf. Dilution          dH:-268.1(4SF)                4         MTD     6422
+ 9    127       0       Inf. Dilution          dH:-267.7(4SF)                4         MTD     6422
+
+
+
+
+                                        – Page 7 of 33 –
+JESS Thermodynamic Database v8.9                                   Tungsten
+
+
+ 10   227         0    Inf. Dilution         dH:-267.2(4SF)    4     MTD      6422
+ 11   327         0    Inf. Dilution         dH:-266.6(4SF)    4     MTD      6422
+
+
+Reaction No. 55349
+2<Ag(s)> + W(s) + 2<O2(g)> = Ag+1(2)_WO4-2_(s)
+ No   t     I-Str        Medium               Value (Dev)      W    Tech.     Ref. #
+ 1    25      0       Inf. Dilution        dG:-199.7(0.05SD)   4     MPT      5501
+ 2    25      0       Inf. Dilution        dH:-231.5(0.1SD)    4     MPT      5501
+
+
+Reaction No. 56379
+Mg(s) + W(s) + 2<O2(g)> = Mg+2_WO4-2_(s)
+ No    t     I-Str        Medium                 Value (Dev)   W    Tech.     Ref. #
+ 1    25          0   Inf. Dilution          lgK:246.0(4SF)    4     ENS       6422
+ 2    27          0   Inf. Dilution          lgK:244.4(4SF)    0     ENS       6422
+ 3    127         0   Inf. Dilution          lgK:178.4(4SF)    4     ENS       6422
+ 4    227         0   Inf. Dilution          lgK:138.9(4SF)    4     ENS       6422
+ 5    327         0   Inf. Dilution          lgK:112.5(4SF)    4     ENS       6422
+ 6    25          0   Inf. Dilution        dG:-339.6(0.05SD)   0     ENS       802
+ 7    25          0   Inf. Dilution          dG:-335.6(4SF)    4     EFE       6422
+ 8    25          0   Inf. Dilution         dH:-366.3(0.1SD)   3     ENS       802
+ 9    25          0   Inf. Dilution          dH:-362.3(4SF)    4     MTD       6422
+ 10   127         0   Inf. Dilution          dH:-362.1(4SF)    4     MTD       6422
+ 11   227         0   Inf. Dilution          dH:-361.8(4SF)    4     MTD       6422
+ 12   327         0   Inf. Dilution          dH:-361.3(4SF)    4     MTD       6422
+
+
+Reaction No. 56392
+Sr(s) + W(s) + 2<O2(g)> = Sr+2_WO4-2_(s)
+ No    t     I-Str        Medium                 Value (Dev)   W    Tech.     Ref. #
+ 1    25          0   Inf. Dilution          lgK:268.4(4SF)    4     ENS       6422
+ 2    27          0   Inf. Dilution          lgK:266.7(4SF)    4     ENS       6422
+ 3    127         0   Inf. Dilution          lgK:195.3(4SF)    4     ENS       6422
+ 4    227         0   Inf. Dilution          lgK:152.6(4SF)    4     ENS       6422
+ 5    327         0   Inf. Dilution          lgK:124.1(4SF)    4     ENS       6422
+ 6    25          0   Inf. Dilution        dG:-366.0(0.05SD)   4     ENS       802
+ 7    25          0   Inf. Dilution        dG:-366.0(0.05SD)   5     ENS       802
+ 8    25          0   Inf. Dilution          dG:-366.2(4SF)    4     EFE       6422
+ 9    25          0   Inf. Dilution         dH:-391.9(0.1SD)   4     ENS       802
+
+
+
+
+                                       – Page 8 of 33 –
+JESS Thermodynamic Database v8.9                                          Tungsten
+
+
+ 10   25          0   Inf. Dilution            dH:-391.9(0.1SD)       5     ENS       802
+ 11   25          0   Inf. Dilution             dH:-391.9(4SF)        4     MTD       6422
+ 12   127         0   Inf. Dilution             dH:-391.5(4SF)        4     MTD       6422
+ 13   227         0   Inf. Dilution             dH:-391.2(4SF)        4     MTD       6422
+ 14   327         0   Inf. Dilution             dH:-390.8(4SF)        4     MTD       6422
+
+
+Reaction No. 57516
+WO4-2 + 2<H+1> = H+1(2)_WO4-2
+ No   t     I-Str           Medium               Value (Dev)      W        Tech.     Ref. #
+ 1    20     0.1           Unknown               lgK:8.1(2SF)     0         CRV       552
+ 2    25      0       Inf. Dilution              lgK:5.8(2SF)     0         CRV       552
+ 3    25      3            Na(ClO4)            lgK:11.3(0.1SD)    4         MEF       5564
+
+
+Reaction No. 57517
+6<H+1> + 6<WO4-2> = W6O21-6 + 3<H2O>
+ No   t     I-Str           Medium               Value (Dev)      W        Tech.     Ref. #
+ 1    25      0       Inf. Dilution             lgK:59.3(3SF)     1         EOR
+ 2    25      3            Na(ClO4)            lgK:52.5(0.1SD)    6         MEF       5564
+ 3    25      3             NaClO4              dH:-57.(1.SD)     5         MCL        43
+
+
+Reaction No. 57518
+7<H+1> + 6<WO4-2> = H+1_W6O21-6 + 3<H2O>
+ No   t     I-Str          Medium                Value (Dev)          W    Tech.     Ref. #
+ 1    25      0       Inf. Dilution             lgK:52.(2SF)          1     EOR
+ 2    25      3           Na(ClO4)            lgK:60.76(0.03SD)       6     MEF       5564
+ 3    25      3           Na(ClO4)            lgK:60.68(0.03SD)       4     MGL      31135
+ 4    25      3            NaClO4              dH:-62.(0.9SD)         5     MCL        43
+
+
+Reaction No. 58982
+Ag+1(2)_WO4-2_(s) + 2<e-1> = 2<Ag(s)> + WO4-2
+ No   t     I-Str            Medium               Value (Dev)     W       Tech.      Ref. #
+ 1    25      0           Inf. Dilution         E:0.4660(4SF)     4        MAG        778
+ 2    25      0           Inf. Dilution          E:0.466(3SF)     4        CRV       3006
+ 3    25      0           Inf. Dilution         E:0.4660(4SF)     5        CRV       6330
+
+
+Reaction No. 65644
+H+1 + WO4-2 = H+1_WO4-2
+
+
+
+
+                                          – Page 9 of 33 –
+JESS Thermodynamic Database v8.9                                                   Tungsten
+
+
+ No        t          I-Str        Medium               Value (Dev)            W     Tech.     Ref. #
+ 1         25           0       Inf. Dilution           lgK:3.6(2SF)           4      CRV       552
+ 2         25           0       Inf. Dilution         lgK:3.6(0.5MD)           4      MGL       7167
+ 3         25          0.1         Unknown             lgK:3.(0.3SD)           3      CRV       552
+ 4         25          0.5         Unknown              lgK:3.0(2SF)           0      CRV       552
+ 5         25           1           NaCl                lgK:2.9(2SF)           3      CRV       552
+ 6         25           3           NaCl              lgK:2.7(0.1SD)           3      CRV       552
+ 7     150              0       Inf. Dilution        lgK:4.71(0.06MD)          3      MGL       7167
+ 8     150            0.104        NaCl/m            lgK:4.09(0.06MD)          3      MGL       7167
+ 9     150            1.014        NaCl/m            lgK:3.80(0.12MD)          3      MGL       7167
+ 10    200            0.104        NaCl/m            lgK:4.68(0.03MD)          3      MGL       7167
+ 11    200            1.014        NaCl/m            lgK:4.17(0.03MD)          3      MGL       7167
+ 12    200            5.12         NaCl/m            lgK:4.06(0.12MD)          3      MGL       7167
+ 13    250            0.104        NaCl/m            lgK:5.21(0.03MD)          3      MGL       7167
+ 14    250            1.014        NaCl/m            lgK:4.58(0.03MD)          3      MGL       7167
+ 15    250            5.12         NaCl/m            lgK:4.31(0.09MD)          3      MGL       7167
+ 16    290            0.104        NaCl/m            lgK:5.64(0.03MD)          2      MGL       7167
+ 17    290            1.014        NaCl/m            lgK:4.78(0.03MD)          2      MGL       7167
+ 18    290            5.12         NaCl/m            lgK:4.46(0.09MD)          0      MGL       7167
+ 19   20:300           0.1         Unknown               dH:1.(1SF)            0      CRV       552
+
+
+Reaction No. 65645
+Pb+2_WO4-2_(s) = Pb+2 + WO4-2
+ No    t        I-Str            Medium               Value (Dev)          W        Tech.      Ref. #
+ 1    25          0           Inf. Dilution          lgK:-14.0(3SF)        1         ELC
+ 2    25          0           Inf. Dilution         lgK:-16.07(4SF)        0         CRV        552
+ 3    25          0           Inf. Dilution         lgK:-11.35(4SF)        0         CRV       28992
+ 4    50          0           Inf. Dilution         lgK:-10.79(4SF)        0         CRV       28992
+ 5    100         0           Inf. Dilution         lgK:-10.37(4SF)        0         CRV       28992
+ 6    150         0           Inf. Dilution          lgK:-10.6(3SF)        0         CRV       28992
+ 7    200         0           Inf. Dilution          lgK:-11.2(3SF)        0         CRV       28992
+ 8    25          0           Inf. Dilution          dH:12.50(4SF)         1         CRV        552
+
+
+Reaction No. 65646
+H+1_W6O21-6 = W6O21-6 + H+1
+ No    t         I-Str         Medium            Value (Dev)           W       Tech.          Ref. #
+
+
+
+
+                                              – Page 10 of 33 –
+JESS Thermodynamic Database v8.9                                           Tungsten
+
+
+  1    25             3     NaClO4           lgK:8.30(3SF)         5       CRV        552
+  2    25             3     NaClO4            dH:-5.(1SF)          5       CRV        552
+
+
+Reaction No. 65647
+2<Ag+1> + WO4-2 = Ag+1(2)_WO4-2_(s)
+ No   t     I-Str            Medium                Value (Dev)         W    Tech.     Ref. #
+ 1    15      0           Inf. Dilution          lgK:10.88(4SF)        2     MIS      6843
+ 2    25      0           Inf. Dilution          lgK:12.12(4SF)        0     CRV       552
+ 3    25      0           Inf. Dilution          lgK:12.32(4SF)        0     CRV      3006
+ 4    25      0           Inf. Dilution          lgK:10.63(4SF)        2     MIS      6843
+ 5    25     0.1              NaNO3              lgK:11.44(4SF)        6     CRV       552
+ 6    25     0.5              NaNO3              lgK:11.08(4SF)        6     CRV       552
+ 7    25      1               NaNO3              lgK:10.8(0.1SD)       6     CRV       552
+ 8    25      0           Inf. Dilution           dH:14.7(3SF)         4     CRV       552
+
+
+Reaction No. 66225
+Zn(s) + W(s) + 2<O2(g)> = Zn+2_WO4-2_(s)
+ No    t     I-Str            Medium                Value (Dev)        W    Tech.     Ref. #
+ 1    25          0        Inf. Dilution          lgK:196.8(4SF)       4     ENS      6422
+ 2    27          0        Inf. Dilution          lgK:195.4(4SF)       4     ENS      6422
+ 3    127         0        Inf. Dilution          lgK:142.0(4SF)       4     ENS      6422
+ 4    227         0        Inf. Dilution          lgK:110.0(4SF)       4     ENS      6422
+ 5    327         0        Inf. Dilution          lgK:88.66(4SF)       4     ENS      6422
+ 6    25          0        Inf. Dilution          dG:-268.4(4SF)       4     EFE      6422
+ 7    25          0        Inf. Dilution          dH:-293.7(4SF)       4     MTD      6422
+ 8    127         0        Inf. Dilution          dH:-293.2(4SF)       4     MTD      6422
+ 9    227         0        Inf. Dilution          dH:-292.7(4SF)       4     MTD      6422
+ 10   327         0        Inf. Dilution          dH:-292.1(4SF)       4     MTD      6422
+
+
+Reaction No. 66271
+W(s) + 2<S(s)> = WS2(s)
+ No    t     I-Str            Medium                Value (Dev)        W    Tech.     Ref. #
+ 1    25          0        Inf. Dilution          lgK:43.78(4SF)       4     ENS      6422
+ 2    25          0        Inf. Dilution          lgK:40.81(4SF)       0     ENS      6494
+ 3    27          0        Inf. Dilution          lgK:43.50(4SF)       4     ENS      6422
+ 4    27          0        Inf. Dilution          lgK:40.55(4SF)       0     ENS      6494
+ 5    127         0        Inf. Dilution          lgK:32.17(4SF)       4     ENS      6422
+
+
+
+
+                                           – Page 11 of 33 –
+JESS Thermodynamic Database v8.9                                     Tungsten
+
+
+ 6    127     0        Inf. Dilution            lgK:30.00(4SF)   0     ENS      6494
+ 7    227     0        Inf. Dilution            lgK:25.23(4SF)   4     ENS      6422
+ 8    227     0        Inf. Dilution            lgK:23.53(4SF)   0     ENS      6494
+ 9    327     0        Inf. Dilution            lgK:20.56(4SF)   4     ENS      6422
+ 10   327     0        Inf. Dilution            lgK:19.16(4SF)   0     ENS      6494
+ 11   25      0        Inf. Dilution            dG:-59.73(4SF)   4     EFE      6422
+ 12   25      0        Inf. Dilution            dG:-55.69(4SF)   0     EFE      6494
+ 13   25      0        Inf. Dilution            dH:-62.0(3SF)    4     MTD      6422
+ 14   25      0        Inf. Dilution            dH:-57.74(4SF)   0     MTD      6494
+ 15   127     0        Inf. Dilution            dH:-63.2(3SF)    4     MTD      6422
+ 16   127     0        Inf. Dilution            dH:-58.91(4SF)   0     MTD      6494
+ 17   227     0        Inf. Dilution            dH:-63.9(3SF)    4     MTD      6422
+ 18   227     0        Inf. Dilution            dH:-59.70(4SF)   0     MTD      6494
+ 19   327     0        Inf. Dilution            dH:-64.5(3SF)    4     MTD      6422
+ 20   327     0        Inf. Dilution            dH:-60.28(4SF)   0     MTD      6494
+
+
+Reaction No. 66272
+W(s) + 0.5<O2(g)> + 2<F2(g)> = WOF4(s)
+ No    t    I-Str          Medium                 Value (Dev)    W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution            lgK:225.2(4SF)   4     ENS      6422
+ 2    27      0        Inf. Dilution            lgK:223.7(4SF)   4     ENS      6422
+ 3    106     0        Inf. Dilution            lgK:173.2(4SF)   4     ENS      6422
+ 4    25      0        Inf. Dilution            dG:-307.2(4SF)   4     EFE      6422
+ 5    25      0        Inf. Dilution            dH:-333.3(4SF)   4     MTD      6422
+ 6    27      0        Inf. Dilution            dH:-333.2(4SF)   4     MTD      6422
+ 7    106     0        Inf. Dilution            dH:-332.5(4SF)   4     MTD      6422
+
+
+Reaction No. 66273
+W(s) + O2(g) + Cl2(g) = WO2Cl2(s)
+ No    t    I-Str          Medium                 Value (Dev)    W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution            lgK:123.1(4SF)   4     ENS      6422
+ 2    27      0        Inf. Dilution            lgK:122.3(4SF)   0     ENS      6422
+ 3    127     0        Inf. Dilution            lgK:88.35(4SF)   2     ENS      6422
+ 4    227     0        Inf. Dilution            lgK:68.06(4SF)   1     ENS      6422
+ 5    327     0        Inf. Dilution            lgK:54.59(4SF)   0     ENS      6422
+ 6    25      0        Inf. Dilution            dG:-168.0(4SF)   3     EFE      6422
+
+
+
+
+                                         – Page 12 of 33 –
+JESS Thermodynamic Database v8.9                                   Tungsten
+
+
+ 7    25      0        Inf. Dilution          dH:-186.5(4SF)   2     MTD      6422
+ 8    127     0        Inf. Dilution          dH:-186.0(4SF)   1     MTD      6422
+ 9    227     0        Inf. Dilution          dH:-185.3(4SF)   0     MTD      6422
+ 10   327     0        Inf. Dilution          dH:-184.4(4SF)   0     MTD      6422
+
+
+Reaction No. 66274
+W(s) + 0.5<O2(g)> + 2<Cl2(g)> = WOCl4(s)
+ No    t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:96.23(4SF)   4     ENS      6422
+ 2    27      0        Inf. Dilution          lgK:95.50(4SF)   0     ENS      6422
+ 3    127     0        Inf. Dilution          lgK:66.38(4SF)   2     ENS      6422
+ 4    211     0        Inf. Dilution          lgK:51.31(4SF)   1     ENS      6422
+ 5    25      0        Inf. Dilution          dG:-131.3(4SF)   4     EFE      6422
+ 6    25      0        Inf. Dilution          dH:-160.4(4SF)   2     MTD      6422
+ 7    127     0        Inf. Dilution          dH:-159.4(4SF)   1     MTD      6422
+ 8    211     0        Inf. Dilution          dH:-158.4(4SF)   0     MTD      6422
+
+
+Reaction No. 66275
+W(s) + 1.5<O2(g)> = WO3(s)
+ No    t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:133.9(4SF)   3     ENS      6422
+ 2    27      0        Inf. Dilution          lgK:132.9(4SF)   0     ENS      6422
+ 3    127     0        Inf. Dilution          lgK:96.27(4SF)   2     ENS      6422
+ 4    227     0        Inf. Dilution          lgK:74.30(4SF)   2     ENS      6422
+ 5    327     0        Inf. Dilution          lgK:59.68(4SF)   0     ENS      6422
+ 6    25      0        Inf. Dilution          dG:-182.6(4SF)   3     EFE      6422
+ 7    25      0        Inf. Dilution          dG:-182.6(4SF)   3     CRV      31291
+ 8    25      0        Inf. Dilution          dH:-201.5(4SF)   3     MTD      6422
+ 9    127     0        Inf. Dilution          dH:-201.2(4SF)   1     MTD      6422
+ 10   227     0        Inf. Dilution          dH:-200.9(4SF)   0     MTD      6422
+ 11   327     0        Inf. Dilution          dH:-200.4(4SF)   0     MTD      6422
+
+
+Reaction No. 66276
+W(s) + 1.48<O2(g)> = WO2.96(s)
+ No    t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:132.6(4SF)   4     ENS      6422
+ 2    27      0        Inf. Dilution          lgK:131.7(4SF)   4     ENS      6422
+
+
+
+
+                                       – Page 13 of 33 –
+JESS Thermodynamic Database v8.9                                   Tungsten
+
+
+ 3    127     0        Inf. Dilution          lgK:95.40(4SF)   4     ENS      6422
+ 4    227     0        Inf. Dilution          lgK:73.63(4SF)   4     ENS      6422
+ 5    327     0        Inf. Dilution          lgK:59.15(4SF)   4     ENS      6422
+ 6    25      0        Inf. Dilution          dG:-180.9(4SF)   4     EFE      6422
+ 7    25      0        Inf. Dilution          dH:-199.6(4SF)   4     MTD      6422
+ 8    127     0        Inf. Dilution          dH:-199.3(4SF)   4     MTD      6422
+ 9    227     0        Inf. Dilution          dH:-199.0(4SF)   4     MTD      6422
+ 10   327     0        Inf. Dilution          dH:-198.5(4SF)   4     MTD      6422
+
+
+Reaction No. 66277
+W(s) + 1.45<O2(g)> = WO2.90(s)
+ No    t    I-Str          Medium               Value (Dev)    W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:130.3(4SF)   4     ENS      6422
+ 2    27      0        Inf. Dilution          lgK:129.4(4SF)   4     ENS      6422
+ 3    127     0        Inf. Dilution          lgK:93.69(4SF)   4     ENS      6422
+ 4    227     0        Inf. Dilution          lgK:72.32(4SF)   4     ENS      6422
+ 5    327     0        Inf. Dilution          lgK:58.10(4SF)   4     ENS      6422
+ 6    25      0        Inf. Dilution          dG:-177.7(4SF)   4     EFE      6422
+ 7    25      0        Inf. Dilution          dH:-196.0(4SF)   4     MTD      6422
+ 8    127     0        Inf. Dilution          dH:-195.8(4SF)   4     MTD      6422
+ 9    227     0        Inf. Dilution          dH:-195.4(4SF)   4     MTD      6422
+ 10   327     0        Inf. Dilution          dH:-195.0(4SF)   4     MTD      6422
+
+
+Reaction No. 66278
+W(s) + 1.36<O2(g)> = WO2.72(s)
+ No    t    I-Str          Medium               Value (Dev)    W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:124.1(4SF)   4     ENS      6422
+ 2    27      0        Inf. Dilution          lgK:123.3(4SF)   4     ENS      6422
+ 3    127     0        Inf. Dilution          lgK:89.32(4SF)   4     ENS      6422
+ 4    227     0        Inf. Dilution          lgK:68.95(4SF)   4     ENS      6422
+ 5    327     0        Inf. Dilution          lgK:55.41(4SF)   4     ENS      6422
+ 6    25      0        Inf. Dilution          dG:-169.4(4SF)   4     EFE      6422
+ 7    25      0        Inf. Dilution          dH:-186.7(4SF)   4     MTD      6422
+ 8    127     0        Inf. Dilution          dH:-186.5(4SF)   4     MTD      6422
+ 9    227     0        Inf. Dilution          dH:-186.2(4SF)   4     MTD      6422
+ 10   327     0        Inf. Dilution          dH:-185.8(4SF)   4     MTD      6422
+
+
+
+
+                                       – Page 14 of 33 –
+JESS Thermodynamic Database v8.9                                    Tungsten
+
+
+Reaction No. 66279
+O2(g) + W(s) = WO2(s)
+ No    t    I-Str            Medium             Value (Dev)     W    Tech.     Ref. #
+ 1    25      0         Inf. Dilution          lgK:93.53(4SF)   3     ENS       6422
+ 2    25      0         Inf. Dilution          lgK:93.53(4SF)   3     ENS       6494
+ 3    27      0         Inf. Dilution          lgK:92.89(4SF)   0     ENS       6422
+ 4    27      0         Inf. Dilution          lgK:92.89(4SF)   0     ENS       6494
+ 5    127     0         Inf. Dilution          lgK:67.23(4SF)   3     ENS       6422
+ 6    127     0         Inf. Dilution          lgK:67.24(4SF)   3     ENS       6494
+ 7    227     0         Inf. Dilution          lgK:51.86(4SF)   2     ENS       6422
+ 8    227     0         Inf. Dilution          lgK:51.86(4SF)   2     ENS       6494
+ 9    327     0         Inf. Dilution          lgK:41.63(4SF)   0     ENS       6422
+ 10   327     0         Inf. Dilution          lgK:41.63(4SF)   0     ENS       6494
+ 11   25      0         Inf. Dilution          dG:-127.6(4SF)   3     EFE       6422
+ 12   25      0         Inf. Dilution          dG:-127.6(4SF)   3     EFE       6494
+ 13   25      0         Inf. Dilution         dG:-127.61(5SF)   3     CRV      31291
+ 14   25      0         Inf. Dilution          dH:-140.9(4SF)   3     MTD       6422
+ 15   25      0         Inf. Dilution          dH:-140.9(4SF)   3     MTD       6494
+ 16   127     0         Inf. Dilution          dH:-140.8(4SF)   2     MTD       6422
+ 17   127     0         Inf. Dilution          dH:-140.8(4SF)   1     MTD       6494
+ 18   227     0         Inf. Dilution          dH:-140.6(4SF)   1     MTD       6422
+ 19   227     0         Inf. Dilution          dH:-140.6(4SF)   2     MTD       6494
+ 20   327     0         Inf. Dilution          dH:-140.3(4SF)   0     MTD       6422
+ 21   327     0         Inf. Dilution          dH:-140.3(4SF)   0     MTD       6494
+
+
+Reaction No. 66280
+W(s) + 3<Cl2(g)> = WCl6(s)
+ No    t    I-Str            Medium              Value (Dev)    W    Tech.     Ref. #
+ 1    25      0         Inf. Dilution          lgK:79.80(4SF)   4     ENS      6422
+ 2    27      0         Inf. Dilution          lgK:79.16(4SF)   0     ENS      6422
+ 3    127     0         Inf. Dilution          lgK:53.43(4SF)   2     ENS      6422
+ 4    177     0         Inf. Dilution          lgK:44.92(4SF)   1     ENS      6422
+ 5    25      0         Inf. Dilution          dG:-108.9(4SF)   4     EFE      6422
+ 6    25      0         Inf. Dilution          dH:-141.9(4SF)   2     MTD      6422
+ 7    127     0         Inf. Dilution          dH:-140.6(4SF)   1     MTD      6422
+ 8    177     0         Inf. Dilution          dH:-139.8(4SF)   0     MTD      6422
+
+
+
+
+                                        – Page 15 of 33 –
+JESS Thermodynamic Database v8.9                                      Tungsten
+
+
+
+Reaction No. 66281
+W(s) + 2.5<Cl2(g)> = WCl5(s)
+ No    t    I-Str            Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25      0           Inf. Dilution          lgK:70.39(4SF)   4     ENS      6422
+ 2    27      0           Inf. Dilution          lgK:69.84(4SF)   0     ENS      6422
+ 3    127     0           Inf. Dilution          lgK:47.61(4SF)   2     ENS      6422
+ 4    227     0           Inf. Dilution          lgK:34.41(4SF)   1     ENS      6422
+ 5    253     0           Inf. Dilution          lgK:31.83(4SF)   0     ENS      6422
+ 6    25      0           Inf. Dilution          dG:-96.03(4SF)   4     EFE      6422
+ 7    25      0           Inf. Dilution          dH:-122.6(4SF)   2     MTD      6422
+ 8    127     0           Inf. Dilution          dH:-121.4(4SF)   1     MTD      6422
+ 9    227     0           Inf. Dilution          dH:-120.0(4SF)   0     MTD      6422
+ 10   253     0           Inf. Dilution          dH:-119.6(4SF)   0     MTD      6422
+
+
+Reaction No. 66282
+W(s) + 2<Cl2(g)> = WCl4(s)
+ No    t    I-Str            Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25      0           Inf. Dilution          lgK:62.97(4SF)   4     ENS      6422
+ 2    27      0           Inf. Dilution          lgK:62.49(4SF)   0     ENS      6422
+ 3    127     0           Inf. Dilution          lgK:43.28(4SF)   2     ENS      6422
+ 4    227     0           Inf. Dilution          lgK:31.86(4SF)   1     ENS      6422
+ 5    327     0           Inf. Dilution          lgK:24.33(4SF)   0     ENS      6422
+ 6    25      0           Inf. Dilution          dG:-85.91(4SF)   4     EFE      6422
+ 7    25      0           Inf. Dilution          dH:-105.9(4SF)   2     MTD      6422
+ 8    127     0           Inf. Dilution          dH:-105.0(4SF)   1     MTD      6422
+ 9    227     0           Inf. Dilution          dH:-104.0(4SF)   0     MTD      6422
+ 10   327     0           Inf. Dilution          dH:-102.9(4SF)   0     MTD      6422
+
+
+Reaction No. 66283
+W(s) + Cl2(g) = WCl2(s)
+ No    t    I-Str            Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25      0           Inf. Dilution          lgK:38.54(4SF)   4     ENS      6422
+ 2    27      0           Inf. Dilution          lgK:38.26(4SF)   0     ENS      6422
+ 3    127     0           Inf. Dilution          lgK:27.10(4SF)   2     ENS      6422
+ 4    227     0           Inf. Dilution          lgK:20.46(4SF)   1     ENS      6422
+ 5    327     0           Inf. Dilution          lgK:16.06(4SF)   0     ENS      6422
+
+
+
+
+                                          – Page 16 of 33 –
+JESS Thermodynamic Database v8.9                                      Tungsten
+
+
+ 6    25      0           Inf. Dilution          dG:-52.58(4SF)   4     EFE      6422
+ 7    25      0           Inf. Dilution          dH:-61.5(3SF)    2     MTD      6422
+ 8    127     0           Inf. Dilution          dH:-61.0(3SF)    1     MTD      6422
+ 9    227     0           Inf. Dilution          dH:-60.5(3SF)    0     MTD      6422
+ 10   327     0           Inf. Dilution          dH:-60.0(3SF)    0     MTD      6422
+
+
+Reaction No. 66284
+2<W(s)> + C(s) = W2C(s)
+ No    t    I-Str            Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25      0           Inf. Dilution          lgK:3.835(4SF)   4     ENS      6422
+ 2    27      0           Inf. Dilution          lgK:3.806(4SF)   4     ENS      6422
+ 3    127     0           Inf. Dilution          lgK:2.702(4SF)   4     ENS      6422
+ 4    227     0           Inf. Dilution          lgK:2.100(4SF)   4     ENS      6422
+ 5    327     0           Inf. Dilution          lgK:1.740(4SF)   4     ENS      6422
+ 6    25      0           Inf. Dilution          dG:-5.23(3SF)    4     EFE      6422
+ 7    25      0           Inf. Dilution           dH:-6.3(2SF)    4     MTD      6422
+ 8    127     0           Inf. Dilution           dH:-5.8(2SF)    4     MTD      6422
+ 9    227     0           Inf. Dilution           dH:-5.2(2SF)    4     MTD      6422
+ 10   327     0           Inf. Dilution           dH:-4.6(2SF)    4     MTD      6422
+
+
+Reaction No. 66285
+W(s) + C(s) = WC(s)
+ No    t    I-Str            Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25      0           Inf. Dilution          lgK:6.723(4SF)   4     ENS      6422
+ 2    27      0           Inf. Dilution          lgK:6.679(4SF)   4     ENS      6422
+ 3    127     0           Inf. Dilution          lgK:4.937(4SF)   4     ENS      6422
+ 4    227     0           Inf. Dilution          lgK:3.902(4SF)   4     ENS      6422
+ 5    327     0           Inf. Dilution          lgK:3.219(4SF)   4     ENS      6422
+ 6    25      0           Inf. Dilution          dG:-9.17(3SF)    4     EFE      6422
+ 7    25      0           Inf. Dilution           dH:-9.6(2SF)    4     MTD      6422
+ 8    127     0           Inf. Dilution           dH:-9.5(2SF)    4     MTD      6422
+ 9    227     0           Inf. Dilution           dH:-9.4(2SF)    4     MTD      6422
+ 10   327     0           Inf. Dilution           dH:-9.3(2SF)    4     MTD      6422
+
+
+Reaction No. 66286
+W(s) + 6<C(s)> + 3<O2(g)> = W(CO)6(s)
+ No    t    I-Str            Medium                Value (Dev)    W    Tech.     Ref. #
+
+
+
+
+                                          – Page 17 of 33 –
+JESS Thermodynamic Database v8.9                                   Tungsten
+
+
+ 1    25      0        Inf. Dilution          lgK:148.5(4SF)   4     ENS      6422
+ 2    27      0        Inf. Dilution          lgK:147.4(4SF)   4     ENS      6422
+ 3    127     0        Inf. Dilution          lgK:106.2(4SF)   4     ENS      6422
+ 4    25      0        Inf. Dilution          dG:-202.5(4SF)   4     EFE      6422
+ 5    25      0        Inf. Dilution          dH:-227.5(4SF)   4     MTD      6422
+ 6    127     0        Inf. Dilution          dH:-225.6(4SF)   4     MTD      6422
+
+
+Reaction No. 66287
+W(s) + 3<Br2(l)> = WBr6(s)
+ No    t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:50.94(4SF)   4     ENS      6422
+ 2    27      0        Inf. Dilution          lgK:50.57(4SF)   4     ENS      6422
+ 3    127     0        Inf. Dilution          lgK:33.25(4SF)   2     ENS      6422
+ 4    227     0        Inf. Dilution          lgK:22.08(4SF)   1     ENS      6422
+ 5    309     0        Inf. Dilution          lgK:15.88(4SF)   0     ENS      6422
+ 6    25      0        Inf. Dilution          dG:-69.49(4SF)   4     EFE      6422
+ 7    25      0        Inf. Dilution          dH:-82.0(3SF)    4     MTD      6422
+ 8    127     0        Inf. Dilution          dH:-102.9(4SF)   0     MTD      6422
+ 9    227     0        Inf. Dilution          dH:-101.4(4SF)   0     MTD      6422
+ 10   309     0        Inf. Dilution          dH:-100.0(4SF)   0     MTD      6422
+
+
+Reaction No. 66288
+W(s) + 2.5<Br2(l)> = WBr5(s)
+ No    t    I-Str            Medium             Value (Dev)    W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:47.23(4SF)   4     ENS      6422
+ 2    27      0        Inf. Dilution          lgK:46.90(4SF)   0     ENS      6422
+ 3    127     0        Inf. Dilution          lgK:31.34(4SF)   2     ENS      6422
+ 4    227     0        Inf. Dilution          lgK:21.36(4SF)   1     ENS      6422
+ 5    286     0        Inf. Dilution          lgK:17.20(4SF)   1     ENS      6422
+ 6    25      0        Inf. Dilution          dG:-64.44(4SF)   4     EFE      6422
+ 7    25      0        Inf. Dilution          dH:-74.5(3SF)    4     MTD      6422
+ 8    127     0        Inf. Dilution          dH:-91.9(3SF)    1     MTD      6422
+ 9    227     0        Inf. Dilution          dH:-90.6(3SF)    0     MTD      6422
+ 10   286     0        Inf. Dilution          dH:-89.8(3SF)    0     MTD      6422
+
+
+Reaction No. 66519
+Ba(s) + W(s) + 2<O2(g)> = Ba+2_WO4-2_(s)
+
+
+
+
+                                       – Page 18 of 33 –
+JESS Thermodynamic Database v8.9                                   Tungsten
+
+
+ No    t    I-Str          Medium               Value (Dev)    W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:280.0(4SF)   4     ENS      6422
+ 2    27      0        Inf. Dilution          lgK:278.2(4SF)   4     ENS      6422
+ 3    127     0        Inf. Dilution          lgK:204.1(4SF)   4     ENS      6422
+ 4    227     0        Inf. Dilution          lgK:159.7(4SF)   4     ENS      6422
+ 5    327     0        Inf. Dilution          lgK:130.1(4SF)   4     ENS      6422
+ 6    25      0        Inf. Dilution          dG:-382.1(4SF)   4     EFE      6422
+ 7    25      0        Inf. Dilution          dH:-407.0(4SF)   4     MTD      6422
+ 8    127     0        Inf. Dilution          dH:-406.5(4SF)   4     MTD      6422
+ 9    227     0        Inf. Dilution          dH:-406.1(4SF)   4     MTD      6422
+ 10   327     0        Inf. Dilution          dH:-406.0(4SF)   4     MTD      6422
+
+
+Reaction No. 66533
+Be(s) + W(s) + 2<O2(g)> = Be+2_WO4-2_(s)
+ No    t    I-Str          Medium               Value (Dev)    W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:246.1(4SF)   4     ENS      6422
+ 2    27      0        Inf. Dilution          lgK:244.5(4SF)   4     ENS      6422
+ 3    127     0        Inf. Dilution          lgK:178.6(4SF)   4     ENS      6422
+ 4    227     0        Inf. Dilution          lgK:139.1(4SF)   4     ENS      6422
+ 5    327     0        Inf. Dilution          lgK:112.8(4SF)   4     ENS      6422
+ 6    25      0        Inf. Dilution          dG:-335.8(4SF)   4     EFE      6422
+ 7    25      0        Inf. Dilution          dH:-361.7(4SF)   4     MTD      6422
+ 8    127     0        Inf. Dilution          dH:-361.6(4SF)   4     MTD      6422
+ 9    227     0        Inf. Dilution          dH:-361.3(4SF)   4     MTD      6422
+ 10   327     0        Inf. Dilution          dH:-360.9(4SF)   4     MTD      6422
+
+
+Reaction No. 66599
+Ca(s) + W(s) + 2<O2(g)> = Ca+2_WO4-2_(s)
+ No    t    I-Str          Medium               Value (Dev)    W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:266.3(4SF)   1     ELC
+ 2    25      0        Inf. Dilution          lgK:269.5(4SF)   0     ENS      6422
+ 3    27      0        Inf. Dilution          lgK:267.7(4SF)   0     ENS      6422
+ 4    127     0        Inf. Dilution          lgK:196.2(4SF)   0     ENS      6422
+ 5    227     0        Inf. Dilution          lgK:153.3(4SF)   0     ENS      6422
+ 6    327     0        Inf. Dilution          lgK:124.7(4SF)   0     ENS      6422
+ 7    25      0        Inf. Dilution          dG:-367.7(4SF)   0     EFE      6422
+
+
+
+
+                                       – Page 19 of 33 –
+JESS Thermodynamic Database v8.9                                   Tungsten
+
+
+ 8    25      0        Inf. Dilution          dH:-393.2(4SF)   0     MTD      6422
+ 9    127     0        Inf. Dilution          dH:-392.8(4SF)   0     MTD      6422
+ 10   227     0        Inf. Dilution          dH:-392.4(4SF)   0     MTD      6422
+ 11   327     0        Inf. Dilution          dH:-391.9(4SF)   0     MTD      6422
+
+
+Reaction No. 66600
+3<Ca(s)> + W(s) + 3<O2(g)> = 3CaO.WO3(s)
+ No    t    I-Str          Medium               Value (Dev)    W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:493.6(4SF)   4     ENS      6422
+ 2    27      0        Inf. Dilution          lgK:490.4(4SF)   4     ENS      6422
+ 3    127     0        Inf. Dilution          lgK:360.4(4SF)   4     ENS      6422
+ 4    227     0        Inf. Dilution          lgK:282.4(4SF)   4     ENS      6422
+ 5    327     0        Inf. Dilution          lgK:230.5(4SF)   4     ENS      6422
+ 6    25      0        Inf. Dilution          dG:-673.4(4SF)   4     EFE      6422
+ 7    25      0        Inf. Dilution          dH:-714.1(4SF)   4     MTD      6422
+ 8    127     0        Inf. Dilution          dH:-713.6(4SF)   4     MTD      6422
+ 9    227     0        Inf. Dilution          dH:-712.8(4SF)   4     MTD      6422
+ 10   327     0        Inf. Dilution          dH:-712.0(4SF)   4     MTD      6422
+
+
+Reaction No. 66617
+Cd(s) + W(s) + 2<O2(g)> = Cd+2_WO4-2_(s)
+ No    t    I-Str          Medium               Value (Dev)    W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:189.0(4SF)   4     ENS      6422
+ 2    27      0        Inf. Dilution          lgK:187.7(4SF)   4     ENS      6422
+ 3    127     0        Inf. Dilution          lgK:136.4(4SF)   4     ENS      6422
+ 4    227     0        Inf. Dilution          lgK:105.6(4SF)   4     ENS      6422
+ 5    327     0        Inf. Dilution          lgK:85.14(4SF)   4     ENS      6422
+ 6    25      0        Inf. Dilution          dG:-257.9(4SF)   4     EFE      6422
+ 7    25      0        Inf. Dilution          dH:-282.1(4SF)   4     MTD      6422
+ 8    127     0        Inf. Dilution          dH:-281.7(4SF)   4     MTD      6422
+ 9    227     0        Inf. Dilution          dH:-281.3(4SF)   4     MTD      6422
+ 10   327     0        Inf. Dilution          dH:-282.4(4SF)   4     MTD      6422
+
+
+Reaction No. 66650
+Co(s) + W(s) + 2<O2(g)> = Co+2_WO4-2_(s)
+ No    t    I-Str          Medium               Value (Dev)    W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:181.5(4SF)   4     ENS      6422
+
+
+
+
+                                       – Page 20 of 33 –
+JESS Thermodynamic Database v8.9                                       Tungsten
+
+
+ 2    27          0    Inf. Dilution          lgK:180.2(4SF)       4     ENS       6422
+ 3    127         0    Inf. Dilution          lgK:130.8(4SF)       4     ENS       6422
+ 4    227         0    Inf. Dilution          lgK:101.2(4SF)       4     ENS       6422
+ 5    327         0    Inf. Dilution          lgK:81.50(4SF)       4     ENS       6422
+ 6    25          0    Inf. Dilution          dG:-247.6(4SF)       4     EFE       6422
+ 7    25          0    Inf. Dilution          dH:-271.7(4SF)       4     MTD       6422
+ 8    127         0    Inf. Dilution          dH:-271.2(4SF)       4     MTD       6422
+ 9    227         0    Inf. Dilution          dH:-270.6(4SF)       4     MTD       6422
+ 10   327         0    Inf. Dilution          dH:-270.0(4SF)       4     MTD       6422
+
+
+Reaction No. 66736
+Fe(s) + W(s) + 2<O2(g)> = Fe+2_WO4-2_(s)
+ No    t     I-Str         Medium               Value (Dev)        W    Tech.     Ref. #
+ 1    25          0    Inf. Dilution          lgK:189.8(4SF)       4     ENS       6422
+ 2    27          0    Inf. Dilution          lgK:188.6(4SF)       4     ENS       6422
+ 3    127         0    Inf. Dilution          lgK:137.0(4SF)       4     ENS       6422
+ 4    227         0    Inf. Dilution          lgK:106.1(4SF)       4     ENS       6422
+ 5    327         0    Inf. Dilution          lgK:85.51(4SF)       4     ENS       6422
+ 6    25          0    Inf. Dilution          dG:-259.0(4SF)       4     EFE       6422
+ 7    25          0    Inf. Dilution          dH:-283.1(4SF)       4     MTD       6422
+ 8    127         0    Inf. Dilution          dH:-282.9(4SF)       4     MTD       6422
+ 9    227         0    Inf. Dilution          dH:-282.8(4SF)       4     MTD       6422
+ 10   327         0    Inf. Dilution          dH:-282.6(4SF)       4     MTD       6422
+
+
+Reaction No. 66844
+H+1(2)_WO4-2_(s) = WO4-2 + 2<H+1>
+ No   t     I-Str        Medium                Value (Dev)         W    Tech.     Ref. #
+ 1    25      0       Inf. Dilution          lgK:-15.3(3SF)        1     ELC
+ 2    25      0       Inf. Dilution          lgK:-14.05(4SF)       0     ENS        773
+
+
+Reaction No. 66879
+Hg2+2_WO4-2_(s) = Hg2+2 + WO4-2
+ No    t     I-Str      Medium             Value (Dev)         W       Tech.      Ref. #
+  1   25      0.1      Unknown          lgK:-16.96(4SF)        4       ENS         773
+
+
+Reaction No. 67007
+Mn(s) + 2<O2(g)> + W(s) = Mn+2_WO4-2_(s)
+
+
+
+
+                                       – Page 21 of 33 –
+JESS Thermodynamic Database v8.9                                   Tungsten
+
+
+ No    t    I-Str          Medium                Value (Dev)   W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:208.0(4SF)   1     ELC
+ 2    25      0        Inf. Dilution          lgK:211.2(4SF)   0     ENS      6422
+ 3    27      0        Inf. Dilution          lgK:209.8(4SF)   0     ENS      6422
+ 4    127     0        Inf. Dilution          lgK:153.0(4SF)   0     ENS      6422
+ 5    227     0        Inf. Dilution          lgK:119.0(4SF)   0     ENS      6422
+ 6    327     0        Inf. Dilution          lgK:96.31(4SF)   0     ENS      6422
+ 7    25      0        Inf. Dilution          dG:-288.1(4SF)   0     EFE      6422
+ 8    25      0        Inf. Dilution          dH:-311.9(4SF)   0     MTD      6422
+ 9    127     0        Inf. Dilution          dH:-311.5(4SF)   0     MTD      6422
+ 10   227     0        Inf. Dilution          dH:-311.1(4SF)   0     MTD      6422
+ 11   327     0        Inf. Dilution          dH:-310.7(4SF)   0     MTD      6422
+
+
+Reaction No. 67062
+2<Na(s)> + 2<O2(g)> + W(s) = Na+1(2)_WO4-2_(s)
+ No    t    I-Str          Medium                Value (Dev)   W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:250.5(4SF)   4     ENS      6422
+ 2    27      0        Inf. Dilution          lgK:248.8(4SF)   4     ENS      6422
+ 3    127     0        Inf. Dilution          lgK:181.5(4SF)   4     ENS      6422
+ 4    227     0        Inf. Dilution          lgK:141.1(4SF)   4     ENS      6422
+ 5    327     0        Inf. Dilution          lgK:114.1(4SF)   4     ENS      6422
+ 6    25      0        Inf. Dilution          dG:-341.7(4SF)   4     EFE      6422
+ 7    25      0        Inf. Dilution          dH:-369.2(4SF)   4     MTD      6422
+ 8    127     0        Inf. Dilution          dH:-370.4(4SF)   4     MTD      6422
+ 9    227     0        Inf. Dilution          dH:-370.0(4SF)   4     MTD      6422
+ 10   327     0        Inf. Dilution          dH:-369.5(4SF)   4     MTD      6422
+
+
+Reaction No. 67121
+Ni(s) + 2<O2(g)> + W(s) = Ni+2_WO4-2_(s)
+ No    t    I-Str          Medium                Value (Dev)   W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:179.3(4SF)   4     ENS      6422
+ 2    27      0        Inf. Dilution          lgK:178.1(4SF)   4     ENS      6422
+ 3    127     0        Inf. Dilution          lgK:129.1(4SF)   4     ENS      6422
+ 4    227     0        Inf. Dilution          lgK:99.68(4SF)   4     ENS      6422
+ 5    327     0        Inf. Dilution          lgK:80.10(4SF)   4     ENS      6422
+ 6    25      0        Inf. Dilution          dG:-244.7(4SF)   4     EFE      6422
+
+
+
+
+                                       – Page 22 of 33 –
+JESS Thermodynamic Database v8.9                                        Tungsten
+
+
+ 7    25      0        Inf. Dilution           dH:-269.4(4SF)       4     MTD       6422
+ 8    127     0        Inf. Dilution           dH:-269.1(4SF)       4     MTD       6422
+ 9    227     0        Inf. Dilution           dH:-268.9(4SF)       4     MTD       6422
+ 10   327     0        Inf. Dilution           dH:-268.7(4SF)       4     MTD       6422
+
+
+Reaction No. 67311
+H2(g) + 2<O2(g)> + W(s) = H+1(2)_WO4-2_(s)
+ No    t    I-Str          Medium                Value (Dev)        W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution           lgK:175.9(4SF)       4     ENS       6422
+ 2    27      0        Inf. Dilution           lgK:174.7(4SF)       4     ENS       6422
+ 3    120     0        Inf. Dilution           lgK:128.0(4SF)       4     ENS       6422
+ 4    25      0        Inf. Dilution           dG:-239.9(4SF)       4     EFE       6422
+ 5    25      0        Inf. Dilution           dH:-270.5(4SF)       4     MTD       6422
+ 6    120     0        Inf. Dilution           dH:-270.3(4SF)       4     MTD       6422
+
+
+Reaction No. 70583
+WO4-2 + 2<H2O> = OH-1(2)_WO4-2 + 2<H+1>
+ No    t      I-Str     Medium              Value (Dev)         W       Tech.      Ref. #
+ 1    200     5.12      NaCl/m            lgK:7.64(0.12MD)      4       MGL        7167
+ 2    250     5.12      NaCl/m            lgK:7.42(0.12MD)      4       MGL        7167
+ 3    290     5.12      NaCl/m            lgK:7.27(0.11MD)      4       MGL        7167
+
+
+Reaction No. 70584
+6<WO4-2> + 7<H2O> = OH-1(7)_WO4-2(6) + 7<H+1>
+ No    t     I-Str     Medium               Value (Dev)         W       Tech.      Ref. #
+ 1     95    1.014     NaCl/m          lgK:48.14(0.06MD)        6        MGL        7167
+ 2    150    1.014     NaCl/m          lgK:44.33(0.18MD)        0        MGL        7167
+ 3    200    1.014     NaCl/m          lgK:42.78(0.18MD)        0        MGL        7167
+ 4    250    1.014     NaCl/m          lgK:43.09(0.21MD)        0        MGL        7167
+ 5    290    1.014     NaCl/m          lgK:44.09(0.24MD)        0        MGL        7167
+
+
+Reaction No. 70585
+6<WO4-2> + 10<H2O> = OH-1(10)_WO4-2(6) + 10<H+1>
+ No    t     I-Str     Medium               Value (Dev)         W       Tech.      Ref. #
+ 1    150    1.014     NaCl/m          lgK:58.05(0.18MD)        6        MGL        7167
+ 2    200    0.104     NaCl/m          lgK:59.31(0.09MD)        0        MGL        7167
+ 3    200    1.014     NaCl/m          lgK:55.90(0.18MD)        0        MGL        7167
+
+
+
+
+                                       – Page 23 of 33 –
+JESS Thermodynamic Database v8.9                                  Tungsten
+
+
+ 4    250     0.104    NaCl/m          lgK:60.74(0.33MD)      0    MGL       7167
+ 5    250     1.014    NaCl/m          lgK:55.55(0.24MD)      0    MGL       7167
+ 6    290     0.104    NaCl/m          lgK:62.69(0.24MD)      0    MGL       7167
+ 7    290     1.014    NaCl/m          lgK:55.81(0.30MD)      0    MGL       7167
+
+
+Reaction No. 70586
+12<WO4-2> + 18<H2O> = OH-1(18)_WO4-2(12) + 18<H+1>
+ No    t     I-Str     Medium             Value (Dev)         W   Tech.      Ref. #
+ 1    95     1.014     NaCl/m          lgK:117.33(0.36MD)     4    MGL        7167
+ 2    150    0.104     NaCl/m          lgK:115.53(0.18MD)     0    MGL        7167
+Note (2): Does not fit UCC model (and cannot apparently)
+ 3    150    1.014     NaCl/m          lgK:111.23(0.18MD)     0    MGL        7167
+ 4    200    1.014     NaCl/m          lgK:107.20(0.15MD)     3    MGL        7167
+ 5    200     5.12     NaCl/m          lgK:107.93(1.50MD)     0    MGL        7167
+
+
+Reaction No. 70923
+2<WO3(s)> + 2<H+1> + 2<e-1> = W2O5(s) + H2O
+ No   t     I-Str         Medium               Value (Dev)    W   Tech.      Ref. #
+ 1    25      0        Inf. Dilution          E:-0.029(2SF)   5    CRV        6330
+ 2    25      0        Inf. Dilution          E:-0.029(2SF)   5    CRV       22519
+
+
+Reaction No. 70924
+WO3(s) + 2<H+1> + 2<e-1> = WO2(s) + H2O
+ No   t     I-Str          Medium              Value (Dev)    W   Tech.      Ref. #
+ 1    25      0        Inf. Dilution           E:0.036(2SF)   5    CRV        6330
+ 2    25      0        Inf. Dilution           E:0.036(2SF)   5    CRV       22519
+
+
+Reaction No. 70925
+W2O5(s) + 2<H+1> + 2<e-1> = 2<WO2(s)> + H2O
+ No   t     I-Str         Medium               Value (Dev)    W   Tech.      Ref. #
+ 1    25      0        Inf. Dilution           lgK:3.7(2SF)   1    ELC
+ 2    25      0        Inf. Dilution          E:-0.031(2SF)   0    CRV        6330
+ 3    25      0        Inf. Dilution          E:-0.031(2SF)   0    CRV       22519
+
+
+Reaction No. 70926
+W+3 + 3<e-1> = W(s)
+ No   t     I-Str          Medium              Value (Dev)    W   Tech.      Ref. #
+
+
+
+
+                                       – Page 24 of 33 –
+JESS Thermodynamic Database v8.9                                          Tungsten
+
+
+ 1    25          0      Inf. Dilution            E:0.1(1SF)      5        CRV       6330
+ 2    25          0      Inf. Dilution            E:0.1(1SF)      3        CRV       7761
+ 3    25          0      Inf. Dilution            E:0.1(1SF)      5        CRV       22519
+
+
+Reaction No. 71288
+Cu(s) + 2<O2(g)> + W(s) = Cu+2_WO4-2_(s)
+ No   t     I-Str        Medium                 Value (Dev)           W    Tech.     Ref. #
+ 1    25      0       Inf. Dilution          dH:-1105.0(5SF)kJ        5     CRV       6330
+
+
+Reaction No. 72379
+2<O2(g)> + W(s) + 2<e-1> = WO4-2
+ No    t     I-Str        Medium                 Value (Dev)          W    Tech.     Ref. #
+ 1    25          0    Inf. Dilution           dG:-219.15(5SF)        3     CRV       6488
+ 2    25          0    Inf. Dilution           dG:-916.9(4SF)kJ       5     CRV       7421
+ 3    25          0    Inf. Dilution           dG:-218.500(6SF)       1     CRV       9029
+ 4    25          0    Inf. Dilution           dG:-219.15(5SF)        3     CRV      10174
+ 5    50          0    Inf. Dilution           dG:-219.35(5SF)        3     CRV      10174
+ 6    75          0    Inf. Dilution           dG:-219.48(5SF)        3     CRV      10174
+ 7    100         0    Inf. Dilution           dG:-219.55(5SF)        3     CRV      10174
+ 8    125         0    Inf. Dilution           dG:-219.54(5SF)        3     CRV      10174
+ 9    150         0    Inf. Dilution           dG:-219.46(5SF)        3     CRV      10174
+ 10   175         0    Inf. Dilution           dG:-219.29(5SF)        3     CRV      10174
+ 11   200         0    Inf. Dilution           dG:-219.01(5SF)        3     CRV      10174
+ 12   225         0    Inf. Dilution           dG:-218.60(5SF)        3     CRV      10174
+ 13   250         0    Inf. Dilution           dG:-218.01(5SF)        3     CRV      10174
+ 14   300         0    Inf. Dilution           dG:-216.03(5SF)        0     CRV      10174
+ 15   25          0    Inf. Dilution            dH:-257.1(4SF)        0     CRV       6488
+ 16   25          0    Inf. Dilution           dH:-236.500(6SF)       0     CRV       9029
+
+
+Reaction No. 72380
+0.5<H2(g)> + 2<O2(g)> + W(s) + e-1 = H+1_WO4-2
+ No   t     I-Str        Medium                  Value (Dev)          W    Tech.     Ref. #
+ 1    25      0       Inf. Dilution            lgK:164.1(4SF)         1     ELC
+ 2    25      0       Inf. Dilution           dG:-223.400(6SF)        0     CRV       9029
+ 3    25      0       Inf. Dilution           dH:-255.000(6SF)        2     CRV       9029
+
+
+Reaction No. 72718
+
+
+
+
+                                         – Page 25 of 33 –
+JESS Thermodynamic Database v8.9                                    Tungsten
+
+
+2<H+1> + 2<Mandelic-1> + WO3 = H+1(2)_WO3_Mandelic-1(2)
+ No   t     I-Str     Medium            Value (Dev)           W     Tech.      Ref. #
+ 1    25      1        NaCl          lgK:17.59(0.01MD)        5      MGL        5810
+
+
+Reaction No. 72719
+3<H+1> + 2<Mandelic-1> + WO3 = H+1(3)_WO3_Mandelic-1(2)
+ No   t     I-Str     Medium            Value (Dev)           W     Tech.      Ref. #
+ 1    25      1        NaCl          lgK:18.09(0.30MD)        5      MGL        5810
+
+
+Reaction No. 72720
+2<H+1> + Mandelic-1 + WO3 = H+1(2)_WO3_Mandelic-1
+ No   t     I-Str     Medium            Value (Dev)           W     Tech.      Ref. #
+ 1    25      1        NaCl          lgK:13.78(0.07MD)        5      MGL       5810
+
+
+Reaction No. 72721
+3<H+1> + Mandelic-1 + WO3 = H+1(3)_WO3_Mandelic-1
+ No   t     I-Str     Medium            Value (Dev)           W     Tech.      Ref. #
+ 1    25      1        NaCl          lgK:15.33(0.07MD)        5      MGL       5810
+
+
+Reaction No. 72811
+WO4-2 + 2<Glycolic-1> + 2<H+1> = WO2+2_H+1(-2)_Glycolic-1(2) + 2<H2O >
+ No   t     I-Str     Medium            Value (Dev)           W     Tech.      Ref. #
+ 1    25     0.1       NaCl          lgK:16.85(0.14SD)        4      MMR       5801
+
+
+Reaction No. 72827
+WO4-2 + 2<Lactic-1> + 2<H+1> = WO2+2_H+1(-2)_Lactic-1(2) + 2<H2O>
+ No   t     I-Str     Medium            Value (Dev)           W     Tech.      Ref. #
+ 1    25     0.1       NaCl          lgK:18.15(0.14SD)        4     MMR        5801
+
+
+Reaction No. 72828
+WO4-2 + 2<2OHButan-1> + 2<H+1> = WO2+2_H+1(-2)_2OHButan-1(2) + 2<H2O >
+ No   t     I-Str     Medium            Value (Dev)           W     Tech.      Ref. #
+ 1    25     0.1       NaCl          lgK:18.25(0.14SD)        4      MMR       5801
+
+
+Reaction No. 72829
+WO4-2 + 2<Mandelic-1> + 2<H+1> = WO2+2_H+1(-2)_Mandelic-1(2) + 2<H2O >
+ No   t     I-Str     Medium            Value (Dev)           W     Tech.      Ref. #
+ 1    25     0.1       NaCl          lgK:18.15(0.14SD)        4      MMR       5801
+
+
+
+
+                                      – Page 26 of 33 –
+JESS Thermodynamic Database v8.9                                                  Tungsten
+
+
+
+Reaction No. 72830
+WO4-2 + 2<2OH2MePropan-1> + 2<H+1> = WO2+2_H+1(-2)_2OH2MePropan-1(2) + 2<H2O >
+ No   t       I-Str      Medium             Value (Dev)                 W         Tech.      Ref. #
+ 1    25       0.1        NaCl           lgK:18.75(0.14SD)              4          MMR        5801
+
+
+Reaction No. 74271
+WO2+2_Cl-1(3) + e-1 + 2<H+1> + 2<Cl-1> = WO+3_Cl-1(5) + H2O
+ No       t     I-Str       Medium          Value (Dev)         W               Tech.        Ref. #
+  1    25           12       HCl            E:0.36(2SF)         0               CRV          22551
+
+
+Reaction No. 74272
+2<WO+3_Cl-1(5)> + 4<e-1> + 4<H+1> = W2Cl9-3 + 2<H2O> + Cl-1
+ No       t     I-Str      Medium           Value (Dev)         W               Tech.        Ref. #
+  1    25           12       HCl           E:-0.05(1SF)         0                CRV         22551
+Note (1): Reaction unbalanced in source (has only 1<H2O>)
+
+
+Reaction No. 74273
+W+5_CN-1(8) + e-1 = W+4_CN-1(8)
+
+Note: Species W+4 and W+5 are unusual
+ No       t     I-Str      Medium            Value (Dev)            W           Tech.        Ref. #
+  1    25           0      Unknown          E:0.457(3SF)            0            CRV         22551
+Note (1): Conditional constant given without conditions
+
+
+Reaction No. 74274
+W+5_CN-1(4)_OH-1(4) + e-1 = W+4_CN-1(4)_OH-1(4)
+
+Note: Species W+4 and W+5 are unusual
+ No       t     I-Str       Medium           Value (Dev)            W           Tech.        Ref. #
+  1    25           0      Unknown          E:-0.74(2SF)            0            CRV         22551
+Note (1): pH = 3.7; otherwise conditional constant without conditions
+
+
+Reaction No. 78227
+EDTA-4 + 2<WO4-2> + 4<H+1> = H+1(4)_WO4-2(2)_EDTA-4
+ No   t       I-Str         Medium               Value (Dev)                W     Tech.       Ref. #
+ 1    25        0        Inf. Dilution          lgK:37.3(4SF)               1      ELC
+
+
+Reaction No. 78907
+
+
+
+
+                                         – Page 27 of 33 –
+JESS Thermodynamic Database v8.9                                     Tungsten
+
+
+Zn+2 + WO4-2 = Zn+2_WO4-2_(s)
+ No      t    I-Str        Medium                Value (Dev)     W   Tech.      Ref. #
+ 1    25        0       Inf. Dilution          lgK:9.606(4SF)    1    ELC
+
+
+Reaction No. 79582
+Ca+2 + WO4-2 = Ca+2_WO4-2_(s)
+ No      t     I-Str         Medium               Value (Dev)    W   Tech.      Ref. #
+ 1       25         0    Inf. Dilution           lgK:8.80(3SF)   4    CRV       28992
+ 2       50         0    Inf. Dilution           lgK:8.55(3SF)   3    CRV       28992
+ 3    100           0    Inf. Dilution           lgK:8.59(3SF)   3    CRV       28992
+ 4    150           0    Inf. Dilution           lgK:9.19(3SF)   2    CRV       28992
+ 5    200           0    Inf. Dilution           lgK:10.1(3SF)   2    CRV       28992
+
+
+Reaction No. 79583
+Fe+2 + WO4-2 = Fe+2_WO4-2_(s)
+ No      t     I-Str        Medium                Value (Dev)    W    Tech.     Ref. #
+ 1       25         0   Inf. Dilution           lgK:13.6(3SF)    1     ELC
+ 2       25         0   Inf. Dilution           lgK:11.11(4SF)   0     CRV      28992
+ 3       50         0   Inf. Dilution           lgK:10.86(4SF)   0     CRV      28992
+ 4    100           0   Inf. Dilution           lgK:10.89(4SF)   0     CRV      28992
+ 5    150           0   Inf. Dilution           lgK:11.35(4SF)   0     CRV      28992
+ 6    200           0   Inf. Dilution           lgK:12.1(3SF)    0     CRV      28992
+
+
+Reaction No. 79584
+Mn+2 + WO4-2 = Mn+2_WO4-2_(s)
+ No      t     I-Str         Medium               Value (Dev)    W   Tech.      Ref. #
+ 1       25         0    Inf. Dilution           lgK:7.50(3SF)   4    CRV       28992
+ 2       50         0    Inf. Dilution           lgK:7.41(3SF)   3    CRV       28992
+ 3    100           0    Inf. Dilution           lgK:7.68(3SF)   2    CRV       28992
+ 4    150           0    Inf. Dilution           lgK:8.34(3SF)   2    CRV       28992
+ 5    200           0    Inf. Dilution           lgK:9.27(3SF)   2    CRV       28992
+
+
+
+
+                                    Data Assessment
+
+
+Weight                    Assessment
+
+
+
+
+                                         – Page 28 of 33 –
+JESS Thermodynamic Database v8.9                               Tungsten
+
+
+9        highest accuracy
+8        multi-determined; excellent dependability
+7        trustworthy; outstanding single determination
+6        better than average reliability
+5        average single determination
+4        some doubt
+3        poorly known
+2        guess to achieve consistency (or just as bad)
+1        no information but consistent
+0        problematic/inconsistent
+
+
+
+
+                                        Techniques
+
+
+Abbrev                   Method
+CRV      Critical review
+EFE      Free Energy relations
+ELC      Linear Combination of Reactions
+ENS      Not specified
+EOR      Other Reaction Constants
+ESC      Standard conditions anchor
+MAG      Silver electrode e.m.f.
+MCL      Calorimetry
+MDG      Combination of Thermodynamic Data
+MDS      Distribution between two phases
+MEF      Electromotoric force, not specified
+MGL      Glass electrode
+MIS      Ion selective electrode
+MIX      Ion exchange
+MKN      Rate of reaction
+MMR      Nuclear magnetic resonance
+MPL      Polarography
+MPS      Potentiometry and Spectrophotometry
+MPT      Potentiometry
+MSP      Spectroscopy
+
+
+
+
+                                           – Page 29 of 33 –
+JESS Thermodynamic Database v8.9                                   Tungsten
+
+
+MTD    Temperature difference
+
+
+
+
+                                    References
+
+
+Reference No.: 43(70Arn)
+Arkiv Kemi, 1970, 32, 55 - 79; Arnek R; On the Thermodynamics of Some Aqueous
+Hydrolytic Species
+
+Reference No.: 140(64SiM)
+Stability Constants of Metal-ion Complexes SP17, 1964 Sillen LG; Martell AE; The
+Chemical Soc.,London
+
+Reference No.: 552(95SMM)
+NIST Critical Stability Constants of Metal Complexes Database, 1995 Smith RM; Martell
+AE; Motekaitis RJ; Version 2.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 773(85KoS)
+Handbook of Chemical Equilibria in Analytical Chemistry, 1985 Kotrly S; Sucha L; Ellis
+Horwood Series in Anal. Chem.; Eds. Chalmers RA & Masson M; Ellis Horwood, Chichester
+
+Reference No.: 775(71CCM)
+Selected Constants, 1971 Charlot G; Collumeau A; Marchon MJC; Oxidation-Reduction
+Potentials of Inorganic Substances in Aqueous Solution; Butterworths, London
+
+Reference No.: 778(78MiC)
+Tables of Standard Electrode Potentials, 1978 Milazzo G; Caroli S; Wiley, N.Y.
+
+Reference No.: 802(90Wea)
+CRC Handbook of Chemistry and Physics, 70th Edn., 1990 Weast RC; A Ready-Reference Book
+of Chemical and Physical Data; CRC Press, Cleveland, Ohio
+
+Reference No.: 906(79Per)
+IUPAC Chemical Data Series No. 22, 1979 Perrin DD; Stability Constants of Metal-Ion
+Complexes, First Edition Part B, Organic Ligands; Pergamon, Oxford
+
+Reference No.: 931(71SiM)
+Stability Constants of Metal-ion Complexes SP25, 1971 Sillen LG; Martell AE; Supplement
+No 1 to Special Publication No 25; Chemical Society, London
+
+Reference No.: 1070(89VeC)
+Polyhedron, 1989, 8, 333 - 340; Verchere JF; Chapelle S; Stability Constants and
+Structures of Homologous Dinuclear Molybdate and Tungstate Complexes of Aldoses by
+Potentiometry and 13 C and 95 Mo NMR
+
+Reference No.: 1118(82And)
+Pure Appl. Chem., 1982, 54, 2693 - 2758; Anderegg G; Critical Survey of Stability
+Constants of NTA Complexes
+
+Reference No.: 1397(76Wen)
+Coord. Chem. Rev., 1976, 18, 1 - 27; Wentworth RAD; Mechanisms for the Reactions of
+Molybdenum in Enzymes
+
+
+
+
+                                      – Page 30 of 33 –
+JESS Thermodynamic Database v8.9                                   Tungsten
+
+
+Reference No.: 1659(79ZLL)
+J. Chem. Soc., Dalton Trans., 1979,, 1372 - 1376; Zare K; Legrange P; Legrange J;
+Determination and Comparison of Stability Constants of Vanadium(V), Molybdenum(VI), and
+Tungsten(VI) Amino- carboxylate Complexes
+
+Reference No.: 1814(72SiS)
+J. Inorg. Nucl. Chem., 1972, 34, 2081 - 2083; Singh MK; Srivastava MN; Stepwise
+Formation of Vanadium(IV), Molybdenum(IV) and Tungsten(VI) Chelates with Aspartic and
+Glutamic Acids
+
+Reference No.: 1938(93CKR)
+J. Chem. Soc., Dalton Trans., 1993,, 105 - 109; Cruywagen JJ; Kruger L; Rohwer EA;
+Molybdenum(VI) and Tungsten(VI) Complex Formation. Part 5. The Reaction with Lactate in
+1.0 mol dm-3 Sodium Chloride Medium
+
+Reference No.: 2547(90CDG)
+Inorg. Chim. Acta, 1990, 172, 25 - 33; Cavaleiro AMVSV; De Jesus JDP; Gil VMS; Gillard
+RD; Williams PA; Molybdenum(VI) Complexation by Amino Acids. Part II. Species in
+Aqueous Solutions of (R)-Cysteine and Sodium Molybdate or Tungstate
+
+Reference No.: 3006(85BPJ)
+Standard Potentials in Aqueous Solution, 1985 Bard AJ; Parsons R; Jordan J; Monographs
+in Electroanalytical Chemistry and Electrochemistry; Marcel Dekker Inc.,New York and
+Basel
+
+Reference No.: 5029(76DMH)
+J. Chem. Thermodyn., 1976, 8, 203 - 207; Dellien I; McCurdy KG; Hepler LG; Enthalpies
+of Formation of Lead Chromate, Lead Molybdate, and Lead Tungstate, and the Entropy of
+Aqueous Tungstate Ion
+
+Reference No.: 5501(80JeB)
+Acta Chem. Scand., 1980, A34, 99 - 107; Jensen JB; Buch JSR; Solubility of Silver
+Tungstate in Aqueous Solutions at Different Ionic Strengths and Temperatures.
+Thermodynamic Quantities of Ag2WO4
+
+Reference No.: 5564(74ArS)
+Acta Chem. Scand., 1974, A28, 20 - 22; Arnek R; Sasaki Y; Equiibrium Studies of
+Polyanions. 20. A Recalculation of EMF Data on the Reactions of H+ and WO4-2 in 3M
+Na(ClO4) at 25 C
+
+Reference No.: 5801(95HCB)
+Inorg. Chem., 1995, 34, 4434 - 4440; Hlaibi M; Chapelle S; Benaissa M; Verchere J-F;
+Structures and Stabilities of Tungstate Complexes of alpha-Hydroxy Acids. 183W NMR
+Study of the Influence of Ligand Substitution
+
+Reference No.: 5810(95CrR)
+J. Chem. Soc., Dalton Trans., 1995,, 3433 - 3438; Cruywagen JJ; Rohwer EA; Equilibria
+and Thermodynamic Quantities for the Reactions of Molybdenum(VI) and Tungsten(VI) with
+Mandelate (alpha-Hydroxybenzeneacetate)
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+Reference No.: 6422(95BaP)
+Thermochemical Data of Pure Substances, 3rd Edn., 1995 Barin I; Platzki G; Weinheim,
+Germany
+
+Reference No.: 6488(88ShH)
+Geochim. Cosmochim. Acta, 1988, 52, 2009 - 2036; Shock EL; Helgeson HC; Calculation of
+
+
+
+                                      – Page 31 of 33 –
+JESS Thermodynamic Database v8.9                                      Tungsten
+
+
+the Thermodynamic and Transport Properties of Aqueous Species at High Pressures and
+Temperatures: Correlation Algorithms for Ionic Species and Equation of State
+Predictions to 5 kb and 1000 C
+
+Reference No.: 6494(95RoH)
+U.S. Geol. Surv. Bull. 2131, 1995 Robie RA; Hemingway BS; Thermodynamic Properties of
+Minerals and Related Substances at 298.15 K and 1 Bar (10^5 Pascals) Pressure and at
+Higher Temperatures; U.S. Government Printing Office, Washington, U.S.A
+
+Reference No.: 6843(80GrS)
+J. Inorg. Nucl. Chem., 1980, 42, 51 - 53; Grobler SR; Suri SK; Solubilities of the
+Molybdates and Tungstates of Silver and Copper(II) in Water by Ion-Selective Electrodes
+
+Reference No.: 6969(78LLZ)
+Bull. Soc. Chim. Fr., 1978,, I-7 - I-16; Lagrange J; Lagrange P; Zare K; Etude
+Cinetique de la Decomplexation des Chelates du Vanadium(V) avec le NTA et l'EDTA.
+Application au Dosage de Melanges V(V), Mo(VI) et W(VI)
+
+Reference No.: 7167(84WDM)
+Inorg. Chem., 1984, 23, 1120 - 1132; Wesolowski D; Drummond SE; Mesmer RE; Ohmoto H;
+Hydrolysis Equilibria of Tungsten(VI) in Aqueous Chloride Solutions to 300 C
+
+Reference No.: 7421(97Mar)
+Ion Properties, 1997 Marcus Y; Marcel Dekker Inc., New York, U.S.A.
+
+Reference No.: 7761(89Bra)
+J. Phys. Chem. Ref. Data, 1989, 18, 1 - 21; Bratsch SG; Standard Electrode Potentials
+and Temperature Coefficients in Water at 298.15 K
+
+Reference No.: 9029(97SSW)
+Geochim. Cosmochim. Acta, 1997, 61, 907 - 950; Shock EL; Sassani DC; Willis M;
+Sverjensky DA; Inorganic Species in Geologic Fluids: Correlations among Standard Molal
+Thermodynamic Properties of Aqueous Ions and Hydroxide Complexes
+
+Reference No.: 10174(95OHS)
+J. Phys. Chem. Ref. Data, 1995, 24, 1401 - 1560; Oelkers EH; Helgeson HC; Shock EL;
+Sverjensky DA; Johnson JW; Pokrovskii VA; Summary of the Apparent Standard Partial
+Molal Gibbs Free Energies of Formation of Aqueous Species, Minerals, and Gases at
+Pressures 1 to 5000 Bars and Temperatures 25 to 1000C
+
+Reference No.: 22519(05Lid)
+CRC Handbook of Chemistry and Physics, 86th Edn., 2005 Lide DR; A Ready-Reference Book
+of Chemical and Physical Data; Taylor & Francis, Boca Raton, USA
+
+Reference No.: 22551(06Inz)
+Encyclopedia of Electrochemistry, Vol. 7a, 2006, 17 - 75; Inzelt G; Standard, Formal
+and Other Characteristic Potentials of Selected Electrode Reactions
+
+Reference No.: 28992(71NRK)
+Handbook of Thermodynamic Data, 1971 Naumov GB; Ryzhenko BN; Khodakovsky IL; Translated
+by G.J. Soleimani and edited by I. Barnes & V. Speltz (U.S. Geological Survey); U.S.
+National Technical Information Service, Springfield VA
+
+Reference No.: 31135(61Sas)
+Acta Chem. Scand., 1961, 15, 175 - 189; Sasaki Y; Equilibrium Studies of Polyanions. 7.
+The First Step in the Acidification of WO2-; Equilibria in 3 M NaClO4 at 25 C
+
+
+
+
+                                      – Page 32 of 33 –
+JESS Thermodynamic Database v8.9                                   Tungsten
+
+
+Reference No.: 31291(84PSG)
+U.S. Bur. Mines Bull. 677, 1984 Pankratz LB; Stuve JM; Gokcen NA; Thermodynamic Data
+for Mineral Technology; US Det. Interior, Bur. Mines, Washington, DC, USA
+
+
+
+
+                                      – Page 33 of 33 –
+

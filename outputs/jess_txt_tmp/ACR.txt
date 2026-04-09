@@ -1,0 +1,489 @@
+                       JESS Thermodynamic Database v8.9
+                                            Actinium
+
+                                            24-Jan-23
+
+Reaction No. 2688
+F-1 + Ac+3 = Ac+3_F-1
+ No    t       I-Str           Medium              Value (Dev)         W     Tech.     Ref. #
+  1    25        0          Inf. Dilution         lgK:3.591(4SF)       1      EOR
+  2    25       0.1            NaClO4             lgK:2.95(3SF)        5      MTP       6681
+  3    25       0.5            NaClO4             lgK:2.72(3SF)        5      MDS       2106
+
+
+Reaction No. 2689
+Ac+3_F-1 + F-1 = Ac+3_F-1(2)
+  No       t     I-Str        Medium           Value (Dev)         W       Tech.       Ref. #
+  1     25           0.5      NaClO4          lgK:2.50(3SF)        5       MDS         2106
+
+
+Reaction No. 2690
+Ac+3_F-1(2) + F-1 = Ac+3_F-1(3)
+  No       t     I-Str        Medium           Value (Dev)         W       Tech.       Ref. #
+  1     25           0.5      NaClO4          lgK:2.68(3SF)        5       MDS         2106
+
+
+Reaction No. 6330
+Oxalic-2 + Ac+3 = Ac+3_Oxalic-2
+ No    t       I-Str          Medium               Value (Dev)         W      Tech.     Ref. #
+  1    25        0         Inf. Dilution         lgK:5.636(4SF)        1         EOR
+  2    25        0         Inf. Dilution          lgK:5.65(3SF)        4         CRV    31301
+  3    25       0.1           NaClO4            lgK:4.36(0.02SD)       5         MTP     906
+  4    25       0.5           NaClO4              lgK:4.47(3SF)        0         MDS     2106
+  5    25        1            NaClO4              lgK:3.56(3SF)        5         MPL     906
+  6    25        1            NaClO4              lgK:3.56(3SF)        6         MPL     999
+
+
+Reaction No. 6331
+2<Oxalic-2> + Ac+3 = Ac+3_Oxalic-2(2)
+ No    t       I-Str           Medium              Value (Dev)         W     Tech.     Ref. #
+  1    25        0         Inf. Dilution          lgK:8.777(4SF)       1      EOR
+  2    25        0         Inf. Dilution          lgK:8.80(3SF)        4      CRV       31301
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                             Actinium
+
+
+ 3    25       0.1         NaClO4              lgK:7.1(0.1SD)           4          MTP     906
+ 4    25       0.1         NaClO4             lgK:7.08(0.1SD)           4          MTP     906
+ 5    25       0.5         NaClO4              lgK:8.00(3SF)            0          MDS     2106
+ 6    25        1          NaClO4              lgK:6.16(3SF)            5          MPL     906
+ 7    25        1          NaClO4              lgK:6.16(3SF)            6          MPL     999
+
+
+Reaction No. 43706
+Ac+3_OH-1 + Citric-3 = Ac+3_OH-1_Citric-3
+ No       t     I-Str     Medium            Value (Dev)         W           Tech.        Ref. #
+  1    23                                 lgK:4.18(3SF)         4            ENS          906
+
+
+Reaction No. 43707
+Ac+3_OH-1 + 2<Citric-3> = Ac+3_OH-1_Citric-3(2)
+ No       t     I-Str      Medium           Value (Dev)         W           Tech.        Ref. #
+  1    23                                  lgK:7.0(2SF)         4            ENS          906
+
+
+Reaction No. 43708
+Ac+3_OH-1(2) + Citric-3 = Ac+3_OH-1(2)_Citric-3
+ No       t     I-Str      Medium           Value (Dev)         W           Tech.        Ref. #
+  1    23                                  lgK:4.3(2SF)         4            ENS          906
+
+
+Reaction No. 44822
+EDTA-4 + Ac+3 = Ac+3_EDTA-4
+ No   t       I-Str        Medium               Value (Dev)             W      Tech.      Ref. #
+ 1    23       0.1         Unknown            lgK:14.2(0.1SD)           2          MTP     906
+ 2    25        0       Inf. Dilution          lgK:14.4(3SF)            1          ESC
+
+
+Reaction No. 44823
+Ac+3_EDTA-4 + H+1 = Ac+3_H+1_EDTA-4
+ No   t       I-Str         Medium               Value (Dev)            W     Tech.      Ref. #
+ 1    23       0.1          Unknown            lgK:2.(0.3SD)            4      MTP         906
+ 2    25        0        Inf. Dilution          lgK:2.0(2SF)            1      ESC
+
+
+Reaction No. 45241
+CDTA-4 + Ac+3 = Ac+3_CDTA-4
+ No    t       I-Str     Medium             Value (Dev)             W        Tech.       Ref. #
+  1   25        0.1      Unknown          lgK:15.7(0.1SD)           4         MTP         906
+
+
+
+
+                                         – Page 2 of 10 –
+JESS Thermodynamic Database v8.9                                 Actinium
+
+
+Reaction No. 52987
+Cl-1 + Ac+3 = Ac+3_Cl-1
+ No   t    I-Str            Medium           Value (Dev)     W    Tech.     Ref. #
+ 1    20     3              LiClO4          lgK:-0.36(2SF)   5     CRV       2556
+ 2    25     0        Inf. Dilution        lgK:0.9706(4SF)   1     EOR
+ 3    25     4              NaClO4          lgK:-0.04(1SF)   5     MDS       5398
+ 4    27     1              HClO4           lgK:-0.10(2SF)   5     MDS       931
+
+
+Reaction No. 52988
+2<Cl-1> + Ac+3 = Ac+3_Cl-1(2)
+ No   t    I-Str            Medium           Value (Dev)     W   Tech.      Ref. #
+ 1    25     0        Inf. Dilution         lgK:1.403(4SF)   1    EOR
+ 2    25     4              NaClO4          lgK:-1.04(3SF)   5    MDS       5398
+ 3    27     1               HClO4          lgK:-0.62(2SF)   5    MDS        931
+
+
+Reaction No. 52989
+3<Cl-1> + Ac+3 = Ac+3_Cl-1(3)
+ No   t    I-Str            Medium           Value (Dev)     W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution        lgK:-0.809(4SF)   1     EOR
+ 2    25     4              NaClO4          lgK:-1.26(3SF)   5     MDS       5398
+
+
+Reaction No. 53298
+SO4-2 + Ac+3 = Ac+3_SO4-2
+ No   t    I-Str            Medium           Value (Dev)     W   Tech.      Ref. #
+ 1    25     0        Inf. Dilution         lgK:3.341(4SF)   1    EOR
+ 2    25    0.5             NaClO4          lgK:1.75(3SF)    5    MDS       5398
+ 3    25     1              NaClO4          lgK:1.36(3SF)    5    MDS       5398
+ 4    27     1               HClO4          lgK:1.20(3SF)    5    MDS        931
+
+
+Reaction No. 53299
+2<SO4-2> + Ac+3 = Ac+3_SO4-2(2)
+ No   t    I-Str            Medium           Value (Dev)     W   Tech.      Ref. #
+ 1    25     0        Inf. Dilution         lgK:5.041(4SF)   1    EOR
+ 2    25    0.5             NaClO4          lgK:2.64(3SF)    5    MDS       5398
+ 3    25     1              NaClO4          lgK:2.68(3SF)    5    MDS       5398
+ 4    27     1               HClO4          lgK:1.85(3SF)    0    MDS        931
+
+
+
+
+                                      – Page 3 of 10 –
+JESS Thermodynamic Database v8.9                                           Actinium
+
+
+Reaction No. 53369
+Ac+3 + H+1(2)_PO4-3 = Ac+3_H+1(2)_PO4-3
+ No       t     I-Str        Medium           Value (Dev)         W       Tech.       Ref. #
+  1    25           0.5      NH4ClO4         lgK:1.59(3SF)        5        MDS         5398
+
+
+Reaction No. 53836
+NO3-1 + Ac+3 = Ac+3_NO3-1
+ No       t     I-Str        Medium          Value (Dev)          W       Tech.       Ref. #
+  1    27            1       HClO4          lgK:0.12(2SF)         5       MDS          931
+
+
+Reaction No. 53837
+2<NO3-1> + Ac+3 = Ac+3_NO3-1(2)
+ No       t     I-Str        Medium          Value (Dev)          W       Tech.       Ref. #
+  1    27            1       HClO4          lgK:0.01(1SF)         5       MDS          931
+
+
+Reaction No. 54283
+Br-1 + Ac+3 = Ac+3_Br-1
+ No       t     I-Str       Medium           Value (Dev)          W       Tech.       Ref. #
+  1    20            3      LiClO4          lgK:-0.4(1SF)         5        CRV         2556
+  2    27            1       HClO4         lgK:-0.25(2SF)         4        MDS         931
+
+
+Reaction No. 54284
+2<Br-1> + Ac+3 = Ac+3_Br-1(2)
+ No       t     I-Str       Medium           Value (Dev)          W       Tech.       Ref. #
+  1    27            1       HClO4         lgK:-0.52(2SF)         4        MDS         931
+
+
+Reaction No. 55651
+Ac+3 + e-1 = Ac+2
+ No   t       I-Str           Medium              Value (Dev)         W     Tech.     Ref. #
+ 1    25        0          Inf. Dilution         lgK:-82.9(3SF)       1      ELC
+ 2    25        0             Unknown             E:-5.(0.5SD)        0      ENS       5256
+
+
+Reaction No. 57706
+Ac(s) - 3<e-1> = Ac+3
+ No   t       I-Str          Medium               Value (Dev)         W      Tech.     Ref. #
+ 1    25        0         Inf. Dilution         dG:-150.(3.SD)        0         ENS     3006
+ 2    25        0         Inf. Dilution         dG:-640.(3SF)kJ       3         CRV     7421
+
+
+
+
+                                           – Page 4 of 10 –
+JESS Thermodynamic Database v8.9                                       Actinium
+
+
+ 3    25    0        Inf. Dilution           E:2.20(3SF)           2     CRV       6330
+ 4    25    0        Inf. Dilution           E:2.13(3SF)           0     ENS       7276
+ 5    25    0        Inf. Dilution           E:2.20(3SF)           2     CRV       7761
+ 6    25    0        Inf. Dilution           E:2.20(3SF)           2     CRV      22519
+ 7    25    0        Inf. Dilution           E:2.15(3SF)           0     CRV      22551
+ 8    25    0        Inf. Dilution          dH:-160.(3.SD)         1     ENS       3006
+ 9    25    0        Inf. Dilution         dH:-653.2(4SF)kJ        1     CRV       7761
+
+
+Reaction No. 60666
+2<F-1> + Ac+3 = Ac+3_F-1(2)
+ No   t    I-Str            Medium           Value (Dev)       W       Tech.      Ref. #
+ 1    25        0     Inf. Dilution         lgK:6.699(4SF)     1        EOR
+ 2    25    0.5             Unknown         lgK:5.22(3SF)      5        CRV       2556
+
+
+Reaction No. 60667
+3<F-1> + Ac+3 = Ac+3_F-1(3)
+ No   t    I-Str            Medium           Value (Dev)       W       Tech.      Ref. #
+ 1    25        0     Inf. Dilution         lgK:9.675(4SF)     1        EOR
+ 2    25    0.5             Unknown          lgK:7.9(2SF)      5        CRV       2556
+
+
+Reaction No. 65703
+SCN-1 + Ac+3 = Ac+3_SCN-1
+ No   t    I-Str            Medium           Value (Dev)       W       Tech.      Ref. #
+ 1    25        0     Inf. Dilution         lgK:1.388(4SF)     1        EOR
+ 2    25        1           Unknown         lgK:0.05(1SF)      6        CRV        552
+ 3    25        5           NaClO4          lgK:-0.75(2SF)     5        MDS       11516
+Note (3): Sekine T et al., Bull. Chem. Soc. Jpn., 1969, 42, 2712
+
+
+Reaction No. 70522
+Ac(s) = Ac(g)
+ No   t    I-Str            Medium           Value (Dev)           W    Tech.     Ref. #
+ 1    25        0     Inf. Dilution        dG:366.0(4SF)kJ         0     CRV       6330
+ 2    25        0     Inf. Dilution          dG:87.6(3SF)          4     CRV       7382
+ 3    25        0     Inf. Dilution        dH:406.0(4SF)kJ         0     CRV       6330
+ 4    25        0     Inf. Dilution          dH:97.0(3SF)          4     CRV       7382
+ 5    25        0     Inf. Dilution         dH:410.(3SF)kJ         3     CRV      22524
+
+
+
+
+                                      – Page 5 of 10 –
+JESS Thermodynamic Database v8.9                                          Actinium
+
+
+Reaction No. 72149
+Ac+3 + 1.5<H2(g)> + 3<e-1> = AcH3(s)
+ No   t       I-Str          Medium              Value (Dev)         W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution          E:-1.70(3SF)        3      CRV       7761
+ 2    25        0         Inf. Dilution        dH:452.4(4SF)kJ       3      CRV       7761
+
+
+Reaction No. 72150
+Ac+3_OH-1(3)_(am.,s) + 3<e-1> = Ac(s) + 3<OH-1>
+ No   t       I-Str           Medium             Value (Dev)         W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution          E:-2.53(3SF)        3      CRV       7761
+ 2    25        0         Inf. Dilution         dH:650.(3SF)kJ       3      EES
+Note (2): By analogy with the crystalline solid
+
+
+Reaction No. 72151
+Ac+3_OH-1(3)_(s) + 3<e-1> = Ac(s) + 3<OH-1>
+ No   t       I-Str          Medium              Value (Dev)         W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution        lgK:-132.7(4SF)       1      ELC
+ 2    25        0         Inf. Dilution          E:-2.57(3SF)        0      CRV       7761
+ 3    25        0         Inf. Dilution        dH:656.7(4SF)kJ       2      CRV       7761
+
+
+Reaction No. 73882
+Ac(s) - 2<e-1> = Ac+2
+ No   t       I-Str          Medium              Value (Dev)         W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution         lgK:27.3(3SF)        1      ELC
+ 2    25        0         Inf. Dilution        dG:-167.(3SF)kJ       2      CRV       22524
+
+
+Reaction No. 74042
+Ac+3_OH-1(3)_(s) = Ac+3 + 3<OH-1>
+ No   t       I-Str           Medium             Value (Dev)         W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution         lgK:-20.9(4SF)       1      EOR
+ 2    25        0         Inf. Dilution         lgK:-20.9(3SF)       4      CRV       22551
+
+
+Reaction No. 75930
+Ac+3_Oxalic-2 + Oxalic-2 = Ac+3_Oxalic-2(2)
+ No       t     I-Str       Medium          Value (Dev)          W       Tech.       Ref. #
+  1    25           0.5     NaClO4         lgK:3.53(3SF)         0       MDS         2106
+  2    25            1      NaClO4         lgK:2.60(3SF)         5       MDS         11516
+
+
+
+
+                                          – Page 6 of 10 –
+JESS Thermodynamic Database v8.9                                         Actinium
+
+
+Note (2): Sekine T et al., Bull. Chem. Soc. Jpn., 1969, 42, 2712
+
+
+Reaction No. 76130
+Ac+3_SCN-1 + SCN-1 = Ac+3_SCN-1(2)
+ No       t    I-Str     Medium             Value (Dev)         W       Tech.       Ref. #
+  1    25           5    NaClO4           lgK:0.29(2SF)         5       MDS         11516
+Note (1): Sekine T et al., Bull. Chem. Soc. Jpn., 1969, 42, 2712
+  2    27           1    NaClO4           lgK:-0.14(2SF)        5       MDS         11516
+Note (2): Rao C et al., Inorg. Nucl. Chem. Lett., 1968, 4, 655
+
+
+Reaction No. 77976
+PO4-3 + 2<H+1> + Ac+3 = Ac+3_H+1(2)_PO4-3
+ No   t       I-Str         Medium               Value (Dev)        W    Tech.      Ref. #
+ 1    25        0       Inf. Dilution          lgK:22.0(4SF)        1     ELC
+
+
+Reaction No. 79195
+3<OH-1> + Ac+3 = Ac+3_OH-1(3)_(am.,s)
+ No   t       I-Str         Medium               Value (Dev)        W    Tech.      Ref. #
+ 1    25        0       Inf. Dilution          lgK:16.5(3SF)        1     ELC
+
+
+Reaction No. 79440
+2<SCN-1> + Ac+3 = Ac+3_SCN-1(2)
+ No   t       I-Str        Medium               Value (Dev)         W     Tech.     Ref. #
+ 1    25        0       Inf. Dilution          lgK:1.904(4SF)       1      ELC
+
+
+Reaction No. 80633
+Citric-3 + Ac+3 = Ac+3_Citric-3
+ No   t       I-Str         Medium               Value (Dev)        W    Tech.      Ref. #
+ 1    25        0       Inf. Dilution          lgK:7.99(3SF)        4     CRV        31301
+
+
+Reaction No. 80634
+Ac+3 + H+1_Citric-3 = Ac+3_H+1_Citric-3
+ No   t       I-Str         Medium               Value (Dev)        W    Tech.      Ref. #
+ 1    25        0       Inf. Dilution          lgK:5.31(3SF)        4     CRV        31301
+
+
+
+
+                                     Data Assessment
+
+
+
+                                         – Page 7 of 10 –
+JESS Thermodynamic Database v8.9                                   Actinium
+
+
+
+Weight                       Assessment
+9        highest accuracy
+8        multi-determined; excellent dependability
+7        trustworthy; outstanding single determination
+6        better than average reliability
+5        average single determination
+4        some doubt
+3        poorly known
+2        guess to achieve consistency (or just as bad)
+1        no information but consistent
+0        problematic/inconsistent
+
+
+
+
+                                          Techniques
+
+
+Abbrev                   Method
+CRV      Critical review
+EES      Personal estimate
+ELC      Linear Combination of Reactions
+ENS      Not specified
+EOR      Other Reaction Constants
+ESC      Standard conditions anchor
+MDS      Distribution between two phases
+MPL      Polarography
+MTP      Migration or transference number
+
+
+
+
+                                          References
+
+
+Reference No.: 552(95SMM)
+NIST Critical Stability Constants of Metal Complexes Database, 1995 Smith RM; Martell
+AE; Motekaitis RJ; Version 2.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+
+
+
+                                           – Page 8 of 10 –
+JESS Thermodynamic Database v8.9                                      Actinium
+
+
+Reference No.: 906(79Per)
+IUPAC Chemical Data Series No. 22, 1979 Perrin DD; Stability Constants of Metal-Ion
+Complexes, First Edition Part B, Organic Ligands; Pergamon, Oxford
+
+Reference No.: 931(71SiM)
+Stability Constants of Metal-ion Complexes SP25, 1971 Sillen LG; Martell AE; Supplement
+No 1 to Special Publication No 25; Chemical Society, London
+
+Reference No.: 999(91MaM)
+Estimation of Constants for JESS Database, 1991 May PM; May RF
+
+Reference No.: 2106(70AzL)
+J. Inorg. Nucl. Chem., 1970, 32, 1925 - 1932; Aziz A; Lyle SJ; Complexes of Lanthanum
+and Actinium with Fluoride, Oxalate and Sulphate in Aqueous Solutions
+
+Reference No.: 2556(93MSM)
+NIST Critical Stability Constants of Metal Complexes Database, 1993 Martell AE; Smith
+RM; Motekaitis RJ; Version 1.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 3006(85BPJ)
+Standard Potentials in Aqueous Solution, 1985 Bard AJ; Parsons R; Jordan J; Monographs
+in Electroanalytical Chemistry and Electrochemistry; Marcel Dekker Inc.,New York and
+Basel
+
+Reference No.: 5256(91MiK)
+Coord. Chem. Rev., 1991, 109, 1 - 5; Mikheev NB; Kamenskaya AN; Complex Formation of
+the Lanthanides and Actinides in Lower Oxidation States
+
+Reference No.: 5398(82Hog)
+IUPAC Chemical Data Series No. 21, 1982 Hogfeldt E; Stability Constants of Metal-ion
+Complexes, 2nd Suppl., Part A, Inorganic Ligands; Pergamon, Oxford
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+Reference No.: 6681(73MSS)
+Russ. J. Inorg. Chem., 1973, 18, 783 - 785; Makarova TP; Stepanov AV; Shestakov BI;
+Electromigration Investigation of the Comparative Stability of Fluoro-complexes of the
+MF+2 Type of Certain Rare-Earth and Actinide Elements
+
+Reference No.: 7276(88CoW)
+Advanced Inorganic Chemistry, 5th Edn., 1988 Cotton FA; Wilkinson G; John Wiley & Sons
+Inc., N.Y., U.S.A
+
+Reference No.: 7382(86Wea)
+CRC Handbook of Chemistry and Physics, 67th Edn., 1986 Weast RC; A Ready-Reference Book
+of Chemical and Physical Data; CRC Press Inc., Boca Raton, Florida, U.S.A.
+
+Reference No.: 7421(97Mar)
+Ion Properties, 1997 Marcus Y; Marcel Dekker Inc., New York, U.S.A.
+
+Reference No.: 7761(89Bra)
+J. Phys. Chem. Ref. Data, 1989, 18, 1 - 21; Bratsch SG; Standard Electrode Potentials
+and Temperature Coefficients in Water at 298.15 K
+
+
+
+
+                                       – Page 9 of 10 –
+JESS Thermodynamic Database v8.9                                   Actinium
+
+
+Reference No.: 11516(00PeP)
+IUPAC Stability Constants Database, 2000 Pettit LD; Powell HKJ; Release 4; Academic
+Software, U.K.
+
+Reference No.: 22519(05Lid)
+CRC Handbook of Chemistry and Physics, 86th Edn., 2005 Lide DR; A Ready-Reference Book
+of Chemical and Physical Data; Taylor & Francis, Boca Raton, USA
+
+Reference No.: 22524(86BrL)
+J. Phys. Chem., 1986, 90, 307 - 312; Bratsch SG; Lagowski JJ; Actinide Thermodynamic
+Predictions. 3. Thermodynamics of Compounds and Aquo Ions of the 2+, 3+, and 4+
+Oxidation States and Standard Electrode Potentials at 298.15 K
+
+Reference No.: 22551(06Inz)
+Encyclopedia of Electrochemistry, Vol. 7a, 2006, 17 - 75; Inzelt G; Standard, Formal
+and Other Characteristic Potentials of Selected Electrode Reactions
+
+Reference No.: 31301(10KFD)
+Japan Atomic Energy Agency Data/Code 2009-024, 2010 Kitamura A; Fujiwara K; Doi R;
+Yoshida Y; Mihara M; Terashima M; Yui M; JAEA Thermodynamic Database for Performance
+Assessment of Geological Disposal of High-level Radioactive and TRU Wastes; Geological
+Isolation Research Unit, JAEA, Japan
+
+
+
+
+                                      – Page 10 of 10 –
+

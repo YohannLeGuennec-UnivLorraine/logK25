@@ -1,0 +1,84 @@
+                    JESS Thermodynamic Database v8.9
+                                                Neon
+
+                                              24-Jan-23
+
+Reaction No. 70511
+Ne(g) = Ne
+ No      t    I-Str              Medium                Value (Dev)    W   Tech.   Ref. #
+    1    25     0             Inf. Dilution         dG:19.3(3SF)kJ    4   ENS     7381
+    2    25     0             Inf. Dilution            dG:4.56(3SF)   4   CRV     10174
+    3    25     0             Inf. Dilution            dG:4.6(2SF)    4   CRV     12011
+    4    50     0             Inf. Dilution            dG:4.11(3SF)   4   CRV     10174
+    5    75     0             Inf. Dilution            dG:3.58(3SF)   3   CRV     10174
+    6   100     0             Inf. Dilution            dG:3.00(3SF)   3   CRV     10174
+    7   125     0             Inf. Dilution            dG:2.35(3SF)   3   CRV     10174
+    8   150     0             Inf. Dilution            dG:1.66(3SF)   2   CRV     10174
+    9   175     0             Inf. Dilution            dG:0.92(2SF)   2   CRV     10174
+ 10     200     0             Inf. Dilution            dG:0.13(2SF)   2   CRV     10174
+ 11     225     0             Inf. Dilution         dG:-0.71(2SF)     2   CRV     10174
+ 12     250     0             Inf. Dilution         dG:-1.60(3SF)     1   CRV     10174
+ 13     300     0             Inf. Dilution         dG:-3.55(3SF)     0   CRV     10174
+ 14      25     0             Inf. Dilution         dH:-4.6(2SF)kJ    4   ENS     7381
+ 15      25     0             Inf. Dilution            dH:-1.1(2SF)   4   CRV     12011
+
+
+
+
+                                       Data Assessment
+
+
+Weight                         Assessment
+9        highest accuracy
+8        multi-determined; excellent dependability
+7        trustworthy; outstanding single determination
+6        better than average reliability
+5        average single determination
+4        some doubt
+3        poorly known
+2        guess to achieve consistency (or just as bad)
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                        Neon
+
+
+1        no information but consistent
+0        problematic/inconsistent
+
+
+
+
+                                     Techniques
+
+
+Abbrev       Method
+CRV      Critical review
+ENS      Not specified
+
+
+
+
+                                     References
+
+
+Reference No.: 7381(97Woo)
+Physical Chemistry, 1997 Woodbury G; Brooks/Cole Publishing Co., Pacific Grove, U.S.A.
+
+Reference No.: 10174(95OHS)
+J. Phys. Chem. Ref. Data, 1995, 24, 1401 - 1560; Oelkers EH; Helgeson HC; Shock EL;
+Sverjensky DA; Johnson JW; Pokrovskii VA; Summary of the Apparent Standard Partial
+Molal Gibbs Free Energies of Formation of Aqueous Species, Minerals, and Gases at
+Pressures 1 to 5000 Bars and Temperatures 25 to 1000C
+
+Reference No.: 12011(68WEP)
+U.S. Nat. Bur. Standards Tech. Note 270-3, 1968 Wagman DD; Evans WH; Parker VB; Halow
+I; Baily SM; Schuman RH; Selected Values of Chemical Thermodynamics Properties
+
+
+
+
+                                         – Page 2 of 2 –
+

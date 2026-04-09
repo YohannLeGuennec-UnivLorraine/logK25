@@ -1,0 +1,162 @@
+                     JESS Thermodynamic Database v8.9
+                                         Mendelevium
+
+                                          24-Jan-23
+
+Reaction No. 55639
+Md+3 + e-1 = Md+2
+ No    t     I-Str            Medium             Value (Dev)     W   Tech.    Ref. #
+  1    25      0          Inf. Dilution          E:-0.1(1SF)     0   CRV       6330
+Note (1): For inter- and intra-reaction consistency (looks like a round-off error)
+  2    25      0          Inf. Dilution         E:-0.15(2SF)     3   ENS       7276
+  3    25      0          Inf. Dilution          E:-0.1(1SF)     0   CRV       7761
+  4    25      0          Inf. Dilution         E:-0.15(2SF)     3   CRV      22551
+  5    25      0              Unknown           E:0.6(0.5SD)     0   ENS       5256
+  6    25      0          Inf. Dilution        dH:55.7(3SF)kJ    3   CRV       7761
+
+
+Reaction No. 71083
+Md+2 + 2<e-1> = Md(s)
+ No    t     I-Str            Medium             Value (Dev)     W   Tech.    Ref. #
+  1   25       0         Inf. Dilution          E:-2.40(3SF)     4    CRV      6330
+  2   25       0         Inf. Dilution          E:-2.40(3SF)     3    CRV      7761
+  3   25       0         Inf. Dilution         dH:451.6(4SF)kJ   3    CRV      7761
+
+
+Reaction No. 71084
+Md+3 + 3<e-1> = Md(s)
+ No    t     I-Str            Medium             Value (Dev)     W   Tech.    Ref. #
+  1   25       0         Inf. Dilution          E:-1.65(3SF)     2    CRV      6330
+  2   25       0         Inf. Dilution          E:-1.65(3SF)     2    CRV      7761
+  3   25       0         Inf. Dilution          E:-1.74(3SF)     0    CRV     22551
+  4   25       0         Inf. Dilution         dH:510.4(4SF)kJ   2    CRV      7761
+
+
+Reaction No. 72046
+Md+3_OH-1(3)_(s) + e-1 = Md+2_OH-1(2)_(s) + OH-1
+ No    t     I-Str            Medium             Value (Dev)     W   Tech.    Ref. #
+  1   25       0         Inf. Dilution         lgK:-25.5(3SF)    1    ELC
+  2   25       0         Inf. Dilution           E:-1.4(2SF)     0    CRV      7761
+  3   25       0         Inf. Dilution         dH:109.2(4SF)kJ   3    CRV      7761
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                Mendelevium
+
+
+
+Reaction No. 72047
+Md+3_OH-1(3)_(am.,s) + 3<e-1> = Md(s) + 3<OH-1>
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution            E:-2.13(3SF)     3    CRV       7761
+ 2    25     0        Inf. Dilution           dH:540.(3SF)kJ    3    EES
+Note (2): By analogy with crystalline solid
+
+
+Reaction No. 72048
+Md+3_OH-1(3)_(s) + 3<e-1> = Md(s) + 3<OH-1>
+ No   t    I-Str         Medium                 Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution            E:-2.17(3SF)     3    CRV       7761
+ 2    25     0        Inf. Dilution           dH:543.3(4SF)kJ   3    CRV       7761
+
+
+Reaction No. 72049
+Md+2_OH-1(2)_(s) + 2<e-1> = Md(s) + 2<OH-1>
+ No   t    I-Str         Medium                 Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution             E:-2.5(2SF)     3    CRV       7761
+ 2    25     0        Inf. Dilution           dH:424.9(4SF)kJ   3    CRV       7761
+
+
+Reaction No. 79175
+3<OH-1> + Md+3 = Md+3_OH-1(3)_(s)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:26.4(3SF)    1   ELC
+
+
+Reaction No. 79176
+2<OH-1> + Md+2 = Md+2_OH-1(2)_(s)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:3.381(4SF)    1    ELC
+
+
+Reaction No. 79177
+3<OH-1> + Md+3 = Md+3_OH-1(3)_(am.,s)
+ No   t    I-Str          Medium                Value (Dev)     W   Tech.     Ref. #
+ 1    25     0         Inf. Dilution           lgK:24.3(3SF)    1   ELC
+
+
+
+
+                                   Data Assessment
+
+
+
+                                        – Page 2 of 4 –
+JESS Thermodynamic Database v8.9                                Mendelevium
+
+
+
+Weight                       Assessment
+9        highest accuracy
+8        multi-determined; excellent dependability
+7        trustworthy; outstanding single determination
+6        better than average reliability
+5        average single determination
+4        some doubt
+3        poorly known
+2        guess to achieve consistency (or just as bad)
+1        no information but consistent
+0        problematic/inconsistent
+
+
+
+
+                                          Techniques
+
+
+Abbrev                  Method
+CRV      Critical review
+EES      Personal estimate
+ELC      Linear Combination of Reactions
+ENS      Not specified
+
+
+
+
+                                          References
+
+
+Reference No.: 5256(91MiK)
+Coord. Chem. Rev., 1991, 109, 1 - 5; Mikheev NB; Kamenskaya AN; Complex Formation of
+the Lanthanides and Actinides in Lower Oxidation States
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+Reference No.: 7276(88CoW)
+Advanced Inorganic Chemistry, 5th Edn., 1988 Cotton FA; Wilkinson G; John Wiley & Sons
+Inc., N.Y., U.S.A
+
+
+
+
+                                            – Page 3 of 4 –
+JESS Thermodynamic Database v8.9                                Mendelevium
+
+
+Reference No.: 7761(89Bra)
+J. Phys. Chem. Ref. Data, 1989, 18, 1 - 21; Bratsch SG; Standard Electrode Potentials
+and Temperature Coefficients in Water at 298.15 K
+
+Reference No.: 22551(06Inz)
+Encyclopedia of Electrochemistry, Vol. 7a, 2006, 17 - 75; Inzelt G; Standard, Formal
+and Other Characteristic Potentials of Selected Electrode Reactions
+
+
+
+
+                                       – Page 4 of 4 –
+

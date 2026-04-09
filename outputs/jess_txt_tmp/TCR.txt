@@ -1,0 +1,2345 @@
+                       JESS Thermodynamic Database v8.9
+                                          Technetium
+
+                                          24-Jan-23
+
+Reaction No. 42685
+TcO+2_OH-1 + NTA-3 = TcO+2_OH-1_NTA-3
+ No    t       I-Str          Medium             Value (Dev)         W     Tech.   Ref. #
+  1    23       0.1           NaClO4           lgK:13.8(0.2SD)       2      MIX     4350
+  2    25        0        Inf. Dilution         lgK:14.0(3SF)        1      ESC
+
+
+Reaction No. 42686
+TcO+2_OH-1 + 2<NTA-3> = TcO+2_OH-1_NTA-3(2)
+ No    t       I-Str          Medium             Value (Dev)         W     Tech.   Ref. #
+  1    23       0.1           NaClO4           lgK:25.7(0.2SD)       0      MIX     4350
+  2    25        0        Inf. Dilution         lgK:30.0(3SF)        1      ESC
+
+
+Reaction No. 42687
+TcO+2_OH-1 + CDTA-4 = TcO+2_OH-1_CDTA-4
+ No    t       I-Str          Medium             Value (Dev)         W     Tech.   Ref. #
+  1    23      0.035          Unknown          lgK:20.4(0.2SD)       5      MTP     4350
+  2    23       0.1           NaClO4           lgK:20.7(0.2SD)       5      MIX     4350
+  3    25        0        Inf. Dilution         lgK:20.7(3SF)        1      ESC
+
+
+Reaction No. 42688
+TcO+2_OH-1 + EDTA-4 = TcO+2_OH-1_EDTA-4
+ No    t       I-Str          Medium             Value (Dev)         W     Tech.   Ref. #
+  1    23       0.1           NaClO4           lgK:19.1(0.2SD)       3      MTP     4350
+  2    25        0        Inf. Dilution         lgK:19.4(3SF)        1      ESC
+  3    25       0.1           Unknown           lgK:19.1(3SF)        2      EOD     29557
+
+
+Reaction No. 54416
+Tc+4_Br-1(5) + Br-1 = Tc+4_Br-1(6)
+  No       t     I-Str        Medium         Value (Dev)         W       Tech.     Ref. #
+  1     15            3       HClO4         lgK:3.58(3SF)        4       MAG        931
+
+
+Reaction No. 55878
+TcO4-1 + e-1 = TcO4-2
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                     Technetium
+
+
+ No   t    I-Str           Medium              Value (Dev)           W    Tech.   Ref. #
+ 1    25     0       Inf. Dilution           lgK:-10.80(4SF)         4     CRV     32222
+ 2    25     0         CHEMVAL1             lgK:-10.32(0.01SD)       0     ENS     5156
+ 3    25     0         CHEMVAL2             lgK:-10.32(0.01SD)       0     ENS     5156
+ 4    25     0         CHEMVAL3             lgK:-10.32(0.01SD)       0     ENS     5156
+ 5    25     0         CHEMVAL4             lgK:-10.30(0.01SD)       3     ENS     5156
+
+
+Reaction No. 55879
+TcO4-1 + 2<e-1> = TcO4-3
+ No    t    I-Str      Medium               Value (Dev)          W       Tech.    Ref. #
+ 1    25         0    CHEMVAL1        lgK:-20.29(0.01SD)         4        ENS      5156
+ 2    25         0    CHEMVAL2        lgK:-20.29(0.01SD)         4        ENS      5156
+ 3    25         0    CHEMVAL3        lgK:-20.29(0.01SD)         4        ENS      5156
+ 4    25         0    CHEMVAL4        lgK:-20.30(0.01SD)         4        ENS      5156
+
+
+Reaction No. 55880
+TcO4-1 + 6<H+1> + 3<e-1> = TcO+2 + 3<H2O>
+ No    t    I-Str      Medium               Value (Dev)          W       Tech.    Ref. #
+ 1    25         0    CHEMVAL1         lgK:33.45(0.01SD)         4       ENS      5156
+ 2    25         0    CHEMVAL2         lgK:33.45(0.01SD)         4       ENS      5156
+ 3    25         0    CHEMVAL3         lgK:33.45(0.01SD)         4       ENS      5156
+ 4    25         0    CHEMVAL4         lgK:33.40(0.01SD)         4       ENS      5156
+
+
+Reaction No. 55881
+TcO4-1 + 8<H+1> + 4<e-1> = Tc+3 + 4<H2O>
+ No    t    I-Str      Medium               Value (Dev)          W       Tech.    Ref. #
+ 1    25         0    CHEMVAL1         lgK:38.83(0.01SD)         4       ENS      5156
+ 2    25         0    CHEMVAL2         lgK:38.83(0.01SD)         4       ENS      5156
+ 3    25         0    CHEMVAL3         lgK:38.83(0.01SD)         4       ENS      5156
+ 4    25         0    CHEMVAL4         lgK:38.80(0.01SD)         4       ENS      5156
+
+
+Reaction No. 55882
+H+1 + TcO4-2 = H+1_TcO4-2
+ No    t    I-Str      Medium               Value (Dev)          W       Tech.    Ref. #
+ 1    25         0    CHEMVAL1         lgK:-1.61(0.01SD)         4       ENS      5156
+ 2    25         0    CHEMVAL2         lgK:-1.61(0.01SD)         4       ENS      5156
+ 3    25         0    CHEMVAL3         lgK:-1.61(0.01SD)         4       ENS      5156
+
+
+
+
+                                      – Page 2 of 45 –
+JESS Thermodynamic Database v8.9                                   Technetium
+
+
+ 4    25         0    CHEMVAL4         lgK:-1.61(0.01SD)       4       ENS      5156
+
+
+Reaction No. 55883
+2<H+1> + TcO4-2 = H+1(2)_TcO4-2
+ No    t    I-Str      Medium             Value (Dev)          W       Tech.    Ref. #
+ 1    25         0    CHEMVAL1         lgK:-1.31(0.01SD)       4       ENS      5156
+ 2    25         0    CHEMVAL2         lgK:-1.31(0.01SD)       4       ENS      5156
+ 3    25         0    CHEMVAL3         lgK:-1.31(0.01SD)       4       ENS      5156
+ 4    25         0    CHEMVAL4         lgK:-1.31(0.01SD)       4       ENS      5156
+
+
+Reaction No. 55884
+TcO4-1 + 5<H+1> + 3<e-1> = TcO+2_OH-1 + 2<H2O>
+ No   t    I-Str        Medium                 Value (Dev)         W    Tech.   Ref. #
+ 1    25     0       Inf. Dilution            lgK:34.6(3SF)        1     ELC
+ 2    25     0         CHEMVAL1           lgK:32.32(0.01SD)        0     ENS     5156
+ 3    25     0         CHEMVAL2           lgK:32.32(0.01SD)        0     ENS     5156
+ 4    25     0         CHEMVAL3           lgK:32.32(0.01SD)        0     ENS     5156
+ 5    25     0         CHEMVAL4           lgK:32.30(0.01SD)        0     ENS     5156
+
+
+Reaction No. 55885
+TcO4-1 + 4<H+1> + 3<e-1> = TcO+2_OH-1(2) + H2O
+ No    t    I-Str      Medium             Value (Dev)          W       Tech.    Ref. #
+ 1    25         0    CHEMVAL1         lgK:30.14(0.01SD)       4       ENS      5156
+ 2    25         0    CHEMVAL2         lgK:30.14(0.01SD)       4       ENS      5156
+ 3    25         0    CHEMVAL3         lgK:30.14(0.01SD)       4       ENS      5156
+ 4    25         0    CHEMVAL4         lgK:29.90(0.01SD)       4       ENS      5156
+
+
+Reaction No. 56128
+TcO2(s) + 2<H2O> = TcO4-1 + 4<H+1> + 3<e-1>
+ No   t    I-Str        Medium                 Value (Dev)         W    Tech.   Ref. #
+ 1    25     0       Inf. Dilution            lgK:-40.6(3SF)       1     ELC
+ 2    25     0         CHEMVAL1          lgK:-41.30(0.01SD)        0     ENS     5156
+ 3    25     0         CHEMVAL2          lgK:-41.30(0.01SD)        0     ENS     5156
+ 4    25     0         CHEMVAL3          lgK:-41.30(0.01SD)        0     ENS     5156
+ 5    25     0         CHEMVAL4          lgK:-41.30(0.01SD)        0     ENS     5156
+ 6    25     0       Inf. Dilution            E:-0.782(3SF)        0     CRV     6330
+ 7    25     0       Inf. Dilution            E:-0.782(3SF)        0     CRV     22519
+
+
+
+
+                                      – Page 3 of 45 –
+JESS Thermodynamic Database v8.9                                  Technetium
+
+
+
+Reaction No. 56129
+TcO2.2H2O(s) = TcO4-1 + 4<H+1> + 3<e-1>
+ No   t    I-Str      Medium                Value (Dev)       W     Tech.      Ref. #
+ 1    25     0       CHEMVAL1           lgK:-37.70(0.01SD)    0      ENS       5156
+ 2    25     0       CHEMVAL2           lgK:-37.70(0.01SD)    0      ENS       5156
+ 3    25     0       CHEMVAL3           lgK:-37.70(0.01SD)    0      ENS       5156
+ 4    25     0       CHEMVAL4           lgK:-37.70(0.01SD)    4      ENS       5156
+
+
+Reaction No. 56130
+Tc+3_OH-1(3)_(s) + H2O = TcO4-1 + 5<H+1> + 4<e-1>
+ No   t    I-Str      Medium                Value (Dev)       W     Tech.      Ref. #
+ 1    25     0       CHEMVAL1           lgK:-48.10(0.01SD)    4      ENS       5156
+ 2    25     0       CHEMVAL2           lgK:-48.10(0.01SD)    4      ENS       5156
+ 3    25     0       CHEMVAL3           lgK:-48.10(0.01SD)    4      ENS       5156
+ 4    25     0       CHEMVAL4           lgK:-48.10(0.01SD)    4      ENS       5156
+
+
+Reaction No. 56131
+TcO3(s) + H2O = TcO4-1 + 2<H+1> + e-1
+ No   t    I-Str      Medium                Value (Dev)       W     Tech.      Ref. #
+ 1    25     0       CHEMVAL1           lgK:-13.50(0.01SD)    4      ENS       5156
+ 2    25     0       CHEMVAL2           lgK:-13.50(0.01SD)    4      ENS       5156
+ 3    25     0       CHEMVAL3           lgK:-13.50(0.01SD)    4      ENS       5156
+ 4    25     0       CHEMVAL4           lgK:-13.50(0.01SD)    4      ENS       5156
+
+
+Reaction No. 56132
+Tc3O4(s) + 8<H2O> = 3<TcO4-1> + 16<H+1> + 13<e-1>
+ No   t    I-Str      Medium                Value (Dev)       W     Tech.      Ref. #
+ 1    25     0       CHEMVAL1           lgK:-157.30(0.01SD)   4      ENS        5156
+ 2    25     0       CHEMVAL2           lgK:-157.30(0.01SD)   4      ENS        5156
+ 3    25     0       CHEMVAL3           lgK:-157.30(0.01SD)   4      ENS        5156
+ 4    25     0       CHEMVAL4           lgK:-157.00(0.01SD)   4      ENS        5156
+
+
+Reaction No. 56133
+Tc4O7(s) + 9<H2O> = 4<TcO4-1> + 18<H+1> + 14<e-1>
+ No   t    I-Str      Medium                Value (Dev)       W     Tech.      Ref. #
+ 1    25     0       CHEMVAL1           lgK:-170.60(0.01SD)   4      ENS        5156
+
+
+
+
+                                        – Page 4 of 45 –
+JESS Thermodynamic Database v8.9                                         Technetium
+
+
+ 2    25            0    CHEMVAL2       lgK:-170.60(0.01SD)          4         ENS       5156
+ 3    25            0    CHEMVAL3       lgK:-170.60(0.01SD)          4         ENS       5156
+ 4    25            0    CHEMVAL4       lgK:-171.00(0.01SD)          4         ENS       5156
+
+
+Reaction No. 56134
+K+1_TcO4-1_(s) = K+1 + TcO4-1
+ No   t       I-Str        Medium             Value (Dev)                 W     Tech.   Ref. #
+ 1    25        0       Inf. Dilution      lgK:-2.28(1.28SD)              4      CRV     32222
+ 2    25        0         CHEMVAL1         lgK:-2.73(0.01SD)              0      ENS     5156
+ 3    25        0         CHEMVAL2         lgK:-2.73(0.01SD)              0      ENS     5156
+ 4    25        0         CHEMVAL3         lgK:-2.73(0.01SD)              0      ENS     5156
+ 5    25        0         CHEMVAL4         lgK:-2.60(0.01SD)              3      ENS     5156
+ 6    25        0       Inf. Dilution    dH:53.560(10.748SD)kJ            4      CRV     32222
+
+
+Reaction No. 56135
+Na+1_TcO4-1_(s) = Na+1 + TcO4-1
+ No       t     I-Str       Medium          Value (Dev)          W            Tech.     Ref. #
+ 1     25           0      CHEMVAL1      lgK:1.05(0.01SD)        4            ENS       5156
+ 2     25           0      CHEMVAL2      lgK:1.05(0.01SD)        4            ENS       5156
+ 3     25           0      CHEMVAL3      lgK:1.05(0.01SD)        4            ENS       5156
+ 4     25           0      CHEMVAL4      lgK:1.05(0.01SD)        4            ENS       5156
+
+
+Reaction No. 56136
+H+1_TcO4-1_(s) = H+1 + TcO4-1
+ No       t     I-Str       Medium          Value (Dev)          W            Tech.     Ref. #
+ 1     25           0      CHEMVAL1      lgK:5.50(0.01SD)        4            ENS       5156
+ 2     25           0      CHEMVAL2      lgK:5.50(0.01SD)        4            ENS       5156
+ 3     25           0      CHEMVAL3      lgK:5.50(0.01SD)        4            ENS       5156
+ 4     25           0      CHEMVAL4      lgK:5.50(0.01SD)        4            ENS       5156
+
+
+Reaction No. 56137
+Tc+4_S-2(2)_(s) + 4<H2O> = TcO4-1 + 2<H+1_S-2> + 6<H+1> + 3<e-1 >
+ No    t       I-Str       Medium           Value (Dev)          W            Tech.     Ref. #
+ 1    25            0     CHEMVAL1      lgK:-99.45(0.01SD)       0             ENS       5156
+ 2    25            0     CHEMVAL2      lgK:-99.45(0.01SD)       0             ENS       5156
+ 3    25            0     CHEMVAL3      lgK:-99.45(0.01SD)       0             ENS       5156
+ 4    25            0     CHEMVAL4      lgK:-99.40(0.01SD)       2             ENS       5156
+
+
+
+
+                                        – Page 5 of 45 –
+JESS Thermodynamic Database v8.9                                     Technetium
+
+
+
+Reaction No. 56138
+Tc+6_S-2(3)_(s) + 4<H2O> = TcO4-1 + 3<H+1_S-2> + 5<H+1> + e-1
+ No    t    I-Str       Medium              Value (Dev)          W           Tech.    Ref. #
+ 1    25         0     CHEMVAL1       lgK:-109.80(0.01SD)        0           ENS      5156
+ 2    25         0     CHEMVAL2       lgK:-109.80(0.01SD)        0           ENS      5156
+ 3    25         0     CHEMVAL3       lgK:-109.80(0.01SD)        0           ENS      5156
+ 4    25         0     CHEMVAL4       lgK:-110.00(0.01SD)        3           ENS      5156
+
+
+Reaction No. 56139
+Tc2S7(s) + 8<H2O> = 2<TcO4-1> + 7<H+1_S-2> + 9<H+1>
+ No    t    I-Str       Medium              Value (Dev)          W           Tech.    Ref. #
+ 1    25         0     CHEMVAL1       lgK:-231.40(0.01SD)        0           ENS      5156
+ 2    25         0     CHEMVAL2       lgK:-231.40(0.01SD)        0           ENS      5156
+ 3    25         0     CHEMVAL3       lgK:-231.40(0.01SD)        0           ENS      5156
+ 4    25         0     CHEMVAL4       lgK:-231.00(0.01SD)        2           ENS      5156
+
+
+Reaction No. 56140
+Tc(s) + 4<H2O> = TcO4-1 + 8<H+1> + 7<e-1>
+ No   t    I-Str          Medium               Value (Dev)           W        Tech.   Ref. #
+ 1    25     0        Inf. Dilution           lgK:-57.4(3SF)         1         ELC
+ 2    25     0           CHEMVAL1           lgK:-57.37(0.01SD)       0         ENS     5156
+ 3    25     0           CHEMVAL2           lgK:-57.37(0.01SD)       0         ENS     5156
+ 4    25     0           CHEMVAL3           lgK:-57.37(0.01SD)       0         ENS     5156
+ 5    25     0           CHEMVAL4           lgK:-57.40(0.01SD)       0         ENS     5156
+ 6    25     0        Inf. Dilution           E:-0.472(3SF)          0         CRV     6330
+ 7    25     0        Inf. Dilution           E:-0.472(3SF)          0         CRV    22519
+
+
+Reaction No. 56294
+Tc2O7(s) + H2O = 2<TcO4-1> + 2<H+1>
+ No   t    I-Str        Medium                 Value (Dev)               W    Tech.   Ref. #
+ 1    25     0       Inf. Dilution            lgK:11.8(3SF)              0     ELC
+ 2    25     0       Inf. Dilution          lgK:15.31(3.82SD)            0     CRV     32222
+ 3    25     0         CHEMVAL1             lgK:12.17(0.01SD)            0     ENS     5156
+ 4    25     0         CHEMVAL2             lgK:12.17(0.01SD)            0     ENS     5156
+ 5    25     0         CHEMVAL3             lgK:12.17(0.01SD)            0     ENS     5156
+ 6    25     0         CHEMVAL4             lgK:12.20(0.01SD)            0     ENS     5156
+
+
+
+
+                                      – Page 6 of 45 –
+JESS Thermodynamic Database v8.9                                             Technetium
+
+
+ 7    25       0           Inf. Dilution      dH:-46.470(21.285SD)kJ          4       CRV    32222
+
+
+Reaction No. 56301
+TcOH(s) + 3<H2O> = TcO4-1 + 7<H+1> + 6<e-1>
+ No    t       I-Str          Medium             Value (Dev)             W        Tech.     Ref. #
+ 1     25          0         CHEMVAL4         lgK:-56.90(0.01SD)         4        ENS        5156
+
+
+Reaction No. 56327
+Tc+2_OH-1(2)_(s) + 2<H2O> = TcO4-1 + 6<H+1> + 5<e-1>
+ No    t       I-Str          Medium             Value (Dev)             W        Tech.     Ref. #
+ 1     25          0         CHEMVAL1         lgK:-55.08(0.01SD)         4        ENS        5156
+ 2     25          0         CHEMVAL2         lgK:-55.08(0.01SD)         4        ENS        5156
+ 3     25          0         CHEMVAL3         lgK:-55.08(0.01SD)         4        ENS        5156
+ 4     25          0         CHEMVAL4         lgK:-55.10(0.01SD)         4        ENS        5156
+
+
+Reaction No. 60508
+TcO+2 + OH-1 = TcO+2_OH-1
+ No        t       I-Str         Medium          Value (Dev)         W        Tech.         Ref. #
+  1    20           0.1         Unknown         lgK:12.6(3SF)        5        CRV           2556
+
+
+Reaction No. 60509
+TcO+2 + 2<OH-1> = TcO+2_OH-1(2)
+ No        t       I-Str         Medium          Value (Dev)         W        Tech.         Ref. #
+  1    20           0.1         Unknown         lgK:24.2(3SF)        5        CRV           2556
+
+
+Reaction No. 64968
+Tc+3 + H2O = Tc+3_OH-1 + H+1
+ No    t       I-Str              Medium             Value (Dev)         W        Tech.     Ref. #
+ 1    25           0          Inf. Dilution         lgK:-4.23(3SF)       1         EBU       6372
+
+
+Reaction No. 64969
+Tc+3 + 2<H2O> = Tc+3_OH-1(2) + 2<H+1>
+ No    t       I-Str              Medium             Value (Dev)         W        Tech.     Ref. #
+ 1    25           0          Inf. Dilution         lgK:-9.61(3SF)       1         EBU       6372
+
+
+Reaction No. 64970
+Tc+3 + 3<H2O> = Tc+3_OH-1(3) + 3<H+1>
+ No    t       I-Str             Medium              Value (Dev)         W        Tech.     Ref. #
+
+
+
+
+                                              – Page 7 of 45 –
+JESS Thermodynamic Database v8.9                                    Technetium
+
+
+ 1    25     0          Inf. Dilution         lgK:-16.02(4SF)   1       EBU       6372
+
+
+Reaction No. 64971
+Tc+3 + 4<H2O> = Tc+3_OH-1(4) + 4<H+1>
+ No   t    I-Str           Medium               Value (Dev)     W      Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:-23.40(4SF)   1       EBU       6372
+
+
+Reaction No. 64972
+Tc+3 + 5<H2O> = Tc+3_OH-1(5) + 5<H+1>
+ No   t    I-Str           Medium               Value (Dev)     W      Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:-31.73(4SF)   1       EBU       6372
+
+
+Reaction No. 64973
+Tc+3 + 6<H2O> = Tc+3_OH-1(6) + 6<H+1>
+ No   t    I-Str           Medium               Value (Dev)     W      Tech.     Ref. #
+ 1    25     0          Inf. Dilution         lgK:-41.00(4SF)   1       EBU       6372
+
+
+Reaction No. 64974
+F-1 + Tc+3 = Tc+3_F-1
+ No   t    I-Str            Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0           Inf. Dilution         lgK:6.11(3SF)    1      EBU       6372
+
+
+Reaction No. 64975
+2<F-1> + Tc+3 = Tc+3_F-1(2)
+ No   t    I-Str            Medium              Value (Dev)     W     Tech.      Ref. #
+ 1    25     0          Inf. Dilution          lgK:11.55(4SF)   1      EBU        6372
+
+
+Reaction No. 64976
+3<F-1> + Tc+3 = Tc+3_F-1(3)
+ No   t    I-Str            Medium              Value (Dev)     W     Tech.      Ref. #
+ 1    25     0          Inf. Dilution          lgK:16.44(4SF)   1      EBU        6372
+
+
+Reaction No. 64977
+4<F-1> + Tc+3 = Tc+3_F-1(4)
+ No   t    I-Str            Medium              Value (Dev)     W     Tech.      Ref. #
+ 1    25     0          Inf. Dilution          lgK:20.85(4SF)   1      EBU        6372
+
+
+Reaction No. 64978
+
+
+
+
+                                         – Page 8 of 45 –
+JESS Thermodynamic Database v8.9                                     Technetium
+
+
+5<F-1> + Tc+3 = Tc+3_F-1(5)
+ No   t    I-Str             Medium              Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution             lgK:24.78(4SF)   1      EBU        6372
+
+
+Reaction No. 64979
+6<F-1> + Tc+3 = Tc+3_F-1(6)
+ No   t    I-Str             Medium              Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution             lgK:28.28(4SF)   1      EBU        6372
+
+
+Reaction No. 64980
+Cl-1 + Tc+3 = Tc+3_Cl-1
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution         lgK:1.80(3SF)    1      EBU       6372
+
+
+Reaction No. 64981
+2<Cl-1> + Tc+3 = Tc+3_Cl-1(2)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution         lgK:3.14(3SF)    1      EBU       6372
+
+
+Reaction No. 64982
+3<Cl-1> + Tc+3 = Tc+3_Cl-1(3)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution         lgK:4.14(3SF)    1      EBU       6372
+
+
+Reaction No. 64983
+4<Cl-1> + Tc+3 = Tc+3_Cl-1(4)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution         lgK:4.84(3SF)    1      EBU       6372
+
+
+Reaction No. 64984
+5<Cl-1> + Tc+3 = Tc+3_Cl-1(5)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution         lgK:5.29(3SF)    1      EBU       6372
+
+
+Reaction No. 64985
+6<Cl-1> + Tc+3 = Tc+3_Cl-1(6)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution         lgK:5.49(3SF)    1      EBU       6372
+
+
+
+
+                                          – Page 9 of 45 –
+JESS Thermodynamic Database v8.9                                     Technetium
+
+
+
+Reaction No. 64986
+Br-1 + Tc+3 = Tc+3_Br-1
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:1.53(3SF)   1      EBU       6372
+
+
+Reaction No. 64987
+2<Br-1> + Tc+3 = Tc+3_Br-1(2)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:2.71(3SF)   1      EBU       6372
+
+
+Reaction No. 64988
+3<Br-1> + Tc+3 = Tc+3_Br-1(3)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:3.67(3SF)   1      EBU       6372
+
+
+Reaction No. 64989
+4<Br-1> + Tc+3 = Tc+3_Br-1(4)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:4.47(3SF)   1      EBU       6372
+
+
+Reaction No. 64990
+5<Br-1> + Tc+3 = Tc+3_Br-1(5)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:5.12(3SF)   1      EBU       6372
+
+
+Reaction No. 64991
+6<Br-1> + Tc+3 = Tc+3_Br-1(6)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:5.65(3SF)   1      EBU       6372
+
+
+Reaction No. 64992
+I-1 + Tc+3 = Tc+3_I-1
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:1.48(3SF)   1      EBU       6372
+
+
+Reaction No. 64993
+2<I-1> + Tc+3 = Tc+3_I-1(2)
+
+
+
+
+                                          – Page 10 of 45 –
+JESS Thermodynamic Database v8.9                                  Technetium
+
+
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:2.65(3SF)   1      EBU       6372
+
+
+Reaction No. 64994
+3<I-1> + Tc+3 = Tc+3_I-1(3)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.65(3SF)   1      EBU       6372
+
+
+Reaction No. 64995
+4<I-1> + Tc+3 = Tc+3_I-1(4)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:4.51(3SF)   1      EBU       6372
+
+
+Reaction No. 64996
+5<I-1> + Tc+3 = Tc+3_I-1(5)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:5.27(3SF)   1      EBU       6372
+
+
+Reaction No. 64997
+6<I-1> + Tc+3 = Tc+3_I-1(6)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:5.96(3SF)   1      EBU       6372
+
+
+Reaction No. 64998
+IO3-1 + Tc+3 = Tc+3_IO3-1
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:2.38(3SF)   1      EBU       6372
+
+
+Reaction No. 64999
+2<IO3-1> + Tc+3 = Tc+3_IO3-1(2)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.72(3SF)   1      EBU       6372
+
+
+Reaction No. 65000
+3<IO3-1> + Tc+3 = Tc+3_IO3-1(3)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:4.30(3SF)   1      EBU       6372
+
+
+
+
+                                       – Page 11 of 45 –
+JESS Thermodynamic Database v8.9                                  Technetium
+
+
+Reaction No. 65001
+4<IO3-1> + Tc+3 = Tc+3_IO3-1(4)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:4.20(3SF)   1      EBU       6372
+
+
+Reaction No. 65002
+5<IO3-1> + Tc+3 = Tc+3_IO3-1(5)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.48(3SF)   1      EBU       6372
+
+
+Reaction No. 65003
+6<IO3-1> + Tc+3 = Tc+3_IO3-1(6)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:2.18(3SF)   1      EBU       6372
+
+
+Reaction No. 65004
+SO4-2 + Tc+3 = Tc+3_SO4-2
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.91(3SF)   1      EBU       6372
+
+
+Reaction No. 65005
+2<SO4-2> + Tc+3 = Tc+3_SO4-2(2)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:6.31(3SF)   1      EBU       6372
+
+
+Reaction No. 65006
+3<SO4-2> + Tc+3 = Tc+3_SO4-2(3)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:7.44(3SF)   1      EBU       6372
+
+
+Reaction No. 65007
+4<SO4-2> + Tc+3 = Tc+3_SO4-2(4)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:7.40(3SF)   1      EBU       6372
+
+
+Reaction No. 65008
+5<SO4-2> + Tc+3 = Tc+3_SO4-2(5)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+
+
+
+
+                                       – Page 12 of 45 –
+JESS Thermodynamic Database v8.9                                   Technetium
+
+
+ 1    25     0          Inf. Dilution          lgK:6.26(3SF)   1      EBU       6372
+
+
+Reaction No. 65009
+6<SO4-2> + Tc+3 = Tc+3_SO4-2(6)
+ No   t    I-Str            Medium              Value (Dev)    W     Tech.      Ref. #
+ 1    25     0          Inf. Dilution          lgK:4.05(3SF)   1      EBU       6372
+
+
+Reaction No. 65010
+NH3 + Tc+3 = Tc+3_NH3
+ No   t    I-Str            Medium              Value (Dev)    W     Tech.      Ref. #
+ 1    25     0          Inf. Dilution          lgK:6.39(3SF)   1      EBU       6372
+
+
+Reaction No. 65011
+2<NH3> + Tc+3 = Tc+3_NH3(2)
+ No   t    I-Str           Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0          Inf. Dilution         lgK:11.76(4SF)   1      EBU        6372
+
+
+Reaction No. 65012
+3<NH3> + Tc+3 = Tc+3_NH3(3)
+ No   t    I-Str           Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0          Inf. Dilution         lgK:16.22(4SF)   1      EBU        6372
+
+
+Reaction No. 65013
+4<NH3> + Tc+3 = Tc+3_NH3(4)
+ No   t    I-Str           Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0          Inf. Dilution         lgK:19.84(4SF)   1      EBU        6372
+
+
+Reaction No. 65014
+5<NH3> + Tc+3 = Tc+3_NH3(5)
+ No   t    I-Str           Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0          Inf. Dilution         lgK:22.64(4SF)   1      EBU        6372
+
+
+Reaction No. 65015
+6<NH3> + Tc+3 = Tc+3_NH3(6)
+ No   t    I-Str           Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0          Inf. Dilution         lgK:24.64(4SF)   1      EBU        6372
+
+
+Reaction No. 65016
+
+
+
+
+                                        – Page 13 of 45 –
+JESS Thermodynamic Database v8.9                                  Technetium
+
+
+NO3-1 + Tc+3 = Tc+3_NO3-1
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:1.37(3SF)   1      EBU       6372
+
+
+Reaction No. 65017
+2<NO3-1> + Tc+3 = Tc+3_NO3-1(2)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:1.47(3SF)   1      EBU       6372
+
+
+Reaction No. 65018
+3<NO3-1> + Tc+3 = Tc+3_NO3-1(3)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:0.55(2SF)   1      EBU       6372
+
+
+Reaction No. 65019
+4<NO3-1> + Tc+3 = Tc+3_NO3-1(4)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:-1.28(3SF)   1      EBU        6372
+
+
+Reaction No. 65020
+5<NO3-1> + Tc+3 = Tc+3_NO3-1(5)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:-3.97(3SF)   1      EBU        6372
+
+
+Reaction No. 65021
+Tc+3 + H+1_PO4-3 = Tc+3_H+1_PO4-3
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:9.81(3SF)   1      EBU       6372
+
+
+Reaction No. 65022
+Tc+3 + 2<H+1_PO4-3> = Tc+3_H+1(2)_PO4-3(2)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:18.50(4SF)   1      EBU        6372
+
+
+Reaction No. 65023
+Tc+3 + 3<H+1_PO4-3> = Tc+3_H+1(3)_PO4-3(3)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:26.33(4SF)   1      EBU        6372
+
+
+
+
+                                       – Page 14 of 45 –
+JESS Thermodynamic Database v8.9                                  Technetium
+
+
+
+Reaction No. 65024
+Tc+3 + 4<H+1_PO4-3> = Tc+3_H+1(4)_PO4-3(4)
+ No   t    I-Str          Medium                Value (Dev)   W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:33.39(4SF)   1      EBU        6372
+
+
+Reaction No. 65025
+Tc+3 + 5<H+1_PO4-3> = Tc+3_H+1(5)_PO4-3(5)
+ No   t    I-Str          Medium                Value (Dev)   W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:39.74(4SF)   1      EBU        6372
+
+
+Reaction No. 65026
+Tc+3 + 6<H+1_PO4-3> = Tc+3_H+1(6)_PO4-3(6)
+ No   t    I-Str          Medium                Value (Dev)   W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:45.42(4SF)   1      EBU        6372
+
+
+Reaction No. 65027
+Tc+3 + H+1(2)_PO4-3 = Tc+3_H+1(2)_PO4-3
+ No   t    I-Str          Medium                Value (Dev)   W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.52(3SF)   1      EBU       6372
+
+
+Reaction No. 65028
+Tc+3 + 2<H+1(2)_PO4-3> = Tc+3_H+1(4)_PO4-3(2)
+ No   t    I-Str          Medium                Value (Dev)   W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:5.85(3SF)   1      EBU       6372
+
+
+Reaction No. 65029
+Tc+3 + 3<H+1(2)_PO4-3> = Tc+3_H+1(6)_PO4-3(3)
+ No   t    I-Str          Medium                Value (Dev)   W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:7.22(3SF)   1      EBU       6372
+
+
+Reaction No. 65030
+Tc+3 + 4<H+1(2)_PO4-3> = Tc+3_H+1(8)_PO4-3(4)
+ No   t    I-Str          Medium                Value (Dev)   W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:7.75(3SF)   1      EBU       6372
+
+
+Reaction No. 65031
+Tc+3 + 5<H+1(2)_PO4-3> = Tc+3_H+1(10)_PO4-3(5)
+
+
+
+
+                                       – Page 15 of 45 –
+JESS Thermodynamic Database v8.9                                  Technetium
+
+
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:7.48(3SF)   1      EBU       6372
+
+
+Reaction No. 65032
+Tc+3 + 6<H+1(2)_PO4-3> = Tc+3_H+1(12)_PO4-3(6)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:6.46(3SF)   1      EBU       6372
+
+
+Reaction No. 65033
+CO3-2 + Tc+3 = Tc+3_CO3-2
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:9.23(3SF)   1      EBU       6372
+
+
+Reaction No. 65034
+2<CO3-2> + Tc+3 = Tc+3_CO3-2(2)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:16.92(4SF)   1      EBU        6372
+
+
+Reaction No. 65035
+3<CO3-2> + Tc+3 = Tc+3_CO3-2(3)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:23.32(4SF)   1      EBU        6372
+
+
+Reaction No. 65036
+4<CO3-2> + Tc+3 = Tc+3_CO3-2(4)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:28.54(4SF)   1      EBU        6372
+
+
+Reaction No. 65037
+5<CO3-2> + Tc+3 = Tc+3_CO3-2(5)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:32.63(4SF)   1      EBU        6372
+
+
+Reaction No. 65038
+6<CO3-2> + Tc+3 = Tc+3_CO3-2(6)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:35.63(4SF)   1      EBU        6372
+
+
+
+
+                                       – Page 16 of 45 –
+JESS Thermodynamic Database v8.9                                     Technetium
+
+
+Reaction No. 65039
+Tc+3 + H+1_CO3-2 = Tc+3_H+1_CO3-2
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:5.05(3SF)   1      EBU       6372
+
+
+Reaction No. 65040
+Tc+3 + 2<H+1_CO3-2> = Tc+3_H+1(2)_CO3-2(2)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:8.50(3SF)   1      EBU       6372
+
+
+Reaction No. 65041
+Tc+3 + 3<H+1_CO3-2> = Tc+3_H+1(3)_CO3-2(3)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution             lgK:10.59(4SF)   1      EBU        6372
+
+
+Reaction No. 65042
+Tc+3 + 4<H+1_CO3-2> = Tc+3_H+1(4)_CO3-2(4)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution             lgK:11.44(4SF)   1      EBU        6372
+
+
+Reaction No. 65043
+Tc+3 + 5<H+1_CO3-2> = Tc+3_H+1(5)_CO3-2(5)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution             lgK:11.09(4SF)   1      EBU        6372
+
+
+Reaction No. 65044
+Tc+3 + 6<H+1_CO3-2> = Tc+3_H+1(6)_CO3-2(6)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:9.59(3SF)   1      EBU       6372
+
+
+Reaction No. 65045
+CN-1 + Tc+3 = Tc+3_CN-1
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:7.45(3SF)   1      EBU       6372
+
+
+Reaction No. 65046
+2<CN-1> + Tc+3 = Tc+3_CN-1(2)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+
+
+
+
+                                          – Page 17 of 45 –
+JESS Thermodynamic Database v8.9                                  Technetium
+
+
+ 1    25     0        Inf. Dilution          lgK:13.81(4SF)   1      EBU        6372
+
+
+Reaction No. 65047
+3<CN-1> + Tc+3 = Tc+3_CN-1(3)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:19.22(4SF)   1      EBU        6372
+
+
+Reaction No. 65048
+4<CN-1> + Tc+3 = Tc+3_CN-1(4)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:23.73(4SF)   1      EBU        6372
+
+
+Reaction No. 65049
+5<CN-1> + Tc+3 = Tc+3_CN-1(5)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:27.36(4SF)   1      EBU        6372
+
+
+Reaction No. 65050
+6<CN-1> + Tc+3 = Tc+3_CN-1(6)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:30.14(4SF)   1      EBU        6372
+
+
+Reaction No. 65051
+SCN-1 + Tc+3 = Tc+3_SCN-1
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:2.19(3SF)   1      EBU       6372
+
+
+Reaction No. 65052
+2<SCN-1> + Tc+3 = Tc+3_SCN-1(2)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.45(3SF)   1      EBU       6372
+
+
+Reaction No. 65053
+3<SCN-1> + Tc+3 = Tc+3_SCN-1(3)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.90(3SF)   1      EBU       6372
+
+
+Reaction No. 65054
+
+
+
+
+                                       – Page 18 of 45 –
+JESS Thermodynamic Database v8.9                                   Technetium
+
+
+4<SCN-1> + Tc+3 = Tc+3_SCN-1(4)
+ No   t    I-Str          Medium                Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:3.59(3SF)   1      EBU       6372
+
+
+Reaction No. 65055
+5<SCN-1> + Tc+3 = Tc+3_SCN-1(5)
+ No   t    I-Str          Medium                Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:2.54(3SF)   1      EBU       6372
+
+
+Reaction No. 65056
+6<SCN-1> + Tc+3 = Tc+3_SCN-1(6)
+ No   t    I-Str          Medium                Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:0.79(2SF)   1      EBU       6372
+
+
+Reaction No. 65057
+Acetic-1 + Tc+3 = Tc+3_Acetic-1
+ No   t    I-Str          Medium                Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:4.28(3SF)   1      EBU       6372
+
+
+Reaction No. 65058
+2<Acetic-1> + Tc+3 = Tc+3_Acetic-1(2)
+ No   t    I-Str          Medium                Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:6.97(3SF)   1      EBU       6372
+
+
+Reaction No. 65059
+3<Acetic-1> + Tc+3 = Tc+3_Acetic-1(3)
+ No   t    I-Str          Medium                Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:8.33(3SF)   1      EBU       6372
+
+
+Reaction No. 65060
+4<Acetic-1> + Tc+3 = Tc+3_Acetic-1(4)
+ No   t    I-Str          Medium                Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:8.45(3SF)   1      EBU       6372
+
+
+Reaction No. 65061
+5<Acetic-1> + Tc+3 = Tc+3_Acetic-1(5)
+ No   t    I-Str          Medium                Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:7.39(3SF)   1      EBU       6372
+
+
+
+
+                                        – Page 19 of 45 –
+JESS Thermodynamic Database v8.9                                   Technetium
+
+
+
+Reaction No. 65062
+6<Acetic-1> + Tc+3 = Tc+3_Acetic-1(6)
+ No   t    I-Str            Medium              Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:5.19(3SF)   1      EBU       6372
+
+
+Reaction No. 65063
+Benzoic-1 + Tc+3 = Tc+3_Benzoic-1
+ No   t    I-Str            Medium              Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:4.77(3SF)   1      EBU       6372
+
+
+Reaction No. 65064
+2<Benzoic-1> + Tc+3 = Tc+3_Benzoic-1(2)
+ No   t    I-Str            Medium              Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:8.04(3SF)   1      EBU       6372
+
+
+Reaction No. 65065
+3<Benzoic-1> + Tc+3 = Tc+3_Benzoic-1(3)
+ No   t    I-Str            Medium              Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:10.05(4SF)   1      EBU        6372
+
+
+Reaction No. 65066
+4<Benzoic-1> + Tc+3 = Tc+3_Benzoic-1(4)
+ No   t    I-Str            Medium              Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:10.91(4SF)   1      EBU        6372
+
+
+Reaction No. 65067
+5<Benzoic-1> + Tc+3 = Tc+3_Benzoic-1(5)
+ No   t    I-Str            Medium              Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:10.67(4SF)   1      EBU        6372
+
+
+Reaction No. 65068
+6<Benzoic-1> + Tc+3 = Tc+3_Benzoic-1(6)
+ No   t    I-Str            Medium              Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:9.38(3SF)   1      EBU       6372
+
+
+Reaction No. 65069
+Cat-2 + Tc+3 = Tc+3_Cat-2
+
+
+
+
+                                        – Page 20 of 45 –
+JESS Thermodynamic Database v8.9                                  Technetium
+
+
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:20.33(4SF)   1      EBU        6372
+
+
+Reaction No. 65070
+2<Cat-2> + Tc+3 = Tc+3_Cat-2(2)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:38.64(4SF)   1      EBU        6372
+
+
+Reaction No. 65071
+3<Cat-2> + Tc+3 = Tc+3_Cat-2(3)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:55.60(4SF)   1      EBU        6372
+
+
+Reaction No. 65072
+EtDiAm + Tc+3 = Tc+3_EtDiAm
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:14.23(4SF)   1      EBU        6372
+
+
+Reaction No. 65073
+2<EtDiAm> + Tc+3 = Tc+3_EtDiAm(2)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:26.67(4SF)   1      EBU        6372
+
+
+Reaction No. 65074
+3<EtDiAm> + Tc+3 = Tc+3_EtDiAm(3)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:38.00(4SF)   1      EBU        6372
+
+
+Reaction No. 65075
+Gly-1 + Tc+3 = Tc+3_Gly-1
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:9.78(3SF)   1      EBU       6372
+
+
+Reaction No. 65076
+2<Gly-1> + Tc+3 = Tc+3_Gly-1(2)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:17.77(4SF)   1      EBU        6372
+
+
+
+
+                                       – Page 21 of 45 –
+JESS Thermodynamic Database v8.9                                  Technetium
+
+
+Reaction No. 65077
+3<Gly-1> + Tc+3 = Tc+3_Gly-1(3)
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:25.00(4SF)   1      EBU        6372
+
+
+Reaction No. 65078
+Glycolic-1 + Tc+3 = Tc+3_Glycolic-1
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.84(3SF)   1      EBU       6372
+
+
+Reaction No. 65079
+2<Glycolic-1> + Tc+3 = Tc+3_Glycolic-1(2)
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:6.07(3SF)   1      EBU       6372
+
+
+Reaction No. 65080
+3<Glycolic-1> + Tc+3 = Tc+3_Glycolic-1(3)
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:6.96(3SF)   1      EBU       6372
+
+
+Reaction No. 65081
+4<Glycolic-1> + Tc+3 = Tc+3_Glycolic-1(4)
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:6.59(3SF)   1      EBU       6372
+
+
+Reaction No. 65082
+5<Glycolic-1> + Tc+3 = Tc+3_Glycolic-1(5)
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:5.04(3SF)   1      EBU       6372
+
+
+Reaction No. 65083
+6<Glycolic-1> + Tc+3 = Tc+3_Glycolic-1(6)
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:2.33(3SF)   1      EBU       6372
+
+
+Reaction No. 65084
+Phenol-1 + Tc+3 = Tc+3_Phenol-1
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+
+
+
+
+                                       – Page 22 of 45 –
+JESS Thermodynamic Database v8.9                                    Technetium
+
+
+ 1    25     0         Inf. Dilution           lgK:7.22(3SF)    1      EBU       6372
+
+
+Reaction No. 65085
+2<Phenol-1> + Tc+3 = Tc+3_Phenol-1(2)
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:13.19(4SF)    1      EBU       6372
+
+
+Reaction No. 65086
+3<Phenol-1> + Tc+3 = Tc+3_Phenol-1(3)
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:18.01(4SF)    1      EBU       6372
+
+
+Reaction No. 65087
+4<Phenol-1> + Tc+3 = Tc+3_Phenol-1(4)
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:21.75(4SF)    1      EBU       6372
+
+
+Reaction No. 65088
+5<Phenol-1> + Tc+3 = Tc+3_Phenol-1(5)
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:24.43(4SF)    1      EBU       6372
+
+
+Reaction No. 65089
+6<Phenol-1> + Tc+3 = Tc+3_Phenol-1(6)
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:26.07(4SF)    1      EBU       6372
+
+
+Reaction No. 65090
+TcO+2 + H2O = TcO+2_OH-1 + H+1
+ No   t    I-Str         Medium                 Value (Dev)     W      Tech.     Ref. #
+ 1    20    0.1       Inf. Dilution            lgK:1.39(3SF)    4       CRV      32224
+ 2    25     0        Inf. Dilution            lgK:1.2(2SF)     1       ELC
+ 3    25     0        Inf. Dilution           lgK:-1.67(3SF)    0       EBU       6372
+ 4    25     0        Inf. Dilution           lgK:0.0072(2SF)   0       EOD      29882
+
+
+Reaction No. 65091
+TcO+2 + 2<H2O> = TcO+2_OH-1(2) + 2<H+1>
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+
+
+
+
+                                        – Page 23 of 45 –
+JESS Thermodynamic Database v8.9                                      Technetium
+
+
+ 1    20    0.1       Inf. Dilution             lgK:-3.78(3SF)    4      CRV       32224
+ 2    25     0        Inf. Dilution              lgK:-3.4(2SF)    1      ELC
+ 3    25     0        Inf. Dilution             lgK:-4.08(3SF)    0      EBU        6372
+ 4    25     0        Inf. Dilution              lgK:-4.(1SF)     0      EOD       29882
+
+
+Reaction No. 65092
+TcO+2 + 3<H2O> = TcO+2_OH-1(3) + 3<H+1>
+ No   t    I-Str             Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution             lgK:-7.12(3SF)    0      EBU        6372
+ 2    25     0        Inf. Dilution             lgK:-14.9(3SF)    3      EOD       29882
+
+
+Reaction No. 65093
+TcO+2 + 4<H2O> = TcO+2_OH-1(4) + 4<H+1>
+ No   t    I-Str            Medium                Value (Dev)     W      Tech.     Ref. #
+ 1    25     0        Inf. Dilution             lgK:-10.72(4SF)   1       EBU       6372
+
+
+Reaction No. 65094
+TcO+2 + 5<H2O> = TcO+2_OH-1(5) + 5<H+1>
+ No   t    I-Str            Medium                Value (Dev)     W      Tech.     Ref. #
+ 1    25     0        Inf. Dilution             lgK:-14.87(4SF)   1       EBU       6372
+
+
+Reaction No. 65095
+F-1 + TcO+2 = TcO+2_F-1
+ No   t    I-Str             Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:6.70(3SF)    1      EBU       6372
+
+
+Reaction No. 65096
+2<F-1> + TcO+2 = TcO+2_F-1(2)
+ No   t    I-Str             Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution             lgK:12.33(4SF)    1      EBU        6372
+
+
+Reaction No. 65097
+3<F-1> + TcO+2 = TcO+2_F-1(3)
+ No   t    I-Str             Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution             lgK:17.00(4SF)    1      EBU        6372
+
+
+Reaction No. 65098
+4<F-1> + TcO+2 = TcO+2_F-1(4)
+
+
+
+
+                                          – Page 24 of 45 –
+JESS Thermodynamic Database v8.9                                  Technetium
+
+
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:20.76(4SF)   1      EBU        6372
+
+
+Reaction No. 65099
+5<F-1> + TcO+2 = TcO+2_F-1(5)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:23.65(4SF)   1      EBU        6372
+
+
+Reaction No. 65100
+Cl-1 + TcO+2 = TcO+2_Cl-1
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:1.55(3SF)   1      EBU       6372
+
+
+Reaction No. 65101
+2<Cl-1> + TcO+2 = TcO+2_Cl-1(2)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:2.76(3SF)   1      EBU       6372
+
+
+Reaction No. 65102
+3<Cl-1> + TcO+2 = TcO+2_Cl-1(3)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.77(3SF)   1      EBU       6372
+
+
+Reaction No. 65103
+4<Cl-1> + TcO+2 = TcO+2_Cl-1(4)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:4.62(3SF)   1      EBU       6372
+
+
+Reaction No. 65104
+5<Cl-1> + TcO+2 = TcO+2_Cl-1(5)
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:5.33(3SF)   1      EBU       6372
+
+
+Reaction No. 65105
+Br-1 + TcO+2 = TcO+2_Br-1
+ No   t    I-Str            Medium             Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:1.37(3SF)   1      EBU       6372
+
+
+
+
+                                       – Page 25 of 45 –
+JESS Thermodynamic Database v8.9                                     Technetium
+
+
+Reaction No. 65106
+2<Br-1> + TcO+2 = TcO+2_Br-1(2)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:2.43(3SF)   1      EBU       6372
+
+
+Reaction No. 65107
+3<Br-1> + TcO+2 = TcO+2_Br-1(3)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:3.31(3SF)   1      EBU       6372
+
+
+Reaction No. 65108
+4<Br-1> + TcO+2 = TcO+2_Br-1(4)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:4.06(3SF)   1      EBU       6372
+
+
+Reaction No. 65109
+5<Br-1> + TcO+2 = TcO+2_Br-1(5)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:4.71(3SF)   1      EBU       6372
+
+
+Reaction No. 65110
+I-1 + TcO+2 = TcO+2_I-1
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:1.39(3SF)   1      EBU       6372
+
+
+Reaction No. 65111
+2<I-1> + TcO+2 = TcO+2_I-1(2)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:2.47(3SF)   1      EBU       6372
+
+
+Reaction No. 65112
+3<I-1> + TcO+2 = TcO+2_I-1(3)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:3.38(3SF)   1      EBU       6372
+
+
+Reaction No. 65113
+4<I-1> + TcO+2 = TcO+2_I-1(4)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+
+
+
+
+                                          – Page 26 of 45 –
+JESS Thermodynamic Database v8.9                                   Technetium
+
+
+ 1    25     0         Inf. Dilution          lgK:4.17(3SF)    1      EBU       6372
+
+
+Reaction No. 65114
+5<I-1> + TcO+2 = TcO+2_I-1(5)
+ No   t    I-Str          Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:4.86(3SF)    1      EBU       6372
+
+
+Reaction No. 65115
+IO3-1 + TcO+2 = TcO+2_IO3-1
+ No   t    I-Str          Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:2.02(3SF)    1      EBU       6372
+
+
+Reaction No. 65116
+2<IO3-1> + TcO+2 = TcO+2_IO3-1(2)
+ No   t    I-Str          Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.31(3SF)    1      EBU       6372
+
+
+Reaction No. 65117
+3<IO3-1> + TcO+2 = TcO+2_IO3-1(3)
+ No   t    I-Str          Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:4.12(3SF)    1      EBU       6372
+
+
+Reaction No. 65118
+4<IO3-1> + TcO+2 = TcO+2_IO3-1(4)
+ No   t    I-Str          Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:4.55(3SF)    1      EBU       6372
+
+
+Reaction No. 65119
+5<IO3-1> + TcO+2 = TcO+2_IO3-1(5)
+ No   t    I-Str          Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:4.65(3SF)    1      EBU       6372
+
+
+Reaction No. 65120
+SO4-2 + TcO+2 = TcO+2_SO4-2
+
+Note: See analysis and commentary in Parker et al. [18POD_31363]
+ No   t    I-Str          Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.60(3SF)    1      EBU       6372
+
+
+
+
+                                       – Page 27 of 45 –
+JESS Thermodynamic Database v8.9                                     Technetium
+
+
+Reaction No. 65121
+2<SO4-2> + TcO+2 = TcO+2_SO4-2(2)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:5.63(3SF)   1      EBU       6372
+
+
+Reaction No. 65122
+3<SO4-2> + TcO+2 = TcO+2_SO4-2(3)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:6.35(3SF)   1      EBU       6372
+
+
+Reaction No. 65123
+4<SO4-2> + TcO+2 = TcO+2_SO4-2(4)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:5.86(3SF)   1      EBU       6372
+
+
+Reaction No. 65124
+5<SO4-2> + TcO+2 = TcO+2_SO4-2(5)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:4.21(3SF)   1      EBU       6372
+
+
+Reaction No. 65125
+NH3 + TcO+2 = TcO+2_NH3
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0            Inf. Dilution          lgK:7.16(3SF)   1      EBU       6372
+
+
+Reaction No. 65126
+2<NH3> + TcO+2 = TcO+2_NH3(2)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution             lgK:13.71(4SF)   1      EBU        6372
+
+
+Reaction No. 65127
+3<NH3> + TcO+2 = TcO+2_NH3(3)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution             lgK:19.75(4SF)   1      EBU        6372
+
+
+Reaction No. 65128
+4<NH3> + TcO+2 = TcO+2_NH3(4)
+ No   t    I-Str             Medium               Value (Dev)    W     Tech.      Ref. #
+
+
+
+
+                                          – Page 28 of 45 –
+JESS Thermodynamic Database v8.9                                  Technetium
+
+
+ 1    25     0        Inf. Dilution          lgK:25.36(4SF)   1      EBU        6372
+
+
+Reaction No. 65129
+5<NH3> + TcO+2 = TcO+2_NH3(5)
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:30.54(4SF)   1      EBU        6372
+
+
+Reaction No. 65130
+NO3-1 + TcO+2 = TcO+2_NO3-1
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:1.07(3SF)   1      EBU       6372
+
+
+Reaction No. 65131
+2<NO3-1> + TcO+2 = TcO+2_NO3-1(2)
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:1.27(3SF)   1      EBU       6372
+
+
+Reaction No. 65132
+3<NO3-1> + TcO+2 = TcO+2_NO3-1(3)
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:0.85(2SF)   1      EBU       6372
+
+
+Reaction No. 65133
+4<NO3-1> + TcO+2 = TcO+2_NO3-1(4)
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:-0.10(2SF)   1      EBU        6372
+
+
+Reaction No. 65134
+5<NO3-1> + TcO+2 = TcO+2_NO3-1(5)
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:-1.52(3SF)   1      EBU        6372
+
+
+Reaction No. 65135
+TcO+2 + H+1_PO4-3 = TcO+2_H+1_PO4-3
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:10.48(4SF)   1      EBU        6372
+
+
+Reaction No. 65136
+
+
+
+
+                                       – Page 29 of 45 –
+JESS Thermodynamic Database v8.9                                    Technetium
+
+
+TcO+2 + 2<H+1_PO4-3> = TcO+2_H+1(2)_PO4-3(2)
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:19.46(4SF)   1      EBU        6372
+
+
+Reaction No. 65137
+TcO+2 + 3<H+1_PO4-3> = TcO+2_H+1(3)_PO4-3(3)
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:27.18(4SF)   1      EBU        6372
+
+
+Reaction No. 65138
+TcO+2 + 4<H+1_PO4-3> = TcO+2_H+1(4)_PO4-3(4)
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:33.75(4SF)   1      EBU        6372
+
+
+Reaction No. 65139
+TcO+2 + 5<H+1_PO4-3> = TcO+2_H+1(5)_PO4-3(5)
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:39.21(4SF)   1      EBU        6372
+
+
+Reaction No. 65140
+TcO+2 + H+1(2)_PO4-3 = TcO+2_H+1(2)_PO4-3
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:3.17(3SF)    1      EBU       6372
+
+
+Reaction No. 65141
+TcO+2 + 2<H+1(2)_PO4-3> = TcO+2_H+1(4)_PO4-3(2)
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:4.79(3SF)    1      EBU       6372
+
+
+Reaction No. 65142
+TcO+2 + 3<H+1(2)_PO4-3> = TcO+2_H+1(6)_PO4-3(3)
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:5.10(3SF)    1      EBU       6372
+
+
+Reaction No. 65143
+TcO+2 + 4<H+1(2)_PO4-3> = TcO+2_H+1(8)_PO4-3(4)
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:4.21(3SF)    1      EBU       6372
+
+
+
+
+                                       – Page 30 of 45 –
+JESS Thermodynamic Database v8.9                                    Technetium
+
+
+
+Reaction No. 65144
+TcO+2 + 5<H+1(2)_PO4-3> = TcO+2_H+1(10)_PO4-3(5)
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:2.17(3SF)    1      EBU       6372
+
+
+Reaction No. 65145
+CO3-2 + TcO+2 = TcO+2_CO3-2
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:10.57(4SF)   1      EBU        6372
+
+
+Reaction No. 65146
+2<CO3-2> + TcO+2 = TcO+2_CO3-2(2)
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:19.97(4SF)   1      EBU        6372
+
+
+Reaction No. 65147
+3<CO3-2> + TcO+2 = TcO+2_CO3-2(3)
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:28.46(4SF)   1      EBU        6372
+
+
+Reaction No. 65148
+4<CO3-2> + TcO+2 = TcO+2_CO3-2(4)
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:36.13(4SF)   1      EBU        6372
+
+
+Reaction No. 65149
+5<CO3-2> + TcO+2 = TcO+2_CO3-2(5)
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:43.05(4SF)   1      EBU        6372
+
+
+Reaction No. 65150
+TcO+2 + H+1_CO3-2 = TcO+2_H+1_CO3-2
+ No   t    I-Str          Medium                Value (Dev)     W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:5.30(3SF)    1      EBU       6372
+
+
+Reaction No. 65151
+TcO+2 + 2<H+1_CO3-2> = TcO+2_H+1(2)_CO3-2(2)
+
+
+
+
+                                       – Page 31 of 45 –
+JESS Thermodynamic Database v8.9                                    Technetium
+
+
+ No   t    I-Str            Medium              Value (Dev)     W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:9.24(3SF)    1      EBU       6372
+
+
+Reaction No. 65152
+TcO+2 + 3<H+1_CO3-2> = TcO+2_H+1(3)_CO3-2(3)
+ No   t    I-Str            Medium              Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:12.06(4SF)   1      EBU        6372
+
+
+Reaction No. 65153
+TcO+2 + 4<H+1_CO3-2> = TcO+2_H+1(4)_CO3-2(4)
+ No   t    I-Str            Medium              Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:13.89(4SF)   1      EBU        6372
+
+
+Reaction No. 65154
+TcO+2 + 5<H+1_CO3-2> = TcO+2_H+1(5)_CO3-2(5)
+ No   t    I-Str            Medium              Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:14.76(4SF)   1      EBU        6372
+
+
+Reaction No. 65155
+CN-1 + TcO+2 = TcO+2_CN-1
+ No   t    I-Str            Medium              Value (Dev)     W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:8.21(3SF)    1      EBU       6372
+
+
+Reaction No. 65156
+2<CN-1> + TcO+2 = TcO+2_CN-1(2)
+ No   t    I-Str            Medium              Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:15.76(4SF)   1      EBU        6372
+
+
+Reaction No. 65157
+3<CN-1> + TcO+2 = TcO+2_CN-1(3)
+ No   t    I-Str            Medium              Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:22.76(4SF)   1      EBU        6372
+
+
+Reaction No. 65158
+4<CN-1> + TcO+2 = TcO+2_CN-1(4)
+ No   t    I-Str            Medium              Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:29.27(4SF)   1      EBU        6372
+
+
+
+
+                                       – Page 32 of 45 –
+JESS Thermodynamic Database v8.9                                  Technetium
+
+
+Reaction No. 65159
+5<CN-1> + TcO+2 = TcO+2_CN-1(5)
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:35.32(4SF)   1      EBU        6372
+
+
+Reaction No. 65160
+SCN-1 + TcO+2 = TcO+2_SCN-1
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:1.80(3SF)   1      EBU       6372
+
+
+Reaction No. 65161
+2<SCN-1> + TcO+2 = TcO+2_SCN-1(2)
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.06(3SF)   1      EBU       6372
+
+
+Reaction No. 65162
+3<SCN-1> + TcO+2 = TcO+2_SCN-1(3)
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:3.88(3SF)   1      EBU       6372
+
+
+Reaction No. 65163
+4<SCN-1> + TcO+2 = TcO+2_SCN-1(4)
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:4.33(3SF)   1      EBU       6372
+
+
+Reaction No. 65164
+5<SCN-1> + TcO+2 = TcO+2_SCN-1(5)
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:4.43(3SF)   1      EBU       6372
+
+
+Reaction No. 65165
+Acetic-1 + TcO+2 = TcO+2_Acetic-1
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:4.24(3SF)   1      EBU       6372
+
+
+Reaction No. 65166
+2<Acetic-1> + TcO+2 = TcO+2_Acetic-1(2)
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+
+
+
+
+                                       – Page 33 of 45 –
+JESS Thermodynamic Database v8.9                                  Technetium
+
+
+ 1    25     0         Inf. Dilution          lgK:7.21(3SF)   1      EBU       6372
+
+
+Reaction No. 65167
+3<Acetic-1> + TcO+2 = TcO+2_Acetic-1(3)
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:9.14(3SF)   1      EBU       6372
+
+
+Reaction No. 65168
+4<Acetic-1> + TcO+2 = TcO+2_Acetic-1(4)
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:10.14(4SF)   1      EBU        6372
+
+
+Reaction No. 65169
+5<Acetic-1> + TcO+2 = TcO+2_Acetic-1(5)
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:10.28(4SF)   1      EBU        6372
+
+
+Reaction No. 65170
+Benzoic-1 + TcO+2 = TcO+2_Benzoic-1
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:4.91(3SF)   1      EBU       6372
+
+
+Reaction No. 65171
+2<Benzoic-1> + TcO+2 = TcO+2_Benzoic-1(2)
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:8.70(3SF)   1      EBU       6372
+
+
+Reaction No. 65172
+3<Benzoic-1> + TcO+2 = TcO+2_Benzoic-1(3)
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:11.63(4SF)   1      EBU        6372
+
+
+Reaction No. 65173
+4<Benzoic-1> + TcO+2 = TcO+2_Benzoic-1(4)
+ No   t    I-Str          Medium               Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:13.81(4SF)   1      EBU        6372
+
+
+Reaction No. 65174
+
+
+
+
+                                       – Page 34 of 45 –
+JESS Thermodynamic Database v8.9                                   Technetium
+
+
+5<Benzoic-1> + TcO+2 = TcO+2_Benzoic-1(5)
+ No   t    I-Str          Medium                Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:15.27(4SF)   1      EBU        6372
+
+
+Reaction No. 65175
+Cat-2 + TcO+2 = TcO+2_Cat-2
+ No   t    I-Str          Medium                Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:24.40(4SF)   1      EBU        6372
+
+
+Reaction No. 65176
+2<Cat-2> + TcO+2 = TcO+2_Cat-2(2)
+ No   t    I-Str          Medium                Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:47.31(4SF)   1      EBU        6372
+
+
+Reaction No. 65177
+EtDiAm + TcO+2 = TcO+2_EtDiAm
+ No   t    I-Str          Medium                Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:16.22(4SF)   1      EBU        6372
+
+
+Reaction No. 65178
+2<EtDiAm> + TcO+2 = TcO+2_EtDiAm(2)
+ No   t    I-Str          Medium                Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:31.17(4SF)   1      EBU        6372
+
+
+Reaction No. 65179
+Gly-1 + TcO+2 = TcO+2_Gly-1
+ No   t    I-Str          Medium                Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:8.42(3SF)   1      EBU       6372
+
+
+Reaction No. 65180
+2<Gly-1> + TcO+2 = TcO+2_Gly-1(2)
+ No   t    I-Str          Medium                Value (Dev)    W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:15.24(4SF)   1      EBU        6372
+
+
+Reaction No. 65181
+Glycolic-1 + TcO+2 = TcO+2_Glycolic-1
+ No   t    I-Str          Medium                Value (Dev)    W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:3.68(3SF)   1      EBU       6372
+
+
+
+
+                                        – Page 35 of 45 –
+JESS Thermodynamic Database v8.9                                   Technetium
+
+
+
+Reaction No. 65182
+2<Glycolic-1> + TcO+2 = TcO+2_Glycolic-1(2)
+ No   t    I-Str          Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:6.00(3SF)    1      EBU       6372
+
+
+Reaction No. 65183
+3<Glycolic-1> + TcO+2 = TcO+2_Glycolic-1(3)
+ No   t    I-Str          Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:7.23(3SF)    1      EBU       6372
+
+
+Reaction No. 65184
+4<Glycolic-1> + TcO+2 = TcO+2_Glycolic-1(4)
+ No   t    I-Str          Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:7.45(3SF)    1      EBU       6372
+
+
+Reaction No. 65185
+5<Glycolic-1> + TcO+2 = TcO+2_Glycolic-1(5)
+ No   t    I-Str          Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:6.74(3SF)    1      EBU       6372
+
+
+Reaction No. 65186
+Phenol-1 + TcO+2 = TcO+2_Phenol-1
+ No   t    I-Str          Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:8.23(3SF)    1      EBU       6372
+
+
+Reaction No. 65187
+2<Phenol-1> + TcO+2 = TcO+2_Phenol-1(2)
+ No   t    I-Str          Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:15.54(4SF)   1      EBU        6372
+
+
+Reaction No. 65188
+3<Phenol-1> + TcO+2 = TcO+2_Phenol-1(3)
+ No   t    I-Str          Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:22.06(4SF)   1      EBU        6372
+
+
+Reaction No. 65189
+4<Phenol-1> + TcO+2 = TcO+2_Phenol-1(4)
+
+
+
+
+                                       – Page 36 of 45 –
+JESS Thermodynamic Database v8.9                                   Technetium
+
+
+ No   t     I-Str         Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25      0       Inf. Dilution           lgK:27.85(4SF)   1      EBU        6372
+
+
+Reaction No. 65190
+5<Phenol-1> + TcO+2 = TcO+2_Phenol-1(5)
+ No   t     I-Str         Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25      0       Inf. Dilution           lgK:32.92(4SF)   1      EBU        6372
+
+
+Reaction No. 65510
+Tc+3 + 3<H2O> = Tc+3_OH-1(3)_(s) + 3<H+1>
+ No   t     I-Str         Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25      0       Inf. Dilution            lgK:9.3(2SF)    1      ELC
+ 2    25      0       Inf. Dilution           lgK:-5.90(3SF)   0      EBU        6372
+
+
+Reaction No. 65511
+2<Tc+3> + 3<CO3-2> = Tc+3(2)_CO3-2(3)_(s)
+ No   t     I-Str         Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25      0       Inf. Dilution           lgK:21.93(4SF)   1      EBU        6372
+
+
+Reaction No. 65512
+TcO+2 + 2<H2O> = TcO+2_OH-1(2)_(s) + 2<H+1>
+ No   t     I-Str         Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25      0        Inf. Dilution          lgK:3.78(3SF)    1      EBU       6372
+
+
+Reaction No. 65513
+TcO+2 + CO3-2 = TcO+2_CO3-2_(s)
+ No   t     I-Str         Medium               Value (Dev)     W     Tech.      Ref. #
+ 1    25      0       Inf. Dilution           lgK:10.20(4SF)   1      EBU        6372
+
+
+Reaction No. 66371
+2<Tc(s)> + 3.5<O2(g)> = Tc2O7(s)
+ No    t     I-Str         Medium               Value (Dev)    W      Tech.     Ref. #
+ 1    25          0    Inf. Dilution          lgK:164.3(4SF)   4       ENS       6422
+ 2    27          0    Inf. Dilution          lgK:163.1(4SF)   4       ENS       6422
+ 3    120         0    Inf. Dilution          lgK:117.3(4SF)   4       ENS       6422
+ 4    25          0    Inf. Dilution          dG:-224.1(4SF)   4       EFE       6422
+ 5    25          0    Inf. Dilution          dH:-266.4(4SF)   4       MTD       6422
+
+
+
+
+                                       – Page 37 of 45 –
+JESS Thermodynamic Database v8.9                                      Technetium
+
+
+ 6    120     0           Inf. Dilution          dH:-264.2(4SF)       4     MTD     6422
+
+
+Reaction No. 66372
+Tc(s) + 1.5<O2(g)> = TcO3(s)
+ No    t    I-Str            Medium                Value (Dev)        W    Tech.   Ref. #
+ 1    25      0           Inf. Dilution          lgK:80.78(4SF)       4     ENS     6422
+ 2    27      0           Inf. Dilution          lgK:80.20(4SF)       4     ENS     6422
+ 3    127     0           Inf. Dilution          lgK:56.79(4SF)       4     ENS     6422
+ 4    25      0           Inf. Dilution          dG:-110.2(4SF)       4     EFE     6422
+ 5    25      0           Inf. Dilution          dH:-129.0(4SF)       4     MTD     6422
+ 6    127     0           Inf. Dilution          dH:-127.9(4SF)       4     MTD     6422
+
+
+Reaction No. 66373
+Tc(s) + O2(g) = TcO2(s)
+ No    t    I-Str            Medium                Value (Dev)        W    Tech.   Ref. #
+ 1    25      0           Inf. Dilution          lgK:66.24(4SF)       4     ENS     6422
+ 2    27      0           Inf. Dilution          lgK:65.78(4SF)       4     ENS     6422
+ 3    127     0           Inf. Dilution          lgK:46.94(4SF)       4     ENS     6422
+ 4    227     0           Inf. Dilution          lgK:35.66(4SF)       4     ENS     6422
+ 5    327     0           Inf. Dilution          lgK:28.15(4SF)       4     ENS     6422
+ 6    25      0           Inf. Dilution          dG:-90.37(4SF)       4     EFE     6422
+ 7    25      0           Inf. Dilution          dH:-103.5(4SF)       4     MTD     6422
+ 8    127     0           Inf. Dilution          dH:-103.4(4SF)       4     MTD     6422
+ 9    227     0           Inf. Dilution          dH:-103.1(4SF)       4     MTD     6422
+ 10   327     0           Inf. Dilution          dH:-102.8(4SF)       4     MTD     6422
+
+
+Reaction No. 70986
+Tc+2 + 2<e-1> = Tc(s)
+ No   t     I-Str            Medium               Value (Dev)     W       Tech.    Ref. #
+ 1    25      0           Inf. Dilution           E:0.400(3SF)    5        CRV      6330
+ 2    25      0           Inf. Dilution           E:0.400(3SF)    4        CRV     22519
+
+
+Reaction No. 70987
+Tc+3 + e-1 = Tc+2
+ No   t     I-Str             Medium              Value (Dev)     W       Tech.    Ref. #
+ 1    25      0           Inf. Dilution            E:0.3(1SF)     5       CRV      6330
+ 2    25      0           Inf. Dilution            E:0.3(1SF)     4       CRV      22519
+
+
+
+
+                                          – Page 38 of 45 –
+JESS Thermodynamic Database v8.9                                    Technetium
+
+
+
+Reaction No. 72377
+2<O2(g)> + Tc(s) + e-1 = TcO4-1
+ No   t    I-Str         Medium                 Value (Dev)     W       Tech.    Ref. #
+ 1    25     0       Inf. Dilution            lgK:108.8(4SF)    1        ELC
+ 2    25     0       Inf. Dilution            dG:-36.(2SF)kJ    0        CRV      7421
+ 3    25     0       Inf. Dilution           dG:-151.100(6SF)   0        CRV      9029
+ 4    25     0       Inf. Dilution           dH:-173.200(6SF)   2        CRV      9029
+
+
+Reaction No. 79671
+2<H+1_TcO4-1_(s)> = Tc2O7(s) + H2O(g)
+ No   t    I-Str        Medium                 Value (Dev)          W    Tech.   Ref. #
+ 1    25     0       Inf. Dilution          dG:3.686(0.018SD)       5     ETR    29294
+ 2    25     0       Inf. Dilution         dH:10.950(0.050SD)       5     ETR    29294
+
+
+Reaction No. 79854
+TcO2.2H2O(s) = TcO+2 + 2<OH-1> + H2O
+
+Note: Probably refers to TcO2.2H2O(am.,s) = TcO+2 + 2<OH-1> + H2O
+ No   t    I-Str          Medium                Value (Dev)     W       Tech.    Ref. #
+ 1    25     0        Inf. Dilution           lgK:-32.3(3SF)    1       ELC
+
+
+Reaction No. 79855
+TcO2.2H2O(am.,s) = TcO+2 + 2<OH-1> + H2O
+ No   t    I-Str        Medium                 Value (Dev)          W   Tech.    Ref. #
+ 1    25     0       Inf. Dilution          lgK:-33.6(0.32SD)       3    EOD     29557
+
+
+Reaction No. 79856
+TcO+2 + EDTA-4 = TcO+2_EDTA-4
+ No   t    I-Str         Medium                 Value (Dev)     W       Tech.    Ref. #
+ 1    25     0        Inf. Dilution           lgK:25.2(0.6SD)   2        MSL     29557
+Note (1): Ambiguity over NDP and ionic strength!
+
+
+Reaction No. 79857
+TcO+2 + Picolinic-1 = TcO+2_Picolinic-1
+ No   t    I-Str         Medium                 Value (Dev)     W       Tech.    Ref. #
+ 1    25     0        Inf. Dilution           lgK:26.9(0.1SD)   2        MSL     29557
+Note (1): Ambiguity over corresponding EDTA NDP and ionic strength!
+
+
+
+
+                                        – Page 39 of 45 –
+JESS Thermodynamic Database v8.9                                          Technetium
+
+
+Reaction No. 79879
+2<S(s)> + Tc(s) = Tc+4_S-2(2)_(s)
+ No   t        I-Str            Medium              Value (Dev)           W     Tech.      Ref. #
+ 1    25         0           Inf. Dilution     dG:-215.9(0.042SD)kJ       3         EOD    29614
+Note (1): p.27: Est x McDonald & Cobble, 1962
+ 2    25         0           Inf. Dilution     dH:-223.8(0.041SD)kJ       3         EOD    29614
+
+
+Reaction No. 79880
+7<S(s)> + 2<Tc(s)> = Tc2S7(s)
+ No   t        I-Str            Medium              Value (Dev)           W     Tech.      Ref. #
+ 1    25         0           Inf. Dilution     dG:-580.5(0.060SD)kJ       3         EOD    29614
+ 2    25         0           Inf. Dilution     dH:-615.0(0.057SD)kJ       3         EOD    29614
+
+
+Reaction No. 80023
+DTPA-5 + TcO+2 = TcO+2_DTPA-5
+ No       t      I-Str          Medium         Value (Dev)            W    Tech.          Ref. #
+  1    25            0.5         NaCl        lgK:20.1(0.1MD)          1       MDS         29882
+Note (1): Analogous VO+2 complex suspect
+  2    25            0.5        NaNO3        lgK:22.0(0.06MD)         0       EOD         29882
+Note (2): Footnote claims this is for B111
+
+
+Reaction No. 80024
+HOEDTA-3 + TcO+2 = TcO+2_HOEDTA-3
+ No        t         I-Str      Medium          Value (Dev)           W    Tech.          Ref. #
+  1       25          0.5        NaCl        lgK:14.9(0.1MD)          2       MDS         29882
+  2       25          0.5        NaNO3       lgK:15.3(0.3MD)          2       EOD         29882
+
+
+Reaction No. 80025
+NTA-3 + TcO+2 = TcO+2_NTA-3
+ No        t         I-Str      Medium          Value (Dev)           W    Tech.          Ref. #
+  1       25          0.5        NaCl        lgK:11.4(0.1MD)          1       MDS         29882
+  2       25          0.5        NaNO3       lgK:10.3(0.3MD)          1       EOD         29882
+
+
+Reaction No. 80026
+IDA-2 + TcO+2 = TcO+2_IDA-2
+ No        t         I-Str      Medium          Value (Dev)           W    Tech.          Ref. #
+  1       25          0.5        NaCl        lgK:10.9(0.1MD)          0       MDS         29882
+
+
+
+
+                                             – Page 40 of 45 –
+JESS Thermodynamic Database v8.9                                          Technetium
+
+
+Note (1): Less accord with VO+2 spc
+  2    25         0.5      NaNO3           lgK:9.2(0.3MD)         2           EOD      29882
+
+
+Reaction No. 80617
+TcO+2_OH-1(2) + H+1 = TcO+2_OH-1 + H2O
+ No   t     I-Str          Medium                Value (Dev)              W    Tech.   Ref. #
+ 1    25      0         Inf. Dilution         lgK:4.563(0.11SD)           5     CRV    31301
+ 2    25     0.8            NaCl              lgK:4.551(0.15SD)           5     CRV    31301
+ 3    25     2.5            NaCl              lgK:4.552(0.29SD)           5     CRV    31301
+
+
+Reaction No. 80618
+TcO2,1.6H2O(s) = TcO+2_OH-1(2) + 0.6<H2O>
+ No   t     I-Str          Medium                Value (Dev)              W    Tech.   Ref. #
+ 1    25      0         Inf. Dilution        lgK:-8.415(0.09SD)           5     CRV    31301
+ 2    25     0.8            NaCl             lgK:-8.620(0.14SD)           5     CRV    31301
+ 3    25     2.5            NaCl             lgK:-8.210(0.17SD)           5     CRV    31301
+
+
+Reaction No. 80626
+Oxalic-2 + TcO+2 = TcO+2_Oxalic-2
+ No    t     I-Str           Medium               Value (Dev)         W       Tech.    Ref. #
+ 1    25          0       Inf. Dilution          lgK:9.50(3SF)        4        CRV     31301
+
+
+Reaction No. 80627
+2<Oxalic-2> + TcO+2 = TcO+2_Oxalic-2(2)
+ No   t     I-Str            Medium               Value (Dev)         W       Tech.    Ref. #
+ 1    25      0          Inf. Dilution          lgK:16.21(4SF)        4        CRV     31301
+
+
+Reaction No. 80630
+Citric-3 + TcO+2 = TcO+2_Citric-3
+ No   t     I-Str            Medium               Value (Dev)         W       Tech.    Ref. #
+ 1    25      0          Inf. Dilution          lgK:11.99(4SF)        4        CRV     31301
+
+
+Reaction No. 80631
+TcO+2 + H+1_Citric-3 = TcO+2_H+1_Citric-3
+ No    t     I-Str           Medium               Value (Dev)         W       Tech.    Ref. #
+ 1    25          0       Inf. Dilution          lgK:7.75(3SF)        4        CRV     31301
+
+
+Reaction No. 80689
+
+
+
+
+                                          – Page 41 of 45 –
+JESS Thermodynamic Database v8.9                                  Technetium
+
+
+TcO+2_OH-1 + SO4-2 = TcO+2_OH-1_SO4-2
+ No    t    I-Str          Medium               Value (Dev)       W       Tech.    Ref. #
+ 1    23         1           NaCl            lgK:1.13(0.04SD)     4       MSE      31363
+Note (1): unspecified temp
+ 2    25         0      Inf. Dilution          lgK:1.5(2SF)       1       ESC      31363
+
+
+Reaction No. 80727
+0.5<O2(g)> + Tc(s) - 2<e-1> = TcO+2
+ No    t    I-Str          Medium              Value (Dev)        W       Tech.    Ref. #
+ 1    25         0      Inf. Dilution       dG:-100.60(5SF)kJ     3        EOD     31585
+
+
+Reaction No. 80728
+2<O2(g)> + Tc(s) + 2<e-1> = TcO4-2
+ No    t    I-Str          Medium              Value (Dev)        W       Tech.    Ref. #
+ 1    25         0      Inf. Dilution       dG:-564.90(5SF)kJ     3        EOD     31585
+
+
+Reaction No. 80729
+2<O2(g)> + Tc(s) + 3<e-1> = TcO4-3
+ No    t    I-Str          Medium              Value (Dev)        W       Tech.    Ref. #
+ 1    25         0      Inf. Dilution       dG:-508.00(5SF)kJ     3        EOD     31585
+
+
+Reaction No. 80731
+Tc(s) - 3<e-1> = Tc+3
+ No    t    I-Str          Medium               Value (Dev)       W       Tech.    Ref. #
+ 1    25         0      Inf. Dilution        dG:105.80(5SF)kJ     3       EOD      31585
+
+
+Reaction No. 81035
+Tc2O7.H2O(s) = 2<TcO4-1> + 2<H+1>
+ No   t    I-Str         Medium                Value (Dev)            W    Tech.   Ref. #
+ 1    25     0       Inf. Dilution         lgK:14.11(3.81SD)          4     CRV    32222
+ 2    25     0       Inf. Dilution       dH:-44.654(21.288SD)kJ       4     CRV    32222
+
+
+Reaction No. 81036
+TcO+2_OH-1(2) = TcO2(s) + H2O
+ No    t    I-Str          Medium              Value (Dev)        W       Tech.    Ref. #
+ 1    25         0      Inf. Dilution         lgK:10.5(3SF)       1        ELC
+ 2    25         0      Inf. Dilution       lgK:12.39(2.58SD)     0        CRV     32222
+
+
+
+
+                                        – Page 42 of 45 –
+JESS Thermodynamic Database v8.9                                      Technetium
+
+
+Reaction No. 81037
+TcO4-1 + Na+1 + 4<H2O> = NaTcO4.4H2O(s)
+ No     t      I-Str            Medium               Value (Dev)      W   Tech.    Ref. #
+    1   25       0           Inf. Dilution        lgK:-0.79(0.04SD)   4   CRV      32222
+
+
+
+
+                                         Data Assessment
+
+
+Weight                          Assessment
+9           highest accuracy
+8           multi-determined; excellent dependability
+7           trustworthy; outstanding single determination
+6           better than average reliability
+5           average single determination
+4           some doubt
+3           poorly known
+2           guess to achieve consistency (or just as bad)
+1           no information but consistent
+0           problematic/inconsistent
+
+
+
+
+                                             Techniques
+
+
+Abbrev                      Method
+CRV         Critical review
+EBU         Brown's Unified Theory
+EFE         Free Energy relations
+ELC         Linear Combination of Reactions
+ENS         Not specified
+EOD         Calculated from data of others
+ESC         Standard conditions anchor
+ETR         Thermodynamic relationships
+MAG         Silver electrode e.m.f.
+MDS         Distribution between two phases
+MIX         Ion exchange
+
+
+
+                                              – Page 43 of 45 –
+JESS Thermodynamic Database v8.9                                 Technetium
+
+
+MSE    Solvent Extraction
+MSL    Solubility
+MTD    Temperature difference
+MTP    Migration or transference number
+
+
+
+
+                                    References
+
+
+Reference No.: 931(71SiM)
+Stability Constants of Metal-ion Complexes SP25, 1971 Sillen LG; Martell AE; Supplement
+No 1 to Special Publication No 25; Chemical Society, London
+
+Reference No.: 2556(93MSM)
+NIST Critical Stability Constants of Metal Complexes Database, 1993 Martell AE; Smith
+RM; Motekaitis RJ; Version 1.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 4350(70GoK)
+J. Inorg. Nucl. Chem., 1970, 32, 3831 - 3836; Gorski B; Koch H; Uber Die Komplexbildung
+Von Technetium Mit Chelatbildenen Liganden II
+
+Reference No.: 5156(91ReB)
+Radiochim. Acta, 1991, 52/53, 453 - 456; Read D; Broyd TW; Recent Progress in Testing
+Chemical Equilibrium Models: The CHEMVAL Project
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+Reference No.: 6372(87BrW)
+OECD NEA Report, 1987 Brown PL; Wanner H; Predicted Formation Constants Using the
+Unified Theory of Metal Ion Complexation; Nuclear Energy Authority, Paris
+
+Reference No.: 6422(95BaP)
+Thermochemical Data of Pure Substances, 3rd Edn., 1995 Barin I; Platzki G; Weinheim,
+Germany
+
+Reference No.: 7421(97Mar)
+Ion Properties, 1997 Marcus Y; Marcel Dekker Inc., New York, U.S.A.
+
+Reference No.: 9029(97SSW)
+Geochim. Cosmochim. Acta, 1997, 61, 907 - 950; Shock EL; Sassani DC; Willis M;
+Sverjensky DA; Inorganic Species in Geologic Fluids: Correlations among Standard Molal
+Thermodynamic Properties of Aqueous Ions and Hydroxide Complexes
+
+Reference No.: 22519(05Lid)
+CRC Handbook of Chemistry and Physics, 86th Edn., 2005 Lide DR; A Ready-Reference Book
+of Chemical and Physical Data; Taylor & Francis, Boca Raton, USA
+
+Reference No.: 29294(53SCB)
+J. Am. Chem. Soc., 1953, 75, 5773 - 5776; Smith WT Jr; Cobble JW; Boyd GE;
+
+
+
+
+                                      – Page 44 of 45 –
+JESS Thermodynamic Database v8.9                                 Technetium
+
+
+Thermodynamic Properties of Technetium and Rhenium Compounds. I. Vapor Pressures of
+Technetium Heptoxide, Pertechnic Acid and Aqueous Solutions of Pertechnic Acid
+
+Reference No.: 29557(12EvH)
+Miner. Mag., 2012, 76, 3435 - 3438; Evans NDM; Hallam R; The Complexation of Tc(IV)
+with EDTA and Picolinic Acid at High pH
+
+Reference No.: 29614(89Rar)
+Report UCRL-100554, 1989 Rard JA; Chemical Thermodynamics of Technetium; Lawrence
+Livermore Natl. Lab., Livermore, CA, USA
+
+Reference No.: 29882(17OmW)
+J. Solution Chem., 2017, 46, 1981 - 1994; Omoto T; Wall NA; Evaluation of Vanadium(IV)
+as a Non-radioactive Surrogate for Technetium(IV) by Comparison of Stability Constants
+for Polyamino Polycarboxylate Ligand Complexation
+
+Reference No.: 31301(10KFD)
+Japan Atomic Energy Agency Data/Code 2009-024, 2010 Kitamura A; Fujiwara K; Doi R;
+Yoshida Y; Mihara M; Terashima M; Yui M; JAEA Thermodynamic Database for Performance
+Assessment of Geological Disposal of High-level Radioactive and TRU Wastes; Geological
+Isolation Research Unit, JAEA, Japan
+
+Reference No.: 31363(18POD)
+J. Solution Chem., 2018, 47, 1192 - 1201; Parker TG; Omoto T; Dickens SM; Wall DE; Wall
+NA; Complexation of Tc(IV) with SO42- in NaCl Medium
+
+Reference No.: 31585(19RVE)
+J. Hazard. Mater., 2019, 380, 120725-1 - 120725-17; Ram R; Vaughan J; Etschmann B;
+Brugger J; The Aqueous Chemistry of Polonium (Po) in Environmental and Anthropogenic
+Processes
+
+Reference No.: 32222(06DGC)
+Technical Report TR-O6-17, 2006 Duro L; Grive M; Cera E; Domenech C; Bruno J; Update of
+a Thermodynamic Database for Radionuclides to Assist Solubility Limits Calculation for
+Performance Assessment; Swedish Nucl. Fuel & Waste Management Co, Stockholm, Sweden
+
+Reference No.: 32224(80BeT)
+Lawrence Berkeley Laboratory Report LBL-11448, 1980 Benson LV; Teague LS; A Tabulation
+of Thermodynamic Data for Chemical Reactions Involving 8 Elements Common to Radioactive
+Waste Package Systems
+
+
+
+
+                                      – Page 45 of 45 –
+

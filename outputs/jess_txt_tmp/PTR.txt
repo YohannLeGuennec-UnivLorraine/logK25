@@ -1,0 +1,2952 @@
+                             JESS Thermodynamic Database v8.9
+                                                Platinum
+
+                                                24-Jan-23
+
+Reaction No. 3220
+2<EtDiAm> + Pt+2 = Pt+2_EtDiAm(2)
+  No       t     I-Str             Medium            Value (Dev)         W           Tech.     Ref. #
+  1     18               1          KNO3            lgK:36.5(3SF)        4           MEF        999
+  2     20               1         Unknown          lgK:36.5(3SF)        4           ENS        773
+
+
+Reaction No. 4221
+Pt+2_EDTA-4 + H+1 = Pt+2_H+1_EDTA-4
+ No     t       I-Str             Medium             Value (Dev)         W           Tech.     Ref. #
+  1    20        0.1             Unknown            lgK:2.88(3SF)        4            ENS       773
+  2    25            1             KNO3            lgK:2.9(0.05SD)       6            MGL       6756
+
+
+Reaction No. 4224
+Pt+2_H+1_EDTA-4 + H+1 = Pt+2_H+1(2)_EDTA-4
+  No       t     I-Str            Medium            Value (Dev)          W           Tech.     Ref. #
+  1     25               1         KNO3           lgK:2.2(0.05SD)        5            MGL       6756
+
+
+Reaction No. 4225
+Pt+2_H+1(2)_EDTA-4 + H+1 = Pt+2_H+1(3)_EDTA-4
+ No     t       I-Str           Medium              Value (Dev)              W        Tech.    Ref. #
+  1    25            1           KNO3           lgK:0.500000(0.5SD)          5         MGL      6756
+
+
+Reaction No. 4226
+Pt+2_EDTA-4 + OH-1 = Pt+2_OH-1_EDTA-4
+  No       t     I-Str             Medium            Value (Dev)         W           Tech.     Ref. #
+  1     20           0.1           Unknown          lgK:4.87(3SF)        4           ENS        773
+  2     25           0.1            KNO3            lgK:4.66(3SF)        5           MSP       6756
+
+
+Reaction No. 4991
+Pt+4_Cl-1(6) + 2<e-1> = Pt+2_Cl-1(4) + 2<Cl-1>
+ No    t       I-Str               Medium               Value (Dev)              W     Tech.   Ref. #
+  1    25        0              Inf. Dilution         lgK:23.0(0.05SD)           4      ENS      600
+  2    25        3                  H2SO4             lgK:23.9(0.05SD)           5      MEF      792
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                               Platinum
+
+
+ 3    60          0           Inf. Dilution        lgK:18.4(0.05SD)        0     MEF       793
+Note (3): Low wgt for internal consistency
+ 4    35          1                HCl             lgR:23.9(0.05SD)        3     MEF       791
+ 5    90          1                HCl             lgR:21.0(0.05SD)        3     MEF       791
+Note (5): Low wgt for internal consistency (GugM too large)
+ 6    25          0           Inf. Dilution           E:0.68(2SF)          5     CRV       6330
+ 7    25          0           Inf. Dilution           E:0.77(2SF)          0     ENS       7276
+ 8    25          0           Inf. Dilution           E:0.72(2SF)          3     CRV      18118
+ 9    25          0           Inf. Dilution           E:0.726(3SF)         4     CRV      22551
+ 10   25          0           Inf. Dilution         dH:-27.2(0.1SD)        5     MEF       790
+
+
+Reaction No. 4992
+Pt+2_OH-1(2)_(s) + 2<H+1> + 2<e-1> = Pt(s) + 2<H2O>
+ No   t         I-Str              Medium              Value (Dev)     W       Tech.      Ref. #
+ 1    25          0            Inf. Dilution         lgK:32.7(3SF)     1        ELC
+
+
+Reaction No. 4993
+Pt+2_Cl-1(4) + 2<e-1> = Pt(s) + 4<Cl-1>
+ No   t         I-Str            Medium               Value (Dev)          W    Tech.     Ref. #
+ 1    18          1               NaNO3            lgK:24.8(0.05SD)        0     MEF       793
+ 2    25          0           Inf. Dilution          lgK:26.0(3SF)         1     ELC
+ 3    25          0           Inf. Dilution        lgK:25.5(0.05SD)        0     ENS       802
+ 4    25          3              Unknown           lgK:25.6(0.05SD)        2     MEF       793
+ 5    60          3              Unknown           lgK:23.2(0.05SD)        3     MEF       793
+ 6    35          1                HCl             lgR:24.5(0.05SD)        3     MEF       791
+ 7    90          1                HCl             lgR:21.6(0.05SD)        3     MEF       791
+ 8    25          0           Inf. Dilution           E:0.755(3SF)         0     CRV       6330
+ 9    25          0           Inf. Dilution           E:0.75(2SF)          0     ENS       7276
+
+
+Reaction No. 4994
+Pt+2 + Cl-1 = Pt+2_Cl-1
+ No        t          I-Str         Medium             Value (Dev)         W    Tech.     Ref. #
+ 1         25           0.5      ClO4-1 salt         lgK:5.0(0.05SD)       5     MSP       782
+ 2         25            1       ClO4-1 salt         lgK:5.0(0.05SD)       5     MSP       782
+ 3         25            1         Unknown            lgK:5.0(2SF)         4     ENS       6496
+ 4         60           0.5         HClO4            lgK:4.8(0.05SD)       4     ENS       781
+ 5         60           0.5         HClO4             lgK:1.51(3SF)        0     MAN       931
+
+
+
+
+                                               – Page 2 of 57 –
+JESS Thermodynamic Database v8.9                                            Platinum
+
+
+ 6    20:22     0.01              DMSO            lgK:4.74(3SF)         5      MEF      6685
+                                  KNO3
+ 7     25           0.5           DMSO            lgK:4.89(3SF)         5      MEF      6751
+                                  KNO3
+ 8     25           0.5           DMSO            lgK:4.89(3SF)         5      MIS      6751
+                                  KNO3
+
+
+Reaction No. 4995
+Pt+2_Cl-1(2)_OH-1(2) + H+1 + Cl-1 = Pt+2_Cl-1(3)_OH-1 + H2O
+ No    t      I-Str       Medium             Value (Dev)            W       Tech.      Ref. #
+  1   25        1          NaCl            lgR:9.5(0.05SD)          5       MGL         789
+
+
+Reaction No. 4996
+Pt+2 + 3<Cl-1> = Pt+2_Cl-1(3)
+ No     t      I-Str         Medium                Value (Dev)          W     Tech.    Ref. #
+ 1     25       0.5        ClO4-1 salt          lgK:11.9(0.05SD)        5      MSP       782
+ 2     25       0.5           HClO4             lgK:11.9(0.05SD)        4      ENS       781
+ 3     25           1      ClO4-1 salt          lgK:11.9(0.05SD)        5      MSP       782
+ 4     25           1        Unknown              lgK:11.9(3SF)         4      ENS      6496
+ 5     60       0.5           HClO4             lgK:11.3(0.05SD)        4      ENS       781
+ 6    25:60     0.5           HClO4              dH:-2.0(0.1SD)         5      ENS       781
+
+
+Reaction No. 4997
+Pt+2_Cl-1(3) + Cl-1 = Pt+2_Cl-1(4)
+ No     t      I-Str          Medium                Value (Dev)         W     Tech.    Ref. #
+ 1     15      0.318          LiClO4              lgK:1.9(0.05SD)       5      MGL       809
+ 2     15       0.5               HClO4            lgK:2.00(3SF)        5      MKN       931
+ 3    17:18     0.1               KNO3             lgK:1.72(3SF)        4      MAN       140
+ 4     20           2             KNO3             lgK:1.9(0.1SD)       5      MSP       785
+ 5     25           0      Inf. Dilution           lgK:1.52(3SF)        4      MAN       140
+ 6     25           0      Inf. Dilution           lgK:1.87(3SF)        4      ENS      7276
+ 7     25       0.2               H2SO4           lgK:2.2(0.04SD)       5      MRX       783
+ 8     25      0.318          LiClO4              lgK:1.7(0.05SD)       5      MGL       809
+ 9     25       0.32          Na2SO4               lgK:1.82(3SF)        4      MAN       140
+ 10    25       0.32              NaNO3            lgK:1.82(3SF)        4      MAN       140
+ 11    25       0.5               HClO4           lgK:2.1(0.05SD)       5      MSP       808
+ 12    25       0.5               HClO4            lgK:1.89(3SF)        5      MKN       931
+ 13    25       0.5               HClO4            lgK:1.87(3SF)        5      MSP      6756
+
+
+
+
+                                           – Page 3 of 57 –
+JESS Thermodynamic Database v8.9                                          Platinum
+
+
+ 14    25           3           H2SO4           lgK:2.4(0.05SD)       5      MRX       783
+ 15    30      0.318            LiClO4           lgK:1.68(3SF)        4      MGL       809
+ 16    35       0.5             HClO4            lgK:1.77(3SF)        5      MKN       931
+ 17    35           3           H2SO4           lgK:2.4(0.05SD)       5      MRX       783
+ 18    42           3           H2SO4           lgK:2.3(0.05SD)       5      MRX       783
+ 19    50           3           H2SO4           lgK:2.2(0.05SD)       5      MRX       783
+ 20    60       0.5             HClO4           lgK:1.7(0.05SD)       5      MSP       781
+ 21    60           3           H2SO4           lgK:2.0(0.05SD)       5      MRX       783
+ 22    25       0.1              KCl             lgR:5.98(3SF)        3      MGL       784
+ 23    35       0.1              KCl             lgR:5.44(3SF)        3      MGL       784
+ 24    45       0.1              KCl             lgR:4.92(3SF)        3      MGL       784
+ 25    55       0.1              KCl             lgR:4.58(3SF)        3      MGL       784
+ 26   15:30    0.318            LiClO4           dH:-5.1(0.1SD)       5      MGL       809
+ 27   15:35     0.5             HClO4             dH:-4.4(2SF)        5      MTD       931
+ 28   25:55     0.1              KCl             dH:-5.4(0.1SD)       0      MGL       784
+ 29   25:60         3           H2SO4            dH:-4.8(0.1SD)       5      EVH       783
+
+
+Reaction No. 4998
+Pt+2_Cl-1(2)_(trans) = Pt+2_Cl-1(2)_(cis)
+ No    t      I-Str     Medium             Value (Dev)            W       Tech.      Ref. #
+  1   25       0.5      HClO4            lgK:0.08(0.05SD)         5        MKN        780
+
+
+Reaction No. 4999
+Pt+2_OH-1(4) + H+1 + Cl-1 = Pt+2_Cl-1_OH-1(3) + H2O
+ No    t      I-Str     Medium             Value (Dev)            W       Tech.      Ref. #
+  1   25        1        NaCl            lgR:10.5(0.05SD)         5        MGL        789
+
+
+Reaction No. 5000
+Pt+2_Cl-1_OH-1(3) + H+1 + Cl-1 = Pt+2_Cl-1(2)_OH-1(2) + H2O
+ No    t      I-Str     Medium             Value (Dev)            W       Tech.      Ref. #
+  1   25        1       NaClO4           lgK:10.0(0.05SD)         5        MGL        789
+
+
+Reaction No. 5001
+Pt+2_Cl-1 + Cl-1 = Pt+2_Cl-1(2)_(cis)
+ No    t      I-Str     Medium             Value (Dev)            W       Tech.      Ref. #
+  1   25       0.5       HClO4            lgK:3.7(0.1SD)          5       MKN         781
+  2   25        1        HClO4           lgK:4.2(0.04SD)          5       MKN        5398
+
+
+
+
+                                         – Page 4 of 57 –
+JESS Thermodynamic Database v8.9                                                          Platinum
+
+
+  3    35                0.5            HClO4         lgK:3.7(0.1SD)         5            MKN         781
+  4    60                0.5            HClO4         lgK:3.5(0.1SD)         5            MKN         781
+
+
+Reaction No. 5002
+Pt+2_Cl-1(3)_OH-1 + H+1 + Cl-1 = Pt+2_Cl-1(4) + H2O
+ No       t          I-Str              Medium          Value (Dev)          W           Tech.       Ref. #
+  1    25                 1              NaCl         lgR:8.7(0.05SD)        5            MGL         789
+
+
+Reaction No. 5003
+Pt+4_Cl-1(6) = Pt+4_Cl-1(5) + Cl-1
+ No           t               I-Str       Medium          Value (Dev)            W        Tech.      Ref. #
+ 1            25               0.2         H2SO4        lgK:-2.4(0.05SD)         2         MRX         783
+ 2            25                3          H2SO4        lgK:-2.8(0.05SD)         2         MRX         783
+ 3     25:55                                             lgK:-2.25(3SF)          0         MGL         931
+ 4            35                3          H2SO4        lgK:-2.7(0.05SD)         2         MRX         783
+ 5            42                3          H2SO4        lgK:-2.6(0.05SD)         2         MRX         783
+ 6            50                3          H2SO4        lgK:-2.5(0.05SD)         2         MRX         783
+ 7            50                                         lgK:-1.49(3SF)          0         MAN         931
+ 8            60                3          H2SO4        lgK:-2.4(0.05SD)         2         MRX         783
+ 9            60                3          HClO4         lgK:-1.54(3SF)          2         MRX         931
+ 10    25:50                    3          H2SO4         dH:7.3(0.1SD)           3         MEF        5398
+ 11    25:60                    3          H2SO4         dH:5.5(0.1SD)           2         MRX         783
+
+
+Reaction No. 5043
+Pt+2 + 2<e-1> = Pt(s)
+ No   t            I-Str                 Medium              Value (Dev)             W     Tech.     Ref. #
+ 1    18             1                    NaNO3             lgK:41.5(3SF)            5      MPT        140
+ 2    25             0                Inf. Dilution        lgK:37.8(0.1SD)           0      ENS        802
+ 3    25             0                Inf. Dilution        dG:-54.8(0.1SD)           5      ENS       5253
+ 4    25             0                Inf. Dilution       dG:-254.8(4SF)kJ           0      CRV       7421
+ 5    25             0                Inf. Dilution          E:1.18(3SF)             3      CRV       6330
+ 6    25             0                Inf. Dilution           E:1.2(2SF)             0      CRV       7372
+ 7    25             0                Inf. Dilution          E:1.188(4SF)            4      CRV       22551
+
+
+Reaction No. 5045
+Pt+2_Cl-1 + Cl-1 = Pt+2_Cl-1(2)_(trans)
+ No       t          I-Str              Medium          Value (Dev)          W           Tech.       Ref. #
+
+
+
+
+                                                      – Page 5 of 57 –
+JESS Thermodynamic Database v8.9                                Platinum
+
+
+  1   25      0.5       HClO4          lgK:3.7(0.1SD)      5    MKN         781
+  2   35      0.5       HClO4          lgK:3.6(0.1SD)      5    MKN         781
+  3   60      0.5       HClO4          lgK:3.5(0.1SD)      5    MKN         781
+
+
+Reaction No. 5046
+Pt+2_Cl-1(2)_(cis) + Cl-1 = Pt+2_Cl-1(3)
+ No    t     I-Str      Medium             Value (Dev)     W   Tech.       Ref. #
+  1   15      0.5       HClO4          lgK:3.2(0.1SD)      5    MKN         781
+  2   25      0.5       HClO4          lgK:3.1(0.1SD)      5    MKN         781
+  3   35      0.5       HClO4          lgK:3.1(0.1SD)      5    MKN         781
+  4   60      0.5       HClO4          lgK:3.0(0.1SD)      5    MKN         781
+
+
+Reaction No. 5047
+Pt+2_Cl-1(2)_(trans) + Cl-1 = Pt+2_Cl-1(3)
+ No    t     I-Str      Medium             Value (Dev)     W   Tech.       Ref. #
+  1   15      0.5       HClO4          lgK:3.3(0.1SD)      5    MKN         781
+  2   25      0.5       HClO4          lgK:3.2(0.1SD)      5    MKN         781
+  3   35      0.5       HClO4          lgK:3.2(0.1SD)      5    MKN         781
+  4   60      0.5       HClO4          lgK:3.0(0.1SD)      5    MKN         781
+  5   25      0.1        DMSO              lgK:2.55(3SF)   5    MEF         6687
+                         KNO3
+
+
+Reaction No. 6819
+4<EtAm> + Pt+2 = Pt+2_EtAm(4)
+ No    t     I-Str      Medium              Value (Dev)    W   Tech.       Ref. #
+  1   18       1         KNO3              lgK:37.0(3SF)   4   MEF          999
+
+
+Reaction No. 11603
+Piperid + Pt+2 = Pt+2_Piperid
+ No    t     I-Str       Medium             Value (Dev)    W   Tech.       Ref. #
+  1   23      0.2        Unknown            lgK:5.7(2SF)   4   MGL          999
+
+
+Reaction No. 11604
+Pt+2_Piperid + Piperid = Pt+2_Piperid(2)
+ No    t     I-Str       Medium             Value (Dev)    W   Tech.       Ref. #
+  1   23      0.2        Unknown            lgK:8.2(2SF)   4   MGL          999
+
+
+Reaction No. 14014
+
+
+
+
+                                      – Page 6 of 57 –
+JESS Thermodynamic Database v8.9                                       Platinum
+
+
+Pt+2_OH-1_EDTA-4 + H+1 = Pt+2_EDTA-4 + H2O
+ No    t     I-Str     Medium           Value (Dev)               W    Tech.      Ref. #
+  1   25       1        KNO3          lgK:9.1(0.03SD)             4     MGL        6756
+
+
+Reaction No. 14015
+Pt+2_H+1(3)_EDTA-4 + H+1 = Pt+2_H+1(4)_EDTA-4
+ No    t     I-Str       Medium          Value (Dev)          W       Tech.       Ref. #
+  1    25         1       KNO3          lgK:0.0(1SF)          3       MGL         6756
+
+
+Reaction No. 17242
+Pt+2 + Pyruvic-1 = Pt+2_Pyruvic-1
+ No   t     I-Str      Medium           Value (Dev)               W    Tech.      Ref. #
+  1   25      2        NaClO4         lgK:1.51(0.02SD)            6     CMN        1204
+
+
+Reaction No. 17243
+Pt+2 + Glycolic-1 = Pt+2_Glycolic-1
+ No    t     I-Str     Medium           Value (Dev)               W    Tech.      Ref. #
+  1   25       2       NaClO4         lgK:1.9(0.05SD)             4     CMN        1204
+
+
+Reaction No. 20251
+Pt+2_EtDiAm_Phenanth + 5IMP-2 = Pt+2_EtDiAm_Phenanth_5IMP-2
+ No    t     I-Str     Medium           Value (Dev)               W    Tech.      Ref. #
+  1   25      0.1       NaCl          lgK:2.3(0.08SD)             4     MGL        1749
+  2   25      0.1       NaCl           dH:-2.8(0.2SD)             5     MCL        1749
+
+
+Reaction No. 20252
+Pt+2_EtDiAm_Phenanth + 5GMP-2 = Pt+2_EtDiAm_Phenanth_5GMP-2
+ No    t     I-Str     Medium           Value (Dev)               W    Tech.      Ref. #
+  1   25      0.1       NaCl          lgK:2.5(0.03SD)             6     MGL        1749
+  2   25      0.1       NaCl           dH:-6.3(0.2SD)             5     MCL        1749
+
+
+Reaction No. 20253
+Pt+2_EtDiAm_Phenanth + 5AMP-2 = Pt+2_EtDiAm_Phenanth_5AMP-2
+ No    t     I-Str     Medium           Value (Dev)               W    Tech.      Ref. #
+  1   25      0.1       NaCl          lgK:2.5(0.03SD)             6     MGL        1749
+  2   25      0.1       NaCl           dH:-6.1(0.2SD)             5     MCL        1749
+
+
+Reaction No. 20254
+
+
+
+
+                                      – Page 7 of 57 –
+JESS Thermodynamic Database v8.9                                       Platinum
+
+
+Pt+2_EtDiAm_Phenanth + 5CMP-2 = Pt+2_EtDiAm_Phenanth_5CMP-2
+ No    t     I-Str     Medium              Value (Dev)        W       Tech.       Ref. #
+  1   25      0.1       NaCl             lgK:2.2(0.08SD)      3        MGL         1749
+  2   25      0.1       NaCl              dH:-1.6(0.1SD)      5        MCL         1749
+
+
+Reaction No. 21726
+Cimetidine + Pt+2 = Pt+2_Cimetidine
+ No   t     I-Str     Medium               Value (Dev)            W    Tech.      Ref. #
+ 1    25     0.1       KNO3             lgK:8.82(0.003SD)         6     MGL        1160
+
+
+Reaction No. 21727
+Cimetidine + Pt+2 = H+1 + Pt+2_H+1(-1)_Cimetidine
+ No   t     I-Str     Medium               Value (Dev)            W    Tech.      Ref. #
+ 1    25     0.1       KNO3             lgK:1.41(0.003SD)         6     MGL        1160
+
+
+Reaction No. 21728
+Cimetidine + Pt+2 = 2<H+1> + Pt+2_H+1(-2)_Cimetidine
+ No   t     I-Str     Medium               Value (Dev)            W    Tech.      Ref. #
+ 1    25     0.1       KNO3             lgK:-9.96(0.01SD)         3     MGL        1160
+
+
+Reaction No. 21729
+2<Cimetidine> + Pt+2 = Pt+2_Cimetidine(2)
+ No   t    I-Str     Medium                Value (Dev)            W    Tech.      Ref. #
+ 1    25    0.1       KNO3            lgK:16.926(0.002SD)         6     MGL        1160
+
+
+Reaction No. 21730
+2<Cimetidine> + Pt+2 = H+1 + Pt+2_H+1(-1)_Cimetidine(2)
+ No   t     I-Str     Medium               Value (Dev)            W    Tech.      Ref. #
+ 1    25     0.1       KNO3             lgK:8.60(0.005SD)         6     MGL        1160
+
+
+Reaction No. 21731
+2<Cimetidine> + Pt+2 = 2<H+1> + Pt+2_H+1(-2)_Cimetidine(2)
+ No   t     I-Str     Medium               Value (Dev)            W    Tech.      Ref. #
+ 1    25     0.1       KNO3             lgK:-0.48(0.003SD)        6     MGL        1160
+
+
+Reaction No. 22202
+Pt+2_EDTA-4 + Cl-1 = Pt+2_Cl-1_EDTA-4
+ No    t     I-Str      Medium              Value (Dev)       W       Tech.       Ref. #
+
+
+
+
+                                         – Page 8 of 57 –
+JESS Thermodynamic Database v8.9                                             Platinum
+
+
+  1    25           1     KNO3           lgK:1.02(3SF)             5        MSP          6756
+
+
+Reaction No. 22203
+Pt+2_H+1_EDTA-4 + Cl-1 = Pt+2_H+1_Cl-1_EDTA-4
+ No   t       I-Str        Medium               Value (Dev)            W     Tech.       Ref. #
+ 1    25        0       Inf. Dilution           lgK:1.8(2SF)           1      EES
+ 2    25        1           KNO3              lgK:1.57(3SF)            5      MSP         6756
+
+
+Reaction No. 22204
+Pt+2_H+1(2)_EDTA-4 + Cl-1 = Pt+2_H+1(2)_Cl-1_EDTA-4
+ No       t     I-Str    Medium           Value (Dev)              W       Tech.        Ref. #
+  1    25           1     KNO3           lgK:2.14(3SF)             5        MSP          6756
+
+
+Reaction No. 22205
+Pt+2_H+1(3)_EDTA-4 + Cl-1 = Pt+2_H+1(3)_Cl-1_EDTA-4
+ No       t     I-Str     Medium          Value (Dev)          W           Tech.        Ref. #
+  1    25           1      KNO3           lgK:4.(1SF)          3           MSP          6756
+
+
+Reaction No. 22206
+Pt+2_EDTA-4 + Br-1 = Pt+2_Br-1_EDTA-4
+ No       t     I-Str    Medium           Value (Dev)              W       Tech.        Ref. #
+  1    25           1     KNO3           lgK:1.47(3SF)             5        MGL          6756
+  2    25           1    NaClO4          lgK:1.47(3SF)             5        MSP          1562
+
+
+Reaction No. 22207
+Pt+2_H+1_EDTA-4 + Br-1 = Pt+2_H+1_Br-1_EDTA-4
+ No       t     I-Str    Medium           Value (Dev)              W       Tech.        Ref. #
+  1    25           1     KNO3           lgK:2.02(3SF)             5        MGL          6756
+  2    25           1    NaClO4          lgK:2.02(3SF)             5        MSP          1562
+
+
+Reaction No. 22208
+Pt+2_H+1(2)_EDTA-4 + Br-1 = Pt+2_H+1(2)_Br-1_EDTA-4
+ No       t     I-Str    Medium           Value (Dev)              W       Tech.        Ref. #
+  1    25           1     KNO3           lgK:2.62(3SF)             5        MGL          6756
+  2    25           1    NaClO4          lgK:2.62(3SF)             5        MSP          1562
+
+
+Reaction No. 22209
+Pt+2_H+1(3)_EDTA-4 + Br-1 = Pt+2_H+1(3)_Br-1_EDTA-4
+
+
+
+
+                                        – Page 9 of 57 –
+JESS Thermodynamic Database v8.9                                 Platinum
+
+
+ No    t     I-Str       Medium            Value (Dev)      W   Tech.       Ref. #
+  1    25      1          KNO3            lgK:4.5(2SF)      3   MGL         6756
+  2    25      1         NaClO4           lgK:4.5(2SF)      3   MSP         1562
+
+
+Reaction No. 22645
+Pt+2 + 2<NH3> + 2<Pyridine> = Pt+2_NH3(2)_Pyridine(2)
+ No    t     I-Str      Medium             Value (Dev)      W   Tech.       Ref. #
+  1   25       1         KNO3             lgK:36.0(3SF)     4    MPT         999
+
+
+Reaction No. 22646
+Pt+2 + 3<NH3> + Pyridine = Pt+2_NH3(3)_Pyridine
+ No    t     I-Str      Medium             Value (Dev)      W   Tech.       Ref. #
+  1   25       1         KNO3             lgK:34.2(3SF)     4    MPT         999
+
+
+Reaction No. 22647
+Pt+2 + NH3 + 3<Pyridine> = Pt+2_NH3_Pyridine(3)
+ No    t     I-Str      Medium             Value (Dev)      W   Tech.       Ref. #
+  1   25       1         KNO3             lgK:32.6(3SF)     4    MPT         999
+
+
+Reaction No. 22648
+4<Pyridine> + Pt+2 = Pt+2_Pyridine(4)
+ No    t     I-Str      Medium             Value (Dev)      W   Tech.       Ref. #
+  1   25       1         KNO3             lgK:31.8(3SF)     4    MPT         999
+
+
+Reaction No. 22762
+Pt+2 + 2<NH3> + 2<Piperid> = Pt+2_NH3(2)_Piperid(2)
+ No    t     I-Str      Medium             Value (Dev)      W   Tech.       Ref. #
+  1   25       1         KNO3             lgK:36.8(3SF)     4    MPT         999
+
+
+Reaction No. 22763
+Pt+2 + NH3 + 3<Piperid> = Pt+2_NH3_Piperid(3)
+ No    t     I-Str      Medium             Value (Dev)      W   Tech.       Ref. #
+  1   25       1         KNO3             lgK:37.4(3SF)     4    MPT         999
+
+
+Reaction No. 22764
+Pt+2 + 4<Piperid> = Pt+2_Piperid(4)
+ No    t     I-Str      Medium             Value (Dev)      W   Tech.       Ref. #
+  1   25       1         KNO3             lgK:37.9(3SF)     4    MPT         999
+
+
+
+
+                                        – Page 10 of 57 –
+JESS Thermodynamic Database v8.9                                       Platinum
+
+
+
+Reaction No. 23683
+Pt+2_EDTA-4 + I-1 = Pt+2_I-1_EDTA-4
+ No    t     I-Str      Medium             Value (Dev)        W       Tech.       Ref. #
+  1   25       1         KNO3             lgK:2.90(3SF)       5        MSP         6756
+
+
+Reaction No. 23715
+Pt+2_EDTA-4 + SCN-1 = Pt+2_SCN-1_EDTA-4
+ No    t     I-Str      Medium             Value (Dev)        W       Tech.       Ref. #
+  1   25       1         KNO3             lgK:4.64(3SF)       5        MSP         6756
+
+
+Reaction No. 23716
+Pt+2_EDTA-4 + NH3 = Pt+2_NH3_EDTA-4
+ No    t     I-Str       Medium            Value (Dev)        W       Tech.       Ref. #
+  1    25      1          KNO3            lgK:4.7(2SF)        5       MSP         6756
+
+
+Reaction No. 26847
+Pt+2_CN-1(4) + H+1(4)_[33]N11 = Pt+2_H+1(4)_[33]N11_CN-1(4)
+ No    t     I-Str     Medium             Value (Dev)             W    Tech.      Ref. #
+  1   25     0.15      NaClO4         lgK:3.2(0.05SD)             5     MGL        1782
+
+
+Reaction No. 26848
+H+1(5)_[33]N11 + Pt+2_CN-1(4) = Pt+2_H+1(5)_[33]N11_CN-1(4)
+ No   t     I-Str      Medium             Value (Dev)             W    Tech.      Ref. #
+  1   25     0.15      NaClO4         lgK:3.60(0.02SD)            5     MGL        1782
+
+
+Reaction No. 26849
+H+1(6)_[33]N11 + Pt+2_CN-1(4) = Pt+2_H+1(6)_[33]N11_CN-1(4)
+ No    t     I-Str     Medium             Value (Dev)             W    Tech.      Ref. #
+  1   25     0.15      NaClO4         lgK:4.7(0.04SD)             5     MGL        1782
+
+
+Reaction No. 26850
+H+1(7)_[33]N11 + Pt+2_CN-1(4) = Pt+2_H+1(7)_[33]N11_CN-1(4)
+ No    t     I-Str     Medium             Value (Dev)             W    Tech.      Ref. #
+  1   25     0.15      NaClO4         lgK:5.5(0.04SD)             5     MGL        1782
+
+
+Reaction No. 26851
+H+1(8)_[33]N11 + Pt+2_CN-1(4) = Pt+2_H+1(8)_[33]N11_CN-1(4)
+
+
+
+
+                                      – Page 11 of 57 –
+JESS Thermodynamic Database v8.9                                    Platinum
+
+
+ No    t     I-Str     Medium            Value (Dev)            W   Tech.      Ref. #
+  1   25     0.15      NaClO4         lgK:5.8(0.04SD)           5   MGL        1782
+
+
+Reaction No. 26852
+H+1(9)_[33]N11 + Pt+2_CN-1(4) = Pt+2_H+1(9)_[33]N11_CN-1(4)
+ No    t     I-Str     Medium            Value (Dev)            W   Tech.      Ref. #
+  1   25     0.15      NaClO4         lgK:6.1(0.05SD)           5   MGL        1782
+
+
+Reaction No. 26853
+H+1(10)_[33]N11 + Pt+2_CN-1(4) = Pt+2_H+1(10)_[33]N11_CN-1(4)
+ No    t     I-Str     Medium            Value (Dev)            W   Tech.      Ref. #
+  1   25     0.15      NaClO4         lgK:6.7(0.04SD)           5   MGL        1782
+
+
+Reaction No. 26854
+H+1(4)_[27]N9 + Pt+2_CN-1(4) = Pt+2_H+1(4)_[27]N9_CN-1(4)
+ No   t     I-Str      Medium           Value (Dev)             W   Tech.      Ref. #
+  1   25     0.15      NaClO4         lgK:3.00(0.02SD)          5    MGL        1782
+
+
+Reaction No. 26855
+H+1(5)_[27]N9 + Pt+2_CN-1(4) = Pt+2_H+1(5)_[27]N9_CN-1(4)
+ No   t     I-Str      Medium           Value (Dev)             W   Tech.      Ref. #
+  1   25     0.15      NaClO4         lgK:3.53(0.02SD)          5    MGL        1782
+
+
+Reaction No. 26856
+H+1(6)_[27]N9 + Pt+2_CN-1(4) = Pt+2_H+1(6)_[27]N9_CN-1(4)
+ No   t     I-Str      Medium           Value (Dev)             W   Tech.      Ref. #
+  1   25     0.15      NaClO4         lgK:3.80(0.02SD)          5    MGL        1782
+
+
+Reaction No. 26857
+H+1(7)_[27]N9 + Pt+2_CN-1(4) = Pt+2_H+1(7)_[27]N9_CN-1(4)
+ No   t     I-Str      Medium           Value (Dev)             W   Tech.      Ref. #
+  1   25     0.15      NaClO4         lgK:3.83(0.02SD)          5    MGL        1782
+
+
+Reaction No. 26858
+H+1(8)_[27]N9 + Pt+2_CN-1(4) = Pt+2_H+1(8)_[27]N9_CN-1(4)
+ No    t     I-Str     Medium            Value (Dev)            W   Tech.      Ref. #
+  1   25     0.15      NaClO4         lgK:4.2(0.03SD)           5    MGL       1782
+
+
+
+
+                                      – Page 12 of 57 –
+JESS Thermodynamic Database v8.9                                  Platinum
+
+
+Reaction No. 26859
+H+1(4)_[30]N10 + Pt+2_CN-1(4) = Pt+2_H+1(4)_[30]N10_CN-1(4)
+ No    t     I-Str     Medium            Value (Dev)          W   Tech.      Ref. #
+  1   25     0.15      NaClO4         lgK:2.7(0.03SD)         5   MGL        1782
+
+
+Reaction No. 26860
+H+1(5)_[30]N10 + Pt+2_CN-1(4) = Pt+2_H+1(5)_[30]N10_CN-1(4)
+ No    t     I-Str     Medium            Value (Dev)          W   Tech.      Ref. #
+  1   25     0.15      NaClO4         lgK:2.8(0.03SD)         5   MGL        1782
+
+
+Reaction No. 26861
+H+1(6)_[30]N10 + Pt+2_CN-1(4) = Pt+2_H+1(6)_[30]N10_CN-1(4)
+ No    t     I-Str     Medium            Value (Dev)          W   Tech.      Ref. #
+  1   25     0.15      NaClO4         lgK:3.1(0.04SD)         5   MGL        1782
+
+
+Reaction No. 26862
+H+1(7)_[30]N10 + Pt+2_CN-1(4) = Pt+2_H+1(7)_[30]N10_CN-1(4)
+ No    t     I-Str     Medium            Value (Dev)          W   Tech.      Ref. #
+  1   25     0.15      NaClO4         lgK:3.4(0.03SD)         5   MGL        1782
+
+
+Reaction No. 26863
+H+1(8)_[30]N10 + Pt+2_CN-1(4) = Pt+2_H+1(8)_[30]N10_CN-1(4)
+ No    t     I-Str     Medium            Value (Dev)          W   Tech.      Ref. #
+  1   25     0.15      NaClO4         lgK:3.4(0.04SD)         5   MGL        1782
+
+
+Reaction No. 26864
+H+1(9)_[30]N10 + Pt+2_CN-1(4) = Pt+2_H+1(9)_[30]N10_CN-1(4)
+ No    t     I-Str     Medium            Value (Dev)          W   Tech.      Ref. #
+  1   25     0.15      NaClO4         lgK:3.8(0.04SD)         5   MGL        1782
+
+
+Reaction No. 26865
+H+1(3)_[24]N8 + Pt+2_CN-1(4) = Pt+2_H+1(3)_[24]N8_CN-1(4)
+ No    t     I-Str     Medium            Value (Dev)          W   Tech.      Ref. #
+  1   25     0.15      NaClO4         lgK:2.5(0.06SD)         5    MGL       1782
+
+
+Reaction No. 26866
+H+1(4)_[24]N8 + Pt+2_CN-1(4) = Pt+2_H+1(4)_[24]N8_CN-1(4)
+ No    t     I-Str     Medium            Value (Dev)          W   Tech.      Ref. #
+
+
+
+
+                                      – Page 13 of 57 –
+JESS Thermodynamic Database v8.9                                 Platinum
+
+
+  1   25     0.15      NaClO4         lgK:3.0(0.03SD)       5    MGL         1782
+
+
+Reaction No. 26867
+H+1(5)_[24]N8 + Pt+2_CN-1(4) = Pt+2_H+1(5)_[24]N8_CN-1(4)
+ No    t     I-Str     Medium              Value (Dev)      W   Tech.       Ref. #
+  1   25     0.15      NaClO4         lgK:3.4(0.04SD)       5    MGL         1782
+
+
+Reaction No. 26868
+H+1(6)_[24]N8 + Pt+2_CN-1(4) = Pt+2_H+1(6)_[24]N8_CN-1(4)
+ No    t     I-Str     Medium              Value (Dev)      W   Tech.       Ref. #
+  1   25     0.15      NaClO4         lgK:3.5(0.04SD)       5    MGL         1782
+
+
+Reaction No. 26869
+H+1(7)_[24]N8 + Pt+2_CN-1(4) = Pt+2_H+1(7)_[24]N8_CN-1(4)
+ No    t     I-Str     Medium              Value (Dev)      W   Tech.       Ref. #
+  1   25     0.15      NaClO4         lgK:3.6(0.05SD)       5    MGL         1782
+
+
+Reaction No. 26870
+H+1(8)_[24]N8 + Pt+2_CN-1(4) = Pt+2_H+1(8)_[24]N8_CN-1(4)
+ No    t     I-Str     Medium              Value (Dev)      W   Tech.       Ref. #
+  1   25     0.15      NaClO4         lgK:3.7(0.07SD)       5    MGL         1782
+
+
+Reaction No. 30386
+DMPS-3 + Pt+2 = Pt+2_DMPS-3
+ No    t     I-Str       Medium             Value (Dev)     W   Tech.       Ref. #
+  1   25       1        Unknown            lgK:3.46(3SF)    3   MSP         2261
+
+
+Reaction No. 30843
+Pt+2_H+1_Asp-2(2) + H+1 = Pt+2_H+1(2)_Asp-2(2)
+ No    t     I-Str      Medium             Value (Dev)      W   Tech.       Ref. #
+  1   25      0.1        KCl              lgK:3.77(3SF)w    5   MPH         1908
+
+
+Reaction No. 30844
+Pt+2_Asp-2(2) + H+1 = Pt+2_H+1_Asp-2(2)
+ No    t     I-Str      Medium             Value (Dev)      W   Tech.       Ref. #
+  1   25      0.1        KCl              lgK:4.14(3SF)w    5   MPH         1908
+
+
+Reaction No. 30845
+
+
+
+
+                                      – Page 14 of 57 –
+JESS Thermodynamic Database v8.9                                    Platinum
+
+
+Pt+2_H+1_Glu-2(2) + H+1 = Pt+2_H+1(2)_Glu-2(2)
+ No    t     I-Str      Medium             Value (Dev)         W   Tech.       Ref. #
+  1   25      0.1        KCl              lgK:4.39(3SF)w       5   MPH         1908
+
+
+Reaction No. 30846
+Pt+2_Glu-2(2) + H+1 = Pt+2_H+1_Glu-2(2)
+ No    t     I-Str      Medium             Value (Dev)         W   Tech.       Ref. #
+  1   25      0.1        KCl              lgK:5.05(3SF)w       5   MPH         1908
+
+
+Reaction No. 30851
+Pt+2_H+1_2AmAdipic-2(2) + H+1 = Pt+2_H+1(2)_2AmAdipic-2(2)
+ No    t     I-Str      Medium             Value (Dev)         W   Tech.       Ref. #
+  1   25      0.1        KCl              lgK:4.53(3SF)w       5   MPH         1908
+
+
+Reaction No. 30852
+Pt+2_2AmAdipic-2(2) + H+1 = Pt+2_H+1_2AmAdipic-2(2)
+ No    t     I-Str      Medium             Value (Dev)         W   Tech.       Ref. #
+  1   25      0.1        KCl              lgK:5.01(3SF)w       5   MPH         1908
+
+
+Reaction No. 30853
+Pt+2_H+1_2AmPimelic-2(2) + H+1 = Pt+2_H+1(2)_2AmPimelic-2(2)
+ No    t     I-Str      Medium             Value (Dev)         W   Tech.       Ref. #
+  1   25      0.1        KCl              lgK:4.75(3SF)w       5   MPH         1908
+
+
+Reaction No. 30854
+Pt+2_2AmPimelic-2(2) + H+1 = Pt+2_H+1_2AmPimelic-2(2)
+ No    t     I-Str      Medium             Value (Dev)         W   Tech.       Ref. #
+  1   25      0.1        KCl              lgK:5.38(3SF)w       5   MPH         1908
+
+
+Reaction No. 31077
+4<Thiourea> + Pt+2 = Pt+2_Thiourea(4)
+ No    t     I-Str       Medium             Value (Dev)        W   Tech.       Ref. #
+  1   25      0.5       Unknown            lgK:38.6(3SF)       5   CRV         2556
+
+
+Reaction No. 34159
+Pt+2_Cl-1(4) + Pr2enSulf-1 = Pt+2_Cl-1(3)_Pr2enSulf-1 + Cl-1
+ No    t     I-Str      Medium             Value (Dev)         W   Tech.       Ref. #
+  1   25       2         NaCl             lgR:3.61(3SF)        5   MSP          931
+
+
+
+
+                                        – Page 15 of 57 –
+JESS Thermodynamic Database v8.9                                       Platinum
+
+
+  2   45         2            NaCl         lgR:3.33(3SF)      5        MSP         931
+  3   25         2            NaCl         dH:-6.1(0.2SD)     5        MTD         931
+
+
+Reaction No. 34300
+Pt+2_Cl-1(4) + NNNTriEtBu3enylAm+1 = Pt+2_NNNTriEtBu3enylAm+1_Cl-1(3) + Cl-1
+ No        t          I-Str      Medium        Value (Dev)        W    Tech.      Ref. #
+  1        30           2         NaCl        lgR:3.89(3SF)       5     MSP        931
+  2    44.8             2         NaCl        lgR:3.77(3SF)       5     MSP        931
+  3        60           2         NaCl        lgR:3.65(3SF)       5     MSP        931
+  4    30:60            2         NaCl        dH:-4.(0.4SD)       5     MCL        931
+
+
+Reaction No. 34301
+Pt+2_Cl-1(4) + AsAsAsTriEtBu3enylAs+1 = Pt+2_AsAsAsTriEtBu3enylAs+1_Cl-1(3) + Cl-1
+ No        t          I-Str      Medium        Value (Dev)        W    Tech.      Ref. #
+  1        30           2         NaCl        lgR:3.95(3SF)       5     MSP        931
+  2    44.8             2         NaCl        lgR:3.85(3SF)       5     MSP        931
+  3        60           2         NaCl        lgR:3.74(3SF)       5     MSP        931
+  4    30:60            2         NaCl        dH:-3.(0.3SD)       5     MTD        931
+
+
+Reaction No. 34331
+Pt+2_Cl-1(4) + NNNTriBuAllylAm+1 = Pt+2_NNNTriBuAllylAm+1_Cl-1(3) + Cl-1
+ No    t        I-Str         Medium         Value (Dev)      W       Tech.       Ref. #
+  1   60          2            NaCl         lgR:2.49(3SF)     5       MSP          931
+
+
+Reaction No. 35530
+Pt+2_DiMeAm(4) + DiMeAm = Pt+2_DiMeAm(5)
+ No    t        I-Str         Medium          Value (Dev)     W       Tech.       Ref. #
+  1   23         0.2          Unknown        lgK:5.5(2SF)     3       MGL          140
+
+
+Reaction No. 35531
+Pt+2_DiMeAm(5) + DiMeAm = Pt+2_DiMeAm(6)
+ No    t        I-Str         Medium          Value (Dev)     W       Tech.       Ref. #
+  1   23         0.2          Unknown        lgK:8.0(2SF)     3       MGL          140
+
+
+Reaction No. 36990
+Pt+2_1MePiperidine(4) + 1MePiperidine = Pt+2_1MePiperidine(5)
+ No    t        I-Str         Medium          Value (Dev)     W       Tech.       Ref. #
+
+
+
+
+                                          – Page 16 of 57 –
+JESS Thermodynamic Database v8.9                                     Platinum
+
+
+  1   23      0.2        Unknown         lgK:4.3(2SF)       3       MGL          140
+
+
+Reaction No. 36991
+Pt+2_1MePiperidine(5) + 1MePiperidine = Pt+2_1MePiperidine(6)
+ No    t     I-Str       Medium           Value (Dev)       W       Tech.       Ref. #
+  1   23      0.2        Unknown         lgK:6.8(2SF)       3       MGL          140
+
+
+Reaction No. 39825
+H+1(3)_[21]N7 + Pt+2_CN-1(4) = Pt+2_H+1(3)_[21]N7_CN-1(4)
+ No   t     I-Str      Medium           Value (Dev)             W    Tech.      Ref. #
+  1   25     0.15      NaClO4         lgK:2.56(0.02SD)          5     MGL        1782
+
+
+Reaction No. 39826
+H+1(4)_[21]N7 + Pt+2_CN-1(4) = Pt+2_H+1(4)_[21]N7_CN-1(4)
+ No   t     I-Str      Medium           Value (Dev)             W    Tech.      Ref. #
+  1   25     0.15      NaClO4         lgK:3.07(0.02SD)          5     MGL        1782
+
+
+Reaction No. 39827
+H+1(5)_[21]N7 + Pt+2_CN-1(4) = Pt+2_H+1(5)_[21]N7_CN-1(4)
+ No   t     I-Str      Medium           Value (Dev)             W    Tech.      Ref. #
+  1   25     0.15      NaClO4         lgK:3.49(0.02SD)          5     MGL        1782
+
+
+Reaction No. 39828
+H+1(6)_[21]N7 + Pt+2_CN-1(4) = Pt+2_H+1(6)_[21]N7_CN-1(4)
+ No    t     I-Str     Medium            Value (Dev)            W   Tech.       Ref. #
+  1   25     0.15      NaClO4         lgK:3.6(0.03SD)           5    MGL         1782
+
+
+Reaction No. 39829
+H+1(7)_[21]N7 + Pt+2_CN-1(4) = Pt+2_H+1(7)_[21]N7_CN-1(4)
+ No    t     I-Str     Medium            Value (Dev)            W   Tech.       Ref. #
+  1   25     0.15      NaClO4         lgK:3.7(0.07SD)           5    MGL         1782
+
+
+Reaction No. 40979
+4<MeAm> + Pt+2 = Pt+2_MeAm(4)
+ No    t     I-Str      Medium           Value (Dev)        W       Tech.       Ref. #
+  1   18       1         KNO3           lgK:40.1(3SF)       5       MPT          931
+
+
+Reaction No. 41018
+
+
+
+
+                                      – Page 17 of 57 –
+JESS Thermodynamic Database v8.9                                            Platinum
+
+
+Pt+2_Cl-1(4) + H+1_AllylAm = Pt+2_H+1_AllylAm_Cl-1(3) + Cl-1
+ No        t       I-Str        Medium        Value (Dev)              W    Tech.      Ref. #
+ 1     30.2               2      NaCl        lgR:3.45(3SF)             5     MSP         931
+ 2         44             2      NaCl        lgR:3.24(3SF)             5     MSP         931
+ 3         59             2      NaCl        lgR:3.01(3SF)             5     MSP         931
+ 4    30:59               2      NaCl      dH:-7.10(0.02SD)            5     MTD         931
+
+
+Reaction No. 41019
+Pt+2_Br-1(4) + H+1_AllylAm = Pt+2_H+1_AllylAm_Br-1(3) + Br-1
+ No        t      I-Str        Medium        Value (Dev)               W    Tech.      Ref. #
+ 1    24.5            2          KBr      lgR:2.49(0.02SD)             5     MSP         931
+
+
+Reaction No. 42785
+Pt+4 + 4<MeAm> + 2<Cl-1> = Pt+4_MeAm(4)_Cl-1(2)
+ No    t        I-Str          Medium       Value (Dev)        W           Tech.       Ref. #
+  1   25          1             KNO3       lgK:61.0(3SF)       4           MPT          906
+
+
+Reaction No. 42960
+Pt+4 + 4<EtAm> + 2<Cl-1> = Pt+4_EtAm(4)_Cl-1(2)
+ No    t        I-Str          Medium       Value (Dev)        W           Tech.       Ref. #
+  1   25          1             KNO3       lgK:53.9(3SF)       4           MPT          906
+
+
+Reaction No. 42974
+Pt+4 + 2<EtDiAm> + 2<Cl-1> = Pt+4_EtDiAm(2)_Cl-1(2)
+ No    t        I-Str          Medium       Value (Dev)        W           Tech.       Ref. #
+  1   25          1             KNO3       lgK:56.6(3SF)       4           MPT          906
+
+
+Reaction No. 43052
+Pt+2_H+1_NH3(2)_Pr1en3ol_OH-1 = Pt+2_NH3(2)_Pr1en3ol_OH-1 + H+1
+ No    t        I-Str         Medium        Value (Dev)            W       Tech.       Ref. #
+  1   23                                 lgK:-3.5(0.1SD)           3        MGL         906
+
+
+Reaction No. 43349
+Asp-2 + Pt+4 = Pt+4_Asp-2
+ No    t        I-Str          Medium       Value (Dev)        W           Tech.       Ref. #
+  1   25         0.1           NaClO4      lgK:9.56(3SF)       4           MGL         6628
+
+
+Reaction No. 43350
+
+
+
+
+                                         – Page 18 of 57 –
+JESS Thermodynamic Database v8.9                                        Platinum
+
+
+Pt+4_Asp-2 + Asp-2 = Pt+4_Asp-2(2)
+ No       t     I-Str    Medium             Value (Dev)        W       Tech.       Ref. #
+  1    25        0.1     NaClO4           lgK:3.93(3SF)        4       MGL         6628
+
+
+Reaction No. 43450
+4<Morpholine> + Pt+2 = Pt+2_Morpholine(4)
+ No       t     I-Str    Medium             Value (Dev)        W       Tech.       Ref. #
+  1    25         1         KNO3          lgK:38.4(3SF)        4       MPT          906
+
+
+Reaction No. 43514
+Pt+4 + 3<NH3> + Pyridine + 2<Cl-1> = Pt+4_NH3(3)_Pyridine_Cl-1(2)
+ No       t     I-Str    Medium             Value (Dev)        W       Tech.       Ref. #
+  1    25         1         KNO3          lgK:50.7(3SF)        0       MPT          906
+
+
+Reaction No. 43516
+Pt+4 + 4<Pyridine> + 2<Cl-1> = Pt+4_Pyridine(4)_Cl-1(2)
+ No       t     I-Str    Medium             Value (Dev)        W       Tech.       Ref. #
+  1    25         1         KNO3          lgK:40.8(3SF)        4       MPT          906
+
+
+Reaction No. 43623
+Glu-2 + Pt+4 = Pt+4_Glu-2
+ No       t     I-Str    Medium             Value (Dev)        W       Tech.       Ref. #
+  1    25        0.1     NaClO4           lgK:8.99(3SF)        5       MGL         6628
+
+
+Reaction No. 43624
+Pt+4_Glu-2 + Glu-2 = Pt+4_Glu-2(2)
+ No       t     I-Str    Medium             Value (Dev)        W       Tech.       Ref. #
+  1    25        0.1     NaClO4           lgK:3.69(3SF)        5       MGL         6628
+
+
+Reaction No. 44317
+2SHBenz-2 + Pt+4 = Pt+4_2SHBenz-2
+ No   t       I-Str         Medium              Value (Dev)        W     Tech.     Ref. #
+ 1    23                Ethanol:Water          lgK:4.25(3SF)       4      ENS        906
+                           50:50Wgt
+
+
+Reaction No. 44318
+3<2SHBenz-2> + Pt+4 = Pt+4_2SHBenz-2(3)
+ No   t       I-Str         Medium              Value (Dev)        W     Tech.     Ref. #
+
+
+
+
+                                        – Page 19 of 57 –
+JESS Thermodynamic Database v8.9                                       Platinum
+
+
+ 1    23                Ethanol:Water          lgK:12.0(3SF)       4     ENS        906
+                           50:50Wgt
+
+
+Reaction No. 44873
+Pt+2_Cl-1_EDTA-4 + H+1 = Pt+2_H+1_Cl-1_EDTA-4
+ No    t       I-Str    Medium             Value (Dev)         W       Tech.      Ref. #
+  1   25         1       KNO3           lgK:3.4(0.05SD)        5       MGL        6756
+
+
+Reaction No. 44874
+Pt+2_H+1_Cl-1_EDTA-4 + H+1 = Pt+2_H+1(2)_Cl-1_EDTA-4
+ No    t       I-Str    Medium             Value (Dev)         W       Tech.      Ref. #
+  1   25         1       KNO3           lgK:2.7(0.05SD)        5       MGL        6756
+
+
+Reaction No. 44875
+Pt+2_H+1(2)_Cl-1_EDTA-4 + H+1 = Pt+2_H+1(3)_Cl-1_EDTA-4
+ No    t       I-Str    Medium             Value (Dev)         W       Tech.      Ref. #
+  1   25         1       KNO3           lgK:2.3(0.05SD)        5       MGL        6756
+
+
+Reaction No. 44876
+Pt+2_Br-1_EDTA-4 + H+1 = Pt+2_H+1_Br-1_EDTA-4
+ No    t       I-Str    Medium             Value (Dev)         W       Tech.      Ref. #
+  1   25         1       KNO3           lgK:3.5(0.05SD)        5       MGL        6756
+
+
+Reaction No. 44877
+Pt+2_H+1_Br-1_EDTA-4 + H+1 = Pt+2_H+1(2)_Br-1_EDTA-4
+ No    t       I-Str    Medium             Value (Dev)         W       Tech.      Ref. #
+  1   25         1       KNO3           lgK:2.8(0.05SD)        5       MGL        6756
+
+
+Reaction No. 44878
+Pt+2_H+1(2)_Br-1_EDTA-4 + H+1 = Pt+2_H+1(3)_Br-1_EDTA-4
+ No    t       I-Str    Medium             Value (Dev)         W       Tech.      Ref. #
+  1   25         1       KNO3           lgK:2.3(0.05SD)        5       MGL        6756
+
+
+Reaction No. 52573
+Pt+2_Br-1 + Br-1 = Pt+2_Br-1(2)
+ No        t    I-Str     Medium           Value (Dev)         W       Tech.      Ref. #
+  1    25        0.5      HClO4           lgK:4.1(0.1SD)       5       MKN        5398
+  2    35        0.5      HClO4           lgK:4.0(0.1SD)       5       MKN        5398
+
+
+
+
+                                        – Page 20 of 57 –
+JESS Thermodynamic Database v8.9                                                     Platinum
+
+
+  3   450                                     lgK:0.93(2SF)             3            MEF         5398
+
+
+Reaction No. 52853
+Pt+2 + Br-1 = Pt+2_Br-1
+ No        t       I-Str       Medium            Value (Dev)                W        Tech.      Ref. #
+ 1         25          0.5      HClO4           lgK:4.9(0.1SD)              5         MSP        5398
+ 2         25           1      Unknown          lgK:5.28(3SF)               5         CRV        2556
+ 3         35          0.5      HClO4           lgK:4.7(0.1SD)              5         MSP        5398
+ 4     450                                      lgK:0.13(2SF)               3         MEF        5398
+ 5    20:22        0.01         DMSO            lgK:5.40(3SF)               5         MEF        6685
+                                KNO3
+
+
+Reaction No. 52915
+Pt+2_NH3(2)_Br-1_(trans) + Br-1 = Pt+2_NH3(2)_Br-1(2)_(trans)
+ No        t       I-Str       Medium            Value (Dev)                W        Tech.      Ref. #
+ 1         15      0.05        NaNO3           lgK:4.8(0.04SD)              0         MGL        5398
+ 2         25      0.05        NaNO3           lgK:4.5(0.04SD)              0         MGL        5398
+ 3         35      0.05        NaNO3           lgK:4.3(0.04SD)              0         MGL        5398
+ 4    15:35        0.05        NaNO3            dH:-8.5(2SF)                0         MTD        5398
+
+
+Reaction No. 53039
+Cl-1 + Pt+2 + Dien = Pt+2_Dien_Cl-1
+ No    t        I-Str        Medium            Value (Dev)          W               Tech.       Ref. #
+  1   25         0.1         LiClO4           lgK:3.71(3SF)         4               MGL         6784
+  2   25        0.32         LiClO4           lgK:3.60(3SF)         4               MGL         6784
+  3   35         0.1         LiClO4           lgK:3.68(3SF)         4               MGL         6784
+  4   35        0.32         LiClO4           lgK:3.61(3SF)         4               MGL         6784
+
+
+Reaction No. 53819
+4<NO2-1> + Pt+4 = Pt+4_NO2-1(4)
+ No    t        I-Str        Medium            Value (Dev)          W               Tech.       Ref. #
+  1   25                                      lgK:19.6(3SF)         4               MEF          931
+
+
+Reaction No. 54214
+Pt+2_Cl-1(2) + Cl-1 = Pt+2_Cl-1(3)
+ No     t        I-Str           Medium              Value (Dev)                W      Tech.     Ref. #
+ 1     25          0          Inf. Dilution          lgK:3.0(2SF)               4         MAN     140
+ 2     25          0          Inf. Dilution         lgK:2.96(3SF)               4         ENS     7276
+
+
+
+
+                                          – Page 21 of 57 –
+JESS Thermodynamic Database v8.9                                                Platinum
+
+
+ 3     25         0.32           Na2SO4            lgK:3.3(2SF)            4      MAN        140
+ 4     25         0.32           NaNO3             lgK:3.27(3SF)           4      MAN        140
+ 5     25         0.5            HClO4             lgK:3.0(2SF)            5      MAX        931
+ 6     25         0.5            HClO4             lgK:2.96(3SF)           5      MSP       6756
+ 7     35                                          lgK:5.52(3SF)           3      MGL        931
+ 8     45                                          lgK:4.06(3SF)           3      MGL        931
+ 9     55                                          lgK:3.13(3SF)           3      MGL        931
+ 10   35:55                                        dH:-31.2(3SF)           3      MTD        931
+ 11    25         0.5             DMSO             lgK:2.55(3SF)           5      MEF       6751
+                                  KNO3
+ 12    25         0.5             DMSO             lgK:2.55(3SF)           5      MIS       6751
+                                  KNO3
+
+
+Reaction No. 54215
+Pt+4_Cl-1(4) + Cl-1 = Pt+4_Cl-1(5)
+ No        t        I-Str       Medium         Value (Dev)         W           Tech.       Ref. #
+  1    25:55                                  lgK:3.70(3SF)        0            MGL         931
+
+
+Reaction No. 54302
+Pt+2_Br-1(3) + Br-1 = Pt+2_Br-1(4)
+ No        t       I-Str       Medium          Value (Dev)             W        Tech.      Ref. #
+ 1         15      0.318       NaNO3          lgK:2.76(3SF)            4         MAN        931
+ 2     17:18         0.1        KNO3           lgK:2.5(2SF)            4         MAN        140
+ 3     17:18         0.1        KNO3          lgK:2.62(3SF)            4         MAN        140
+ 4         25        0.1        KNO3           lgK:2.5(2SF)            4         MAN        140
+ 5         25      0.318       NaNO3          lgK:2.58(3SF)            4         MAN        931
+ 6         25        0.5       HClO4         lgK:2.7(0.1SD)            5         MSP        5398
+ 7         35        0.5       HClO4         lgK:2.6(0.1SD)            5         MSP        5398
+ 8         40      0.318       NaNO3          lgK:2.40(3SF)            4         MAN        931
+
+
+Reaction No. 54303
+2<Pt+2_Br-1(3)> = Pt+2(2)_Br-1(6)
+ No        t         I-Str      Medium         Value (Dev)         W           Tech.       Ref. #
+  1    15:40         0.318       NaNO3         lgK:1.0(2SF)        3            MAN         931
+
+
+Reaction No. 54304
+Pt+2_NH3(2) + Br-1 = Pt+2_NH3(2)_Br-1
+ No    t        I-Str        Medium           Value (Dev)          W           Tech.       Ref. #
+
+
+
+
+                                          – Page 22 of 57 –
+JESS Thermodynamic Database v8.9                                         Platinum
+
+
+  1   25        0.05          Unknown        lgK:4.05(3SF)      4        MAN         931
+  2   35        0.05          Unknown        lgK:3.82(3SF)      4        MAN         931
+
+
+Reaction No. 54305
+Pt+2_NH3(2) + 2<Br-1> = Pt+2_NH3(2)_Br-1(2)
+ No        t          I-Str      Medium          Value (Dev)        W    Tech.      Ref. #
+ 1         25         0.05       Unknown        lgK:3.02(3SF)       4     MAN        931
+ 2         35         0.05       Unknown        lgK:2.92(3SF)       4     MAN        931
+ 3     25:35          0.05       Unknown         dH:-4.(1SF)        4     MTD        931
+
+
+Reaction No. 54306
+Pt+2_Dien + Br-1 = Pt+2_Dien_Br-1
+ No    t        I-Str         Medium          Value (Dev)       W       Tech.       Ref. #
+  1   25        0.318         NaNO3          lgK:4.3(2SF)       4       MAN          931
+  2   25                                     lgK:4.02(3SF)      3       MAN          931
+  3   35                                     lgK:4.07(3SF)      3       MAN          931
+
+
+Reaction No. 54307
+Pt+4_Br-1(5) + Br-1 = Pt+4_Br-1(6)
+ No        t          I-Str     Medium          Value (Dev)         W    Tech.      Ref. #
+ 1         25          0.2      H2SO4         lgK:3.5(0.04SD)       5     MIS        5398
+ 2         25           1       HClO4         lgK:3.3(0.1SD)        5     MSP        5398
+ 3    25:55                                    lgK:2.4(2SF)         3     MAN         931
+ 4         42           3       H2SO4         lgK:3.3(0.04SD)       5     MIS        5398
+ 5         50          0.2      H2SO4         lgK:2.6(0.04SD)       5     MIS        5398
+ 6         50           3       H2SO4         lgK:3.2(0.04SD)       5     MIS        5398
+ 7         50                                  lgK:2.85(3SF)        0     MAN         931
+ 8         55           3       H2SO4         lgK:3.1(0.04SD)       5     MIS        5398
+ 9         60          0.2      H2SO4         lgK:2.4(0.04SD)       5     MIS        5398
+ 10        60           3       H2SO4         lgK:3.0(0.04SD)       5     MIS        5398
+ 11        70           3       H2SO4         lgK:2.9(0.04SD)       5     MIS        5398
+
+
+Reaction No. 54355
+Pt+2_I-1(3) + I-1 = Pt+2_I-1(4)
+ No    t        I-Str         Medium          Value (Dev)       W       Tech.       Ref. #
+  1   25          1           NaClO4         lgK:1.70(3SF)      5       MSP          931
+
+
+
+
+                                           – Page 23 of 57 –
+JESS Thermodynamic Database v8.9                                   Platinum
+
+
+Reaction No. 54356
+Pt+2_I-1(2) + I-1 = Pt+2_I-1(3)
+ No    t     I-Str       Medium           Value (Dev)     W       Tech.       Ref. #
+  1   25     0.001       Unknown         lgK:3.5(2SF)     5        MSP         931
+
+
+Reaction No. 54357
+Pt+4_I-1(3) + I-1 = Pt+4_I-1(4)
+ No    t     I-Str       Medium          Value (Dev)      W       Tech.       Ref. #
+  1    25                               lgK:4.8(2SF)      3       MSC          931
+
+
+Reaction No. 54358
+Pt+4_I-1(4) + I-1 = Pt+4_I-1(5)
+ No    t     I-Str       Medium          Value (Dev)      W       Tech.       Ref. #
+  1    25                               lgK:4.4(2SF)      3       MSC          931
+
+
+Reaction No. 54359
+Pt+4_I-1(5) + I-1 = Pt+4_I-1(6)
+ No    t     I-Str       Medium          Value (Dev)      W       Tech.       Ref. #
+  1    25                               lgK:3.4(2SF)      3       MSC          931
+
+
+Reaction No. 54360
+Pt+4_I-1(6) = Pt+2_I-1(4) + I2
+ No    t     I-Str       Medium          Value (Dev)      W       Tech.       Ref. #
+  1    25                               lgK:8.1(2SF)      3       MSC          931
+
+
+Reaction No. 54361
+Pt+4_OH-1(6) + I-1 = Pt+4_I-1_OH-1(5) + OH-1
+ No    t     I-Str      Medium           Value (Dev)          W   Tech.       Ref. #
+  1   25      0.1         KI           lgR:-1.57(3SF)         4    MAN         931
+
+
+Reaction No. 54362
+Pt+4_I-1_OH-1(5) + I-1 = Pt+4_I-1(2)_OH-1(4) + OH-1
+ No    t     I-Str      Medium           Value (Dev)          W   Tech.       Ref. #
+  1   25      0.1         KI           lgR:-1.82(3SF)         4    MAN         931
+
+
+Reaction No. 54363
+Pt+4_I-1(2)_OH-1(4) + I-1 = Pt+4_I-1(3)_OH-1(3) + OH-1
+ No    t     I-Str      Medium           Value (Dev)          W   Tech.       Ref. #
+
+
+
+
+                                      – Page 24 of 57 –
+JESS Thermodynamic Database v8.9                                                       Platinum
+
+
+  1    25            0.1         KI            lgR:-1.87(3SF)             4           MAN          931
+
+
+Reaction No. 54364
+Pt+4_I-1(3)_OH-1(3) + I-1 = Pt+4_I-1(4)_OH-1(2) + OH-1
+ No       t      I-Str         Medium            Value (Dev)              W           Tech.       Ref. #
+  1    25            0.1         KI            lgR:-2.00(3SF)             4           MAN          931
+
+
+Reaction No. 54365
+Pt+4_I-1(4)_OH-1(2) + I-1 = Pt+4_I-1(5)_OH-1 + OH-1
+ No       t      I-Str         Medium            Value (Dev)              W           Tech.       Ref. #
+  1    25            0.1         KI            lgR:-2.38(3SF)             4           MAN          931
+
+
+Reaction No. 54366
+Pt+4_I-1(5)_OH-1 + I-1 = Pt+4_I-1(6) + OH-1
+ No       t      I-Str         Medium            Value (Dev)              W           Tech.       Ref. #
+  1    25            0.1         KI            lgR:-3.38(3SF)             4           MAN          931
+
+
+Reaction No. 54415
+Pt+4_I-1(4) + I-1 = Pt+2_I-1(3) + I2
+ No        t         I-Str      Medium           Value (Dev)          W           Tech.           Ref. #
+  1       25                                    lgK:0.8(1SF)          3               MSC          931
+
+
+Reaction No. 54465
+4<NH3> + Pt+2 = Pt+2_NH3(4)
+ No   t        I-Str              Medium              Value (Dev)             W        Tech.      Ref. #
+ 1    18         1                 KNO3              lgK:35.3(3SF)            3         MEF         140
+ 2    25         0            Inf. Dilution          lgK:35.5(3SF)            1         EES
+
+
+Reaction No. 54663
+PtO2(s) + 2<H+1> + 2<e-1> = Pt+2_OH-1(2)_(s)
+ No   t        I-Str             Medium               Value (Dev)             W         Tech.      Ref. #
+ 1    25         0           Inf. Dilution           lgK:35.7(3SF)            1             ELC
+ 2    25         0           Inf. Dilution          lgK:37.0(0.1SD)           0             ENS     778
+
+
+Reaction No. 54664
+PtO2(s) + 2<e-1> + 2<H+1> = PtO(s) + H2O
+ No   t        I-Str            Medium                Value (Dev)                 W     Tech.      Ref. #
+ 1    25         0           Inf. Dilution         lgK:35.3(0.05SD)               4         ENS     778
+
+
+
+
+                                              – Page 25 of 57 –
+JESS Thermodynamic Database v8.9                                               Platinum
+
+
+ 2    25        0       Inf. Dilution            E:1.045(4SF)             4      CRV       22551
+Note (2): Reaction in source unbalanced
+
+
+Reaction No. 54665
+Pt+4_Cl-1(2)_CN-1(4) + 2<e-1> = Pt+2_CN-1(4) + 2<Cl-1>
+ No       t     I-Str      Medium            Value (Dev)          W           Tech.       Ref. #
+  1    25           1       KCl            E:0.89(0.01SD)         6           MEF          775
+
+
+Reaction No. 54692
+Pt+2_OH-1(2)_(s) = Pt(s) + H2(g) + O2(g)
+ No   t       I-Str          Medium               Value (Dev)         W         Tech.     Ref. #
+ 1    25        0        Inf. Dilution          lgK:-50.4(3SF)        1          ELC
+ 2    25        0        Inf. Dilution          dG:68.2(0.1SD)        0          ENS       5253
+
+
+Reaction No. 55675
+Pt(s) + 2<Cl2(g)> = Pt+2_Cl-1(4) - 2<e-1>
+ No   t       I-Str          Medium               Value (Dev)         W        Tech.      Ref. #
+ 1    25        0         Inf. Dilution          lgK:65.9(3SF)        1         ELC
+ 2    25        0         Inf. Dilution          dG:-92.(1.SD)        0         CMN        5253
+
+
+Reaction No. 55676
+3<Cl2(g)> + Pt(s) + 2<e-1> = Pt+4_Cl-1(6)
+ No   t       I-Str        Medium                 Value (Dev)             W     Tech.     Ref. #
+ 1    25        0       Inf. Dilution           lgK:88.4(3SF)             1      ELC
+ 2    25        0       Inf. Dilution           dG:-120.(2.SD)            0      CMN       5253
+ 3    25        0       Inf. Dilution          dG:-482.7(4SF)kJ           0      CRV       7421
+
+
+Reaction No. 55677
+Pt(s) + 1.5<O2(g)> = PtO3(s)
+ No   t       I-Str        Medium                Value (Dev)              W     Tech.      Ref. #
+ 1    25        0       Inf. Dilution           lgK:-1.2(2SF)             1      ELC
+ 2    25        0       Inf. Dilution         dG:-16.01(0.02SD)           0      ENS        5253
+
+
+Reaction No. 55678
+Pt(s) + O2(g) = PtO2(s)
+ No   t       I-Str        Medium                Value (Dev)              W     Tech.      Ref. #
+ 1    25        0       Inf. Dilution         dG:-20.01(0.02SD)           6      ENS        5253
+
+
+
+
+                                          – Page 26 of 57 –
+JESS Thermodynamic Database v8.9                                    Platinum
+
+
+Reaction No. 55679
+Pt(s) + 0.5<O2(g)> = PtO(s)
+ No   t     I-Str        Medium               Value (Dev)       W    Tech.     Ref. #
+ 1    25      0       Inf. Dilution        dG:-11.50(0.02SD)    6     ENS       5253
+
+
+Reaction No. 57771
+Cl2(g) + Pt(s) = Pt+2_Cl-1(2)_(s)
+ No    t     I-Str        Medium               Value (Dev)      W    Tech.     Ref. #
+ 1    25          0    Inf. Dilution          lgK:16.33(4SF)    4     ENS       6422
+ 2    27          0    Inf. Dilution          lgK:16.22(4SF)    0     ENS       6422
+ 3    127         0    Inf. Dilution          lgK:11.61(4SF)    4     ENS       6422
+ 4    227         0    Inf. Dilution          lgK:8.888(4SF)    3     ENS       6422
+ 5    327         0    Inf. Dilution          lgK:7.108(4SF)    0     ENS       6422
+ 6    25          0    Inf. Dilution          dG:-23.(2.SD)     3     ENS       869
+ 7    25          0    Inf. Dilution          dG:-22.28(4SF)    4     EFE       6422
+ 8    25          0    Inf. Dilution         dH:-123.4(4SF)kJ   3     CRV       6330
+ 9    25          0    Inf. Dilution          dH:-25.5(3SF)     3     MTD       6422
+ 10   127         0    Inf. Dilution          dH:-25.1(3SF)     4     MTD       6422
+ 11   227         0    Inf. Dilution          dH:-24.7(3SF)     3     MTD       6422
+ 12   327         0    Inf. Dilution          dH:-24.2(3SF)     0     MTD       6422
+
+
+Reaction No. 57772
+2<Cl2(g)> + Pt(s) = Pt+4_Cl-1(4)_(s)
+ No    t     I-Str        Medium               Value (Dev)      W    Tech.     Ref. #
+ 1    25          0    Inf. Dilution          lgK:28.68(4SF)    4     ENS       6422
+ 2    27          0    Inf. Dilution          lgK:28.43(4SF)    0     ENS       6422
+ 3    127         0    Inf. Dilution          lgK:18.53(4SF)    2     ENS       6422
+ 4    25          0    Inf. Dilution          dG:-41.(2.SD)     2     ENS       869
+ 5    25          0    Inf. Dilution          dG:-39.12(4SF)    4     EFE       6422
+ 6    25          0    Inf. Dilution         dH:-231.8(4SF)kJ   3     CRV       6330
+ 7    25          0    Inf. Dilution          dH:-54.8(3SF)     4     MTD       6422
+ 8    127         0    Inf. Dilution          dH:-53.8(3SF)     2     MTD       6422
+
+
+Reaction No. 57773
+6<H2(g)> + 2<N2(g)> + Pt(s) - 2<e-1> = Pt+2_NH3(4)
+ No   t     I-Str         Medium               Value (Dev)      W    Tech.     Ref. #
+ 1    25      0       Inf. Dilution           lgK:13.9(3SF)     1     ELC
+
+
+
+
+                                       – Page 27 of 57 –
+JESS Thermodynamic Database v8.9                                        Platinum
+
+
+ 2    25     0        Inf. Dilution            dG:-14.(1.SD)        0      ENS       869
+ 3    25     0        Inf. Dilution           dG:-52.9(3SF)kJ       0      CRV      7421
+
+
+Reaction No. 57774
+Pt(s) + 1.5<N2(g)> + 4.5<H2(g)> + 0.5<Cl2(g)> = Pt+2_NH3(3)_Cl-1 + e-1
+ No   t    I-Str          Medium                Value (Dev)         W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           dG:-26.(2.SD)        3     ENS        869
+
+
+Reaction No. 57775
+Pt(s) + 0.5<N2(g)> + 1.5<H2(g)> + 1.5<Cl2(g)> = Pt+4_NH3_Cl-1(3) + e-1
+ No   t    I-Str          Medium                Value (Dev)         W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           dG:-72.(2.SD)        3     ENS        869
+
+
+Reaction No. 57776
+Pt(s) + 2<N2(g)> + 6<H2(g)> + Cl2(g) = Pt+4_NH3(4)_Cl-1(2) + 2<e-1 >
+ No   t    I-Str          Medium                Value (Dev)         W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           dG:-49.(2.SD)        3     ENS        869
+
+
+Reaction No. 57777
+Pt(s) + 0.5<N2(g)> + 1.5<H2(g)> + 2.5<Cl2(g)> = Pt+4_NH3_Cl-1(5) - e-1
+ No   t    I-Str          Medium                Value (Dev)         W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution           dG:-102.(2.SD)        3     ENS        869
+
+
+Reaction No. 57778
+Pt(s) + 1.5<N2(g)> + 4.5<H2(g)> + 1.5<Cl2(g)> = Pt+4_NH3(3)_Cl-1(3) + e-1
+ No   t    I-Str          Medium                Value (Dev)         W    Tech.     Ref. #
+ 1    25     0         Inf. Dilution           dG:-59.(2.SD)        3     ENS        869
+
+
+Reaction No. 57811
+SCN-1 + Pt+2_NH3(4) = Pt+2_NH3(4)_SCN-1
+ No    t    I-Str      Medium              Value (Dev)          W       Tech.      Ref. #
+  1   25         1     Na(F)           lgK:0.04(0.01SD)         5        MCL        6552
+  2   25         1     Na(F)              dH:-3.0(0.1SD)        5        MCL        5398
+
+
+Reaction No. 57814
+Pt+2_NH3(4) + SO4-2 = Pt+2_NH3(4)_SO4-2
+ No    t     I-Str     Medium              Value (Dev)          W       Tech.      Ref. #
+  1   25         1      Na(F)          lgK:0.7(0.05SD)          5       MSL        5003
+
+
+
+
+                                       – Page 28 of 57 –
+JESS Thermodynamic Database v8.9                                           Platinum
+
+
+
+Reaction No. 57826
+Pt+2_NH3(4) + Cl-1 = Pt+2_NH3(4)_Cl-1
+ No    t       I-Str       Medium           Value (Dev)           W       Tech.       Ref. #
+  1   25            1      Na(F)          lgK:-0.2(0.04SD)        5        MSL         5003
+
+
+Reaction No. 57842
+Pt+2_Br-1(2) + Br-1 = Pt+2_Br-1(3)
+ No       t     I-Str       Medium           Value (Dev)          W       Tech.       Ref. #
+  1    25           0.5     HClO4          lgK:3.6(0.1SD)         5       MSP         5398
+  2    35           0.5     HClO4          lgK:3.4(0.1SD)         5       MSP         5398
+
+
+Reaction No. 57843
+Pt+2 + 2<Br-1> = Pt+2_Br-1(2)
+ No    t       I-Str        Medium           Value (Dev)          W       Tech.       Ref. #
+  1   25        0.5         HClO4           lgK:9.0(0.1SD)        5        MSP         5398
+  2   25            1      Unknown           lgK:9.7(2SF)         5        CRV         2556
+  3   35        0.5         HClO4           lgK:8.9(0.1SD)        5        MSP         5398
+
+
+Reaction No. 57844
+Pt+2 + 3<Br-1> = Pt+2_Br-1(3)
+ No    t       I-Str       Medium            Value (Dev)          W       Tech.       Ref. #
+  1   25        0.5         HClO4          lgK:12.6(0.1SD)        5        MSP         5398
+  2   25            1      Unknown          lgK:13.3(3SF)         5        CRV         2556
+  3   35        0.5         HClO4          lgK:12.3(0.1SD)        5        MSP         5398
+
+
+Reaction No. 57845
+4<Br-1> + Pt+2 = Pt+2_Br-1(4)
+ No   t       I-Str          Medium               Value (Dev)         W     Tech.     Ref. #
+ 1    18        1             NaNO3              lgK:20.4(3SF)        0      MEF        140
+ 2    25        0         Inf. Dilution          lgK:15.5(3SF)        1      EDH
+ 3    25        0         Inf. Dilution          lgK:18.(2SF)         0      MDG        140
+ 4    25        0         Inf. Dilution          lgK:20.5(3SF)        0      MDG        140
+ 5    25       0.5            HClO4             lgK:14.9(0.1SD)       5      MSP       5398
+ 6    25        1            Unknown             lgK:16.1(3SF)        0      CRV       2556
+ 7    35       0.5            HClO4             lgK:15.4(0.1SD)       5      MSP       5398
+
+
+
+
+                                          – Page 29 of 57 –
+JESS Thermodynamic Database v8.9                                        Platinum
+
+
+Reaction No. 57846
+Pt+2_Br-1(2)_(cis) = Pt+2_Br-1(2)_(trans)
+ No        t         I-Str      Medium         Value (Dev)         W    Tech.      Ref. #
+ 1    25:35           0.5       HClO4       lgK:-0.3(0.04SD)       5     MKN        5398
+
+
+Reaction No. 57847
+Pt+2_Br-1(2)_(cis) + Br-1 = Pt+2_Br-1(3)
+ No        t         I-Str       Medium        Value (Dev)         W    Tech.      Ref. #
+ 1     25:35           0.5       HClO4       lgK:3.9(0.1SD)        5     MKN        5398
+
+
+Reaction No. 57848
+Pt+2_Br-1(2)_(trans) + Br-1 = Pt+2_Br-1(3)
+ No    t       I-Str          Medium         Value (Dev)       W       Tech.       Ref. #
+  1   25        0.5           HClO4        lgK:3.6(0.1SD)      5       MKN         5398
+  2   35        0.5           HClO4        lgK:3.5(0.1SD)      5       MKN         5398
+
+
+Reaction No. 57849
+Br-1 + Pt+2_NH3(4) = Pt+2_NH3(4)_Br-1
+ No   t        I-Str         Medium         Value (Dev)        W       Tech.       Ref. #
+  1   25         1           Na(F)        lgK:0.28(0.01SD)     4        MSL         5003
+  2   25         1           Na(F)         lgK:0.5(0.1SD)      4        MCL         6552
+  3   25         1           Na(F)         dH:-1.3(0.1SD)      4        MCL         6552
+
+
+Reaction No. 57850
+Pt+4_Br-1(3) + Br-1 = Pt+4_Br-1(4)
+ No    t       I-Str         Medium          Value (Dev)       W       Tech.       Ref. #
+  1   25         1            HClO4       lgK:5.0(0.04SD)      5        MSP         5398
+
+
+Reaction No. 57851
+Pt+4_Br-1(4) + Br-1 = Pt+4_Br-1(5)
+ No    t       I-Str          Medium         Value (Dev)       W       Tech.       Ref. #
+  1   25         1            HClO4        lgK:4.0(0.1SD)      5       MSP         5398
+
+
+Reaction No. 57865
+Pt+2_Cl-1(2)_CN-1(2)_(trans) + Br-1 = Pt+2_Br-1_Cl-1_CN-1(2) + Cl-1
+ No    t       I-Str         Medium          Value (Dev)       W       Tech.       Ref. #
+  1   25         1           NaClO4       lgK:2.4(0.04SD)      5        MSP         5398
+
+
+
+
+                                          – Page 30 of 57 –
+JESS Thermodynamic Database v8.9                                        Platinum
+
+
+Reaction No. 57866
+Pt+2_Br-1_Cl-1_CN-1(2) + Br-1 = Pt+2_Br-1(2)_CN-1(2) + Cl-1
+ No    t       I-Str     Medium            Value (Dev)         W       Tech.       Ref. #
+  1   25            1    NaClO4         lgK:1.8(0.04SD)        5        MSP         5398
+
+
+Reaction No. 57867
+4<CN-1> + Pt+2 = Pt+2_CN-1(4)
+ No   t       I-Str         Medium              Value (Dev)        W     Tech.     Ref. #
+ 1    18        1             NaNO3             lgK:41.(2SF)       4      MPT        140
+ 2    25        0       Inf. Dilution          lgK:41.0(3SF)       1      ESC
+
+
+Reaction No. 58005
+Pt+4_Cl-1(6) = Pt+4_Cl-1(4) + 2<Cl-1>
+ No       t    I-Str     Medium            Value (Dev)         W       Tech.       Ref. #
+  1    25           0      KCl           lgK:-6.(0.5SD)        4        MPT         5607
+  2    35           0      KCl           lgK:-6.(0.5SD)        4        MPT         5607
+
+
+Reaction No. 58599
+Pt+2 + 4<Cl-1> = Pt+2_Cl-1(4)
+ No   t       I-Str        Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    18        1           NaNO3              lgK:16.6(3SF)       0      MGL        140
+ 2    25        0       Inf. Dilution          lgK:14.1(3SF)       1      ELC
+ 3    25        0       Inf. Dilution          lgK:16.(2SF)        0      MDG        140
+ 4    25      0.5:1         HClO4             lgK:13.99(4SF)       0      ENS       4282
+ 5    25        1          Unknown             lgK:14.0(3SF)       2      CRV        552
+ 6    25        1          Unknown             lgK:14.0(3SF)       2      ENS       6496
+
+
+Reaction No. 58738
+Pt+4_EtDiAm(3) + ClO4-1 = Pt+4_EtDiAm(3)_ClO4-1
+ No    t       I-Str      Medium            Value (Dev)        W       Tech.       Ref. #
+  1   20        0.15     Unknown          lgK:0.74(2SF)        3        MSP         140
+
+
+Reaction No. 58739
+ClO4-1 + Pt+4 = Pt+4_ClO4-1
+ No       t     I-Str     Medium           Value (Dev)         W       Tech.       Ref. #
+  1    23                                 lgK:-0.9(1SF)        0       MCE          140
+
+
+
+
+                                        – Page 31 of 57 –
+JESS Thermodynamic Database v8.9                                          Platinum
+
+
+Reaction No. 58811
+2<I-1> + Pt+2 = Pt+2_I-1(2)
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    18        1             NaNO3              lgK:29.6(3SF)       0      MEF        140
+ 2    25        0         Inf. Dilution          lgK:25.3(3SF)       1      ELC
+ 3    25        1            Unknown              lgK:25.(2SF)       0      CRV       2556
+
+
+Reaction No. 59289
+Cys-2 + Pt+4 = Pt+4_Cys-2
+ No    t       I-Str       Medium            Value (Dev)         W       Tech.       Ref. #
+  1   15        0.1         KNO3           lgK:13.40(4SF)        0        MGL         905
+  2   30        0.1         KNO3           lgK:18.50(4SF)        0        MGL         905
+
+
+Reaction No. 59290
+2<Cys-2> + Pt+4 = Pt+4_Cys-2(2)
+ No    t       I-Str       Medium            Value (Dev)         W       Tech.       Ref. #
+  1   15        0.1         KNO3           lgK:18.65(4SF)        0        MGL         905
+  2   30        0.1         KNO3           lgK:18.50(4SF)        0        MGL         905
+
+
+Reaction No. 59565
+Asn-1 + Pt+4 = Pt+4_Asn-1
+ No       t     I-Str      Medium            Value (Dev)         W       Tech.       Ref. #
+  1    25           0.1    NaClO4           lgK:7.98(3SF)        4       MGL          905
+
+
+Reaction No. 59566
+2<Asn-1> + Pt+4 = Pt+4_Asn-1(2)
+ No    t       I-Str       Medium            Value (Dev)         W       Tech.       Ref. #
+  1   25        0.1        NaClO4          lgK:11.50(4SF)        4        MGL         905
+
+
+Reaction No. 59610
+Gln-1 + Pt+4 = Pt+4_Gln-1
+ No       t     I-Str      Medium            Value (Dev)         W       Tech.       Ref. #
+  1    25           0.1    NaClO4           lgK:7.31(3SF)        4       MGL          905
+
+
+Reaction No. 59611
+2<Gln-1> + Pt+4 = Pt+4_Gln-1(2)
+ No    t       I-Str       Medium            Value (Dev)         W       Tech.       Ref. #
+
+
+
+
+                                          – Page 32 of 57 –
+JESS Thermodynamic Database v8.9                                         Platinum
+
+
+  1    25       0.1       NaClO4          lgK:10.46(4SF)        4        MGL         905
+
+
+Reaction No. 60625
+4<SO3-2> + Pt+2 = Pt+2_SO3-2(4)
+ No   t       I-Str         Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0        Inf. Dilution         lgK:35.48(4SF)       1      EOR
+ 2    25       0.7          Unknown             lgK:37.9(3SF)       4      CRV       2556
+
+
+Reaction No. 60734
+I-1 + Pt+2 = Pt+2_I-1
+ No    t       I-Str       Medium            Value (Dev)        W       Tech.       Ref. #
+  1   25            1     Unknown          lgK:4.98(3SF)        4        CRV         2556
+
+
+Reaction No. 60735
+3<I-1> + Pt+2 = Pt+2_I-1(3)
+ No       t     I-Str       Medium           Value (Dev)        W       Tech.       Ref. #
+  1    25            1     Unknown          lgK:28.(2SF)        3       CRV         2556
+
+
+Reaction No. 65717
+4<SCN-1> + Pt+2 = Pt+2_SCN-1(4)
+ No    t       I-Str       Medium            Value (Dev)        W       Tech.       Ref. #
+  1   25        0.5       Unknown          lgK:33.6(3SF)        6        CRV         552
+
+
+Reaction No. 65806
+4<NO2-1> + Pt+2 = Pt+2_NO2-1(4)
+ No    t       I-Str       Medium            Value (Dev)        W       Tech.       Ref. #
+  1   25        0.5       Unknown          lgK:24.1(3SF)        6        CRV         552
+
+
+Reaction No. 65916
+4<S2O3-2> + Pt+2 = Pt+2_S2O3-2(4)
+ No   t       I-Str         Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0        Inf. Dilution         lgK:41.33(4SF)       1      EOR
+ 2    25       0.5          Unknown             lgK:43.7(3SF)       6      CRV        552
+
+
+Reaction No. 65970
+2<Cl-1> + Pt+2 = Pt+2_Cl-1(2)
+ No       t     I-Str       Medium           Value (Dev)        W       Tech.       Ref. #
+  1    25            1     Unknown          lgK:9.0(2SF)        6       CRV          552
+
+
+
+
+                                         – Page 33 of 57 –
+JESS Thermodynamic Database v8.9                                        Platinum
+
+
+  2    25         1      Unknown          lgK:9.0(2SF)         4       ENS         6496
+
+
+Reaction No. 65986
+4<I-1> + Pt+2 = Pt+2_I-1(4)
+ No    t     I-Str       Medium            Value (Dev)         W       Tech.       Ref. #
+  1    25         1     Unknown          lgK:29.6(3SF)         4       CRV          552
+
+
+Reaction No. 67172
+Br2(l) + Pt(s) = Pt+2_Br-1(2)_(s)
+ No    t    I-Str         Medium               Value (Dev)         W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:10.26(4SF)       3         ENS    6422
+ 2    27      0        Inf. Dilution          lgK:10.15(4SF)       0         ENS    6422
+ 3    127     0        Inf. Dilution          lgK:4.977(4SF)       0         ENS    6422
+ 4    227     0        Inf. Dilution          lgK:1.604(4SF)       0         ENS    6422
+ 5    327     0        Inf. Dilution         lgK:-0.615(3SF)       0         ENS    6422
+ 6    25      0        Inf. Dilution          dG:-13.99(4SF)       3         EFE    6422
+ 7    25      0        Inf. Dilution         dH:-82.0(3SF)kJ       2         CRV    6330
+ 8    25      0        Inf. Dilution          dH:-24.00(4SF)       2         MTD    6422
+ 9    27      0        Inf. Dilution          dH:-24.01(4SF)       0         MTD    6422
+ 10   127     0        Inf. Dilution          dH:-31.04(4SF)       0         MTD    6422
+ 11   227     0        Inf. Dilution          dH:-30.66(4SF)       0         MTD    6422
+ 12   327     0        Inf. Dilution          dH:-30.25(4SF)       0         MTD    6422
+
+
+Reaction No. 67173
+1.5<Br2(l)> + Pt(s) = PtBr3(s)
+ No    t    I-Str             Medium            Value (Dev)        W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:14.66(4SF)       4      ENS       6422
+ 2    27      0        Inf. Dilution          lgK:14.51(4SF)       4      ENS       6422
+ 3    127     0        Inf. Dilution          lgK:7.610(4SF)       4      ENS       6422
+ 4    227     0        Inf. Dilution          lgK:3.061(4SF)       4      ENS       6422
+ 5    327     0        Inf. Dilution          lgK:0.068(2SF)       4      ENS       6422
+ 6    25      0        Inf. Dilution          dG:-19.99(4SF)       4      EFE       6422
+ 7    25      0        Inf. Dilution          dH:-31.30(4SF)       4      MTD       6422
+ 8    27      0        Inf. Dilution          dH:-31.31(4SF)       4      MTD       6422
+ 9    127     0        Inf. Dilution          dH:-41.87(4SF)       4      MTD       6422
+ 10   227     0        Inf. Dilution          dH:-41.35(4SF)       4      MTD       6422
+ 11   327     0        Inf. Dilution          dH:-40.78(4SF)       4      MTD       6422
+
+
+
+
+                                       – Page 34 of 57 –
+JESS Thermodynamic Database v8.9                                      Platinum
+
+
+
+Reaction No. 67174
+2<Br2(l)> + Pt(s) = Pt+4_Br-1(4)_(s)
+ No    t    I-Str         Medium                 Value (Dev)      W    Tech.     Ref. #
+ 1    25      0       Inf. Dilution             lgK:18.32(4SF)    3     ENS       6422
+ 2    27      0       Inf. Dilution             lgK:18.15(4SF)    0     ENS       6422
+ 3    127     0       Inf. Dilution             lgK:9.629(4SF)    0     ENS       6422
+ 4    227     0       Inf. Dilution             lgK:3.994(4SF)    0     ENS       6422
+ 5    25      0       Inf. Dilution             dG:-24.99(4SF)    3     EFE       6422
+ 6    25      0       Inf. Dilution            dH:-156.5(4SF)kJ   0     CRV       6330
+ 7    25      0       Inf. Dilution             dH:-38.00(4SF)    3     MTD       6422
+ 8    27      0       Inf. Dilution             dH:-38.02(4SF)    3     MTD       6422
+ 9    127     0       Inf. Dilution             dH:-52.00(4SF)    0     MTD       6422
+ 10   227     0       Inf. Dilution             dH:-51.03(4SF)    0     MTD       6422
+
+
+Reaction No. 67175
+1.5<Cl2(g)> + Pt(s) = Pt+3_Cl-1(3)_(s)
+ No    t    I-Str         Medium                 Value (Dev)      W    Tech.     Ref. #
+ 1    25      0       Inf. Dilution             lgK:22.71(4SF)    4     ENS       6422
+ 2    27      0       Inf. Dilution             lgK:22.53(4SF)    0     ENS       6422
+ 3    127     0       Inf. Dilution             lgK:15.29(4SF)    4     ENS       6422
+ 4    227     0       Inf. Dilution             lgK:11.07(4SF)    2     ENS       6422
+ 5    25      0       Inf. Dilution             dG:-30.98(4SF)    4     EFE       6422
+ 6    25      0       Inf. Dilution            dH:-182.0(4SF)kJ   3     CRV       6330
+ 7    25      0       Inf. Dilution             dH:-40.20(4SF)    4     MTD       6422
+ 8    27      0       Inf. Dilution             dH:-40.18(4SF)    4     MTD       6422
+ 9    127     0       Inf. Dilution             dH:-39.15(4SF)    4     MTD       6422
+ 10   227     0       Inf. Dilution             dH:-38.17(4SF)    2     MTD       6422
+
+
+Reaction No. 67176
+2<I2(s)> + Pt(s) = Pt+4_I-1(4)_(s)
+ No    t    I-Str         Medium                 Value (Dev)      W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution            lgK:7.888(4SF)    4     ENS      6422
+ 2    27      0        Inf. Dilution            lgK:7.809(4SF)    4     ENS      6422
+ 3    127     0        Inf. Dilution            lgK:4.478(4SF)    4     ENS      6422
+ 4    227     0        Inf. Dilution            lgK:0.867(3SF)    4     ENS      6422
+ 5    327     0        Inf. Dilution           lgK:-2.411(4SF)    4     ENS      6422
+
+
+
+
+                                         – Page 35 of 57 –
+JESS Thermodynamic Database v8.9                                   Platinum
+
+
+ 6    25      0        Inf. Dilution          dG:-10.76(4SF)   4     EFE       6422
+ 7    25      0        Inf. Dilution          dH:-17.40(4SF)   4     MTD       6422
+ 8    127     0        Inf. Dilution          dH:-25.24(4SF)   4     MTD       6422
+ 9    227     0        Inf. Dilution          dH:-45.54(4SF)   4     MTD       6422
+ 10   327     0        Inf. Dilution          dH:-44.36(4SF)   4     MTD       6422
+
+
+Reaction No. 67177
+Pt(s) + S(s) = Pt+2_S-2_(s)
+ No    t    I-Str             Medium            Value (Dev)    W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:13.58(4SF)   4     ENS      6422
+ 2    27      0        Inf. Dilution          lgK:13.50(4SF)   0     ENS      6422
+ 3    127     0        Inf. Dilution          lgK:9.857(4SF)   2     ENS      6422
+ 4    227     0        Inf. Dilution          lgK:7.597(4SF)   1     ENS      6422
+ 5    327     0        Inf. Dilution          lgK:6.061(4SF)   0     ENS      6422
+ 6    25      0        Inf. Dilution          dG:-18.53(4SF)   4     EFE      6422
+ 7    25      0        Inf. Dilution          dH:-19.86(4SF)   4     MTD      6422
+ 8    127     0        Inf. Dilution          dH:-20.50(4SF)   1     MTD      6422
+ 9    227     0        Inf. Dilution          dH:-20.93(4SF)   0     MTD      6422
+ 10   327     0        Inf. Dilution          dH:-21.24(4SF)   0     MTD      6422
+
+
+Reaction No. 67178
+Pt(s) + 2<S(s)> = Pt+4_S-2(2)_(s)
+ No    t    I-Str             Medium            Value (Dev)    W    Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:17.73(4SF)   4     ENS      6422
+ 2    27      0        Inf. Dilution          lgK:17.61(4SF)   0     ENS      6422
+ 3    127     0        Inf. Dilution          lgK:12.77(4SF)   2     ENS      6422
+ 4    227     0        Inf. Dilution          lgK:9.720(4SF)   1     ENS      6422
+ 5    327     0        Inf. Dilution          lgK:7.634(4SF)   0     ENS      6422
+ 6    25      0        Inf. Dilution          dG:-24.19(4SF)   4     EFE      6422
+ 7    25      0        Inf. Dilution          dH:-26.40(4SF)   4     MTD      6422
+ 8    127     0        Inf. Dilution          dH:-27.58(4SF)   1     MTD      6422
+ 9    227     0        Inf. Dilution          dH:-28.35(4SF)   0     MTD      6422
+ 10   327     0        Inf. Dilution          dH:-28.92(4SF)   0     MTD      6422
+
+
+Reaction No. 67179
+5<Pt(s)> + 4<Se(s)> = Pt5Se4(s)
+ No    t    I-Str             Medium            Value (Dev)    W    Tech.     Ref. #
+
+
+
+
+                                       – Page 36 of 57 –
+JESS Thermodynamic Database v8.9                                        Platinum
+
+
+ 1    25      0        Inf. Dilution          lgK:40.41(4SF)       4      ENS       6422
+ 2    27      0        Inf. Dilution          lgK:40.14(4SF)       4      ENS       6422
+ 3    127     0        Inf. Dilution          lgK:29.54(4SF)       4      ENS       6422
+ 4    227     0        Inf. Dilution          lgK:23.08(4SF)       4      ENS       6422
+ 5    327     0        Inf. Dilution          lgK:18.32(4SF)       4      ENS       6422
+ 6    25      0        Inf. Dilution          dG:-55.12(4SF)       4      EFE       6422
+ 7    25      0        Inf. Dilution          dH:-58.00(4SF)       4      MTD       6422
+ 8    127     0        Inf. Dilution          dH:-58.53(4SF)       4      MTD       6422
+ 9    227     0        Inf. Dilution          dH:-64.80(4SF)       4      MTD       6422
+ 10   327     0        Inf. Dilution          dH:-65.89(4SF)       4      MTD       6422
+
+
+Reaction No. 67855
+Pt+2_EtDiAm(2) + Cl-1 = Pt+2_EtDiAm(2)_Cl-1
+ No    t     I-Str      Medium            Value (Dev)          W       Tech.       Ref. #
+  1    25         1      Na(F)           lgK:0.13(2SF)         5       MSL         5003
+
+
+Reaction No. 67856
+Pt+2_EtDiAm(4) + Br-1 = Pt+2_EtDiAm(4)_Br-1
+ No    t     I-Str      Medium            Value (Dev)          W       Tech.       Ref. #
+  1    25         1      Na(F)           lgK:0.65(2SF)         0       MSL         5003
+
+
+Reaction No. 67857
+Pt+2_EtDiAm(2) + SO4-2 = Pt+2_EtDiAm(2)_SO4-2
+ No    t     I-Str      Medium            Value (Dev)          W       Tech.       Ref. #
+  1    25         1      Na(F)           lgK:0.69(2SF)         5       MSL         5003
+
+
+Reaction No. 67858
+SCN-1 + Pt+2_EtDiAm(2) = Pt+2_EtDiAm(2)_SCN-1
+ No    t     I-Str      Medium            Value (Dev)          W       Tech.       Ref. #
+  1   25       1        Na(F)           lgK:0.55(2SF)          3        MSL         5003
+  2   25       1        Na(F)           lgK:0.199(3SF)         3        MCL         6552
+
+
+Reaction No. 67859
+Pt+2_EtDiAm(2) + ClO4 = Pt+2_ClO4_EtDiAm(2)
+ No    t     I-Str      Medium            Value (Dev)          W       Tech.       Ref. #
+  1    25         1      Na(F)           lgK:0.48(2SF)         5       MSL         5003
+
+
+
+
+                                       – Page 37 of 57 –
+JESS Thermodynamic Database v8.9                                       Platinum
+
+
+Reaction No. 67860
+Pt+2_NH3(4) + ClO4 = Pt+2_ClO4_NH3(4)
+ No    t        I-Str         Medium         Value (Dev)      W       Tech.       Ref. #
+  1   25          1            Na(F)        lgK:0.45(2SF)     5       MSL         5003
+
+
+Reaction No. 67861
+Pt+2_EtDiAm(2)_OH-1 = Pt+2_EtDiAm(2) + OH-1
+ No    t        I-Str         Medium         Value (Dev)      W       Tech.       Ref. #
+  1   25          1            Na(F)        lgK:0.38(2SF)     5       MSL         5003
+
+
+Reaction No. 67912
+Pt+4_NH3(4)_Cl-1 + Cl-1 = Pt+4_NH3(4)_Cl-1(2)
+ No    t        I-Str         Medium         Value (Dev)      W       Tech.       Ref. #
+  1   25          1           Na(F)        lgK:-0.68(2SF)     0        MSL         5003
+
+
+Reaction No. 67913
+Pt+4_NH3(4)_Br-1 + Br-1 = Pt+4_NH3(4)_Br-1(2)
+ No    t        I-Str         Medium         Value (Dev)      W       Tech.       Ref. #
+  1   25          1           Na(F)        lgK:-0.38(2SF)     0        MSL         5003
+
+
+Reaction No. 67914
+Pt+4(2)_Fe+2_NH3(4)_CN-1(6) = Pt+4(2)_NH3(4) + Fe+2_CN-1(6)
+ No    t        I-Str         Medium         Value (Dev)      W       Tech.       Ref. #
+  1   25          1           Na(F)        lgK:-6.84(3SF)     0        MSL         5003
+
+
+Reaction No. 67915
+Pt+4(2)_Fe+2_EtDiAm(4)_CN-1(6) = Pt+4(2)_EtDiAm(4) + Fe+2_CN-1(6)
+ No    t        I-Str         Medium         Value (Dev)      W       Tech.       Ref. #
+  1   25          1           Na(F)        lgK:-8.67(3SF)     0        MSL         5003
+
+
+Reaction No. 68570
+Pt+2_EtDiAm_Cl-1(2) + H2O = Pt+2_EtDiAm_Cl-1_H2O + Cl-1
+ No        t          I-Str      Medium        Value (Dev)        W    Tech.      Ref. #
+  1        25         0.318      NaClO4       lgK:2.66(3SF)       0     MEF        6821
+  2        30         0.318      NaClO4       lgK:2.63(3SF)       0     MEF        6821
+  3        35         0.318      NaClO4       lgK:2.56(3SF)       0     MEF        6821
+  4    25:35          0.318      NaClO4         dH:4.(1SF)        0     MTD        6821
+
+
+
+
+                                          – Page 38 of 57 –
+JESS Thermodynamic Database v8.9                                      Platinum
+
+
+Reaction No. 68571
+Pt+2_EtDiAm_Cl-1 = Pt+2_EtDiAm + Cl-1
+ No        t       I-Str      Medium         Value (Dev)         W    Tech.      Ref. #
+  1        25      0.318      NaClO4        lgK:3.84(3SF)        0     MEF        6821
+  2        30      0.318      NaClO4        lgK:3.83(3SF)        0     MEF        6821
+  3        35      0.318      NaClO4        lgK:3.86(3SF)        0     MEF        6821
+  4    25:35       0.318      NaClO4         dH:-1.(1SF)         0     MTD        6821
+
+
+Reaction No. 68795
+Pt+2_Cl-1 + Cl-1 = Pt+2_Cl-1(2)
+ No    t        I-Str      Medium          Value (Dev)       W       Tech.       Ref. #
+  1   25         0.5       HClO4           lgK:4.(1SF)       5       MSP         6756
+  2   25         0.5        DMSO          lgK:4.22(3SF)      5       MEF          6751
+                            KNO3
+  3   25         0.5        DMSO          lgK:4.22(3SF)      5       MIS          6751
+                            KNO3
+
+
+Reaction No. 68857
+H+1 + Pt+2_Cl-1(2)_OH-1_(trans) = Pt+2_Cl-1(2)_H2O_(trans)
+ No    t        I-Str      Medium          Value (Dev)       W       Tech.       Ref. #
+  1   25         0.1        DMSO          lgK:2.43(3SF)      5       MEF          6687
+                            KNO3
+
+
+Reaction No. 68887
+Pt+2_NH3_Cl-1 + Cl-1 = Pt+2_NH3_Cl-1(2)_(cis)
+ No    t        I-Str      Medium          Value (Dev)       W       Tech.       Ref. #
+  1   25         0.3       DMSO           lgK:3.19(3SF)      5       MGL          6675
+                           NaNO3
+
+
+Reaction No. 68888
+Pt+2_NH3_Cl-1 + Cl-1 = Pt+2_NH3_Cl-1(2)_(trans)
+ No    t        I-Str      Medium          Value (Dev)       W       Tech.       Ref. #
+  1   25         0.3       DMSO           lgK:4.60(3SF)      5       MGL          6675
+                           NaNO3
+
+
+Reaction No. 68889
+Pt+2_NH2OH_Cl-1 + Cl-1 = Pt+2_NH2OH_Cl-1(2)_(cis)
+ No    t        I-Str      Medium          Value (Dev)       W       Tech.       Ref. #
+  1   25         0.3       DMSO           lgK:2.25(3SF)      5        MGL         6675
+                           NaNO3
+
+
+
+
+                                        – Page 39 of 57 –
+JESS Thermodynamic Database v8.9                               Platinum
+
+
+
+Reaction No. 68890
+Pt+2_NH2OH_Cl-1 + Cl-1 = Pt+2_NH2OH_Cl-1(2)_(trans)
+ No    t     I-Str      Medium              Value (Dev)   W   Tech.       Ref. #
+  1   25      0.3        DMSO           lgK:3.95(3SF)     5   MGL          6675
+                         NaNO3
+
+
+Reaction No. 68894
+Pt+4_MeAm(2)_Cl-1(4) + MeAm = Pt+4_MeAm(3)_Cl-1(4)
+ No    t     I-Str      Medium              Value (Dev)   W   Tech.       Ref. #
+  1   40       1         NaNO3          lgK:3.15(3SF)     5   MEF         6673
+
+
+Reaction No. 68895
+Pt+4_MeAm(3)_Cl-1(4) + MeAm = Pt+4_MeAm(4)_Cl-1(4)
+ No    t     I-Str      Medium              Value (Dev)   W   Tech.       Ref. #
+  1   40       1         NaNO3          lgK:2.55(3SF)     5   MEF         6673
+
+
+Reaction No. 68896
+Pt+4_EtAm(2)_Cl-1(4) + EtAm = Pt+4_EtAm(3)_Cl-1(4)
+ No    t     I-Str      Medium              Value (Dev)   W   Tech.       Ref. #
+  1   40      0.1        NaNO3          lgK:3.79(3SF)     5   MEF         6673
+
+
+Reaction No. 68897
+Pt+4_EtAm(3)_Cl-1(4) + EtAm = Pt+4_EtAm(4)_Cl-1(4)
+ No    t     I-Str      Medium              Value (Dev)   W   Tech.       Ref. #
+  1   40      0.1        NaNO3          lgK:1.75(3SF)     5   MEF         6673
+
+
+Reaction No. 69055
+ClO4-1 + Pt+2_NH3(4) = Pt+2_NH3(4)_ClO4-1
+ No    t     I-Str      Medium              Value (Dev)   W   Tech.       Ref. #
+  1   25       1         Na(F)          lgK:0.45(2SF)     4   MCL         6552
+
+
+Reaction No. 69056
+Br-1 + Pt+2_EtDiAm(2) = Pt+2_EtDiAm(2)_Br-1
+ No    t     I-Str      Medium              Value (Dev)   W   Tech.       Ref. #
+  1   25       1         Na(F)          lgK:0.66(2SF)     4   MCL         6552
+
+
+Reaction No. 69057
+
+
+
+
+                                      – Page 40 of 57 –
+JESS Thermodynamic Database v8.9                                                Platinum
+
+
+ClO4-1 + Pt+2_EtDiAm(2) = Pt+2_EtDiAm(2)_ClO4-1
+ No        t      I-Str       Medium           Value (Dev)          W       Tech.           Ref. #
+  1       25           1       Na(F)          lgK:0.49(2SF)         4           MCL         6552
+
+
+Reaction No. 69763
+Pt+2_Bipy(2) + I-1 = Pt+2_Bipy(2)_I-1
+ No   t        I-Str            Medium              Value (Dev)         W        Tech.      Ref. #
+ 1    23        0.5         Inf. Dilution          lgK:3.(0.3SD)        4         MPS        1699
+
+
+Reaction No. 69764
+Pt+2_Phenanth(2) + I-1 = Pt+2_Phenanth(2)_I-1
+ No   t        I-Str           Medium               Value (Dev)         W        Tech.      Ref. #
+ 1    23        0.5         Inf. Dilution         lgK:0.9(0.2SD)        4         MPS        1699
+
+
+Reaction No. 69765
+Pt+2_Bipy(2) + SO3-2 = Pt+2_Bipy(2)_SO3-2
+ No   t        I-Str           Medium               Value (Dev)         W        Tech.      Ref. #
+ 1    23        0.5         Inf. Dilution         lgK:6.0(0.2SD)        4         MPS        1699
+
+
+Reaction No. 69766
+Pt+2_Phenanth(2) + SO3-2 = Pt+2_Phenanth(2)_SO3-2
+ No   t        I-Str           Medium               Value (Dev)         W        Tech.      Ref. #
+ 1    23        0.5         Inf. Dilution         lgK:4.7(0.1SD)        4         MPS        1699
+
+
+Reaction No. 69767
+Pt+2_Bipy(2) + S2O3-2 = Pt+2_Bipy(2)_S2O3-2
+ No   t        I-Str           Medium               Value (Dev)         W        Tech.      Ref. #
+ 1    23        0.5         Inf. Dilution         lgK:6.7(0.2SD)        4         MPS        1699
+
+
+Reaction No. 69768
+Pt+2_Phenanth(2) + S2O3-2 = Pt+2_Phenanth(2)_S2O3-2
+ No   t        I-Str           Medium               Value (Dev)         W        Tech.      Ref. #
+ 1    23        0.5         Inf. Dilution         lgK:6.4(0.1SD)        4         MPS        1699
+
+
+Reaction No. 69769
+Pt+2_Bipy(2) + Thiourea = Pt+2_Bipy(2)_Thiourea
+ No   t        I-Str          Medium               Value (Dev)              W     Tech.      Ref. #
+ 1    23        0.5        Inf. Dilution        lgK:4.13(0.005SD)           4         MPS     1699
+
+
+
+
+                                            – Page 41 of 57 –
+JESS Thermodynamic Database v8.9                                     Platinum
+
+
+
+Reaction No. 69770
+Pt+2_Phenanth(2) + Thiourea = Pt+2_Phenanth(2)_Thiourea
+ No   t    I-Str         Medium                 Value (Dev)      W    Tech.     Ref. #
+ 1    23    0.5       Inf. Dilution           lgK:3.1(0.04SD)    4     MPS      1699
+
+
+Reaction No. 69771
+Pt+2_Bipy(2) + OH-1 = Pt+2_Bipy(2)_OH-1
+ No   t    I-Str         Medium                 Value (Dev)      W    Tech.     Ref. #
+ 1    23    0.5       Inf. Dilution           lgK:4.1(0.03SD)    4     MPS      1699
+
+
+Reaction No. 69772
+Pt+2_Phenanth(2) + OH-1 = Pt+2_Phenanth(2)_OH-1
+ No   t    I-Str         Medium                 Value (Dev)      W    Tech.     Ref. #
+ 1    23    0.5      Inf. Dilution            lgK:2.60(0.02SD)   4     MPS       1699
+
+
+Reaction No. 69773
+Pt+2_Bipy(2) + NH3 = Pt+2_Bipy(2)_NH3
+ No   t    I-Str         Medium                 Value (Dev)      W    Tech.     Ref. #
+ 1    23    0.5       Inf. Dilution           lgK:3.3(0.04SD)    4     MPS      1699
+
+
+Reaction No. 69774
+Pt+2_Phenanth(2) + NH3 = Pt+2_NH3_Phenanth(2)
+ No   t    I-Str         Medium                 Value (Dev)      W    Tech.     Ref. #
+ 1    23    0.5      Inf. Dilution            lgK:2.02(0.02SD)   4     MPS       1699
+
+
+Reaction No. 69775
+Pt+2_Bipy(2) + MeAm = Pt+2_Bipy(2)_MeAm
+ No   t    I-Str         Medium                 Value (Dev)      W    Tech.     Ref. #
+ 1    23    0.5       Inf. Dilution           lgK:3.2(0.03SD)    4     MPS      1699
+
+
+Reaction No. 69776
+Pt+2_Phenanth(2) + MeAm = Pt+2_MeAm_Phenanth(2)
+ No   t    I-Str         Medium                 Value (Dev)      W    Tech.     Ref. #
+ 1    23    0.5       Inf. Dilution           lgK:2.4(0.03SD)    4     MPS      1699
+
+
+Reaction No. 69777
+Pt+2_Bipy(2) + DiMeAm = Pt+2_Bipy(2)_DiMeAm
+
+
+
+
+                                        – Page 42 of 57 –
+JESS Thermodynamic Database v8.9                                  Platinum
+
+
+ No   t    I-Str         Medium                 Value (Dev)   W    Tech.     Ref. #
+ 1    23    0.5       Inf. Dilution         lgK:3.0(0.07SD)   4     MPS       1699
+
+
+Reaction No. 69778
+Pt+2_Phenanth(2) + DiMeAm = Pt+2_DiMeAm_Phenanth(2)
+ No   t    I-Str         Medium                 Value (Dev)   W    Tech.     Ref. #
+ 1    23    0.5       Inf. Dilution         lgK:1.6(0.05SD)   4     MPS       1699
+
+
+Reaction No. 69779
+Pt+2_Bipy(2) + TriMeAm = Pt+2_Bipy(2)_TriMeAm
+ No   t    I-Str         Medium                 Value (Dev)   W    Tech.     Ref. #
+ 1    23    0.5      Inf. Dilution         lgK:0.02(0.02SD)   4     MPS       1699
+
+
+Reaction No. 69780
+Pt+2_Phenanth(2) + TriMeAm = Pt+2_Phenanth(2)_TriMeAm
+ No   t    I-Str         Medium                 Value (Dev)   W    Tech.     Ref. #
+ 1    23    0.5       Inf. Dilution         lgK:-0.3(0.1SD)   4     MPS       1699
+
+
+Reaction No. 69781
+Pt+2_Phenanth(2) + EtDiAm = Pt+2_EtDiAm_Phenanth(2)
+ No   t    I-Str         Medium                 Value (Dev)   W    Tech.     Ref. #
+ 1    23    0.5      Inf. Dilution         lgK:0.88(0.01SD)   4     MPS       1699
+
+
+Reaction No. 69782
+Pt+2_Phenanth(2) + Piperid = Pt+2_Phenanth(2)_Piperid
+ No   t    I-Str         Medium                 Value (Dev)   W    Tech.     Ref. #
+ 1    23    0.5       Inf. Dilution         lgK:1.6(0.03SD)   4     MPS       1699
+
+
+Reaction No. 69783
+Pt+2_Bipy(2) + Piperid = Pt+2_Bipy(2)_Piperid
+ No   t    I-Str         Medium                 Value (Dev)   W    Tech.     Ref. #
+ 1    23    0.5       Inf. Dilution         lgK:3.7(0.05SD)   4     MPS       1699
+
+
+Reaction No. 70709
+Pt+4_K+1(2)_Cl-1(6)_(s) = 2<K+1> + Pt+4_Cl-1(6)
+ No   t    I-Str          Medium                Value (Dev)   W   Tech.      Ref. #
+ 1    25     0        Inf. Dilution         lgK:-5.13(3SF)    3    CRV       6330
+Note (1): p. 8-58
+
+
+
+
+                                      – Page 43 of 57 –
+JESS Thermodynamic Database v8.9                                             Platinum
+
+
+ 2    25     0        Inf. Dilution            lgK:-4.31(3SF)           1      ENS       7694
+ 3    25     0        Inf. Dilution            lgK:-4.96(3SF)           1      CRV       22551
+Note (3): Diff. values from same source! This one on p. 70
+ 4    25     0        Inf. Dilution            lgK:-5.85(3SF)           1      CRV       22551
+Note (4): Diff. values from same source! This one on p. 21
+
+
+Reaction No. 71031
+PtO2(s) + 4<H+1> + 4<e-1> = Pt(s) + 2<H2O>
+ No   t     I-Str         Medium                 Value (Dev)        W        Tech.      Ref. #
+ 1    25      0        Inf. Dilution            lgK:68.4(3SF)       1         ELC
+ 2    25      0        Inf. Dilution             E:1.00(3SF)        0         CRV        6330
+
+
+Reaction No. 71032
+Pt+2_OH-1 + H+1 + 2<e-1> = Pt(s) + H2O
+ No   t     I-Str          Medium                Value (Dev)        W        Tech.      Ref. #
+ 1    25      0         Inf. Dilution             E:1.2(2SF)        5         CRV        6330
+
+
+Reaction No. 71033
+PtO3(s) + 4<H+1> + 2<e-1> = Pt+4_OH-1(2) + H2O
+ No   t     I-Str          Medium                Value (Dev)        W        Tech.      Ref. #
+ 1    25      0         Inf. Dilution             E:1.5(2SF)        5         CRV        6330
+
+
+Reaction No. 71034
+PtO3(s) + 2<H+1> + 2<e-1> = PtO2(s) + H2O
+ No   t     I-Str          Medium                Value (Dev)        W        Tech.      Ref. #
+ 1    25      0         Inf. Dilution             E:1.7(2SF)        5         CRV        6330
+
+
+Reaction No. 71035
+Pt+2_OH-1(2)_(s) + 2<e-1> = Pt(s) + 2<OH-1>
+ No   t     I-Str          Medium                Value (Dev)        W        Tech.      Ref. #
+ 1    25      0         Inf. Dilution            E:0.14(2SF)        5         CRV        6330
+
+
+Reaction No. 72242
+Pt+2 + 3<Cl-1> + OH-1 = Pt+2_Cl-1(3)_OH-1
+ No    t     I-Str      Medium              Value (Dev)         W           Tech.       Ref. #
+  1    25    0.5:1      HClO4             lgK:19.08(4SF)        5           ENS         4282
+
+
+Reaction No. 72243
+
+
+
+
+                                         – Page 44 of 57 –
+JESS Thermodynamic Database v8.9                                              Platinum
+
+
+Pt+2 + Cl-1 + 3<OH-1> = Pt+2_Cl-1_OH-1(3)
+ No       t    I-Str     Medium             Value (Dev)          W           Tech.       Ref. #
+  1    25      0.5:1      HClO4          lgK:27.14(4SF)          5           ENS          4282
+
+
+Reaction No. 72244
+Pt+2 + 2<Cl-1> + 2<OH-1> = Pt+2_Cl-1(2)_OH-1(2)
+ No       t    I-Str     Medium             Value (Dev)          W           Tech.       Ref. #
+  1    25      0.5:1      HClO4          lgK:23.38(4SF)          5           ENS          4282
+
+
+Reaction No. 72245
+Pt+2 + 4<OH-1> = Pt+2_OH-1(4)
+ No       t    I-Str     Medium             Value (Dev)          W           Tech.       Ref. #
+  1    25      0.5:1      HClO4          lgK:30.41(4SF)          5           ENS          4282
+
+
+Reaction No. 72411
+Pt(s) + 2<H+1> + 3<Cl-1> + 0.5<O2(g)> = Pt+2_Cl-1(3) + H2O
+ No    t      I-Str        Medium                Value (Dev)             W     Tech.      Ref. #
+ 1    300       0       Inf. Dilution         lgK:14.84(0.3SD)           5         MSL     9077
+
+
+Reaction No. 72941
+Pt+2_Se-2_(s) = Pt+2 + Se-2
+
+Note: The Se-2 species probably does not exist [18Mar_30641]
+ No   t       I-Str        Medium               Value (Dev)          W         Tech.     Ref. #
+ 1    25        0       Inf. Dilution          lgK:-81.4(3SF)        2          ENS       12931
+
+
+Reaction No. 73339
+Pt+4_EtDiAm(3) + F-1 = Pt+4_EtDiAm(3)_F-1
+ No       t     I-Str     Medium            Value (Dev)          W       Tech.           Ref. #
+  1    25           3     NaClO4          lgK:0.04(1SF)          5           MSL         6555
+
+
+Reaction No. 73340
+Pt+4_EtDiAm(3) + Cl-1 = Pt+4_EtDiAm(3)_Cl-1
+ No       t    I-Str     Medium             Value (Dev)          W           Tech.       Ref. #
+  1    25           3    NaClO4          lgK:-0.21(2SF)          5           MSL          6555
+  2    25           3    NaClO4          lgK:-0.25(2SF)          5           MPS          6555
+  3    25           3    NaClO4          dH:3.9(0.5SD)           5           MCL          6555
+
+
+Reaction No. 73341
+
+
+
+                                        – Page 45 of 57 –
+JESS Thermodynamic Database v8.9                                         Platinum
+
+
+Pt+4_EtDiAm(3) + Br-1 = Pt+4_EtDiAm(3)_Br-1
+ No    t       I-Str     Medium             Value (Dev)         W       Tech.       Ref. #
+  1   25            3    NaClO4           lgK:-0.92(2SF)        5        MSL         6555
+  2   25            3    NaClO4           lgK:-0.89(2SF)        5        MPS         6555
+  3   25            3    NaClO4           dH:3.1(0.5SD)         5        MCL         6555
+
+
+Reaction No. 73342
+Pt+4_EtDiAm(3) + I-1 = Pt+4_EtDiAm(3)_I-1
+ No       t     I-Str    Medium             Value (Dev)         W       Tech.       Ref. #
+  1    25           3    NaClO4            lgK:1.05(3SF)        5       MSL         6555
+
+
+Reaction No. 74211
+PtO2(s) + 2<e-1> + 4<H+1> = Pt+2 + 2<H2O>
+ No   t       I-Str         Medium               Value (Dev)        W    Tech.      Ref. #
+ 1    25        0       Inf. Dilution            E:0.837(3SF)       4     CRV        22551
+
+
+Reaction No. 74212
+PtO(s) + 2<e-1> + 2<H+1> = Pt(s) + H2O
+ No   t       I-Str         Medium               Value (Dev)        W    Tech.      Ref. #
+ 1    25        0        Inf. Dilution           E:0.98(2SF)        4     CRV        22551
+
+
+Reaction No. 74213
+Pt+4_Cl-1(6) + 4<e-1> = Pt(s) + 6<Cl-1>
+ No   t       I-Str        Medium                Value (Dev)        W     Tech.     Ref. #
+ 1    25        0       Inf. Dilution           lgK:48.0(3SF)       1      ELC
+ 2    25        0       Inf. Dilution            E:0.744(3SF)       1      CRV       22551
+
+
+Reaction No. 74214
+Pt+4_Br-1(6) + 4<e-1> = Pt(s) + 6<Br-1>
+ No   t       I-Str        Medium                Value (Dev)        W     Tech.     Ref. #
+ 1    25        0       Inf. Dilution           lgK:51.3(3SF)       1      ELC
+ 2    25        0       Inf. Dilution            E:0.657(3SF)       0      CRV       22551
+
+
+Reaction No. 74215
+Pt+4_I-1(6) + 4<e-1> = Pt(s) + 6<I-1>
+ No   t       I-Str        Medium                Value (Dev)        W     Tech.     Ref. #
+ 1    25        0       Inf. Dilution           lgK:21.0(3SF)       1      ELC
+
+
+
+
+                                         – Page 46 of 57 –
+JESS Thermodynamic Database v8.9                                          Platinum
+
+
+ 2    25        1              NaI                 E:0.4(1SF)        0      CRV       22551
+
+
+Reaction No. 74216
+Pt+4_Br-1(6) + 2<e-1> = Pt+2_Br-1(4) + 2<Br-1>
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0        Inf. Dilution           lgK:26.8(3SF)       1      ELC
+ 2    25        0        Inf. Dilution            E:0.613(3SF)       0      CRV       22551
+
+
+Reaction No. 74217
+Pt+4_I-1(6) + 2<e-1> = Pt+2_I-1(4) + 2<I-1>
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution           E:0.329(3SF)       4      CRV       22551
+
+
+Reaction No. 74218
+Pt+2_Br-1(4) + 2<e-1> = Pt(s) + 4<Br-1>
+ No       t     I-Str      Medium            Value (Dev)         W       Tech.       Ref. #
+  1    25            3      HClO4           E:0.698(3SF)         4       CRV         22551
+
+
+Reaction No. 74219
+Pt+2_I-1(4) + 2<e-1> = Pt(s) + 4<I-1>
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution           lgK:9.9(2SF)       1      ELC
+ 2    25       0.5             NaI                 E:0.4(1SF)        0      CRV       22551
+
+
+Reaction No. 74220
+Pt+2_OH-1(2)_(s) = Pt+2 + 2<OH-1>
+ No   t       I-Str         Medium                Value (Dev)        W     Tech.      Ref. #
+ 1    25        0        Inf. Dilution          lgK:-35.4(3SF)       1      ELC
+ 2    25        0        Inf. Dilution           lgK:-24.(2SF)       0      CRV       22551
+
+
+Reaction No. 74221
+Pt+3_OH-1(3)_(s) = Pt+3 + 3<OH-1>
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0        Inf. Dilution           lgK:-25.(2SF)       0      CRV       22551
+Note (1): Doubt species Pt+3
+
+
+Reaction No. 74222
+
+
+
+
+                                          – Page 47 of 57 –
+JESS Thermodynamic Database v8.9                                           Platinum
+
+
+Pt+2_S-2_(s) = Pt+2 + S-2
+
+Note: The species S-2 does not exist in aqueous solution See reaction: H+1 + S-2 =
+H+1_S-2
+ No   t       I-Str          Medium                Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution         lgK:-68.87(4SF)       0      EOR
+ 2    25        0         Inf. Dilution          lgK:-68.(2SF)        0      CRV       22551
+
+
+Reaction No. 75809
+Pt+4 + 2<Glu-2> = Pt+4_Glu-2(2)
+ No       t     I-Str       Medium            Value (Dev)         W       Tech.       Ref. #
+  1    25           0.1     NaClO4          lgK:12.68(4SF)        5       MGL         6628
+
+
+Reaction No. 75838
+Pt+4 + 2<Asp-2> = Pt+4_Asp-2(2)
+ No       t     I-Str       Medium            Value (Dev)         W       Tech.       Ref. #
+  1    25           0.1     NaClO4          lgK:13.49(4SF)        4       MGL         6628
+
+
+Reaction No. 77574
+SO4-2 + Pt+2 + 4<NH3> = Pt+2_NH3(4)_SO4-2
+ No   t       I-Str           Medium               Value (Dev)        W    Tech.      Ref. #
+ 1    25        0          Inf. Dilution          lgK:37.4(3SF)       1     ELC
+
+
+Reaction No. 77901
+EDTA-4 + Pt+2 + H+1 = Pt+2_H+1_EDTA-4
+ No   t       I-Str           Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution          lgK:3.269(4SF)       1      ELC
+
+
+Reaction No. 77915
+EDTA-4 + Pt+2 + 2<H+1> = Pt+2_H+1(2)_EDTA-4
+ No   t       I-Str           Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution          lgK:5.769(4SF)       1      ELC
+
+
+Reaction No. 77927
+EDTA-4 + Pt+2 + 3<H+1> = Pt+2_H+1(3)_EDTA-4
+ No   t       I-Str           Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution          lgK:6.189(4SF)       1      ELC
+
+
+Reaction No. 77938
+
+
+
+
+                                           – Page 48 of 57 –
+JESS Thermodynamic Database v8.9                                   Platinum
+
+
+EDTA-4 + Pt+2 + 4<H+1> = Pt+2_H+1(4)_EDTA-4
+ No   t    I-Str          Medium                Value (Dev)    W   Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:5.889(4SF)   1    ELC
+
+
+Reaction No. 77985
+EDTA-4 + Pt+2 + OH-1 = Pt+2_OH-1_EDTA-4
+ No   t    I-Str          Medium                Value (Dev)    W   Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:4.258(4SF)   1    ELC
+
+
+Reaction No. 77989
+EDTA-4 + Pt+2 + NH3 = Pt+2_NH3_EDTA-4
+ No   t    I-Str           Medium               Value (Dev)    W   Tech.      Ref. #
+ 1    25     0         Inf. Dilution            lgK:4.7(4SF)   1    ELC
+
+
+Reaction No. 78093
+EDTA-4 + Pt+2 + SCN-1 = Pt+2_SCN-1_EDTA-4
+ No   t    I-Str          Medium                Value (Dev)    W   Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:4.041(4SF)   1    ELC
+
+
+Reaction No. 78131
+EDTA-4 + Pt+2 + H+1 + Cl-1 = Pt+2_H+1_Cl-1_EDTA-4
+ No   t    I-Str          Medium                Value (Dev)    W   Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:4.719(4SF)   1    ELC
+
+
+Reaction No. 78163
+EDTA-4 + Pt+2 + 2<H+1> + Cl-1 = Pt+2_H+1(2)_Cl-1_EDTA-4
+ No   t    I-Str          Medium                Value (Dev)    W   Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:8.018(4SF)   1    ELC
+
+
+Reaction No. 78182
+EDTA-4 + Pt+2 + 3<H+1> + Cl-1 = Pt+2_H+1(3)_Cl-1_EDTA-4
+ No   t    I-Str          Medium                Value (Dev)    W   Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:10.62(4SF)   1    ELC
+
+
+Reaction No. 78285
+EDTA-4 + Pt+2 + Br-1 = Pt+2_Br-1_EDTA-4
+ No   t    I-Str          Medium                Value (Dev)    W   Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:0.871(4SF)   1    ELC
+
+
+
+
+                                        – Page 49 of 57 –
+JESS Thermodynamic Database v8.9                                        Platinum
+
+
+
+Reaction No. 78339
+EDTA-4 + Pt+2 + H+1 + Br-1 = Pt+2_H+1_Br-1_EDTA-4
+ No   t    I-Str          Medium                Value (Dev)     W       Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:4.99(4SF)    1        ELC
+
+
+Reaction No. 78367
+EDTA-4 + Pt+2 + 2<H+1> + Br-1 = Pt+2_H+1(2)_Br-1_EDTA-4
+ No   t    I-Str          Medium                Value (Dev)     W       Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:8.389(4SF)    1        ELC
+
+
+Reaction No. 78391
+EDTA-4 + Pt+2 + 3<H+1> + Br-1 = Pt+2_H+1(3)_Br-1_EDTA-4
+ No   t    I-Str          Medium                Value (Dev)     W       Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:10.99(4SF)    1        ELC
+
+
+Reaction No. 78408
+EDTA-4 + Pt+2 + I-1 = Pt+2_I-1_EDTA-4
+ No   t    I-Str          Medium                Value (Dev)     W       Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:2.301(4SF)    1        ELC
+
+
+Reaction No. 78539
+EDTA-4 + Pt+2 + Cl-1 = Pt+2_Cl-1_EDTA-4
+ No   t    I-Str          Medium                Value (Dev)     W       Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:0.421(4SF)    1        ELC
+
+
+Reaction No. 79024
+2<S-2> + Pt+4 = Pt+4_S-2(2)_(s)
+
+Note: The species S-2 does not exist in aqueous solution See reaction: H+1 + S-2 =
+H+1_S-2
+ No   t    I-Str          Medium                Value (Dev)     W        Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:88.19(4SF)    0        ELC
+
+
+Reaction No. 79467
+3<Br2(l)> + Pt(s) + 2<e-1> = Pt+4_Br-1(6)
+ No   t    I-Str         Medium                 Value (Dev)         W    Tech.     Ref. #
+ 1    25     0       Inf. Dilution           dG:-332.2(4SF)kJ       2     CRV       7421
+
+
+
+
+                                        – Page 50 of 57 –
+JESS Thermodynamic Database v8.9                                           Platinum
+
+
+Reaction No. 79534
+Pt+2_S-2_(s) + 2<H+1> = Pt+2 + H+1(2)_S-2
+ No      t       I-Str            Medium                Value (Dev)    W   Tech.      Ref. #
+    1   25         0           Inf. Dilution          lgK:-48.8(3SF)   1    ELC
+    2   25         0           Inf. Dilution           lgK:-52.(2SF)   0    CRV       6330
+Note (2): p. 8-58
+
+
+
+
+                                           Data Assessment
+
+
+Weight                           Assessment
+9            highest accuracy
+8            multi-determined; excellent dependability
+7            trustworthy; outstanding single determination
+6            better than average reliability
+5            average single determination
+4            some doubt
+3            poorly known
+2            guess to achieve consistency (or just as bad)
+1            no information but consistent
+0            problematic/inconsistent
+
+
+
+
+                                               Techniques
+
+
+Abbrev                       Method
+CMN          Several experimental values (crit.)
+CRV          Critical review
+EDH          Debye-Hueckel corrections
+EES          Personal estimate
+EFE          Free Energy relations
+ELC          Linear Combination of Reactions
+ENS          Not specified
+EOR          Other Reaction Constants
+ESC          Standard conditions anchor
+
+
+
+                                                – Page 51 of 57 –
+JESS Thermodynamic Database v8.9                                   Platinum
+
+
+EVH    Van't Hoff Equation (dH = constant)
+MAN    Chemical analysis
+MAX    Anion exchange
+MCE    Cation exchange
+MCL    Calorimetry
+MDG    Combination of Thermodynamic Data
+MEF    Electromotoric force, not specified
+MGL    Glass electrode
+MIS    Ion selective electrode
+MKN    Rate of reaction
+MPH    pH method, not specified
+MPS    Potentiometry and Spectrophotometry
+MPT    Potentiometry
+MRX    Emf with redox electrode
+MSC    Miscellaneous
+MSL    Solubility
+MSP    Spectroscopy
+MTD    Temperature difference
+
+
+
+
+                                    References
+
+
+Reference No.: 140(64SiM)
+Stability Constants of Metal-ion Complexes SP17, 1964 Sillen LG; Martell AE; The
+Chemical Soc.,London
+
+Reference No.: 552(95SMM)
+NIST Critical Stability Constants of Metal Complexes Database, 1995 Smith RM; Martell
+AE; Motekaitis RJ; Version 2.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 600(52Lat)
+The Oxidation States of the Elements, 2nd Edn, 1952 Latimer WM; and their Potentials in
+Aqueous Solutions; Prentice-Hall Inc., New York, USA
+
+Reference No.: 773(85KoS)
+Handbook of Chemical Equilibria in Analytical Chemistry, 1985 Kotrly S; Sucha L; Ellis
+Horwood Series in Anal. Chem.; Eds. Chalmers RA & Masson M; Ellis Horwood, Chichester
+
+Reference No.: 775(71CCM)
+Selected Constants, 1971 Charlot G; Collumeau A; Marchon MJC; Oxidation-Reduction
+Potentials of Inorganic Substances in Aqueous Solution; Butterworths, London
+
+
+
+
+                                      – Page 52 of 57 –
+JESS Thermodynamic Database v8.9                                   Platinum
+
+
+Reference No.: 778(78MiC)
+Tables of Standard Electrode Potentials, 1978 Milazzo G; Caroli S; Wiley, N.Y.
+
+Reference No.: 780(70Eld)
+Acta Chem. Scand., 1970, 24, 1527 - 1540; Elding LI; The Stepwise Dissociation of the
+Tetrachloroplatinate(II) Ion in Aqueous Solution. VI. Rates of Formation and Equilibria
+of the Chloro Aqua Complexes of Platinum(II)
+
+Reference No.: 781(70Eld)
+Acta Chem. Scand., 1970, 24, 1331 - 1340; Elding LI; The Stepwise Dissociation of the
+Tetrachloroplatinate(II) Ion in Aqueous Solution. IV. The Chlorotriaquaplatinum(II) Ion
+
+Reference No.: 782(78Eld)
+Inorg. Chim. Acta, 1978, 28, 255 - 262; Elding LI; Stabilities of Platinum(II) Chloro
+and Bromo Complexes and Kinetics for Anation of the Tetraaquaplatinum(II) Ion by
+Halides and Thiocyanate
+
+Reference No.: 783(70KrS)
+Elektrokhimiya, 1970, 6, 1813 - 1817; Kravtsov VI; Smirnova LY; Potentiometric
+Determination of Consecutive Stability Constants of the Complexes PtCl4 2- and PtCl6 2-
+in Sulfuric Acid Solutions
+
+Reference No.: 784(65NPG)
+Russ. J. Inorg. Chem., 1965, 10, 570 Nikolaeva NM; Ptitsyn BV; Gorbacheva II;
+Hydrolysis of Potassium Tetrachloroplatinate(II)
+
+Reference No.: 785(71STP)
+Dokl. Akad. Nauk SSSR, 1971, 198, 408 - 410; Stetsenko AI; Tikhonova LS; Prokofeva NA;
+Hydrolysis of Nitrosyl Complexes of Platinum and the Trans Effect of the NO Group
+
+Reference No.: 789(62PPL)
+Izv. Sib. Otd. Akad. Nauk SSSR, Ser. Khim. Nauk, 1962, 11, 143 - 145; Pishchevitskii
+BI; Ptitsyn BV; Leskova NM; Hydrolysis of Tetrachloroplatinate Ion
+
+Reference No.: 790(61YaT)
+J. Electrochem. Soc. Jpn., 1961, 29, E119 Yamamoto H; Takei T; Oxidation-reduction
+Potential of PtCl62- - PtCl42-
+
+Reference No.: 791(64YTN)
+Denki Kagaku Oyobi Kogyo Butsuri Kagaku, 1964, 32, 43 - 48; Yamamoto H; Tanaka S; Nagai
+T; Takei T; Electrochemistry of Platinum Group Metals. II. Reduction of PbCl62- with
+Sn2+
+
+Reference No.: 792(64KrS)
+Vestn. Leningr. Univ., Fiz., Khim., 1964, 10, 90 Kravtsov VI; Simakov BV; Study of the
+Kinetics of Electrode Processes in the Hexachloroplatinate (IV)-
+Tetrachloroplatinate(II) System. II. Influence of the Temperature on the Polarization
+Curve on Platinum, Rhodium and Iridium Electrodes
+
+Reference No.: 793(72Gin)
+Acta Chem. Scand., 1972, 26, 1527 - 1541; Ginstrup O; The Redox System Platinum(O) /
+Platinum(II) / Platinum(IV) with Chloro and Bromo Ligands
+
+Reference No.: 802(90Wea)
+CRC Handbook of Chemistry and Physics, 70th Edn., 1990 Weast RC; A Ready-Reference Book
+of Chemical and Physical Data; CRC Press, Cleveland, Ohio
+
+Reference No.: 808(67DEG)
+Acta Chem. Scand., 1967, 21, 1647 - 1653; Drougge L; Elding LI; Gustafson L; Stepwise
+
+
+
+
+                                      – Page 53 of 57 –
+JESS Thermodynamic Database v8.9                                   Platinum
+
+
+Dissociation of the Tetrachloroplatinate(II) Ion in Aqueous Solution. III. Influence of
+Temperature on Kinetics and Equilibrium of the First Step
+
+Reference No.: 809(55GEM)
+J. Am. Chem. Soc., 1955, 77, 2965 - 2971; Grantham LF; Elleman TS; Martin DS Jr;
+Exchange of Chlorine in Aqueous Systems Containing Chloride and
+Tetrachloroplatinate(II)
+
+Reference No.: 869(68GoH)
+Chem. Rev., 1968, 68, 229 - 252; Goldberg RN; Hepler LG; Thermochemistry and Oxidation
+Potentials of the Platinum Group Metals and their Compounds
+
+Reference No.: 905(95Ber)
+Pure Appl. Chem., 1995, 67, 1117 - 143; Berthon G; Critical Review of Formation
+Constants of Selected Amino Acids with Polar Side Chains
+
+Reference No.: 906(79Per)
+IUPAC Chemical Data Series No. 22, 1979 Perrin DD; Stability Constants of Metal-Ion
+Complexes, First Edition Part B, Organic Ligands; Pergamon, Oxford
+
+Reference No.: 931(71SiM)
+Stability Constants of Metal-ion Complexes SP25, 1971 Sillen LG; Martell AE; Supplement
+No 1 to Special Publication No 25; Chemical Society, London
+
+Reference No.: 999(91MaM)
+Estimation of Constants for JESS Database, 1991 May PM; May RF
+
+Reference No.: 1160(92NCC)
+Polyhedron, 1992, 11, 2723 - 2727; Nurchi V; Crisponi G; Cristiani F; Ganadu ML; Lubinu
+G; Panzanelli A; Naldini L; An 1H NMR and Potentiometric Study of the Interaction
+between Platinum(II) and Cimetidine
+
+Reference No.: 1204(90FTG)
+Inorg. Chem., 1990, 29, 1092 - 1097; Filipovic I; Tkalcec M; Grabaric BS; Stability of
+Metal Ion Unsubstituted and Substituted Monocarboxylate Complexes in Aqueous Solutions
+
+Reference No.: 1562(76AnM)
+Helv. Chim. Acta, 1976, 59, 1498 - 1511; Anderegg G; Malik SC; Komplexone XLVII. The
+Stability of Palladium(II) Complexes with Aminopolycarboxylate Anions
+
+Reference No.: 1699(86Wer)
+J. Chem. Soc., Dalton Trans., 1986,, 725 - 728; Wernberg O; Studies on Five-co-ordinate
+d8 Metal Ions. Part 3. Stability Constants for the Reversible Formation of Five-co-
+ordinate Complexes from the Bis(2,2'-bipyridine)- and Bis(1,10-phenanthroline)-
+platinum(II) Cations
+
+Reference No.: 1749(91OMY)
+Inorg. Chem., 1991, 30, 4484 - 4486; Odani A; Masuda H; Yamauchi O; Ishiguro S-i;
+Thermodynamic Nucleic Base Specificity in Nucleotide- Metallointercalator Association.
+Structure-Stability Relationship Showing Significant Contribution of the Amino Group to
+Aromatic Ring Stacking
+
+Reference No.: 1782(92BBD)
+Inorg. Chem., 1992, 31, 1902 - 1908; Bencini A; Bianchi A; Dapporto P; Garcia-Espana E;
+Micheloni M; Ramirez JA; Paoletti P; Paoli P; Thermodynamic and Structural Aspects of
+the Interaction between Macrocyclic Polyammonium and Complexed Anions
+
+Reference No.: 1908(79FrW)
+J. Inorg. Nucl. Chem., 1979, 41, 591 - 592; Frye H; Williams GH; Ionization and
+
+
+
+
+                                      – Page 54 of 57 –
+JESS Thermodynamic Database v8.9                                   Platinum
+
+
+Stability Constants of the Palladium(II) and Platinum(II) Complexes of alpha Amino
+Dicarboxylic Acids
+
+Reference No.: 2261(93PeP)
+IUPAC Stability Constants Database, 1993 Pettit LD; Powell HKJ; IUPAC (in co-operation
+with Academic Software), Otley, UK
+
+Reference No.: 2556(93MSM)
+NIST Critical Stability Constants of Metal Complexes Database, 1993 Martell AE; Smith
+RM; Motekaitis RJ; Version 1.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 4282(93ByK)
+Geochim. Cosmochim. Acta, 1993, 57, 1151 - 1156; Byrne RH; Kump LR; Comment on
+"Speciation of Aqueous Palladium(II) Chloride Solutions Using Optical Spectroscopies"
+by C.D. Tait, D.R. Janecky, and P.S.Z. Rogers
+
+Reference No.: 5003(74MiK)
+Russ. J. Inorg. Chem., 1974, 19, 1244 - 1246; Mironov VE; Knyazeva NN; Association of
+Tetrammine-platinum(II) and Bis(ethylenediamine)-platinum(II) with Certain Anions
+
+Reference No.: 5253(90LoT)
+Collect. Czech. Chem. Commun., 1990, 55, 987 - 993; Loucka T; Ternbach Z; Potential-pH
+Diagrams for the Systems Ir-H2O-Cl-, Pt-H2O-Cl-, and Pd-H2O-Cl- at 25 degrees Celsius
+
+Reference No.: 5398(82Hog)
+IUPAC Chemical Data Series No. 21, 1982 Hogfeldt E; Stability Constants of Metal-ion
+Complexes, 2nd Suppl., Part A, Inorganic Ligands; Pergamon, Oxford
+
+Reference No.: 5607(65NPP)
+Russ. J. Inorg. Chem., 1965, 10, 574 - 576; Nikolaeva NM; Ptitsyn BV; Pastukhova ED;
+Hydrolysis of Potassium Hexachloroplatinate(IV)
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+Reference No.: 6422(95BaP)
+Thermochemical Data of Pure Substances, 3rd Edn., 1995 Barin I; Platzki G; Weinheim,
+Germany
+
+Reference No.: 6496(96StM)
+Aquatic Chemistry, 3rd Edn., 1996 Stumm W; Morgan JJ; Chemical Equilibria and Rates in
+Natural Waters; John Wiley & Sons, Inc., New York
+
+Reference No.: 6552(73MiK)
+Russ. J. Phys. Chem., 1973, 47, 736 - 737; Mironov VE; Knyazeva NN; Thermochemistry of
+the Association of Tetraammineplatinum(II) and Bis-ethylenediamineplatinum(II) With
+Certain Anions
+
+Reference No.: 6555(72MNK)
+Russ. J. Phys. Chem., 1972, 46, 1370 - 1370; Mironov VE; Nikulina LA; Kolobov NP;
+Thermodynamics of Outer-sphere Complexes. IX. Trisethylenediamine Platinum(IV) Halide
+Complexes
+
+Reference No.: 6628(72SiS)
+J. Inorg. Nucl. Chem., 1972, 34, 2067 - 2069; Singh MK; Srivastava MN; Stepwise
+Formation of Palladium(II), Platinum(IV), Gold(III) and Bismuth(III) Chelates with
+Aspartic and Glutamic Acids
+
+
+
+
+                                      – Page 55 of 57 –
+JESS Thermodynamic Database v8.9                                      Platinum
+
+
+Reference No.: 6673(73KSK)
+Russ. J. Inorg. Chem., 1973, 18, 1144 - 1146; Kukushkin YuN; Strizhev EF; Krasnov BA;
+Kiseleva NP; Equilibria in Aqueous Solutions of Tetramineplatinum(IV) Chlorides
+
+Reference No.: 6675(73KST)
+Russ. J. Inorg. Chem., 1973, 18, 1283 - 1284; Kukushkin YuN; Stetsenko AI; Trusova KM;
+Duibanova VG; Influence of Dimethyl Sulphoxide on the Stability of Platinum(II)
+Complexes
+
+Reference No.: 6685(71KTT)
+Russ. J. Inorg. Chem., 1971, 16, 1330 - 1332; Kukushkin YuN; Trusova KM; Tolstousov VN;
+Bardin VV; Stability of Various Dimethyl Sulphoxide Complexes of Pt+2
+
+Reference No.: 6687(71KuT)
+Russ. J. Inorg. Chem., 1971, 16, 139 - 140; Kukushkin YuN; Trusova KM; Equilibria in
+Solutions of Potassium Trichloro(dimethyl Sulphoxide)-platinate(II)
+
+Reference No.: 6751(74Kuk)
+Inorg. Chim. Acta, 1974, 9, 117 - 121; Kukushkin YuN; Equilibria in Aqueous Solutions
+of Platinum(II) Sulphoxide Complexes
+
+Reference No.: 6756(73StA)
+Helv. Chim. Acta, 1973, 56, 1698 - 1708; Stunzi H; Anderegg G; Komplexone XLVI. EDTA-
+Komplexe des Pt(II)-Ions mit und ohne einzahnige Fremdliganden
+
+Reference No.: 6784(71PaM)
+Inorg. Chem., 1971, 10, 1551 - 1552; Paxson JR; Martin DS Jr; Aquation Equilibrium and
+Isotopic Exchange of Chloride for Chloro(diethylenetriamine)platinum(II) Chloride
+
+Reference No.: 6821(73CoM)
+Inorg. Chim. Acta, 1973, 7, 573 - 577; Coley RF; Martin DS Jr; Kinetics and Equilibria
+for the Acid Hydrolysis of Dichloro(ethylenediamine)platinum(II)
+
+Reference No.: 7276(88CoW)
+Advanced Inorganic Chemistry, 5th Edn., 1988 Cotton FA; Wilkinson G; John Wiley & Sons
+Inc., N.Y., U.S.A
+
+Reference No.: 7372(78BDJ)
+Vogel's Textbook of Quantitative Inorganic Analysis, 1978 Bassett J; Denney RC; Jeffery
+GH; Mendham J; including Elementary Instrumental Analysis; Longman, London, U.K.
+
+Reference No.: 7421(97Mar)
+Ion Properties, 1997 Marcus Y; Marcel Dekker Inc., New York, U.S.A.
+
+Reference No.: 7694(84IPZ)
+Russ. J. Inorg. Chem., 1984, 29, 860 - 862; Ivanov-Emin BN; Petrishcheva LP; Zaitsev
+BE; Izmailovich AS; Hydroxo-compounds of Copper(II)
+
+Reference No.: 9077(92GBY)
+Geochim. Cosmochim. Acta, 1992, 56, 3881 - 3894; Gammons CH; Bloom MS; Yu Y;
+Experimental Investigation of the Hydrothermal Geochemistry of Platinum and Palladium:
+I. Solubility of Platinum and Palladium Sulfide Minerals in NaCl / H2SO4 Solutions at
+300C
+
+Reference No.: 12931(01SPG)
+Chem. Geol., 2001, 171, 173 - 194; Seby F; Potin-Gautier M; Giffaut E; Borge G; Donard
+OFX; A Critical Review of Thermodynamic Data for Selenium Species at 25C
+
+
+
+
+                                      – Page 56 of 57 –
+JESS Thermodynamic Database v8.9                                   Platinum
+
+
+Reference No.: 18118(52Con)
+Electrochemical Data, 1952 Conway BE; Greenwood Press, Westport, Conn., U.S.A.
+
+Reference No.: 22551(06Inz)
+Encyclopedia of Electrochemistry, Vol. 7a, 2006, 17 - 75; Inzelt G; Standard, Formal
+and Other Characteristic Potentials of Selected Electrode Reactions
+
+
+
+
+                                      – Page 57 of 57 –
+

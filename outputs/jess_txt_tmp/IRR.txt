@@ -1,0 +1,705 @@
+                           JESS Thermodynamic Database v8.9
+                                                    Iridium
+
+                                                   24-Jan-23
+
+Reaction No. 5074
+Ir+3_Cl-1(6) + 3<e-1> = Ir(s) + 6<Cl-1>
+ No    t         I-Str                Medium               Value (Dev)        W    Tech.   Ref. #
+  1    25          0               Inf. Dilution         lgK:39.(0.5SD)       3     ENS      802
+  2    25          0               Inf. Dilution           E:0.77(2SF)        3     CRV     6330
+  3    25          0               Inf. Dilution           E:0.83(2SF)        0     CRV     22551
+
+
+Reaction No. 5075
+Ir+3_Cl-1(6) = Ir+3_Cl-1(5) + Cl-1
+ No     t         I-Str            Medium             Value (Dev)         W       Tech.    Ref. #
+  1    25         1.03              HClO4           lgK:1.08(0.05SD)      5       MKN       874
+  2    25              3            HClO4           lgK:0.8(0.05SD)       4       EIE       899
+  3    35              1            HClO4           lgK:1.4(0.05SD)       5       MKN       875
+  4    35              3            HClO4           lgK:0.7(0.05SD)       5       MKN       875
+  5    42              1            HClO4           lgK:1.3(0.05SD)       5       MKN       875
+  6    42              3            HClO4           lgK:0.7(0.05SD)       5       MKN       875
+  7    50              1            HClO4           lgK:1.2(0.05SD)       5       MKN       875
+  8    50          2.2             NaClO4           lgK:0.9(0.05SD)       5       MSP       873
+  9    50              3            HClO4           lgK:0.6(0.05SD)       5       MKN       875
+ 10    50          3.7             NaClO4           lgK:0.4(0.05SD)       5       MSP       873
+ 11    60              1            HClO4           lgK:1.1(0.05SD)       5       MKN       875
+ 12    60              3            HClO4           lgK:0.6(0.05SD)       5       MKN       875
+
+
+Reaction No. 5076
+Ir+3_Cl-1(4) + Cl-1 = Ir+3_Cl-1(5)
+ No         t              I-Str       Medium           Value (Dev)       W       Tech.    Ref. #
+  1     40:50               3.7        HClO4           lgK:0.67(2SF)      5        MKN      872
+  2     40:50               3.7        NaClO4         lgK:0.7(0.05SD)     5        MKN      872
+  3         50              2.2        HClO4           lgK:0.55(2SF)      5        MKN      872
+  4         50              2.2        NaClO4         lgK:0.6(0.05SD)     5        MKN      872
+
+
+Reaction No. 5078
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                          Iridium
+
+
+IrO2(s) + 4<e-1> + 4<H+1> = Ir(s) + 2<H2O>
+ No   t       I-Str        Medium              Value (Dev)           W    Tech.     Ref. #
+ 1    25        0       Inf. Dilution         lgK:50.4(3SF)          1     ELC
+ 2    25        0       Inf. Dilution        lgK:62.6(0.05SD)        0     MDG        600
+ 3    25        0       Inf. Dilution        E:0.935(0.005SD)        0     CRV       22551
+Note (3): Given as a conditional E0' but without conditions
+
+
+Reaction No. 5079
+Ir+4_Cl-1(6) + e-1 = Ir+3_Cl-1(6)
+ No   t       I-Str         Medium               Value (Dev)         W     Tech.    Ref. #
+ 1    25        0       Inf. Dilution        lgK:14.65(0.05SD)       5      MEF       878
+ 2    25       0.1           NaCl            lgK:15.2(0.05SD)        5      MEF       879
+ 3    25        1            HCl             lgK:15.8(0.05SD)        5      MEF       877
+ 4    25        1            NaCl            lgK:15.8(0.05SD)        5      MEF       877
+ 5    25        0       Inf. Dilution          E:0.8665(4SF)         4      CRV      6330
+ 6    25      0.0042         HCl               E:0.882(3SF)          5      MEF       878
+ 7    25      0.0084         HCl               E:0.887(3SF)          5      MEF       878
+ 8    25      0.0223         HCl               E:0.893(3SF)          5      MEF       878
+ 9    25      0.038          HCl               E:0.897(3SF)          5      MEF       878
+ 10   25      0.058          HCl               E:0.902(3SF)          5      MEF       878
+ 11   25       0.11          HCl               E:0.911(3SF)          5      MEF       878
+ 12   25       0.3           HCl               E:0.867(3SF)          0      CRV      22551
+
+
+Reaction No. 5080
+Ir+4 + e-1 = Ir+3
+ No       t     I-Str    Medium           Value (Dev)            W       Tech.      Ref. #
+  1    25           1     HClO4         lgK:21.5(0.05SD)         5       MPL         879
+
+
+Reaction No. 5081
+Ir+4_Cl-1(6) + OH-1 = Ir+4_Cl-1(5)_OH-1 + Cl-1
+ No       t     I-Str     Medium           Value (Dev)           W       Tech.      Ref. #
+  1    25        0.1     Unknown         lgK:7.08(0.1SD)         5       MKN        5026
+
+
+Reaction No. 5082
+Ir+4_Cl-1(5)_OH-1 + OH-1 = Ir+4_Cl-1(4)_OH-1(2) + Cl-1
+ No       t     I-Str     Medium           Value (Dev)           W       Tech.      Ref. #
+  1    25        0.1     Unknown         lgK:6.45(0.1SD)         5       MKN        5026
+
+
+
+
+                                        – Page 2 of 14 –
+JESS Thermodynamic Database v8.9                                        Iridium
+
+
+
+Reaction No. 5083
+Ir+4_Cl-1(4)_OH-1(2) + OH-1 = Ir+4_Cl-1(3)_OH-1(3) + Cl-1
+ No    t    I-Str       Medium           Value (Dev)           W       Tech.      Ref. #
+  1   25     0.1       Unknown         lgK:6.04(0.1SD)         5       MKN        5026
+
+
+Reaction No. 5084
+Ir+4_Cl-1(3)_OH-1(3) + OH-1 = Ir+4_Cl-1(2)_OH-1(4) + Cl-1
+ No    t    I-Str       Medium           Value (Dev)           W       Tech.      Ref. #
+  1   25     0.1       Unknown         lgK:5.18(0.1SD)         5       MKN        5026
+
+
+Reaction No. 5106
+Ru+4_Cl-1(5)_OH-1 + Ir+4_Cl-1(5) = Ir+4_Ru+4_Cl-1(10)_OH-1
+ No   t    I-Str          Medium             Value (Dev)           W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:5.9(0.2SD)         3     MCO        850
+
+
+Reaction No. 5107
+Ru+4_Cl-1(4)_OH-1(2) + Ir+4_Cl-1(5) = Ir+4_Ru+4_Cl-1(9)_OH-1(2)
+ No   t    I-Str          Medium             Value (Dev)           W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:5.9(0.2SD)         3     MCO        850
+
+
+Reaction No. 5111
+Ru+4_Cl-1(3)_OH-1(3) + Ir+4_Cl-1(5) = Ir+4_Ru+4_Cl-1(8)_OH-1(3)
+
+Note: Weighted out coz its thermodynamically isolated
+ No   t    I-Str          Medium             Value (Dev)           W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:5.9(0.2SD)         0     MCO        850
+
+
+Reaction No. 5112
+Ru+4_Cl-1(2)_OH-1(4) + Ir+4_Cl-1(5) = Ir+4_Ru+4_Cl-1(7)_OH-1(4)
+
+Note: Weighted out coz its thermodynamically isolated
+ No   t    I-Str          Medium             Value (Dev)           W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution         lgK:5.9(0.2SD)         0     MCO        850
+
+
+Reaction No. 5113
+Ru+4_Cl-1_OH-1(5) + Ir+4_Cl-1(5) = Ir+4_Ru+4_Cl-1(6)_OH-1(5)
+
+Note: Weighted out coz its thermodynamically isolated
+ No   t    I-Str          Medium             Value (Dev)           W    Tech.     Ref. #
+
+
+
+
+                                      – Page 3 of 14 –
+JESS Thermodynamic Database v8.9                                                     Iridium
+
+
+ 1    25          0              Inf. Dilution         lgK:5.9(0.2SD)       0         MCO        850
+
+
+Reaction No. 5118
+Ir+3 + 3<e-1> = Ir(s)
+ No   t         I-Str              Medium               Value (Dev)             W    Tech.     Ref. #
+ 1    25          0             Inf. Dilution        lgK:58.6(0.05SD)           4     ENS        802
+ 2    25          0             Inf. Dilution         dG:-80.0(0.1SD)           5     ENS       5253
+ 3    25          0             Inf. Dilution           E:1.156(4SF)            5     CRV       6330
+
+
+Reaction No. 5119
+Ir+4_Cl-1(5) + Cl-1 = Ir+4_Cl-1(6)
+ No   t         I-Str               Medium              Value (Dev)         W        Tech.     Ref. #
+ 1    25          0              Inf. Dilution         lgK:-0.5(1SF)        1         ELC
+ 2    25          1                 Unknown            lgK:-3.(0.8SD)       2         ESR        899
+
+
+Reaction No. 38052
+Ir+1_4MePyridine(2)_COD_Cl-1 = Ir+1_4MePyridine_COD_Cl-1 + 4MePyridine
+ No    t         I-Str             Medium            Value (Dev)        W           Tech.      Ref. #
+  1   25                          Methanol          lgK:1.76(3SF)       5           MSP         583
+  2   25                          Methanol         lgK:1.510(4SF)       5           MLC         583
+
+
+Reaction No. 38053
+Ir+1_COD_Pyridine(2)_Cl-1 = Ir+1_COD_Pyridine_Cl-1 + Pyridine
+ No    t         I-Str             Medium            Value (Dev)        W           Tech.      Ref. #
+  1   25                          Methanol          lgK:1.27(3SF)       5           MSP         583
+  2   25                          Methanol         lgK:1.243(4SF)       5           MLC         583
+
+
+Reaction No. 54701
+K+1 + Ir+3_Cl-1(6) = Ir+3_K+1_Cl-1(6)
+ No        t            I-Str       Medium           Value (Dev)            W       Tech.      Ref. #
+ 1         42             3          LiCl          lgK:-0.3(0.05SD)         5        MPT        5025
+ 2         50             3          LiCl          lgK:-0.1(0.05SD)         5        MPT        5025
+ 3     42:50              3          LiCl           dH:13.(0.8SD)           4        EVH        899
+
+
+Reaction No. 54703
+Ir2O3(s) + 3<H2O> + 6<e-1> = 2<Ir(s)> + 6<OH-1>
+ No   t         I-Str               Medium              Value (Dev)         W        Tech.     Ref. #
+
+
+
+
+                                                 – Page 4 of 14 –
+JESS Thermodynamic Database v8.9                                          Iridium
+
+
+ 1    25      0        Inf. Dilution            lgK:9.9(0.1SD)        4    ENS       802
+ 2    25      0        Inf. Dilution             E:0.098(2SF)         5    CRV       6330
+
+
+Reaction No. 55672
+Ir(s) + 3<Cl2(g)> = Ir+3_Cl-1(6) - 3<e-1>
+ No   t     I-Str           Medium               Value (Dev)          W    Tech.    Ref. #
+ 1    25      0       Inf. Dilution           dG:-134.8(0.1SD)        5     ENS      5253
+
+
+Reaction No. 55673
+Ir(s) + O2(g) = IrO2(s)
+ No    t     I-Str           Medium               Value (Dev)         W    Tech.    Ref. #
+ 1    25          0       Inf. Dilution         lgK:33.00(4SF)        4     ENS      6422
+ 2    27          0       Inf. Dilution         lgK:32.74(4SF)        4     ENS      6422
+ 3    127         0       Inf. Dilution         lgK:22.20(4SF)        4     ENS      6422
+ 4    227         0       Inf. Dilution         lgK:15.90(4SF)        4     ENS      6422
+ 5    327         0       Inf. Dilution         lgK:11.73(4SF)        4     ENS      6422
+ 6    25          0       Inf. Dilution         dG:-28.0(0.1SD)       0     ENS      5253
+ 7    25          0       Inf. Dilution         dG:-45.03(4SF)        4     EFE      6422
+ 8    25          0       Inf. Dilution          dH:-58.0(3SF)        4     MTD      6422
+ 9    27          0       Inf. Dilution         dH:-59.99(4SF)        4     MTD      6422
+ 10   127         0       Inf. Dilution         dH:-57.76(4SF)        4     MTD      6422
+ 11   227         0       Inf. Dilution         dH:-57.41(4SF)        4     MTD      6422
+ 12   327         0       Inf. Dilution         dH:-57.02(4SF)        4     ENS      6422
+
+
+Reaction No. 55674
+2<Ir(s)> + 1.5<O2(g)> = Ir2O3(s)
+ No   t     I-Str           Medium               Value (Dev)          W    Tech.    Ref. #
+ 1    25      0       Inf. Dilution            dG:-42.0(0.1SD)        5     ENS      5253
+
+
+Reaction No. 57428
+Ir+3 + H2O = Ir+3_OH-1 + H+1
+ No    t     I-Str          Medium             Value (Dev)        W       Tech.     Ref. #
+ 1     5     1.05         Na(ClO4)/m          lgK:-4.78(3SF)      6       MHY       5271
+ 2    15     1.05         Na(ClO4)/m          lgK:-4.59(3SF)      6       MHY       5271
+ 3    25     1.05         Na(ClO4)/m          lgK:-4.37(3SF)      6       MHY       5271
+ 4    35     1.05         Na(ClO4)/m          lgK:-4.13(3SF)      6       MHY       5271
+
+
+
+
+                                          – Page 5 of 14 –
+JESS Thermodynamic Database v8.9                                            Iridium
+
+
+Reaction No. 57429
+Ir+3_OH-1 + H2O = Ir+3_OH-1(2) + H+1
+ No    t       I-Str       Medium            Value (Dev)           W       Tech.      Ref. #
+ 1     5       1.05      Na(ClO4)/m         lgK:-5.63(3SF)         6        MHY        5271
+ 2    15       1.05      Na(ClO4)/m         lgK:-5.27(3SF)         6        MHY        5271
+ 3    25       1.05      Na(ClO4)/m         lgK:-5.20(3SF)         6        MHY        5271
+ 4    35       1.05      Na(ClO4)/m         lgK:-5.08(3SF)         6        MHY        5271
+
+
+Reaction No. 57430
+Ir+3_OH-1(3)_(s) + 3<H+1> = Ir+3 + 3<H2O>
+ No    t       I-Str       Medium            Value (Dev)           W       Tech.      Ref. #
+ 1     5       1.05      Na(ClO4)/m         lgK:11.10(4SF)         6        MHY        5271
+ 2    15       1.05      Na(ClO4)/m         lgK:10.56(4SF)         6        MHY        5271
+ 3    25       1.05      Na(ClO4)/m         lgK:10.22(4SF)         6        MHY        5271
+ 4    35       1.05      Na(ClO4)/m         lgK:9.81(3SF)          6        MHY        5271
+
+
+Reaction No. 57754
+Ir(s) + 3<Cl2(g)> = Ir+4_Cl-1(6) - 2<e-1>
+ No   t       I-Str        Medium              Value (Dev)             W     Tech.    Ref. #
+ 1    25        0       Inf. Dilution       dG:-111.3(0.1SD)           0      ENS      5253
+
+
+Reaction No. 57760
+Ir(s) + 2<O2(g)> = IrO4-2 - 2<e-1>
+ No   t       I-Str         Medium             Value (Dev)             W     Tech.    Ref. #
+ 1    25        0       Inf. Dilution        dG:-47.0(0.1SD)           4      ENS      5253
+
+
+Reaction No. 57821
+Ba+2 + Ir+3_Cl-1(6) = Ir+3_Ba+2_Cl-1(6)
+ No   t       I-Str        Medium              Value (Dev)             W     Tech.    Ref. #
+ 1    25        0       Inf. Dilution         lgK:-2.0(2SF)            1      ESC
+ 2    30       0.1          HClO4           lgK:-2.2(0.05SD)           5      MEF      5398
+ 3    35       0.1          HClO4           lgK:-2.2(0.05SD)           5      MEF      5398
+ 4    42       0.1          HClO4           lgK:-2.1(0.05SD)           5      MEF      5398
+
+
+Reaction No. 57838
+Ir+3_Br-1(6) + Ba+2 = Ir+3_Ba+2_Br-1(6)
+ No       t     I-Str     Medium          Value (Dev)          W           Tech.      Ref. #
+
+
+
+
+                                        – Page 6 of 14 –
+JESS Thermodynamic Database v8.9                                          Iridium
+
+
+  1   25      0.1       HClO4            lgK:2.8(0.04SD)        5        MEF         5398
+
+
+Reaction No. 57839
+Ir+3_Br-1(6) + Cd+2 = Ir+3_Cd+2_Br-1(6)
+ No    t     I-Str      Medium             Value (Dev)          W       Tech.       Ref. #
+  1   25      0.1       HClO4             lgK:2.9(0.1SD)        5       MEF         5398
+
+
+Reaction No. 57840
+Ba+2 + Ir+4_Br-1(6) = Ir+4_Ba+2_Br-1(6)
+ No    t     I-Str      Medium             Value (Dev)          W       Tech.       Ref. #
+  1   25      0.1       HClO4             lgK:2.3(0.1SD)        5       MEF         5398
+
+
+Reaction No. 57841
+Ir+4_Br-1(6) + Cd+2 = Ir+4_Cd+2_Br-1(6)
+ No    t     I-Str      Medium             Value (Dev)          W       Tech.       Ref. #
+  1   25      0.1       HClO4             lgK:1.6(0.1SD)        5       MEF         5398
+
+
+Reaction No. 67359
+1.5<Br2(l)> + Ir(s) = Ir+3_Br-1(3)_(s)
+ No    t    I-Str          Medium                Value (Dev)        W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution           lgK:24.04(4SF)       4      ENS       6422
+ 2    27      0        Inf. Dilution           lgK:23.85(4SF)       4      ENS       6422
+ 3    127     0        Inf. Dilution           lgK:14.91(4SF)       4      ENS       6422
+ 4    227     0        Inf. Dilution           lgK:9.163(4SF)       4      ENS       6422
+ 5    327     0        Inf. Dilution           lgK:5.377(4SF)       4      ENS       6422
+ 6    25      0        Inf. Dilution           dG:-32.79(4SF)       4      EFE       6422
+ 7    25      0        Inf. Dilution           dH:-42.50(4SF)       4      MTD       6422
+ 8    27      0        Inf. Dilution           dH:-42.51(4SF)       4      MTD       6422
+ 9    127     0        Inf. Dilution           dH:-52.93(4SF)       4      MTD       6422
+ 10   227     0        Inf. Dilution           dH:-52.28(4SF)       4      MTD       6422
+ 11   327     0        Inf. Dilution           dH:-51.60(4SF)       4      MTD       6422
+
+
+Reaction No. 67360
+1.5<Cl2(g)> + Ir(s) = Ir+3_Cl-1(3)_(s)
+ No    t    I-Str          Medium                Value (Dev)        W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution           lgK:29.69(4SF)       4      ENS       6422
+ 2    27      0        Inf. Dilution           lgK:29.43(4SF)       0      ENS       6422
+
+
+
+
+                                         – Page 7 of 14 –
+JESS Thermodynamic Database v8.9                                     Iridium
+
+
+ 3    127     0           Inf. Dilution         lgK:18.76(4SF)   2    ENS      6422
+ 4    227     0           Inf. Dilution         lgK:12.38(4SF)   1    ENS      6422
+ 5    327     0           Inf. Dilution         lgK:8.159(4SF)   0    ENS      6422
+ 6    25      0           Inf. Dilution         dG:-40.51(4SF)   4    EFE      6422
+ 7    25      0           Inf. Dilution         dH:-58.70(4SF)   2    MTD      6422
+ 8    127     0           Inf. Dilution         dH:-58.44(4SF)   1    MTD      6422
+ 9    227     0           Inf. Dilution         dH:-58.15(4SF)   0    MTD      6422
+ 10   327     0           Inf. Dilution         dH:-57.84(4SF)   0    MTD      6422
+
+
+Reaction No. 67361
+0.5<I2(s)> + Ir(s) = Ir+1_I-1_(s)
+ No    t    I-Str            Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25      0           Inf. Dilution         lgK:8.858(4SF)   4    ENS      6422
+ 2    27      0           Inf. Dilution         lgK:8.808(4SF)   4    ENS      6422
+ 3    127     0           Inf. Dilution         lgK:6.768(4SF)   4    ENS      6422
+ 4    227     0           Inf. Dilution         lgK:5.142(4SF)   4    ENS      6422
+ 5    327     0           Inf. Dilution         lgK:3.839(4SF)   4    ENS      6422
+ 6    25      0           Inf. Dilution         dG:-12.08(4SF)   4    EFE      6422
+ 7    25      0           Inf. Dilution         dH:-11.00(4SF)   4    MTD      6422
+ 8    127     0           Inf. Dilution         dH:-12.92(4SF)   4    MTD      6422
+ 9    227     0           Inf. Dilution         dH:-18.00(4SF)   4    MTD      6422
+ 10   327     0           Inf. Dilution         dH:-17.76(4SF)   4    MTD      6422
+
+
+Reaction No. 67362
+I2(s) + Ir(s) = IrI2(s)
+ No    t    I-Str            Medium               Value (Dev)    W   Tech.     Ref. #
+ 1    25      0           Inf. Dilution         lgK:15.04(4SF)   4    ENS      6422
+ 2    27      0           Inf. Dilution         lgK:14.95(4SF)   4    ENS      6422
+ 3    127     0           Inf. Dilution         lgK:11.24(4SF)   4    ENS      6422
+ 4    227     0           Inf. Dilution         lgK:8.204(4SF)   4    ENS      6422
+ 5    327     0           Inf. Dilution         lgK:5.741(4SF)   4    ENS      6422
+ 6    25      0           Inf. Dilution         dG:-20.52(4SF)   4    EFE      6422
+ 7    25      0           Inf. Dilution          dH:-20.0(3SF)   4    MTD      6422
+ 8    127     0           Inf. Dilution         dH:-23.85(4SF)   4    MTD      6422
+ 9    227     0           Inf. Dilution         dH:-34.03(4SF)   4    MTD      6422
+ 10   327     0           Inf. Dilution         dH:-33.55(4SF)   4    MTD      6422
+
+
+
+
+                                          – Page 8 of 14 –
+JESS Thermodynamic Database v8.9                                          Iridium
+
+
+Reaction No. 67363
+Ir(s) + 2<S(s)> = Ir+4_S-2(2)_(s)
+ No    t     I-Str         Medium                Value (Dev)        W     Tech.     Ref. #
+ 1    25          0    Inf. Dilution           lgK:21.71(4SF)       4      ENS       6422
+ 2    27          0    Inf. Dilution           lgK:21.57(4SF)       0      ENS       6422
+ 3    127         0    Inf. Dilution           lgK:15.75(4SF)       2      ENS       6422
+ 4    227         0    Inf. Dilution           lgK:12.11(4SF)       1      ENS       6422
+ 5    327         0    Inf. Dilution           lgK:9.635(4SF)       0      ENS       6422
+ 6    25          0    Inf. Dilution           dG:-29.62(4SF)       4      EFE       6422
+ 7    25          0    Inf. Dilution           dH:-31.80(4SF)       4      MTD       6422
+ 8    127         0    Inf. Dilution           dH:-32.96(4SF)       1      MTD       6422
+ 9    227         0    Inf. Dilution           dH:-33.71(4SF)       0      MTD       6422
+ 10   327         0    Inf. Dilution           dH:-34.25(4SF)       0      MTD       6422
+
+
+Reaction No. 67364
+2<Ir(s)> + 3<S(s)> = Ir+3(2)_S-2(3)_(s)
+ No    t     I-Str         Medium                Value (Dev)        W     Tech.     Ref. #
+ 1    25          0    Inf. Dilution           lgK:34.40(4SF)       4      ENS       6422
+ 2    27          0    Inf. Dilution           lgK:34.18(4SF)       0      ENS       6422
+ 3    127         0    Inf. Dilution           lgK:24.98(4SF)       2      ENS       6422
+ 4    227         0    Inf. Dilution           lgK:19.25(4SF)       1      ENS       6422
+ 5    327         0    Inf. Dilution           lgK:15.35(4SF)       0      ENS       6422
+ 6    25          0    Inf. Dilution           dG:-46.93(4SF)       4      EFE       6422
+ 7    25          0    Inf. Dilution           dH:-50.20(4SF)       4      MTD       6422
+ 8    127         0    Inf. Dilution           dH:-51.98(4SF)       1      MTD       6422
+ 9    227         0    Inf. Dilution           dH:-53.13(4SF)       0      MTD       6422
+ 10   327         0    Inf. Dilution           dH:-53.96(4SF)       0      MTD       6422
+
+
+Reaction No. 70259
+2<Ir+4_Cl-1(6)> + H2O = 2<Ir+3_Cl-1(6)> + 0.5<O2(g)> + 2<H+1 >
+ No   t     I-Str         Medium                Value (Dev)         W     Tech.     Ref. #
+ 1    25      0       Inf. Dilution            lgK:-12.0(3SF)       1      ELC
+ 2    25      0       Inf. Dilution            lgK:-7.15(3SF)       0      ENS       7276
+
+
+Reaction No. 74296
+IrO(s) + 2<e-1> + 2<H+1> = Ir(s) + H2O
+ No    t     I-Str      Medium             Value (Dev)          W       Tech.       Ref. #
+
+
+
+
+                                         – Page 9 of 14 –
+JESS Thermodynamic Database v8.9                                                       Iridium
+
+
+  1    25            1         H2SO4          E:0.87(0.02SD)            4             CRV        22551
+
+
+Reaction No. 74297
+Ir+4_Cl-1(5) + e-1 = Ir+3_Cl-1(5)
+ No        t         I-Str      Medium          Value (Dev)         W               Tech.        Ref. #
+  1       25          0.2        HNO3           E:1.0(2SF)          4               CRV          22551
+
+
+Reaction No. 74298
+Ir+4_Cl-1(3) + e-1 = Ir+3_Cl-1(3)
+ No        t         I-Str      Medium          Value (Dev)         W               Tech.        Ref. #
+  1       25          0.4       HClO4           E:1.30(3SF)         4               CRV          22551
+
+
+Reaction No. 74299
+Ir+4_Br-1(6) + e-1 = Ir+3_Br-1(6)
+ No       t      I-Str         Medium           Value (Dev)         W               Tech.        Ref. #
+  1    25                1      HClO4          E:0.883(3SF)         4                CRV         22551
+
+
+Reaction No. 74300
+Ir+4_I-1(6) + e-1 = Ir+3_I-1(6)
+ No        t         I-Str      Medium          Value (Dev)         W               Tech.        Ref. #
+  1       25             1          KI          E:0.49(2SF)         4               CRV          22551
+
+
+Reaction No. 74301
+Fe+2_Phenanth(3) + Ir+4_Cl-1(6) = Fe+3_Phenanth(3) + Ir+3_Cl-1(6)
+ No    t        I-Str        Medium             Value (Dev)                 W         Tech.      Ref. #
+ 1    19             1        HCl            lgK:-2.46(0.06SD)              5          MEF         878
+
+
+Reaction No. 77504
+OH-1 + Ir+3 = Ir+3_OH-1
+ No   t        I-Str            Medium               Value (Dev)                W      Tech.      Ref. #
+ 1    25         0           Inf. Dilution         lgK:10.23(4SF)               1         ELC
+
+
+Reaction No. 77509
+2<OH-1> + Ir+3 = Ir+3_OH-1(2)
+ No   t        I-Str             Medium              Value (Dev)                W     Tech.       Ref. #
+ 1    25         0           Inf. Dilution          lgK:19.3(4SF)               1      ELC
+
+
+Reaction No. 77865
+
+
+
+
+                                             – Page 10 of 14 –
+JESS Thermodynamic Database v8.9                                    Iridium
+
+
+3<OH-1> + Ir+3 = Ir+3_OH-1(3)_(s)
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:32.64(4SF)   1     ELC
+
+
+Reaction No. 77875
+4<OH-1> + Ir+4 + 2<Cl-1> = Ir+4_Cl-1(2)_OH-1(4)
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:52.13(4SF)   1     ELC
+
+
+Reaction No. 77877
+3<OH-1> + Ir+4 + 3<Cl-1> = Ir+4_Cl-1(3)_OH-1(3)
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:46.95(4SF)   1     ELC
+
+
+Reaction No. 77878
+2<OH-1> + Ir+4 + 4<Cl-1> = Ir+4_Cl-1(4)_OH-1(2)
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:40.91(4SF)   1     ELC
+
+
+Reaction No. 77879
+OH-1 + Ir+4 + 5<Cl-1> = Ir+4_Cl-1(5)_OH-1
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:34.46(4SF)   1     ELC
+
+
+Reaction No. 79040
+2<S-2> + Ir+4 = Ir+4_S-2(2)_(s)
+
+Note: The species S-2 does not exist in aqueous solution See reaction: H+1 + S-2 =
+H+1_S-2
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:133.2(4SF)   0     ELC
+
+
+Reaction No. 79041
+3<S-2> + 2<Ir+3> = Ir+3(2)_S-2(3)_(s)
+
+Note: The species S-2 does not exist in aqueous solution See reaction: H+1 + S-2 =
+H+1_S-2
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:197.2(4SF)   0     ELC
+
+
+
+
+                                        – Page 11 of 14 –
+JESS Thermodynamic Database v8.9                               Iridium
+
+
+                                    Data Assessment
+
+
+Weight                      Assessment
+9        highest accuracy
+8        multi-determined; excellent dependability
+7        trustworthy; outstanding single determination
+6        better than average reliability
+5        average single determination
+4        some doubt
+3        poorly known
+2        guess to achieve consistency (or just as bad)
+1        no information but consistent
+0        problematic/inconsistent
+
+
+
+
+                                         Techniques
+
+
+Abbrev                         Method
+CRV      Critical review
+EFE      Free Energy relations
+EIE      Interpolation/Extrapolation (not Debye-Huekel)
+ELC      Linear Combination of Reactions
+ENS      Not specified
+ESC      Standard conditions anchor
+ESR      Similar reaction(s)
+EVH      Van't Hoff Equation (dH = constant)
+MCO      Colorimetry (often for measuring pH)
+MDG      Combination of Thermodynamic Data
+MEF      Electromotoric force, not specified
+MHY      Emf with hydrogen electrode
+MKN      Rate of reaction
+MLC      Ligand competition
+MPL      Polarography
+MPT      Potentiometry
+MSP      Spectroscopy
+
+
+
+
+                                           – Page 12 of 14 –
+JESS Thermodynamic Database v8.9                                     Iridium
+
+
+MTD    Temperature difference
+
+
+
+
+                                    References
+
+
+Reference No.: 583(82HuL)
+S. Afr. J. Chem., 1982, 35, 13 - 18; Hughes CE; Louw WJ; Kinetics and Mechanism of the
+Reactions of IrCl(amine) (cod) with 1,10-Phenanthroline and 2,2'-Bipyridyl. Evidence
+for a Marked Influence of the Leaving Group on the Reaction Rate and Mechanism
+
+Reference No.: 600(52Lat)
+The Oxidation States of the Elements, 2nd Edn, 1952 Latimer WM; and their Potentials in
+Aqueous Solutions; Prentice-Hall Inc., New York, USA
+
+Reference No.: 802(90Wea)
+CRC Handbook of Chemistry and Physics, 70th Edn., 1990 Weast RC; A Ready-Reference Book
+of Chemical and Physical Data; CRC Press, Cleveland, Ohio
+
+Reference No.: 850(71KaY)
+Russ. J. Inorg. Chem., 1971, 16, 997 Kalinina VE; Yatsimirskii KB; Joint Catalytic
+Effect of Ruthenium(IV) and Iridium(IV) Chloro Compounds in the Oxidation of Iodide by
+Periodate
+
+Reference No.: 872(65ChG)
+Inorg. Chem., 1965, 4, 209 Chang JC; Garner CS; Kinetics of Aquation of
+Aquopentachloroiridate(III) and Chloride Anation of Diaquotetrachloroiridate(III)
+Anions
+
+Reference No.: 873(62PoG)
+J. Am. Chem. Soc., 1962, 84, 2032 - 2037; Poulsen IA; Garner CS; A Thermodynamic and
+Kinetic Study of Hexachloro and Aquopentachloro Complexes of Iridium(III) in Aqueous
+Solutions
+
+Reference No.: 874(69DDC)
+J. Inorg. Nucl. Chem., 1969, 31, 2563 - 2573; Domingos AJP; Domingos AMTS; Cabral JMP;
+Kinetics of Aquation of Hexachloroiridate(III) and of Chloride Anation of
+Pentachloroaquoiridate(III)
+
+Reference No.: 875(70KrT)
+Elektrokhimiya, 1970, 6, 691 Kravtsov VI; Tsayun GP
+
+Reference No.: 877(64KvP)
+Russ. J. Inorg. Chem., 1964, 9, 552 - 554; Kvartsov VI; Petrova GM; Kinetics of
+Aquation of Chloroiridate(III) Ions and the IrCl6-2/IrCl6-3 Redox Potential
+
+Reference No.: 878(57GHI)
+J. Chem. Soc., 1957,, 3048 - 3052; George P; Hanania GI; Irvine DH; A Potentiometric
+Study of the Chloroiridate-Chloroiridite Couple
+
+Reference No.: 879(71JaP)
+J. Appl. Electrochem., 1971, 1, 113 Jackson E; Pantony DA
+
+
+
+
+                                      – Page 13 of 14 –
+JESS Thermodynamic Database v8.9                                     Iridium
+
+
+Reference No.: 899(90Mur)
+Estimation of Constants for JESS Database, 1990 Murray K; Record of ad hoc estimations
+
+Reference No.: 5025(73LKT)
+Russ. J. Inorg. Chem., 1973, 18, 1603 Lakatos-Varshanyi I; Kochetkova AN; Tsventarnyi
+EG; Kravtsov VI; Effect of Potassium Ions on the Rate of Aquation of Hexachloro-
+iridate(III) Complexes
+
+Reference No.: 5026(71KSY)
+Russ. J. Inorg. Chem., 1971, 16, 728 - 731; Kalinina VE; Shvedova LV; Yatsimirskii KB;
+Investigation of Equilibria in Solutions of Chloroiridates(IV) by a Kinetic Method
+
+Reference No.: 5253(90LoT)
+Collect. Czech. Chem. Commun., 1990, 55, 987 - 993; Loucka T; Ternbach Z; Potential-pH
+Diagrams for the Systems Ir-H2O-Cl-, Pt-H2O-Cl-, and Pd-H2O-Cl- at 25 degrees Celsius
+
+Reference No.: 5271(79GaB)
+J. Chem. Soc., Dalton Trans., 1979,, 1415 - 1418; Gamsjager H; Beutler P; The
+Hydrolysis of Iridium(III)
+
+Reference No.: 5398(82Hog)
+IUPAC Chemical Data Series No. 21, 1982 Hogfeldt E; Stability Constants of Metal-ion
+Complexes, 2nd Suppl., Part A, Inorganic Ligands; Pergamon, Oxford
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+Reference No.: 6422(95BaP)
+Thermochemical Data of Pure Substances, 3rd Edn., 1995 Barin I; Platzki G; Weinheim,
+Germany
+
+Reference No.: 7276(88CoW)
+Advanced Inorganic Chemistry, 5th Edn., 1988 Cotton FA; Wilkinson G; John Wiley & Sons
+Inc., N.Y., U.S.A
+
+Reference No.: 22551(06Inz)
+Encyclopedia of Electrochemistry, Vol. 7a, 2006, 17 - 75; Inzelt G; Standard, Formal
+and Other Characteristic Potentials of Selected Electrode Reactions
+
+
+
+
+                                      – Page 14 of 14 –
+

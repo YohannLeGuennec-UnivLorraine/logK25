@@ -1,0 +1,3501 @@
+                   JESS Thermodynamic Database v8.9
+                                        Tellurium
+
+                                        24-Jan-23
+
+Reaction No. 34204
+Te+4_Dithizone-1(4) + 4<H+1_DDC-1> = Te+4_DDC-1(4) + 4<H+1_Dithizone-1>
+  No     t      I-Str         Medium       Value (Dev)        W       Tech.   Ref. #
+  1     20                     CCl4       lgK:5.5(2SF)        4       MSP      931
+
+
+Reaction No. 34721
+TeO+4_OH-1(5) + DFructose = H+1_DFructose_TeO4-2 + 2<H2O>
+  No    t      I-Str          Medium       Value (Dev)        W       Tech.   Ref. #
+  1     25       0.1           KCl        lgK:1.92(3SF)       5        MGL     931
+
+
+Reaction No. 34724
+Te+6_OH-1(6) + DFructose = H+1(2)_DFructose_TeO4-2 + 2<H2O>
+  No    t      I-Str          Medium       Value (Dev)        W       Tech.   Ref. #
+  1     25                                lgK:1.44(3SF)       3        MGL     140
+
+
+Reaction No. 34730
+Te+6_OH-1(6) + DGalactose = H+1(2)_DGalactose_TeO4-2 + 2<H2O>
+  No    t      I-Str          Medium        Value (Dev)           W   Tech.   Ref. #
+  1     25      0.1           Unknown      lgK:1.59(3SF)          5    MGL     931
+
+
+Reaction No. 34737
+Te+6_OH-1(6) + DGlucose = H+1(2)_DGlucose_TeO4-2 + 2<H2O>
+  No    t      I-Str          Medium        Value (Dev)           W   Tech.   Ref. #
+  1     25      0.1           Unknown      lgK:1.16(3SF)          5    MGL     140
+
+
+Reaction No. 36008
+2<Thiourea> + Te+2 = Te+2_Thiourea(2)
+  No     t      I-Str         Medium       Value (Dev)        W       Tech.   Ref. #
+  1     25        2             HCl       lgK:1.7(2SF)        3       MPS     4145
+
+
+Reaction No. 52451
+Te+4_Cl-1(4) + 4Me2NitrAniline = Te+4_4Me2NitrAniline_Cl-1(4)
+  No    t      I-Str          Medium       Value (Dev)        W       Tech.   Ref. #
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                Tellurium
+
+
+  1   25                Dioxan          lgK:1.80(3SF)       4   MSP          4695
+
+
+Reaction No. 52452
+Te+4_Cl-1(4) + 2NitrAniline = Te+4_2NitrAniline_Cl-1(4)
+ No    t     I-Str      Medium           Value (Dev)        W   Tech.       Ref. #
+  1   25                Dioxan          lgK:1.22(3SF)       4   MSP          4695
+
+
+Reaction No. 52496
+Te+2_2SHPropan-2(2) + 2<Cd+2> = Cd+2(2)_2SHPropan-2(2) + Te+2
+ No    t     I-Str      Medium           Value (Dev)        W   Tech.       Ref. #
+  1   30      0.5       H2SO4          lgK:3.732(4SF)       3    MGL         4501
+
+
+Reaction No. 52497
+Te+2_3SHPropan-2(2) + 2<Cd+2> = Cd+2(2)_3SHPropan-2(2) + Te+2
+ No    t     I-Str      Medium           Value (Dev)        W   Tech.       Ref. #
+  1   30      0.5       H2SO4          lgK:3.176(4SF)       3    MGL         4501
+
+
+Reaction No. 52498
+Te+2_2SHSuccin-3(2) + 2<Cd+2> = Cd+2(2)_2SHSuccin-3(2) + Te+2
+ No    t     I-Str      Medium           Value (Dev)        W   Tech.       Ref. #
+  1   30      0.5       H2SO4          lgK:3.322(4SF)       3    MGL         4501
+
+
+Reaction No. 52499
+Te+2_2SHAcet-2(2) + 2<Cd+2> = Cd+2(2)_2SHAcet-2(2) + Te+2
+ No    t     I-Str      Medium           Value (Dev)        W   Tech.       Ref. #
+  1   30      0.5       H2SO4          lgK:3.301(4SF)       3    MGL         4501
+
+
+Reaction No. 52500
+Te+2_Cys-2(2) + 2<Cd+2> = Cd+2(2)_Cys-2(2) + Te+2
+ No    t     I-Str      Medium           Value (Dev)        W   Tech.       Ref. #
+  1   30      0.5       H2SO4          lgK:2.447(4SF)       3    MGL         4501
+
+
+Reaction No. 52501
+Cd+2_2SHPropan-2(2) + 2<Te+2> = Te+2(2)_2SHPropan-2(2) + Cd+2
+ No    t     I-Str      Medium           Value (Dev)        W   Tech.       Ref. #
+  1   30      0.5       H2SO4          lgK:8.591(4SF)       3    MGL         4501
+
+
+Reaction No. 52502
+
+
+
+
+                                      – Page 2 of 70 –
+JESS Thermodynamic Database v8.9                                       Tellurium
+
+
+Cd+2_3SHPropan-2(2) + 2<Te+2> = Te+2(2)_3SHPropan-2(2) + Cd+2
+ No    t      I-Str     Medium            Value (Dev)          W       Tech.       Ref. #
+  1   30       0.5       H2SO4          lgK:7.556(4SF)         3        MGL         4501
+
+
+Reaction No. 52503
+Cd+2_2SHSuccin-3(2) + 2<Te+2> = Te+2(2)_2SHSuccin-3(2) + Cd+2
+ No    t      I-Str     Medium            Value (Dev)          W       Tech.       Ref. #
+  1   30       0.5       H2SO4          lgK:6.663(4SF)         3        MGL         4501
+
+
+Reaction No. 52504
+Cd+2_2SHAcet-2(2) + 2<Te+2> = Te+2(2)_2SHAcet-2(2) + Cd+2
+ No    t      I-Str     Medium            Value (Dev)          W       Tech.       Ref. #
+  1   30       0.5       H2SO4          lgK:6.255(4SF)         3        MGL         4501
+
+
+Reaction No. 52505
+Cd+2_Cys-2(2) + 2<Te+2> = Te+2(2)_Cys-2(2) + Cd+2
+ No    t      I-Str     Medium            Value (Dev)          W       Tech.       Ref. #
+  1   30       0.5       H2SO4          lgK:5.301(4SF)         3        MGL         4501
+
+
+Reaction No. 52938
+6<Br-1> + Te+4 = Te+4_Br-1(6)
+ No    t       I-Str     Medium           Value (Dev)          W       Tech.       Ref. #
+  1   23            7    H2SO4           lgK:10.9(3SF)         2       MSP         30887
+  2   23                                 lgK:10.9(3SF)         0       MSP          5398
+  3   25            3    HClO4           lgK:2.13(3SF)         0       MDS          931
+  4   25            3    NaClO4          lgK:2.13(3SF)         0       MSE         7802
+Note (4): Authors say this is a logbeta value but it looks as a logK
+
+
+Reaction No. 53140
+Te+4_Cl-1(3) + Cl-1 = Te+4_Cl-1(4)
+ No       t     I-Str     Medium           Value (Dev)         W       Tech.       Ref. #
+  1    300                                lgK:3.79(3SF)        3        MDG         5398
+
+
+Reaction No. 53141
+Te+4_Cl-1(4) + Cl-1 = Te+4_Cl-1(5)
+ No   t       I-Str        Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    23        0       Inf. Dilution         lgK:-1.83(3SF)       3      MSP        931
+
+
+
+
+                                        – Page 3 of 70 –
+JESS Thermodynamic Database v8.9                                       Tellurium
+
+
+ 2    23     5:10              HCl            lgK:-1.83(3SF)       3      MSP       31017
+ 3    300                                     lgK:2.225(4SF)       3      MDG       5398
+ 4    20                       DMF              lgK:0.7(1SF)       5      MSP        931
+ 5    20                       DMSO            lgK:0.77(2SF)       5      MSP        931
+ 6    20                       MeCN            lgK:1.62(3SF)       5      MSP        931
+ 7    20                Nitromethane           lgK:2.05(3SF)       5      MSP        931
+
+
+Reaction No. 53142
+Te+4_Cl-1(5) + Cl-1 = Te+4_Cl-1(6)
+ No    t    I-Str             Medium             Value (Dev)       W     Tech.     Ref. #
+ 1    23      0         Inf. Dilution         lgK:-2.19(3SF)       3      MSP        931
+ 2    23     5:10              HCl             lgK:-2.2(2SF)       3      MSP       31017
+ 3    300                                      lgK:0.75(2SF)       3      MDG       5398
+
+
+Reaction No. 53229
+Te+4_F-1(4)_OH-1 + H+1_F-1 = Te+4_F-1(5) + H2O
+ No    t     I-Str      Medium            Value (Dev)          W       Tech.       Ref. #
+  1    23      10        Na(F)           lgK:2.4(2SF)          3       MRM         30552
+Note (1): Electrolyte is HF(aq). Not a JESS option. IUPAC gives -0.4 which is the log
+of 2.5 but units are mL-1
+  2    23                                lgK:-0.4(1SF)         0       MIR          5398
+
+
+Reaction No. 53230
+H+1 + Te-2 = H+1_Te-2
+
+Note: The Te-2 species probably does not exist [18Mar_30641]
+ No    t    I-Str             Medium             Value (Dev)       W     Tech.     Ref. #
+ 1    25      0         Inf. Dilution         lgK:11.80(4SF)       4      EOD       4991
+ 2    25      0         Inf. Dilution         lgK:11.80(4SF)       3      EES       5398
+ 3    25      0         Inf. Dilution           lgK:11.(2SF)       0      CRV       6330
+ 4    25      0         Inf. Dilution           lgK:11.(2SF)       0      CRV       22551
+ 5    25      0         Inf. Dilution          lgK:11.9(3SF)       5      MSP       23270
+Note (5): By LC calculation
+ 6    25      1                NaOH            lgK:12.2(3SF)       4      MPL       30575
+ 7    25                                        lgK:11.(2SF)       0      MPL        140
+ 8    25                                      lgK:12.16(4SF)       0      MPL        931
+ 9    25                                        lgK:11.(2SF)       0      MCV       7982
+ 10   50      0         Inf. Dilution         lgK:11.21(4SF)       4      ETM       4991
+
+
+
+
+                                        – Page 4 of 70 –
+JESS Thermodynamic Database v8.9                                     Tellurium
+
+
+ 11   50      0        Inf. Dilution          lgK:11.21(4SF)    3       EES       5398
+ 12   100     0        Inf. Dilution           lgK:11.3(3SF)    1       ETM       4991
+ 13   100     0        Inf. Dilution           lgK:11.3(3SF)    1       EES       5398
+ 14   150     0        Inf. Dilution           lgK:11.4(3SF)    0       ETM       4991
+ 15   150     0        Inf. Dilution           lgK:11.4(3SF)    0       EES       5398
+ 16   200     0        Inf. Dilution           lgK:11.7(3SF)    0       ETM       4991
+ 17   200     0        Inf. Dilution           lgK:11.7(3SF)    0       EES       5398
+ 18   250     0        Inf. Dilution           lgK:12.1(3SF)    0       ETM       4991
+ 19   250     0        Inf. Dilution           lgK:12.1(3SF)    0       EES       5398
+ 20   300     0        Inf. Dilution           lgK:12.6(3SF)    0       ETM       4991
+ 21   300     0        Inf. Dilution           lgK:12.6(3SF)    0       EES       5398
+
+
+Reaction No. 53231
+H+1_Te-2 + H+1 = H+1(2)_Te-2
+ No    t    I-Str          Medium               Value (Dev)    W      Tech.      Ref. #
+ 1    18      0            Unknown             lgK:2.64(3SF)   4       MCN       30705
+Note (1): This is one of the only two original experimental values
+ 2    18                                       lgK:2.64(3SF)   0       MCN        140
+ 3    23      0            Unknown              lgK:2.(1SF)    3       MSL       30867
+Note (3): This is one of the only two original experimental values
+ 4    25      0         Inf. Dilution          lgK:2.64(3SF)   4       EOD       4991
+ 5    25      0         Inf. Dilution          lgK:2.64(3SF)   3       EES       5398
+ 6    25      0         Inf. Dilution           lgK:2.6(2SF)   2       CRV       6330
+ 7    25      0         Inf. Dilution          lgK:2.64(3SF)   2       CRV       22551
+ 8    25                                        lgK:2.(1SF)    0       MCN        140
+ 9    50      0         Inf. Dilution          lgK:2.80(3SF)   4       ETM       4991
+ 10   50      0         Inf. Dilution          lgK:2.80(3SF)   3       EES       5398
+ 11   100     0         Inf. Dilution          lgK:3.30(3SF)   2       ETM       4991
+ 12   100     0         Inf. Dilution          lgK:3.30(3SF)   2       EES       5398
+ 13   150     0         Inf. Dilution          lgK:3.90(3SF)   1       ETM       4991
+ 14   150     0         Inf. Dilution          lgK:3.90(3SF)   1       EES       5398
+ 15   200     0         Inf. Dilution          lgK:4.65(3SF)   1       ETM       4991
+ 16   200     0         Inf. Dilution          lgK:4.65(3SF)   1       EES       5398
+ 17   250     0         Inf. Dilution           lgK:5.5(2SF)   0       ETM       4991
+ 18   250     0         Inf. Dilution           lgK:5.5(2SF)   0       EES       5398
+ 19   300     0         Inf. Dilution           lgK:6.4(2SF)   0       ETM       4991
+
+
+
+
+                                        – Page 5 of 70 –
+JESS Thermodynamic Database v8.9                                     Tellurium
+
+
+ 20   300         0     Inf. Dilution           lgK:6.4(2SF)     0       EES     5398
+
+
+Reaction No. 53232
+H+1 + TeO3-2 = H+1_TeO3-2
+ No    t    I-Str           Medium              Value (Dev)          W   Tech.   Ref. #
+ 1    20      0       Inf. Dilution          lgK:9.56(0.02SD)        4    ENS    4605
+ 2    20      0       Inf. Dilution            lgK:9.43(3SF)         4    MGL    5231
+ 3    20     0.1            NaClO4             lgK:9.36(3SF)         4    MGL    5231
+ 4    20     0.1            NaClO4             lgK:9.36(3SF)         5    MGL    5398
+ 5    20     0.5            NaClO4             lgK:9.00(3SF)         4    MGL    5231
+ 6    20     0.5            NaClO4             lgK:9.00(3SF)         4    MGL    5398
+ 7    20      1             NaClO4             lgK:8.60(3SF)         4    MGL    5231
+ 8    20      1             NaClO4             lgK:8.60(3SF)         3    MGL    5398
+ 9    20      1          Unknown               lgK:8.91(3SF)         4    CRV     552
+ 10   20     1.5            NaClO4             lgK:8.48(3SF)         4    MGL    5231
+ 11   20     1.5            NaClO4             lgK:8.48(3SF)         2    MGL    5398
+ 12   25      0       Inf. Dilution            lgK:10.70(4SF)        1    EES
+ 13   25      0       Inf. Dilution            lgK:10.70(4SF)        3    EOD    4991
+ 14   25      0       Inf. Dilution            lgK:8.43(3SF)         0    CRV    6330
+ 15   25      0       Inf. Dilution            lgK:-7.7(2SF)         0    CRV    14620
+ 16   25      0       Inf. Dilution            lgK:10.02(4SF)        5    MDG    26109
+ 17   25      0       Inf. Dilution          lgK:10.02(0.01SD)       3    EOD    31758
+ 18   25      1             NaClO4           lgK:10.05(0.01SD)       0    MGL    26109
+Note (18): Two values given: 10.02 and 10.08
+ 19   25     1.5             NaCl              lgK:8.35(3SF)         2    MDG    5398
+ 20   25     1.5             NaCl              lgK:8.43(3SF)         4    MSL    30943
+ 21   25                                       lgK:7.74(3SF)         0    MCN     140
+ 22   50      0       Inf. Dilution            lgK:10.42(4SF)        1    EES
+ 23   50      0       Inf. Dilution            lgK:10.42(4SF)        2    ETM    4991
+ 24   60      1             NaClO4           lgK:9.84(0.01SD)        2    MGL    26109
+Note (24): Two values given 9.91 and 9.78
+ 25   80      0       Inf. Dilution          lgK:9.67(0.03SD)        3    EOD    31758
+ 26   80      1             NaClO4           lgK:9.66(0.01SD)        4    MGL    26109
+Note (26): Two values givem: 9.66 and 9.67
+ 27   100     0       Inf. Dilution            lgK:10.15(4SF)        2    ETM    4991
+ 28   100     0       Inf. Dilution            lgK:10.15(4SF)        2    EES    5398
+
+
+
+
+                                        – Page 6 of 70 –
+JESS Thermodynamic Database v8.9                               Tellurium
+
+
+ 29   150    0       Inf. Dilution          lgK:10.20(4SF)     2   ETM     4991
+ 30   150    0       Inf. Dilution          lgK:10.20(4SF)     2   EES     5398
+ 31   200    0       Inf. Dilution          lgK:10.20(4SF)     1   ETM     4991
+ 32   200    0       Inf. Dilution          lgK:10.50(4SF)     1   EES     5398
+ 33   250    0       Inf. Dilution          lgK:10.9(3SF)      1   ETM     4991
+ 34   250    0       Inf. Dilution          lgK:10.9(3SF)      1   EES     5398
+ 35   300    0       Inf. Dilution          lgK:11.4(3SF)      0   ETM     4991
+ 36   300    0       Inf. Dilution          lgK:11.4(3SF)      0   EES     5398
+ 37   25     0       Inf. Dilution         dH:7.580(3.SD)kJ    5   EVK     26109
+ 38   25     0       Inf. Dilution        dH:13.730(2.1SD)kJ   3   EOD     31758
+ 39   25     1           NaClO4           dH:13.730(2.1SD)kJ   2   EVK     26109
+
+
+Reaction No. 53233
+H+1_TeO3-2 + H+1 = H+1(2)_TeO3-2
+ No   t     I-Str         Medium              Value (Dev)      W   Tech.   Ref. #
+ 1    0                                      lgK:6.59(3SF)     0    EOD     7065
+ 2    20      0       Inf. Dilution        lgK:6.08(0.06SD)    4    ENS     4605
+ 3    20      0       Inf. Dilution          lgK:6.92(3SF)     3    MGL     5231
+ 4    20     0.1          NaClO4            lgK:6.1(0.06SD)    5    ENS     4605
+ 5    20     0.1          NaClO4             lgK:6.50(3SF)     2    MGL     5231
+ 6    20     0.1          NaClO4             lgK:6.90(3SF)     0    MGL     5398
+ 7    20     0.5          NaClO4             lgK:6.56(3SF)     0    MGL     5231
+ 8    20     0.5          NaClO4             lgK:6.56(3SF)     0    MGL     5398
+ 9    20     0.5         Unknown             lgK:5.99(3SF)     4    CRV     552
+ 10   20      1           NaClO4             lgK:6.36(3SF)     3    MGL     5231
+ 11   20      1           NaClO4             lgK:6.36(3SF)     3    MGL     5398
+ 12   20      1          Unknown             lgK:5.89(3SF)     4    CRV     552
+ 13   20     1.5          NaClO4             lgK:6.18(3SF)     4    MGL     5231
+ 14   20     1.5          NaClO4             lgK:6.18(3SF)     5    MGL     5398
+ 15   25      0       Inf. Dilution          lgK:3.87(3SF)     0    EOD     4991
+ 16   25      0       Inf. Dilution          lgK:3.87(3SF)     0    EES     5398
+ 17   25      0       Inf. Dilution          lgK:6.27(3SF)     0    CRV     6330
+ 18   25      0       Inf. Dilution          lgK:6.38(3SF)     0    EOD     7065
+ 19   25      0       Inf. Dilution           lgK:2.5(2SF)     0    CRV    14620
+Note (19): p. 781
+ 20   25      0       Inf. Dilution          lgK:5.25(3SF)     2    MDG    26109
+
+
+
+
+                                      – Page 7 of 70 –
+JESS Thermodynamic Database v8.9                               Tellurium
+
+
+ 21   25      0       Inf. Dilution          lgK:5.18(3SF)     2   EOD     31758
+ 22   25      0        Self Medium            lgK:7.7(2SF)     0   CRV     30749
+ 23   25    0.05:2      Many Media         lgK:5.18(0.19SD)    2   MSL     26109
+ 24   25      1            HCl                lgK:5.6(2SF)     0   MSL     30574
+ 25   25     1.5           NaCl               lgK:6.2(2SF)     4   MDG     5398
+ 26   25     1.5           NaCl            lgK:6.27(0.02SD)    4   MSL     30943
+ 27   25                                     lgK:2.57(3SF)     0   MCN      140
+ 28   50      0       Inf. Dilution          lgK:3.93(3SF)     0   ETM     4991
+ 29   50      0       Inf. Dilution          lgK:3.93(3SF)     0   EES     5398
+ 30   50      0       Inf. Dilution          lgK:6.30(3SF)     0   EOD     7065
+ 31   60      0       Inf. Dilution          lgK:6.30(3SF)     0   EOD     7065
+ 32   80      0       Inf. Dilution        lgK:5.18(0.19SD)    2   EOD     31758
+ 33   80    0.05:2      Many Media         lgK:5.95(0.06SD)    4   MSL     26109
+ 34   100     0       Inf. Dilution          lgK:4.25(3SF)     0   ETM     4991
+ 35   100     0       Inf. Dilution          lgK:4.25(3SF)     0   EES     5398
+ 36   100     0       Inf. Dilution          lgK:6.37(3SF)     0   EOD     7065
+ 37   150     0       Inf. Dilution          lgK:4.70(3SF)     0   ETM     4991
+ 38   150     0       Inf. Dilution          lgK:4.70(3SF)     0   EES     5398
+ 39   150     0       Inf. Dilution          lgK:6.62(3SF)     0   EOD     7065
+ 40   200     0       Inf. Dilution          lgK:5.40(3SF)     0   ETM     4991
+ 41   200     0       Inf. Dilution          lgK:5.40(3SF)     0   EES     5398
+ 42   200     0       Inf. Dilution          lgK:7.00(3SF)     0   EOD     7065
+ 43   200   0.05:2      Many Media         lgK:6.63(0.11SD)    4   MSL     26109
+ 44   250     0       Inf. Dilution           lgK:6.2(2SF)     0   ETM     4991
+ 45   250     0       Inf. Dilution           lgK:6.2(2SF)     0   EES     5398
+ 46   250     0       Inf. Dilution          lgK:7.50(3SF)     0   EOD     7065
+ 47   300     0       Inf. Dilution           lgK:7.0(2SF)     0   ETM     4991
+ 48   300     0       Inf. Dilution           lgK:7.0(2SF)     0   EES     5398
+ 49   300     0       Inf. Dilution          lgK:8.16(3SF)     0   EOD     7065
+ 50   350     0       Inf. Dilution          lgK:9.26(3SF)     0   EOD     7065
+ 51   25      0       Inf. Dilution       dH:-24.323(5.SD)kJ   5   EVK     26109
+ 52   25      0       Inf. Dilution        dH:-22.286(5SF)kJ   3   EOD     31758
+ 53   25    0.05:2      Many Media         dH:-22.286(5SF)kJ   4   EVK     26109
+
+
+Reaction No. 53234
+2<TeO3-2> + Ag+1 = Ag+1_TeO3-2(2)
+
+
+
+
+                                      – Page 8 of 70 –
+JESS Thermodynamic Database v8.9                                           Tellurium
+
+
+ No    t     I-Str          Medium           Value (Dev)           W       Tech.           Ref. #
+  1    25         1        Unknown          lgK:4.34(3SF)          4           MSL         5398
+
+
+Reaction No. 54107
+H+1(2)_TeO3-2 + H+1 = Te+4_OH-1(3)
+ No    t    I-Str            Medium               Value (Dev)              W     Tech.      Ref. #
+ 1     0                                         lgK:3.09(3SF)             3         EOD     7065
+ 2    18     0.5             NaClO4              lgK:1.68(3SF)             4         MSL     931
+ 3    18     0.5             NaClO4              lgK:1.68(3SF)             4         MSL    20406
+ 4    20      0           Inf. Dilution          lgK:2.8(0.2SD)            2         ENS     4605
+ 5    23      0            Self Medium            lgK:2.6(2SF)             2         MCN    30749
+ 6    25      0           Inf. Dilution          lgK:2.83(3SF)             2         EOD     7065
+ 7    25      0           Inf. Dilution          lgK:2.87(3SF)             2         MDG    26109
+ 8    25      0           Inf. Dilution         lgK:2.81(0.2SD)            2         EOD    31758
+ 9    25    0.05:2         Many Media          lgK:2.81(0.20SD)            0         MSL    26109
+ 10   25      1              Unknown              lgK:2.5(2SF)             0         CRV
+ 11   50      0           Inf. Dilution          lgK:2.61(3SF)             4         EOD     7065
+ 12   60      0           Inf. Dilution          lgK:2.53(3SF)             3         EOD     7065
+ 13   80      0           Inf. Dilution          lgK:2.22(3SF)             3         EOD    31758
+ 14   80    0.05:2         Many Media          lgK:2.22(0.09SD)            2         MSL    26109
+ 15   150     0           Inf. Dilution          lgK:1.99(3SF)             2         EOD     7065
+ 16   200     0           Inf. Dilution          lgK:1.78(3SF)             2         EOD     7065
+ 17   200   0.05:2         Many Media          lgK:1.08(0.18SD)            2         MSL    26109
+ 18   250     0           Inf. Dilution          lgK:1.61(3SF)             1         EOD     7065
+ 19   300     0           Inf. Dilution          lgK:1.47(3SF)             0         EOD     7065
+ 20   350     0           Inf. Dilution          lgK:1.35(3SF)             0         EOD     7065
+ 21   25      0           Inf. Dilution        dH:27.059(2.SD)kJ           5         MTD    26109
+ 22   25      0           Inf. Dilution        dH:27.059(5SF)kJ            3         EOD    31758
+ 23   25      3              Hexane              lgK:4.17(3SF)             1         MDS     931
+                             NaClO4
+
+
+Reaction No. 54262
+Cl-1 + Te+4 = Te+4_Cl-1
+ No    t    I-Str            Medium               Value (Dev)          W       Tech.       Ref. #
+ 1    25      0           Inf. Dilution           lgK:4.(1SF)          1        EES
+Note (1): Increased to align better with Bouroushian [23898]
+ 2    25      7               HClO4             lgK:3.24(3SF)          3        MDS          931
+
+
+
+
+                                          – Page 9 of 70 –
+JESS Thermodynamic Database v8.9                                   Tellurium
+
+
+ 3    25     7             HClO4              lgK:3.24(3SF)    4     MSE       31018
+
+
+Reaction No. 54263
+2<Cl-1> + Te+4 = Te+4_Cl-1(2)
+ No   t    I-Str          Medium               Value (Dev)     W    Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:7.(1SF)     1     EES
+Note (1): Increased to align better with Bouroushian [23898]
+ 2    25     7             HClO4               lgK:6.0(2SF)    3     MDS        931
+ 3    25     7             HClO4              lgK:6.01(3SF)    4     MSE       31018
+
+
+Reaction No. 54264
+3<Cl-1> + Te+4 = Te+4_Cl-1(3)
+ No   t    I-Str          Medium               Value (Dev)     W    Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:10.(2SF)    1     EES
+Note (1): Increased to align better with Bouroushian [23898]
+ 2    25     7             HClO4              lgK:8.34(3SF)    3     MDS        931
+ 3    25     7             HClO4              lgK:8.34(3SF)    4     MSE       31018
+
+
+Reaction No. 54265
+4<Cl-1> + Te+4 = Te+4_Cl-1(4)
+ No   t    I-Str          Medium               Value (Dev)     W    Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:12.(2SF)     1     EES
+Note (1): Increased to align better with Bouroushian [23898]
+ 2    25     7            HClO4              lgK:10.18(4SF)    3     MDS        931
+ 3    25     7            HClO4               lgK:10.2(3SF)    4     MSE       31018
+
+
+Reaction No. 54266
+5<Cl-1> + Te+4 = Te+4_Cl-1(5)
+ No   t    I-Str          Medium               Value (Dev)     W    Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:15.(2SF)     1     EES
+Note (1): Increased to align better with Bouroushian [23898]
+ 2    25     7            HClO4              lgK:12.76(4SF)    3     MDS        931
+ 3    25     7            HClO4               lgK:12.8(3SF)    4     MSE       31018
+
+
+Reaction No. 54267
+6<Cl-1> + Te+4 = Te+4_Cl-1(6)
+ No   t    I-Str          Medium               Value (Dev)     W    Tech.      Ref. #
+
+
+
+
+                                       – Page 10 of 70 –
+JESS Thermodynamic Database v8.9                                     Tellurium
+
+
+ 1    25     0        Inf. Dilution              lgK:18.(2SF)    1     EES
+Note (1): Increased to align better with Bouroushian [23898]
+ 2    25     7               HClO4              lgK:15.30(4SF)   3     MDS        931
+ 3    25     7               HClO4               lgK:15.3(3SF)   4     MSE       31018
+
+
+Reaction No. 54338
+Te+4_Br-1 + Br-1 = Te+4_Br-1(2)
+ No   t    I-Str             Medium               Value (Dev)    W    Tech.      Ref. #
+ 1    25     0            Inf. Dilution           lgK:1.0(2SF)   1     EES
+ 2    23                       DMF               lgK:1.20(3SF)   4     MSP        931
+ 3    23                      DMSO               lgK:0.85(2SF)   4     MSP        931
+ 4    23                      MeCN               lgK:2.74(3SF)   4     MSP        931
+
+
+Reaction No. 54339
+Br-1 + Te+4 = Te+4_Br-1
+ No   t    I-Str             Medium               Value (Dev)    W    Tech.      Ref. #
+ 1    25     0            Inf. Dilution           lgK:1.(1SF)    1     EES
+ 2    25     3                HClO4              lgK:0.97(2SF)   3     MDS        931
+ 3    25     3               NaClO4              lgK:0.97(2SF)   4     MSE       7802
+
+
+Reaction No. 54340
+2<Br-1> + Te+4 = Te+4_Br-1(2)
+ No   t    I-Str             Medium               Value (Dev)    W    Tech.      Ref. #
+ 1    25     0            Inf. Dilution           lgK:1.5(2SF)   1     EES
+ 2    25     3                HClO4              lgK:1.58(3SF)   0     MDS        931
+ 3    25     3               NaClO4              lgK:1.58(3SF)   0     MSE       7802
+Note (3): Probably logK values and not logbeta, as said by the authors
+
+
+Reaction No. 54341
+3<Br-1> + Te+4 = Te+4_Br-1(3)
+ No   t    I-Str             Medium               Value (Dev)    W    Tech.      Ref. #
+ 1    25     0            Inf. Dilution           lgK:2.(1SF)    1     EES
+ 2    25     3                HClO4              lgK:1.96(3SF)   0     MDS        931
+ 3    25     3               NaClO4              lgK:1.96(3SF)   0     MSE       7802
+Note (3): Probably logK values and not logbeta, as said by the authors
+
+
+Reaction No. 54342
+
+
+
+
+                                          – Page 11 of 70 –
+JESS Thermodynamic Database v8.9                                     Tellurium
+
+
+4<Br-1> + Te+4 = Te+4_Br-1(4)
+ No   t     I-Str           Medium               Value (Dev)     W    Tech.      Ref. #
+ 1    25      0          Inf. Dilution           lgK:2.1(2SF)    1     EES
+ 2    25      3               HClO4             lgK:2.15(3SF)    0     MDS        931
+ 3    25      3             NaClO4              lgK:2.15(3SF)    0     MSE       7802
+Note (3): Probably logK values and not logbeta, as said by the authors
+
+
+Reaction No. 54343
+5<Br-1> + Te+4 = Te+4_Br-1(5)
+ No   t     I-Str           Medium               Value (Dev)     W    Tech.      Ref. #
+ 1    25      0          Inf. Dilution           lgK:2.2(2SF)    1     EES
+ 2    25      3               HClO4             lgK:2.21(3SF)    0     MDS        931
+ 3    25      3             NaClO4              lgK:2.21(3SF)    0     MSE       7802
+Note (3): Probably logK values and not logbeta, as said by the authors
+
+
+Reaction No. 56656
+2<Cu(s)> + Te(s) = Cu+1(2)_Te-2_(s)
+ No    t     I-Str            Medium              Value (Dev)    W     Tech.     Ref. #
+ 1    25          0      Inf. Dilution          lgK:8.317(4SF)   4      ENS       6422
+ 2    27          0      Inf. Dilution          lgK:8.272(4SF)   4      ENS       6422
+ 3    127         0      Inf. Dilution          lgK:6.454(4SF)   4      ENS       6422
+ 4    160         0      Inf. Dilution          lgK:6.040(4SF)   4      ENS       6422
+ 5    25          0      Inf. Dilution          dG:-11.35(4SF)   4      EFE       6422
+ 6    25          0      Inf. Dilution          dH:-10.0(3SF)    4      MTD       6422
+ 7    127         0      Inf. Dilution           dH:-9.9(2SF)    4      MTD       6422
+ 8    160         0      Inf. Dilution           dH:-9.9(2SF)    4      MTD       6422
+
+
+Reaction No. 56856
+Co(s) + 2<Te(s)> = CoTe2(s)
+ No   t     I-Str           Medium               Value (Dev)     W    Tech.      Ref. #
+ 1    25      0         Inf. Dilution          dH:-31.(0.5SD)    5     ENS        802
+
+
+Reaction No. 56906
+Te(s) + 2<e-1> = Te-2
+
+Note: The Te-2 species probably does not exist [18Mar_30641]
+ No   t     I-Str          Medium                Value (Dev)     W     Tech.     Ref. #
+ 1    25      0         Inf. Dilution          lgK:-37.14(4SF)   2      CRV      32224
+
+
+
+
+                                         – Page 12 of 70 –
+JESS Thermodynamic Database v8.9                                       Tellurium
+
+
+ 2    25     0        Inf. Dilution            dG:53.(0.5SD)       2      ENS       3006
+ 3    25     0        Inf. Dilution          dG:220.5(4SF)kJ       2      CRV       7421
+ 4    23     0        Inf. Dilution            E:-0.95(2SF)        0      MPL       30575
+ 5    25     0        Inf. Dilution            E:-1.14(3SF)        4      CRV        600
+ 6    25     0        Inf. Dilution            E:-1.143(4SF)       2      CRV       6330
+ 7    25     0        Inf. Dilution            E:-1.14(3SF)        2      CRV       14620
+Note (7): p. 755
+ 8    25     0        Inf. Dilution            E:-1.143(4SF)       2      CRV       22519
+ 9    25     0        Inf. Dilution            E:-1.14(3SF)        2      CRV       22551
+ 10   25     0        Inf. Dilution            E:-0.913(3SF)       0      CRV       23898
+Note (10): Source shows two different values
+ 11   25     0        Inf. Dilution            E:-1.14(3SF)        2      CRV       23898
+ 12   25     0        Inf. Dilution            E:-0.92(2SF)        0      CRV       31204
+ 13   30     0        Inf. Dilution             E:-1.1(2SF)        2      CRV       30896
+
+
+Reaction No. 56907
+Te(s) + 1.5<O2(g)> = TeO3-2 - 2<e-1>
+ No   t    I-Str         Medium                 Value (Dev)        W     Tech.     Ref. #
+ 1    25     0        Inf. Dilution            lgK:66.9(3SF)       1      ELC
+ 2    25     0        Inf. Dilution          dG:-93.8(0.1SD)       0      ENS       3006
+
+
+Reaction No. 56922
+Co+2_Te-2_(s) = Co+2 + Te-2
+
+Note: The Te-2 species probably does not exist [18Mar_30641]
+ No   t    I-Str         Medium                 Value (Dev)        W     Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-37.(0.5SD)       2      MDG       5174
+
+
+Reaction No. 56979
+Co+3_NH3(5)_TeO3-2 + Cl-1 = Co+3_NH3(5)_Cl-1_TeO3-2
+ No    t    I-Str      Medium            Value (Dev)           W       Tech.       Ref. #
+  1   25         3     NaClO4          lgK:0.22(0.01SD)        3        MPT        5178
+
+
+Reaction No. 56980
+Co+3_NH3(5)_TeO3-2 + 2<Cl-1> = Co+3_NH3(5)_Cl-1(2)_TeO3-2
+ No    t    I-Str      Medium            Value (Dev)           W       Tech.       Ref. #
+  1   25         3     NaClO4          lgK:0.36(0.01SD)        3        MPT        5178
+
+
+
+
+                                       – Page 13 of 70 –
+JESS Thermodynamic Database v8.9                                  Tellurium
+
+
+Reaction No. 56981
+Co+3_NH3(5)_TeO3-2 + 3<Cl-1> = Co+3_NH3(5)_Cl-1(3)_TeO3-2
+ No   t     I-Str      Medium           Value (Dev)           W   Tech.       Ref. #
+  1   25      3        NaClO4         lgK:1.13(0.01SD)        3    MPT        5178
+
+
+Reaction No. 56982
+Co+3_NH3(5)_TeO3-2 + Br-1 = Co+3_NH3(5)_Br-1_TeO3-2
+ No   t     I-Str      Medium           Value (Dev)           W   Tech.       Ref. #
+  1   25      3        NaClO4         lgK:0.29(0.01SD)        3    MPT        5178
+
+
+Reaction No. 56983
+Co+3_NH3(5)_TeO3-2 + 2<Br-1> = Co+3_NH3(5)_Br-1(2)_TeO3-2
+ No   t     I-Str      Medium           Value (Dev)           W   Tech.       Ref. #
+  1   25      3        NaClO4         lgK:0.56(0.01SD)        3    MPT        5178
+
+
+Reaction No. 56984
+Co+3_NH3(5)_TeO3-2 + 3<Br-1> = Co+3_NH3(5)_Br-1(3)_TeO3-2
+ No   t     I-Str      Medium           Value (Dev)           W   Tech.       Ref. #
+  1   25      3        NaClO4         lgK:0.80(0.01SD)        3    MPT        5178
+
+
+Reaction No. 56985
+Co+3_NH3(5)_TeO3-2 + 4<Br-1> = Co+3_NH3(5)_Br-1(4)_TeO3-2
+ No   t     I-Str      Medium           Value (Dev)           W   Tech.       Ref. #
+  1   25      3        NaClO4         lgK:0.83(0.01SD)        3    MPT        5178
+
+
+Reaction No. 56986
+Co+3_NH3(5)_TeO3-2 + NO2-1 = Co+3_NH3(5)_NO2-1_TeO3-2
+ No   t     I-Str      Medium           Value (Dev)           W   Tech.       Ref. #
+  1   25      3        NaClO4         lgK:0.43(0.01SD)        3    MPT        5178
+
+
+Reaction No. 56987
+Co+3_NH3(5)_TeO3-2 + 2<NO2-1> = Co+3_NH3(5)_NO2-1(2)_TeO3-2
+ No   t     I-Str      Medium           Value (Dev)           W   Tech.       Ref. #
+  1   25      3        NaClO4         lgK:0.45(0.01SD)        3    MPT        5178
+
+
+Reaction No. 56988
+Co+3_NH3(5)_TeO3-2 + 3<NO2-1> = Co+3_NH3(5)_NO2-1(3)_TeO3-2
+ No   t     I-Str      Medium           Value (Dev)           W   Tech.       Ref. #
+
+
+
+
+                                      – Page 14 of 70 –
+JESS Thermodynamic Database v8.9                                            Tellurium
+
+
+  1   25            3   NaClO4          lgK:0.51(0.01SD)            3         MPT        5178
+
+
+Reaction No. 56989
+Co+3_NH3(5)_TeO3-2 + 4<NO2-1> = Co+3_NH3(5)_NO2-1(4)_TeO3-2
+ No    t       I-Str    Medium             Value (Dev)              W        Tech.      Ref. #
+  1   25            3   NaClO4          lgK:0.88(0.01SD)            3         MPT        5178
+
+
+Reaction No. 57083
+Cu(s) + Te(s) = Cu+2_Te-2_(s)
+
+Note: The Te-2 species probably does not exist [18Mar_30641]
+ No    t       I-Str        Medium               Value (Dev)            W     Tech.     Ref. #
+ 1    25            0   Inf. Dilution          lgK:4.604(4SF)           2      ENS       6422
+ 2    27            0   Inf. Dilution          lgK:4.577(4SF)           0      ENS       6422
+ 3    127           0   Inf. Dilution          lgK:3.493(4SF)           2      ENS       6422
+ 4    227           0   Inf. Dilution          lgK:2.856(4SF)           0      ENS       6422
+ 5    327           0   Inf. Dilution          lgK:2.441(4SF)           0      ENS       6422
+ 6    25            0   Inf. Dilution           dG:-6.28(3SF)           2      EFE       6422
+ 7    25            0   Inf. Dilution           dH:-6.0(2SF)            2      MTD       6422
+ 8    127           0   Inf. Dilution           dH:-5.9(2SF)            0      MTD       6422
+ 9    227           0   Inf. Dilution           dH:-5.8(2SF)            0      MTD       6422
+ 10   327           0   Inf. Dilution           dH:-5.6(2SF)            0      MTD       6422
+
+
+Reaction No. 58532
+3<Te+6_OH-1(6)> = Te3O+16_OH-1(17) + H+1
+ No   t       I-Str        Medium               Value (Dev)             W     Tech.     Ref. #
+ 1    25        0       Inf. Dilution          lgK:-6.91(3SF)           3      MQH        140
+ 2    25        0       Inf. Dilution          lgK:-6.91(3SF)           4      MQH       31009
+ 3    25      0.32         NaClO4              lgK:-6.76(3SF)           3      MQH        140
+ 4    25      1.73         NaClO4              lgK:-6.17(3SF)           3      MQH        140
+
+
+Reaction No. 58534
+Mn+4_OH-1(5)_TeO4-2(3) = Mn+4_OH-1(4)_TeO4-2(2) + TeO4-2 + OH-1
+ No       t     I-Str     Medium           Value (Dev)          W           Tech.       Ref. #
+  1    25                                  lgK:-4.4(2SF)        0           MSP          140
+
+
+Reaction No. 58535
+2<TeO4-2> + Co+3 = Co+3_TeO4-2(2)
+
+
+
+
+                                        – Page 15 of 70 –
+JESS Thermodynamic Database v8.9                                         Tellurium
+
+
+ No       t     I-Str       Medium           Value (Dev)         W       Tech.       Ref. #
+  1    60           0.1      NaOH           lgK:15.6(3SF)        4       MKN          140
+
+
+Reaction No. 58536
+TeO4-2 + Cu+3 = Cu+3_TeO4-2
+ No       t     I-Str       Medium           Value (Dev)         W       Tech.       Ref. #
+  1    25           0.4      NaOH           lgK:5.7(2SF)         0       MSP         30893
+Note (1): 53Lis No reaction in original paper, formula complex unknown
+  2    40           0.4      NaOH           lgK:5.74(3SF)        0       MKN          140
+Note (2): JESS reaction probably from 140; not in original paper
+
+
+Reaction No. 58537
+2<TeO4-2> + Cu+3 = Cu+3_TeO4-2(2)
+ No       t    I-Str       Medium            Value (Dev)         W       Tech.       Ref. #
+  1    40       0.4         NaOH           lgK:10.96(4SF)        0        MKN         140
+Note (1): JESS reaction probably from 140 but different from original paper
+  2    40       0.4         NaOH           lgK:11.0(3SF)         0        MSP        30893
+Note (2): 53Lis Reaction proposed unreasonable
+
+
+Reaction No. 65946
+Mn+2_Te-2_(s) = Mn+2 + Te-2
+
+Note: The Te-2 species probably does not exist [18Mar_30641]
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution         lgK:-18.3(3SF)       1      ELC
+ 2    25        0         Inf. Dilution         lgK:-15.9(3SF)       0      CRV        552
+ 3    25        0         Inf. Dilution         lgK:-15.9(3SF)       0      CRV       32224
+Note (3): source indicates uncertainty
+
+
+Reaction No. 65947
+Fe+2_Te-2_(s) = Fe+2 + Te-2
+
+Note: The Te-2 species probably does not exist [18Mar_30641]
+ No   t       I-Str          Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution         lgK:-30.0(3SF)       2      CRV        552
+ 2    25        0         Inf. Dilution         lgK:-30.0(3SF)       2      CRV       32224
+Note (2): source indicates uncertainty
+
+
+Reaction No. 65948
+
+
+
+
+                                          – Page 16 of 70 –
+JESS Thermodynamic Database v8.9                                   Tellurium
+
+
+Ni+2_Te-2_(s) = Ni+2 + Te-2
+
+Note: The Te-2 species probably does not exist [18Mar_30641]
+ No   t    I-Str          Medium               Value (Dev)     W    Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:-38.1(3SF)    2     CRV        552
+ 2    25     0        Inf. Dilution          lgK:-38.1(3SF)    2     CRV       32224
+Note (2): uncertainty indicated in source
+
+
+Reaction No. 65949
+Cu+1(2)_Te-2_(s) = 2<Cu+1> + Te-2
+
+Note: The Te-2 species probably does not exist [18Mar_30641]
+ No   t    I-Str          Medium               Value (Dev)     W    Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:-64.5(3SF)    1     ELC
+ 2    25     0        Inf. Dilution          lgK:-62.3(3SF)    0     CRV        552
+
+
+Reaction No. 65950
+Ag+1(2)_Te-2_(s) = 2<Ag+1> + Te-2
+
+Note: The Te-2 species probably does not exist [18Mar_30641]
+ No   t    I-Str          Medium               Value (Dev)     W    Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:-71.7(3SF)    2     CRV        552
+ 2    25     0        Inf. Dilution          lgK:-71.7(3SF)    2     CRV       32224
+Note (2): uncertainty identified in source
+
+
+Reaction No. 65951
+Tl+1(2)_Te-2_(s) = 2<Tl+1> + Te-2
+
+Note: The Te-2 species probably does not exist [18Mar_30641]
+ No   t    I-Str          Medium               Value (Dev)     W    Tech.      Ref. #
+ 1    25     0        Inf. Dilution          lgK:-41.3(3SF)    1     ELC
+ 2    25     0        Inf. Dilution          lgK:-39.2(3SF)    0     CRV        552
+
+
+Reaction No. 65952
+Zn+2_Te-2_(s) = Zn+2 + Te-2
+
+Note: The Te-2 species probably does not exist [18Mar_30641]
+ No   t    I-Str         Medium                Value (Dev)     W     Tech.     Ref. #
+ 1    25     0        Inf. Dilution          lgK:-33.05(4SF)   1      EOR
+ 2    25     0        Inf. Dilution          lgK:-33.3(3SF)    2      CRV       552
+ 3    25     0        Inf. Dilution          lgK:-33.3(3SF)    2      CRV      32224
+
+
+
+
+                                      – Page 17 of 70 –
+JESS Thermodynamic Database v8.9                                    Tellurium
+
+
+Note (3): source indicates uncertainty
+
+
+Reaction No. 65953
+Cd+2_Te-2_(s) = Cd+2 + Te-2
+
+Note: The Te-2 species probably does not exist [18Mar_30641]
+ No   t    I-Str          Medium                 Value (Dev)    W    Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:-41.5(3SF)   2     CRV        552
+ 2    25     0        Inf. Dilution            lgK:-41.5(3SF)   2     CRV       32224
+Note (2): source indicates uncertainty
+
+
+Reaction No. 65954
+Hg+2_Te-2_(s) = Hg+2 + Te-2
+
+Note: The Te-2 species probably does not exist [18Mar_30641]
+ No   t    I-Str          Medium                 Value (Dev)    W    Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:-72.4(3SF)   1     ELC
+ 2    25     0        Inf. Dilution            lgK:-69.6(3SF)   0     CRV        552
+
+
+Reaction No. 65955
+Sn+2_Te-2_(s) = Sn+2 + Te-2
+
+Note: The Te-2 species probably does not exist [18Mar_30641]
+ No   t    I-Str          Medium                 Value (Dev)    W    Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:-44.7(3SF)   2     CRV        552
+ 2    25     0        Inf. Dilution            lgK:-44.7(3SF)   2     CRV       32224
+Note (2): source indicates uncertainty
+
+
+Reaction No. 65956
+Pb+2_Te-2_(s) = Pb+2 + Te-2
+
+Note: The Te-2 species probably does not exist [18Mar_30641]
+ No   t    I-Str          Medium                 Value (Dev)    W    Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:-46.3(3SF)   2     CRV        552
+ 2    25     0        Inf. Dilution            lgK:-46.3(3SF)   2     CRV       32224
+Note (2): source indicates uncertainty
+
+
+Reaction No. 65957
+Ag+1(2)_TeO3-2_(s) = 2<Ag+1> + TeO3-2
+ No   t    I-Str      Medium                Value (Dev)         W    Tech.      Ref. #
+ 1    20    0.1       Unknown           lgK:-18.06(0.07SD)      4     MAG       4593
+
+
+
+                                         – Page 18 of 70 –
+JESS Thermodynamic Database v8.9                                              Tellurium
+
+
+
+Reaction No. 65958
+Te2O3+6_OH-1(9) + H+1 = Te2O2+8_OH-1(10)
+ No         t         I-Str       Medium            Value (Dev)       W       Tech.       Ref. #
+ 1     10:60            1         Unknown          lgK:10.(2SF)       3        CRV         552
+ 2         25           1         Unknown          lgK:9.48(3SF)      3        CRV         552
+
+
+Reaction No. 66226
+Zn(s) + Te(s) = Zn+2_Te-2_(s)
+ No    t        I-Str            Medium                Value (Dev)        W     Tech.     Ref. #
+ 1    25          0           Inf. Dilution          lgK:20.20(4SF)       3      ENS       6422
+ 2    27          0           Inf. Dilution          lgK:20.07(4SF)       0      ENS       6422
+ 3    127         0           Inf. Dilution          lgK:14.87(4SF)       2      ENS       6422
+ 4    227         0           Inf. Dilution          lgK:11.75(4SF)       1      ENS       6422
+ 5    327         0           Inf. Dilution          lgK:9.661(4SF)       0      ENS       6422
+ 6    25          0           Inf. Dilution          dG:-27.55(4SF)       4      EFE       6422
+ 7    25          0           Inf. Dilution          dH:-28.5(3SF)        4      MTD       6422
+ 8    25          0           Inf. Dilution          dH:-28.1(3SF)        4      CRV      12011
+ 9    127         0           Inf. Dilution          dH:-28.5(3SF)        1      MTD       6422
+ 10   227         0           Inf. Dilution          dH:-28.6(3SF)        0      MTD       6422
+ 11   327         0           Inf. Dilution          dH:-28.7(3SF)        0      MTD       6422
+
+
+Reaction No. 66340
+2<Tl(s)> + Te(s) = Tl+1(2)_Te-2_(s)
+ No    t        I-Str            Medium                Value (Dev)        W     Tech.     Ref. #
+ 1    25          0           Inf. Dilution          lgK:13.88(4SF)       4      ENS       6422
+ 2    27          0           Inf. Dilution          lgK:13.79(4SF)       4      ENS       6422
+ 3    127         0           Inf. Dilution          lgK:10.29(4SF)       4      ENS       6422
+ 4    227         0           Inf. Dilution          lgK:8.175(4SF)       4      ENS       6422
+ 5    327         0           Inf. Dilution          lgK:6.710(4SF)       4      ENS       6422
+ 6    25          0           Inf. Dilution          dG:-18.93(4SF)       4      EFE       6422
+ 7    25          0           Inf. Dilution          dH:-19.2(3SF)        4      MTD       6422
+ 8    127         0           Inf. Dilution          dH:-19.3(3SF)        4      MTD       6422
+ 9    227         0           Inf. Dilution          dH:-19.4(3SF)        4      MTD       6422
+ 10   327         0           Inf. Dilution          dH:-21.8(3SF)        4      MTD       6422
+
+
+Reaction No. 66368
+
+
+
+
+                                              – Page 19 of 70 –
+JESS Thermodynamic Database v8.9                                      Tellurium
+
+
+O2(g) + Te(s) = TeO2(s)
+ No    t    I-Str         Medium                Value (Dev)           W    Tech.   Ref. #
+ 1    25      0       Inf. Dilution           lgK:47.23(4SF)          2     ENS     6422
+ 2    27      0       Inf. Dilution           lgK:46.88(4SF)          0     ENS     6422
+ 3    127     0       Inf. Dilution           lgK:32.82(4SF)          2     ENS     6422
+ 4    227     0       Inf. Dilution           lgK:24.41(4SF)          3     ENS     6422
+ 5    327     0       Inf. Dilution           lgK:18.82(4SF)          0     ENS     6422
+ 6    25      0       Inf. Dilution           dG:-64.43(4SF)          2     EFE     6422
+ 7    25      0       Inf. Dilution       dG:-266.00(2.500SD)kJ       4     CRV    14923
+ 8    25      0       Inf. Dilution        dG:-266.000(1.3SD)kJ       5     CRV    27292
+ 9    25      0       Inf. Dilution          dG:-64.612(5SF)          3     CRV    31291
+ 10   25      0       Inf. Dilution           dH:-77.3(3SF)           4     MTD     6422
+ 11   25      0       Inf. Dilution       dH:-321.00(2.500SD)kJ       4     CRV    14923
+ 12   25      0       Inf. Dilution        dH:-321.000(1.3SD)kJ       5     CRV    27292
+ 13   127     0       Inf. Dilution           dH:-77.1(3SF)           2     MTD     6422
+ 14   227     0       Inf. Dilution           dH:-76.8(3SF)           1     MTD     6422
+ 15   327     0       Inf. Dilution           dH:-76.6(3SF)           0     MTD     6422
+ 16   25      0       Inf. Dilution       Cp:60.670(0.075SD)J/K       5     CRV    27292
+
+
+Reaction No. 66369
+2<Cl2(g)> + Te(s) = Te+4_Cl-1(4)_(s)
+ No    t     I-Str          Medium              Value (Dev)       W       Tech.    Ref. #
+ 1     25         0     Inf. Dilution          lgK:41.33(4SF)     4       ENS      6422
+ 2     27         0     Inf. Dilution          lgK:40.98(4SF)     0       ENS      6422
+ 3    127         0     Inf. Dilution          lgK:26.97(4SF)     4       ENS      6422
+ 4    224         0     Inf. Dilution          lgK:18.88(4SF)     2       ENS      6422
+ 5     25         0     Inf. Dilution          dG:-56.39(4SF)     4       EFE      6422
+ 6     25         0     Inf. Dilution         dH:-326.4(4SF)kJ    3       CRV      6330
+ 7     25         0     Inf. Dilution          dH:-77.4(3SF)      4       MTD      6422
+ 8    127         0     Inf. Dilution          dH:-76.4(3SF)      4       MTD      6422
+ 9    224         0     Inf. Dilution          dH:-75.5(3SF)      2       MTD      6422
+
+
+Reaction No. 66370
+2<Br2(l)> + Te(s) = Te+4_Br-1(4)_(s)
+ No    t     I-Str          Medium              Value (Dev)       W       Tech.    Ref. #
+ 1     25         0     Inf. Dilution          lgK:27.59(4SF)     3       ENS      6422
+
+
+
+
+                                        – Page 20 of 70 –
+JESS Thermodynamic Database v8.9                                    Tellurium
+
+
+ 2    27      0       Inf. Dilution           lgK:27.38(4SF)    0      ENS       6422
+ 3    115     0       Inf. Dilution           lgK:18.50(4SF)    3      ENS       6422
+ 4    25      0       Inf. Dilution           dG:-37.63(4SF)    3      EFE       6422
+ 5    25      0       Inf. Dilution          dH:-190.4(4SF)kJ   3      CRV       6330
+ 6    25      0       Inf. Dilution           dH:-45.5(3SF)     3      MTD       6422
+ 7    115     0       Inf. Dilution           dH:-59.6(3SF)     0      MTD       6422
+
+
+Reaction No. 66463
+2<Ag(s)> + Te(s) = Ag+1(2)_Te-2_(s)
+ No    t    I-Str          Medium               Value (Dev)     W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution           lgK:6.2(2SF)     1      ELC
+ 2    25      0        Inf. Dilution          lgK:7.281(4SF)    0      ENS      6422
+ 3    27      0        Inf. Dilution          lgK:7.242(4SF)    0      ENS      6422
+ 4    127     0        Inf. Dilution          lgK:5.697(4SF)    0      ENS      6422
+ 5    148     0        Inf. Dilution          lgK:5.472(4SF)    0      ENS      6422
+ 6    25      0        Inf. Dilution          dG:-9.93(3SF)     0      EFE      6422
+ 7    25      0        Inf. Dilution           dH:-8.6(2SF)     0      MTD      6422
+ 8    127     0        Inf. Dilution           dH:-8.3(2SF)     0      MTD      6422
+ 9    148     0        Inf. Dilution           dH:-8.2(2SF)     0      MTD      6422
+
+
+Reaction No. 66485
+2<Al(s)> + 3<Te(s)> = Al+3(2)_Te-2(3)_(s)
+ No    t    I-Str          Medium               Value (Dev)     W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:54.33(4SF)    4      ENS      6422
+ 2    27      0        Inf. Dilution          lgK:53.89(4SF)    4      ENS      6422
+ 3    127     0        Inf. Dilution          lgK:40.09(4SF)    4      ENS      6422
+ 4    227     0        Inf. Dilution          lgK:31.73(4SF)    4      ENS      6422
+ 5    327     0        Inf. Dilution          lgK:26.12(4SF)    4      ENS      6422
+ 6    25      0        Inf. Dilution          dG:-74.11(4SF)    4      EFE      6422
+ 7    25      0        Inf. Dilution          dH:-76.2(3SF)     4      MTD      6422
+ 8    25      0        Inf. Dilution           dH:-78.(2SF)     4      CRV      7382
+ 9    127     0        Inf. Dilution          dH:-76.4(3SF)     4      MTD      6422
+ 10   227     0        Inf. Dilution          dH:-76.7(3SF)     4      MTD      6422
+ 11   327     0        Inf. Dilution          dH:-77.2(3SF)     4      MTD      6422
+
+
+Reaction No. 66494
+2<As(s)> + 3<Te(s)> = As+3(2)_Te-2(3)_(s)
+
+
+
+
+                                       – Page 21 of 70 –
+JESS Thermodynamic Database v8.9                                   Tellurium
+
+
+ No    t    I-Str             Medium            Value (Dev)    W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:6.934(4SF)   4      ENS      6422
+ 2    27      0        Inf. Dilution          lgK:6.893(4SF)   0      ENS      6422
+ 3    127     0        Inf. Dilution          lgK:5.261(4SF)   2      ENS      6422
+ 4    227     0        Inf. Dilution          lgK:4.299(4SF)   1      ENS      6422
+ 5    327     0        Inf. Dilution          lgK:3.670(4SF)   0      ENS      6422
+ 6    25      0        Inf. Dilution          dG:-9.46(3SF)    4      EFE      6422
+ 7    25      0        Inf. Dilution           dH:-9.0(2SF)    4      MTD      6422
+ 8    127     0        Inf. Dilution           dH:-8.9(2SF)    1      MTD      6422
+ 9    227     0        Inf. Dilution           dH:-8.7(2SF)    0      MTD      6422
+ 10   327     0        Inf. Dilution           dH:-8.5(2SF)    0      MTD      6422
+
+
+Reaction No. 66502
+Au(s) + 2<Te(s)> = AuTe2(s)
+ No    t    I-Str             Medium            Value (Dev)    W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:3.012(4SF)   4      ENS      6422
+ 2    27      0        Inf. Dilution          lgK:2.992(4SF)   4      ENS      6422
+ 3    127     0        Inf. Dilution          lgK:2.180(4SF)   4      ENS      6422
+ 4    227     0        Inf. Dilution          lgK:1.688(4SF)   4      ENS      6422
+ 5    327     0        Inf. Dilution          lgK:1.354(4SF)   4      ENS      6422
+ 6    25      0        Inf. Dilution          dG:-4.11(3SF)    4      EFE      6422
+ 7    25      0        Inf. Dilution           dH:-4.5(2SF)    4      MTD      6422
+ 8    127     0        Inf. Dilution           dH:-4.5(2SF)    4      MTD      6422
+ 9    227     0        Inf. Dilution           dH:-4.5(2SF)    4      MTD      6422
+ 10   327     0        Inf. Dilution           dH:-4.6(2SF)    4      MTD      6422
+
+
+Reaction No. 66518
+Ba(s) + Te(s) = Ba+2_Te-2_(s)
+ No    t    I-Str             Medium            Value (Dev)    W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:54.25(4SF)   4      ENS      6422
+ 2    27      0        Inf. Dilution          lgK:53.91(4SF)   4      ENS      6422
+ 3    127     0        Inf. Dilution          lgK:40.23(4SF)   4      ENS      6422
+ 4    227     0        Inf. Dilution          lgK:31.98(4SF)   4      ENS      6422
+ 5    327     0        Inf. Dilution          lgK:26.43(4SF)   4      ENS      6422
+ 6    25      0        Inf. Dilution          dG:-74.00(4SF)   4      EFE      6422
+ 7    25      0        Inf. Dilution          dH:-75.0(3SF)    4      MTD      6422
+
+
+
+
+                                       – Page 22 of 70 –
+JESS Thermodynamic Database v8.9                                   Tellurium
+
+
+ 8    127     0        Inf. Dilution          dH:-75.3(3SF)    4      MTD      6422
+ 9    227     0        Inf. Dilution          dH:-75.8(3SF)    4      MTD      6422
+ 10   327     0        Inf. Dilution          dH:-76.5(3SF)    4      MTD      6422
+
+
+Reaction No. 66538
+2<Bi(s)> + 3<Te(s)> = Bi+3(2)_Te-2(3)_(s)
+ No    t    I-Str          Medium               Value (Dev)    W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:13.51(4SF)   4      ENS      6422
+ 2    27      0        Inf. Dilution          lgK:13.42(4SF)   0      ENS      6422
+ 3    127     0        Inf. Dilution          lgK:10.04(4SF)   2      ENS      6422
+ 4    227     0        Inf. Dilution          lgK:7.999(4SF)   1      ENS      6422
+ 5    327     0        Inf. Dilution          lgK:6.413(4SF)   0      ENS      6422
+ 6    25      0        Inf. Dilution          dG:-18.43(4SF)   4      EFE      6422
+ 7    25      0        Inf. Dilution          dH:-18.5(3SF)    2      MTD      6422
+ 8    127     0        Inf. Dilution          dH:-18.6(3SF)    1      MTD      6422
+ 9    227     0        Inf. Dilution          dH:-18.9(3SF)    0      MTD      6422
+ 10   327     0        Inf. Dilution          dH:-24.6(3SF)    0      MTD      6422
+
+
+Reaction No. 66598
+Ca(s) + Te(s) = Ca+2_Te-2_(s)
+ No    t    I-Str          Medium               Value (Dev)    W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:50.56(4SF)   4      ENS      6422
+ 2    27      0        Inf. Dilution          lgK:50.24(4SF)   4      ENS      6422
+ 3    127     0        Inf. Dilution          lgK:37.48(4SF)   4      ENS      6422
+ 4    227     0        Inf. Dilution          lgK:29.78(4SF)   4      ENS      6422
+ 5    327     0        Inf. Dilution          lgK:24.63(4SF)   4      ENS      6422
+ 6    25      0        Inf. Dilution          dG:-68.98(4SF)   4      EFE      6422
+ 7    25      0        Inf. Dilution          dH:-70.0(3SF)    4      MTD      6422
+ 8    127     0        Inf. Dilution          dH:-70.3(3SF)    4      MTD      6422
+ 9    227     0        Inf. Dilution          dH:-70.6(3SF)    4      MTD      6422
+ 10   327     0        Inf. Dilution          dH:-70.9(3SF)    4      MTD      6422
+
+
+Reaction No. 66616
+Cd(s) + Te(s) = Cd+2_Te-2_(s)
+ No   t     I-Str         Medium               Value (Dev)     W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:17.40(4SF)   2      ENS       6422
+ 2    27      0        Inf. Dilution          lgK:17.29(4SF)   0      ENS       6422
+
+
+
+
+                                       – Page 23 of 70 –
+JESS Thermodynamic Database v8.9                                   Tellurium
+
+
+ 3    127     0        Inf. Dilution          lgK:12.85(4SF)   1      ENS       6422
+ 4    227     0        Inf. Dilution          lgK:10.19(4SF)   0      ENS       6422
+ 5    327     0        Inf. Dilution          lgK:8.416(4SF)   0      ENS       6422
+ 6    25      0        Inf. Dilution         dG:-92.0(3SF)kJ   0      CRV       6330
+ 7    25      0        Inf. Dilution          dG:-23.73(4SF)   2      EFE       6422
+ 8    25      0        Inf. Dilution          dG:-22.0(3SF)    2      CRV      12011
+ 9    25      0        Inf. Dilution         dH:-92.5(3SF)kJ   2      CRV       6330
+ 10   25      0        Inf. Dilution          dH:-24.3(3SF)    2      MTD       6422
+ 11   25      0        Inf. Dilution          dH:-22.1(3SF)    2      CRV      12011
+ 12   127     0        Inf. Dilution          dH:-24.3(3SF)    1      MTD       6422
+ 13   227     0        Inf. Dilution          dH:-24.3(3SF)    0      MTD       6422
+ 14   327     0        Inf. Dilution          dH:-25.8(3SF)    0      MTD       6422
+
+
+Reaction No. 66734
+Fe(s) + 0.9<Te(s)> = FeTe0.9(s)
+ No    t    I-Str             Medium            Value (Dev)    W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:4.499(4SF)   4      ENS      6422
+ 2    27      0        Inf. Dilution          lgK:4.474(4SF)   4      ENS      6422
+ 3    127     0        Inf. Dilution          lgK:3.466(4SF)   4      ENS      6422
+ 4    227     0        Inf. Dilution          lgK:2.859(4SF)   4      ENS      6422
+ 5    327     0        Inf. Dilution          lgK:2.449(4SF)   4      ENS      6422
+ 6    25      0        Inf. Dilution          dG:-6.14(3SF)    4      EFE      6422
+ 7    25      0        Inf. Dilution           dH:-5.5(2SF)    4      MTD      6422
+ 8    127     0        Inf. Dilution           dH:-5.5(2SF)    4      MTD      6422
+ 9    227     0        Inf. Dilution           dH:-5.6(2SF)    4      MTD      6422
+ 10   327     0        Inf. Dilution           dH:-5.7(2SF)    4      MTD      6422
+
+
+Reaction No. 66735
+Fe(s) + 2<Te(s)> = FeTe2(s)
+ No    t    I-Str             Medium            Value (Dev)    W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:11.32(4SF)   4      ENS      6422
+ 2    27      0        Inf. Dilution          lgK:11.24(4SF)   4      ENS      6422
+ 3    127     0        Inf. Dilution          lgK:8.081(4SF)   4      ENS      6422
+ 4    227     0        Inf. Dilution          lgK:6.173(4SF)   4      ENS      6422
+ 5    327     0        Inf. Dilution          lgK:4.884(4SF)   4      ENS      6422
+ 6    25      0        Inf. Dilution          dG:-15.44(4SF)   4      EFE      6422
+
+
+
+
+                                       – Page 24 of 70 –
+JESS Thermodynamic Database v8.9                                      Tellurium
+
+
+ 7    25      0           Inf. Dilution          dH:-17.3(3SF)    4      MTD      6422
+ 8    127     0           Inf. Dilution          dH:-17.4(3SF)    4      MTD      6422
+ 9    227     0           Inf. Dilution          dH:-17.6(3SF)    4      MTD      6422
+ 10   327     0           Inf. Dilution          dH:-17.8(3SF)    4      MTD      6422
+
+
+Reaction No. 66751
+Ga(s) + Te(s) = GaTe(s)
+ No    t    I-Str            Medium                Value (Dev)    W     Tech.     Ref. #
+ 1    25      0           Inf. Dilution          lgK:21.36(4SF)   4      ENS      6422
+ 2    27      0           Inf. Dilution          lgK:21.23(4SF)   4      ENS      6422
+ 3    127     0           Inf. Dilution          lgK:15.62(4SF)   4      ENS      6422
+ 4    227     0           Inf. Dilution          lgK:12.23(4SF)   4      ENS      6422
+ 5    327     0           Inf. Dilution          lgK:9.964(4SF)   4      ENS      6422
+ 6    25      0           Inf. Dilution          dG:-29.15(4SF)   4      EFE      6422
+ 7    25      0           Inf. Dilution          dH:-29.5(3SF)    4      MTD      6422
+ 8    127     0           Inf. Dilution          dH:-30.9(3SF)    4      MTD      6422
+ 9    227     0           Inf. Dilution          dH:-31.0(3SF)    4      MTD      6422
+ 10   327     0           Inf. Dilution          dH:-31.2(3SF)    4      MTD      6422
+
+
+Reaction No. 66752
+2<Ga(s)> + 3<Te(s)> = Ga+3(2)_Te-2(3)_(s)
+ No    t    I-Str            Medium                Value (Dev)    W     Tech.     Ref. #
+ 1    25      0           Inf. Dilution          lgK:47.28(4SF)   4      ENS      6422
+ 2    27      0           Inf. Dilution          lgK:46.99(4SF)   4      ENS      6422
+ 3    127     0           Inf. Dilution          lgK:34.60(4SF)   4      ENS      6422
+ 4    227     0           Inf. Dilution          lgK:27.23(4SF)   4      ENS      6422
+ 5    327     0           Inf. Dilution          lgK:22.40(4SF)   4      ENS      6422
+ 6    25      0           Inf. Dilution          dG:-64.51(4SF)   4      EFE      6422
+ 7    25      0           Inf. Dilution          dH:-65.7(3SF)    4      MTD      6422
+ 8    127     0           Inf. Dilution          dH:-67.8(3SF)    4      MTD      6422
+ 9    227     0           Inf. Dilution          dH:-66.9(3SF)    4      MTD      6422
+ 10   327     0           Inf. Dilution          dH:-65.7(3SF)    4      MTD      6422
+
+
+Reaction No. 66766
+Ge(s) + Te(s) = Ge+2_Te-2_(s)
+ No    t    I-Str            Medium                Value (Dev)    W     Tech.     Ref. #
+ 1    25      0           Inf. Dilution          lgK:8.993(4SF)   4      ENS      6422
+
+
+
+
+                                          – Page 25 of 70 –
+JESS Thermodynamic Database v8.9                                   Tellurium
+
+
+ 2    27      0        Inf. Dilution          lgK:8.940(4SF)   4      ENS      6422
+ 3    127     0        Inf. Dilution          lgK:6.832(4SF)   4      ENS      6422
+ 4    227     0        Inf. Dilution          lgK:5.569(4SF)   4      ENS      6422
+ 5    327     0        Inf. Dilution          lgK:4.726(4SF)   4      ENS      6422
+ 6    25      0        Inf. Dilution          dG:-12.27(4SF)   4      EFE      6422
+ 7    25      0        Inf. Dilution          dH:-11.6(3SF)    4      MTD      6422
+ 8    127     0        Inf. Dilution          dH:-11.6(3SF)    4      MTD      6422
+ 9    227     0        Inf. Dilution          dH:-11.6(3SF)    4      MTD      6422
+ 10   327     0        Inf. Dilution          dH:-11.6(3SF)    4      MTD      6422
+
+
+Reaction No. 66931
+2<La(s)> + 3<Te(s)> = La+3(2)_Te-2(3)_(s)
+ No    t    I-Str         Medium               Value (Dev)     W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:135.8(4SF)   4      ENS       6422
+ 2    27      0        Inf. Dilution          lgK:135.0(4SF)   0      ENS       6422
+ 3    127     0        Inf. Dilution          lgK:100.8(4SF)   4      ENS       6422
+ 4    227     0        Inf. Dilution         lgK:80.338(5SF)   4      ENS       6422
+ 5    327     0        Inf. Dilution          lgK:66.65(4SF)   4      ENS       6422
+ 6    25      0        Inf. Dilution          dG:-185.3(4SF)   4      EFE       6422
+ 7    25      0        Inf. Dilution          dH:-187.5(4SF)   4      MTD       6422
+ 8    127     0        Inf. Dilution          dH:-187.6(4SF)   4      MTD       6422
+ 9    227     0        Inf. Dilution          dH:-187.7(4SF)   4      MTD       6422
+ 10   327     0        Inf. Dilution          dH:-188.2(4SF)   4      MTD       6422
+
+
+Reaction No. 66962
+2<Li(s)> + Te(s) = Li+1(2)_Te-2_(s)
+ No    t    I-Str          Medium               Value (Dev)    W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:60.73(4SF)   4      ENS      6422
+ 2    27      0        Inf. Dilution          lgK:60.34(4SF)   4      ENS      6422
+ 3    127     0        Inf. Dilution          lgK:44.86(4SF)   4      ENS      6422
+ 4    227     0        Inf. Dilution          lgK:35.48(4SF)   4      ENS      6422
+ 5    327     0        Inf. Dilution          lgK:29.15(4SF)   4      ENS      6422
+ 6    25      0        Inf. Dilution          dG:-82.8(3SF)    4      EFE      6422
+ 7    25      0        Inf. Dilution          dH:-85.0(3SF)    4      MTD      6422
+ 8    127     0        Inf. Dilution          dH:-85.1(3SF)    4      MTD      6422
+ 9    227     0        Inf. Dilution          dH:-89.8(3SF)    4      MTD      6422
+
+
+
+
+                                       – Page 26 of 70 –
+JESS Thermodynamic Database v8.9                                   Tellurium
+
+
+ 10   327         0    Inf. Dilution          dH:-87.1(3SF)    4      MTD       6422
+
+
+Reaction No. 66978
+Mg(s) + Te(s) = Mg+2_Te-2_(s)
+ No    t     I-Str         Medium               Value (Dev)    W     Tech.     Ref. #
+ 1    25          0    Inf. Dilution          lgK:36.25(4SF)   4      ENS       6422
+ 2    27          0    Inf. Dilution          lgK:36.02(4SF)   4      ENS       6422
+ 3    127         0    Inf. Dilution          lgK:26.89(4SF)   4      ENS       6422
+ 4    227         0    Inf. Dilution          lgK:21.39(4SF)   4      ENS       6422
+ 5    327         0    Inf. Dilution          lgK:17.69(4SF)   4      ENS       6422
+ 6    25          0    Inf. Dilution          dG:-49.45(4SF)   4      EFE       6422
+ 7    25          0    Inf. Dilution          dH:-50.0(3SF)    4      MTD       6422
+ 8    127         0    Inf. Dilution          dH:-50.3(3SF)    4      MTD       6422
+ 9    227         0    Inf. Dilution          dH:-50.6(3SF)    4      MTD       6422
+ 10   327         0    Inf. Dilution          dH:-51.0(3SF)    4      MTD       6422
+
+
+Reaction No. 67005
+Mn(s) + Te(s) = Mn+2_Te-2_(s)
+ No   t     I-Str         Medium               Value (Dev)     W    Tech.      Ref. #
+ 1    25      0       Inf. Dilution          lgK:19.62(4SF)    4     ENS       6422
+ 2    27      0       Inf. Dilution          lgK:19.51(4SF)    4     ENS       6422
+ 3    34      0       Inf. Dilution          lgK:19.08(4SF)    4     ENS       6422
+ 4    25      0       Inf. Dilution          dG:-26.77(4SF)    4     EFE       6422
+ 5    25      0       Inf. Dilution           dH:-25.9(3SF)    4     MTD       6422
+ 6    34      0       Inf. Dilution           dH:-25.9(3SF)    4     MTD       6422
+
+
+Reaction No. 67006
+Mn(s) + 2<Te(s)> = Mn+4_Te-2(2)_(s)
+ No    t     I-Str         Medium               Value (Dev)    W     Tech.     Ref. #
+ 1    25          0    Inf. Dilution          lgK:22.72(4SF)   4      ENS       6422
+ 2    27          0    Inf. Dilution          lgK:22.59(4SF)   4      ENS       6422
+ 3    127         0    Inf. Dilution          lgK:17.12(4SF)   4      ENS       6422
+ 4    227         0    Inf. Dilution          lgK:13.82(4SF)   4      ENS       6422
+ 5    327         0    Inf. Dilution          lgK:11.61(4SF)   4      ENS       6422
+ 6    25          0    Inf. Dilution          dG:-31.00(4SF)   4      EFE       6422
+ 7    25          0    Inf. Dilution          dH:-30.0(3SF)    4      MTD       6422
+ 8    127         0    Inf. Dilution          dH:-30.1(3SF)    4      MTD       6422
+
+
+
+
+                                       – Page 27 of 70 –
+JESS Thermodynamic Database v8.9                                      Tellurium
+
+
+ 9    227     0           Inf. Dilution          dH:-30.3(3SF)    4      MTD      6422
+ 10   327     0           Inf. Dilution          dH:-30.6(3SF)    4      MTD      6422
+
+
+Reaction No. 67059
+Na(s) + Te(s) = NaTe(s)
+ No    t    I-Str             Medium               Value (Dev)    W     Tech.     Ref. #
+ 1    25      0           Inf. Dilution          lgK:29.71(4SF)   4      ENS      6422
+ 2    27      0           Inf. Dilution          lgK:29.52(4SF)   4      ENS      6422
+ 3    127     0           Inf. Dilution          lgK:21.84(4SF)   4      ENS      6422
+ 4    227     0           Inf. Dilution          lgK:17.16(4SF)   4      ENS      6422
+ 5    327     0           Inf. Dilution          lgK:14.04(4SF)   4      ENS      6422
+ 6    25      0           Inf. Dilution          dG:-40.53(4SF)   4      EFE      6422
+ 7    25      0           Inf. Dilution          dH:-42.0(3SF)    4      MTD      6422
+ 8    127     0           Inf. Dilution          dH:-42.7(3SF)    4      MTD      6422
+ 9    227     0           Inf. Dilution          dH:-42.8(3SF)    4      MTD      6422
+ 10   327     0           Inf. Dilution          dH:-42.9(3SF)    4      MTD      6422
+
+
+Reaction No. 67060
+Na(s) + 3<Te(s)> = NaTe3(s)
+ No    t    I-Str             Medium               Value (Dev)    W     Tech.     Ref. #
+ 1    25      0           Inf. Dilution          lgK:18.58(4SF)   4      ENS      6422
+ 2    27      0           Inf. Dilution          lgK:18.45(4SF)   4      ENS      6422
+ 3    127     0           Inf. Dilution          lgK:12.94(4SF)   4      ENS      6422
+ 4    227     0           Inf. Dilution          lgK:9.565(4SF)   4      ENS      6422
+ 5    327     0           Inf. Dilution          lgK:7.293(4SF)   4      ENS      6422
+ 6    25      0           Inf. Dilution          dG:-25.35(4SF)   4      EFE      6422
+ 7    25      0           Inf. Dilution          dH:-30.0(3SF)    4      MTD      6422
+ 8    127     0           Inf. Dilution          dH:-30.8(3SF)    4      MTD      6422
+ 9    227     0           Inf. Dilution          dH:-31.1(3SF)    4      MTD      6422
+ 10   327     0           Inf. Dilution          dH:-31.3(3SF)    4      MTD      6422
+
+
+Reaction No. 67061
+2<Na(s)> + Te(s) = Na+1(2)_Te-2_(s)
+ No    t    I-Str             Medium               Value (Dev)    W     Tech.     Ref. #
+ 1    25      0           Inf. Dilution          lgK:53.03(4SF)   4      ENS      6422
+ 2    27      0           Inf. Dilution          lgK:52.69(4SF)   4      ENS      6422
+ 3    127     0           Inf. Dilution          lgK:38.96(4SF)   4      ENS      6422
+
+
+
+
+                                          – Page 28 of 70 –
+JESS Thermodynamic Database v8.9                                   Tellurium
+
+
+ 4    227     0        Inf. Dilution          lgK:30.59(4SF)   4      ENS      6422
+ 5    327     0        Inf. Dilution          lgK:24.99(4SF)   4      ENS      6422
+ 6    25      0        Inf. Dilution          dG:-72.34(4SF)   4      EFE      6422
+ 7    25      0        Inf. Dilution          dH:-75.0(3SF)    4      MTD      6422
+ 8    127     0        Inf. Dilution          dH:-76.5(3SF)    4      MTD      6422
+ 9    227     0        Inf. Dilution          dH:-76.7(3SF)    4      MTD      6422
+ 10   327     0        Inf. Dilution          dH:-77.0(3SF)    4      MTD      6422
+
+
+Reaction No. 67096
+Nd(s) + Te(s) = Nd+2_Te-2_(s)
+ No    t    I-Str          Medium               Value (Dev)    W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:51.57(4SF)   4      ENS      6422
+ 2    27      0        Inf. Dilution          lgK:51.25(4SF)   4      ENS      6422
+ 3    127     0        Inf. Dilution          lgK:38.13(4SF)   4      ENS      6422
+ 4    227     0        Inf. Dilution          lgK:30.24(4SF)   4      ENS      6422
+ 5    327     0        Inf. Dilution          lgK:24.96(4SF)   4      ENS      6422
+ 6    25      0        Inf. Dilution          dG:-70.35(4SF)   4      EFE      6422
+ 7    25      0        Inf. Dilution          dH:-72.0(3SF)    4      MTD      6422
+ 8    127     0        Inf. Dilution          dH:-72.1(3SF)    4      MTD      6422
+ 9    227     0        Inf. Dilution          dH:-72.3(3SF)    4      MTD      6422
+ 10   327     0        Inf. Dilution          dH:-72.5(3SF)    4      MTD      6422
+
+
+Reaction No. 67097
+2<Nd(s)> + 3<Te(s)> = Nd+3(2)_Te-2(3)_(s)
+ No    t    I-Str          Medium               Value (Dev)    W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:137.3(4SF)   4      ENS      6422
+ 2    27      0        Inf. Dilution          lgK:136.5(4SF)   4      ENS      6422
+ 3    127     0        Inf. Dilution          lgK:101.9(4SF)   4      ENS      6422
+ 4    227     0        Inf. Dilution          lgK:81.08(4SF)   4      ENS      6422
+ 5    327     0        Inf. Dilution          lgK:67.20(4SF)   4      ENS      6422
+ 6    25      0        Inf. Dilution          dG:-187.3(4SF)   4      EFE      6422
+ 7    25      0        Inf. Dilution          dH:-190.0(4SF)   4      MTD      6422
+ 8    127     0        Inf. Dilution          dH:-190.1(4SF)   4      MTD      6422
+ 9    227     0        Inf. Dilution          dH:-190.3(4SF)   4      MTD      6422
+ 10   327     0        Inf. Dilution          dH:-190.8(4SF)   4      MTD      6422
+
+
+Reaction No. 67120
+
+
+
+
+                                       – Page 29 of 70 –
+JESS Thermodynamic Database v8.9                                   Tellurium
+
+
+Ni(s) + 1.1<Te(s)> = NiTe1.1(s)
+ No    t    I-Str          Medium               Value (Dev)    W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:10.18(4SF)   4      ENS      6422
+ 2    27      0        Inf. Dilution          lgK:10.11(4SF)   4      ENS      6422
+ 3    127     0        Inf. Dilution          lgK:7.581(4SF)   4      ENS      6422
+ 4    227     0        Inf. Dilution          lgK:6.057(4SF)   4      ENS      6422
+ 5    327     0        Inf. Dilution          lgK:5.033(4SF)   4      ENS      6422
+ 6    25      0        Inf. Dilution          dG:-13.88(4SF)   4      EFE      6422
+ 7    25      0        Inf. Dilution          dH:-13.9(3SF)    4      MTD      6422
+ 8    127     0        Inf. Dilution          dH:-13.9(3SF)    4      MTD      6422
+ 9    227     0        Inf. Dilution          dH:-14.0(3SF)    4      MTD      6422
+ 10   327     0        Inf. Dilution          dH:-14.2(3SF)    4      MTD      6422
+
+
+Reaction No. 67154
+Pb(s) + Te(s) = Pb+2_Te-2_(s)
+ No    t    I-Str          Medium               Value (Dev)    W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:11.80(4SF)   4      ENS      6422
+ 2    27      0        Inf. Dilution          lgK:11.73(4SF)   4      ENS      6422
+ 3    127     0        Inf. Dilution          lgK:8.734(4SF)   4      ENS      6422
+ 4    227     0        Inf. Dilution          lgK:6.928(4SF)   4      ENS      6422
+ 5    327     0        Inf. Dilution          lgK:5.714(4SF)   4      ENS      6422
+ 6    25      0        Inf. Dilution          dG:-16.10(4SF)   4      EFE      6422
+ 7    25      0        Inf. Dilution          dH:-16.40(4SF)   4      MTD      6422
+ 8    127     0        Inf. Dilution          dH:-16.47(4SF)   4      MTD      6422
+ 9    227     0        Inf. Dilution          dH:-16.59(4SF)   4      MTD      6422
+ 10   327     0        Inf. Dilution          dH:-16.76(4SF)   4      MTD      6422
+
+
+Reaction No. 67160
+Pd(s) + Te(s) = Pd+2_Te-2_(s)
+ No    t    I-Str          Medium               Value (Dev)    W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:6.717(4SF)   4      ENS      6422
+ 2    27      0        Inf. Dilution          lgK:6.677(4SF)   4      ENS      6422
+ 3    127     0        Inf. Dilution          lgK:5.036(4SF)   4      ENS      6422
+ 4    227     0        Inf. Dilution          lgK:4.046(4SF)   4      ENS      6422
+ 5    327     0        Inf. Dilution          lgK:3.380(4SF)   4      ENS      6422
+ 6    25      0        Inf. Dilution          dG:-9.16(3SF)    4      EFE      6422
+
+
+
+
+                                       – Page 30 of 70 –
+JESS Thermodynamic Database v8.9                                   Tellurium
+
+
+ 7    25      0        Inf. Dilution          dH:-9.00(3SF)    4      MTD      6422
+ 8    127     0        Inf. Dilution          dH:-9.03(3SF)    4      MTD      6422
+ 9    227     0        Inf. Dilution          dH:-9.10(3SF)    4      MTD      6422
+ 10   327     0        Inf. Dilution          dH:-9.10(3SF)    4      MTD      6422
+
+
+Reaction No. 67222
+2<Re(s)> + 5<Te(s)> = Re2Te5(s)
+ No    t    I-Str          Medium               Value (Dev)    W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:12.91(4SF)   4      ENS      6422
+ 2    27      0        Inf. Dilution          lgK:12.81(4SF)   4      ENS      6422
+ 3    127     0        Inf. Dilution          lgK:8.696(4SF)   4      ENS      6422
+ 4    227     0        Inf. Dilution          lgK:6.206(4SF)   4      ENS      6422
+ 5    327     0        Inf. Dilution          lgK:4.519(4SF)   4      ENS      6422
+ 6    25      0        Inf. Dilution          dG:-17.61(4SF)   4      EFE      6422
+ 7    25      0        Inf. Dilution          dH:-22.50(4SF)   4      MTD      6422
+ 8    127     0        Inf. Dilution          dH:-22.66(4SF)   4      MTD      6422
+ 9    227     0        Inf. Dilution          dH:-22.96(4SF)   4      MTD      6422
+ 10   327     0        Inf. Dilution          dH:-23.39(4SF)   4      MTD      6422
+
+
+Reaction No. 67228
+2<Sb(s)> + 3<Te(s)> = Sb+3(2)_Te-2(3)_(s)
+ No    t    I-Str          Medium               Value (Dev)    W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:10.26(4SF)   4      ENS      6422
+ 2    27      0        Inf. Dilution          lgK:10.20(4SF)   0      ENS      6422
+ 3    127     0        Inf. Dilution          lgK:7.737(4SF)   2      ENS      6422
+ 4    227     0        Inf. Dilution          lgK:6.258(4SF)   1      ENS      6422
+ 5    327     0        Inf. Dilution          lgK:5.265(4SF)   0      ENS      6422
+ 6    25      0        Inf. Dilution          dG:-13.99(4SF)   4      EFE      6422
+ 7    25      0        Inf. Dilution          dH:-13.5(3SF)    3      MTD      6422
+ 8    127     0        Inf. Dilution          dH:-13.5(3SF)    1      MTD      6422
+ 9    227     0        Inf. Dilution          dH:-13.6(3SF)    0      MTD      6422
+ 10   327     0        Inf. Dilution          dH:-13.7(3SF)    0      MTD      6422
+
+
+Reaction No. 67230
+Sn(s) + Te(s) = Sn+2_Te-2_(s)
+ No    t    I-Str          Medium               Value (Dev)    W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution          lgK:10.81(4SF)   4      ENS      6422
+
+
+
+
+                                       – Page 31 of 70 –
+JESS Thermodynamic Database v8.9                                      Tellurium
+
+
+ 2    27      0           Inf. Dilution          lgK:10.75(4SF)   4      ENS      6422
+ 3    127     0           Inf. Dilution          lgK:8.046(4SF)   4      ENS      6422
+ 4    227     0           Inf. Dilution          lgK:6.415(4SF)   4      ENS      6422
+ 5    327     0           Inf. Dilution          lgK:5.203(4SF)   4      ENS      6422
+ 6    25      0           Inf. Dilution          dG:-14.75(4SF)   4      EFE      6422
+ 7    25      0           Inf. Dilution          dH:-14.80(4SF)   4      MTD      6422
+ 8    127     0           Inf. Dilution          dH:-14.86(4SF)   4      MTD      6422
+ 9    227     0           Inf. Dilution          dH:-15.0(3SF)    4      MTD      6422
+ 10   327     0           Inf. Dilution          dH:-16.82(4SF)   4      MTD      6422
+
+
+Reaction No. 67331
+Hg(l) + Te(s) = Hg+2_Te-2_(s)
+ No    t    I-Str            Medium                Value (Dev)    W     Tech.     Ref. #
+ 1    25      0           Inf. Dilution          lgK:4.922(4SF)   4      ENS      6422
+ 2    27      0           Inf. Dilution          lgK:4.887(4SF)   0      ENS      6422
+ 3    127     0           Inf. Dilution          lgK:3.505(4SF)   3      ENS      6422
+ 4    227     0           Inf. Dilution          lgK:2.677(4SF)   2      ENS      6422
+ 5    327     0           Inf. Dilution          lgK:2.123(4SF)   0      ENS      6422
+ 6    25      0           Inf. Dilution          dG:-6.714(4SF)   4      EFE      6422
+ 7    25      0           Inf. Dilution           dG:-6.7(2SF)    5      CRV      10214
+ 8    25      0           Inf. Dilution          dH:-7.60(3SF)    4      MTD      6422
+ 9    25      0           Inf. Dilution           dH:-8.1(2SF)    5      CRV      10214
+ 10   127     0           Inf. Dilution          dH:-7.58(3SF)    3      MTD      6422
+ 11   227     0           Inf. Dilution          dH:-7.58(3SF)    0      MTD      6422
+ 12   327     0           Inf. Dilution          dH:-7.62(3SF)    0      MTD      6422
+
+
+Reaction No. 67356
+In(s) + Te(s) = InTe(s)
+ No    t    I-Str            Medium                Value (Dev)    W     Tech.     Ref. #
+ 1    25      0           Inf. Dilution          lgK:12.52(4SF)   4      ENS      6422
+ 2    27      0           Inf. Dilution          lgK:12.45(4SF)   4      ENS      6422
+ 3    127     0           Inf. Dilution          lgK:9.302(4SF)   4      ENS      6422
+ 4    227     0           Inf. Dilution          lgK:7.343(4SF)   4      ENS      6422
+ 5    327     0           Inf. Dilution          lgK:6.003(4SF)   4      ENS      6422
+ 6    25      0           Inf. Dilution          dG:-17.08(4SF)   4      EFE      6422
+ 7    25      0           Inf. Dilution          dH:-17.20(4SF)   4      MTD      6422
+
+
+
+
+                                          – Page 32 of 70 –
+JESS Thermodynamic Database v8.9                                        Tellurium
+
+
+ 8    127     0        Inf. Dilution           dH:-17.34(4SF)       4      MTD       6422
+ 9    227     0        Inf. Dilution           dH:-18.30(4SF)       4      MTD       6422
+ 10   327     0        Inf. Dilution           dH:-18.49(4SF)       4      MTD       6422
+
+
+Reaction No. 67357
+2<In(s)> + 3<Te(s)> = In+3(2)_Te-2(3)_(s)
+ No    t    I-Str             Medium             Value (Dev)        W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution           lgK:32.01(4SF)       4      ENS       6422
+ 2    27      0        Inf. Dilution           lgK:31.81(4SF)       4      ENS       6422
+ 3    127     0        Inf. Dilution           lgK:23.45(4SF)       4      ENS       6422
+ 4    227     0        Inf. Dilution           lgK:18.27(4SF)       4      ENS       6422
+ 5    327     0        Inf. Dilution           lgK:14.78(4SF)       4      ENS       6422
+ 6    25      0        Inf. Dilution           dG:-43.67(4SF)       4      EFE       6422
+ 7    25      0        Inf. Dilution           dH:-45.80(4SF)       4      MTD       6422
+ 8    127     0        Inf. Dilution           dH:-46.04(4SF)       4      MTD       6422
+ 9    227     0        Inf. Dilution           dH:-48.00(4SF)       4      MTD       6422
+ 10   327     0        Inf. Dilution           dH:-48.44(4SF)       4      MTD       6422
+
+
+Reaction No. 67358
+2<In(s)> + Te(s) = In2Te(s)
+ No    t    I-Str             Medium             Value (Dev)        W     Tech.     Ref. #
+ 1    25      0        Inf. Dilution           lgK:13.42(4SF)       4      ENS       6422
+ 2    27      0        Inf. Dilution           lgK:13.34(4SF)       4      ENS       6422
+ 3    127     0        Inf. Dilution           lgK:9.844(4SF)       4      ENS       6422
+ 4    227     0        Inf. Dilution           lgK:7.600(4SF)       4      ENS       6422
+ 5    327     0        Inf. Dilution           lgK:6.039(4SF)       4      ENS       6422
+ 6    25      0        Inf. Dilution           dG:-18.31(4SF)       4      EFE       6422
+ 7    25      0        Inf. Dilution           dH:-19.05(4SF)       4      MTD       6422
+ 8    127     0        Inf. Dilution           dH:-19.35(4SF)       4      MTD       6422
+ 9    227     0        Inf. Dilution           dH:-21.27(4SF)       4      MTD       6422
+ 10   327     0        Inf. Dilution           dH:-21.59(4SF)       4      MTD       6422
+
+
+Reaction No. 67890
+Co+3_NH3(5)_TeO3-2 + Formic-1 = Co+3_NH3(5)_Formic-1_TeO3-2
+ No    t     I-Str      Medium              Value (Dev)         W       Tech.       Ref. #
+  1    25         3     NaClO4           lgK:0.24(2SF)          3       MPT         5178
+
+
+
+
+                                       – Page 33 of 70 –
+JESS Thermodynamic Database v8.9                                         Tellurium
+
+
+Reaction No. 67891
+Co+3_NH3(5)_TeO3-2 + 2<Formic-1> = Co+3_NH3(5)_Formic-1(2)_TeO3-2
+ No       t     I-Str      Medium           Value (Dev)          W       Tech.        Ref. #
+  1    25            3     NaClO4          lgK:0.56(2SF)         3       MPT          5178
+
+
+Reaction No. 67892
+Co+3_NH3(5)_TeO3-2 + 3<Formic-1> = Co+3_NH3(5)_Formic-1(3)_TeO3-2
+ No       t     I-Str      Medium           Value (Dev)          W       Tech.        Ref. #
+  1    25            3     NaClO4          lgK:0.81(2SF)         3       MPT          5178
+
+
+Reaction No. 67909
+Co+3_NH3(5)_TeO3-2 + Acetic-1 = Co+3_NH3(5)_Acetic-1_TeO3-2
+ No       t     I-Str      Medium           Value (Dev)          W       Tech.        Ref. #
+  1    25            3     NaClO4          lgK:0.29(2SF)         3        MPT          5178
+
+
+Reaction No. 67910
+Co+3_NH3(5)_TeO3-2 + 2<Acetic-1> = Co+3_NH3(5)_Acetic-1(2)_TeO3-2
+ No       t     I-Str      Medium           Value (Dev)          W       Tech.        Ref. #
+  1    25            3     NaClO4          lgK:0.48(2SF)         3       MPT          5178
+
+
+Reaction No. 67911
+Co+3_NH3(5)_TeO3-2 + 3<Acetic-1> = Co+3_NH3(5)_Acetic-1(3)_TeO3-2
+ No       t     I-Str      Medium           Value (Dev)          W       Tech.        Ref. #
+  1    25            3     NaClO4          lgK:0.57(2SF)         3       MPT          5178
+
+
+Reaction No. 69193
+Ag+1(2)_TeO4-2_(s) = 2<Ag+1> + TeO4-2
+ No   t       I-Str         Medium               Value (Dev)         W       Tech.    Ref. #
+ 1    20       0.1          Unknown            lgK:-20.60(4SF)       0       MAG       4593
+ 2    25        0        Inf. Dilution         lgK:-2.43(3SF)        4       CRV        552
+
+
+Reaction No. 69317
+TeO2(s) + H2O = H+1(2)_TeO3-2
+ No   t       I-Str         Medium                Value (Dev)            W    Tech.    Ref. #
+ 1    0         0        Inf. Dilution          lgK:-5.58(3SF)           0      EOD     7065
+ 2    25        0        Inf. Dilution          lgK:-5.1(2SF)            1      ELC
+ 3    25        0        Inf. Dilution          lgK:-5.03(3SF)           0      EOD     7065
+
+
+
+
+                                         – Page 34 of 70 –
+JESS Thermodynamic Database v8.9                                     Tellurium
+
+
+ 4    25      0       Inf. Dilution            lgK:-4.63(3SF)        5     MDG   26109
+ 5    25      0       Inf. Dilution         lgK:-4.64(0.15SD)        3     EOD   31758
+ 6    25      0            HCl                  lgK:-4.7(2SF)        4     MSL   30574
+Note (6): Ionic strength: various HCl concs.
+ 7    25    0.05:2      Many Media          lgK:-4.64(0.15SD)        4     MSL   26109
+ 8    50      0       Inf. Dilution            lgK:-4.59(3SF)        0     EOD    7065
+ 9    60      0       Inf. Dilution            lgK:-4.43(3SF)        0     EOD    7065
+ 10   80    0.05:2      Many Media          lgK:-3.79(0.04SD)        4     MSL   26109
+ 11   100     0       Inf. Dilution            lgK:-3.87(3SF)        0     EOD    7065
+ 12   150     0       Inf. Dilution            lgK:-3.31(3SF)        0     EOD    7065
+ 13   200     0       Inf. Dilution            lgK:-2.88(3SF)        0     EOD    7065
+ 14   200   0.05:2      Many Media          lgK:-2.72(0.05SD)        2     MSL   26109
+ 15   250     0       Inf. Dilution            lgK:-2.53(3SF)        0     EOD    7065
+ 16   300     0       Inf. Dilution            lgK:-2.23(3SF)        0     EOD    7065
+ 17   350     0       Inf. Dilution            lgK:-1.99(3SF)        0     EOD    7065
+ 18   25      0       Inf. Dilution         dH:29.684(0.9SD)kJ       5     EVK   26109
+ 19   25      0       Inf. Dilution          dH:29.684(5SF)kJ        3     EOD   31758
+
+
+Reaction No. 69318
+TeO2(s) + H2O = H+1_TeO3-2 + H+1
+ No   t     I-Str        Medium                 Value (Dev)      W       Tech.   Ref. #
+ 1    25      0       Inf. Dilution            lgK:-11.5(3SF)    1       ELC
+ 2    25      0       Inf. Dilution          lgK:-11.41(4SF)     0       EOD     7065
+
+
+Reaction No. 69319
+TeO3-2 + 2<H+1> = H+1(2)_TeO3-2
+ No    t     I-Str         Medium                Value (Dev)     W       Tech.   Ref. #
+ 1     0          0    Inf. Dilution           lgK:16.29(4SF)    0       EOD     7065
+ 2     25         0    Inf. Dilution           lgK:16.26(4SF)    1       ELC
+ 3     25         0    Inf. Dilution           lgK:15.94(4SF)    0       EOD     7065
+ 4     50         0    Inf. Dilution           lgK:15.85(4SF)    0       EOD     7065
+ 5     60         0    Inf. Dilution           lgK:15.87(4SF)    0       EOD     7065
+ 6    100         0    Inf. Dilution           lgK:16.11(4SF)    0       EOD     7065
+ 7    150         0    Inf. Dilution           lgK:16.73(4SF)    0       EOD     7065
+ 8    200         0    Inf. Dilution           lgK:17.59(4SF)    0       EOD     7065
+ 9    250         0    Inf. Dilution           lgK:18.70(4SF)    0       EOD     7065
+
+
+
+
+                                       – Page 35 of 70 –
+JESS Thermodynamic Database v8.9                                   Tellurium
+
+
+ 10   300     0        Inf. Dilution          lgK:20.15(4SF)   0      EOD      7065
+ 11   350     0        Inf. Dilution          lgK:22.37(4SF)   0      EOD      7065
+
+
+Reaction No. 69320
+Te(s) + H2O + O2(g) = H+1(2)_TeO3-2
+ No    t    I-Str          Medium               Value (Dev)    W     Tech.     Ref. #
+ 1     0      0        Inf. Dilution          lgK:46.19(4SF)   0      EOD      7065
+ 2    25      0        Inf. Dilution           lgK:42.(2SF)    1      ELC
+ 3    25      0        Inf. Dilution          lgK:41.59(4SF)   0      EOD      7065
+ 4    50      0        Inf. Dilution          lgK:37.68(4SF)   0      EOD      7065
+ 5    60      0        Inf. Dilution          lgK:36.28(4SF)   0      EOD      7065
+ 6    100     0        Inf. Dilution          lgK:31.45(4SF)   0      EOD      7065
+ 7    150     0        Inf. Dilution          lgK:26.69(4SF)   0      EOD      7065
+ 8    200     0        Inf. Dilution          lgK:22.94(4SF)   0      EOD      7065
+ 9    250     0        Inf. Dilution          lgK:19.90(4SF)   0      EOD      7065
+ 10   300     0        Inf. Dilution          lgK:17.40(4SF)   0      EOD      7065
+ 11   350     0        Inf. Dilution          lgK:15.29(4SF)   0      EOD      7065
+
+
+Reaction No. 69709
+H+1(2)_Te-2 + 1.5<O2(g)> = H+1(2)_TeO3-2
+
+Note: Data in ref[7065] refers to Table 3
+ No    t    I-Str         Medium               Value (Dev)     W     Tech.     Ref. #
+ 1     0                                     lgK:109.10(5SF)   3      MSL       7065
+ 2    25      0        Inf. Dilution          lgK:107.7(4SF)   1      ELC
+ 3    25                                      lgK:99.06(4SF)   3      MSL       7065
+ 4    50                                      lgK:90.59(4SF)   3      MSL       7065
+ 5    60                                      lgK:87.57(4SF)   3      MSL       7065
+ 6    100                                     lgK:77.09(4SF)   3      MSL       7065
+ 7    150                                     lgK:66.81(4SF)   3      MSL       7065
+ 8    200                                     lgK:58.72(4SF)   3      MSL       7065
+ 9    250                                     lgK:52.21(4SF)   2      MSL       7065
+ 10   300                                     lgK:46.87(4SF)   0      MSL       7065
+ 11   350                                     lgK:42.46(4SF)   0      MSL       7065
+
+
+Reaction No. 69710
+
+
+
+
+                                       – Page 36 of 70 –
+JESS Thermodynamic Database v8.9                                         Tellurium
+
+
+H+1_Te-2 + H+1 + 1.5<O2(g)> = H+1(2)_TeO3-2
+
+Note: Data in ref[7065] refers to Table 3
+ No    t       I-Str        Medium               Value (Dev)         W     Tech.     Ref. #
+ 1     0                                       lgK:111.77(5SF)       0      MSL       7065
+ 2    25         0       Inf. Dilution          lgK:110.3(4SF)       1      ELC
+ 3    25                                       lgK:101.70(5SF)       0      MSL       7065
+ 4    50                                        lgK:93.30(4SF)       0      MSL       7065
+ 5    60                                        lgK:90.32(4SF)       0      MSL       7065
+ 6    100                                       lgK:80.10(4SF)       0      MSL       7065
+ 7    150                                       lgK:70.24(4SF)       0      MSL       7065
+ 8    200                                       lgK:62.67(4SF)       0      MSL       7065
+ 9    250                                       lgK:56.75(4SF)       0      MSL       7065
+ 10   300                                       lgK:52.16(4SF)       0      MSL       7065
+ 11   350                                       lgK:48.88(4SF)       0      MSL       7065
+
+
+Reaction No. 69711
+Te-2 + 2<H+1> + 1.5<O2(g)> = H+1(2)_TeO3-2
+
+Note: The Te-2 species probably does not exist [18Mar_30641]
+ No        t     I-Str    Medium            Value (Dev)          W       Tech.       Ref. #
+  1        0                              lgK:124.28(5SF)        0        MSL         7065
+  2    25                                 lgK:113.86(5SF)        0        MSL         7065
+  3    50                                 lgK:105.04(5SF)        0        MSL         7065
+  4    60                                 lgK:101.90(5SF)        0        MSL         7065
+  5    100                                 lgK:91.45(4SF)        0        MSL         7065
+  6    150                                 lgK:81.36(4SF)        0        MSL         7065
+  7    200                                 lgK:73.85(4SF)        0        MSL         7065
+  8    250                                 lgK:68.14(4SF)        0        MSL         7065
+  9    300                                 lgK:63.89(4SF)        0        MSL         7065
+ 10    350                                 lgK:61.31(4SF)        0        MSL         7065
+
+
+Reaction No. 69712
+Te+6_OH-1(6) = H+1(2)_TeO3-2 + 2<H2O> + 0.5<O2(g)>
+
+Note: Data in ref[7065] refers to Table 3
+ No    t       I-Str        Medium               Value (Dev)         W     Tech.     Ref. #
+ 1     0                                        lgK:-3.66(3SF)       0      MSL       7065
+ 2    25         0       Inf. Dilution         lgK:-11.75(4SF)       1      ELC
+
+
+
+
+                                         – Page 37 of 70 –
+JESS Thermodynamic Database v8.9                                         Tellurium
+
+
+ 3    25                                        lgK:-2.77(3SF)       0      MSL       7065
+ 4    50                                        lgK:-1.97(3SF)       0      MSL       7065
+ 5    60                                        lgK:-1.67(3SF)       0      MSL       7065
+ 6    100                                       lgK:-0.58(2SF)       0      MSL       7065
+ 7    150                                       lgK:0.57(2SF)        0      MSL       7065
+ 8    200                                       lgK:1.56(3SF)        0      MSL       7065
+ 9    250                                       lgK:2.42(3SF)        0      MSL       7065
+ 10   300                                       lgK:3.17(3SF)        0      MSL       7065
+ 11   350                                       lgK:3.85(3SF)        0      MSL       7065
+
+
+Reaction No. 69713
+H+1(2)_TeO3-2 + 2<H2O> + 0.5<O2(g)> = TeO+4_OH-1(5) + H+1
+
+Note: Reversed rxn to achieve therm. consistency. PMM 13/8/18
+ No    t       I-Str        Medium                Value (Dev)        W     Tech.     Ref. #
+ 1     0                                        lgK:4.44(3SF)        2      MSL       7065
+ 2    25         0       Inf. Dilution           lgK:4.1(2SF)        1      EES
+ 3    25                                        lgK:4.93(3SF)        3      MSL       7065
+ 4    50                                        lgK:5.43(3SF)        2      MSL       7065
+ 5    60                                        lgK:5.64(3SF)        1      MSL       7065
+ 6    100                                       lgK:6.43(3SF)        1      MSL       7065
+ 7    150                                       lgK:7.38(3SF)        0      MSL       7065
+ 8    200                                       lgK:8.32(3SF)        0      MSL       7065
+ 9    250                                       lgK:9.27(3SF)        0      MSL       7065
+ 10   300                                       lgK:10.31(4SF)       0      MSL       7065
+ 11   350                                       lgK:11.73(4SF)       0      MSL       7065
+
+
+Reaction No. 69714
+H+1(4)_TeO6-6 + 2<H+1> = H+1(2)_TeO3-2 + 2<H2O> + 0.5<O2(g)>
+
+Note: Data in ref[7065] refers to Table 3
+ No        t     I-Str    Medium            Value (Dev)          W       Tech.       Ref. #
+  1        0                               lgK:15.95(4SF)        3        MSL         7065
+  2    25                                  lgK:15.88(4SF)        3        MSL         7065
+  3    50                                  lgK:16.01(4SF)        3        MSL         7065
+  4    60                                  lgK:16.10(4SF)        3        MSL         7065
+  5    100                                 lgK:16.59(4SF)        3        MSL         7065
+  6    150                                 lgK:17.43(4SF)        3        MSL         7065
+
+
+
+
+                                         – Page 38 of 70 –
+JESS Thermodynamic Database v8.9                                    Tellurium
+
+
+  7   200                                lgK:18.44(4SF)         3       MSL         7065
+  8   250                                lgK:19.64(4SF)         3       MSL         7065
+  9   300                                lgK:21.15(4SF)         3       MSL         7065
+ 10   350                                lgK:23.43(4SF)         3       MSL         7065
+
+
+Reaction No. 70165
+TeO+4_OH-1(5) + H+1 = Te+6_OH-1(6)
+
+Note: Volume change for rxn has been estimated = +16.2 cm3/mol [88MSG_10047]
+ No    t     I-Str         Medium               Value (Dev)         W     Tech.     Ref. #
+ 1     0       0       Inf. Dilution           lgK:8.187(4SF)       3         MQH    140
+ 2     0       0       Inf. Dilution           lgK:8.187(4SF)       4         MGL   30890
+ 3     5       0       Inf. Dilution           lgK:8.03(3SF)        4         MGL    140
+ 4     5       0       Inf. Dilution         lgK:8.03(0.02SD)       5         MGL    8190
+ 5    10       0       Inf. Dilution           lgK:7.975(4SF)       3         MQH    140
+ 6    10       0       Inf. Dilution           lgK:7.975(4SF)       4         MGL   30890
+ 7    12       0          Unknown              lgK:8.00(3SF)        3         MCN   31175
+ 8    12      0.06        Unknown              lgK:8.00(3SF)        3         MCN    140
+ 9    18       0       Inf. Dilution           lgK:7.68(3SF)        0         CRV    6330
+ 10   18       0          Unknown              lgK:7.84(3SF)        3         MPT   14954
+ 11   18       0          Unknown              lgK:7.68(3SF)        3         MGL   16952
+ 12   18       0          Unknown              lgK:7.35(3SF)        3         MPT   30935
+ 13   18                                       lgK:7.68(3SF)        0         MGL    140
+ 14   20       0          Unknown               lgK:8.8(2SF)        0         MHY   30748
+ 15   20                                       lgK:8.80(3SF)        0         MHY    140
+ 16   22       0        Self Medium            lgK:7.47(3SF)        4         MGL   30942
+ 17   22       0          Unknown              lgK:7.81(3SF)        3         MCN   31175
+ 18   22      0.06        Unknown              lgK:7.81(3SF)        3         MCN    140
+ 19   22                                       lgK:5.80(3SF)        0         MGL    140
+ 20   23       0          Unknown               lgK:6.2(2SF)        0         MCN   30749
+ 21   23       2         Li+1 salt             lgK:7.45(3SF)        3         MGL    140
+ 22   23       2         Li+1 salt             lgK:7.45(3SF)        3         MGL   31171
+ 23   23       5           LiNO3               lgK:5.60(3SF)        0         MGL   30891
+Note (23): in saturated salt solution; T unknown
+ 24   23       5            NaCl               lgK:6.53(3SF)        0         MGL   30891
+Note (24): in saturated salt solution; T unknown
+ 25   23       5           NaClO4              lgK:5.80(3SF)        0         MGL   30891
+
+
+
+
+                                       – Page 39 of 70 –
+JESS Thermodynamic Database v8.9                                  Tellurium
+
+
+Note (25): in saturated salt solution; T unknown
+ 26   23       5          Unknown              lgK:6.75(3SF)      0   MGL     30891
+Note (26): in saturated salt solution; electrolyte MgSO4; T unknown
+ 27   25       0       Inf. Dilution           lgK:7.70(3SF)      4   MGL      140
+ 28   25       0       Inf. Dilution           lgK:7.611(4SF)     4   MQH      140
+ 29   25       0       Inf. Dilution           lgK:7.70(3SF)      4   MSP      140
+ 30   25       0       Inf. Dilution           lgK:7.72(3SF)      3   EOD     4991
+ 31   25       0       Inf. Dilution           lgK:8.80(3SF)      4   ENS     7276
+ 32   25       0       Inf. Dilution          lgK:7.70(0.1SD)     5   MGL     8190
+ 33   25       0       Inf. Dilution         lgK:7.70(0.01SD)     5   MGL     8453
+ 34   25       0       Inf. Dilution           lgK:7.68(3SF)      4   CRV     22551
+ 35   25       0       Inf. Dilution           lgK:7.611(4SF)     3   MQH     30894
+ 36   25       0       Inf. Dilution           lgK:7.611(4SF)     2   MGL     31011
+ 37   25       0          Unknown              lgK:7.65(3SF)      3   MGL     31172
+ 38   25      0.1           KCl             lgK:7.586(0.008SD)    5   MGL     31170
+ 39   25      0.1         Unknown             lgK:7.4(0.05SD)     6   CRV      552
+ 40   25     0.315          KCl                lgK:7.356(4SF)     2   MGL     31011
+ 41   25     0.315         NaClO4              lgK:7.522(4SF)     2   MGL     31011
+ 42   25       1            KCl              lgK:7.28(0.02SD)     5   MGL     30595
+ 43   25       1            NaCl             lgK:7.31(0.01SD)     4   MGL     30590
+ 44   25       1            NaCl             lgK:7.33(0.02SD)     4   MGL     30604
+ 45   25       1          NaClO4/m          lgK:7.166(0.004SD)    6   MGL     10047
+ 46   25       1          Unknown             lgK:7.3(0.03SD)     6   CRV      552
+ 47   25     1.725         NaClO4              lgK:7.116(4SF)     2   MGL     31011
+ 48   25                                       lgK:6.17(3SF)      0   MCN      140
+ 49   32       0          Unknown              lgK:7.63(3SF)      3   MCN     31175
+ 50   32      0.06        Unknown              lgK:7.63(3SF)      3   MCN      140
+ 51   35       0       Inf. Dilution           lgK:7.59(3SF)      4   MGL      140
+ 52   35       0       Inf. Dilution           lgK:7.427(4SF)     4   MQH      140
+ 53   35       0       Inf. Dilution         lgK:7.59(0.01SD)     5   MGL     8190
+ 54   35       0       Inf. Dilution           lgK:7.427(4SF)     4   MGL     30890
+ 55   35       1            KCl              lgK:7.16(0.02SD)     5   MGL     30595
+ 56   40       1            KCl                lgK:7.11(3SF)      4   MGL     30595
+ 57   42       0          Unknown              lgK:7.48(3SF)      3   MCN     31175
+ 58   42      0.06        Unknown              lgK:7.48(3SF)      3   MCN      140
+ 59   45       0       Inf. Dilution           lgK:7.120(4SF)     3   MQH      140
+
+
+
+
+                                       – Page 40 of 70 –
+JESS Thermodynamic Database v8.9                                     Tellurium
+
+
+ 60    45           0   Inf. Dilution           lgK:7.120(4SF)       4      MGL    30890
+ 61    45           1        KCl              lgK:7.01(0.02SD)       4      MGL    30595
+ 62    50           0   Inf. Dilution           lgK:7.41(3SF)        3      ETM    4991
+ 63    50           0      Unknown              lgK:7.37(3SF)        3      MCN    31175
+ 64    50       0.06       Unknown              lgK:7.37(3SF)        3      MCN     140
+ 65    61           0   Inf. Dilution           lgK:7.28(3SF)        4      MGL     140
+ 66    61           0   Inf. Dilution         lgK:7.28(0.02SD)       5      MGL    8190
+ 67    100          0   Inf. Dilution            lgK:7.2(2SF)        3      ETM    4991
+ 68    150          0   Inf. Dilution            lgK:7.3(2SF)        3      ETM    4991
+ 69    200          0   Inf. Dilution            lgK:7.6(2SF)        3      ETM    4991
+ 70    250          0   Inf. Dilution            lgK:8.1(2SF)        3      ETM    4991
+ 71    300          0   Inf. Dilution            lgK:8.8(2SF)        3      ETM    4991
+ 72   10:60         0   Inf. Dilution            dH:-6.(1SF)         4      CRV     552
+ 73    25           0   Inf. Dilution            dH:-5.8(2SF)        4      MTD     140
+ 74    25           0   Inf. Dilution           dH:-5.8(0.2SD)       4      MTD    8190
+ 75    25           1        KCl                dH:-7.0(0.2SD)       3      MCL    30594
+ 76    25           1        KCl                 dH:-6.(1SF)         3      EVH    30595
+ 77    25           1      Unknown               dH:-7.0(2SF)        3      CRV     552
+
+
+Reaction No. 70945
+Te+6_OH-1(6) + 2<H+1> + 2<e-1> = TeO2(s) + 4<H2O>
+
+Note: Never measured. Estimated by Latimer (1938, 1952) and copied ever since
+ No    t      I-Str        Medium               Value (Dev)      W       Tech.    Ref. #
+ 1    25        0       Inf. Dilution           lgK:35.(2SF)     1       EES
+ 2    25        0       Inf. Dilution           E:1.02(3SF)      4       EOD       600
+ 3    25        0       Inf. Dilution           E:0.93(2SF)      0       CRV      14620
+Note (3): p. 755 Until 9-Aug-2018 in JESS as H+1(2)_TeO4-2 + 2<H+1> + 2<e-1>
+ 4    25        0       Inf. Dilution           E:1.02(3SF)      2       CRV      22519
+ 5    25        0       Inf. Dilution            E:1.0(2SF)      1       CRV      22551
+Note (5): Until 9-Aug-2018 in JESS as H+1(2)_TeO4-2 + 2<H+1> + 2<e-1>
+ 6    25        0       Inf. Dilution           E:1.02(3SF)      2       CRV      23898
+Note (6): Until 9-Aug-2018 in JESS as H+1(2)_TeO4-2 + 2<H+1> + 2<e-1>
+ 7    25        0       Inf. Dilution           E:1.02(3SF)      3       MEF      31758
+
+
+Reaction No. 70946
+
+
+
+
+                                        – Page 41 of 70 –
+JESS Thermodynamic Database v8.9                                    Tellurium
+
+
+TeO4-1 + 8<H+1> + 7<e-1> = Te(s) + 4<H2O>
+
+Note: Wgt = 0; values make no sense
+ No   t    I-Str            Medium               Value (Dev)    W    Tech.      Ref. #
+ 1    25     0           Inf. Dilution           E:0.472(3SF)   0     CRV       6330
+ 2    25     0           Inf. Dilution           E:0.472(3SF)   0     CRV       22519
+
+
+Reaction No. 70947
+TeO3-2 + 4<e-1> + 3<H2O> = Te(s) + 6<OH-1>
+
+Note: Never measured. Estimated by Latimer in 1952 and 1938. Very different values
+suggested; reason: different pK values
+ No   t    I-Str           Medium               Value (Dev)     W    Tech.      Ref. #
+ 1    25     0          Inf. Dilution         lgK:-26.5(3SF)    1     ELC
+ 2    25     0          Inf. Dilution          E:-0.57(2SF)     0     CRV
+ 3    25     0          Inf. Dilution          E:-0.57(2SF)     0     EOD        600
+ 4    25     0          Inf. Dilution          E:-0.42(2SF)     0     CRV       14620
+Note (4): p. 755
+ 5    25     0          Inf. Dilution          E:-0.57(2SF)     0     CRV       22519
+ 6    25     0          Inf. Dilution          E:-0.42(2SF)     0     CRV       22551
+
+
+Reaction No. 70948
+TeO2(s) + 4<e-1> + 4<H+1> = Te(s) + 2<H2O>
+
+Note: The only value measured is the one by Schuhmann
+ No   t    I-Str            Medium               Value (Dev)    W    Tech.      Ref. #
+ 1    25     0          Inf. Dilution           lgK:36.4(3SF)   1     ELC
+ 2    25     0          Inf. Dilution            E:0.593(3SF)   0     CRV        6330
+ 3    25     0          Inf. Dilution            E:0.57(2SF)    0     CRV       14620
+Note (3): p. 755
+ 4    25     0          Inf. Dilution            E:0.593(3SF)   0     CRV       22519
+ 5    25     0          Inf. Dilution           E:0.5213(4SF)   0     CRV       22551
+ 6    25     0          Inf. Dilution            E:0.521(3SF)   0     CRV       23898
+ 7    25     0          Inf. Dilution            E:0.521(3SF)   0     EOD       31758
+ 8    25     1               HCl                E:0.5268(4SF)   5     MHY       30571
+ 9    45     1               HCl                E:0.5213(4SF)   3     MHY       30571
+
+
+Reaction No. 70949
+Te+4 + 4<e-1> = Te(s)
+ No   t    I-Str            Medium               Value (Dev)    W    Tech.      Ref. #
+
+
+
+
+                                         – Page 42 of 70 –
+JESS Thermodynamic Database v8.9                                      Tellurium
+
+
+ 1    20        2.5            HCl                E:0.549(3SF)    4        MHY     30869
+ 2    25            0     Inf. Dilution           E:0.568(3SF)    2        CRV     6330
+ 3    25            0     Inf. Dilution           E:0.53(2SF)     0        CRV     14620
+Note (3): p. 755
+ 4    25            0     Inf. Dilution           E:0.568(3SF)    2        CRV     22519
+ 5    25            0     Inf. Dilution           E:0.57(2SF)     2        CRV     22551
+ 6    25            0     Inf. Dilution           E:0.556(3SF)    0        CRV     23898
+ 7    25            0     Inf. Dilution           E:0.568(3SF)    0        CRV     23898
+ 8    25        2.5            HCl                E:0.584(3SF)    0        CRV     23898
+
+
+Reaction No. 70950
+Te(s) + 2<H+1> + 2<e-1> = H+1(2)_Te-2
+
+Note: Early Latimer value slightly wrong but critics of (updated) -0.72V also
+deficient. ELC here depends on Te(s) + 2<e-1> = Te-2 and pKas (assumed better) which
+agrees with Latimer [600] where -0.72 V = -24.3 lgK. However, pKa measurements at
+pH=13 not ideal.
+ No       t    I-Str         Medium             Value (Dev)       W       Tech.    Ref. #
+  1    25           0    Inf. Dilution         lgK:-24.3(3SF)     1       ELC
+  2    23           0    Inf. Dilution          E:-0.51(2SF)      0       MPL      30575
+Note (2): According to these authors, the value -0.72 from Latimer [600] is wrong
+  3    25           0    Inf. Dilution          E:-0.72(2SF)      4       EOD       600
+  4    25           0    Inf. Dilution         E:-0.793(3SF)      0       CRV      6330
+  5    25           0    Inf. Dilution          E:-0.74(2SF)      0       CRV      14620
+Note (5): p. 755
+  6    25           0    Inf. Dilution         E:-0.793(3SF)      0       CRV      22519
+  7    25           0    Inf. Dilution          E:-0.74(2SF)      0       CRV      22551
+  8    25           0    Inf. Dilution         E:-0.739(3SF)      0       CRV      23898
+  9    25           0    Inf. Dilution          E:-0.69(2SF)      0       EOD      31204
+ 10    30           0    Inf. Dilution          E:-0.50(2SF)      0       CRV      23898
+Note (10): Overpotential problem?
+ 11    30           0    Inf. Dilution          E:-0.50(2SF)      0       MPL      30896
+
+
+Reaction No. 73525
+0.5<Se2(g)> + 0.5<Te2(g)> = TeSe(g)
+ No   t       I-Str        Medium                Value (Dev)          W    Tech.   Ref. #
+ 1    25        0       Inf. Dilution        lgK:0.193(0.911SD)       6     CRV     14923
+
+
+Reaction No. 74146
+
+
+
+
+                                          – Page 43 of 70 –
+JESS Thermodynamic Database v8.9                                   Tellurium
+
+
+Cd+2_Te-2_(s) + 2<e-1> = Cd(s) + Te-2
+ No   t    I-Str             Medium              Value (Dev)   W    Tech.      Ref. #
+ 1    25     0         Inf. Dilution            E:-1.62(3SF)   2     CRV       11806
+ 2    25     0         Inf. Dilution            E:-1.62(3SF)   2     CRV       22551
+
+
+Reaction No. 74454
+Te+6_OH-1(6) + 6<H+1> + 2<e-1> = Te+4 + 6<H2O>
+
+Note: This reaction is the same as Te+6_OH-1(6) + 2<H+1> + 2<e-1> but adding 4 H+1
+and thus giving more waters
+ No   t    I-Str            Medium              Value (Dev)    W    Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:32.5(3SF)    1     ELC
+ 2    25     0        Inf. Dilution           lgK:30.7(3SF)    0     EOR
+ 3    25     0        Inf. Dilution             E:1.00(3SF)    0     CRV       14620
+Note (3): p. 755; appears to have transposed values. Until 9-Aug-2018 in JESS as
+H+1(2)_TeO4-2 + 6<H+1> + 2 <e-1>
+ 4    25     0        Inf. Dilution             E:0.93(2SF)    0     CRV       22551
+Note (4): Until 9-Aug-2018 in JESS as: H+1(2)_TeO4-2 + 6<H+1> + 2<e-1>
+ 5    25     0        Inf. Dilution            E:0.920(3SF)    0     CRV       23898
+Note (5): Until 9-Aug-2018 in JESS as: H+1(2)_TeO4-2 + 6<H+1> + 2<e-1>
+
+
+Reaction No. 74455
+2<Te(s)> + 2<e-1> = Te2-2
+
+Note: The existence of Te2-2 is doubtful but retained to ensure it stays visible. See
+Filella & May (2019) Te review.
+ No   t     I-Str           Medium              Value (Dev)    W    Tech.      Ref. #
+ 1    20     2.5              HCl             E:-0.818(3SF)    3     MHY       30869
+ 2    23      0        Inf. Dilution          E:-0.845(3SF)    0     MPL       30576
+ 3    25      0        Inf. Dilution           E:-0.84(2SF)    0     CRV       14620
+Note (3): p. 755
+ 4    25      0        Inf. Dilution           E:-0.84(2SF)    0     CRV       22551
+ 5    25      0        Inf. Dilution           E:-0.74(2SF)    0     CRV       23898
+ 6    25      0        Inf. Dilution          E:-0.790(3SF)    0     CRV       23898
+ 7    25      0        Inf. Dilution          E:-0.840(3SF)    0     CRV       23898
+Note (7): Source shows three different values
+ 8    30    0.01              HCl              E:-0.74(2SF)    3     MPL       30896
+
+
+Reaction No. 74457
+2<TeO2(s)> + 10<e-1> + 8<H+1> = Te2-2 + 4<H2O>
+
+
+
+
+                                        – Page 44 of 70 –
+JESS Thermodynamic Database v8.9                                              Tellurium
+
+
+ No   t        I-Str             Medium               Value (Dev)        W     Tech.       Ref. #
+ 1    25         0           Inf. Dilution           lgK:44.4(3SF)       1      ELC
+ 2    25         0           Inf. Dilution            E:0.53(2SF)        0      CRV        22551
+
+
+Reaction No. 74458
+Te(s) + 2<e-1> + H+1 = H+1_Te-2
+ No   t        I-Str            Medium                Value (Dev)        W      Tech.      Ref. #
+ 1    25         0           Inf. Dilution          lgK:-26.8(3SF)       1         ELC
+ 2    25         0           Inf. Dilution           E:-0.817(3SF)       0         CRV     22551
+
+
+Reaction No. 74459
+H+1(2)_TeO3-2 + 4<e-1> + 4<H+1> = Te(s) + 3<H2O>
+ No   t        I-Str             Medium               Value (Dev)        W     Tech.       Ref. #
+ 1    25         0           Inf. Dilution           lgK:41.5(3SF)       1      ELC
+ 2    25         0           Inf. Dilution            E:0.589(3SF)       0      CRV        22551
+ 3    25         0           Inf. Dilution            E:0.589(3SF)       0      CRV        23898
+
+
+Reaction No. 74460
+Te+5_Cl-1(6) + 5<e-1> = Te(s) + 6<Cl-1>
+ No        t         I-Str      Medium           Value (Dev)         W       Tech.        Ref. #
+  1       25           3         HCl             E:0.63(2SF)         4       CRV          22551
+
+
+Reaction No. 74461
+Te+6_F-1(6) + 6<e-1> = Te(s) + 6<F-1>
+ No   t        I-Str             Medium               Value (Dev)        W     Tech.      Ref. #
+ 1    25         0            Inf. Dilution           E:0.755(3SF)       4      CRV        22551
+
+
+Reaction No. 74462
+Te+4_Cl-1(4) + 4<e-1> = Te(s) + 4<Cl-1>
+ No   t        I-Str             Medium               Value (Dev)        W     Tech.       Ref. #
+ 1    25         0           Inf. Dilution           lgK:26.5(3SF)       1      ELC
+ 2    25         0           Inf. Dilution            E:0.745(3SF)       0      CRV        22551
+
+
+Reaction No. 74463
+TeO2+2_OH-1(4) + 2<e-1> = TeO3-2 + 2<OH-1> + H2O
+ No   t        I-Str             Medium               Value (Dev)        W     Tech.      Ref. #
+ 1    25         0            Inf. Dilution           lgK:4.2(2SF)       1      ELC
+
+
+
+
+                                              – Page 45 of 70 –
+JESS Thermodynamic Database v8.9                                        Tellurium
+
+
+ 2    25            0      Inf. Dilution           E:0.07(1SF)      0        CRV      22551
+
+
+Reaction No. 74464
+TeO+2_OH-1 + 4<e-1> + 3<H+1> = Te(s) + 2<H2O>
+ No    t       I-Str           Medium              Value (Dev)      W       Tech.     Ref. #
+ 1    25            0      Inf. Dilution           E:0.559(3SF)     0        CRV      22551
+
+
+Reaction No. 74465
+TeO2.H2O(s) = TeO+2_OH-1 + OH-1
+ No       t     I-Str         Medium              Value (Dev)       W       Tech.     Ref. #
+ 1     25           0      Inf. Dilution         lgK:-12.(2SF)      0       CRV       22551
+Note (1): TeO2.H2O(s) in doubt. Looks like a construction from Inzelt. TeO+2_OH-1
+looks like being TeO3-2_H+1 ???
+
+
+Reaction No. 74466
+TeO2(s) + H2O = TeO+2_OH-1 + OH-1
+ No    t       I-Str         Medium               Value (Dev)       W       Tech.     Ref. #
+ 1    25            0     Inf. Dilution         lgK:-16.05(4SF)     0        CRV      22551
+Note (1): TeO2.H2O(s) in doubt. Looks like a construction from Inzelt. TeO+2_OH-1
+looks as being TeO3-2_H+1 ???
+
+
+Reaction No. 74467
+Te+4_OH-1(4)_(s) = Te+4 + 4<OH-1>
+ No    t       I-Str          Medium               Value (Dev)      W       Tech.     Ref. #
+ 1    25            0      Inf. Dilution          lgK:-11.(2SF)     1        CRV      22551
+Note (1): Te+4_OH-1(4)_(s) in doubt. It looks like a construction from Inzelt
+
+
+Reaction No. 74585
+1.843<Te(s)> + Zr(s) = ZrTe1.843(s)
+ No   t       I-Str        Medium                 Value (Dev)           W     Tech.   Ref. #
+ 1    25        0       Inf. Dilution        dG:-291.330(7.0MD)kJ       6      CRV     20829
+ 2    25        0       Inf. Dilution        dH:-295.000(7.0MD)kJ       6      CRV     20829
+ 3    25        0       Inf. Dilution         Cp:70.590(0.3MD)J/K       6      CRV     20829
+
+
+Reaction No. 74586
+2<Te(s)> + Zr(s) = ZrTe2(s)
+ No   t       I-Str        Medium                 Value (Dev)           W     Tech.   Ref. #
+ 1    25        0       Inf. Dilution        dG:-290.040(7.0MD)kJ       6      CRV     20829
+
+
+
+
+                                           – Page 46 of 70 –
+JESS Thermodynamic Database v8.9                                            Tellurium
+
+
+ 2    25          0           Inf. Dilution         dH:-294.000(7.0MD)kJ    6    CRV    20829
+
+
+Reaction No. 74587
+4<Te(s)> + 5<Zr(s)> = Zr5Te4(s)
+ No   t         I-Str            Medium                  Value (Dev)        W   Tech.   Ref. #
+ 1    25          0           Inf. Dilution        dG:-810.430(44.0MD)kJ    6    CRV    20829
+ 2    25          0           Inf. Dilution        dH:-829.000(44.0MD)kJ    6    CRV    20829
+ 3    25          0           Inf. Dilution         Cp:222.000(0.3MD)J/K    6    CRV    20829
+
+
+Reaction No. 74588
+4<O2(g)> + 3<Te(s)> + Zr(s) = ZrTe3O8(s)
+ No   t         I-Str             Medium                 Value (Dev)        W   Tech.   Ref. #
+ 1    25          0           Inf. Dilution           dG:-1700.(4SF)kJ      1   EES
+ 2    25          0           Inf. Dilution          dH:-2119.2(9.6MD)kJ    6   CRV     20829
+
+
+Reaction No. 75207
+TeO2+2_OH-1(4) + H+1 = TeO+4_OH-1(5)
+ No        t          I-Str           Medium               Value (Dev)      W   Tech.   Ref. #
+ 1         5            0         Inf. Dilution           lgK:11.45(4SF)    4    MGL     140
+ 2         5            0         Inf. Dilution         lgK:11.45(0.03SD)   5    MGL     8190
+ 3         18           0         Inf. Dilution           lgK:11.0(3SF)     4    CRV     6330
+ 4         18           0            Unknown              lgK:12.5(3SF)     0    MPT    14954
+ 5         18           0            Unknown              lgK:11.19(4SF)    4    MGL    16952
+ 6         18         0.04           Unknown              lgK:10.33(4SF)    3    MCO     140
+ 7         18                                             lgK:11.19(4SF)    3    MGL     140
+ 8         22           0          Self Medium            lgK:9.34(3SF)     4    MGL    30942
+ 9         25           0         Inf. Dilution           lgK:10.95(4SF)    4    MGL     140
+ 10        25           0         Inf. Dilution           lgK:11.04(4SF)    4    MSP     140
+ 11        25           0         Inf. Dilution           lgK:10.96(4SF)    4    EOD     4991
+ 12        25           0         Inf. Dilution         lgK:10.95(0.02SD)   5    MGL     8190
+ 13        25           0         Inf. Dilution         lgK:11.04(0.05SD)   5    MGL     8453
+ 14        25           0         Inf. Dilution           lgK:11.19(4SF)    2    CRV    22551
+ 15        25           0            Unknown              lgK:10.4(3SF)     3    MCN    30749
+ 16        25           1            NaClO4/m            lgK:10.090(5SF)    6    MGL    10047
+ 17        25                                             lgK:10.39(4SF)    3    MCN     140
+ 18        35           0         Inf. Dilution           lgK:10.80(4SF)    4    MGL     140
+ 19        35           0         Inf. Dilution         lgK:10.80(0.02SD)   4    MGL     8190
+
+
+
+
+                                                  – Page 47 of 70 –
+JESS Thermodynamic Database v8.9                                      Tellurium
+
+
+ 20    50           0   Inf. Dilution           lgK:10.59(4SF)        3     ETM    4991
+ 21    61           0   Inf. Dilution           lgK:10.27(4SF)        3     MGL     140
+ 22    61           0   Inf. Dilution         lgK:10.27(0.03SD)       3     MGL    8190
+ 23    100          0   Inf. Dilution           lgK:10.2(3SF)         2     ETM    4991
+ 24    150          0   Inf. Dilution           lgK:10.2(3SF)         1     ETM    4991
+ 25    200          0   Inf. Dilution           lgK:10.3(3SF)         1     ETM    4991
+ 26    250          0   Inf. Dilution           lgK:10.7(3SF)         0     ETM    4991
+ 27    300          0   Inf. Dilution           lgK:11.2(3SF)         0     ETM    4991
+ 28   10:60         0   Inf. Dilution            dH:-9.(1SF)          4     CRV     552
+ 29    25           0   Inf. Dilution            dH:-9.4(2SF)         4     MTD     140
+ 30    25           0   Inf. Dilution           dH:-9.4(0.4SD)        5     MTD    8190
+
+
+Reaction No. 75407
+OH-1 + H+1_Te-2 = Te-2 + H2O
+
+Note: The Te-2 species probably does not exist [18Mar_30641]
+ No   t       I-Str        Medium               Value (Dev)       W       Tech.   Ref. #
+ 1    25        0       Inf. Dilution           lgK:2.2(2SF)      1       ELC
+ 2    25        0       Inf. Dilution          lgK:2.10(3SF)      0       MSP     23270
+
+
+Reaction No. 75496
+Te+6_OH-1(6) + 3<H+1> + 2<e-1> = Te+4_OH-1(3) + 3<H2O>
+ No   t       I-Str        Medium               Value (Dev)       W       Tech.   Ref. #
+ 1    25        0       Inf. Dilution          lgK:32.2(3SF)      1       ELC
+ 2    25        0       Inf. Dilution           E:0.953(3SF)      0       CRV     23898
+Note (2): Source has H+1(3)_TeO3-2 as HTeO2+ (dehydrated).
+
+
+Reaction No. 75497
+Te+6_OH-1(6) + H+1 + 2<e-1> = H+1_TeO3-2 + 3<H2O>
+ No   t       I-Str        Medium               Value (Dev)       W       Tech.   Ref. #
+ 1    25        0       Inf. Dilution          lgK:23.4(3SF)      1       ELC
+ 2    25        0       Inf. Dilution           E:0.631(3SF)      0       CRV     23898
+Note (2): Until 9-Aug-2018 in JESS as H+1(2)_TeO4-2 + H+1 + 2<e-1>
+
+
+Reaction No. 75498
+TeO+4_OH-1(5) + 2<H+1> + 2<e-1> = H+1_TeO3-2 + 3<H2O>
+ No   t       I-Str        Medium               Value (Dev)       W       Tech.   Ref. #
+ 1    25        0       Inf. Dilution          lgK:31.1(3SF)      1       ELC
+
+
+
+
+                                        – Page 48 of 70 –
+JESS Thermodynamic Database v8.9                                   Tellurium
+
+
+ 2    25     0         Inf. Dilution           E:0.813(3SF)    0     CRV       23898
+Note (2): Before 9-Aug-2018: H+1_TeO4-2 + 2<H+1> + 2<e-1>
+
+
+Reaction No. 75499
+TeO+4_OH-1(5) + H+1 + 2<e-1> = TeO3-2 + 3<H2O>
+ No   t    I-Str          Medium               Value (Dev)     W    Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:21.1(3SF)    1     ELC
+ 2    25     0         Inf. Dilution           E:0.584(3SF)    0     CRV       23898
+Note (2): Before 9-Aug-2018: H+1_TeO4-2 + H+1 + 2<e-1>
+
+
+Reaction No. 75500
+TeO2+2_OH-1(4) + 2<H+1> + 2<e-1> = TeO3-2 + 3<H2O>
+ No   t    I-Str          Medium               Value (Dev)     W    Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:32.2(3SF)    1     ELC
+ 2    25     0         Inf. Dilution           E:0.892(3SF)    0     CRV       23898
+Note (2): Before 09-Aug-2018: TeO4-2 + 2<H+1> + 2<e-1>
+
+
+Reaction No. 75501
+Te+6_OH-1(6) + 2<H+1> + 2<e-1> = TeO2.H2O(s) + 3<H2O>
+ No   t    I-Str          Medium               Value (Dev)     W    Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:30.0(3SF)    1     ELC
+ 2    25     0         Inf. Dilution           E:0.854(3SF)    0     CRV       23898
+Note (2): TeO2.2H2O(s) doubtful. Before 9-Aug-2018: H+1(2)_TeO4-2 + 2<H+1> + 2<e-1 >
+
+
+Reaction No. 75502
+TeO+4_OH-1(5) + 3<H+1> + 2<e-1> = TeO2(s) + 4<H2O>
+ No   t    I-Str          Medium               Value (Dev)     W    Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:42.2(3SF)    1     ELC
+ 2    25     0         Inf. Dilution           E:1.202(4SF)    0     CRV       23898
+Note (2): Before 9-Aug-2018: H+1_TeO4-2 + 3<H+1> + 2<e-1>
+
+
+Reaction No. 75503
+TeO+4_OH-1(5) + 3<H+1> + 2<e-1> = TeO2.H2O(s) + 3<H2O>
+ No   t    I-Str          Medium               Value (Dev)     W    Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:37.7(3SF)    1     ELC
+ 2    25     0         Inf. Dilution           E:1.036(4SF)    0     CRV       23898
+Note (2): TeO2.2H2O(s) doubtful. Before 9-Aug-2018: H+1_TeO4-2 + 3<H+1> + 2<e-1>
+
+
+
+
+                                       – Page 49 of 70 –
+JESS Thermodynamic Database v8.9                                   Tellurium
+
+
+
+Reaction No. 75504
+TeO2+2_OH-1(4) + 4<H+1> + 2<e-1> = TeO2(s) + 4<H2O>
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:52.2(3SF)    1     ELC
+ 2    25     0         Inf. Dilution            E:1.509(4SF)   0     CRV       23898
+Note (2): Before 9-Aug-2018: TeO4-2 + 4<H+1> + 2<e-1>
+
+
+Reaction No. 75505
+TeO2+2_OH-1(4) + 4<H+1> + 2<e-1> = TeO2.H2O(s) + 3<H2O>
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:48.2(3SF)    1     ELC
+ 2    25     0         Inf. Dilution            E:1.343(4SF)   0     CRV       23898
+Note (2): TeO2.H2O(s) doubtful. Before 9-Aug-2018: TeO4-2 + 4<H+1> + 2<e-1>
+
+
+Reaction No. 75506
+TeO3(s) + 2<H+1> + 2<e-1> = TeO2(s) + H2O
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:33.2(3SF)    1     ELC
+ 2    25     0         Inf. Dilution            E:1.020(4SF)   0     CRV       23898
+
+
+Reaction No. 75507
+TeO3(s) + 2<H+1> + 2<e-1> = TeO2.H2O(s)
+ No   t    I-Str           Medium               Value (Dev)    W    Tech.      Ref. #
+ 1    25     0         Inf. Dilution            E:0.850(3SF)   3     CRV       23898
+
+
+Reaction No. 75509
+H+1_TeO3-2 + 5<H+1> + 4<e-1> = Te(s) + 3<H2O>
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:47.9(3SF)    1     ELC
+ 2    25     0         Inf. Dilution            E:0.713(3SF)   0     CRV       23898
+
+
+Reaction No. 75510
+TeO3-2 + 4<e-1> + 6<H+1> = Te(s) + 3<H2O>
+ No   t    I-Str          Medium                Value (Dev)    W    Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:57.8(3SF)    1     ELC
+ 2    25     0         Inf. Dilution            E:0.827(3SF)   0     CRV       23898
+
+
+
+
+                                       – Page 50 of 70 –
+JESS Thermodynamic Database v8.9                                   Tellurium
+
+
+ 3    25     0         Inf. Dilution           E:0.827(3SF)    0     EOD       31758
+
+
+Reaction No. 75511
+TeO2.H2O(s) + 4<H+1> + 4<e-1> = Te(s) + 3<H2O>
+ No   t    I-Str            Medium               Value (Dev)   W    Tech.      Ref. #
+ 1    25     0         Inf. Dilution           E:0.604(3SF)    3     CRV       23898
+ 2    25     0         Inf. Dilution           E:0.604(3SF)    3     CRV       31758
+
+
+Reaction No. 75512
+Te+4_OH-1(6) + 4<e-1> = Te(s) + 6<OH-1>
+
+Note: Te+4_OH-1(6) is the same as TeO3-2. No reason to use such notation
+ No   t    I-Str            Medium             Value (Dev)     W    Tech.      Ref. #
+ 1    25     0         Inf. Dilution          E:-0.412(3SF)    0     CRV       23898
+
+
+Reaction No. 75513
+Te+4_Cl-1(6) + 4<e-1> = Te(s) + 6<Cl-1>
+ No   t    I-Str            Medium             Value (Dev)     W    Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:20.5(3SF)    1     ELC
+ 2    25     0         Inf. Dilution           E:0.55(2SF)     0     CRV       23898
+ 3    25    2.5              HCl               E:0.630(3SF)    0     CRV       23898
+
+
+Reaction No. 75514
+2<Te+4> + 10<e-1> = Te2-2
+ No   t    I-Str            Medium             Value (Dev)     W    Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:48.5(3SF)    1     ELC
+ 2    25     0         Inf. Dilution           E:0.286(3SF)    0     CRV       23898
+
+
+Reaction No. 75516
+2<H+1_TeO3-2> + 10<H+1> + 10<e-1> = Te2-2 + 6<H2O>
+ No   t    I-Str            Medium             Value (Dev)     W    Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:66.5(3SF)    1     ELC
+ 2    25     0         Inf. Dilution           E:0.402(3SF)    0     CRV       23898
+
+
+Reaction No. 75517
+2<TeO3-2> + 12<H+1> + 10<e-1> = Te2-2 + 6<H2O>
+ No   t    I-Str            Medium             Value (Dev)     W    Tech.      Ref. #
+ 1    25     0         Inf. Dilution          lgK:86.3(3SF)    1     ELC
+
+
+
+
+                                       – Page 51 of 70 –
+JESS Thermodynamic Database v8.9                                        Tellurium
+
+
+ 2    25     0          Inf. Dilution            E:0.493(3SF)   0         CRV       23898
+
+
+Reaction No. 75518
+Te+4 + 2<H+1> + 6<e-1> = H+1(2)_Te-2
+ No   t    I-Str            Medium               Value (Dev)    W        Tech.      Ref. #
+ 1    25     0          Inf. Dilution           lgK:14.2(3SF)   1         ELC
+ 2    25     0          Inf. Dilution            E:0.132(3SF)   0         CRV       23898
+
+
+Reaction No. 75520
+Te+2 + 2<e-1> = Te(s)
+
+Note: Wgt = 0 because Te+2 never (?) reported and E probably in error
+ No   t     I-Str            Medium              Value (Dev)    W        Tech.      Ref. #
+ 1    25         0       Inf. Dilution           E:0.40(2SF)    0         CRV       23898
+
+
+Reaction No. 75521
+2<Te(s)> + 2<H+1> + 2<e-1> = H+1(2)_Te2-2
+
+Note: Wgt = 0; value probably wrong; it gives formation of H+1(2)_Te2-2 at all
+conditions of pH and pe
+ No   t    I-Str           Medium                Value (Dev)    W        Tech.      Ref. #
+ 1    30     0          Inf. Dilution          E:-0.365(3SF)    0         CRV       23898
+ 2    30     0          Inf. Dilution          E:-0.365(3SF)    0         MPL       30896
+
+
+Reaction No. 75522
+Te(s) + 2<H+1> + 2<e-1> = H+1(2)_Te-2_(g)
+ No   t    I-Str            Medium               Value (Dev)    W        Tech.      Ref. #
+ 1    25     0          Inf. Dilution           E:-0.717(3SF)   0         CRV       23898
+Note (1): gas?
+ 2    25     0          Inf. Dilution           E:-0.717(3SF)   3         CRV       23898
+
+
+Reaction No. 75523
+Te2-2 + 4<H+1> + 2<e-1> = 2<H+1(2)_Te-2>
+ No   t    I-Str           Medium                Value (Dev)        W    Tech.      Ref. #
+ 1    25     0          Inf. Dilution          lgK:-20.0(3SF)       1     ELC
+ 2    25     0          Inf. Dilution           E:-0.638(3SF)       0     CRV       23898
+
+
+Reaction No. 75524
+Te2-2 + 2<H+1> + 2<e-1> = 2<H+1_Te-2>
+ No   t    I-Str           Medium                Value (Dev)        W    Tech.      Ref. #
+
+
+
+                                         – Page 52 of 70 –
+JESS Thermodynamic Database v8.9                                         Tellurium
+
+
+ 1    25     0        Inf. Dilution            lgK:-25.3(3SF)        1     ELC
+ 2    25     0        Inf. Dilution             E:-0.795(3SF)        0     CRV        23898
+
+
+Reaction No. 75525
+Te2-2 + 4<H+1> + 2<e-1> = 2<H+1(2)_Te-2_(g)>
+ No   t    I-Str            Medium               Value (Dev)         W    Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:-20.1(3SF)        1     ELC
+ 2    25     0        Inf. Dilution             E:-0.595(3SF)        0     CRV        23898
+
+
+Reaction No. 75526
+Te2-2 + 2<e-1> = 2<Te-2>
+ No   t    I-Str            Medium               Value (Dev)         W    Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:-48.8(3SF)        1     ELC
+ 2    25     0        Inf. Dilution             E:-1.445(4SF)        0     CRV        23898
+
+
+Reaction No. 79459
+0.5<H2(g)> + Te(s) - 3<e-1> = Te+2_H+1
+ No   t    I-Str            Medium               Value (Dev)         W     Tech.     Ref. #
+ 1    25     0        Inf. Dilution            dG:108.8(4SF)kJ       0      CRV       7421
+
+
+Reaction No. 80347
+Te4O4+16_OH-1(20) = 4<TeO+4_OH-1(5)>
+ No    t    I-Str           Medium            Value (Dev)        W       Tech.       Ref. #
+  1   23         2         Li+1 salt         lgK:3.74(3SF)       3        MGL         140
+
+
+Reaction No. 80349
+Te+4 + SO4-2 = Te+4_SO4-2
+ No    t    I-Str            Medium             Value (Dev)      W       Tech.       Ref. #
+ 1    22         3         H(ClO4,SO4)         lgK:2.8(2SF)      4        MIX        30598
+
+
+Reaction No. 80350
+Te+4_SO4-2 + SO4-2 = Te+4_SO4-2(2)
+ No    t    I-Str            Medium             Value (Dev)      W       Tech.       Ref. #
+ 1    22         3         H(ClO4,SO4)         lgK:2.6(2SF)      4        MIX        30598
+
+
+Reaction No. 80351
+Te+4_SO4-2(2) + SO4-2 = Te+4_SO4-2(3)
+ No    t    I-Str            Medium             Value (Dev)      W       Tech.       Ref. #
+
+
+
+
+                                         – Page 53 of 70 –
+JESS Thermodynamic Database v8.9                                       Tellurium
+
+
+ 1    22         3      H(ClO4,SO4)           lgK:2.3(2SF)     4        MIX        30598
+
+
+Reaction No. 80352
+Te+4 + NO3-1 = Te+4_NO3-1
+ No   t    I-Str            Medium              Value (Dev)        W    Tech.      Ref. #
+ 1    20     3               HNO3             lgK:-0.28(2SF)       3     MIX       30600
+ 2    25     0        Inf. Dilution            lgK:-0.3(1SF)       1     EES
+
+
+Reaction No. 80353
+Te+4_NO3-1 + NO3-1 = Te+4_NO3-1(2)
+ No   t    I-Str            Medium              Value (Dev)        W    Tech.      Ref. #
+ 1    20     3               HNO3             lgK:-0.46(2SF)       3     MIX       30600
+ 2    25     0        Inf. Dilution            lgK:-0.5(1SF)       1     EES
+
+
+Reaction No. 80354
+Te+4_NO3-1(2) + NO3-1 = Te+4_NO3-1(3)
+ No   t    I-Str            Medium              Value (Dev)        W    Tech.      Ref. #
+ 1    20     3               HNO3             lgK:-0.54(2SF)       3     MIX       30600
+ 2    25     0        Inf. Dilution            lgK:-0.6(1SF)       1     EES
+
+
+Reaction No. 80355
+Te+4_NO3-1(3) + NO3-1 = Te+4_NO3-1(4)
+ No   t    I-Str            Medium              Value (Dev)        W    Tech.      Ref. #
+ 1    20     3               HNO3             lgK:-0.57(2SF)       3     MIX       30600
+ 2    25     0        Inf. Dilution            lgK:-0.6(1SF)       1     EES
+
+
+Reaction No. 80356
+Te+4_NO3-1(4) + NO3-1 = Te+4_NO3-1(5)
+ No   t    I-Str            Medium              Value (Dev)        W    Tech.      Ref. #
+ 1    20     3               HNO3             lgK:-0.64(2SF)       3     MIX       30600
+ 2    25     0        Inf. Dilution            lgK:-0.7(1SF)       1     EES
+
+
+Reaction No. 80357
+Te+4_NO3-1(5) + NO3-1 = Te+4_NO3-1(6)
+ No   t    I-Str            Medium              Value (Dev)        W    Tech.      Ref. #
+ 1    20     3               HNO3             lgK:-0.82(2SF)       3     MIX       30600
+ 2    25     0        Inf. Dilution            lgK:-0.8(1SF)       1     EES
+
+
+
+
+                                        – Page 54 of 70 –
+JESS Thermodynamic Database v8.9                                         Tellurium
+
+
+Reaction No. 80422
+Te+4_I-1(6) = Te+4 + 6<I-1>
+ No   t    I-Str          Medium                 Value (Dev)     W        Tech.      Ref. #
+ 1    23     1                HCl              lgK:-7.35(3SF)    4         MSP       30888
+ 2    25     0        Inf. Dilution             lgK:-7.4(2SF)    1         EES
+
+
+Reaction No. 80423
+Te+4_H+1(2)_Br-1(6) = Te+4_H+1(2)_Br-1(4) + 2<Br-1>
+ No   t    I-Str              Medium             Value (Dev)     W        Tech.      Ref. #
+ 1    23     4                HClO4              lgK:1.6(2SF)    4         MSL       30941
+ 2    23     6                HClO4              lgK:3.6(2SF)    4         MSL       30941
+ 3    25     0         Inf. Dilution             lgK:2.0(2SF)    1         EES
+
+
+Reaction No. 80424
+Te+4_H+1(2)_Cl-1(6) = Te+4_H+1(2)_Cl-1(4) + 2<Cl-1>
+ No   t    I-Str          Medium                 Value (Dev)     W        Tech.      Ref. #
+ 1    23     6                HClO4             lgK:0.26(2SF)    4         MSP       30941
+ 2    23     8                HClO4              lgK:1.5(2SF)    4         MSP       30941
+ 3    25     0         Inf. Dilution             lgK:1.(1SF)     1         EES
+
+
+Reaction No. 80425
+Te+4_Cl-1(6) + H2O = Te+4_Cl-1(4)_OH-1 + H+1_Cl-1 + Cl-1
+ No   t     I-Str             Medium              Value (Dev)    W        Tech.      Ref. #
+ 1    25      0         Inf. Dilution            lgK:4.3(2SF)    1         EES
+ 2    25    3:10                HCl              lgK:4.34(3SF)   5         MRM       30584
+ 3    25   6.5:10               HCl              lgK:4.58(3SF)   5         MSP       30584
+ 4    25      7                 HCl              lgK:4.28(3SF)   5         MMR       30584
+
+
+Reaction No. 80426
+Te+4_Cl-1(4)_OH-1 + H2O = Te+4_Cl-1(2)_OH-1(2) + H+1_Cl-1 + Cl-1
+ No   t     I-Str              Medium             Value (Dev)        W     Tech.     Ref. #
+ 1    25         0       Inf. Dilution            lgK:2.6(2SF)       1      EES
+ 2    25   2.5:4.5              HCl              lgK:2.66(3SF)       5      MSP      30584
+ 3    25     3:10               HCl              lgK:2.64(3SF)       5      MRM      30584
+
+
+Reaction No. 80427
+TeO+2_Cl-1(4) = TeO+2_Cl-1(3) + Cl-1
+
+
+
+
+                                         – Page 55 of 70 –
+JESS Thermodynamic Database v8.9                                         Tellurium
+
+
+ No   t    I-Str             Medium               Value (Dev)        W    Tech.      Ref. #
+ 1    18    0.5              NaClO4              lgK:0.57(2SF)       4     MSL        20406
+Note (1): Same ref as 30930 (original in Russian)
+ 2    25     0            Inf. Dilution           lgK:0.6(1SF)       1     EES
+
+
+Reaction No. 80428
+TeO+2_Cl-1(3) = TeO+2_Cl-1(2) + Cl-1
+ No   t    I-Str             Medium               Value (Dev)        W    Tech.      Ref. #
+ 1    18    0.5              NaClO4              lgK:0.48(2SF)       4     MSL        20406
+Note (1): Same ref as 30930 (original in Russian)
+ 2    25     0            Inf. Dilution           lgK:0.5(1SF)       1     EES
+
+
+Reaction No. 80429
+TeO+2_Cl-1(2) + H2O = TeO+2_Cl-1_OH-1 + Cl-1 + H+1
+ No   t    I-Str             Medium               Value (Dev)        W    Tech.      Ref. #
+ 1    18    0.5              NaClO4              lgK:-0.3(1SF)       4     MSL        20406
+Note (1): Same ref as 30930 (original in Russian)
+ 2    25     0            Inf. Dilution          lgK:-0.3(1SF)       1     EES
+
+
+Reaction No. 80430
+TeO+2_Cl-1_OH-1 + H2O = TeO+2_OH-1(2) + H+1 + Cl-1
+ No   t    I-Str             Medium               Value (Dev)        W    Tech.      Ref. #
+ 1    18    0.5              NaClO4              lgK:-2.2(2SF)       4     MSL        20406
+Note (1): Same ref as 30930 (original in Russian)
+ 2    25     0            Inf. Dilution          lgK:-2.2(2SF)       1     EES
+
+
+Reaction No. 80431
+Te+4 + OH-1 = Te+4_OH-1
+ No    t     I-Str         Medium            Value (Dev)         W       Tech.       Ref. #
+  1   28      0.1           KNO3           lgK:11.96(4SF)        4       MSP         30596
+  2   28      0.3           KNO3           lgK:12.09(4SF)        3       MSP         30596
+  3   28      0.5           KNO3           lgK:12.23(4SF)        3       MSP         30596
+  4   28      0.7           KNO3           lgK:12.31(4SF)        3       MSP         30596
+  5   28         1          KNO3           lgK:12.48(4SF)        3       MSP         30596
+
+
+Reaction No. 80432
+Te+4 + 2<OH-1> = Te+4_OH-1(2)
+
+
+
+
+                                          – Page 56 of 70 –
+JESS Thermodynamic Database v8.9                                          Tellurium
+
+
+ No       t     I-Str        Medium          Value (Dev)          W       Tech.       Ref. #
+  1    23           2.5      HClO4         lgK:28.8(3SF)          4       EMU         30944
+Note (1): The method is comparative electrodialysis
+  2    28           0.1       KNO3         lgK:23.53(4SF)         4       MSP         30596
+  3    28           0.3       KNO3         lgK:23.80(4SF)         3       MSP         30596
+  4    28           0.5       KNO3         lgK:24.05(4SF)         3       MSP         30596
+  5    28           0.7       KNO3         lgK:24.22(4SF)         3       MSP         30596
+  6    28            1        KNO3         lgK:24.54(4SF)         3       MSP         30596
+
+
+Reaction No. 80433
+Te+4 + 3<OH-1> = H+1(3)_TeO3-2
+ No       t     I-Str        Medium          Value (Dev)          W       Tech.       Ref. #
+  1    28           0.1       KNO3         lgK:34.83(4SF)         4       MSP         30596
+Note (1): Original reaction: Te+4 + 3<OH-1> = Te+4_OH-1(3)
+
+
+Reaction No. 80434
+Te+4 + 4<OH-1> = H+1(2)_TeO3-2 + H2O
+ No       t     I-Str        Medium          Value (Dev)          W       Tech.       Ref. #
+  1    28           0.1       KNO3         lgK:45.85(4SF)         4       MSP         30596
+Note (1): Original reaction: Te+4 + 4<OH-1> = Te+4_OH-1(4)
+  2    28           0.3       KNO3         lgK:46.34(4SF)         3       MSP         30596
+  3    28           0.5       KNO3         lgK:46.73(4SF)         3       MSP         30596
+  4    28           0.7       KNO3         lgK:47.19(4SF)         3       MSP         30596
+  5    28            1        KNO3         lgK:47.95(4SF)         3       MSP         30596
+
+
+Reaction No. 80436
+2<Te+6_OH-1(6)> = Te2O+10_OH-1(11) + H+1
+ No   t       I-Str          Medium              Value (Dev)          W     Tech.      Ref. #
+ 1    23        0         Inf. Dilution         lgK:-6.84(3SF)        4      MQH       31009
+ 2    23        2           Li+1 salt           lgK:-6.10(3SF)        3      MGL        140
+ 3    25        0         Inf. Dilution         lgK:-6.84(3SF)        4      MQH        140
+ 4    25        0         Inf. Dilution        lgK:-6.838(4SF)        2      MGL       31011
+ 5    25      0.315          NaClO4            lgK:-6.796(4SF)        2      MGL       31011
+ 6    25      0.32           NaClO4             lgK:-6.80(3SF)        4      MQH        140
+ 7    25        1              KCl            lgK:-6.31(0.02SD)       5      MGL       30595
+ 8    25        1             NaCl            lgK:-6.24(0.03SD)       4      MGL       30590
+ 9    25        1             NaCl            lgK:-6.25(0.03SD)       4      MGL       30604
+
+
+
+
+                                          – Page 57 of 70 –
+JESS Thermodynamic Database v8.9                                        Tellurium
+
+
+ 10   25     1         NaClO4/m             lgK:-6.222(4SF)         5      MGL      10047
+ 11   25     1          Unknown              lgK:-6.31(3SF)         3      CRV       552
+ 12   25     1          Unknown             lgK:-6.570(4SF)         3      MQH      30894
+Note (12): It's 1 M telluric acid
+ 13   25   1.725        NaClO4              lgK:-6.409(4SF)         2      MGL      31011
+ 14   25   1.73         NaClO4               lgK:-6.41(3SF)         4      MQH       140
+ 15   35     1            KCl              lgK:-6.32(0.03SD)        4      MGL      30595
+ 16   40     1            KCl              lgK:-6.09(0.03SD)        4      MGL      30595
+ 17   45     1            KCl              lgK:-6.09(0.03SD)        4      MGL      30595
+ 18   25     1            KCl                  dH:6.2(0.3SD)        4      MCL      30594
+ 19   25     1            KCl                   dH:5.(2.SD)         4      EVH      30595
+ 20   25     1          Unknown                 dH:6.2(2SF)         3      CRV       552
+
+
+Reaction No. 80437
+TeO2(s) + H2O + H+1 = Te+4_OH-1(3)
+ No   t    I-Str          Medium                Value (Dev)     W        Tech.      Ref. #
+ 1    18    0.5           NaClO4               lgK:-1.5(2SF)    0         MSL       30930
+ 2    18     1             HCl                 lgK:-2.2(2SF)    4         MSL       30892
+Note (2): Ionic strength: various HCl concs.
+ 3    18     1            HClO4                lgK:-2.0(2SF)    4         MSL       30571
+Note (3): Ionic strength: various HClO4 concns
+ 4    25     0        Inf. Dilution            lgK:-2.8(2SF)    1         ELC
+ 5    25     0        Inf. Dilution            lgK:-2.20(3SF)   0         EOD        7065
+ 6    25     1             HCl                 lgK:-2.0(2SF)    4         MSL       30574
+Note (6): Ionic strength: various HCl concns.
+
+
+Reaction No. 80439
+Te+4_OH-1(3) + 3<H+1> + 4<e-1> = Te(s) + 3<H2O>
+ No   t    I-Str          Medium                Value (Dev)     W        Tech.      Ref. #
+ 1    25     0         Inf. Dilution            E:0.559(3SF)    0         CRV       22551
+ 2    25     0         Inf. Dilution            E:0.551(3SF)    0         CRV       23898
+ 3    25     1              HCl                E:0.5590(4SF)    4         MHY       30571
+
+
+Reaction No. 80440
+2<Te+4_OH-1(3)> + 6<H+1> + 10<e-1> = Te2-2 + 6<H2O>
+ No   t    I-Str          Medium                Value (Dev)     W        Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:50.2(3SF)    1         ELC
+
+
+
+
+                                       – Page 58 of 70 –
+JESS Thermodynamic Database v8.9                                         Tellurium
+
+
+ 2    25         0     Inf. Dilution             E:0.273(3SF)    0            CRV     23898
+
+
+Reaction No. 80441
+Te+4_OH-1(3) + 5<H+1> + 6<e-1> = H+1(2)_Te-2 + 3<H2O>
+ No    t    I-Str         Medium                 Value (Dev)     W           Tech.    Ref. #
+ 1    25         0     Inf. Dilution            lgK:15.2(3SF)    1            ELC
+ 2    25         0     Inf. Dilution             E:0.121(3SF)    0            CRV     23898
+
+
+Reaction No. 80442
+2<Te+6_OH-1(6)> = Te2O2+8_OH-1(10) + 2<H+1>
+ No    t    I-Str     Medium               Value (Dev)           W           Tech.    Ref. #
+ 1    25         1     NaCl            lgK:-13.28(0.04SD)        5           MGL      30590
+ 2    25         1     NaCl            lgK:-13.23(0.03SD)        5           MGL      30604
+ 3    35         1      KCl            lgK:-13.04(0.03SD)        5           MGL      30595
+ 4    40         1      KCl            lgK:-12.93(0.03SD)        5           MGL      30595
+ 5    25         1      KCl               dH:13.1(0.3SD)         5           MCL      30594
+ 6    25         1      KCl                dH:14.(1.SD)          5           EVH      30595
+
+
+Reaction No. 80443
+Te+6_OH-1(6) = TeO2+2_OH-1(4) + 2<H+1>
+ No   t    I-Str        Medium                  Value (Dev)              W    Tech.   Ref. #
+ 1    25     0       Inf. Dilution             lgK:-19.0(3SF)            1     EES
+ 2    25     1            KCl               lgK:-17.74(0.03SD)           5     MGL     30594
+ 3    35     1            KCl               lgK:-17.49(0.03SD)           5     MGL     30595
+ 4    40     1            KCl               lgK:-17.38(0.03SD)           5     MGL     30595
+ 5    45     1            KCl                 lgK:-17.31(4SF)            5     MGL     30595
+ 6    25     1            KCl                   dH:9.(1.SD)              5     EVH     30595
+
+
+Reaction No. 80444
+H+1(2)_TeO3-2 + H2O = Te+4_OH-1(3) + OH-1
+ No   t    I-Str          Medium                 Value (Dev)         W       Tech.    Ref. #
+ 1    23    0.5           NaClO4               lgK:-12.2(3SF)        4        EMU     30944
+Note (1): The method is comparative electrodialysis. Original: hydroxide notation
+ 2    25     0        Inf. Dilution            lgK:-12.2(3SF)        1        ESC     30456
+ 3    25     1                HCl              lgK:-10.5(3SF)        0        MSL     30574
+
+
+Reaction No. 80445
+
+
+
+
+                                         – Page 59 of 70 –
+JESS Thermodynamic Database v8.9                                        Tellurium
+
+
+TeO+2_Cl-1_OH-1 + H2O = H+1(2)_TeO3-2 + H+1 + Cl-1
+ No       t     I-Str        Medium         Value (Dev)     W           Tech.       Ref. #
+  1    18           0.5      NaClO4        lgK:-2.2(2SF)    4           MSL         20406
+Note (1): Same ref as 30930 (original in Russian)
+
+
+Reaction No. 80446
+Te+4 + 3<OH-1> = Te+4_OH-1(3)
+ No       t    I-Str        Medium          Value (Dev)     W           Tech.       Ref. #
+  1    28       0.1          KNO3       lgK:34.83(4SF)      4            MSP        30596
+  2    28       0.3          KNO3       lgK:35.21(4SF)      3            MSP        30596
+  3    28       0.5          KNO3       lgK:35.54(4SF)      3            MSP        30596
+  4    28       0.7          KNO3       lgK:35.82(4SF)      3            MSP        30596
+  5    28           1        KNO3       lgK:36.37(4SF)      3            MSP        30596
+
+
+Reaction No. 80447
+Te+4_OH-1(2) + OH-1 = Te+4_OH-1(3)
+ No       t     I-Str        Medium         Value (Dev)     W           Tech.       Ref. #
+  1    23           1        HClO4         lgK:14.0(3SF)    4           EMU         30944
+Note (1): The method is comparative electrodialysis
+
+
+Reaction No. 80448
+Te2O+10_OH-1(11) = Te2O2+8_OH-1(10) + H+1
+ No   t       I-Str        Medium            Value (Dev)            W     Tech.     Ref. #
+ 1    25        1         NaClO4/m    lgK:-7.050(0.020SD)           5      MGL       10047
+ 2    25        1         Unknown          lgK:-7.14(3SF)           3      CRV        552
+ 3    25        1         Unknown           dH:-6.9(2SF)            2      CRV        552
+
+
+Reaction No. 80449
+2<Te+6_OH-1(6)> = Te2O3+6_OH-1(9) + 3<H+1>
+ No   t       I-Str       Medium           Value (Dev)          W        Tech.      Ref. #
+ 1    35        1           KCl       lgK:-22.27(0.03SD)        5         MGL        30595
+ 2    40        1           KCl       lgK:-22.11(0.03SD)        5         MGL        30595
+ 3    45        1           KCl       lgK:-21.86(0.03SD)        5         MGL        30595
+ 4    25        1           KCl            dH:24.(1.SD)         5         EVH        30595
+
+
+Reaction No. 80871
+H+1_TeO4-2 + 2<e-1> + H+1 = TeO3-2 + H2O
+
+
+
+
+                                       – Page 60 of 70 –
+JESS Thermodynamic Database v8.9                                         Tellurium
+
+
+ No   t    I-Str          Medium                 Value (Dev)     W        Tech.      Ref. #
+ 1    25     0         Inf. Dilution            lgK:18.7(3SF)    1         ELC
+ 2    25     0         Inf. Dilution             E:0.584(3SF)    0         EOD       31758
+
+
+Reaction No. 80872
+H+1_TeO4-2 + 2<e-1> + 3<H+1> = TeO2(s) + 2<H2O>
+ No   t    I-Str          Medium                 Value (Dev)     W        Tech.      Ref. #
+ 1    25     0         Inf. Dilution            lgK:39.5(3SF)    1         ELC
+ 2    25     0         Inf. Dilution             E:1.202(4SF)    0         EOD       31758
+
+
+Reaction No. 80873
+H+1_TeO4-2 + 2<e-1> + 3<H+1> = TeO2.H2O(s) + H2O
+ No    t    I-Str          Medium                Value (Dev)     W        Tech.      Ref. #
+ 1    25         0     Inf. Dilution             E:1.036(4SF)    2         EOD       31758
+
+
+Reaction No. 80874
+H+1(2)_TeO4-2 + 2<e-1> + 2<H+1> = TeO2(s) + 2<H2O>
+ No    t    I-Str          Medium                Value (Dev)     W        Tech.      Ref. #
+ 1    25         0     Inf. Dilution             E:1.020(4SF)    2         EOD       31758
+Note (1): Assumes TeO2 as shown should be TeO2(s)
+
+
+Reaction No. 81179
+2<O2(g)> + Pb(s) + Te(s) = Pb+2_TeO4-2_(s)
+ No   t    I-Str          Medium                 Value (Dev)     W        Tech.      Ref. #
+ 1    25     0         Inf. Dilution            dH:-180.(3SF)    4         CRV       12011
+
+
+Reaction No. 81415
+Cu+1(2)_Te-2_(s) = 2<Cu+2> + Te-2 + 2<e-1>
+ No   t    I-Str         Medium                  Value (Dev)         W     Tech.     Ref. #
+ 1    25     0        Inf. Dilution            lgK:-69.7(3SF)        1      ELC
+ 2    25     0        Inf. Dilution            lgK:-67.74(4SF)       0      CRV      32224
+Note (2): source indicates uncertainty
+
+
+Reaction No. 81597
+Sb+3(2)_Te-2(3)_(s) + 2<H2O> = 2<SbO+1> + 3<Te-2> + 4<H+1>
+ No   t    I-Str         Medium                  Value (Dev)         W     Tech.     Ref. #
+ 1    25     0       Inf. Dilution            lgK:-147.2(4SF)        1      ELC
+
+
+
+
+                                         – Page 61 of 70 –
+JESS Thermodynamic Database v8.9                                               Tellurium
+
+
+    2   25        0         Inf. Dilution           lgK:-142.13(5SF)       0      CRV      32224
+
+
+Reaction No. 81617
+TeO2(s) + 4<H+1> + 6<e-1> = Te-2 + 2<H2O>
+ No      t       I-Str           Medium                Value (Dev)     W        Tech.      Ref. #
+    1   25         0         Inf. Dilution           lgK:-1.41(3SF)    4         CRV       32224
+
+
+Reaction No. 81618
+Te+4_OH-1(3) + 3<H+1> + 6<e-1> = Te-2 + 3<H2O>
+ No      t       I-Str           Medium                Value (Dev)     W        Tech.      Ref. #
+    1   25         0         Inf. Dilution            lgK:0.57(2SF)    4         CRV       32224
+
+
+Reaction No. 81619
+Te+2_Se-2_(s) + 4<e-1> = Te-2 + Se-2
+ No      t      I-Str           Medium                 Value (Dev)     W         Tech.     Ref. #
+    1   25        0         Inf. Dilution            lgK:-40.68(4SF)   4          CRV      32224
+
+
+
+
+                                          Data Assessment
+
+
+Weight                          Assessment
+9            highest accuracy
+8            multi-determined; excellent dependability
+7            trustworthy; outstanding single determination
+6            better than average reliability
+5            average single determination
+4            some doubt
+3            poorly known
+2            guess to achieve consistency (or just as bad)
+1            no information but consistent
+0            problematic/inconsistent
+
+
+
+
+                                             Techniques
+
+
+
+
+                                               – Page 62 of 70 –
+JESS Thermodynamic Database v8.9                               Tellurium
+
+
+Abbrev                     Method
+CRV      Critical review
+EES      Personal estimate
+EFE      Free Energy relations
+ELC      Linear Combination of Reactions
+EMU      Method unknown
+ENS      Not specified
+EOD      Calculated from data of others
+EOR      Other Reaction Constants
+ESC      Standard conditions anchor
+ETM      Temperature corrections
+EVH      Van't Hoff Equation (dH = constant)
+EVK      Variation of lgK with T
+MAG      Silver electrode e.m.f.
+MCL      Calorimetry
+MCN      Conductivity
+MCO      Colorimetry (often for measuring pH)
+MCV      Cyclic voltammetry
+MDG      Combination of Thermodynamic Data
+MDS      Distribution between two phases
+MEF      Electromotoric force, not specified
+MGL      Glass electrode
+MHY      Emf with hydrogen electrode
+MIR      Infrared spectra
+MIX      Ion exchange
+MKN      Rate of reaction
+MMR      Nuclear magnetic resonance
+MPL      Polarography
+MPS      Potentiometry and Spectrophotometry
+MPT      Potentiometry
+MQH      Quinhydrone electrode
+MRM      Raman spectra
+MSE      Solvent Extraction
+MSL      Solubility
+MSP      Spectroscopy
+MTD      Temperature difference
+
+
+
+
+                                           – Page 63 of 70 –
+JESS Thermodynamic Database v8.9                                  Tellurium
+
+
+
+
+                                    References
+
+
+Reference No.: 140(64SiM)
+Stability Constants of Metal-ion Complexes SP17, 1964 Sillen LG; Martell AE; The
+Chemical Soc.,London
+
+Reference No.: 552(95SMM)
+NIST Critical Stability Constants of Metal Complexes Database, 1995 Smith RM; Martell
+AE; Motekaitis RJ; Version 2.0; National Institute of Standards and Technology,
+Gaithersburg, USA
+
+Reference No.: 600(52Lat)
+The Oxidation States of the Elements, 2nd Edn, 1952 Latimer WM; and their Potentials in
+Aqueous Solutions; Prentice-Hall Inc., New York, USA
+
+Reference No.: 802(90Wea)
+CRC Handbook of Chemistry and Physics, 70th Edn., 1990 Weast RC; A Ready-Reference Book
+of Chemical and Physical Data; CRC Press, Cleveland, Ohio
+
+Reference No.: 931(71SiM)
+Stability Constants of Metal-ion Complexes SP25, 1971 Sillen LG; Martell AE; Supplement
+No 1 to Special Publication No 25; Chemical Society, London
+
+Reference No.: 3006(85BPJ)
+Standard Potentials in Aqueous Solution, 1985 Bard AJ; Parsons R; Jordan J; Monographs
+in Electroanalytical Chemistry and Electrochemistry; Marcel Dekker Inc.,New York and
+Basel
+
+Reference No.: 4145(65TaS)
+Zh. Neorg. Khim., 1965, 10, 2684 - 2686; Tarayan VM; Sarkisyan AA; Thiourea Complexes
+with Tellurium
+
+Reference No.: 4501(82RAN)
+Electrochim. Acta, 1982, 27, 985 - 989; Rao TN; Aravamudan G; Narayan R; Stability
+Constants of Mercaptocarboxylic Acid Complexes of Divalent Tellurium and Selenium
+
+Reference No.: 4593(76ChC)
+Anal. Chem., 1976, 48, 267 - 271; Chao EE; Cheng KL; Stepwise Titration of Some Anion
+Mixtures and Determination of Ksp of Silver Precipitates with Silver Ion Selective
+Electrode
+
+Reference No.: 4605(76Mas)
+J. Inorg. Nucl. Chem., 1976, 38, 545 - 548; Masson MR; Some Equilibrium Constants of
+Tellurous Acid
+
+Reference No.: 4695(75BuS)
+J. Chem. Soc., Perkin Trans. 2, 1975,, 1110 - 1112; Bukka K; Satchell RS; Quantitative
+Aspects of Lewis Acidity. Part XIV. Comparison of the Acidity of Tin Tetrachloride,
+Tellurium Tetrachloride, and Zirconium Tetrabromide towards Substituted Anilines in
+Dioxan
+
+
+
+
+                                      – Page 64 of 70 –
+JESS Thermodynamic Database v8.9                                  Tellurium
+
+
+Reference No.: 4991(68DyK)
+Geokhimiya, 1968, (11), 1358 - 1375; D'yachkova IB; Khodakovskiy IL; Thermodynamic
+Equilibria in the Systems S-H2O, Se-H2O, and Te-H2O in the 25-300C Temperature Range
+and their Geochemical Interpretations
+
+Reference No.: 5174(64BUP)
+Russ. J. Inorg. Chem., 1964, 9, 292 - 294; Buketov EA; Ugorets MZ; Pashinkin AS;
+Solubility Products and Entropies of Sulphides, Selenides, and Tellurides
+
+Reference No.: 5178(73MKL)
+Russ. J. Phys. Chem., 1973, 47, 1054 - 1055; Mironov VE; Komarova AV; Lyubomirova KM;
+Kolobov NP; Solovev YV; Merkuleva LE; Thermodynamics of Outer-sphere Complexes. XIII.
+The Compositions and Stabilities of Certain Outer-sphere Acidopentamminecobalt(III)
+Complexes
+
+Reference No.: 5231(73NSP)
+Russ. J. Inorg. Chem., 1973, 18, 609 - 611; Nazarenko VA; Shitareva GG; Poluektova EN;
+The Ionisation Constants of Tellurous and Selenous Acids
+
+Reference No.: 5398(82Hog)
+IUPAC Chemical Data Series No. 21, 1982 Hogfeldt E; Stability Constants of Metal-ion
+Complexes, 2nd Suppl., Part A, Inorganic Ligands; Pergamon, Oxford
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+Reference No.: 6422(95BaP)
+Thermochemical Data of Pure Substances, 3rd Edn., 1995 Barin I; Platzki G; Weinheim,
+Germany
+
+Reference No.: 7065(95Mcp)
+Geochim. Cosmochim. Acta, 1995, 59, 851 - 866; McPhail DC; Thermodynamic Properties of
+Aqueous Tellurium Species between 25 and 350 C
+
+Reference No.: 7276(88CoW)
+Advanced Inorganic Chemistry, 5th Edn., 1988 Cotton FA; Wilkinson G; John Wiley & Sons
+Inc., N.Y., U.S.A
+
+Reference No.: 7382(86Wea)
+CRC Handbook of Chemistry and Physics, 67th Edn., 1986 Weast RC; A Ready-Reference Book
+of Chemical and Physical Data; CRC Press Inc., Boca Raton, Florida, U.S.A.
+
+Reference No.: 7421(97Mar)
+Ion Properties, 1997 Marcus Y; Marcel Dekker Inc., New York, U.S.A.
+
+Reference No.: 7802(67ShN)
+Russ. J. Inorg. Chem., 1967, 12, 527 - 530; Shitareva GG; Nazarenko VA; Bromo-complexes
+of Tellurium(IV)
+
+Reference No.: 7982(48LiN)
+J. Am. Chem. Soc., 1948, 70, 4115 - 4120; Lingane JJ; Niedrach LW; Polarography of
+Selenium and Tellurium. I. The -2 States
+
+Reference No.: 8190(62EEH)
+J. Am. Chem. Soc., 1962, 84, 1820 - 1824; Ellison HR; Edwards JO; Healy EA; The Polyol-
+Tellurate Complex Formation Reaction. I. Thermodynamics of Telluric Acid Ionization and
+of Complex Formation
+
+
+
+
+                                      – Page 65 of 70 –
+JESS Thermodynamic Database v8.9                                  Tellurium
+
+
+Reference No.: 8453(59EFW)
+J. Am. Chem. Soc., 1959, 81, 1295 - 1301; Earley JE; Fortnum DH; Wojcicki A; Edwards
+JO; Constitution of Aqueous Oxyanions: Perrhenate, Tellurate and Silicate Ions
+
+Reference No.: 10047(88MSG)
+Monatsh. Chem., 1988, 119, 1369 - 1373; Marhold H; Sagmueller W; Gamsjager H; The
+Volume Change for the Dissociation of Telluric Acid
+
+Reference No.: 10214(75HeO)
+Chem. Rev., 1975, 75, 585 - 602; Hepler LG; Olofsson G; Mercury. Thermodynamic
+Properties, Chemical Equilibriums, and Standard Potentials
+
+Reference No.: 11806(92CDJ)
+J. Phys. Chem. Ref. Data, 1992, 21, 941 - 1004; Clever HL; Derrick ME; Johnson SA; The
+Solubility of Some Sparingly Soluble Salts of Zinc and Cadmium in Water and in Aqueous
+Electrolyte Solutions
+
+Reference No.: 12011(68WEP)
+U.S. Nat. Bur. Standards Tech. Note 270-3, 1968 Wagman DD; Evans WH; Parker VB; Halow
+I; Baily SM; Schuman RH; Selected Values of Chemical Thermodynamics Properties
+
+Reference No.: 14620(97GrE)
+Chemistry of the Elements, 2nd Edn., 1997 Greenwood NN; Earnshaw A; Butterworth-
+Heinemann, Oxford, U.K.
+
+Reference No.: 14923(05ONO)
+OECD Chemical Thermodynamics Series, Volume 7, 2005 Olin A; Nolang B; Ohman L-O;
+Osadchii EG; Rosen E; Chemical Thermodynamics of Selenium
+
+Reference No.: 14954(31BrR)
+J. Chem. Soc., 1931,, 458 - 473; Britton HTS; Robinson RA; The Use of Antimony-
+Antimonious Oxide Electrode in the Determination of the Concentration of Hydrogen Ions
+and in Potentiometric Titrations. The Prideaux-Ward Universal Buffer Mixture
+
+Reference No.: 16952(32BrR)
+Trans. Faraday Soc., 1932, 28, 531 - 545; Britton HTS; Robinson RA; The Use of the
+Glass Electrode in Titrimetric Work and Precipitation Reactions. The Application of the
+Principle of the Solubility Product to Basic Precipitates
+
+Reference No.: 20406(68NaK)
+Zh. Neorg. Khim., 1968, 13, 1817 - 1822; Nabivanets BI; Kapantsyan EE; State of
+Tetturium(IV) in HCl and LiCl Solutions
+
+Reference No.: 20829(05BCG)
+OECD Chemical Thermodynamics Series, Volume 8, 2005 Brown PL; Curti E; Grambow B;
+Ekberg C; Chemical Thermodynamics of Zirconium; Elsevier Science
+
+Reference No.: 22519(05Lid)
+CRC Handbook of Chemistry and Physics, 86th Edn., 2005 Lide DR; A Ready-Reference Book
+of Chemical and Physical Data; Taylor & Francis, Boca Raton, USA
+
+Reference No.: 22551(06Inz)
+Encyclopedia of Electrochemistry, Vol. 7a, 2006, 17 - 75; Inzelt G; Standard, Formal
+and Other Characteristic Potentials of Selected Electrode Reactions
+
+Reference No.: 23270(07Mye)
+J. Solution Chem., 2007, 36, 395 - 403; Myers RJ; Second Dissociation Constant of H2Te
+and the Absorption Spectra of HTe-, Te2- and Te22- in Aqueous Solution
+
+
+
+
+                                      – Page 66 of 70 –
+JESS Thermodynamic Database v8.9                                  Tellurium
+
+
+Reference No.: 23898(10Bou)
+Electrochemistry of Metal Chalcogenides, 2010, 57 - 75; Bouroushian M; Electrochemistry
+of the Chalcogens
+
+Reference No.: 26109(13GBE)
+Geochim. Cosmochim. Acta, 2013, 120, 298 - 325; Grundler PV; Brugger J; Etschmann BE;
+Helm L; Liu W; Spry PG; Tian Y-W; Testemale D; Pring A; Speciation of Aqueous
+Tellurium(IV) in Hydrothermal Solutions and Vapors, and the Role of Oxidized Tellurium
+Species in Te Transport and Gold Deposition
+
+Reference No.: 27292(13LBM)
+OECD Chemical Thermodynamics Series, Volume 13a, 2013 Lemire RJ; Berner U; Musikas C;
+Palmer DA; Taylor P; Tochiyama O; Chemical Thermodynamics of Iron Part 1; OECD (NEA)
+Issy-les-Moulineaux, France
+
+Reference No.: 30456(69SoV)
+Russ. J. Inorg. Chem., 1969, 14, 61 - 64; Sochevanov VG; Volkova GA; Use of
+Polarography in the Determination of the Instability Constants of Complexonates of
+Readily Hydrolysable Elements
+
+Reference No.: 30552(74MiM)
+Inorg. Chem., 1974, 13, 2750 - 2754; Milne J; Moffett D; Qxofluoro Complex Anion
+Equilibria in Aqueous Hydrofluoric Acid. I. Tellurate(IV)
+
+Reference No.: 30571(25Sch)
+J. Am. Chem. Soc., 1925, 47, 356 - 363; Schuhmann R; The Free Energy and Heat Content
+of Tellurium Dioxide and of Amorphous and Metallic Tellurium. The Reduction Potential
+of Tellurium
+
+Reference No.: 30574(54IsA)
+J. Phys. Chem., 1954, 58, 948 - 951; Issa IM; Awad SA; The Amphoteric Properties of
+Tellurium Dioxide
+
+Reference No.: 30575(63Pan)
+J. Phys. Chem., 1963, 67, 2177 - 2180; Panson AJ; Polarography of the Ditelluride Ion
+
+Reference No.: 30576(64Pan)
+J. Phys. Chem., 1964, 68, 1721 - 1724; Panson AJ; A Study of the Telluride Ion System
+
+Reference No.: 30584(91Mil)
+Can. J. Chem., 1991, 69, 987 - 992; Milne JB; Hexachlorotellurate(IV) Hydrolysis
+Equilibria in Hydrochloric Acid. Measurement by Raman and 125Te NMR Spectroscopy and a
+Reconsideration of Earlier Spectrophotometric Results
+
+Reference No.: 30590(71KaB)
+An. Quim., 1971, 67, 1185 - 1191; Kaehler HC; Brito F; Studies on the Chemistry of
+Tellurium
+
+Reference No.: 30594(75KMA)
+An. Quim., 1975, 71, 763 - 764; Kaehler HC; Mateo S; Ascanio J; Brito F;
+Thermochemistry of Reactions in Solution II.3. Tellurates (KCl 1 M and 25 C)
+
+Reference No.: 30595(75KMB)
+An. Quim., 1975, 71, 689 - 691; Kaehler HC; Mateo S; Brito F; Studies on the Chemistry
+of Tellurium. V. Tellurates(VI) (KCl 1 M, 35, 40 and 45 C)
+
+Reference No.: 30596(77NSP)
+Russ. J. Inorg. Chem., 1977, 22, 541 - 544; Nazarenko VA; Shitareva GG; Poluektov EN;
+
+
+
+
+                                      – Page 67 of 70 –
+JESS Thermodynamic Database v8.9                                  Tellurium
+
+
+Spectrophotometric Determination of the Formation Constants of Tellurium(IV) Hydroxo-
+complexes
+
+Reference No.: 30598(80NOK)
+Russ. J. Inorg. Chem., 1980, 25, 313 - 314; Nabivanets BI; Oganesyan EN; Kapantsyan EE;
+Tellurium(IV) Sulphato-complexes in Solution
+
+Reference No.: 30600(82OKN)
+Russ. J. Inorg. Chem., 1982, 27, 1124 - 1125; Oganesyan EN; Kapantsyan EE; Nabivanets
+BI; Babayan GG; Nitrato-complexes of Tellurium(IV) in Solution
+
+Reference No.: 30604(66Bri)
+An. Real Soc. Espan. Fis. Quim., 1966, 62, 197 - 108; Brito F; Equilibrium Studies of
+Polyanions. XIII. Polymerization of Tellurates in NaCl 1 M and at 25C
+
+Reference No.: 30705(67HaE)
+Trans. Metall. Soc. AIME, 1967, 239, 513 - 520; Hager JP; Elliot JF; The Free Energies
+of Formation of CrS, Mo2S3, and WS2
+
+Reference No.: 30748(18RoJ)
+Kolloid Z., 1918, 22, 23 - 44; Rosenheim A; Jander G; On Telluric Acid and its Alkali
+Salts in their Semi-colloid State
+
+Reference No.: 30749(20Bla)
+J. Chim. Phys., 1920, 18, 28 - 45; Blanc E; Determination of the Dissociation Constants
+of Some Mineral Acids
+
+Reference No.: 30867(19Bru)
+Z. Electrochem., 1919, (21), 861 Bruner-Krakau L; Uber Selen- und Tellurwasserstof als
+Sauren
+
+Reference No.: 30869(23Kas)
+Z. Anorg. Chem., 1923, 128, 17 - 32; Kasarnowsky J; The Position of Tellurium in the
+Electromotive Series
+
+Reference No.: 30887(70BaM)
+Zh. Anal. Khim., 1970, 25, 142 - 146; Bakunina II; Murashova VI; A Spectrophotometric
+Study of the Interaction of Tellurium(IV) with Br- Ions in Strongly Acid Solutions
+
+Reference No.: 30888(66Mur)
+Zh. Anal. Khim., 1966, 21, 345 - 349; Murashova VI; A Study on the Composition and
+Stability of the Iodotellurate Complex
+
+Reference No.: 30890(57Ant)
+Suomen Kemi., 1957, B30, 201 - 203; Antikainen PJ; The Thermodynamics of the Ionization
+of Telluric Acid in Aqueous Solutions
+
+Reference No.: 30891(56Ant)
+Suomen Kemi., 1956, B29, 206 - 209; Antikainen PJ; Effect of Neutral Salts on the
+Ionization of Telluric Acid. Alkimetric Determination of Telluric Acid
+
+Reference No.: 30892(24Kas)
+Z. Phys. Chem., 1924, 109, 287 - 301; Kasarnowsky J; Telluric Acid as Base
+
+Reference No.: 30893(53Lis)
+Can. J. Chem., 1953, 31, 638 - 652; Lister MW; The Stability of Some Complexes of
+Trivalent Copper
+
+
+
+
+                                      – Page 68 of 70 –
+JESS Thermodynamic Database v8.9                                  Tellurium
+
+
+Reference No.: 30894(55Ant)
+Suomen Kemi., 1955, B28, 135 - 141; Antikainen PJ; On the Ionization and Autocomplex
+Formation of Telluric Acid
+
+Reference No.: 30896(62Awa)
+J. Phys. Chem., 1962, 66, 890 - 894; Awad SA; Poisoning Effect of Telluride Ions on
+Hydrogen Evolution and Cathodic Formation of Hydrogen Ditelluride
+
+Reference No.: 30930(68NaK)
+Russ. J. Inorg. Chem., 1968, 13, 946 - 949; Nabivanets BI; Kapantsyan EE; The
+Tellurium(IV) State in HCl and LiCl Solutions
+
+Reference No.: 30935(31BrD)
+J. Chem. Soc., 1931,, 829 - 836; Britton HTS; Dodd EN; CXVI1.-The Use of the Tungsten
+Electrode in Potentiometric Titrations and pH Measurements
+
+Reference No.: 30941(66RiM)
+Rev. Roum. Chim., 1966, 11, 1063 - 1067; Ripan R; Marc M; Determination of the
+Instability Constants of Hexachloro- and Hexabromo- Tellurides
+
+Reference No.: 30942(71BiG)
+Russ. J. Inorg. Chem., 1971, 16, 320 - 323; Biryukov VP; Ganelina ES; Acid Dissociation
+Constants of Orthotelluric Acid
+
+Reference No.: 30943(71GaB)
+Russ. J. Inorg. Chem., 1971, 16, 318 - 320; Ganelina ES; Borgoyakov VA; Acid
+Dissociation Constants of Tellurous Acid
+
+Reference No.: 30944(74NKO)
+Russ. J. Inorg. Chem., 1974, 19, 394 - 397; Nabivanets BI; Kapantsyan EE; Oganesyan EN;
+The State of Tellurium(IV) in Perchloric Acid Solutions
+
+Reference No.: 31009(57Ant)
+Suomen Kemi., 1957, B30, 22 - 23; Antikainen PJ; Notes on the Formation of Polyacids in
+Concentrated Telluric Acid Solutions
+
+Reference No.: 31011(60AnT)
+Suomen Kemi., 1960, B33, 59 - 60; Antikainen PJ; Tevanen K; The Effect of Electrolytes
+on the Formation of Polyacids. Telluric Acid in Aqueous Sodium Perchlorate Solutions
+
+Reference No.: 31017(68Shi)
+Russ. J. Inorg. Chem., 1968, 13, 1528 - 1531; Shikheeva LV; Spectrophotometric Study of
+Equilibria in Hydrochloric Acid Solutions of Tellurium(IV)
+
+Reference No.: 31018(68ShN)
+Russ. J. Inorg. Chem., 1968, 13, 941 - 943; Shitareva GG; Nazarenko VA; Stability
+Constants of the Chloro-complexes of Tellurium
+
+Reference No.: 31170(87PLH)
+Finn. Chem. Lett., 1987, 14, 1 - 5; Purokoski S; Lajunen K; Hakkinen P; A
+Potentiometric Study on the Complex Formation of Arsenious Acid, Arsenite Ion, Telluric
+Acid and Tellurate Ion with Sugar Acids and Disaccharides in Aqueous Solution
+
+Reference No.: 31171(55Lou)
+Bull. Soc. Chim. Fr., 1955, 22, 1196 - 1202; Lourijsen-Teyssedre Mme; Condensation
+Phenomena in Inorganic Chemistry. XI. Constitution of Tellurate Solutions
+
+Reference No.: 31172(68KMP)
+Chem. Chronika, 1968, A33, 4 - 7; Kawassiades CTh; Manoussakis GE; Papavassiliou OCh;
+
+
+
+
+                                      – Page 69 of 70 –
+JESS Thermodynamic Database v8.9                                  Tellurium
+
+
+Tossidis JA; Dissociation of Telluric Acid in Methanol, Ethanol, and Dioxane Aqueous
+Mixtures
+
+Reference No.: 31175(48Fou)
+Ann. Chim. (Paris), 1948, 12, 594 - 643; Fouasson F; Contribution to the Study of
+Telluric Acid
+
+Reference No.: 31204(38Lat)
+The Oxidation States of the Elements, 1938 Latimer WM; and their Potentials in Aqueous
+Solutions; Prentice-Hall Inc., New York, USA (1st Edition)
+
+Reference No.: 31291(84PSG)
+U.S. Bur. Mines Bull. 677, 1984 Pankratz LB; Stuve JM; Gokcen NA; Thermodynamic Data
+for Mineral Technology; US Det. Interior, Bur. Mines, Washington, DC, USA
+
+Reference No.: 31758(20PGF)
+Nucl. Technol., 2020, 206, XXXX Pasi A-E; Glanneskog H; Foreman MRStJ; Eckberg C;
+Tellurium Behavior in the Containment Sump: Dissolution, Redox, and Radiolysis Effects
+
+Reference No.: 32224(80BeT)
+Lawrence Berkeley Laboratory Report LBL-11448, 1980 Benson LV; Teague LS; A Tabulation
+of Thermodynamic Data for Chemical Reactions Involving 8 Elements Common to Radioactive
+Waste Package Systems
+
+
+
+
+                                      – Page 70 of 70 –
+

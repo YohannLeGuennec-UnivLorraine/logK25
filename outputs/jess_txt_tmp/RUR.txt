@@ -1,0 +1,1344 @@
+                     JESS Thermodynamic Database v8.9
+                                          Ruthenium
+
+                                          24-Jan-23
+
+Reaction No. 4866
+RuO4(s) + e-1 = RuO4-1
+ No    t     I-Str              Medium           Value (Dev)         W   Tech.    Ref. #
+  1    25      0          Inf. Dilution         lgK:15.9(3SF)        1    ELC
+  2    25      0          Inf. Dilution          E:1.00(3SF)         0    CRV      6330
+Note (2): Assumed wrong phase; see RuO4 + e-1 = RuO4-1
+
+
+Reaction No. 4867
+RuO4-1 + e-1 = RuO4-2
+ No    t     I-Str             Medium            Value (Dev)         W    Tech.   Ref. #
+  1    25      0          Inf. Dilution         E:0.59(0.01SD)       6     MIS     775
+  2    25      0          Inf. Dilution          E:0.59(2SF)         5     CRV     6330
+
+
+Reaction No. 5042
+Ru+3_Cl-1(2) + e-1 = Ru+2_Cl-1(2)
+ No     t     I-Str           Medium           Value (Dev)       W       Tech.    Ref. #
+  1    25      0.1        Cl-1 salt          lgK:-0.2(0.1SD)     5        MPL      854
+
+
+Reaction No. 5044
+Ru+3_Cl-1(2) + e-1 = Ru+2_Cl-1 + Cl-1
+ No     t       I-Str          Medium         Value (Dev)        W       Tech.    Ref. #
+  1    25      1.5:6.8          HCl         lgK:1.4(0.05SD)      5       MEF       853
+
+
+Reaction No. 5048
+Ru+3 + e-1 = Ru+2
+ No    t     I-Str             Medium            Value (Dev)         W    Tech.   Ref. #
+  1   25       0         Inf. Dilution         lgK:4.2(0.05SD)       5     MEF      854
+  2   25       1               H2SO4           lgK:3.0(0.05SD)       5     MEF      859
+  3   25       0         Inf. Dilution          E:0.2487(4SF)        5     CRV     6330
+  4   25       0         Inf. Dilution           E:0.23(2SF)         0     ENS     7276
+  5   25      0.1              HClO4             E:0.11(2SF)         0     MEF      867
+  6   25       0         Inf. Dilution          dH:10.1(0.1SD)       5     MEF      854
+
+
+
+
+doi: 10.5281/zenodo.7700024
+JESS Thermodynamic Database v8.9                                         Ruthenium
+
+
+Reaction No. 5049
+Ru+3_Cl-1(3) + e-1 = Ru+2_Cl-1(3)
+ No    t    I-Str          Medium              Value (Dev)       W       Tech.       Ref. #
+ 1    25     0.1          Cl-1 salt          lgK:-2.(0.8SD)      3        MPL         854
+
+
+Reaction No. 5050
+Ru+3_OH-1(3)_(s) = Ru+3 + 3<OH-1>
+ No    t     I-Str         Medium            Value (Dev)         W       Tech.       Ref. #
+  1   25     0.01         Unknown          lgK:-36.(1.SD)        3        MSL         860
+  2   25     0.1:2        Unknown          lgK:-34.(1.SD)        3        MSL         861
+
+
+Reaction No. 5051
+Cl-1 + Ru+3 = Ru+3_Cl-1
+ No   t    I-Str             Medium               Value (Dev)        W    Tech.      Ref. #
+ 1    25    0.3              Unknown             lgK:1.2(2SF)        0     EES
+ 2    25    0.3              Unknown            lgK:2.17(3SF)        2     MSP        5398
+ 3    25     1                HClO4              lgK:3.4(2SF)        2     MIS         852
+ 4    25    0.1                HCl               lgR:1.4(2SF)        4     MSP         140
+ 5    23     1            Ethanol:Water         lgK:3.57(3SF)        5     MAG        5398
+                             40:60Vol
+                              HClO4
+
+
+Reaction No. 5052
+Ru+3_Cl-1 + Cl-1 = Ru+3_Cl-1(2)
+ No   t    I-Str            Medium               Value (Dev)         W     Tech.     Ref. #
+ 1    6    0.21             HClO4              lgK:1.4(0.05SD)       5      MTP       5398
+ 2    6    0.46             HClO4              lgK:1.3(0.05SD)       5      MTP        863
+ 3    25    0.3            Unknown               lgK:0.4(1SF)        3      EES       5398
+ 4    25    0.1              HCl                 lgR:0.4(1SF)        4      MSP        140
+ 5    23     1        Ethanol:Water             lgK:3.14(3SF)        5      MAG       5398
+                         40:60Vol
+                          HClO4
+
+
+Reaction No. 5053
+Ru+3_Cl-1(2) + Cl-1 = Ru+3_Cl-1(3)
+ No   t    I-Str            Medium               Value (Dev)         W     Tech.     Ref. #
+ 1    6    0.21             HClO4              lgK:0.5(0.05SD)       5      MTP       5398
+ 2    6    0.46             HClO4              lgK:0.4(0.05SD)       5      MTP        863
+ 3    25    0.1              HCl               lgR:0.4(0.05SD)       5      MSP        864
+
+
+
+
+                                          – Page 2 of 26 –
+JESS Thermodynamic Database v8.9                                        Ruthenium
+
+
+ 4    23        1        Ethanol:Water         lgK:2.92(3SF)        5      MAG       5398
+                            40:60Vol
+                             HClO4
+
+
+Reaction No. 5054
+Ru+3_Cl-1(3) + Cl-1 = Ru+3_Cl-1(4)
+ No   t       I-Str         Medium              Value (Dev)         W     Tech.     Ref. #
+ 1    6       0.21           HClO4           lgK:-0.2(0.05SD)       6      MTP        863
+ 2    6       0.46           HClO4           lgK:-0.2(0.05SD)       5      MTP        863
+ 3    25        1            HClO4            lgK:2.4(0.05SD)       4      MIS        852
+ 4    23        1        Ethanol:Water         lgK:2.64(3SF)        5      MAG       5398
+                           40:60Vol
+                             HClO4
+
+
+Reaction No. 5055
+Ru+4 + e-1 = Ru+3
+ No   t       I-Str         Medium              Value (Dev)         W     Tech.     Ref. #
+ 1    25        0        Inf. Dilution         lgK:16.8(3SF)        1      EDH
+ 2    25        0        Inf. Dilution        lgK:11.35(4SF)        0      CRV       32224
+ 3    25       0.5            HCl            lgK:15.4(0.05SD)       5      MEF        866
+ 4    25        2             HCl            lgK:14.5(0.05SD)       5      MEF        866
+
+
+Reaction No. 5056
+Cl-1 + Ru+4 = Ru+4_Cl-1
+ No       t     I-Str      Medium          Value (Dev)          W       Tech.       Ref. #
+  1    25            1     HClO4         lgK:3.3(0.05SD)        5        MIS         852
+
+
+Reaction No. 5057
+Ru+4_Cl-1 + Cl-1 = Ru+4_Cl-1(2)
+ No       t     I-Str      Medium          Value (Dev)          W       Tech.       Ref. #
+  1    25            1     HClO4         lgK:2.7(0.05SD)        5        MIS         852
+
+
+Reaction No. 5058
+Ru+4_Cl-1(2) + Cl-1 = Ru+4_Cl-1(3)
+ No       t     I-Str      Medium          Value (Dev)          W       Tech.       Ref. #
+  1    25            1     HClO4         lgK:2.6(0.05SD)        5        MIS         852
+
+
+Reaction No. 5059
+Ru+4_Cl-1(3) + Cl-1 = Ru+4_Cl-1(4)
+
+
+
+
+                                         – Page 3 of 26 –
+JESS Thermodynamic Database v8.9                                  Ruthenium
+
+
+ No    t     I-Str     Medium             Value (Dev)     W       Tech.       Ref. #
+  1   25       1        HClO4         lgK:2.4(0.05SD)     5        MIS         852
+
+
+Reaction No. 5060
+Ru+4_Cl-1(4) + Cl-1 = Ru+4_Cl-1(5)
+ No    t     I-Str     Medium             Value (Dev)     W       Tech.       Ref. #
+  1   25       1        HClO4         lgK:2.4(0.05SD)     5        MIS         852
+
+
+Reaction No. 5061
+Ru+4_OH-1(2) + 2<Cl-1> = Ru+4_Cl-1(2)_OH-1(2)
+ No    t     I-Str     Medium             Value (Dev)     W       Tech.       Ref. #
+  1    6     0.46       HClO4         lgK:1.1(0.05SD)     5        MTP         863
+  2    6     0.92       HClO4         lgK:1.1(0.05SD)     5        MTP         863
+  3   25       4        HClO4         lgK:1.4(0.05SD)     5        MSP         851
+
+
+Reaction No. 5062
+Ru+4_OH-1(2) + 3<Cl-1> = Ru+4_Cl-1(3)_OH-1(2)
+ No    t     I-Str     Medium             Value (Dev)     W       Tech.       Ref. #
+  1    6     0.46       HClO4         lgK:0.8(0.05SD)     5        MTP         863
+  2    6     0.92       HClO4         lgK:0.9(0.05SD)     5        MTP         863
+  3   90       4        HClO4         lgK:6.0(0.05SD)     0        MSP         5024
+
+
+Reaction No. 5063
+Ru+4_OH-1(2) + 4<Cl-1> = Ru+4_Cl-1(4)_OH-1(2)
+ No    t     I-Str     Medium             Value (Dev)     W       Tech.       Ref. #
+  1   25       4        HClO4         lgK:2.2(0.05SD)     5        MSP         851
+  2   90       4        HClO4         lgK:6.2(0.05SD)     0        MSP         5024
+
+
+Reaction No. 5064
+Ru+4_OH-1(2) + Cl-1 = Ru+4_Cl-1_OH-1(2)
+ No   t    I-Str      Medium              Value (Dev)     W       Tech.       Ref. #
+  1   6     0.46       HClO4          lgK:0.9(0.05SD)     5       MTP          863
+  2   6     0.92       HClO4          lgK:0.9(0.05SD)     5       MTP          863
+
+
+Reaction No. 5065
+Ru+4_Cl-1(3)_OH-1(2) + Cl-1 = Ru+4_Cl-1(4)_OH-1(2)
+ No   t       I-Str       Medium            Value (Dev)       W    Tech.      Ref. #
+
+
+
+
+                                      – Page 4 of 26 –
+JESS Thermodynamic Database v8.9                                         Ruthenium
+
+
+ 1    20     0.1:2.5          HCl          lgK:0.36(0.5SD)       3        MSP         848
+ 2    25             4       HClO4          lgK:0.4(0.1SD)       0        MSP         848
+
+
+Reaction No. 5066
+Ru+4_Cl-1(4)_OH-1(2) + H+1 + Cl-1 = Ru+4_Cl-1(5)_OH-1 + H2O
+ No    t     I-Str        Medium            Value (Dev)          W       Tech.       Ref. #
+  1   25         4         HClO4          lgR:0.2(0.05SD)        5        MSP         851
+
+
+Reaction No. 5106
+Ru+4_Cl-1(5)_OH-1 + Ir+4_Cl-1(5) = Ir+4_Ru+4_Cl-1(10)_OH-1
+ No   t    I-Str             Medium              Value (Dev)         W    Tech.      Ref. #
+ 1    25     0           Inf. Dilution          lgK:5.9(0.2SD)       3     MCO         850
+
+
+Reaction No. 5107
+Ru+4_Cl-1(4)_OH-1(2) + Ir+4_Cl-1(5) = Ir+4_Ru+4_Cl-1(9)_OH-1(2)
+ No   t    I-Str             Medium              Value (Dev)         W    Tech.      Ref. #
+ 1    25     0           Inf. Dilution          lgK:5.9(0.2SD)       3     MCO         850
+
+
+Reaction No. 5109
+RuO4(s) + H2O = RuO4(OH)-1 + H+1
+ No   t    I-Str             Medium               Value (Dev)        W    Tech.      Ref. #
+ 1    25     0            Inf. Dilution         lgK:16.0(3SF)        1     ELC
+
+
+Reaction No. 5110
+2<RuO4-1> + RuO2.2H2O(s) + 4<OH-1> = 3<RuO4-2> + 4<H2O>
+ No   t    I-Str            Medium               Value (Dev)         W     Tech.     Ref. #
+ 1    25     0           Inf. Dilution         lgK:8.2(0.08SD)       5      MAN        858
+
+
+Reaction No. 5111
+Ru+4_Cl-1(3)_OH-1(3) + Ir+4_Cl-1(5) = Ir+4_Ru+4_Cl-1(8)_OH-1(3)
+
+Note: Weighted out coz its thermodynamically isolated
+ No   t    I-Str             Medium              Value (Dev)         W    Tech.      Ref. #
+ 1    25     0           Inf. Dilution          lgK:5.9(0.2SD)       0     MCO         850
+
+
+Reaction No. 5112
+Ru+4_Cl-1(2)_OH-1(4) + Ir+4_Cl-1(5) = Ir+4_Ru+4_Cl-1(7)_OH-1(4)
+
+Note: Weighted out coz its thermodynamically isolated
+
+
+
+
+                                          – Page 5 of 26 –
+JESS Thermodynamic Database v8.9                                            Ruthenium
+
+
+ No   t       I-Str             Medium              Value (Dev)         W     Tech.     Ref. #
+ 1    25        0            Inf. Dilution         lgK:5.9(0.2SD)       0      MCO        850
+
+
+Reaction No. 5113
+Ru+4_Cl-1_OH-1(5) + Ir+4_Cl-1(5) = Ir+4_Ru+4_Cl-1(6)_OH-1(5)
+
+Note: Weighted out coz its thermodynamically isolated
+ No   t       I-Str             Medium              Value (Dev)         W     Tech.     Ref. #
+ 1    25        0            Inf. Dilution         lgK:5.9(0.2SD)       0      MCO        850
+
+
+Reaction No. 5117
+Ru+3 + 6<Cl-1> = Ru+3_Cl-1(6)
+ No       t     I-Str          Medium           Value (Dev)         W       Tech.       Ref. #
+  1    23                                      lgK:-4.(1SF)         0       MSP          931
+  2    25           10         Unknown         lgK:-4.(1.SD)        3       ENS          854
+
+
+Reaction No. 5121
+Ru+2 + 2<e-1> = Ru(s)
+ No   t       I-Str            Medium               Value (Dev)         W     Tech.     Ref. #
+ 1    25        0           Inf. Dilution        lgK:15.4(0.05SD)       4      ENS        802
+ 2    25        0           Inf. Dilution           E:0.455(3SF)        5      CRV       6330
+
+
+Reaction No. 29711
+Ru+2_H+1(-1)_NH3(5)_His-1 + H+1 = Ru+2_NH3(5)_His-1
+ No    t            I-Str          Medium          Value (Dev)      W       Tech.       Ref. #
+  1   25        0.04:0.5          Unknown         lgK:8.8(2SF)      0        CMN         1388
+Note (1): Thermodynamically isolated
+
+
+Reaction No. 29712
+Ru+2_H+1(-1)_Imidazole_NH3(5) + H+1 = Ru+2_Imidazole_NH3(5)
+ No    t            I-Str          Medium          Value (Dev)      W       Tech.       Ref. #
+  1   25        0.04:0.5          Unknown         lgK:9.0(2SF)      0        CMN         1388
+Note (1): Thermodynamically isolated
+
+
+Reaction No. 42821
+Ru+3 + Thiourea + 4<Cl-1> = Ru+3_Thiourea_Cl-1(4)
+ No   t       I-Str             Medium              Value (Dev)         W     Tech.     Ref. #
+ 1    23                     Ethanol:Water         lgK:18.92(4SF)       4      MSP        906
+                               40:60Wgt
+
+
+
+
+                                             – Page 6 of 26 –
+JESS Thermodynamic Database v8.9                                       Ruthenium
+
+
+
+Reaction No. 42822
+Ru+3 + 2<Thiourea> + 3<Cl-1> = Ru+3_Thiourea(2)_Cl-1(3)
+ No   t       I-Str        Medium              Value (Dev)         W     Tech.      Ref. #
+ 1    23                Ethanol:Water         lgK:22.72(4SF)       4      MSP        906
+                          40:60Wgt
+
+
+Reaction No. 42823
+Ru+3 + 3<Thiourea> + 2<Cl-1> = Ru+3_Thiourea(3)_Cl-1(2)
+ No   t       I-Str        Medium              Value (Dev)         W     Tech.      Ref. #
+ 1    23                Ethanol:Water         lgK:26.26(4SF)       4      MSP        906
+                          40:60Wgt
+
+
+Reaction No. 44436
+Ru+3 + PhenThiourea + 4<Cl-1> = Ru+3_PhenThiourea_Cl-1(4)
+ No   t       I-Str        Medium              Value (Dev)         W     Tech.      Ref. #
+ 1    23                Ethanol:Water         lgK:18.23(4SF)       4      MSP        906
+                          40:60Vol
+
+
+Reaction No. 44437
+Ru+3 + 2<PhenThiourea> + 3<Cl-1> = Ru+3_PhenThiourea(2)_Cl-1(3)
+ No   t       I-Str        Medium              Value (Dev)         W     Tech.      Ref. #
+ 1    23                Ethanol:Water         lgK:21.62(4SF)       4      MSP        906
+                          40:60Vol
+
+
+Reaction No. 44438
+Ru+3 + 2<Cl-1> + 3<PhenThiourea> = Ru+3_PhenThiourea(3)_Cl-1(2)
+ No   t       I-Str        Medium              Value (Dev)         W     Tech.      Ref. #
+ 1    23                Ethanol:Water         lgK:24.74(4SF)       4      MSP        906
+                          40:60Vol
+
+
+Reaction No. 53004
+Cr+2 + Ru+3_Cl-1 = Ru+3_Cr+2_Cl-1
+ No       t     I-Str     Medium          Value (Dev)          W       Tech.       Ref. #
+  1    25           1      HClO4          lgK:3.9(2SF)         4       MKN         5398
+
+
+Reaction No. 53036
+Ru+3_Cl-1(4) + Cl-1 = Ru+3_Cl-1(5)
+ No   t       I-Str        Medium              Value (Dev)         W     Tech.      Ref. #
+ 1    25        1           HClO4             lgK:2.(0.5SD)        3      ESR        899
+
+
+
+
+                                        – Page 7 of 26 –
+JESS Thermodynamic Database v8.9                                                    Ruthenium
+
+
+ 2    30        4                HClO4               lgK:0.9(0.5SD)         3         ESR         899
+ 3    23        1            Ethanol:Water           lgK:2.31(3SF)          5         MAG        5398
+                               40:60Vol
+                                 HClO4
+
+
+Reaction No. 54081
+SO4-2 + Ru+2 = Ru+2_SO4-2
+ No        t         I-Str         Medium               Value (Dev)             W     Tech.      Ref. #
+ 1        20           2           NaClO4              lgK:1.35(3SF)            5         MCE     931
+ 2    20:35            0           NaClO4              lgK:2.72(3SF)            0         MCE     931
+ 3    20:35          0.25          NaClO4              lgK:2.02(3SF)            3         MCE     931
+ 4    20:35           0.5          NaClO4              lgK:1.88(3SF)            3         MCE     931
+ 5    20:35            1           NaClO4              lgK:1.70(3SF)            3         MCE     931
+ 6    20:35            2           NaClO4              lgK:1.30(3SF)            3         MCE     931
+ 7        25           0       Inf. Dilution           lgK:3.219(4SF)           1         EOR
+ 8        25           0       Inf. Dilution           lgK:2.36(3SF)            3         EOD    22958
+ 9    20:35           0:2          NaClO4               dH:0.0(1SF)             4         MTD     931
+
+
+Reaction No. 54082
+SO4-2 + Ru+3 = Ru+3_SO4-2
+ No   t        I-Str             Medium                Value (Dev)          W        Tech.      Ref. #
+ 1    25         0           Inf. Dilution           lgK:1.95(4SF)          1         EOR
+ 2    25         0           Inf. Dilution           lgK:1.95(3SF)          5         EOD        22958
+ 3    25         2               NaClO4              lgK:2.04(3SF)          4         MPL         931
+
+
+Reaction No. 54083
+2<SO4-2> + Ru+3 = Ru+3_SO4-2(2)
+ No   t        I-Str             Medium                Value (Dev)          W        Tech.      Ref. #
+ 1    25         0           Inf. Dilution           lgK:3.97(4SF)          1         EOR
+ 2    25         2               NaClO4              lgK:3.57(3SF)          4         MPL         931
+
+
+Reaction No. 54202
+6<Cl-1> + Ru+2 = Ru+2_Cl-1(6)
+ No       t      I-Str         Medium            Value (Dev)            W       Tech.           Ref. #
+  1    23                                       lgK:-13.(2SF)           0           MPL          931
+
+
+Reaction No. 54203
+Ru+3_NH3(5) + Cl-1 = Ru+3_NH3(5)_Cl-1
+
+
+
+
+                                               – Page 8 of 26 –
+JESS Thermodynamic Database v8.9                                                    Ruthenium
+
+
+ No           t         I-Str         Medium           Value (Dev)          W        Tech.      Ref. #
+  1        25             0.1        Unknown          lgK:1.63(3SF)         3         MSP        140
+  2        25             0.11        NaClO4          lgK:1.85(3SF)         4         MSP        931
+  3        35             0.1        Unknown          lgK:2.18(3SF)         4         MAN        931
+  4        45             0.1        Unknown          lgK:2.21(3SF)         4         MAN        931
+  5    54.7               0.25         NaTs           lgK:1.94(3SF)         5         MKN        6780
+  6        64             0.1        Unknown          lgK:2.27(3SF)         4         MAN        931
+  7        80             0.1        Unknown          lgK:2.32(3SF)         4         MAN        931
+  8        90             0.1        Unknown          lgK:2.37(3SF)         4         MAN        931
+
+
+Reaction No. 54295
+Ru+3_NH3(5) + Br-1 = Ru+3_NH3(5)_Br-1
+ No           t           I-Str      Medium           Value (Dev)           W       Tech.       Ref. #
+  1        25                                        lgK:1.4(2SF)           0        MSP         931
+  2       54.7            0.25        NaTs           lgK:1.63(3SF)          5        MKN         6780
+
+
+Reaction No. 54349
+Ru+3_NH3(5) + I-1 = Ru+3_NH3(5)_I-1
+ No           t           I-Str      Medium           Value (Dev)           W       Tech.       Ref. #
+  1        25                                        lgK:1.6(2SF)           0        MSP         931
+  2       54.7            0.25        NaTs           lgK:1.80(3SF)          5        MKN         6780
+
+
+Reaction No. 54426
+RuO4-1 + MnO4-2 = RuO4-2 + MnO4-1
+ No       t         I-Str          Medium           Value (Dev)         W           Tech.       Ref. #
+  1    20                                          lgK:0.64(2SF)        2           MSP          931
+  2    20                                           dH:-4.0(2SF)        2           MCL          931
+
+
+Reaction No. 54673
+Ru(s) + 2.5<O2(g)> + 0.5<H2(g)> = RuO4_OH-1 - e-1
+ No   t           I-Str              Medium               Value (Dev)           W     Tech.     Ref. #
+ 1    25            0             Inf. Dilution         lgK:55.7(3SF)           1      ELC
+ 2    25            0             Inf. Dilution         dG:-70.(5.SD)           0      ENS        869
+
+
+Reaction No. 54674
+RuO4-2 + 2<H2O> + 2<e-1> = RuO2(s) + 4<OH-1>
+ No   t           I-Str             Medium               Value (Dev)            W     Tech.     Ref. #
+
+
+
+
+                                                  – Page 9 of 26 –
+JESS Thermodynamic Database v8.9                                             Ruthenium
+
+
+ 1    25       0        Inf. Dilution           lgK:18.8(3SF)            1      ELC
+ 2    25       0        Inf. Dilution          lgK:11.8(0.1SD)           0      ENS        140
+
+
+Reaction No. 54675
+RuO2(s) + 4<H+1> + 4<e-1> = Ru(s) + 2<H2O>
+ No   t       I-Str        Medium                Value (Dev)             W     Tech.     Ref. #
+ 1    25        0       Inf. Dilution           lgK:38.8(3SF)            1      ELC
+ 2    25        0       Inf. Dilution          lgK:53.3(0.1SD)           0      ENS        140
+ 3    25        0       Inf. Dilution            E:0.68(2SF)             0      CRV       22551
+Note (3): Reaction in source is unbalanced; 2<H2O> assumed as product
+
+
+Reaction No. 54702
+RuO4 + e-1 = RuO4-1
+ No   t       I-Str          Medium              Value (Dev)             W     Tech.     Ref. #
+ 1    25        0        Inf. Dilution          E:1.0(0.05SD)            4      MIS        775
+ 2    25        0        Inf. Dilution           E:0.99(2SF)             4      CRV       22551
+
+
+Reaction No. 54705
+Ru+4_Cl-1(5) + Cl-1 = Ru+4_Cl-1(6)
+ No       t     I-Str     Medium            Value (Dev)          W           Tech.       Ref. #
+  1    25           3      H2SO4           lgK:3.(0.5SD)         3           ESR          899
+
+
+Reaction No. 54706
+Ru+4 + 2<OH-1> = Ru+4_OH-1(2)
+ No   t       I-Str          Medium              Value (Dev)             W     Tech.     Ref. #
+ 1    25        0        Inf. Dilution          lgK:23.3(3SF)            1      ELC
+ 2    25        1            Unknown            lgK:30.(3.SD)            0      ESR        899
+
+
+Reaction No. 54738
+Ru(s) + 2<O2(g)> = RuO4(g)
+ No   t       I-Str          Medium              Value (Dev)             W     Tech.     Ref. #
+ 1    25        0        Inf. Dilution          dG:-33.(1.SD)            3      ENS        869
+ 2    25        0        Inf. Dilution          dH:-44.(1.SD)            4      ENS        869
+
+
+Reaction No. 54739
+Ru+3_Cl-1(5) + Cl-1 = Ru+3_Cl-1(6)
+ No    t       I-Str     Medium             Value (Dev)              W       Tech.       Ref. #
+
+
+
+
+                                         – Page 10 of 26 –
+JESS Thermodynamic Database v8.9                                          Ruthenium
+
+
+  1       25         0.1      HClO4        lgK:-0.2(0.3SD)        3        ESR         899
+  2       25           4      HClO4        lgK:-0.9(0.3SD)        3        ESR         899
+  3       35           4     NaClO4         lgK:-1.(0.3SD)        3        ESR         899
+
+
+Reaction No. 54745
+Ru+3_NO + NO3-1 = Ru+3_NO_NO3-1
+ No       t      I-Str       Medium          Value (Dev)          W       Tech.       Ref. #
+  1   20              3       HNO3         lgR:-0.3(0.05SD)       5        MAN        5471
+
+
+Reaction No. 54746
+Ru+3_NO + 2<NO3-1> = Ru+3_NO_NO3-1(2)
+ No       t      I-Str       Medium          Value (Dev)          W       Tech.       Ref. #
+  1   20              3       HNO3         lgR:-1.0(0.05SD)       5        MAN        5471
+  2   20             4.5      HNO3         lgR:-0.6(0.05SD)       5        MIX        5041
+
+
+Reaction No. 54747
+Ru+3_NO + 3<NO3-1> = Ru+3_NO_NO3-1(3)
+ No       t      I-Str       Medium          Value (Dev)          W       Tech.       Ref. #
+  1   20              3       HNO3         lgR:-0.7(0.05SD)       5        MAN        5471
+  2   20             4.5      HNO3         lgR:-0.7(0.05SD)       5        MIX        5041
+
+
+Reaction No. 54748
+Ru+3_NO_Cl-1(4) + H2O = H+1 + Ru+3_NO_Cl-1(4)_OH-1
+ No   t        I-Str          Medium              Value (Dev)         W    Tech.      Ref. #
+ 1    5          0         Inf. Dilution        lgK:-6.0(0.2SD)       3     MGL         849
+
+
+Reaction No. 54749
+Ru+3_NO_Cl-1(3) + H2O = H+1 + Ru+3_NO_Cl-1(3)_OH-1
+ No   t        I-Str          Medium              Value (Dev)         W    Tech.      Ref. #
+ 1    5          0         Inf. Dilution        lgK:-5.0(0.2SD)       3     MGL         849
+
+
+Reaction No. 54750
+Ru+3_NO_Cl-1(3)_OH-1 + H2O = H+1 + Ru+3_NO_Cl-1(3)_OH-1(2)
+ No   t        I-Str          Medium              Value (Dev)         W    Tech.      Ref. #
+ 1    5          0         Inf. Dilution        lgK:-7.5(0.2SD)       3     MGL         849
+
+
+Reaction No. 54752
+Ru+3 + NO = Ru+3_NO
+
+
+
+
+                                           – Page 11 of 26 –
+JESS Thermodynamic Database v8.9                                                          Ruthenium
+
+
+ No           t             I-Str         Medium            Value (Dev)           W        Tech.      Ref. #
+ 1     0:100                  0:10        Unknown        lgK:100.(30.SD)          3         EES
+
+
+Reaction No. 54780
+Ru+3_Cl-1(4) + 2<Cl-1> = Ru+3_Cl-1(6)
+ No       t         I-Str              Medium            Value (Dev)          W           Tech.       Ref. #
+  1    20               4:6             HCl           lgK:-1.3(0.1SD)         4            MSP        5473
+
+
+Reaction No. 57058
+RuO4(s) = RuO4
+ No   t           I-Str                 Medium                Value (Dev)             W     Tech.     Ref. #
+ 1    25            0                Inf. Dilution         lgK:-0.9(0.05SD)           5      ENS       4998
+
+
+Reaction No. 57755
+O2(g) + Ru(s) = RuO2(s)
+ No    t           I-Str                 Medium               Value (Dev)             W     Tech.     Ref. #
+ 1    25                0             Inf. Dilution          lgK:44.27(4SF)           3      ENS       6422
+ 2    27                0             Inf. Dilution          lgK:43.94(4SF)           0      ENS       6422
+ 3    127               0             Inf. Dilution          lgK:30.68(4SF)           2      ENS       6422
+ 4    227               0             Inf. Dilution          lgK:22.76(4SF)           1      ENS       6422
+ 5    327               0             Inf. Dilution          lgK:17.52(4SF)           0      ENS       6422
+ 6    25                0             Inf. Dilution          dG:-61.(1.SD)            0      ENS        869
+ 7    25                0             Inf. Dilution          dG:-60.39(4SF)           3      EFE       6422
+ 8    25                0             Inf. Dilution         dG:-60.394(5SF)           3      CRV       31291
+ 9    25                0             Inf. Dilution          dH:-73.(2.SD)            2      ENS        869
+ 10   25                0             Inf. Dilution          dH:-72.9(3SF)            2      MTD       6422
+ 11   127               0             Inf. Dilution          dH:-72.7(3SF)            1      MTD       6422
+ 12   227               0             Inf. Dilution          dH:-72.2(3SF)            0      MTD       6422
+ 13   327               0             Inf. Dilution          dH:-71.7(3SF)            0      MTD       6422
+
+
+Reaction No. 57756
+Ru(s) + 2<O2(g)> = RuO4(s)
+ No   t           I-Str                   Medium              Value (Dev)         W        Tech.      Ref. #
+ 1    25            0                 Inf. Dilution          lgK:26.7(3SF)        1         ELC
+ 2    25            0                 Inf. Dilution          dG:-36.(1.SD)        0         ENS         869
+ 3    25            0                 Inf. Dilution          dH:-57.(2.SD)        2         ENS         869
+
+
+
+
+                                                      – Page 12 of 26 –
+JESS Thermodynamic Database v8.9                                          Ruthenium
+
+
+Reaction No. 57757
+Ru(s) + 2<O2(g)> = RuO4
+ No   t    I-Str             Medium               Value (Dev)     W        Tech.      Ref. #
+ 1    25        0         Inf. Dilution          lgK:25.8(3SF)    1         ELC
+ 2    25        0         Inf. Dilution          dG:-35.(1.SD)    0         ENS        869
+ 3    25        0         Inf. Dilution          dH:-57.(2.SD)    2         ENS        869
+
+
+Reaction No. 57758
+Ru(s) + 2<O2(g)> = RuO4-1 - e-1
+ No   t    I-Str             Medium               Value (Dev)     W        Tech.      Ref. #
+ 1    25        0         Inf. Dilution          lgK:42.6(3SF)    1         ELC
+ 2    25        0         Inf. Dilution          dG:-58.(1.SD)    0         ENS        869
+
+
+Reaction No. 57759
+2<O2(g)> + Ru(s) + 2<e-1> = RuO4-2
+ No   t    I-Str           Medium                 Value (Dev)         W     Tech.     Ref. #
+ 1    25     0       Inf. Dilution              dG:-72.(1.SD)         3      ENS       869
+ 2    25     0       Inf. Dilution             dG:-71.600(5SF)        4      CRV       9029
+ 3    25     0       Inf. Dilution               dG:-72.(2SF)         3      EFE      30708
+ 4    25     0       Inf. Dilution             dH:-110.200(6SF)       4      CRV       9029
+ 5    25     0       Inf. Dilution              dH:-109.4(4SF)        3      EOD      30708
+
+
+Reaction No. 57798
+Ru(s) = Ru(g)
+ No   t    I-Str             Medium               Value (Dev)     W        Tech.      Ref. #
+ 1    25        0         Inf. Dilution          dG:144.(1.SD)    3         ENS        869
+ 2    25        0         Inf. Dilution          dH:155.(1.SD)    3         ENS        869
+
+
+Reaction No. 57799
+Ru(s) + 2<H2(g)> + 2<O2(g)> = RuO2.2H2O(s)
+ No   t    I-Str             Medium               Value (Dev)     W        Tech.      Ref. #
+ 1    25        0     Inf. Dilution             lgK:120.3(4SF)    1         ELC
+ 2    25        0     Inf. Dilution              dG:-51.(1.SD)    0         ENS        869
+
+
+Reaction No. 57800
+Ru(s) + 2<O2(g)> + 0.5<H2(g)> = H+1_RuO4-1
+ No   t    I-Str             Medium               Value (Dev)     W        Tech.      Ref. #
+
+
+
+
+                                          – Page 13 of 26 –
+JESS Thermodynamic Database v8.9                                                      Ruthenium
+
+
+ 1    25            0             Inf. Dilution          dG:-35.(1.SD)        3         ENS         869
+
+
+Reaction No. 57801
+Ru(s) + 2.5<O2(g)> + H2(g) = RuO4_H2O
+ No   t           I-Str               Medium              Value (Dev)         W        Tech.      Ref. #
+ 1    25            0             Inf. Dilution          dG:-80.(5.SD)        3         ENS         869
+
+
+Reaction No. 57802
+RuO4 + H2O = RuO4_OH-1 + H+1
+ No   t           I-Str             Medium                Value (Dev)             W     Tech.     Ref. #
+ 1    20            0            Inf. Dilution         lgK:-11.4(0.1SD)           5      ENS       4998
+ 2    25            0            Inf. Dilution         lgK:-11.9(0.1SD)           5      ENS       4998
+
+
+Reaction No. 57807
+Ru+2_CN-1(6) + K+1 = Ru+2_K+1_CN-1(6)
+ No   t           I-Str              Medium               Value (Dev)             W     Tech.     Ref. #
+ 1    25            0            Inf. Dilution          lgK:2.5(0.05SD)           5      MCN       5398
+
+
+Reaction No. 57812
+N2O + Ru+2_NH3(5) = Ru+2_N2O_NH3(5)
+ No           t          I-Str       Medium           Value (Dev)         W           Tech.       Ref. #
+ 1        6.8            0.023        HCl           lgK:0.9(0.05SD)       5            MKN         5398
+ 2     20.1              0.023        HCl           lgK:0.7(0.05SD)       5            MKN         5398
+
+
+Reaction No. 57815
+Ru+2_NH3(5) + Cl-1 = Ru+2_NH3(5)_Cl-1
+ No       t         I-Str          Medium            Value (Dev)          W           Tech.       Ref. #
+  1    25               0.1        HClO4          lgK:0.2(0.05SD)         5            MSP        5398
+
+
+Reaction No. 57816
+Ru+3_NO + 4<Cl-1> = Ru+3_NO_Cl-1(4)
+ No       t         I-Str          Medium            Value (Dev)          W           Tech.       Ref. #
+  1    55               0.5        NaClO4         lgK:0.6(0.05SD)         5            MAX        5398
+  2    55               0.5        NaClO4         lgK:0.6(0.05SD)         5            MSP        5398
+
+
+Reaction No. 57817
+Ru+3_NO_Cl-1(4)_H2O = Ru+3_NO_Cl-1(4)_OH-1 + H+1
+ No           t          I-Str      Medium            Value (Dev)             W        Tech.      Ref. #
+
+
+
+
+                                                  – Page 14 of 26 –
+JESS Thermodynamic Database v8.9                                                    Ruthenium
+
+
+ 1     50.5             0.5     NaClO4          lgK:-5.3(0.05SD)        4             MKN        5398
+
+
+Reaction No. 57827
+Ru+2_NH3(5) + Br-1 = Ru+2_NH3(5)_Br-1
+ No    t       I-Str          Medium             Value (Dev)            W           Tech.       Ref. #
+  1   25        0.1            HClO4           lgK:0.04(0.01SD)         5            MSP        5398
+
+
+Reaction No. 67224
+1.5<Cl2(g)> + Ru(s) = Ru+3_Cl-1(3)_(s)
+ No    t      I-Str              Medium                Value (Dev)              W     Tech.     Ref. #
+ 1    25        0             Inf. Dilution           lgK:27.98(4SF)            3      ENS       6422
+ 2    27        0             Inf. Dilution           lgK:27.73(4SF)            0      ENS       6422
+ 3    127       0             Inf. Dilution           lgK:17.76(4SF)            2      ENS       6422
+ 4    227       0             Inf. Dilution           lgK:11.85(4SF)            2      ENS       6422
+ 5    327       0             Inf. Dilution           lgK:7.960(4SF)            0      ENS       6422
+ 6    25        0             Inf. Dilution           dG:-38.17(4SF)            3      EFE       6422
+ 7    25        0             Inf. Dilution          dH:-205.0(4SF)kJ           3      CRV       6330
+ 8    25        0             Inf. Dilution           dH:-55.0(3SF)             2      MTD       6422
+ 9    127       0             Inf. Dilution           dH:-54.44(4SF)            2      MTD       6422
+ 10   227       0             Inf. Dilution           dH:-53.72(4SF)            2      MTD       6422
+ 11   327       0             Inf. Dilution           dH:-52.90(4SF)            0      MTD       6422
+
+
+Reaction No. 67225
+2.5<F2(g)> + Ru(s) = RuF5(s)
+ No   t       I-Str              Medium                Value (Dev)          W        Tech.      Ref. #
+ 1    25        0             Inf. Dilution          lgK:136.9(4SF)         4         ENS        6422
+ 2    27        0             Inf. Dilution          lgK:135.9(4SF)         4         ENS        6422
+ 3    85        0             Inf. Dilution          lgK:110.8(4SF)         4         ENS        6422
+ 4    25        0             Inf. Dilution          dG:-186.7(4SF)         4         EFE        6422
+ 5    25        0             Inf. Dilution          dH:-213.4(4SF)         4         MTD        6422
+ 6    85        0             Inf. Dilution          dH:-212.6(4SF)         4         MTD        6422
+
+
+Reaction No. 67226
+Ru(s) + 2<S(s)> = Ru+4_S-2(2)_(s)
+ No    t       I-Str              Medium                Value (Dev)         W         Tech.     Ref. #
+ 1    25            0          Inf. Dilution          lgK:34.07(4SF)        4          ENS       6422
+ 2    27            0          Inf. Dilution          lgK:33.84(4SF)        0          ENS       6422
+
+
+
+
+                                               – Page 15 of 26 –
+JESS Thermodynamic Database v8.9                                            Ruthenium
+
+
+ 3    127           0       Inf. Dilution          lgK:24.85(4SF)       2      ENS       6422
+ 4    227           0       Inf. Dilution          lgK:19.30(4SF)       1      ENS       6422
+ 5    327           0       Inf. Dilution          lgK:15.55(4SF)       0      ENS       6422
+ 6    25            0       Inf. Dilution          dG:-46.47(4SF)       4      EFE       6422
+ 7    25            0       Inf. Dilution          dH:-49.20(4SF)       4      MTD       6422
+ 8    127           0       Inf. Dilution          dH:-50.41(4SF)       1      MTD       6422
+ 9    227           0       Inf. Dilution          dH:-51.20(4SF)       0      MTD       6422
+ 10   327           0       Inf. Dilution          dH:-51.79(4SF)       0      MTD       6422
+
+
+Reaction No. 67227
+Ru(s) + 2<Se(s)> = Ru+4_Se-2(2)_(s)
+ No    t       I-Str            Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25            0       Inf. Dilution          lgK:26.65(4SF)       4      ENS       6422
+ 2    27            0       Inf. Dilution          lgK:26.48(4SF)       4      ENS       6422
+ 3    127           0       Inf. Dilution          lgK:19.44(4SF)       4      ENS       6422
+ 4    227           0       Inf. Dilution          lgK:15.19(4SF)       4      ENS       6422
+ 5    327           0       Inf. Dilution          lgK:12.14(4SF)       4      ENS       6422
+ 6    25            0       Inf. Dilution          dG:-36.36(4SF)       4      EFE       6422
+ 7    25            0       Inf. Dilution          dH:-38.60(4SF)       4      MTD       6422
+ 8    127           0       Inf. Dilution          dH:-38.69(4SF)       4      MTD       6422
+ 9    227           0       Inf. Dilution          dH:-41.80(4SF)       4      MTD       6422
+ 10   327           0       Inf. Dilution          dH:-42.07(4SF)       4      MTD       6422
+
+
+Reaction No. 67524
+Ru+2_Pyrazine_CN-1(5) + H+1 = Ru+2_H+1_Pyrazine_CN-1(5)
+ No   t       I-Str            Medium               Value (Dev)         W     Tech.     Ref. #
+ 1    23                                          lgK:0.4(0.1SD)        0      MPS       6530
+ 2    25        0           Inf. Dilution          lgK:0.4(1SF)         1      ESC
+
+
+Reaction No. 69745
+Theophylline-1 + Ru+3 = Ru+3_Theophylline-1
+ No       t     I-Str         Medium           Value (Dev)          W       Tech.       Ref. #
+  1    25           0.1       LiClO4          lgK:3.73(3SF)         4       MGL         4554
+  2    25               1     NaClO4          lgK:1.16(3SF)         0       MGL         2261
+
+
+Reaction No. 69746
+Theophylline-1 + Ru+2 = Ru+2_Theophylline-1
+
+
+
+
+                                            – Page 16 of 26 –
+JESS Thermodynamic Database v8.9                                          Ruthenium
+
+
+ No       t     I-Str       Medium            Value (Dev)         W       Tech.       Ref. #
+  1    25           0.1     LiClO4           lgK:9.4(2SF)         3       MGL         4554
+
+
+Reaction No. 69747
+Caffeine + Ru+3 = Ru+3_Caffeine
+ No       t     I-Str      Medium             Value (Dev)         W       Tech.       Ref. #
+  1    25           0.1    LiClO4            lgK:3.20(3SF)        4        MGL         4554
+  2    25            1     NaClO4            lgK:1.19(3SF)        0        MGL         2261
+
+
+Reaction No. 69748
+Caffeine + Ru+2 = Ru+2_Caffeine
+ No       t     I-Str       Medium            Value (Dev)         W       Tech.       Ref. #
+  1    25           0.1     LiClO4           lgK:9.4(2SF)         3       MGL         4554
+
+
+Reaction No. 70256
+Ru+3_NH3(6) + e-1 = Ru+2_NH3(6)
+ No   t       I-Str           Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0          Inf. Dilution           E:0.10(2SF)        5      CRV       6330
+ 2    25        0          Inf. Dilution           E:0.24(2SF)        0      ENS       7276
+
+
+Reaction No. 70257
+Ru+2_NH3(5) + N2 = Ru+2_N2_NH3(5)
+ No   t       I-Str          Medium                Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution           lgK:4.48(3SF)       0      ENS       7276
+
+
+Reaction No. 70258
+Ru+2_N2_NH3(5) + Ru+2_NH3(5) = Ru+2(2)_N2_NH3(10)
+ No   t       I-Str          Medium                Value (Dev)        W     Tech.     Ref. #
+ 1    25        0         Inf. Dilution           lgK:3.85(3SF)       0      ENS       7276
+
+
+Reaction No. 71020
+Ru+3_CN-1(6) + e-1 = Ru+2_CN-1(6)
+ No   t       I-Str           Medium               Value (Dev)        W     Tech.     Ref. #
+ 1    25        0          Inf. Dilution           E:0.86(2SF)        5      CRV       6330
+
+
+Reaction No. 71021
+Ru+3_EtDiAm(3) + e-1 = Ru+2_EtDiAm(3)
+ No   t       I-Str           Medium               Value (Dev)        W     Tech.     Ref. #
+
+
+
+
+                                           – Page 17 of 26 –
+JESS Thermodynamic Database v8.9                                              Ruthenium
+
+
+ 1    25        0        Inf. Dilution           E:0.210(3SF)     5             CRV        6330
+
+
+Reaction No. 71022
+Ru+3_Bipy(3) + e-1 = Ru+2_Bipy(3)
+ No   t       I-Str           Medium             Value (Dev)      W            Tech.      Ref. #
+ 1    25        0        Inf. Dilution           E:1.24(3SF)      5             CRV       6330
+
+
+Reaction No. 71023
+RuO4(s) + 8<H+1> + 8<e-1> = Ru(s) + 4<H2O>
+ No   t       I-Str        Medium                Value (Dev)          W        Tech.      Ref. #
+ 1    25        0       Inf. Dilution          lgK:139.5(4SF)         1         ELC
+ 2    25        0       Inf. Dilution           E:1.038(4SF)          0         CRV        6330
+
+
+Reaction No. 71024
+RuO4(s) + 6<H+1> + 4<e-1> = Ru+4_OH-1(2) + 2<H2O>
+ No   t       I-Str         Medium               Value (Dev)      W            Tech.      Ref. #
+ 1    25        0       Inf. Dilution           lgK:98.4(3SF)     1             ELC
+ 2    25        0       Inf. Dilution            E:1.40(3SF)      0             CRV        6330
+
+
+Reaction No. 71025
+RuO2(s) + 4<H+1> + 2<e-1> = Ru+2 + 2<H2O>
+ No   t       I-Str         Medium               Value (Dev)      W            Tech.      Ref. #
+ 1    25        0       Inf. Dilution           lgK:23.4(3SF)     1             ELC
+ 2    25        0       Inf. Dilution            E:1.120(4SF)     0             CRV        6330
+
+
+Reaction No. 74285
+RuO4-1 + 3<e-1> + 4<H+1> = RuO2.2H2O(s)
+ No   t       I-Str           Medium             Value (Dev)      W            Tech.      Ref. #
+ 1    25        0        Inf. Dilution           E:1.533(4SF)     1             CRV       22551
+Note (1): Phase unclear; given as RuO2(s,hydr)
+
+
+Reaction No. 75011
+CrO4-2 + Ru+2 = Ru+2_CrO4-2
+ No       t     I-Str         Medium              Value (Dev)             W     Tech.     Ref. #
+ 1    0.01          0    Inf. Dilution          lgK:2.8048(5SF)           3      EOD       22958
+ 2     25           0    Inf. Dilution          lgK:2.6212(5SF)           3      EOD       22958
+ 3     60           0    Inf. Dilution          lgK:2.5048(5SF)           3      EOD       22958
+
+
+
+
+                                         – Page 18 of 26 –
+JESS Thermodynamic Database v8.9                                              Ruthenium
+
+
+ 4    100           0    Inf. Dilution          lgK:2.4927(5SF)           3         EOD    22958
+ 5    150           0    Inf. Dilution          lgK:2.6259(5SF)           3         EOD    22958
+ 6    200           0    Inf. Dilution          lgK:2.9312(5SF)           3         EOD    22958
+
+
+Reaction No. 75035
+CrO4-2 + Ru+4 = Ru+4_CrO4-2
+ No    t       I-Str          Medium              Value (Dev)             W     Tech.      Ref. #
+ 1    0.01          0    Inf. Dilution          lgK:5.0069(5SF)           3         EOD    22958
+ 2     25           0    Inf. Dilution          lgK:5.6566(5SF)           3         EOD    22958
+ 3     60           0    Inf. Dilution          lgK:6.6159(5SF)           3         EOD    22958
+ 4    100           0    Inf. Dilution          lgK:7.6950(5SF)           3         EOD    22958
+ 5    150           0    Inf. Dilution          lgK:9.0221(5SF)           3         EOD    22958
+ 6    200           0    Inf. Dilution         lgK:10.3770(6SF)           3         EOD    22958
+
+
+Reaction No. 76124
+Ru+3_SO4-2 + SO4-2 = Ru+3_SO4-2(2)
+ No       t     I-Str     Medium            Value (Dev)           W       Tech.           Ref. #
+  1    25            2    NaClO4           lgK:1.53(3SF)          5           MVM         11516
+Note (1): Lazarev L et al., Zhur. Neorg. Khim., 1968, 13, 598
+
+
+Reaction No. 76149
+Ru+3 + SCN-1 = Ru+3_SCN-1
+ No       t     I-Str     Medium            Value (Dev)           W       Tech.           Ref. #
+  1    70            1    NaClO4           lgK:1.78(3SF)          5           MSP         11516
+Note (1): Yaffee R et al., J. Am. Chem. Soc., 1952, 72, 2500
+
+
+Reaction No. 76223
+Ru+3 + EDTA-4 = Ru+3_EDTA-4
+ No   t       I-Str         Medium               Value (Dev)          W        Tech.      Ref. #
+ 1    25        0        Inf. Dilution          lgK:14.1(3SF)         1         ESC
+ 2    30       0.1             KCl              lgK:13.8(3SF)         5         MGL        11516
+Note (2): Taqui-Khan M et al., Indian J. Chem., 1982, 21A, 441
+
+
+Reaction No. 78992
+2<S-2> + Ru+4 = Ru+4_S-2(2)_(s)
+
+Note: The species S-2 does not exist in aqueous solution See reaction: H+1 + S-2 =
+H+1_S-2
+
+
+
+
+                                         – Page 19 of 26 –
+JESS Thermodynamic Database v8.9                                          Ruthenium
+
+
+ No   t    I-Str          Medium                Value (Dev)       W         Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:100.8(4SF)      0         ELC
+
+
+Reaction No. 81565
+Ru+3_Cl-1(3)_(s) = Ru+4 + 3<Cl-1> + e-1
+ No   t    I-Str          Medium                Value (Dev)       W        Tech.      Ref. #
+ 1    25     0        Inf. Dilution            lgK:4.7(2SF)       1         ELC
+ 2    25     0        Inf. Dilution           lgK:-6.39(3SF)      0         CRV       32224
+
+
+Reaction No. 81566
+RuO2(am.,s) + 4<H+1> = Ru+4 + 2<H2O>
+ No   t    I-Str          Medium                Value (Dev)       W        Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:4.51(3SF)      4         CRV       32224
+
+
+Reaction No. 81567
+Ru+3_OH-1(3)_(s) + 3<H+1> = Ru+4 + 3<H2O> + e-1
+ No   t    I-Str         Medium                 Value (Dev)       W         Tech.     Ref. #
+ 1    25     0        Inf. Dilution           lgK:-10.95(4SF)     1          ELC
+ 2    25     0        Inf. Dilution           lgK:-3.55(3SF)      0          CRV      32224
+
+
+Reaction No. 81568
+Ru+4_OH-1(4)_(s) + 4<H+1> = Ru+4 + 4<H2O>
+ No   t    I-Str          Medium                Value (Dev)       W        Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:12.30(4SF)      4         CRV       32224
+
+
+Reaction No. 81569
+Ru+4_OH-1(2) + 2<H+1> = Ru+4 + 2<H2O>
+ No   t    I-Str          Medium                Value (Dev)       W        Tech.      Ref. #
+ 1    25     0         Inf. Dilution           lgK:4.73(3SF)      4         CRV       32224
+
+
+Reaction No. 81570
+Ru+4_Cl-1(5)_OH-1 + H+1 = Ru+4 + 5<Cl-1> + H2O
+ No   t    I-Str          Medium                Value (Dev)       W        Tech.      Ref. #
+ 1    25     0        Inf. Dilution           lgK:-8.13(3SF)      4         CRV       32224
+
+
+Reaction No. 81571
+Ru+4_S-2(2)_(s) + 8<H2O> = Ru+4 + 16<H+1> + 2<SO4-2> + 16<e-1 >
+ No   t    I-Str         Medium                 Value (Dev)           W     Tech.     Ref. #
+
+
+
+
+                                        – Page 20 of 26 –
+JESS Thermodynamic Database v8.9                                           Ruthenium
+
+
+    1   25        0        Inf. Dilution            lgK:-141.8(4SF)    1      ELC
+    2   25        0        Inf. Dilution            lgK:-144.86(5SF)   0      CRV      32224
+
+
+Reaction No. 81572
+RuO4(s) + 8<H+1> + 4<e-1> = Ru+4 + 4<H2O>
+ No      t      I-Str           Medium                 Value (Dev)     W     Tech.     Ref. #
+    1   25        0        Inf. Dilution             lgK:103.1(4SF)    1      ELC
+    2   25        0        Inf. Dilution             lgK:100.55(5SF)   0      CRV      32224
+
+
+Reaction No. 81573
+RuO4-1 + 8<H+1> + 3<e-1> = Ru+4 + 4<H2O>
+ No      t       I-Str           Medium                Value (Dev)     W    Tech.      Ref. #
+    1   25         0        Inf. Dilution             lgK:87.2(3SF)    1     ELC
+    2   25         0        Inf. Dilution            lgK:82.20(4SF)    0     CRV       32224
+
+
+Reaction No. 81574
+RuO4 + 8<H+1> + 4<e-1> = Ru+4 + 4<H2O>
+ No      t       I-Str           Medium                Value (Dev)     W    Tech.      Ref. #
+    1   25         0        Inf. Dilution            lgK:104.0(4SF)    1     ELC
+    2   25         0        Inf. Dilution            lgK:99.43(4SF)    0     CRV       32224
+
+
+Reaction No. 81575
+RuO4-2 + 8<H+1> + 2<e-1> = Ru+4 + 4<H2O>
+ No      t       I-Str           Medium                Value (Dev)     W    Tech.      Ref. #
+    1   25         0        Inf. Dilution             lgK:77.2(3SF)    1     ELC
+    2   25         0        Inf. Dilution            lgK:72.01(4SF)    0     CRV       32224
+
+
+
+
+                                          Data Assessment
+
+
+Weight                          Assessment
+9            highest accuracy
+8            multi-determined; excellent dependability
+7            trustworthy; outstanding single determination
+6            better than average reliability
+5            average single determination
+4            some doubt
+
+
+
+                                               – Page 21 of 26 –
+JESS Thermodynamic Database v8.9                               Ruthenium
+
+
+3        poorly known
+2        guess to achieve consistency (or just as bad)
+1        no information but consistent
+0        problematic/inconsistent
+
+
+
+
+                                      Techniques
+
+
+Abbrev                     Method
+CMN      Several experimental values (crit.)
+CRV      Critical review
+EDH      Debye-Hueckel corrections
+EES      Personal estimate
+EFE      Free Energy relations
+ELC      Linear Combination of Reactions
+ENS      Not specified
+EOD      Calculated from data of others
+EOR      Other Reaction Constants
+ESC      Standard conditions anchor
+ESR      Similar reaction(s)
+MAG      Silver electrode e.m.f.
+MAN      Chemical analysis
+MAX      Anion exchange
+MCE      Cation exchange
+MCL      Calorimetry
+MCN      Conductivity
+MCO      Colorimetry (often for measuring pH)
+MEF      Electromotoric force, not specified
+MGL      Glass electrode
+MIS      Ion selective electrode
+MIX      Ion exchange
+MKN      Rate of reaction
+MPL      Polarography
+MPS      Potentiometry and Spectrophotometry
+MSL      Solubility
+
+
+
+
+                                           – Page 22 of 26 –
+JESS Thermodynamic Database v8.9                                  Ruthenium
+
+
+MSP    Spectroscopy
+MTD    Temperature difference
+MTP    Migration or transference number
+MVM    Voltametric Methods
+
+
+
+
+                                    References
+
+
+Reference No.: 140(64SiM)
+Stability Constants of Metal-ion Complexes SP17, 1964 Sillen LG; Martell AE; The
+Chemical Soc.,London
+
+Reference No.: 775(71CCM)
+Selected Constants, 1971 Charlot G; Collumeau A; Marchon MJC; Oxidation-Reduction
+Potentials of Inorganic Substances in Aqueous Solution; Butterworths, London
+
+Reference No.: 802(90Wea)
+CRC Handbook of Chemistry and Physics, 70th Edn., 1990 Weast RC; A Ready-Reference Book
+of Chemical and Physical Data; CRC Press, Cleveland, Ohio
+
+Reference No.: 848(74SPK)
+Izv. Akad. Nauk SSSR, Ser. Khim., 1974, 23, 268 - 271; Shlenskaya VI; Pichugina GV;
+Khvostova VP; Alimarin IP; Spectrophotometric Study of Equilibriums in
+Ruthenium(IV)Chloride Solutions
+
+Reference No.: 849(64MCW)
+Inorg. Chem., 1964, 3, 1018 - 1024; Mercer EE; Campbell WM Jr; Wallace RM; Chloro
+Complexes of Nitrosylruthenium
+
+Reference No.: 850(71KaY)
+Russ. J. Inorg. Chem., 1971, 16, 997 Kalinina VE; Yatsimirskii KB; Joint Catalytic
+Effect of Ruthenium(IV) and Iridium(IV) Chloro Compounds in the Oxidation of Iodide by
+Periodate
+
+Reference No.: 851(71NeV)
+Dokl. Bolg. Akad. Nauk, 1971, 24, 1489 Neikova EA; Vasilev Kh; Preparation of Solutions
+of Ruthenium(IV) Complexes containing Chlorine by reducing Ruthenium(VI) of Ruthenates
+
+Reference No.: 852(71PSS)
+Russ. J. Inorg. Chem., 1971, 16, 1349 Pilipenko AT; Sereda IP; Semchinskaya ZA;
+Stability of Chloro-Complexes of Ruthenium
+
+Reference No.: 853(49DwB)
+J. Proc. R. Soc. N.S.W., 1949, 83, 146 - 149; Dwyer FP; Backhouse JR; Chemistry of
+Ruthenium. V. Potential of the Bivalent/Trivalent Ruthenium couple in Hydrochloric Acid
+
+Reference No.: 854(66BuM)
+J. Phys. Chem., 1966, 70, 3103 Buckley RR; Mercer EE; The Potential of the
+Ruthenium(II) - Ruthenium(III) Couple
+
+
+
+
+                                      – Page 23 of 26 –
+JESS Thermodynamic Database v8.9                                  Ruthenium
+
+
+Reference No.: 858(52CoH)
+J. Am. Chem. Soc., 1952, 74, 5012 - 5015; Connick RE; Hurley CR; Chemistry of Ru(VI),-
+(VII), and -(VIII). Reactions, Oxidation Potentials and Spectra
+
+Reference No.: 859(67BrL)
+Arkiv Kemi, 1967, 26, 401 Brito F; Lewis D; Studies on the Chemistry of Ruthenium. 3.
+Reduction in 1M Sulfate Media
+
+Reference No.: 860(57StK)
+Zh. Neorg. Khim., 1957, 2, 444 - 451; Starik IE; Kositsyn AV; The State of Small
+Quantities of the Radioactive Elements in Solutions. I. The State of Tri- and
+Quadrivalent Ruthenium in Hydrochloric Acid Solutions
+
+Reference No.: 861(57StK)
+Zh. Neorg. Khim., 1957, 2, 1171 - 290; Starik IE; Kositzyn AV; The State of Small
+Quantities of Radioelements in Solutions. II. The State of Thallum in Sulfuric Acid
+Solutions
+
+Reference No.: 863(70OhO)
+Radiochim. Acta, 1970, 13, 10 - 15; Ohyoshi E; Ohyoshi A; Studies on Ruthenium
+Chlorocomplexes by Paper Electrophoresis
+
+Reference No.: 864(61CoF)
+J. Am. Chem. Soc., 1961, 83, 3414 - 3416; Connick RE; Fine DA; The Identification of
+Neutral Ruthenium(III) Chloride Complexes: Equilibria Involving Neutral and Cationic
+Species
+
+Reference No.: 866(41GrF)
+Z. Elektrochem., 1941, 47, 208 - 211; Grube G; Fromm G; Oxidation Stages of Ruthenium.
+II. The Oxidation Potential of Ru(III) and Ru(IV) in Hydrochloric Acid Solution
+
+Reference No.: 867(62AtD)
+J. Am. Chem. Soc., 1962, 84, 2659 - 2661; Atwood DK; DeVries T; The Electrode Potential
+of Ruthenium(IV) and Its Lower Oxidation States
+
+Reference No.: 869(68GoH)
+Chem. Rev., 1968, 68, 229 - 252; Goldberg RN; Hepler LG; Thermochemistry and Oxidation
+Potentials of the Platinum Group Metals and their Compounds
+
+Reference No.: 899(90Mur)
+Estimation of Constants for JESS Database, 1990 Murray K; Record of ad hoc estimations
+
+Reference No.: 906(79Per)
+IUPAC Chemical Data Series No. 22, 1979 Perrin DD; Stability Constants of Metal-Ion
+Complexes, First Edition Part B, Organic Ligands; Pergamon, Oxford
+
+Reference No.: 931(71SiM)
+Stability Constants of Metal-ion Complexes SP25, 1971 Sillen LG; Martell AE; Supplement
+No 1 to Special Publication No 25; Chemical Society, London
+
+Reference No.: 1388(74SuM)
+Chem. Rev., 1974, 74, 471 - 517; Sundberg RJ; Martin B; Interactions of Histidine and
+Other Imidazole Derivatives with Transition Metal Ions in Chemical and Biological
+Systems
+
+Reference No.: 2261(93PeP)
+IUPAC Stability Constants Database, 1993 Pettit LD; Powell HKJ; IUPAC (in co-operation
+with Academic Software), Otley, UK
+
+
+
+
+                                      – Page 24 of 26 –
+JESS Thermodynamic Database v8.9                                  Ruthenium
+
+
+Reference No.: 4554(75ClT)
+J. Am. Chem. Soc., 1975, 97, 1397 - 1403; Clarke MJ; Taube H; Nitrogen-Bound and
+Carbon-Bound Xanthine Complexes of Ruthenium Ammines
+
+Reference No.: 4998(86BaM)
+The Hydrolysis of Cations, 1986 Baes CF Jr; Mesmer RE; Robert E. Krieger Publ. Co.
+Malabar, Florida
+
+Reference No.: 5024(72SBK)
+Russ. J. Inorg. Chem., 1972, 17, 572 Shlenskaya VI; Biryukov AA; Kadomtseva VM;
+Ruthenium(IV) Chloride Complexes in Solutions
+
+Reference No.: 5041(59FBG)
+J. Inorg. Nucl. Chem., 1959, 12, 154 Fletcher JM; Brown PGM; Gardner ER; Hardy CJ; Wain
+AG; Woodhead JL; Nitrosylruthenium Nitrato Complexes in Aqueous Nitric Acid
+
+Reference No.: 5398(82Hog)
+IUPAC Chemical Data Series No. 21, 1982 Hogfeldt E; Stability Constants of Metal-ion
+Complexes, 2nd Suppl., Part A, Inorganic Ligands; Pergamon, Oxford
+
+Reference No.: 5471(57BFW)
+AERE C/R2260, 1957 Brown PGM; Fletcher JM; Wain AG
+
+Reference No.: 5473(73SKT)
+Vestn. Mosk. Univ., Khim., 1973, 28, 122 - 124; Shlenskaya VI; Kuratashvili ZA;
+Tikhonov IG; Spectrophotometric investigation of the Aquation and Anation of
+K2[RuCl5H2O]
+
+Reference No.: 6330(95LiF)
+CRC Handbook of Chemistry and Physics, 76th Edn., 1995 Lide DR; Frederikse HPR; A
+Ready-Reference Book of Chemical and Physical Data; CRC Press, Cleveland, Ohio, U.S.A.
+
+Reference No.: 6422(95BaP)
+Thermochemical Data of Pure Substances, 3rd Edn., 1995 Barin I; Platzki G; Weinheim,
+Germany
+
+Reference No.: 6530(83JoS)
+Inorg. Chem., 1983, 22, 1117 - 1123; Johnson CR; Shepherd RE; The pKa of
+Pyraziniumpentacyanoruthenate(II), (CN)5Ru(pzH)-2
+
+Reference No.: 6780(71BrK)
+Inorg. Chem., 1971, 10, 85 - 87; Broomhead JA; Kane-Maguire L; Substitution Reactions
+of Ruthenium(III)-Ethylenediamine and Related Complexes. III. Halide Anation of cis-
+Diaquobis(ethylene- diamine)-, cis-Halogenoaquobis(ethylenediamine)-. and
+Aquopentaammineruthenium(III) Complexes
+
+Reference No.: 7276(88CoW)
+Advanced Inorganic Chemistry, 5th Edn., 1988 Cotton FA; Wilkinson G; John Wiley & Sons
+Inc., N.Y., U.S.A
+
+Reference No.: 9029(97SSW)
+Geochim. Cosmochim. Acta, 1997, 61, 907 - 950; Shock EL; Sassani DC; Willis M;
+Sverjensky DA; Inorganic Species in Geologic Fluids: Correlations among Standard Molal
+Thermodynamic Properties of Aqueous Ions and Hydroxide Complexes
+
+Reference No.: 11516(00PeP)
+IUPAC Stability Constants Database, 2000 Pettit LD; Powell HKJ; Release 4; Academic
+Software, U.K.
+
+
+
+
+                                      – Page 25 of 26 –
+JESS Thermodynamic Database v8.9                                  Ruthenium
+
+
+Reference No.: 22551(06Inz)
+Encyclopedia of Electrochemistry, Vol. 7a, 2006, 17 - 75; Inzelt G; Standard, Formal
+and Other Characteristic Potentials of Selected Electrode Reactions
+
+Reference No.: 22958(10AML)
+Appl. Geochem., 2010, 25, 242 - 260; Accornero M; Marini L; Lelli M; Prediction of the
+Thermodynamic Properties of Metal-chromate Aqueous Complexes to High Temperatures and
+Pressures and Implications for the Speciation of Hexavalent Chromium in Some Natural
+Waters
+
+Reference No.: 30708(69Hep)
+Can. J. Chem., 1969, 47, 3469 - 3470; Hepler LG; Thermodynamic Properties of Ruthenate
+and Molybdate ions
+
+Reference No.: 31291(84PSG)
+U.S. Bur. Mines Bull. 677, 1984 Pankratz LB; Stuve JM; Gokcen NA; Thermodynamic Data
+for Mineral Technology; US Det. Interior, Bur. Mines, Washington, DC, USA
+
+Reference No.: 32224(80BeT)
+Lawrence Berkeley Laboratory Report LBL-11448, 1980 Benson LV; Teague LS; A Tabulation
+of Thermodynamic Data for Chemical Reactions Involving 8 Elements Common to Radioactive
+Waste Package Systems
+
+
+
+
+                                      – Page 26 of 26 –
+
