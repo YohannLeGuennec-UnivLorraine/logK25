@@ -1,6 +1,6 @@
 # logK25 database
 
-This repository builds a merged thermodynamic equilibrium dataset at 25 C from multiple freely accessible sources, and publishes a searchable GitHub Pages interface.
+This repository builds a merged thermodynamic equilibrium dataset at 25 C from multiple freely accessible sources, and publishes a searchable GitHub Pages interface at https://yohannleguennec-univlorraine.github.io/logK25/
 
 ## What is produced
 
