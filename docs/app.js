@@ -343,38 +343,46 @@ function buildDatabaseFilters() {
 }
 
 function buildPeriodic() {
+  periodic.innerHTML = "";
+  const isMobile = window.matchMedia("(max-width: 768px)").matches;
+
+  const addAtomButton = (sym) => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "el-btn";
+    if (selectedAtoms.has(sym)) b.classList.add("sel");
+    b.textContent = sym;
+    b.dataset.atom = sym;
+    b.addEventListener("click", async () => {
+      if (selectedAtoms.has(sym)) {
+        selectedAtoms.delete(sym);
+        b.classList.remove("sel");
+      } else {
+        selectedAtoms.add(sym);
+        b.classList.add("sel");
+      }
+      loadAllMode = false;
+      writeUrlState();
+      await refreshDataFromSelection();
+    });
+    periodic.appendChild(b);
+  };
+
+  if (isMobile) {
+    const sorted = [...periodicAtoms].sort((a, b) => a.localeCompare(b));
+    sorted.forEach(addAtomButton);
+    return;
+  }
+
   periodicGrid.forEach(row => {
     row.forEach(sym => {
-      if (!sym) {
+      if (!sym || !periodicSet.has(sym)) {
         const sp = document.createElement("div");
         sp.className = "periodic-spacer";
         periodic.appendChild(sp);
         return;
       }
-      if (!periodicSet.has(sym)) {
-        const sp = document.createElement("div");
-        sp.className = "periodic-spacer";
-        periodic.appendChild(sp);
-        return;
-      }
-      const b = document.createElement("button");
-      b.type = "button";
-      b.className = "el-btn";
-      b.textContent = sym;
-      b.dataset.atom = sym;
-      b.addEventListener("click", async () => {
-        if (selectedAtoms.has(sym)) {
-          selectedAtoms.delete(sym);
-          b.classList.remove("sel");
-        } else {
-          selectedAtoms.add(sym);
-          b.classList.add("sel");
-        }
-        loadAllMode = false;
-        writeUrlState();
-        await refreshDataFromSelection();
-      });
-      periodic.appendChild(b);
+      addAtomButton(sym);
     });
   });
 }

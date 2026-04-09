@@ -128,8 +128,25 @@ button:hover {
 
 @media (max-width: 768px) {
   .periodic {
-    grid-template-columns: repeat(18, 30px);
-    justify-content: start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: flex-start;
+    padding: 10px;
+    overflow-x: hidden;
+  }
+
+  .periodic-spacer {
+    display: none;
+  }
+
+  .el-btn {
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    padding: 0;
+    font-size: 10px;
+    line-height: 1;
   }
 }
 
