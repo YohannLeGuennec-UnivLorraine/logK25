@@ -99,6 +99,79 @@ function toNum(v) {
   return Number.isFinite(n) ? n : null;
 }
 
+function formatAvgLogK(v) {
+  const n = toNum(v);
+  if (n === null) return String(v ?? "");
+  return n.toFixed(2);
+}
+
+function formatExpConditions(v) {
+  const s = String(v ?? "");
+  const opens = (s.match(/\(/g) || []).length;
+  const closes = (s.match(/\)/g) || []).length;
+  if (opens > closes) return s + ")".repeat(opens - closes);
+  return s;
+}
+
+function prettifySourceLabel(raw) {
+  const s = String(raw ?? "").trim();
+  if (!s) return s;
+
+  const exact = {
+    "AqSolDB-logS-data_curated": "AqSolDB",
+    "JESS-PHREEQC-like-jess_phreeqc_like": "JESS",
+    "GWB-THEREDA_2023a_GWB": "Thereda (GWB)",
+    "GWB-thermo": "Thermo (GWB)",
+    "GWB-thermo.com.V8.R6+": "Thermo.com V8 R6+ (GWB)",
+    "GWB-thermo_cemdata": "Cemdata (GWB)"
+  };
+  if (Object.prototype.hasOwnProperty.call(exact, s)) return exact[s];
+
+  if (s.startsWith("AqSolDB-logS-")) return "AqSolDB";
+  if (s.startsWith("JESS-PHREEQC-like-")) return "JESS";
+  if (s.startsWith("IUPAC-pKa-")) return "IUPAC pKa";
+  if (s.startsWith("NIST-SRD46-")) return "NIST SRD46";
+  if (s.startsWith("PSINagra-PHREEQC-")) return "PSI-Nagra (PHREEQC)";
+
+  if (s.startsWith("Medusa-")) {
+    const db = s.slice("Medusa-".length).replace(/[_\.]+/g, " ").trim();
+    return db ? `${db} (Medusa)` : "Medusa";
+  }
+
+  if (s.startsWith("Thermoddem-")) {
+    const tail = s.slice("Thermoddem-".length);
+    const firstDash = tail.indexOf("-");
+    const flavor = firstDash >= 0 ? tail.slice(0, firstDash) : tail;
+    if (!flavor) return "Thermoddem";
+    return `Thermoddem (${flavor})`;
+  }
+
+  if (s.startsWith("GWB-")) {
+    const db = s.slice("GWB-".length);
+    const gwbMap = {
+      "thermo_coldchem": "Coldchem",
+      "thermo_frezchem": "Frezchem",
+      "thermo_hmw": "HMW",
+      "thermo_minteq": "Minteq",
+      "thermo_nea": "NEA",
+      "thermo_phreeqc": "PHREEQC",
+      "thermo_phrqpitz": "PHRQPITZ",
+      "thermo_sit": "SIT",
+      "thermo_wateq4f": "Wateq4f",
+      "thermo_ymp.R2": "YMP R2"
+    };
+    if (Object.prototype.hasOwnProperty.call(gwbMap, db)) return `${gwbMap[db]} (GWB)`;
+    return `${db.replace(/[_\.]+/g, " ").trim()} (GWB)`;
+  }
+
+  return s;
+}
+
+function formatContributingLogK(txt) {
+  const srcRegex = /\(([^()]+)\)/g;
+  return String(txt ?? "").replace(srcRegex, (_, src) => `(${prettifySourceLabel(src)})`);
+}
+
 function cmp(a, b, key) {
   if (key === "k") {
     const na = toNum(a.k);
@@ -144,6 +217,254 @@ function escHtml(v) {
     .replace(/'/g, "&#39;");
 }
 
+function formatCoeff(v) {
+  const n = Number(v);
+  return Number.isFinite(n) ? String(n) : String(v);
+}
+
+const SUB_DIGITS = { "0":"₀","1":"₁","2":"₂","3":"₃","4":"₄","5":"₅","6":"₆","7":"₇","8":"₈","9":"₉" };
+const SUP_DIGITS = { "0":"⁰","1":"¹","2":"²","3":"³","4":"⁴","5":"⁵","6":"⁶","7":"⁷","8":"⁸","9":"⁹" };
+const SUP_SIGN = { "+":"⁺", "-":"⁻" };
+
+function toSubDigits(s) {
+  return String(s).replace(/\d/g, d => SUB_DIGITS[d] || d);
+}
+
+function toSupCharge(mag, sign) {
+  let md = String(mag || "");
+  const sg = String(sign || "");
+  if (!sg) return "";
+  if (md === "1") md = "";
+  if (!md) return SUP_SIGN[sg] || sg;
+  return md.replace(/\d/g, d => SUP_DIGITS[d] || d) + (SUP_SIGN[sg] || sg);
+}
+
+function extractTrailingChargeToken(s) {
+  const txt = String(s ?? "").trim();
+  let m = txt.match(/^(.*?)([+-])(\d+)$/);
+  if (m) return { sign: m[2], mag: m[3] };
+  m = txt.match(/^(.*?)(\d+)([+-])$/);
+  if (m) return { sign: m[3], mag: m[2] };
+  m = txt.match(/^(.*?)([+-])$/);
+  if (m) return { sign: m[2], mag: "" };
+  return null;
+}
+
+function hasTrailingChargeToken(s) {
+  return !!extractTrailingChargeToken(s);
+}
+
+function applyGroupMultiplicityNotation(s) {
+  let out = String(s ?? "");
+  // Legacy pattern: X^(charge)(n)Y  -> [X^(charge)]_n Y
+  // Example: Sn(CH3)2²⁺(2)OH⁻ -> [Sn(CH3)2²⁺]₂OH⁻
+  out = out.replace(/(.+?[⁺⁻])\((\d+)\)(.*)/g, (_, grp, n, rest) => `[${grp}]${toSubDigits(n)}${rest}`);
+  return out;
+}
+
+function formatSpeciesChemHtml(speciesRaw) {
+  const raw = String(speciesRaw ?? "").trim();
+  if (!raw) return "";
+
+  const fmtOne = (partRaw) => {
+    let part = partRaw.trim();
+    if (!part) return "";
+    // Remove inline formula annotations from display, and transfer charge when useful:
+    // "Sn(Ox)3---- formula= Sn((COO)2)3-4" -> "Sn(Ox)34-" (then rendered as Sn(Ox)₃⁴⁻)
+    const formulaAnn = part.match(/^(.*?)\s*-{2,}\s*formula\s*=\s*(.+)$/i);
+    if (formulaAnn) {
+      part = formulaAnn[1].trim();
+      const ann = formulaAnn[2].trim();
+      const annCharge = extractTrailingChargeToken(ann);
+      if (annCharge && !hasTrailingChargeToken(part)) {
+        part = `${part}${annCharge.mag || ""}${annCharge.sign}`;
+      }
+    }
+    // Protect IUPAC locants like "1-,2,3,4-" (not ionic charges).
+    part = part.replace(/(\d+)-(?=,)/g, "$1§§LOC_DASH§§");
+    // Normalize slash-charge notation anywhere in the token:
+    // HO/- -> HO-, Cl1/- -> Cl-, SO42/- -> SO42-
+    part = part.replace(/([A-Za-z0-9\)\]])\s*(\d*)\s*\/\s*([+-])/g, (_, base, n, sgn) => {
+      const mag = n && n !== "1" ? n : "";
+      return `${base}${mag}${sgn}`;
+    });
+    // Legacy charge notation from some sources: Cl1/- -> Cl-, SO4 2/- -> SO4 2-
+    part = part.replace(/(\d+)\s*\/\s*([+-])$/, (_, n, sgn) => (n === "1" ? sgn : `${n}${sgn}`));
+    // Variant without explicit magnitude: HO/- -> HO-
+    part = part.replace(/\/\s*([+-])$/, "$1");
+    // Legacy multiplicity notation: H+1(2) -> (H+)2
+    part = part.replace(/([A-Za-z][A-Za-z0-9\(\)\[\]\.]*)([+-])1\((\d+)\)/g, "($1$2)$3");
+
+    // Extract trailing charge first to avoid mixing it with formula indices.
+    // Supported tails: +3, 3+, -, +, -2, 2-
+    let core = part;
+    let sign = "";
+    let mag = "";
+    let m = core.match(/^(.*?)([+-])(\d+)$/);
+    if (m) {
+      const candCore = m[1];
+      const candSign = m[2];
+      const digits = m[3];
+      const upperCount = (candCore.match(/[A-Z]/g) || []).length;
+      const hasComplexCore = /[\(\)\[\]]/.test(candCore) || /\d/.test(candCore);
+      const coreEndsWithDigit = /\d$/.test(candCore);
+      // Polyatomic legacy style like "NO-3" should read as NO3- (index 3, unit charge).
+      if ((upperCount > 1 || hasComplexCore) && digits.length === 1 && !coreEndsWithDigit) {
+        core = `${candCore}${digits}`;
+        sign = candSign;
+        mag = "";
+      } else {
+        core = candCore;
+        sign = candSign;
+        mag = digits;
+      }
+    } else {
+      m = core.match(/^(.*?)(\d+)([+-])$/);
+      if (m) {
+        const candCore = m[1];
+        const digits = m[2];
+        const candSign = m[3];
+        const upperCount = (candCore.match(/[A-Z]/g) || []).length;
+        const hasComplexCore = /[\(\)\[\]]/.test(candCore) || /\d/.test(candCore);
+        // Heuristic:
+        // - "Al3+" => Al^(3+) (single-element ion charge)
+        // - "NO3-" => NO3^- (formula index + unit charge)
+        // - "NdNO32+" => NdNO3^(2+)
+        if ((upperCount > 1 || hasComplexCore) && digits.length > 1) {
+          core = `${candCore}${digits.slice(0, -1)}`;
+          mag = digits.slice(-1);
+          sign = candSign;
+        } else if (upperCount > 1 || hasComplexCore) {
+          core = `${candCore}${digits}`;
+          sign = candSign;
+          mag = "";
+        } else {
+          core = candCore;
+          mag = digits;
+          sign = candSign;
+        }
+      } else {
+        m = core.match(/^(.*?)([+-])$/);
+        if (m) {
+          core = m[1];
+          sign = m[2];
+          mag = "";
+        }
+      }
+    }
+
+    // Protect inline ion charges before subscript pass:
+    // Ni2+, Fe3+, SO4-2, Cl-, etc.
+    let coreProtected = core;
+    coreProtected = coreProtected.replace(
+      /([A-Za-z][A-Za-z0-9\(\)\[\]\.]*)\+(\d+)(?=(?:\s|$|[\(\)\];:_]))/g,
+      "$1§§+|$2§§"
+    );
+    coreProtected = coreProtected.replace(
+      /\b([A-Z][a-z]?)(\d+)\+(?=(?:\s|$|[\(\)\];:_]))/g,
+      "$1§§+|$2§§"
+    );
+    coreProtected = coreProtected.replace(
+      /([A-Za-z][A-Za-z0-9\(\)\[\]\.]*)\+(?=(?:\s|$|[\)\];:_]))/g,
+      "$1§§+|§§"
+    );
+    coreProtected = coreProtected.replace(
+      /([A-Za-z][A-Za-z0-9\(\)\[\]\.]*)-(\d+)(?=(?:\s|$|[\(\)\];:_]))/g,
+      "$1§§-|$2§§"
+    );
+    coreProtected = coreProtected.replace(
+      /\b([A-Z][a-z]?)(\d+)-(?=(?:\s|$|[\(\)\];:_]))/g,
+      "$1§§-|$2§§"
+    );
+    coreProtected = coreProtected.replace(
+      /([A-Za-z][A-Za-z0-9\(\)\[\]\.]*)-(?=(?:\s|$|[\)\];:_]))/g,
+      "$1§§-|§§"
+    );
+
+    let htmlCore = coreProtected;
+    // Formula indices: H2O, (CH3)3, UO2; omit explicit index 1.
+    htmlCore = htmlCore.replace(/([A-Za-z\)\]\}])(\d+)/g, (_, a, d) => {
+      if (String(d) === "1") return `${a}`;
+      return `${a}${toSubDigits(d)}`;
+    });
+    // Restore protected charges as Unicode superscripts.
+    htmlCore = htmlCore.replace(/§§([+-])\|(\d+)§§/g, (_, sgn, d) => toSupCharge(d, sgn));
+    htmlCore = htmlCore.replace(/§§([+-])\|§§/g, (_, sgn) => toSupCharge("", sgn));
+    // Restore protected IUPAC locant dashes.
+    htmlCore = htmlCore.replace(/§§LOC_DASH§§/g, "-");
+
+    if (!sign) return escHtml(applyGroupMultiplicityNotation(htmlCore));
+    return escHtml(applyGroupMultiplicityNotation(`${htmlCore}${toSupCharge(mag, sign)}`));
+  };
+
+  // Underscores are technical separators in some source notations; hide them in display.
+  return raw.split("_").map(fmtOne).join("");
+}
+
+function formatEquationChemHtml(eqRaw) {
+  const raw = String(eqRaw ?? "").replace(/\s+/g, " ").trim();
+  if (!raw) return "";
+  if (!raw.includes("=")) return formatSpeciesChemHtml(raw);
+
+  const formatSide = (side) => {
+    const sideNorm = String(side ?? "")
+      // Strong normalization for split ionic charges in equation text:
+      // "Al + 3 + -4 H2O" -> "Al+3 + -4 H2O"
+      .replace(/\b([A-Za-z][A-Za-z0-9\(\)\[\]\.]*)\s+\+\s+(\d+)\b/g, "$1+$2")
+      .replace(/\b([A-Za-z][A-Za-z0-9\(\)\[\]\.]*)\s-\s(\d+)\b/g, "$1-$2")
+      // Explicitly collapse ion charge written as "X + n" -> "X+n"
+      // before splitting on " + " separators.
+      .replace(/\b([A-Z][a-z]?[A-Za-z0-9\)\]\}]*)\s*\+\s*(\d+)(?=\s*(?:\+|$))/g, "$1+$2")
+      .replace(/\b([A-Z][a-z]?[A-Za-z0-9\)\]\}]*)\s*-\s*(\d+)(?=\s*(?:\+|$))/g, "$1-$2")
+      // Re-attach split charge notation before term splitting:
+      // "Ca + 2" -> "Ca+2", "Fe 3 +" -> "Fe3+"
+      .replace(/([A-Za-z0-9\)\]\}])\s*([+-])\s*(\d+)(?=\s*(?:\+|$))/g, "$1$2$3")
+      .replace(/([A-Za-z0-9\)\]\}])\s*(\d+)\s*([+-])(?=\s*(?:\+|$))/g, "$1$2$3")
+      .replace(/([A-Za-z0-9\)\]\}])\s*([+-])(?=\s*(?:\+|$))/g, "$1$2")
+      // Some sources glue a separator and next coefficient: "...(s)+4 H+"
+      .replace(/([^\s])\+([+-]?\d+(?:\.\d+)?)\s+/g, "$1 + $2 ");
+    const rawTerms = sideNorm.split(/\s+\+\s+/).map(t => t.trim()).filter(Boolean);
+    // Rebuild terms to avoid splitting ionic charges written as "Ca + 2", "Al + 3".
+    const terms = [];
+    for (let i = 0; i < rawTerms.length; i++) {
+      const t = rawTerms[i];
+      const next = i + 1 < rawTerms.length ? rawTerms[i + 1] : "";
+      const coeffSpecies = t.match(/^([+-]?\d+(?:\.\d+)?)\s+([A-Za-z][A-Za-z0-9\(\)\[\]\.\-]*)$/);
+      if (coeffSpecies && /^\d+$/.test(next)) {
+        // "3 Ca + 2" -> "3 Ca+2"
+        terms.push(`${coeffSpecies[1]} ${coeffSpecies[2]}+${next}`);
+        i++;
+        continue;
+      }
+      const looksLikeSpecies =
+        /^[A-Za-z][A-Za-z0-9\(\)\[\]\.\-]*$/.test(t) ||
+        /^[A-Za-z][A-Za-z0-9\(\)\[\]\.\-]*\s*\([^)]+\)$/.test(t);
+      const looksLikeChargeMagnitude = /^\d+$/.test(next);
+      if (looksLikeSpecies && looksLikeChargeMagnitude) {
+        terms.push(`${t}+${next}`);
+        i++;
+      } else {
+        terms.push(t);
+      }
+    }
+    const out = [];
+    for (const t of terms) {
+      const m = t.match(/^([+-]?\d+(?:\.\d+)?)\s+(.+)$/);
+      if (m) {
+        const coeff = formatCoeff(m[1]);
+        out.push(`${escHtml(coeff)} ${formatSpeciesChemHtml(m[2])}`);
+      } else {
+        out.push(formatSpeciesChemHtml(t));
+      }
+    }
+    return out.join(" + ");
+  };
+
+  const parts = raw.split("=");
+  if (parts.length !== 2) return formatSpeciesChemHtml(raw);
+  return `${formatSide(parts[0].trim())} = ${formatSide(parts[1].trim())}`;
+}
+
 function renderTable() {
   const totalPages = Math.max(1, Math.ceil(filteredRows.length / pageSize));
   if (page > totalPages) page = totalPages;
@@ -156,10 +477,10 @@ function renderTable() {
       <td class="mono">${start + idx + 1}</td>
       <td class="mono hidden-col">${escHtml(r.p)}</td>
       <td class="mono hidden-col">${escHtml(r.h || "")}</td>
-      <td class="mono">${escHtml(r.e)}</td>
-      <td class="mono">${escHtml(r.k)}</td>
-      <td class="mono">${escHtml(r.c)}</td>
-      <td>${escHtml(r.x)}</td>
+      <td class="mono chem-eq">${formatEquationChemHtml(r.e)}</td>
+      <td class="mono">${escHtml(formatAvgLogK(r.k))}</td>
+      <td class="mono">${escHtml(formatContributingLogK(r.c))}</td>
+      <td>${escHtml(formatExpConditions(r.x))}</td>
       <td>${escHtml(r.m)}</td>
       <td class="hidden-col">${escHtml(r.rf)}</td>
     </tr>
@@ -180,7 +501,7 @@ function applyFilterSortAndRender() {
     if (!rowHasAllAtoms(r, selectedAtoms)) return false;
     if (!rowHasSelectedSources(r, selectedSources)) return false;
     if (!searchText) return true;
-    const blob = [r.p, r.h, r.e, r.k, r.c, r.x, r.m, r.rf].join(" ").toLowerCase();
+    const blob = [r.p, r.h, r.e, r.k, r.c, r.x, r.rf].join(" ").toLowerCase();
     return blob.includes(searchText);
   });
   filteredRows.sort((a, b) => (sortAsc ? cmp(a, b, sortKey) : -cmp(a, b, sortKey)));
@@ -335,7 +656,9 @@ function buildDatabaseFilters() {
       await refreshDataFromSelection();
     });
     const text = document.createElement("span");
-    text.textContent = src;
+    const cnt = manifest && manifest.source_count ? Number(manifest.source_count[src] || 0) : 0;
+    text.textContent = cnt > 0 ? `${prettifySourceLabel(src)} (${cnt})` : prettifySourceLabel(src);
+    text.title = src;
     label.appendChild(cb);
     label.appendChild(text);
     dbFilters.appendChild(label);

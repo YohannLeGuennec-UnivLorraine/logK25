@@ -6,6 +6,8 @@
 ## Extraction Statistics
 - Raw extracted records: **136840**
 - Merged unique records: **128591**
+- Pilot selection size: **6429** (5% of merged rows target)
+- Equation rows changed after prettify: **3485**
 
 ### Records By Source Family
 - `AqSolDB-logS`: 9982

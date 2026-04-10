@@ -39,6 +39,11 @@ This repository builds a merged thermodynamic equilibrium dataset at 25 C from m
   - Aqueous solubility values (logS) stored as a solubility proxy entry.
   - Important: this is not a direct thermodynamic equilibrium constant.
 
+## Complementary online source
+
+- SC-Database (EquilibriumData): https://equilibriumdata.github.io/sc-database.html
+  - Useful complementary online source for additional equilibrium-related information.
+
 ## Merging and conventions
 
 - Merging key uses:

@@ -225,6 +225,7 @@ $rows = Import-Csv -Delimiter "`t" -Path $inPath
 $chunks = @{}
 $atomToChunks = @{}
 $sourceToChunks = @{}
+$sourceCounts = @{}
 $allSources = New-Object System.Collections.Generic.HashSet[string]
 $total = 0
 
@@ -264,6 +265,7 @@ foreach ($r in $rows) {
     }
     foreach ($s in $sources) {
         [void]$allSources.Add($s)
+        if ($sourceCounts.ContainsKey($s)) { $sourceCounts[$s] += 1 } else { $sourceCounts[$s] = 1 }
         if (-not $sourceToChunks.ContainsKey($s)) {
             $sourceToChunks[$s] = New-Object System.Collections.Generic.HashSet[string]
         }
@@ -289,6 +291,10 @@ $sourceChunksOut = @{}
 foreach ($s in ($sourceToChunks.Keys | Sort-Object)) {
     $sourceChunksOut[$s] = @($sourceToChunks[$s] | Sort-Object)
 }
+$sourceCountsOut = @{}
+foreach ($s in ($sourceCounts.Keys | Sort-Object)) {
+    $sourceCountsOut[$s] = [int]$sourceCounts[$s]
+}
 
 $manifest = [PSCustomObject]@{
     generated_at = (Get-Date).ToString('s')
@@ -297,6 +303,7 @@ $manifest = [PSCustomObject]@{
     atom_to_chunks = $atomChunksOut
     sources = @($allSources | Sort-Object)
     source_to_chunks = $sourceChunksOut
+    source_count = $sourceCountsOut
 }
 
 [System.IO.File]::WriteAllText(

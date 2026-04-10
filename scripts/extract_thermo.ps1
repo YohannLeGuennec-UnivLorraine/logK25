@@ -7,6 +7,128 @@ New-Item -ItemType Directory -Force -Path $outDir | Out-Null
 
 $records = New-Object System.Collections.Generic.List[object]
 $recordSigSet = New-Object System.Collections.Generic.HashSet[string]
+$script:PrettifyRolloutPercent = 5
+$script:PrettifySelectedCount = 0
+$script:PrettifyTouchedCount = 0
+
+function Get-DeterministicBucket100([string]$text) {
+    if ($null -eq $text) { $text = '' }
+    $bytes = [System.Text.Encoding]::UTF8.GetBytes($text)
+    $md5 = [System.Security.Cryptography.MD5]::Create()
+    try {
+        $hash = $md5.ComputeHash($bytes)
+    } finally {
+        $md5.Dispose()
+    }
+    $u = [BitConverter]::ToUInt32($hash, 0)
+    return [int]($u % 100)
+}
+
+function Get-DeterministicUInt32([string]$text) {
+    if ($null -eq $text) { $text = '' }
+    $bytes = [System.Text.Encoding]::UTF8.GetBytes($text)
+    $md5 = [System.Security.Cryptography.MD5]::Create()
+    try {
+        $hash = $md5.ComputeHash($bytes)
+    } finally {
+        $md5.Dispose()
+    }
+    return [BitConverter]::ToUInt32($hash, 0)
+}
+
+function Format-Coefficient([double]$v) {
+    return [string]::Format([System.Globalization.CultureInfo]::InvariantCulture, '{0:0.###}', $v)
+}
+
+function Normalize-ChargeNotation([string]$species) {
+    if ([string]::IsNullOrWhiteSpace($species)) { return '' }
+    $x = $species.Trim()
+    # NIST-like notation, e.g. Br1/- or H1O4S1/- -> Br- / H1O4S1-
+    $x = [regex]::Replace($x, '(.*?)(\d+)\/([+-])$', {
+        param($m)
+        if ($m.Groups[2].Value -eq '1') { return ($m.Groups[1].Value + $m.Groups[3].Value) }
+        return ($m.Groups[1].Value + $m.Groups[3].Value + $m.Groups[2].Value)
+    })
+    $x = [regex]::Replace($x, '\s*([+-])\s*(\d+)\s*$', '$1$2')
+    $x = [regex]::Replace($x, '\s*(\d+)\s*([+-])\s*$', '$2$1')
+    if ($x -match '^(.*?)(\+{2,})$') { $x = ($matches[1] + '+' + $matches[2].Length) }
+    elseif ($x -match '^(.*?)(-{2,})$') { $x = ($matches[1] + '-' + $matches[2].Length) }
+    if ($x -match '^(.*?)([+-])1$') { $x = ($matches[1] + $matches[2]) }
+    return $x
+}
+
+function Prettify-SpeciesBySource([string]$sourceFamily, [string]$species) {
+    if ([string]::IsNullOrWhiteSpace($species)) { return '' }
+    $s = Normalize-Species $species
+    $s = Normalize-ChargeNotation $s
+    if ($sourceFamily -eq 'NIST-SRD46') {
+        # Keep NIST placeholders readable when they leak through.
+        $s = $s -replace '^\(([^()]+)\)$', '$1'
+    }
+    return $s
+}
+
+function Prettify-EquationBySource([string]$sourceFamily, [string]$eq) {
+    if ([string]::IsNullOrWhiteSpace($eq)) { return '' }
+    $raw = ($eq -replace '\s+', ' ').Trim()
+    if ($raw -notmatch '=') { return $raw }
+    $parts = $raw -split '='
+    if ($parts.Count -ne 2) { return $raw }
+
+    $prettifySide = {
+        param([string]$side)
+        $out = @()
+        $terms = $side.Trim() -split '\s+\+\s+'
+        foreach ($t in $terms) {
+            $tt = $t.Trim()
+            if ([string]::IsNullOrWhiteSpace($tt)) { continue }
+            $coeff = 1.0
+            $sp = $tt
+            if ($tt -match '^([+-]?\d+(?:\.\d+)?)\s+(.+)$') {
+                $coeff = [double]$matches[1]
+                $sp = $matches[2].Trim()
+            } elseif (
+                ($sourceFamily -in @('Thermoddem-PHREEQC','PSINagra-PHREEQC','JESS-PHREEQC-like')) -and
+                ($tt -match '^([+-]?\d+\.\d+)([A-Za-z\(\[].+)$')
+            ) {
+                # PHREEQC-like exports often glue coefficient and species: 2.000CH4
+                $coeff = [double]$matches[1]
+                $sp = $matches[2].Trim()
+            }
+            $sp = Prettify-SpeciesBySource $sourceFamily $sp
+            if ([Math]::Abs($coeff - 1.0) -lt 1.0E-12) {
+                $out += $sp
+            } else {
+                $out += ('{0} {1}' -f (Format-Coefficient $coeff), $sp)
+            }
+        }
+        return ($out -join ' + ')
+    }
+
+    $lhs = & $prettifySide $parts[0]
+    $rhs = & $prettifySide $parts[1]
+    return ('{0} = {1}' -f $lhs, $rhs)
+}
+
+function Infer-SourceFamilyFromContrib([string]$contrib) {
+    if ([string]::IsNullOrWhiteSpace($contrib)) { return '' }
+    $m = [regex]::Match($contrib, '\(([^()]+)\)')
+    if (-not $m.Success) { return '' }
+    $tag = $m.Groups[1].Value
+    if ($tag -like 'GWB-*') { return 'GWB' }
+    if ($tag -like 'Medusa-*') { return 'MedusaText' }
+    if ($tag -like 'Thermoddem-GWB-*') { return 'Thermoddem-GWB' }
+    if ($tag -like 'Thermoddem-PHREEQC-*') { return 'Thermoddem-PHREEQC' }
+    if ($tag -like 'Thermoddem-ToughReact-*') { return 'Thermoddem-ToughReact' }
+    if ($tag -like 'Thermoddem-CHESS-*') { return 'Thermoddem-CHESS' }
+    if ($tag -like 'Thermoddem-Crunch-*') { return 'Thermoddem-Crunch' }
+    if ($tag -like 'PSINagra-PHREEQC-*') { return 'PSINagra-PHREEQC' }
+    if ($tag -like 'JESS-PHREEQC-like-*') { return 'JESS-PHREEQC-like' }
+    if ($tag -like 'NIST-SRD46-*') { return 'NIST-SRD46' }
+    if ($tag -like 'IUPAC-pKa-*') { return 'IUPAC-pKa' }
+    if ($tag -like 'AqSolDB-logS-*') { return 'AqSolDB-logS' }
+    return ''
+}
 
 function Normalize-Species([string]$s) {
     if ($null -eq $s) { return '' }
@@ -986,7 +1108,30 @@ foreach ($r in $finalRows) {
     if ($finalSig.Add($s)) { $finalNoDup.Add($r) | Out-Null }
 }
 
-$final = $finalNoDup | Sort-Object product, {[double]$_.logK}
+$final = @($finalNoDup | Sort-Object product, {[double]$_.logK})
+
+# Pilot rollout: prettify exactly 5% of merged rows (deterministic selection).
+$targetPrettify = [int][Math]::Floor(($final.Count * $script:PrettifyRolloutPercent) / 100.0)
+if ($targetPrettify -gt 0) {
+    $ranked = foreach ($r in $final) {
+        $k = ('{0}|{1}|{2}' -f [string]$r.product, [string]$r.equation_full, [string]$r.contributing_logK)
+        [PSCustomObject]@{
+            row = $r
+            key = (Get-DeterministicUInt32 $k)
+        }
+    }
+    $picked = $ranked | Sort-Object key | Select-Object -First $targetPrettify
+    $script:PrettifySelectedCount = $picked.Count
+    foreach ($p in $picked) {
+        $r = $p.row
+        $src = Infer-SourceFamilyFromContrib ([string]$r.contributing_logK)
+        $newEq = Prettify-EquationBySource $src ([string]$r.equation_full)
+        if ($newEq -ne $r.equation_full) {
+            $r.equation_full = $newEq
+            $script:PrettifyTouchedCount++
+        }
+    }
+}
 
 $tsvPath = Join-Path $outDir 'thermo_equilibrium_merged.tsv'
 $final | Export-Csv -Path $tsvPath -Delimiter "`t" -NoTypeInformation -Encoding UTF8
@@ -1010,6 +1155,8 @@ $md = New-Object System.Text.StringBuilder
 [void]$md.AppendLine('## Extraction Statistics')
 [void]$md.AppendLine(('- Raw extracted records: **{0}**' -f $rawCount))
 [void]$md.AppendLine(('- Merged unique records: **{0}**' -f $mergedCount))
+[void]$md.AppendLine(('- Pilot selection size: **{0}** ({1}% of merged rows target)' -f $script:PrettifySelectedCount, $script:PrettifyRolloutPercent))
+[void]$md.AppendLine(('- Equation rows changed after prettify: **{0}**' -f $script:PrettifyTouchedCount))
 [void]$md.AppendLine('')
 [void]$md.AppendLine('### Records By Source Family')
 foreach ($g in $summaryBySource) {
@@ -1193,3 +1340,5 @@ Write-Output ('Created: {0}' -f $tsvPath)
 Write-Output ('Created: {0}' -f $mdPath)
 Write-Output ('Created: {0}' -f $htmlPath)
 Write-Output ('Raw records: {0}; merged records: {1}' -f $rawCount, $mergedCount)
+Write-Output ('Pilot selection size: {0} ({1}% of merged rows target)' -f $script:PrettifySelectedCount, $script:PrettifyRolloutPercent)
+Write-Output ('Equation rows changed after prettify: {0}' -f $script:PrettifyTouchedCount)
