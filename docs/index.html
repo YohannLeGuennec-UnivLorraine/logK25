@@ -17,6 +17,8 @@
     <div class="controls">
       <button id="loadAllBtn" type="button">Load All Data</button>
       <button id="exportCsvBtn" type="button">Export CSV</button>
+      <button id="hideSelectedBtn" type="button">Export Selected CSV</button>
+      <button id="resetHiddenBtn" type="button">Clear Selection</button>
       <input id="searchInput" type="text" placeholder="Search in loaded rows..." />
       <label for="pageSize">Rows/page</label>
       <select id="pageSize">
@@ -60,6 +62,7 @@
       <table id="tbl">
         <thead>
           <tr>
+            <th>Sel</th>
             <th>#</th>
             <th data-k="p" class="hidden-col">Product</th>
             <th data-k="h" class="hidden-col">Hill formulas</th>
@@ -88,6 +91,6 @@
       <p>Tool developed by Yohann Le Guennec.</p>
     </footer>
   </div>
-  <script src="./app.js?v=20260410-chemfmt"></script>
+  <script src="./app.js?v=20260410-selection-export"></script>
 </body>
 </html>

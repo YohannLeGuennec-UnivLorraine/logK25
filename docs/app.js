@@ -28,6 +28,8 @@ const pageInfoBottom = document.getElementById("pageInfoBottom");
 const statusEl = document.getElementById("status");
 const loadAllBtn = document.getElementById("loadAllBtn");
 const exportCsvBtn = document.getElementById("exportCsvBtn");
+const hideSelectedBtn = document.getElementById("hideSelectedBtn");
+const resetHiddenBtn = document.getElementById("resetHiddenBtn");
 const searchInput = document.getElementById("searchInput");
 const dbPanel = document.querySelector(".db-panel");
 const dbToggleBtn = document.getElementById("dbToggleBtn");
@@ -54,6 +56,11 @@ let searchText = "";
 let equationDisplayMode = "pretty"; // pretty | raw
 const selectedSources = new Set();
 const defaultPageSize = Number(pageSizeSelect.value);
+const selectedRowKeys = new Set();
+
+function getRowKey(r) {
+  return `${String(r.p ?? "")}¦${String(r.e ?? "")}¦${String(r.k ?? "")}¦${String(r.c ?? "")}`;
+}
 
 function readUrlState() {
   const p = new URLSearchParams(window.location.search || "");
@@ -509,6 +516,7 @@ function renderTable() {
 
   tbody.innerHTML = rows.map((r, idx) => `
     <tr>
+      <td class="mono"><input type="checkbox" class="row-select" data-key="${encodeURIComponent(getRowKey(r))}" ${selectedRowKeys.has(getRowKey(r)) ? "checked" : ""} /></td>
       <td class="mono">${start + idx + 1}</td>
       <td class="mono hidden-col">${escHtml(r.p)}</td>
       <td class="mono hidden-col">${escHtml(r.h || "")}</td>
@@ -520,6 +528,15 @@ function renderTable() {
       <td class="hidden-col">${escHtml(r.rf)}</td>
     </tr>
   `).join("");
+
+  tbody.querySelectorAll("input.row-select").forEach(cb => {
+    cb.addEventListener("change", () => {
+      const key = decodeURIComponent(cb.dataset.key || "");
+      if (!key) return;
+      if (cb.checked) selectedRowKeys.add(key);
+      else selectedRowKeys.delete(key);
+    });
+  });
 
   const pageText = `Page ${page}/${totalPages}`;
   pageInfo.textContent = pageText;
@@ -574,6 +591,36 @@ function exportCurrentViewCsv() {
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
   setStatus(`Exported ${filteredRows.length} row(s) to CSV.`);
+}
+
+function exportSelectedCsv() {
+  if (!loadedRows || loadedRows.length === 0) {
+    setStatus("No loaded rows.");
+    return;
+  }
+  const picked = loadedRows.filter(r => selectedRowKeys.has(getRowKey(r)));
+  if (picked.length === 0) {
+    setStatus("No selected equations to export.");
+    return;
+  }
+  const headers = ["Product", "Hill formulas", "Equation", "Average logK", "logK", "Exp. conditions", "Database comments", "Reference (consolidated)"];
+  const lines = [headers.map(escapeCsvField).join(",")];
+  for (const r of picked) {
+    const row = [r.p, r.h, r.e, r.k, r.c, r.x, r.m, r.rf].map(escapeCsvField).join(",");
+    lines.push(row);
+  }
+  const csv = lines.join("\r\n");
+  const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  const stamp = new Date().toISOString().replace(/[:.]/g, "-");
+  a.href = url;
+  a.download = `logK25_selected_rows_${stamp}.csv`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  setStatus(`Exported ${picked.length} selected row(s) to CSV.`);
 }
 
 async function fetchJson(path) {
@@ -815,6 +862,21 @@ function bindEvents() {
   exportCsvBtn.addEventListener("click", () => {
     exportCurrentViewCsv();
   });
+
+  if (hideSelectedBtn) {
+    hideSelectedBtn.addEventListener("click", () => {
+      exportSelectedCsv();
+    });
+  }
+
+  if (resetHiddenBtn) {
+    resetHiddenBtn.addEventListener("click", () => {
+      const n = selectedRowKeys.size;
+      selectedRowKeys.clear();
+      renderTable();
+      setStatus(n > 0 ? `Cleared ${n} selected equation(s).` : "No selected equation to clear.");
+    });
+  }
 
   if (searchInput) {
     searchInput.addEventListener("input", () => {
