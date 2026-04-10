@@ -18,6 +18,7 @@ const periodic = document.getElementById("periodic");
 const tbody = document.querySelector("#tbl tbody");
 const headers = [...document.querySelectorAll("th[data-k]")];
 const pageSizeSelect = document.getElementById("pageSize");
+const eqFmtBtn = document.getElementById("eqFmtBtn");
 const prevBtn = document.getElementById("prevBtn");
 const nextBtn = document.getElementById("nextBtn");
 const pageInfo = document.getElementById("pageInfo");
@@ -50,6 +51,7 @@ let loadAllMode = false;
 let manifestLoaded = false;
 let dataVersion = "";
 let searchText = "";
+let equationDisplayMode = "pretty"; // pretty | raw
 const selectedSources = new Set();
 const defaultPageSize = Number(pageSizeSelect.value);
 
@@ -61,12 +63,14 @@ function readUrlState() {
   const loadAll = p.get("all") === "1";
   const psRaw = p.get("ps");
   const ps = Number(psRaw);
+  const fmtRaw = (p.get("fmt") || "").trim().toLowerCase();
   return {
     q,
     atoms: atomsRaw ? atomsRaw.split(",").map(s => s.trim()).filter(Boolean) : [],
     sources: srcRaw ? srcRaw.split(",").map(s => s.trim()).filter(Boolean) : [],
     loadAll,
-    pageSize: Number.isFinite(ps) && ps > 0 ? ps : null
+    pageSize: Number.isFinite(ps) && ps > 0 ? ps : null,
+    fmt: (fmtRaw === "raw" || fmtRaw === "pretty") ? fmtRaw : null
   };
 }
 
@@ -76,6 +80,7 @@ function writeUrlState() {
   if (selectedAtoms.size > 0) p.set("a", [...selectedAtoms].sort().join(","));
   if (loadAllMode) p.set("all", "1");
   if (pageSize !== defaultPageSize) p.set("ps", String(pageSize));
+  if (equationDisplayMode === "raw") p.set("fmt", "raw");
   if (manifest && manifest.sources && selectedSources.size > 0 && selectedSources.size < manifest.sources.length) {
     p.set("src", [...selectedSources].sort().join(","));
   }
@@ -407,7 +412,7 @@ function formatEquationChemHtml(eqRaw) {
   if (!raw) return "";
   if (!raw.includes("=")) return formatSpeciesChemHtml(raw);
 
-  const formatSide = (side) => {
+  const parseSide = (side) => {
     const sideNorm = String(side ?? "")
       // Strong normalization for split ionic charges in equation text:
       // "Al + 3 + -4 H2O" -> "Al+3 + -4 H2O"
@@ -448,22 +453,51 @@ function formatEquationChemHtml(eqRaw) {
         terms.push(t);
       }
     }
-    const out = [];
-    for (const t of terms) {
+    return terms.map((t) => {
       const m = t.match(/^([+-]?\d+(?:\.\d+)?)\s+(.+)$/);
       if (m) {
-        const coeff = formatCoeff(m[1]);
-        out.push(`${escHtml(coeff)} ${formatSpeciesChemHtml(m[2])}`);
-      } else {
-        out.push(formatSpeciesChemHtml(t));
+        const c = Number(m[1]);
+        if (Number.isFinite(c)) return { coeff: c, species: m[2] };
       }
-    }
-    return out.join(" + ");
+      return { coeff: 1, species: t };
+    });
+  };
+
+  const fmtTerm = (term) => {
+    const c = Number(term.coeff);
+    const sp = formatSpeciesChemHtml(term.species);
+    if (!Number.isFinite(c)) return sp;
+    const a = Math.abs(c);
+    if (Math.abs(a - 1) < 1.0e-12) return sp;
+    return `${escHtml(formatCoeff(a))} ${sp}`;
+  };
+
+  const formatSideTerms = (arr) => {
+    const out = arr
+      .filter(t => Number.isFinite(Number(t.coeff)) && Math.abs(Number(t.coeff)) > 1.0e-12)
+      .map(fmtTerm);
+    return out.length > 0 ? out.join(" + ") : "0";
   };
 
   const parts = raw.split("=");
   if (parts.length !== 2) return formatSpeciesChemHtml(raw);
-  return `${formatSide(parts[0].trim())} = ${formatSide(parts[1].trim())}`;
+  const lhs = parseSide(parts[0].trim());
+  const rhs = parseSide(parts[1].trim());
+
+  const lhsOut = [];
+  const rhsOut = [];
+  for (const t of lhs) {
+    const c = Number(t.coeff);
+    if (Number.isFinite(c) && c < 0) rhsOut.push({ coeff: -c, species: t.species });
+    else lhsOut.push(t);
+  }
+  for (const t of rhs) {
+    const c = Number(t.coeff);
+    if (Number.isFinite(c) && c < 0) lhsOut.push({ coeff: -c, species: t.species });
+    else rhsOut.push(t);
+  }
+
+  return `${formatSideTerms(lhsOut)} = ${formatSideTerms(rhsOut)}`;
 }
 
 function renderTable() {
@@ -478,7 +512,7 @@ function renderTable() {
       <td class="mono">${start + idx + 1}</td>
       <td class="mono hidden-col">${escHtml(r.p)}</td>
       <td class="mono hidden-col">${escHtml(r.h || "")}</td>
-      <td class="mono chem-eq">${formatEquationChemHtml(r.e)}</td>
+      <td class="mono chem-eq">${equationDisplayMode === "raw" ? escHtml(String(r.e ?? "")) : formatEquationChemHtml(r.e)}</td>
       <td class="mono">${escHtml(formatAvgLogK(r.k))}</td>
       <td class="mono">${escHtml(formatContributingLogK(r.c))}</td>
       <td>${escHtml(formatExpConditions(r.x))}</td>
@@ -726,6 +760,15 @@ function bindEvents() {
     renderTable();
   });
 
+  if (eqFmtBtn) {
+    eqFmtBtn.addEventListener("click", () => {
+      equationDisplayMode = equationDisplayMode === "pretty" ? "raw" : "pretty";
+      eqFmtBtn.textContent = `Equation: ${equationDisplayMode === "pretty" ? "Pretty" : "Raw"}`;
+      writeUrlState();
+      renderTable();
+    });
+  }
+
   prevBtn.addEventListener("click", () => {
     if (page > 1) {
       page--;
@@ -841,6 +884,12 @@ async function init() {
         pageSizeSelect.value = String(urlState.pageSize);
         pageSize = urlState.pageSize;
       }
+    }
+    if (urlState.fmt) {
+      equationDisplayMode = urlState.fmt;
+    }
+    if (eqFmtBtn) {
+      eqFmtBtn.textContent = `Equation: ${equationDisplayMode === "pretty" ? "Pretty" : "Raw"}`;
     }
     if (urlState.q && searchInput) {
       searchInput.value = urlState.q;
