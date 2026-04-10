@@ -4,58 +4,71 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>logK25 database</title>
+  <meta name="theme-color" content="#0f766e" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="logK25" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon-180.png" />
   <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
   <div class="wrap">
-    <h1>logK25 database</h1>
+    <div class="top-header">
+      <div>
+        <h1>logK25 database</h1>
+        <p class="subtitle">Compilation of logK constants at 25°C in aqueous systems.</p>
+      </div>
+      <a class="repo-link repo-link-top" href="https://github.com/YohannLeGuennec-UnivLorraine/thermo-database" target="_blank" rel="noopener noreferrer" title="GitHub repository">
+        <svg class="gh-icon" viewBox="0 0 16 16" aria-hidden="true">
+          <path fill="currentColor" d="M8 0a8 8 0 0 0-2.53 15.59c.4.07.55-.17.55-.38v-1.34c-2.24.49-2.71-.95-2.71-.95-.36-.92-.9-1.16-.9-1.16-.74-.5.06-.49.06-.49.81.06 1.24.84 1.24.84.73 1.24 1.9.88 2.36.67.07-.52.28-.88.5-1.08-1.79-.2-3.67-.9-3.67-4A3.1 3.1 0 0 1 3.7 5.4c-.08-.2-.36-1.03.08-2.14 0 0 .67-.22 2.2.84a7.6 7.6 0 0 1 4 0c1.53-1.06 2.2-.84 2.2-.84.44 1.11.16 1.94.08 2.14a3.1 3.1 0 0 1 .82 2.14c0 3.11-1.89 3.79-3.69 3.99.29.24.54.72.54 1.46v2.16c0 .21.14.45.55.38A8 8 0 0 0 8 0z"/>
+        </svg>
+        <span>Repo</span>
+      </a>
+    </div>
     <div class="meta">
       <span class="pill">Visible rows: <span id="countVisible">0</span></span>
       <span class="pill">Total rows: <span id="countTotal">0</span></span>
+      <button id="dbToggleBtn" class="db-toggle-combo" type="button" aria-label="Toggle databases panel" aria-expanded="true">Databases to include</button>
     </div>
 
+    <div class="db-panel">
+      <div id="dbPanelBody">
+        <div class="db-panel-actions">
+          <button id="dbAllBtn" type="button">All</button>
+          <button id="dbNoneBtn" type="button">None</button>
+          <button id="loadAllBtn" type="button">Load all exp. data</button>
+        </div>
+        <div id="dbFilters" class="db-filters"></div>
+      </div>
+    </div>
+
+    <div id="periodic" class="periodic" title="Click atoms to filter rows"></div>
+    <div class="note">Click atoms to filter rows containing all selected atoms. Atom filtering loads only relevant data chunks.</div>
+
     <div class="controls">
-      <button id="loadAllBtn" type="button">Load All Data</button>
-      <button id="exportCsvBtn" type="button">Export CSV</button>
-      <button id="hideSelectedBtn" type="button">Export Selected CSV</button>
-      <button id="resetHiddenBtn" type="button">Clear Selection</button>
-      <input id="searchInput" type="text" placeholder="Search in loaded rows..." />
+      <button id="prevBtn" type="button">Prev</button>
+      <span id="pageInfo">Page 1/1</span>
+      <button id="nextBtn" type="button">Next</button>
       <label for="pageSize">Rows/page</label>
       <select id="pageSize">
         <option>100</option>
         <option selected>200</option>
         <option>500</option>
       </select>
+      <div id="exportMenuWrap" class="export-menu-wrap export-split">
+        <button id="exportDefaultBtn" type="button">Export CSV</button>
+        <button id="exportMenuBtn" type="button" class="export-arrow-btn" aria-label="Open export menu" aria-haspopup="true" aria-expanded="false">▼</button>
+        <div id="exportMenu" class="export-menu" aria-hidden="true">
+          <button id="exportCurrentBtn" type="button">All rows</button>
+          <button id="exportSelectedBtn" type="button">Selected rows</button>
+        </div>
+      </div>
+      <button id="resetHiddenBtn" type="button">Clear Selection</button>
+      <input id="searchInput" type="text" placeholder="Search in loaded rows..." />
       <button id="eqFmtBtn" type="button" title="Toggle equation display mode">Equation: Pretty</button>
-      <button id="prevBtn" type="button">Prev</button>
-      <span id="pageInfo">Page 1/1</span>
-      <button id="nextBtn" type="button">Next</button>
-      <a class="repo-link" href="https://github.com/YohannLeGuennec-UnivLorraine/thermo-database" target="_blank" rel="noopener noreferrer" title="GitHub repository">
-        <svg class="gh-icon" viewBox="0 0 16 16" aria-hidden="true">
-          <path fill="currentColor" d="M8 0a8 8 0 0 0-2.53 15.59c.4.07.55-.17.55-.38v-1.34c-2.24.49-2.71-.95-2.71-.95-.36-.92-.9-1.16-.9-1.16-.74-.5.06-.49.06-.49.81.06 1.24.84 1.24.84.73 1.24 1.9.88 2.36.67.07-.52.28-.88.5-1.08-1.79-.2-3.67-.9-3.67-4A3.1 3.1 0 0 1 3.7 5.4c-.08-.2-.36-1.03.08-2.14 0 0 .67-.22 2.2.84a7.6 7.6 0 0 1 4 0c1.53-1.06 2.2-.84 2.2-.84.44 1.11.16 1.94.08 2.14a3.1 3.1 0 0 1 .82 2.14c0 3.11-1.89 3.79-3.69 3.99.29.24.54.72.54 1.46v2.16c0 .21.14.45.55.38A8 8 0 0 0 8 0z"/>
-        </svg>
-        <span>Repo</span>
-      </a>
+      <button id="toggleDetailsBtn" type="button">Show details</button>
       <span id="status"></span>
-    </div>
-
-    <div id="periodic" class="periodic" title="Click atoms to filter rows"></div>
-    <div class="note">Click atoms to filter rows containing all selected atoms. Atom filtering loads only relevant data chunks.</div>
-
-    <div class="db-panel">
-      <div class="db-panel-head">
-        <strong>Databases to include</strong>
-        <div class="db-panel-head-actions">
-          <button id="dbToggleBtn" type="button">Reduce</button>
-        </div>
-      </div>
-      <div id="dbPanelBody">
-        <div class="db-panel-actions">
-          <button id="dbAllBtn" type="button">All</button>
-          <button id="dbNoneBtn" type="button">None</button>
-        </div>
-        <div id="dbFilters" class="db-filters"></div>
-      </div>
     </div>
 
     <div class="table-wrap">
@@ -68,21 +81,15 @@
             <th data-k="h" class="hidden-col">Hill formulas</th>
             <th data-k="e">Equation</th>
             <th data-k="k">Average logK</th>
-            <th data-k="c">logK</th>
-            <th data-k="x">Exp. conditions</th>
-            <th data-k="m">Database comments</th>
+            <th data-k="c" class="details-col">logK</th>
+            <th data-k="x" class="details-col">Exp. conditions</th>
+            <th data-k="m" class="details-col">Database comments</th>
             <th data-k="rf" class="hidden-col">Reference (consolidated)</th>
           </tr>
         </thead>
         <tbody></tbody>
       </table>
     </div>
-    <div class="controls bottom-pager">
-      <button id="prevBtnBottom" type="button">Prev</button>
-      <span id="pageInfoBottom">Page 1/1</span>
-      <button id="nextBtnBottom" type="button">Next</button>
-    </div>
-
     <footer class="footer-note">
       <p>
         Disclaimer: all values shown here were extracted from freely accessible databases. No warranty is provided regarding correctness,
@@ -91,6 +98,6 @@
       <p>Tool developed by Yohann Le Guennec.</p>
     </footer>
   </div>
-  <script src="./app.js?v=20260410-selection-export"></script>
+  <script src="./app.js?v=20260410-pwa-v9"></script>
 </body>
 </html>

@@ -16,9 +16,12 @@ const periodicSet = new Set(periodicAtoms);
 
 const periodic = document.getElementById("periodic");
 const tbody = document.querySelector("#tbl tbody");
+const tableEl = document.getElementById("tbl");
+const tableWrapEl = document.querySelector(".table-wrap");
 const headers = [...document.querySelectorAll("th[data-k]")];
 const pageSizeSelect = document.getElementById("pageSize");
 const eqFmtBtn = document.getElementById("eqFmtBtn");
+const toggleDetailsBtn = document.getElementById("toggleDetailsBtn");
 const prevBtn = document.getElementById("prevBtn");
 const nextBtn = document.getElementById("nextBtn");
 const pageInfo = document.getElementById("pageInfo");
@@ -27,12 +30,17 @@ const nextBtnBottom = document.getElementById("nextBtnBottom");
 const pageInfoBottom = document.getElementById("pageInfoBottom");
 const statusEl = document.getElementById("status");
 const loadAllBtn = document.getElementById("loadAllBtn");
-const exportCsvBtn = document.getElementById("exportCsvBtn");
-const hideSelectedBtn = document.getElementById("hideSelectedBtn");
+const exportMenuWrap = document.getElementById("exportMenuWrap");
+const exportDefaultBtn = document.getElementById("exportDefaultBtn");
+const exportMenuBtn = document.getElementById("exportMenuBtn");
+const exportMenu = document.getElementById("exportMenu");
+const exportCurrentBtn = document.getElementById("exportCurrentBtn");
+const exportSelectedBtn = document.getElementById("exportSelectedBtn");
 const resetHiddenBtn = document.getElementById("resetHiddenBtn");
 const searchInput = document.getElementById("searchInput");
 const dbPanel = document.querySelector(".db-panel");
 const dbToggleBtn = document.getElementById("dbToggleBtn");
+const dbTotalRowsSummary = document.getElementById("dbTotalRowsSummary");
 const dbFilters = document.getElementById("dbFilters");
 const dbAllBtn = document.getElementById("dbAllBtn");
 const dbNoneBtn = document.getElementById("dbNoneBtn");
@@ -54,6 +62,9 @@ let manifestLoaded = false;
 let dataVersion = "";
 let searchText = "";
 let equationDisplayMode = "pretty"; // pretty | raw
+let detailsVisible = false;
+let exportMenuOpen = false;
+let periodicMobileMode = null;
 const selectedSources = new Set();
 const defaultPageSize = Number(pageSizeSelect.value);
 const selectedRowKeys = new Set();
@@ -98,12 +109,41 @@ function writeUrlState() {
 
 function setDbPanelCollapsed(collapsed) {
   if (!dbPanel || !dbToggleBtn) return;
-  dbPanel.classList.toggle("collapsed", !!collapsed);
-  dbToggleBtn.textContent = collapsed ? "Expand" : "Reduce";
+  const isCollapsed = !!collapsed;
+  dbPanel.classList.toggle("collapsed", isCollapsed);
+  dbToggleBtn.setAttribute("aria-expanded", isCollapsed ? "false" : "true");
+  if (dbTotalRowsSummary) {
+    const total = manifest ? Number(manifest.total_rows || 0) : 0;
+    dbTotalRowsSummary.textContent = `Total rows: ${total}`;
+    dbTotalRowsSummary.classList.toggle("is-visible", isCollapsed);
+  }
 }
 
 function setStatus(msg) {
   statusEl.textContent = msg || "";
+}
+
+function updateTableWrapHeight() {
+  if (!tableWrapEl) return;
+  const viewportH = window.innerHeight || document.documentElement.clientHeight || 0;
+  const top = tableWrapEl.getBoundingClientRect().top;
+  const bottomGap = 2;
+  const available = Math.max(380, Math.floor(viewportH - top - bottomGap));
+  tableWrapEl.style.setProperty("--table-max-height", `${available}px`);
+}
+
+function setDetailsVisible(visible) {
+  detailsVisible = !!visible;
+  if (tableEl) tableEl.classList.toggle("show-details", detailsVisible);
+  if (toggleDetailsBtn) toggleDetailsBtn.textContent = detailsVisible ? "Hide details" : "Show details";
+}
+
+function setExportMenuOpen(open) {
+  if (!exportMenu || !exportMenuBtn || !exportMenuWrap) return;
+  exportMenuOpen = !!open;
+  exportMenuWrap.classList.toggle("menu-open", exportMenuOpen);
+  exportMenuBtn.setAttribute("aria-expanded", exportMenuOpen ? "true" : "false");
+  exportMenu.setAttribute("aria-hidden", exportMenuOpen ? "false" : "true");
 }
 
 function toNum(v) {
@@ -508,10 +548,11 @@ function formatEquationChemHtml(eqRaw) {
 }
 
 function renderTable() {
-  const totalPages = Math.max(1, Math.ceil(filteredRows.length / pageSize));
-  if (page > totalPages) page = totalPages;
-  const start = (page - 1) * pageSize;
-  const end = Math.min(filteredRows.length, start + pageSize);
+  const hasPagerUi = !!(prevBtn || nextBtn || prevBtnBottom || nextBtnBottom || pageInfo || pageInfoBottom);
+  const totalPages = hasPagerUi ? Math.max(1, Math.ceil(filteredRows.length / pageSize)) : 1;
+  if (hasPagerUi && page > totalPages) page = totalPages;
+  const start = hasPagerUi ? (page - 1) * pageSize : 0;
+  const end = hasPagerUi ? Math.min(filteredRows.length, start + pageSize) : filteredRows.length;
   const rows = filteredRows.slice(start, end);
 
   tbody.innerHTML = rows.map((r, idx) => `
@@ -522,9 +563,9 @@ function renderTable() {
       <td class="mono hidden-col">${escHtml(r.h || "")}</td>
       <td class="mono chem-eq">${equationDisplayMode === "raw" ? escHtml(String(r.e ?? "")) : formatEquationChemHtml(r.e)}</td>
       <td class="mono">${escHtml(formatAvgLogK(r.k))}</td>
-      <td class="mono">${escHtml(formatContributingLogK(r.c))}</td>
-      <td>${escHtml(formatExpConditions(r.x))}</td>
-      <td>${escHtml(r.m)}</td>
+      <td class="mono details-col">${escHtml(formatContributingLogK(r.c))}</td>
+      <td class="details-col">${escHtml(formatExpConditions(r.x))}</td>
+      <td class="details-col">${escHtml(r.m)}</td>
       <td class="hidden-col">${escHtml(r.rf)}</td>
     </tr>
   `).join("");
@@ -538,13 +579,15 @@ function renderTable() {
     });
   });
 
-  const pageText = `Page ${page}/${totalPages}`;
-  pageInfo.textContent = pageText;
-  if (pageInfoBottom) pageInfoBottom.textContent = pageText;
-  prevBtn.disabled = page <= 1;
-  nextBtn.disabled = page >= totalPages;
-  if (prevBtnBottom) prevBtnBottom.disabled = page <= 1;
-  if (nextBtnBottom) nextBtnBottom.disabled = page >= totalPages;
+  if (hasPagerUi) {
+    const pageText = `Page ${page}/${totalPages}`;
+    if (pageInfo) pageInfo.textContent = pageText;
+    if (pageInfoBottom) pageInfoBottom.textContent = pageText;
+    if (prevBtn) prevBtn.disabled = page <= 1;
+    if (nextBtn) nextBtn.disabled = page >= totalPages;
+    if (prevBtnBottom) prevBtnBottom.disabled = page <= 1;
+    if (nextBtnBottom) nextBtnBottom.disabled = page >= totalPages;
+  }
   updateCounts();
 }
 
@@ -792,6 +835,13 @@ function buildPeriodic() {
   });
 }
 
+function syncPeriodicLayout() {
+  const isMobile = window.matchMedia("(max-width: 768px)").matches;
+  if (periodicMobileMode === isMobile) return;
+  periodicMobileMode = isMobile;
+  buildPeriodic();
+}
+
 function bindEvents() {
   headers.forEach(h => h.addEventListener("click", () => {
     const k = h.getAttribute("data-k");
@@ -816,12 +866,20 @@ function bindEvents() {
     });
   }
 
-  prevBtn.addEventListener("click", () => {
-    if (page > 1) {
-      page--;
-      renderTable();
-    }
-  });
+  if (toggleDetailsBtn) {
+    toggleDetailsBtn.addEventListener("click", () => {
+      setDetailsVisible(!detailsVisible);
+    });
+  }
+
+  if (prevBtn) {
+    prevBtn.addEventListener("click", () => {
+      if (page > 1) {
+        page--;
+        renderTable();
+      }
+    });
+  }
   if (prevBtnBottom) {
     prevBtnBottom.addEventListener("click", () => {
       if (page > 1) {
@@ -831,13 +889,15 @@ function bindEvents() {
     });
   }
 
-  nextBtn.addEventListener("click", () => {
-    const totalPages = Math.max(1, Math.ceil(filteredRows.length / pageSize));
-    if (page < totalPages) {
-      page++;
-      renderTable();
-    }
-  });
+  if (nextBtn) {
+    nextBtn.addEventListener("click", () => {
+      const totalPages = Math.max(1, Math.ceil(filteredRows.length / pageSize));
+      if (page < totalPages) {
+        page++;
+        renderTable();
+      }
+    });
+  }
   if (nextBtnBottom) {
     nextBtnBottom.addEventListener("click", () => {
       const totalPages = Math.max(1, Math.ceil(filteredRows.length / pageSize));
@@ -853,21 +913,62 @@ function bindEvents() {
       setStatus("Manifest not loaded. Serve via HTTP or GitHub Pages.");
       return;
     }
+    selectedAtoms.clear();
+    document.querySelectorAll("#periodic .el-btn.sel").forEach(btn => btn.classList.remove("sel"));
+    selectedSources.clear();
+    document.querySelectorAll("#dbFilters input[type='checkbox']").forEach(el => {
+      el.checked = true;
+      selectedSources.add(el.dataset.source);
+    });
     loadAllMode = true;
     writeUrlState();
     setStatus("Loading all data chunks...");
     await refreshDataFromSelection();
   });
 
-  exportCsvBtn.addEventListener("click", () => {
-    exportCurrentViewCsv();
-  });
-
-  if (hideSelectedBtn) {
-    hideSelectedBtn.addEventListener("click", () => {
-      exportSelectedCsv();
+  if (exportDefaultBtn) {
+    exportDefaultBtn.addEventListener("click", () => {
+      exportCurrentViewCsv();
+      setExportMenuOpen(false);
     });
   }
+
+  if (exportMenuBtn && exportMenu) {
+    exportMenuBtn.addEventListener("click", (ev) => {
+      ev.preventDefault();
+      ev.stopPropagation();
+      setExportMenuOpen(!exportMenuOpen);
+    });
+  }
+
+  if (exportCurrentBtn) {
+    exportCurrentBtn.addEventListener("click", () => {
+      exportCurrentViewCsv();
+      setExportMenuOpen(false);
+    });
+  }
+
+  if (exportSelectedBtn) {
+    exportSelectedBtn.addEventListener("click", () => {
+      exportSelectedCsv();
+      setExportMenuOpen(false);
+    });
+  }
+
+  document.addEventListener("pointerdown", (ev) => {
+    if (!exportMenuOpen) return;
+    const target = ev.target;
+    if (!(target instanceof Node)) {
+      setExportMenuOpen(false);
+      return;
+    }
+    if (exportMenuWrap && exportMenuWrap.contains(target)) return;
+    setExportMenuOpen(false);
+  });
+
+  document.addEventListener("keydown", (ev) => {
+    if (ev.key === "Escape") setExportMenuOpen(false);
+  });
 
   if (resetHiddenBtn) {
     resetHiddenBtn.addEventListener("click", () => {
@@ -916,6 +1017,7 @@ function bindEvents() {
     dbToggleBtn.addEventListener("click", () => {
       const next = !dbPanel.classList.contains("collapsed");
       setDbPanelCollapsed(next);
+      updateTableWrapHeight();
       try {
         localStorage.setItem("dbPanelCollapsed", next ? "1" : "0");
       } catch (_) { /* ignore storage errors */ }
@@ -925,8 +1027,10 @@ function bindEvents() {
 
 async function init() {
   const urlState = readUrlState();
-  buildPeriodic();
+  syncPeriodicLayout();
   bindEvents();
+  setExportMenuOpen(false);
+  setDetailsVisible(false);
   try {
     const saved = localStorage.getItem("dbPanelCollapsed");
     setDbPanelCollapsed(saved === null ? true : saved === "1");
@@ -939,6 +1043,7 @@ async function init() {
     dataVersion = manifest.generated_at || "";
     countTotal.textContent = String(manifest.total_rows || 0);
     buildDatabaseFilters();
+    if (dbPanel) setDbPanelCollapsed(dbPanel.classList.contains("collapsed"));
 
     if (urlState.pageSize) {
       const allowed = [...pageSizeSelect.options].map(o => Number(o.value));
@@ -989,4 +1094,21 @@ async function init() {
   }
 }
 
+window.addEventListener("resize", updateTableWrapHeight);
+window.addEventListener("orientationchange", updateTableWrapHeight);
+window.addEventListener("resize", syncPeriodicLayout);
+window.addEventListener("orientationchange", syncPeriodicLayout);
+
+async function registerServiceWorker() {
+  if (!("serviceWorker" in navigator)) return;
+  if (window.location.protocol !== "https:" && window.location.hostname !== "localhost") return;
+  try {
+    await navigator.serviceWorker.register("./service-worker.js", { scope: "./" });
+  } catch (err) {
+    setStatus(`PWA setup warning: ${err.message}`);
+  }
+}
+
+registerServiceWorker();
 init();
+updateTableWrapHeight();
