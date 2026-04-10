@@ -309,7 +309,8 @@ function formatSpeciesChemHtml(speciesRaw) {
       const hasComplexCore = /[\(\)\[\]]/.test(candCore) || /\d/.test(candCore);
       const coreEndsWithDigit = /\d$/.test(candCore);
       // Polyatomic legacy style like "NO-3" should read as NO3- (index 3, unit charge).
-      if ((upperCount > 1 || hasComplexCore) && digits.length === 1 && !coreEndsWithDigit) {
+      // But cationic forms like "Et2Sn2+" should keep 2 as charge magnitude.
+      if ((upperCount > 1 || hasComplexCore) && digits.length === 1 && !coreEndsWithDigit && candSign === "-") {
         core = `${candCore}${digits}`;
         sign = candSign;
         mag = "";
@@ -361,7 +362,7 @@ function formatSpeciesChemHtml(speciesRaw) {
       "$1§§+|$2§§"
     );
     coreProtected = coreProtected.replace(
-      /\b([A-Z][a-z]?)(\d+)\+(?=(?:\s|$|[\(\)\];:_]))/g,
+      /([A-Za-z][A-Za-z0-9\(\)\[\]\.]*)(\d+)\+(?=(?:\s|$|[\(\)\];:_]))/g,
       "$1§§+|$2§§"
     );
     coreProtected = coreProtected.replace(
