@@ -55,6 +55,12 @@ h1 {
   margin-bottom: 10px;
 }
 
+/* Extra visual separation between specific control groups. */
+#exportMenuWrap,
+#toggleDetailsBtn {
+  margin-left: 16px;
+}
+
 .top-pager {
   justify-content: flex-end;
   margin-top: -2px;
@@ -72,6 +78,13 @@ h1 {
 .export-split #exportDefaultBtn {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+  background: #ccfbf1;
+  border-color: #99f6e4;
+  color: #115e59;
+}
+
+.export-split #exportDefaultBtn:hover {
+  background: #b5f5e7;
 }
 
 .export-arrow-btn {
@@ -205,11 +218,20 @@ button:hover {
 
 @media (max-width: 768px) {
   .top-header {
-    flex-direction: column;
-    align-items: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
+
+  .top-header > div {
+    min-width: 0;
+    flex: 1 1 auto;
   }
 
   .repo-link-top {
+    flex: 0 0 auto;
     align-self: flex-start;
   }
 
@@ -258,7 +280,8 @@ button:hover {
   display: inline-block;
 }
 
-.db-toggle-combo {
+.db-toggle-combo,
+.db-style-btn {
   display: inline-flex;
   align-items: center;
   gap: 7px;
@@ -283,7 +306,9 @@ button:hover {
 }
 
 .db-toggle-combo:hover,
-.db-toggle-combo:focus-visible {
+.db-toggle-combo:focus-visible,
+.db-style-btn:hover,
+.db-style-btn:focus-visible {
   background: #edf1f4;
   color: #5f6b77;
   border-color: #ccd3da;

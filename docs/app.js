@@ -762,7 +762,13 @@ async function refreshDataFromSelection() {
 function buildDatabaseFilters() {
   if (!dbFilters || !manifest) return;
   dbFilters.innerHTML = "";
-  const sources = manifest.sources || [];
+  const sources = [...(manifest.sources || [])].sort((a, b) => {
+    const la = prettifySourceLabel(a);
+    const lb = prettifySourceLabel(b);
+    const byLabel = la.localeCompare(lb, undefined, { sensitivity: "base", numeric: true });
+    if (byLabel !== 0) return byLabel;
+    return String(a).localeCompare(String(b), undefined, { sensitivity: "base", numeric: true });
+  });
   for (const src of sources) {
     const id = `db_${src.replace(/[^a-zA-Z0-9_-]/g, "_")}`;
     const label = document.createElement("label");

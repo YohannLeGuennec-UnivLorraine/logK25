@@ -56,6 +56,7 @@
         <option selected>200</option>
         <option>500</option>
       </select>
+      <input id="searchInput" type="text" placeholder="Search in loaded rows..." />
       <div id="exportMenuWrap" class="export-menu-wrap export-split">
         <button id="exportDefaultBtn" type="button">Export CSV</button>
         <button id="exportMenuBtn" type="button" class="export-arrow-btn" aria-label="Open export menu" aria-haspopup="true" aria-expanded="false">▼</button>
@@ -65,9 +66,8 @@
         </div>
       </div>
       <button id="resetHiddenBtn" type="button">Clear Selection</button>
-      <input id="searchInput" type="text" placeholder="Search in loaded rows..." />
-      <button id="eqFmtBtn" type="button" title="Toggle equation display mode">Equation: Pretty</button>
-      <button id="toggleDetailsBtn" type="button">Show details</button>
+      <button id="toggleDetailsBtn" class="db-style-btn" type="button">Show details</button>
+      <button id="eqFmtBtn" class="db-style-btn" type="button" title="Toggle equation display mode">Equation: Pretty</button>
       <span id="status"></span>
     </div>
 
