@@ -68,9 +68,69 @@ let periodicMobileMode = null;
 const selectedSources = new Set();
 const defaultPageSize = Number(pageSizeSelect.value);
 const selectedRowKeys = new Set();
+const analyticsEndpoint =
+  document.querySelector('meta[name="analytics-endpoint"]')?.getAttribute("content")?.trim() || "";
+const analyticsSiteId =
+  document.querySelector('meta[name="analytics-site-id"]')?.getAttribute("content")?.trim() || "logk25-docs";
+const analyticsSessionKey = "logk25_analytics_session_id";
+const analyticsVisitorKey = "logk25_analytics_visitor_id";
+let searchAnalyticsTimer = null;
 
 function getRowKey(r) {
   return `${String(r.p ?? "")}¦${String(r.e ?? "")}¦${String(r.k ?? "")}¦${String(r.c ?? "")}`;
+}
+
+function generateAnalyticsId() {
+  if (window.crypto && typeof window.crypto.randomUUID === "function") return window.crypto.randomUUID();
+  return `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
+}
+
+function getOrCreateId(storage, key) {
+  if (!storage) return generateAnalyticsId();
+  try {
+    const existing = storage.getItem(key);
+    if (existing) return existing;
+    const created = generateAnalyticsId();
+    storage.setItem(key, created);
+    return created;
+  } catch (_) {
+    return generateAnalyticsId();
+  }
+}
+
+function trackAnalytics(eventName, payload = {}) {
+  if (typeof window.gtag === "function") {
+    window.gtag("event", eventName, payload);
+    return;
+  }
+  if (!analyticsEndpoint || !analyticsSiteId) return;
+  const body = {
+    event: eventName,
+    site_id: analyticsSiteId,
+    ts: new Date().toISOString(),
+    path: window.location.pathname,
+    referrer: document.referrer || "",
+    session_id: getOrCreateId(window.sessionStorage, analyticsSessionKey),
+    visitor_id: getOrCreateId(window.localStorage, analyticsVisitorKey),
+    ...payload
+  };
+  const json = JSON.stringify(body);
+  try {
+    if (navigator.sendBeacon) {
+      const blob = new Blob([json], { type: "application/json" });
+      const sent = navigator.sendBeacon(analyticsEndpoint, blob);
+      if (sent) return;
+    }
+  } catch (_) {
+    // Fallback to fetch.
+  }
+  fetch(analyticsEndpoint, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: json,
+    mode: "cors",
+    keepalive: true
+  }).catch(() => {});
 }
 
 function readUrlState() {
@@ -634,6 +694,7 @@ function exportCurrentViewCsv() {
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
   setStatus(`Exported ${filteredRows.length} row(s) to CSV.`);
+  trackAnalytics("export_csv", { scope: "current_view", rows: filteredRows.length });
 }
 
 function exportSelectedCsv() {
@@ -664,6 +725,7 @@ function exportSelectedCsv() {
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
   setStatus(`Exported ${picked.length} selected row(s) to CSV.`);
+  trackAnalytics("export_csv", { scope: "selected_rows", rows: picked.length });
 }
 
 async function fetchJson(path) {
@@ -929,6 +991,7 @@ function bindEvents() {
     loadAllMode = true;
     writeUrlState();
     setStatus("Loading all data chunks...");
+    trackAnalytics("load_all_data");
     await refreshDataFromSelection();
   });
 
@@ -991,6 +1054,14 @@ function bindEvents() {
       page = 1;
       writeUrlState();
       applyFilterSortAndRender();
+      if (searchAnalyticsTimer) clearTimeout(searchAnalyticsTimer);
+      searchAnalyticsTimer = window.setTimeout(() => {
+        if (!searchText) return;
+        trackAnalytics("search", {
+          query_len: searchText.length,
+          result_count: filteredRows.length
+        });
+      }, 700);
     });
   }
 
@@ -1091,6 +1162,12 @@ async function init() {
     if (loadAllMode || selectedAtoms.size > 0) {
       await refreshDataFromSelection();
     }
+    trackAnalytics("page_view", {
+      load_mode: loadAllMode ? "all_data" : "atom_filtered",
+      selected_atoms: selectedAtoms.size,
+      selected_sources: selectedSources.size,
+      query_len: searchText.length
+    });
   } catch (err) {
     if (window.location.protocol === "file:") {
       setStatus("Cannot load data via file://. Use GitHub Pages or run a local HTTP server.");
