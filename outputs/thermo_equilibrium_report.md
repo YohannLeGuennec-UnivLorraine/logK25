@@ -4,16 +4,16 @@
 - Full merged table: `C:\Users\leguenne1\Documents\5. Codes\thermo-database\outputs\thermo_equilibrium_merged.tsv`
 
 ## Extraction Statistics
-- Raw extracted records: **136840**
-- Merged unique records: **128591**
-- Pilot selection size: **6429** (5% of merged rows target)
-- Equation rows changed after prettify: **3485**
+- Raw extracted records: **151032**
+- Merged unique records: **142780**
+- Pilot selection size: **7139** (5% of merged rows target)
+- Equation rows changed after prettify: **3488**
 
 ### Records By Source Family
 - `AqSolDB-logS`: 9982
 - `GWB`: 13409
 - `IUPAC-pKa`: 8326
-- `JESS-PHREEQC-like`: 52234
+- `JESS-PHREEQC-like`: 66426
 - `MedusaText`: 1082
 - `NIST-SRD46`: 44573
 - `PSINagra-PHREEQC`: 1104

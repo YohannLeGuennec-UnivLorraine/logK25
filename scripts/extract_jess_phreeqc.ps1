@@ -111,7 +111,7 @@ foreach ($pdf in $pdfs) {
 
         if ([string]::IsNullOrWhiteSpace($currentEq)) { continue }
         # Data row pattern with lgK value
-        if ($ln -match '^\s*(\d+)\s+([+-]?\d+(?:\.\d+)?)\s+([^\s]+)\s+(.+?)lgK:([+-]?\d+(?:\.\d+)?)\(([^)]*)\)\s+(\d+)\s+([A-Za-z]+)\s+(\d+)\s*$') {
+        if ($ln -match '^\s*(\d+)\s+([+-]?\d+(?:\.\d+)?)\s+([^\s]+)\s+(.+?)lgK:([+-]?\d+(?:\.\d+)?)\(([^)]*)\)\s+(\d+)\s+([A-Za-z]+)(?:\s+(\d+))?\s*$') {
             $rowNo = [int]$matches[1]
             $t = Parse-Double $matches[2]
             $iStr = $matches[3].Trim()
@@ -120,7 +120,7 @@ foreach ($pdf in $pdfs) {
             $dev = $matches[6].Trim()
             $w = [int]$matches[7]
             $tech = $matches[8].Trim()
-            $ref = $matches[9].Trim()
+            $ref = if ($matches[9]) { $matches[9].Trim() } else { '' }
             if ($null -eq $t -or $null -eq $logk) { continue }
             if ([Math]::Abs($t - 25.0) -gt 1.0E-6) { continue }
 
