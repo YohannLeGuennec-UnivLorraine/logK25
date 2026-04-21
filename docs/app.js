@@ -44,6 +44,9 @@ const dbTotalRowsSummary = document.getElementById("dbTotalRowsSummary");
 const dbFilters = document.getElementById("dbFilters");
 const dbAllBtn = document.getElementById("dbAllBtn");
 const dbNoneBtn = document.getElementById("dbNoneBtn");
+const groupFilters = document.getElementById("groupFilters");
+const groupAllBtn = document.getElementById("groupAllBtn");
+const groupNoneBtn = document.getElementById("groupNoneBtn");
 const countVisible = document.getElementById("countVisible");
 const countLoaded = document.getElementById("countLoaded");
 const countTotal = document.getElementById("countTotal");
@@ -66,6 +69,7 @@ let detailsVisible = false;
 let exportMenuOpen = false;
 let periodicMobileMode = null;
 const selectedSources = new Set();
+const selectedGroups = new Set();
 const defaultPageSize = Number(pageSizeSelect.value);
 const selectedRowKeys = new Set();
 const analyticsEndpoint =
@@ -138,6 +142,7 @@ function readUrlState() {
   const q = (p.get("q") || "").trim();
   const atomsRaw = (p.get("a") || "").trim();
   const srcRaw = (p.get("src") || "").trim();
+  const groupRaw = (p.get("g") || "").trim();
   const loadAll = p.get("all") === "1";
   const psRaw = p.get("ps");
   const ps = Number(psRaw);
@@ -146,6 +151,7 @@ function readUrlState() {
     q,
     atoms: atomsRaw ? atomsRaw.split(",").map(s => s.trim()).filter(Boolean) : [],
     sources: srcRaw ? srcRaw.split(",").map(s => s.trim()).filter(Boolean) : [],
+    groups: groupRaw ? groupRaw.split(",").map(s => s.trim()).filter(Boolean) : [],
     loadAll,
     pageSize: Number.isFinite(ps) && ps > 0 ? ps : null,
     fmt: (fmtRaw === "raw" || fmtRaw === "pretty") ? fmtRaw : null
@@ -156,6 +162,7 @@ function writeUrlState() {
   const p = new URLSearchParams();
   if (searchText) p.set("q", searchText);
   if (selectedAtoms.size > 0) p.set("a", [...selectedAtoms].sort().join(","));
+  if (selectedGroups.size > 0) p.set("g", [...selectedGroups].sort().join(","));
   if (loadAllMode) p.set("all", "1");
   if (pageSize !== defaultPageSize) p.set("ps", String(pageSize));
   if (equationDisplayMode === "raw") p.set("fmt", "raw");
@@ -279,6 +286,18 @@ function prettifySourceLabel(raw) {
   return s;
 }
 
+function prettifyGroupLabel(id) {
+  const key = String(id ?? "").trim();
+  if (!key) return key;
+  if (manifest && manifest.group_labels && Object.prototype.hasOwnProperty.call(manifest.group_labels, key)) {
+    return String(manifest.group_labels[key] || key);
+  }
+  return key
+    .split("_")
+    .map(part => part ? `${part[0].toUpperCase()}${part.slice(1)}` : part)
+    .join(" ");
+}
+
 function formatContributingLogK(txt) {
   const srcRegex = /\(([^()]+)\)/g;
   return String(txt ?? "").replace(srcRegex, (_, src) => `(${prettifySourceLabel(src)})`);
@@ -310,6 +329,15 @@ function rowHasSelectedSources(row, sources) {
   const rowSources = row.s || [];
   for (const s of rowSources) {
     if (sources.has(s)) return true;
+  }
+  return false;
+}
+
+function rowHasSelectedGroups(row, groups) {
+  if (!groups || groups.size === 0) return true;
+  const rowGroups = new Set(row.g || []);
+  for (const g of groups) {
+    if (rowGroups.has(g)) return true;
   }
   return false;
 }
@@ -654,9 +682,10 @@ function renderTable() {
 function applyFilterSortAndRender() {
   filteredRows = loadedRows.filter(r => {
     if (!rowHasAllAtoms(r, selectedAtoms)) return false;
+    if (!rowHasSelectedGroups(r, selectedGroups)) return false;
     if (!rowHasSelectedSources(r, selectedSources)) return false;
     if (!searchText) return true;
-    const blob = [r.p, r.h, r.e, r.k, r.c, r.x, r.rf].join(" ").toLowerCase();
+    const blob = [r.p, r.h, r.e, r.k, r.c, r.x, r.rf, (r.g || []).join(" ")].join(" ").toLowerCase();
     return blob.includes(searchText);
   });
   filteredRows.sort((a, b) => (sortAsc ? cmp(a, b, sortKey) : -cmp(a, b, sortKey)));
@@ -786,15 +815,28 @@ function getCandidateChunkKeys() {
   }
 
   if (loadAllMode) return [...bySource];
-  if (selectedAtoms.size === 0) return [];
+  if (selectedAtoms.size === 0 && selectedGroups.size === 0) return [];
 
   const byAtom = new Set();
-  for (const a of selectedAtoms) {
-    const arr = (manifest.atom_to_chunks && manifest.atom_to_chunks[a]) ? manifest.atom_to_chunks[a] : [];
-    arr.forEach(k => byAtom.add(k));
+  if (selectedAtoms.size > 0) {
+    for (const a of selectedAtoms) {
+      const arr = (manifest.atom_to_chunks && manifest.atom_to_chunks[a]) ? manifest.atom_to_chunks[a] : [];
+      arr.forEach(k => byAtom.add(k));
+    }
   }
 
-  return [...byAtom].filter(k => bySource.has(k));
+  const byGroup = new Set();
+  if (selectedGroups.size > 0) {
+    for (const g of selectedGroups) {
+      const arr = (manifest.group_to_chunks && manifest.group_to_chunks[g]) ? manifest.group_to_chunks[g] : [];
+      arr.forEach(k => byGroup.add(k));
+    }
+  }
+
+  let base = [...bySource];
+  if (selectedAtoms.size > 0) base = base.filter(k => byAtom.has(k));
+  if (selectedGroups.size > 0) base = base.filter(k => byGroup.has(k));
+  return base;
 }
 
 async function refreshDataFromSelection() {
@@ -805,10 +847,10 @@ async function refreshDataFromSelection() {
       renderTable();
       if (selectedSources.size === 0) {
         setStatus("Select at least one database to include.");
-      } else if (selectedAtoms.size === 0) {
-        setStatus("Select atoms (fast cached mode) or click Load All Data for the full dataset.");
+      } else if (selectedAtoms.size === 0 && selectedGroups.size === 0) {
+        setStatus("Select atoms/groups (fast cached mode) or click Load All Data for the full dataset.");
       } else {
-        setStatus("No data for selected atom combination.");
+        setStatus("No data for selected atom/group combination.");
       }
       return;
     }
@@ -855,6 +897,38 @@ function buildDatabaseFilters() {
     label.appendChild(cb);
     label.appendChild(text);
     dbFilters.appendChild(label);
+  }
+}
+
+function buildGroupFilters() {
+  if (!groupFilters || !manifest) return;
+  groupFilters.innerHTML = "";
+  const groups = [...(manifest.groups || [])].sort((a, b) => {
+    const la = prettifyGroupLabel(a);
+    const lb = prettifyGroupLabel(b);
+    return la.localeCompare(lb, undefined, { sensitivity: "base", numeric: true });
+  });
+  for (const g of groups) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "group-chip";
+    btn.dataset.group = g;
+    const cnt = manifest && manifest.group_count ? Number(manifest.group_count[g] || 0) : 0;
+    btn.textContent = cnt > 0 ? `${prettifyGroupLabel(g)} (${cnt})` : prettifyGroupLabel(g);
+    btn.addEventListener("click", async () => {
+      if (selectedGroups.has(g)) {
+        selectedGroups.delete(g);
+        btn.classList.remove("sel");
+      } else {
+        selectedGroups.add(g);
+        btn.classList.add("sel");
+      }
+      loadAllMode = false;
+      page = 1;
+      writeUrlState();
+      await refreshDataFromSelection();
+    });
+    groupFilters.appendChild(btn);
   }
 }
 
@@ -983,6 +1057,8 @@ function bindEvents() {
     }
     selectedAtoms.clear();
     document.querySelectorAll("#periodic .el-btn.sel").forEach(btn => btn.classList.remove("sel"));
+    selectedGroups.clear();
+    document.querySelectorAll("#groupFilters .group-chip.sel").forEach(btn => btn.classList.remove("sel"));
     selectedSources.clear();
     document.querySelectorAll("#dbFilters input[type='checkbox']").forEach(el => {
       el.checked = true;
@@ -1065,6 +1141,34 @@ function bindEvents() {
     });
   }
 
+  if (groupAllBtn) {
+    groupAllBtn.addEventListener("click", async () => {
+      selectedGroups.clear();
+      document.querySelectorAll("#groupFilters .group-chip").forEach(el => {
+        el.classList.add("sel");
+        selectedGroups.add(el.dataset.group || "");
+      });
+      selectedGroups.delete("");
+      page = 1;
+      loadAllMode = false;
+      writeUrlState();
+      await refreshDataFromSelection();
+    });
+  }
+
+  if (groupNoneBtn) {
+    groupNoneBtn.addEventListener("click", async () => {
+      selectedGroups.clear();
+      document.querySelectorAll("#groupFilters .group-chip").forEach(el => {
+        el.classList.remove("sel");
+      });
+      page = 1;
+      loadAllMode = false;
+      writeUrlState();
+      await refreshDataFromSelection();
+    });
+  }
+
   if (dbAllBtn) {
     dbAllBtn.addEventListener("click", async () => {
       selectedSources.clear();
@@ -1120,6 +1224,7 @@ async function init() {
     dataVersion = manifest.generated_at || "";
     countTotal.textContent = String(manifest.total_rows || 0);
     buildDatabaseFilters();
+    buildGroupFilters();
     if (dbPanel) setDbPanelCollapsed(dbPanel.classList.contains("collapsed"));
 
     if (urlState.pageSize) {
@@ -1153,18 +1258,26 @@ async function init() {
         if (selectedAtoms.has(btn.dataset.atom)) btn.classList.add("sel");
       });
     }
-    loadAllMode = urlState.loadAll || (!!searchText && selectedAtoms.size === 0);
+    if (urlState.groups.length > 0) {
+      const knownGroups = new Set(manifest.groups || []);
+      urlState.groups.forEach(g => { if (knownGroups.has(g)) selectedGroups.add(g); });
+      document.querySelectorAll("#groupFilters .group-chip").forEach(btn => {
+        if (selectedGroups.has(btn.dataset.group)) btn.classList.add("sel");
+      });
+    }
+    loadAllMode = urlState.loadAll || (!!searchText && selectedAtoms.size === 0 && selectedGroups.size === 0);
 
     writeUrlState();
-    setStatus("Ready. Select atoms (fast cached mode) or click Load All Data for the full dataset.");
+    setStatus("Ready. Select atoms/groups (fast cached mode) or click Load All Data for the full dataset.");
     filteredRows = [];
     renderTable();
-    if (loadAllMode || selectedAtoms.size > 0) {
+    if (loadAllMode || selectedAtoms.size > 0 || selectedGroups.size > 0) {
       await refreshDataFromSelection();
     }
     trackAnalytics("page_view", {
-      load_mode: loadAllMode ? "all_data" : "atom_filtered",
+      load_mode: loadAllMode ? "all_data" : (selectedAtoms.size > 0 ? "atom_filtered" : (selectedGroups.size > 0 ? "group_filtered" : "idle")),
       selected_atoms: selectedAtoms.size,
+      selected_groups: selectedGroups.size,
       selected_sources: selectedSources.size,
       query_len: searchText.length
     });

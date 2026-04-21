@@ -264,6 +264,63 @@ button:hover {
   margin: 6px 0 10px;
 }
 
+.group-panel {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #f8fafc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.group-panel-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.group-panel-title {
+  font-size: 12px;
+  color: #475569;
+  font-weight: 600;
+}
+
+.group-panel-actions {
+  display: inline-flex;
+  gap: 6px;
+}
+
+.group-panel-actions button {
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.group-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.group-chip {
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #334155;
+  font-size: 12px;
+  padding: 4px 10px;
+}
+
+.group-chip:hover {
+  background: #e2e8f0;
+}
+
+.group-chip.sel {
+  background: #334155;
+  border-color: #334155;
+  color: #ffffff;
+}
+
 .db-panel {
   border: 1px solid var(--line);
   border-radius: 10px;
