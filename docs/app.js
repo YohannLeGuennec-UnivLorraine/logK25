@@ -44,6 +44,8 @@ const dbTotalRowsSummary = document.getElementById("dbTotalRowsSummary");
 const dbFilters = document.getElementById("dbFilters");
 const dbAllBtn = document.getElementById("dbAllBtn");
 const dbNoneBtn = document.getElementById("dbNoneBtn");
+const groupPanel = document.querySelector(".group-panel");
+const groupToggleBtn = document.getElementById("groupToggleBtn");
 const groupFilters = document.getElementById("groupFilters");
 const groupAllBtn = document.getElementById("groupAllBtn");
 const groupNoneBtn = document.getElementById("groupNoneBtn");
@@ -184,6 +186,13 @@ function setDbPanelCollapsed(collapsed) {
     dbTotalRowsSummary.textContent = `Total rows: ${total}`;
     dbTotalRowsSummary.classList.toggle("is-visible", isCollapsed);
   }
+}
+
+function setGroupPanelCollapsed(collapsed) {
+  if (!groupPanel || !groupToggleBtn) return;
+  const isCollapsed = !!collapsed;
+  groupPanel.classList.toggle("collapsed", isCollapsed);
+  groupToggleBtn.setAttribute("aria-expanded", isCollapsed ? "false" : "true");
 }
 
 function setStatus(msg) {
@@ -913,8 +922,7 @@ function buildGroupFilters() {
     btn.type = "button";
     btn.className = "group-chip";
     btn.dataset.group = g;
-    const cnt = manifest && manifest.group_count ? Number(manifest.group_count[g] || 0) : 0;
-    btn.textContent = cnt > 0 ? `${prettifyGroupLabel(g)} (${cnt})` : prettifyGroupLabel(g);
+    btn.textContent = prettifyGroupLabel(g);
     btn.addEventListener("click", async () => {
       if (selectedGroups.has(g)) {
         selectedGroups.delete(g);
@@ -1204,6 +1212,17 @@ function bindEvents() {
       } catch (_) { /* ignore storage errors */ }
     });
   }
+
+  if (groupToggleBtn) {
+    groupToggleBtn.addEventListener("click", () => {
+      const next = !groupPanel.classList.contains("collapsed");
+      setGroupPanelCollapsed(next);
+      updateTableWrapHeight();
+      try {
+        localStorage.setItem("groupPanelCollapsed", next ? "1" : "0");
+      } catch (_) { /* ignore storage errors */ }
+    });
+  }
 }
 
 async function init() {
@@ -1219,6 +1238,12 @@ async function init() {
     setDbPanelCollapsed(true);
   }
   try {
+    const saved = localStorage.getItem("groupPanelCollapsed");
+    setGroupPanelCollapsed(saved === null ? false : saved === "1");
+  } catch (_) {
+    setGroupPanelCollapsed(false);
+  }
+  try {
     manifest = await fetchJson("./data/manifest.json");
     manifestLoaded = true;
     dataVersion = manifest.generated_at || "";
@@ -1226,6 +1251,7 @@ async function init() {
     buildDatabaseFilters();
     buildGroupFilters();
     if (dbPanel) setDbPanelCollapsed(dbPanel.classList.contains("collapsed"));
+    if (groupPanel) setGroupPanelCollapsed(groupPanel.classList.contains("collapsed"));
 
     if (urlState.pageSize) {
       const allowed = [...pageSizeSelect.options].map(o => Number(o.value));

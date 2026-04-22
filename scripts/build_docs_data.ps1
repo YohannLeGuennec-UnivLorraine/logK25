@@ -234,6 +234,16 @@ function Get-ChemicalGroupRules() {
             normalize_patterns = @('(?i)\bPyridine-2,6-dicarboxylic acid(?:\s*\(Dipicolinic acid\))?(?:\s*\(C7H5N1O4\))?\b','(?i)\bDipicolinic acid(?:\s*\(C7H5N1O4\))?\b','(?i)\bdipicolinate\b')
         },
         [PSCustomObject]@{
+            id = 'bispycolylamine'; label = 'Bispycolylamine (DPA)'; canonical = 'Di-2-picolylamine'
+            detect_patterns = @('(?i)\bDi-2-picolylamine\b','(?i)\bDi-\(2-picolyl\)amine\b','(?i)\bDipicolylamine\b','(?i)\bIminobis\(methylene-2-pyridine\)\b','(?i)\bbis\(2-pyridylmethyl\)amine\b','(?i)\bbis\(pyridin-2-ylmethyl\)amine\b','(?i)\bbis\[\(pyridin-2-yl\)methyl\]amine\b','(?i)\bDPA\b','(?i)\bbispycolylamine\b','(?i)\bbispicolylamine\b')
+            normalize_patterns = @('(?i)\bDi-\(2-picolyl\)amine\b','(?i)\bDipicolylamine\b','(?i)\bIminobis\(methylene-2-pyridine\)\b','(?i)\bbis\(2-pyridylmethyl\)amine\b','(?i)\bbis\(pyridin-2-ylmethyl\)amine\b','(?i)\bbis\[\(pyridin-2-yl\)methyl\]amine\b','(?i)\bbispycolylamine\b','(?i)\bbispicolylamine\b','(?i)\(DPA\)','(?i)\bDPA\b')
+        },
+        [PSCustomObject]@{
+            id = 'aminomethylphosphonic'; label = 'Aminomethylphosphonic acid (AMPA)'; canonical = 'Aminomethylphosphonic acid'
+            detect_patterns = @('(?i)\bAminomethylphosphonic acid\b','(?i)\bAminomethyl phosphonic acid\b','(?i)\bAminomethanephosphonic acid\b','(?i)\bAcide \(aminom[ée]thyl\)phosphonique\b','(?i)\b\(Aminomethyl\)phosphonic acid\b','(?i)\b\(Aminomethyl\)phosphonate\b','(?i)\bPhosphonic acid, \(aminomethyl\)-\b','(?i)\bAMPA\b','(?i)\bGly-P\b','(?i)\baminomethylphosphonate\b')
+            normalize_patterns = @('(?i)\bAminomethyl phosphonic acid \(AMPA\)\b','(?i)\bAminomethanephosphonic acid\b','(?i)\bAcide \(aminom[ée]thyl\)phosphonique\b','(?i)\b\(Aminomethyl\)phosphonic acid\b','(?i)\b\(Aminomethyl\)phosphonate\b','(?i)\bPhosphonic acid, \(aminomethyl\)-\b','(?i)\baminomethylphosphonate\b','(?i)\bAMPA\b','(?i)\bGly-P\b')
+        },
+        [PSCustomObject]@{
             id = 'clodronate'; label = 'Clodronate'; canonical = 'Clodronic-4'
             detect_patterns = @('(?i)\bClodronic-4\b','(?i)\bClodronic acid\b','(?i)\bclodronate\b')
             normalize_patterns = @('(?i)\bClodronic acid\b','(?i)\bclodronate\b')

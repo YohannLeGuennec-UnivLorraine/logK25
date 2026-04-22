@@ -192,7 +192,8 @@ button:hover {
   -webkit-overflow-scrolling: touch;
 }
 
-.el-btn {
+.el-btn,
+.group-chip {
   border: 1px solid #99f6e4;
   background: #ffffff;
   color: #134e4a;
@@ -202,11 +203,13 @@ button:hover {
   cursor: pointer;
 }
 
-.el-btn:hover {
+.el-btn:hover,
+.group-chip:hover {
   background: #ccfbf1;
 }
 
-.el-btn.sel {
+.el-btn.sel,
+.group-chip.sel {
   background: var(--accent);
   color: #ffffff;
   border-color: var(--accent);
@@ -256,6 +259,22 @@ button:hover {
     font-size: 10px;
     line-height: 1;
   }
+
+  .group-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: flex-start;
+    padding: 10px;
+    overflow-x: hidden;
+  }
+
+  .group-chip {
+    min-height: 32px;
+    padding: 0 10px;
+    font-size: 10px;
+    line-height: 1;
+  }
 }
 
 .note {
@@ -265,11 +284,19 @@ button:hover {
 }
 
 .group-panel {
-  border: 1px solid var(--line);
-  border-radius: 10px;
-  background: #f8fafc;
-  padding: 10px;
   margin-bottom: 10px;
+}
+
+.group-panel.collapsed #groupPanelBody {
+  display: none;
+}
+
+.group-panel.collapsed #groupPanelActions {
+  display: none;
+}
+
+.group-panel.collapsed .group-panel-head {
+  margin-bottom: 0;
 }
 
 .group-panel-head {
@@ -282,8 +309,12 @@ button:hover {
 
 .group-panel-title {
   font-size: 12px;
-  color: #475569;
+  color: #134e4a;
   font-weight: 600;
+}
+
+.group-toggle-combo {
+  margin-right: auto;
 }
 
 .group-panel-actions {
@@ -292,33 +323,39 @@ button:hover {
 }
 
 .group-panel-actions button {
-  padding: 4px 8px;
+  border: 1px solid #99f6e4;
+  background: #ffffff;
+  color: #134e4a;
+  padding: 6px 10px;
   font-size: 12px;
+}
+
+.group-panel-actions button:hover {
+  background: #ccfbf1;
 }
 
 .group-filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 4px;
+  border: 1px solid var(--line);
+  padding: 8px;
+  border-radius: 10px;
+  background: #f0fdfa;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .group-chip {
-  border: 1px solid #cbd5e1;
-  border-radius: 999px;
-  background: #ffffff;
-  color: #334155;
-  font-size: 12px;
-  padding: 4px 10px;
+  padding: 6px 10px;
+  text-align: left;
 }
 
-.group-chip:hover {
-  background: #e2e8f0;
-}
-
-.group-chip.sel {
-  background: #334155;
-  border-color: #334155;
-  color: #ffffff;
+.group-note {
+  margin: 8px 0 0;
 }
 
 .db-panel {

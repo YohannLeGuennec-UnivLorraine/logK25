@@ -19,7 +19,7 @@
   </script>
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="apple-touch-icon" href="./icons/apple-touch-icon-180.png" />
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./style.css?v=20260422-group-style-v2" />
 </head>
 <body>
   <div class="wrap">
@@ -56,15 +56,17 @@
     <div class="note">Click atoms to filter rows containing all selected atoms. Atom filtering loads only relevant data chunks.</div>
     <div class="group-panel">
       <div class="group-panel-head">
-        <span class="group-panel-title">Chemical Group Filters</span>
-        <div class="group-panel-actions">
+        <button id="groupToggleBtn" class="db-toggle-combo group-toggle-combo" type="button" aria-label="Toggle chemical groups panel" aria-expanded="true">Chemical Group Filters</button>
+        <div id="groupPanelActions" class="group-panel-actions">
           <button id="groupAllBtn" type="button">All</button>
           <button id="groupNoneBtn" type="button">None</button>
         </div>
       </div>
-      <div id="groupFilters" class="group-filters"></div>
+      <div id="groupPanelBody">
+        <div id="groupFilters" class="group-filters"></div>
+        <div class="note group-note">Select one or more chemical groups to treat them as stoichiometric invariants, in addition to atom filters.</div>
+      </div>
     </div>
-    <div class="note">Select one or more chemical groups to treat them as stoichiometric invariants, in addition to atom filters.</div>
 
     <div class="controls">
       <button id="prevBtn" type="button">Prev</button>
@@ -118,6 +120,6 @@
       <p>Tool developed by Yohann Le Guennec.</p>
     </footer>
   </div>
-  <script src="./app.js?v=20260421-group-v1"></script>
+  <script src="./app.js?v=20260422-group-toggle-v1"></script>
 </body>
 </html>
