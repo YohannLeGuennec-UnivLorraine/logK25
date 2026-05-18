@@ -1300,7 +1300,7 @@ async function init() {
     if (loadAllMode || selectedAtoms.size > 0 || selectedGroups.size > 0) {
       await refreshDataFromSelection();
     }
-    trackAnalytics("page_view", {
+    trackAnalytics("app_ready", {
       load_mode: loadAllMode ? "all_data" : (selectedAtoms.size > 0 ? "atom_filtered" : (selectedGroups.size > 0 ? "group_filtered" : "idle")),
       selected_atoms: selectedAtoms.size,
       selected_groups: selectedGroups.size,

@@ -1,12 +1,12 @@
-const SW_VERSION = "2026-04-14-v11";
+const SW_VERSION = "2026-05-18-analytics-v1";
 const APP_CACHE = `logk25-app-${SW_VERSION}`;
 const DATA_CACHE = `logk25-data-${SW_VERSION}`;
 
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./style.css",
-  "./app.js?v=20260414-pwa-v11",
+  "./style.css?v=20260422-group-style-v2",
+  "./app.js?v=20260422-group-toggle-v1",
   "./manifest.webmanifest",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
