@@ -25,6 +25,8 @@ Contact: [yohann.le-guennec@univ-lorraine.fr](mailto:yohann.le-guennec@univ-lorr
 
 The machine-readable source register is maintained in `config/sources.json`. It records source versions, URLs, known licences, required attribution and the current redistribution-review status.
 
+The scientific database names shown in the web interface, their displayed versions and their technical acquisition paths are maintained separately in `config/database_families.json`. Distribution formats such as GWB, CHESS, PHREEQC, ToughReact and Medusa are retained in row-level provenance rather than presented as independent scientific databases.
+
 - `GWB` (`External databases/GWB/*.tdat`)
   - Aqueous/mineral/gas equilibrium reactions with logK (25 C extraction from tabulated data).
 - `Medusa` text exports (`External databases/Medusa/*.txt`)

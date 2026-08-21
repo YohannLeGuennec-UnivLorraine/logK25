@@ -27,6 +27,32 @@ if ($null -eq $sourcesConfig.sources -or @($sourcesConfig.sources).Count -eq 0) 
     [System.Text.Encoding]::UTF8
 )
 
+$databaseFamiliesPath = Join-Path $root 'config\database_families.json'
+if (-not (Test-Path $databaseFamiliesPath)) {
+    throw "Missing database family registry: $databaseFamiliesPath"
+}
+$databaseFamilies = Get-Content -Raw -Path $databaseFamiliesPath | ConvertFrom-Json
+if ($null -eq $databaseFamilies.databases -or @($databaseFamilies.databases).Count -eq 0) {
+    throw "Database family registry contains no databases: $databaseFamiliesPath"
+}
+$registeredDatabaseSources = New-Object System.Collections.Generic.HashSet[string]
+foreach ($database in @($databaseFamilies.databases)) {
+    foreach ($origin in @($database.origins)) {
+        $sourceId = [string]$origin.source
+        if ([string]::IsNullOrWhiteSpace($sourceId)) {
+            throw "Database '$($database.id)' contains an origin without a source identifier."
+        }
+        if (-not $registeredDatabaseSources.Add($sourceId)) {
+            throw "Database source is registered more than once: $sourceId"
+        }
+    }
+}
+[System.IO.File]::WriteAllText(
+    (Join-Path $dataDir 'database_families.json'),
+    ($databaseFamilies | ConvertTo-Json -Depth 8 -Compress),
+    [System.Text.Encoding]::UTF8
+)
+
 $script:PeriodicElements = @(
     'H','He','Li','Be','B','C','N','O','F','Ne','Na','Mg','Al','Si','P','S','Cl','Ar','K','Ca','Sc','Ti','V','Cr','Mn','Fe','Co','Ni','Cu','Zn',
     'Ga','Ge','As','Se','Br','Kr','Rb','Sr','Y','Zr','Nb','Mo','Tc','Ru','Rh','Pd','Ag','Cd','In','Sn','Sb','Te','I','Xe','Cs','Ba','La','Ce','Pr','Nd',
@@ -824,6 +850,11 @@ $groupLabelsOut = @{}
 foreach ($g in ($allGroups | Sort-Object)) {
     if ($groupLabels.ContainsKey($g)) { $groupLabelsOut[$g] = [string]$groupLabels[$g] }
     else { $groupLabelsOut[$g] = $g }
+}
+
+$unregisteredDatabaseSources = @($allSources | Where-Object { -not $registeredDatabaseSources.Contains($_) } | Sort-Object)
+if ($unregisteredDatabaseSources.Count -gt 0) {
+    throw "Sources missing from config/database_families.json: $($unregisteredDatabaseSources -join ', ')"
 }
 
 $manifest = [PSCustomObject]@{
