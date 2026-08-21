@@ -2,6 +2,12 @@
 
 This repository builds a merged thermodynamic equilibrium dataset at 25 C from multiple freely accessible sources, and publishes a searchable GitHub Pages interface at https://yohannleguennec-univlorraine.github.io/logK25/
 
+## Institutional affiliation
+
+logK25 is developed by Yohann Le Guennec at the Laboratoire Réactions et Génie des Procédés (LRGP, UMR CNRS 7274), Université de Lorraine.
+
+Contact: [yohann.le-guennec@univ-lorraine.fr](mailto:yohann.le-guennec@univ-lorraine.fr)
+
 ## What is produced
 
 - Main merged table: `outputs/thermo_equilibrium_merged.tsv`
