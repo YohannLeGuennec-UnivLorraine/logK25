@@ -13,6 +13,20 @@ $chunksDir = Join-Path $dataDir 'chunks'
 New-Item -ItemType Directory -Force -Path $docsDir, $dataDir, $chunksDir | Out-Null
 Get-ChildItem -Path $chunksDir -File -ErrorAction SilentlyContinue | Remove-Item -Force
 
+$sourcesConfigPath = Join-Path $root 'config\sources.json'
+if (-not (Test-Path $sourcesConfigPath)) {
+    throw "Missing source rights registry: $sourcesConfigPath"
+}
+$sourcesConfig = Get-Content -Raw -Path $sourcesConfigPath | ConvertFrom-Json
+if ($null -eq $sourcesConfig.sources -or @($sourcesConfig.sources).Count -eq 0) {
+    throw "Source rights registry contains no sources: $sourcesConfigPath"
+}
+[System.IO.File]::WriteAllText(
+    (Join-Path $dataDir 'sources.json'),
+    ($sourcesConfig | ConvertTo-Json -Depth 8 -Compress),
+    [System.Text.Encoding]::UTF8
+)
+
 $script:PeriodicElements = @(
     'H','He','Li','Be','B','C','N','O','F','Ne','Na','Mg','Al','Si','P','S','Cl','Ar','K','Ca','Sc','Ti','V','Cr','Mn','Fe','Co','Ni','Cu','Zn',
     'Ga','Ge','As','Se','Br','Kr','Rb','Sr','Y','Zr','Nb','Mo','Tc','Ru','Rh','Pd','Ag','Cd','In','Sn','Sb','Te','I','Xe','Cs','Ba','La','Ce','Pr','Nd',

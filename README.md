@@ -1,6 +1,8 @@
 # logK25 database
 
-This repository builds a merged thermodynamic equilibrium dataset at 25 C from multiple freely accessible sources, and publishes a searchable GitHub Pages interface at https://yohannleguennec-univlorraine.github.io/logK25/
+This repository builds a merged thermodynamic equilibrium dataset at 25 C from multiple publicly accessible scientific resources, and publishes a searchable GitHub Pages interface at https://yohannleguennec-univlorraine.github.io/logK25/
+
+Public accessibility does not necessarily imply unrestricted reuse or redistribution. Each contribution remains subject to the rights and conditions of its original source. See [Sources, licences and reuse conditions](SOURCES_AND_LICENSES.md) and the [rights statement](RIGHTS.md).
 
 ## Institutional affiliation
 
@@ -20,6 +22,8 @@ Contact: [yohann.le-guennec@univ-lorraine.fr](mailto:yohann.le-guennec@univ-lorr
   - `docs/data/chunks/*.json`
 
 ## Source databases and extracted data type
+
+The machine-readable source register is maintained in `config/sources.json`. It records source versions, URLs, known licences, required attribution and the current redistribution-review status.
 
 - `GWB` (`External databases/GWB/*.tdat`)
   - Aqueous/mineral/gas equilibrium reactions with logK (25 C extraction from tabulated data).
@@ -83,6 +87,10 @@ This executes:
 1. `scripts/extract_thermo.ps1`
 2. `scripts/build_docs_data.ps1`
 
-## Disclaimer
+## Rights, attribution and disclaimer
 
-All data are extracted from freely accessible databases. No warranty is provided regarding correctness or completeness. Always verify critical values against the original source databases included in this repository.
+logK25 is a transformed compilation of data originating from several independent scientific resources. Each contribution remains subject to the rights and conditions of its original source.
+
+Source attribution, version information and known reuse conditions are documented in [SOURCES_AND_LICENSES.md](SOURCES_AND_LICENSES.md). Some redistribution conditions are currently under institutional review. No single licence currently applies to the entire repository or consolidated dataset; see [RIGHTS.md](RIGHTS.md).
+
+The inclusion of a value does not imply validation or endorsement by the Université de Lorraine, LRGP or the original data provider. No warranty is provided regarding correctness, completeness or fitness for use. Users must verify critical values against the cited original source.

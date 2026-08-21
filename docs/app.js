@@ -44,6 +44,7 @@ const dbTotalRowsSummary = document.getElementById("dbTotalRowsSummary");
 const dbFilters = document.getElementById("dbFilters");
 const dbAllBtn = document.getElementById("dbAllBtn");
 const dbNoneBtn = document.getElementById("dbNoneBtn");
+const sourceRightsSummary = document.getElementById("sourceRightsSummary");
 const groupPanel = document.querySelector(".group-panel");
 const groupToggleBtn = document.getElementById("groupToggleBtn");
 const groupFilters = document.getElementById("groupFilters");
@@ -54,6 +55,7 @@ const countLoaded = document.getElementById("countLoaded");
 const countTotal = document.getElementById("countTotal");
 
 let manifest = null;
+let sourceRightsRegistry = null;
 const selectedAtoms = new Set();
 const loadedChunkKeys = new Set();
 const loadedRows = [];
@@ -872,6 +874,41 @@ async function refreshDataFromSelection() {
   }
 }
 
+function getSourceRights(sourceId) {
+  const source = String(sourceId || "");
+  for (const record of sourceRightsRegistry?.sources || []) {
+    for (const pattern of record.source_patterns || []) {
+      if (source === pattern || source.startsWith(pattern)) return record;
+    }
+  }
+  return null;
+}
+
+function sourceRightsStatusClass(status) {
+  if (status === "documented") return "documented";
+  if (status === "documented_noncommercial" || status === "custom_permission") return "conditional";
+  return "review-required";
+}
+
+function renderSourceRightsSummary() {
+  if (!sourceRightsSummary) return;
+  sourceRightsSummary.innerHTML = "";
+  const seen = new Set();
+  for (const source of selectedSources) {
+    const rights = getSourceRights(source);
+    const key = rights?.id || `unknown:${source}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    const badge = document.createElement("span");
+    badge.className = `source-rights-badge ${sourceRightsStatusClass(rights?.legal_status)}`;
+    badge.textContent = rights
+      ? `${rights.display_name}: ${rights.license_label}`
+      : `${prettifySourceLabel(source)}: conditions not documented`;
+    badge.title = rights?.reuse_summary || "Institutional review required.";
+    sourceRightsSummary.appendChild(badge);
+  }
+}
+
 function buildDatabaseFilters() {
   if (!dbFilters || !manifest) return;
   dbFilters.innerHTML = "";
@@ -895,6 +932,7 @@ function buildDatabaseFilters() {
     cb.addEventListener("change", async () => {
       if (cb.checked) selectedSources.add(src);
       else selectedSources.delete(src);
+      renderSourceRightsSummary();
       page = 1;
       writeUrlState();
       await refreshDataFromSelection();
@@ -905,8 +943,15 @@ function buildDatabaseFilters() {
     text.title = src;
     label.appendChild(cb);
     label.appendChild(text);
+    const rights = getSourceRights(src);
+    const badge = document.createElement("span");
+    badge.className = `source-rights-badge ${sourceRightsStatusClass(rights?.legal_status)}`;
+    badge.textContent = rights?.license_label || "Conditions not documented";
+    badge.title = rights?.reuse_summary || "No source-specific rights record was found.";
+    label.appendChild(badge);
     dbFilters.appendChild(label);
   }
+  renderSourceRightsSummary();
 }
 
 function buildGroupFilters() {
@@ -1184,6 +1229,7 @@ function bindEvents() {
         el.checked = true;
         selectedSources.add(el.dataset.source);
       });
+      renderSourceRightsSummary();
       page = 1;
       writeUrlState();
       await refreshDataFromSelection();
@@ -1196,6 +1242,7 @@ function bindEvents() {
       document.querySelectorAll("#dbFilters input[type='checkbox']").forEach(el => {
         el.checked = false;
       });
+      renderSourceRightsSummary();
       page = 1;
       writeUrlState();
       await refreshDataFromSelection();
@@ -1244,6 +1291,11 @@ async function init() {
     setGroupPanelCollapsed(false);
   }
   try {
+    try {
+      sourceRightsRegistry = await fetchJson("./data/sources.json");
+    } catch (_) {
+      sourceRightsRegistry = null;
+    }
     manifest = await fetchJson("./data/manifest.json");
     manifestLoaded = true;
     dataVersion = manifest.generated_at || "";
@@ -1277,6 +1329,7 @@ async function init() {
         el.checked = keep;
         if (keep) selectedSources.add(el.dataset.source);
       });
+      renderSourceRightsSummary();
     }
     if (urlState.atoms.length > 0) {
       urlState.atoms.forEach(a => selectedAtoms.add(a));
