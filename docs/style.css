@@ -432,6 +432,55 @@ button:hover {
   font-size: 12px;
 }
 
+.source-rights-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: #e5e7eb;
+  color: #4b5563;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.source-rights-badge.documented {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.source-rights-badge.conditional {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.source-rights-badge.review-required {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.source-rights-notice {
+  margin-top: 10px;
+  padding: 9px 10px;
+  border: 1px solid #d8dde3;
+  border-radius: 8px;
+  background: #f8fafc;
+  color: #4b5563;
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.source-rights-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 6px 0;
+}
+
+.source-rights-summary:empty::before {
+  content: "No database selected.";
+  color: #6b7280;
+}
+
 .db-panel.collapsed {
   display: none;
 }
@@ -543,4 +592,59 @@ td.chem-eq {
 
 .footer-note p {
   margin: 4px 0;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.legal-page {
+  max-width: 960px;
+}
+
+.legal-page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.legal-intro {
+  padding: 12px 14px;
+  border: 1px solid #f59e0b;
+  border-radius: 10px;
+  background: #fffbeb;
+  color: #78350f;
+  line-height: 1.55;
+}
+
+.legal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.legal-card {
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--card);
+}
+
+.legal-card h2 {
+  margin: 0 0 8px;
+  font-size: 17px;
+}
+
+.legal-card p {
+  margin: 6px 0;
+  line-height: 1.5;
+}
+
+.legal-meta {
+  color: #6b7280;
+  font-size: 12px;
 }

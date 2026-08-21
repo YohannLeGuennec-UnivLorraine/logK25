@@ -19,7 +19,7 @@
   </script>
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="apple-touch-icon" href="./icons/apple-touch-icon-180.png" />
-  <link rel="stylesheet" href="./style.css?v=20260422-group-style-v2" />
+  <link rel="stylesheet" href="./style.css?v=20260821-source-rights-v1" />
 </head>
 <body>
   <div class="wrap">
@@ -49,6 +49,11 @@
           <button id="loadAllBtn" type="button">Load all exp. data</button>
         </div>
         <div id="dbFilters" class="db-filters"></div>
+        <div id="sourceRightsNotice" class="source-rights-notice" aria-live="polite">
+          <strong>Reuse conditions for selected sources</strong>
+          <div id="sourceRightsSummary" class="source-rights-summary"></div>
+          <a href="./sources-and-licenses.html">View sources, licences and attribution requirements</a>
+        </div>
       </div>
     </div>
 
@@ -114,8 +119,16 @@
     </div>
     <footer class="footer-note">
       <p>
-        Disclaimer: all values shown here were extracted from freely accessible databases. No warranty is provided regarding correctness,
-        completeness, or fitness for use. Users must always verify values against the original source databases, which are also shared in this repository.
+        Rights and disclaimer: logK25 is a transformed compilation of publicly accessible scientific resources. Public accessibility does not imply
+        unrestricted reuse. Each contribution remains subject to its original source conditions. No warranty is provided regarding correctness,
+        completeness, or fitness for use. Verify critical values against the cited original source.
+      </p>
+      <p class="footer-links">
+        <a href="./sources-and-licenses.html">Sources, licences and attribution</a>
+        <span aria-hidden="true">·</span>
+        <a href="https://github.com/YohannLeGuennec-UnivLorraine/logK25/blob/main/README.md#merging-and-conventions" target="_blank" rel="noopener noreferrer">Methodology</a>
+        <span aria-hidden="true">·</span>
+        <a href="https://github.com/YohannLeGuennec-UnivLorraine/logK25/issues/new" target="_blank" rel="noopener noreferrer">Report an error</a>
       </p>
       <p>
         Tool developed by <a href="mailto:yohann.le-guennec@univ-lorraine.fr">Yohann Le Guennec</a>
@@ -123,6 +136,6 @@
       </p>
     </footer>
   </div>
-  <script src="./app.js?v=20260422-group-toggle-v1"></script>
+  <script src="./app.js?v=20260821-source-rights-v1"></script>
 </body>
 </html>
