@@ -245,6 +245,9 @@ function prettifySourceLabel(raw) {
   const s = String(raw ?? "").trim();
   if (!s) return s;
 
+  const registered = databaseBySource.get(s);
+  if (registered) return registered.database.label;
+
   const exact = {
     "AqSolDB-logS-data_curated": "AqSolDB",
     "JESS-PHREEQC-like-jess_phreeqc_like": "JESS",
@@ -312,7 +315,11 @@ function prettifyGroupLabel(id) {
 
 function formatContributingLogK(txt) {
   const srcRegex = /\(([^()]+)\)/g;
-  return String(txt ?? "").replace(srcRegex, (_, src) => `(${prettifySourceLabel(src)})`);
+  return String(txt ?? "").replace(srcRegex, (_, src) => {
+    const registered = databaseBySource.get(src);
+    if (!registered) return `(${prettifySourceLabel(src)} — original source identifier: ${src})`;
+    return `(${registered.database.label} — ${registered.origin.detail})`;
+  });
 }
 
 function cmp(a, b, key) {
@@ -878,23 +885,36 @@ async function refreshDataFromSelection() {
 function buildDatabaseFilters() {
   if (!dbFilters || !manifest) return;
   dbFilters.innerHTML = "";
-  const sources = [...(manifest.sources || [])].sort((a, b) => {
-    const la = prettifySourceLabel(a);
-    const lb = prettifySourceLabel(b);
-    const byLabel = la.localeCompare(lb, undefined, { sensitivity: "base", numeric: true });
-    if (byLabel !== 0) return byLabel;
-    return String(a).localeCompare(String(b), undefined, { sensitivity: "base", numeric: true });
-  });
-  for (const src of sources) {
-    const id = `db_${src.replace(/[^a-zA-Z0-9_-]/g, "_")}`;
+  selectedSources.clear();
+  const manifestSources = new Set((manifest.sources || []).map(String));
+  const groups = [];
+  const mappedSources = new Set();
+
+  for (const database of databaseRegistry?.databases || []) {
+    const sources = (database.origins || [])
+      .map(origin => String(origin.source || ""))
+      .filter(source => source && manifestSources.has(source));
+    if (sources.length === 0) continue;
+    sources.forEach(source => mappedSources.add(source));
+    groups.push({ id: String(database.id || database.label), label: String(database.label), sources });
+  }
+
+  for (const source of manifestSources) {
+    if (mappedSources.has(source)) continue;
+    groups.push({ id: source, label: prettifySourceLabel(source), sources: [source] });
+  }
+
+  groups.sort((a, b) => a.label.localeCompare(b.label, undefined, { sensitivity: "base", numeric: true }));
+  for (const group of groups) {
+    const id = `db_${group.id.replace(/[^a-zA-Z0-9_-]/g, "_")}`;
     const label = document.createElement("label");
     label.className = "db-item";
     const cb = document.createElement("input");
     cb.type = "checkbox";
     cb.id = id;
     cb.checked = true;
-    cb.dataset.source = src;
-    selectedSources.add(src);
+    cb.dataset.sources = JSON.stringify(group.sources);
+    group.sources.forEach(source => selectedSources.add(source));
     cb.addEventListener("change", async () => {
       if (cb.checked) selectedSources.add(src);
       else selectedSources.delete(src);
@@ -903,9 +923,7 @@ function buildDatabaseFilters() {
       await refreshDataFromSelection();
     });
     const text = document.createElement("span");
-    const cnt = manifest && manifest.source_count ? Number(manifest.source_count[src] || 0) : 0;
-    text.textContent = cnt > 0 ? `${prettifySourceLabel(src)} (${cnt})` : prettifySourceLabel(src);
-    text.title = src;
+    text.textContent = group.label;
     label.appendChild(cb);
     label.appendChild(text);
     dbFilters.appendChild(label);
@@ -1072,8 +1090,7 @@ function bindEvents() {
     document.querySelectorAll("#groupFilters .group-chip.sel").forEach(btn => btn.classList.remove("sel"));
     selectedSources.clear();
     document.querySelectorAll("#dbFilters input[type='checkbox']").forEach(el => {
-      el.checked = true;
-      selectedSources.add(el.dataset.source);
+      setDatabaseCheckboxSelection(el, true);
     });
     loadAllMode = true;
     writeUrlState();
@@ -1184,8 +1201,7 @@ function bindEvents() {
     dbAllBtn.addEventListener("click", async () => {
       selectedSources.clear();
       document.querySelectorAll("#dbFilters input[type='checkbox']").forEach(el => {
-        el.checked = true;
-        selectedSources.add(el.dataset.source);
+        setDatabaseCheckboxSelection(el, true);
       });
       page = 1;
       writeUrlState();
@@ -1197,7 +1213,7 @@ function bindEvents() {
     dbNoneBtn.addEventListener("click", async () => {
       selectedSources.clear();
       document.querySelectorAll("#dbFilters input[type='checkbox']").forEach(el => {
-        el.checked = false;
+        setDatabaseCheckboxSelection(el, false);
       });
       page = 1;
       writeUrlState();
@@ -1274,11 +1290,11 @@ async function init() {
       searchText = urlState.q.toLowerCase();
     }
     if (urlState.sources.length > 0) {
+      const requestedSources = new Set(urlState.sources);
       selectedSources.clear();
       document.querySelectorAll("#dbFilters input[type='checkbox']").forEach(el => {
-        const keep = urlState.sources.includes(el.dataset.source);
-        el.checked = keep;
-        if (keep) selectedSources.add(el.dataset.source);
+        const keep = sourcesForDatabaseCheckbox(el).some(source => requestedSources.has(source));
+        setDatabaseCheckboxSelection(el, keep);
       });
     }
     if (urlState.atoms.length > 0) {
