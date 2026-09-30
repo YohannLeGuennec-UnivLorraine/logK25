@@ -1,6 +1,6 @@
 function statusClass(status) {
   if (status === "documented") return "documented";
-  if (status === "documented_noncommercial" || status === "custom_permission") return "conditional";
+  if (status === "documented_noncommercial" || status === "custom_permission" || status === "source_notice") return "conditional";
   return "review-required";
 }
 
@@ -8,6 +8,8 @@ function statusLabel(status) {
   if (status === "documented") return "Documented";
   if (status === "documented_noncommercial") return "Non-commercial conditions";
   if (status === "custom_permission") return "Custom permission";
+  if (status === "source_notice") return "Source-specific notice";
+  if (status === "documented_restricted") return "Documented restriction";
   return "Institutional review required";
 }
 
@@ -20,6 +22,44 @@ function addText(parent, label, value, className = "") {
   p.appendChild(strong);
   p.appendChild(document.createTextNode(String(value)));
   parent.appendChild(p);
+}
+
+function addAuthors(parent, authors) {
+  if (!Array.isArray(authors) || authors.length === 0) return;
+  addText(parent, "Authors / responsible organisations", authors.join("; "));
+}
+
+function addReferences(parent, references) {
+  if (!Array.isArray(references) || references.length === 0) return;
+
+  const heading = document.createElement("h3");
+  heading.className = "legal-references-title";
+  heading.textContent = "Reference publications";
+  parent.appendChild(heading);
+
+  const list = document.createElement("ul");
+  list.className = "legal-references";
+  for (const reference of references) {
+    if (!reference || !reference.citation) continue;
+    const item = document.createElement("li");
+    if (reference.scope) {
+      const scope = document.createElement("strong");
+      scope.textContent = `${reference.scope}: `;
+      item.appendChild(scope);
+    }
+    if (reference.url) {
+      const link = document.createElement("a");
+      link.href = reference.url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = reference.citation;
+      item.appendChild(link);
+    } else {
+      item.appendChild(document.createTextNode(reference.citation));
+    }
+    list.appendChild(item);
+  }
+  if (list.childElementCount > 0) parent.appendChild(list);
 }
 
 async function initSourcesPage() {
@@ -46,9 +86,12 @@ async function initSourcesPage() {
       card.appendChild(badge);
 
       addText(card, "Version", source.version, "legal-meta");
+      addAuthors(card, source.authors);
       addText(card, "Known conditions", source.license_label);
       addText(card, "Reuse", source.reuse_summary);
       addText(card, "Attribution", source.attribution);
+      addText(card, "Scope", source.scope_note, "legal-scope");
+      addReferences(card, source.reference_publications);
 
       const links = document.createElement("p");
       links.className = "legal-meta";

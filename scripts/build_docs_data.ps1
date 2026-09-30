@@ -1,7 +1,10 @@
+param([string[]]$Sources = @())
+
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
-$root = Get-Location
+$scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$root = Resolve-Path (Join-Path $scriptDir '..')
 $inPath = Join-Path $root 'outputs\thermo_equilibrium_merged.tsv'
 if (-not (Test-Path $inPath)) {
     throw "Missing input TSV: $inPath"
@@ -11,7 +14,41 @@ $docsDir = Join-Path $root 'docs'
 $dataDir = Join-Path $docsDir 'data'
 $chunksDir = Join-Path $dataDir 'chunks'
 New-Item -ItemType Directory -Force -Path $docsDir, $dataDir, $chunksDir | Out-Null
-Get-ChildItem -Path $chunksDir -File -ErrorAction SilentlyContinue | Remove-Item -Force
+# Keep the existing data until replacement chunks have been computed.
+$Sources = @($Sources | ForEach-Object { $_ -split ',' } | ForEach-Object { $_.Trim() } | Where-Object { $_ })
+$incremental = $Sources.Count -gt 0
+function Write-DataFile([string]$path, [string]$json) {
+    $temporaryPath = $path + '.' + [guid]::NewGuid().ToString('N') + '.tmp'
+    try {
+        [System.IO.File]::WriteAllText($temporaryPath, $json, [System.Text.Encoding]::UTF8)
+        for ($attempt = 0; $attempt -lt 5; $attempt++) {
+            try {
+                if ([System.IO.File]::Exists($path)) {
+                    [System.IO.File]::Replace($temporaryPath, $path, [NullString]::Value)
+                } else {
+                    [System.IO.File]::Move($temporaryPath, $path)
+                }
+                return
+            } catch [System.IO.IOException] {
+                if ($attempt -eq 4) { throw }
+                Start-Sleep -Milliseconds 200
+            }
+        }
+    } finally {
+        if ([System.IO.File]::Exists($temporaryPath)) { [System.IO.File]::Delete($temporaryPath) }
+    }
+}
+function Test-SelectedSource($sourceIds) {
+    foreach ($sourceId in $sourceIds) {
+        foreach ($requested in $Sources) {
+            if ($sourceId -eq $requested -or $sourceId.StartsWith($requested + '-')) { return $true }
+        }
+    }
+    return $false
+}
+if ($incremental -and -not (Test-Path (Join-Path $dataDir 'manifest.json'))) {
+    throw 'A complete site build is required before updating selected sources.'
+}
 
 $sourcesConfigPath = Join-Path $root 'config\sources.json'
 if (-not (Test-Path $sourcesConfigPath)) {
@@ -717,9 +754,64 @@ function Get-SourcesFromContribCached([string]$txt) {
     return @($sources)
 }
 
+# Older merged exports retain the AqSolDB ID but not the InChI. Resolve those
+# records from the original CSV; new exports carry the InChI themselves.
+$aqsolInchiById = @{}
+$aqsolPath = Join-Path $root 'External databases\AqSolDB\results\data_curated.csv'
+if (Test-Path $aqsolPath) {
+    foreach ($compound in (Import-Csv -LiteralPath $aqsolPath)) {
+        $aqsolInchiById[[string]$compound.ID] = [string]$compound.InChI
+    }
+}
+
+function Get-AqSolHill([string]$comments) {
+    $inchi = ''
+    if ($comments -match '(?:^|;\s*)InChI=(InChI=1S?/\S+)') {
+        $inchi = $matches[1].TrimEnd(';')
+    } elseif ($comments -match '(?:^|;\s*)ID=([^;\s]+)') {
+        $id = $matches[1]
+        if ($aqsolInchiById.ContainsKey($id)) { $inchi = $aqsolInchiById[$id] }
+    }
+    if ($inchi -notmatch '^InChI=1S?/([^/]+)') { return '' }
+    $formula = Parse-FormulaCandidate $matches[1]
+    if ([string]::IsNullOrWhiteSpace($formula)) { return '' }
+    # The formula layer describes neutral components; /p records added/removed
+    # protons in the actual salt (e.g. cobalt citrate loses six hydrogens).
+    $counts = Parse-FormulaPart $formula
+    if ($inchi -match '/p([+-]?\d+)(?:/|$)') {
+        $hydrogens = if ($counts.ContainsKey('H')) { [int]$counts['H'] } else { 0 }
+        $counts['H'] = $hydrogens + [int]$matches[1]
+        if ($counts['H'] -lt 0) { return '' }
+        if ($counts['H'] -eq 0) { $counts.Remove('H') }
+    }
+    return Convert-ToHillFormula $counts
+}
+
 $rows = Import-Csv -Delimiter "`t" -Path $inPath
 $groupRules = @(Expand-ChemicalGroupRules (Get-ChemicalGroupRules))
 $chunks = @{}
+$existingProductChunks = @{}
+$originalChunkJson = @{}
+if ($incremental) {
+    $previousManifest = Get-Content -Raw -LiteralPath (Join-Path $dataDir 'manifest.json') | ConvertFrom-Json
+    foreach ($requested in $Sources) {
+        if (-not (@($previousManifest.sources | Where-Object { $_ -eq $requested -or $_.StartsWith($requested + '-') }).Count)) {
+            throw "Unknown source: $requested"
+        }
+    }
+    foreach ($chunk in $previousManifest.chunks) {
+        $chunkPath = Join-Path $chunksDir $chunk.file
+        if (-not (Test-Path -LiteralPath $chunkPath)) { throw "Missing chunk: $chunkPath. Run a complete site build first." }
+        $originalChunkJson[$chunk.key] = Get-Content -Raw -LiteralPath $chunkPath
+        $chunks[$chunk.key] = New-Object System.Collections.Generic.List[object]
+        foreach ($existingRow in ($originalChunkJson[$chunk.key] | ConvertFrom-Json)) {
+            $existingProductChunks[[string]$existingRow.p] = [string]$chunk.key
+            if (-not (Test-SelectedSource @($existingRow.s))) { $chunks[$chunk.key].Add($existingRow) }
+        }
+    }
+    $rows = @($rows | Where-Object { Test-SelectedSource @(Get-SourcesFromContribCached ([string]$_.contributing_logK)) })
+    Write-Output ("Updating {0} merged rows for: {1}" -f $rows.Count, ($Sources -join ', '))
+}
 $atomToChunks = @{}
 $sourceToChunks = @{}
 $groupToChunks = @{}
@@ -742,9 +834,17 @@ foreach ($r in $rows) {
     $hill = [string]$reactionData.hill
     $atoms = @($reactionData.atoms)
     $sources = @(Get-SourcesFromContribCached $contrib)
+    if ($sources -contains 'AqSolDB-logS-data_curated') {
+        $aqsolHill = Get-AqSolHill ([string]$r.database_comments)
+        if (-not [string]::IsNullOrWhiteSpace($aqsolHill)) {
+            $hill = $aqsolHill
+            $atoms = @(Get-AtomsFromText $aqsolHill)
+        }
+    }
     $groups = @($reactionData.groups)
     $groupCountMap = $reactionData.group_counts
     $chunkKey = Get-ChunkKey $product
+    if ($incremental -and $existingProductChunks.ContainsKey($product)) { $chunkKey = $existingProductChunks[$product] }
     if (-not $chunks.ContainsKey($chunkKey)) {
         $chunks[$chunkKey] = New-Object System.Collections.Generic.List[object]
     }
@@ -764,6 +864,14 @@ foreach ($r in $rows) {
         gc = $groupCountMap
     }
     $chunks[$chunkKey].Add($row) | Out-Null
+}
+
+# Rebuild the lightweight indexes from all retained and updated rows.
+foreach ($chunkKey in $chunks.Keys) {
+  foreach ($row in $chunks[$chunkKey]) {
+    $atoms = @($row.a)
+    $sources = @($row.s)
+    $groups = @($row.g)
     $total++
 
     foreach ($a in $atoms) {
@@ -788,6 +896,7 @@ foreach ($r in $rows) {
         }
         [void]$groupToChunks[$g].Add($chunkKey)
     }
+  }
 }
 
 $chunkManifest = @()
@@ -795,7 +904,9 @@ foreach ($key in ($chunks.Keys | Sort-Object)) {
     $file = "chunk_$key.json"
     $path = Join-Path $chunksDir $file
     $json = $chunks[$key] | ConvertTo-Json -Depth 6 -Compress
-    [System.IO.File]::WriteAllText($path, $json, [System.Text.Encoding]::UTF8)
+    if (-not $incremental -or -not $originalChunkJson.ContainsKey($key) -or $originalChunkJson[$key] -cne $json) {
+        Write-DataFile $path $json
+    }
     $chunkManifest += [PSCustomObject]@{ key = $key; file = $file; n = $chunks[$key].Count }
 }
 
@@ -840,11 +951,7 @@ $manifest = [PSCustomObject]@{
     group_labels = $groupLabelsOut
 }
 
-[System.IO.File]::WriteAllText(
-    (Join-Path $dataDir 'manifest.json'),
-    ($manifest | ConvertTo-Json -Depth 8 -Compress),
-    [System.Text.Encoding]::UTF8
-)
+Write-DataFile (Join-Path $dataDir 'manifest.json') ($manifest | ConvertTo-Json -Depth 8 -Compress)
 
 # Ensure GitHub Pages serves static assets as-is.
 [System.IO.File]::WriteAllText((Join-Path $docsDir '.nojekyll'), '', [System.Text.Encoding]::UTF8)

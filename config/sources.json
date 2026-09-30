@@ -1,7 +1,7 @@
 {
-  "schema_version": 1,
-  "reviewed_at": "2026-08-21",
-  "notice": "Source-specific reuse conditions apply. Entries marked review_required require institutional confirmation.",
+  "schema_version": 2,
+  "reviewed_at": "2026-08-27",
+  "notice": "Rights follow the underlying dataset, not the software or exchange format used to distribute it. Entries marked review_required require source-level or institutional confirmation.",
   "sources": [
     {
       "id": "aqsoldb",
@@ -9,6 +9,13 @@
       "version": "repository snapshot (9,982 compounds)",
       "source_url": "https://github.com/mcsorkun/AqSolDB",
       "persistent_id": "https://doi.org/10.1038/s41597-019-0151-1",
+      "authors": ["Murat Cihan Sorkun", "Abhishek Khetan", "Süleyman Er"],
+      "reference_publications": [
+        {
+          "citation": "Sorkun, M. C., Khetan, A. & Er, S. (2019). AqSolDB, a curated reference set of aqueous solubility and 2D descriptors for a diverse set of compounds. Scientific Data, 6, 143.",
+          "url": "https://doi.org/10.1038/s41597-019-0151-1"
+        }
+      ],
       "license_label": "Data CC0 1.0; code MIT",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "commercial_use": true,
@@ -19,18 +26,150 @@
       "source_patterns": ["AqSolDB-logS-"]
     },
     {
-      "id": "gwb",
-      "display_name": "GWB thermodynamic datasets",
-      "version": "multiple datasets",
+      "id": "gwb_header_notice",
+      "display_name": "GWB-formatted datasets with a source-file rights notice",
+      "version": "cemdata, coldchem, frezchem, minteq, NEA, PHREEQC and SIT snapshots",
       "source_url": "https://www.gwb.com/thermo.php",
       "persistent_id": null,
-      "license_label": "Dataset-specific review",
+      "authors": [
+        "Cemdata18: Barbara Lothenbach, Dmitrii Kulik, Thomas Matschei, Magdalena Balonis, Luis Baquerizo, Belay Z. Dilnesa, George Dan Miron and Rupert J. Myers",
+        "ColdChem: Jonathan D. Toner and David C. Catling",
+        "FREZCHEM lineage: David W. Marion and collaborators; PHREEQC adaptation by Jonathan D. Toner and Ronald S. Sletten",
+        "Visual MINTEQ: Jon Petter Gustafsson; GWB conversion by Daniel Saalfeld and Craig Bethke",
+        "NEA SIT: OECD NEA Thermochemical Database Project review teams",
+        "PHREEQC: David L. Parkhurst and C. A. J. Appelo; GWB conversion by Daniel Saalfeld and Craig Bethke",
+        "ThermoChimie: Andra, RWM and Ondraf/Niras; reference-publication authors listed below"
+      ],
+      "reference_publications": [
+        {
+          "scope": "thermo_cemdata.tdat",
+          "citation": "Lothenbach, B., Kulik, D., Matschei, T., Balonis, M., Baquerizo, L., Dilnesa, B. Z., Miron, G. D. & Myers, R. J. (2019). Cemdata18: A chemical thermodynamic database for hydrated Portland cements and alkali-activated materials. Cement and Concrete Research, 115, 472–506.",
+          "url": "https://doi.org/10.1016/j.cemconres.2018.04.018"
+        },
+        {
+          "scope": "thermo_coldchem.tdat",
+          "citation": "Toner, J. D. & Catling, D. C. (2017). A Low-Temperature Thermodynamic Model for the Na–K–Ca–Mg–Cl System Incorporating New Experimental Heat Capacities in KCl, MgCl₂, and CaCl₂ Solutions. Journal of Chemical & Engineering Data, 62, 995–1010.",
+          "url": "https://doi.org/10.1021/acs.jced.6b00812"
+        },
+        {
+          "scope": "thermo_frezchem.tdat",
+          "citation": "Toner, J. D. & Sletten, R. S. (2013). The formation of Ca–Cl-rich groundwaters in the Dry Valleys of Antarctica: Field measurements and modeling of reactive transport. Geochimica et Cosmochimica Acta, 110, 84–105.",
+          "url": "https://doi.org/10.1016/j.gca.2013.02.013"
+        },
+        {
+          "scope": "thermo_minteq.tdat",
+          "citation": "Gustafsson, J. P. Visual MINTEQ (database maintained since 2000); the local GWB header identifies Visual MINTEQ 2.40 and compilation by Jon Petter Gustafsson (2005).",
+          "url": "https://vminteq.com/"
+        },
+        {
+          "scope": "thermo_nea.tdat",
+          "citation": "OECD Nuclear Energy Agency, Thermochemical Database (TDB) Project. Electronic database and Chemical Thermodynamics Series; local snapshot: NEA SIT database v1.0, November 2018.",
+          "url": "https://www.oecd-nea.org/jcms/pl_37223/electronic-database-of-the-tdb-project"
+        },
+        {
+          "scope": "thermo_phreeqc.tdat",
+          "citation": "Parkhurst, D. L. & Appelo, C. A. J. (2013). Description of input and examples for PHREEQC version 3. USGS Techniques and Methods 6-A43. The local GWB conversion of PHREEQC 2.8 was compiled by Daniel Saalfeld and Craig Bethke (2003).",
+          "url": "https://doi.org/10.3133/tm6A43"
+        },
+        {
+          "scope": "thermo_sit.tdat",
+          "citation": "Giffaut, E., Grivé, M., Blanc, P., Vieillard, P., Colàs, E., Gailhanou, H., Gaboreau, S., Marty, N., Madé, B. & Duro, L. (2014). Andra thermodynamic database for performance assessment: ThermoChimie. Applied Geochemistry, 49, 225–236.",
+          "url": "https://doi.org/10.1016/j.apgeochem.2014.05.007"
+        }
+      ],
+      "license_label": "Header states: not subject to copyright, to the distributor's best knowledge",
+      "license_url": null,
+      "commercial_use": null,
+      "redistribution": "source_notice_requires_attribution",
+      "attribution": "Cite the underlying dataset, its authors, version and references; identify GWB only as the distribution format or conversion channel.",
+      "reuse_summary": "The integrated file contains a favourable rights notice, but it is not a formal licence from every underlying contributor. Preserve the full header and attribution, and review any substantial commercial redistribution at dataset level.",
+      "legal_status": "source_notice",
+      "scope_note": "Applies only to the exact GWB source identifiers listed here, not to every .tdat file.",
+      "source_patterns": [
+        "GWB-thermo_cemdata",
+        "GWB-thermo_coldchem",
+        "GWB-thermo_frezchem",
+        "GWB-thermo_minteq",
+        "GWB-thermo_nea",
+        "GWB-thermo_phreeqc",
+        "GWB-thermo_sit"
+      ]
+    },
+    {
+      "id": "gwb_thereda",
+      "display_name": "THEREDA 2023a distributed in GWB format",
+      "version": "THEREDA 2023a / GWB parameter file generated 2024-04-08",
+      "source_url": "https://www.thereda.de/",
+      "persistent_id": null,
+      "authors": ["THEREDA consortium", "Helge C. Moog", "Frank Bok", "Christian M. Marquardt", "Vinzenz Brendler", "release-specific contributors documented by THEREDA"],
+      "reference_publications": [
+        {
+          "citation": "Moog, H. C., Bok, F., Marquardt, C. M. & Brendler, V. (2015). Disposal of nuclear waste in host rock formations featuring high-saline solutions – Implementation of a thermodynamic reference database (THEREDA). Applied Geochemistry, 55, 72–84.",
+          "url": "https://doi.org/10.1016/j.apgeochem.2014.12.016"
+        },
+        {
+          "citation": "Moog, H. C. et al. (2025). THEREDA: Thermodynamic reference database for geochemical modelling of nuclear waste disposal under saline conditions – Application, overview, and new developments. Applied Geochemistry, 196, 106646.",
+          "url": "https://www.thereda.de/en"
+        }
+      ],
+      "license_label": "CC BY-NC-ND 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "commercial_use": false,
+      "redistribution": "unmodified_noncommercial_only",
+      "attribution": "Credit the THEREDA team, link CC BY-NC-ND 4.0, retain the file notice and identify the exact release.",
+      "reuse_summary": "Non-commercial redistribution of the unmodified source is permitted with attribution. The NoDerivatives clause does not clearly permit publication of logK25's transformed records; permission is required for that use.",
+      "legal_status": "documented_restricted",
+      "scope_note": "GWB is the file format. The licence is the one embedded by the THEREDA data provider.",
+      "source_patterns": ["GWB-THEREDA_2023a_GWB"]
+    },
+    {
+      "id": "gwb",
+      "display_name": "Other datasets distributed in GWB format",
+      "version": "LLNL, HMW, PHRQPITZ, WATEQ4F and Yucca Mountain-derived files",
+      "source_url": "https://www.gwb.com/thermo.php",
+      "persistent_id": null,
+      "authors": [
+        "LLNL/EQ3/6: Joan M. Delany, Susan R. Lundeen and Thomas J. Wolery, with the source authors documented inside the files",
+        "HMW: Charles E. Harvie, Nancy Møller and John H. Weare",
+        "PHRQPITZ: L. Niel Plummer, David L. Parkhurst, G. W. Fleming and S. A. Dunkle",
+        "WATEQ4F: James W. Ball and D. Kirk Nordstrom; GWB conversion by Daniel Saalfeld and Craig Bethke",
+        "Yucca Mountain Pitzer: Carlos Jové-Colón, Thomas J. Wolery, Joseph A. Rard, Ananda Wijesinghe, Robert Jareck and Kelly Helean; GWB reformatting by Frank Bok"
+      ],
+      "reference_publications": [
+        {
+          "scope": "thermo.tdat et thermo.com.V8.R6+.tdat",
+          "citation": "Delany, J. M. & Lundeen, S. R. (1990). The LLNL Thermochemical Database. Lawrence Livermore National Laboratory, UCRL-21658; jeux EQ3/6 développés notamment par Thomas J. Wolery.",
+          "url": "https://www.osti.gov/servlets/purl/2896"
+        },
+        {
+          "scope": "thermo_hmw.tdat",
+          "citation": "Harvie, C. E., Møller, N. & Weare, J. H. (1984). The prediction of mineral solubilities in natural waters: The Na–K–Mg–Ca–H–Cl–SO₄–OH–HCO₃–CO₃–CO₂–H₂O system to high ionic strengths at 25 °C. Geochimica et Cosmochimica Acta, 48, 723–751.",
+          "url": "https://doi.org/10.1016/0016-7037(84)90098-X"
+        },
+        {
+          "scope": "thermo_phrqpitz.tdat",
+          "citation": "Plummer, L. N., Parkhurst, D. L., Fleming, G. W. & Dunkle, S. A. (1988). A computer program incorporating Pitzer’s equations for calculation of geochemical reactions in brines. USGS Water-Resources Investigations Report 88-4153.",
+          "url": "https://pubs.usgs.gov/wri/1988/4153/report.pdf"
+        },
+        {
+          "scope": "thermo_wateq4f.tdat",
+          "citation": "Ball, J. W. & Nordstrom, D. K. (1991). User’s manual for WATEQ4F, with revised thermodynamic data base and test cases for calculating speciation of major, trace, and redox elements in natural waters. USGS Open-File Report 91-183. Local GWB conversion: Daniel Saalfeld and Craig Bethke (2003).",
+          "url": "https://pubs.usgs.gov/publication/ofr91183"
+        },
+        {
+          "scope": "thermo_ymp.R2.tdat",
+          "citation": "Jové-Colón, C., Wolery, T., Rard, J., Wijesinghe, A., Jareck, R. & Helean, K. (2007). Pitzer database development: Description of the Pitzer geochemical thermodynamic database data0.ypf.R2. Appendix I in In-Drift Precipitates/Salts Model, ANL-EBS-MD-000045 REV 03. GWB reformatting by Frank Bok.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2784469/"
+        }
+      ],
+      "license_label": "Underlying-dataset review required",
       "license_url": null,
       "commercial_use": null,
       "redistribution": "review_required",
-      "attribution": "Cite the exact dataset, version, authors and references retained in each file header.",
-      "reuse_summary": "Conditions differ by dataset; no single GWB licence covers all integrated files.",
+      "attribution": "Cite the original LLNL, USGS, Sandia/DOE or other dataset named in the file header; identify GWB only as the format or distributor.",
+      "reuse_summary": "The GWB website identifies the upstream datasets but does not provide one licence covering them. Downloadability and permission to edit a .tdat file do not by themselves grant bulk republication rights in the underlying compilation.",
       "legal_status": "review_required",
+      "scope_note": "Residual rule for GWB source identifiers not covered by a more specific record. The site uses the longest matching source pattern.",
       "source_patterns": ["GWB-"]
     },
     {
@@ -39,6 +178,17 @@
       "version": "v2.3d",
       "source_url": "https://github.com/IUPAC/Dissociation-Constants",
       "persistent_id": "https://doi.org/10.5281/zenodo.7236453",
+      "authors": ["Jonathan W. Zheng", "Olivier Lafontant-Joseph"],
+      "reference_publications": [
+        {
+          "citation": "Zheng, J. W. & Lafontant-Joseph, O. (2025). IUPAC Digitized pKa Dataset, v2.3d. International Union of Pure and Applied Chemistry (IUPAC).",
+          "url": "https://doi.org/10.5281/zenodo.7236453"
+        },
+        {
+          "citation": "Zheng, J. W., Lafontant-Joseph, O. & Green, W. H. (2026). Digitized dataset of aqueous acid dissociation constants. RSC Advances, 16, 21397–21412.",
+          "url": "https://doi.org/10.1039/D6RA02418A"
+        }
+      ],
       "license_label": "CC BY-NC 4.0",
       "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
       "commercial_use": false,
@@ -54,6 +204,17 @@
       "version": "v8.9",
       "source_url": "https://zenodo.org/records/7700024",
       "persistent_id": "https://doi.org/10.5281/zenodo.7700024",
+      "authors": ["Josep Bonet", "Montserrat Filella", "Peter M. May", "Ruth F. May", "Kevin Murray"],
+      "reference_publications": [
+        {
+          "citation": "Bonet, J., Filella, M., May, P. M., May, R. F. & Murray, K. (2023). JESS Thermodynamic database of chemical reactions, v8.9.",
+          "url": "https://doi.org/10.5281/zenodo.7700024"
+        },
+        {
+          "citation": "May, P. M. & Murray, K. (1991). JESS, a joint expert speciation system—II. The thermodynamic database. Talanta, 38, 1419–1426.",
+          "url": "https://jess.may.org.au/cgi-bin/wwwhlp.pl?f77=hlpwww&z1=01"
+        }
+      ],
       "license_label": "Custom permission; attribution required",
       "license_url": "https://zenodo.org/records/7700024",
       "commercial_use": null,
@@ -64,18 +225,57 @@
       "source_patterns": ["JESS-PHREEQC-like-"]
     },
     {
+      "id": "soltherm_medusa_export",
+      "display_name": "SOLTHERM distributed as a Medusa/Spana export",
+      "version": "local export derived from soltherm.REE_working.xpt v.65 (2018-09-25)",
+      "source_url": "https://catalog.data.gov/dataset/soltherm-thermodynamic-database-for-geochemical-modeling",
+      "persistent_id": "https://doi.org/10.15121/1805737",
+      "authors": ["Mark H. Reed", "Jim Palandri", "University of Oregon maintainers and record-level contributors"],
+      "reference_publications": [
+        {
+          "citation": "Reed, M. H. & Palandri, J. (2006). SOLTHERM.H06, A Database of Equilibrium Constants for Minerals and Aqueous Species. University of Oregon.",
+          "url": "https://doi.org/10.15121/1805737"
+        },
+        {
+          "citation": "The local Soltherm_References.txt file supplies the primary bibliographic source attached to each reaction; those record-level references remain authoritative for individual values.",
+          "url": "https://catalog.data.gov/dataset/soltherm-thermodynamic-database-for-geochemical-modeling"
+        }
+      ],
+      "license_label": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "commercial_use": true,
+      "redistribution": "permitted_with_attribution",
+      "attribution": "Credit SOLTHERM and its University of Oregon maintainers, cite DOI 10.15121/1805737, link CC BY 4.0 and identify the Medusa/logK25 transformations.",
+      "reuse_summary": "Reuse, modification and redistribution are permitted under CC BY 4.0 with attribution and an indication of changes. Medusa/Spana is only the export container.",
+      "legal_status": "documented",
+      "scope_note": "Applies to Medusa-Soltherm only; it is not a licence for other Medusa/Spana databases.",
+      "source_patterns": ["Medusa-Soltherm"]
+    },
+    {
       "id": "medusa",
-      "display_name": "Medusa/Hydra databases",
-      "version": "multiple database files",
+      "display_name": "Medusa/Hydra / Spana software and database container",
+      "version": "KTH distribution",
       "source_url": "https://www.kth.se/che/medusa/downloads-1.386254",
       "persistent_id": null,
-      "license_label": "Redistribution review required",
-      "license_url": null,
+      "authors": ["Ignasi Puigdomènech (HYDRA/MEDUSA and Spana software)", "Underlying database authors vary by data file"],
+      "reference_publications": [
+        {
+          "citation": "Puigdomènech, I. (2001). Hydrochemical Equilibrium Constants Database, HYDRA and MEDUSA documentation. KTH Royal Institute of Technology.",
+          "url": "https://www.kth.se/che/medusa/downloads-1.386254"
+        },
+        {
+          "citation": "Puigdomènech, I., Colàs, E., Grivé, M., Campos, I. & García, D. (2014). A tool to draw chemical equilibrium diagrams using SIT: Applications to geochemical systems and radionuclide solubility. MRS Proceedings, 1665, 111–116.",
+          "url": "https://doi.org/10.1557/opl.2014.635"
+        }
+      ],
+      "license_label": "Software licence does not license bundled datasets",
+      "license_url": "https://sourceforge.net/projects/eq-diagr/",
       "commercial_use": null,
-      "redistribution": "review_required",
-      "attribution": "Identify Medusa/Hydra, KTH Royal Institute of Technology, the exact database file and record-level reference where available.",
-      "reuse_summary": "No explicit redistribution licence was identified in the examined files.",
-      "legal_status": "review_required",
+      "redistribution": "dataset_specific",
+      "attribution": "For each data file, cite the upstream database and record-level reference. Cite Medusa/Spana only for the software or conversion layer.",
+      "reuse_summary": "The eq-diagr software is published under GPLv3, but that licence does not automatically cover SOLTHERM, Thermoddem, MINTEQ, WATEQ4F, NIST or other data compilations handled by the software.",
+      "legal_status": "source_notice",
+      "scope_note": "No currently ingested row should inherit a generic Medusa licence: Soltherm and the Thermoddem export are matched to their underlying-source records.",
       "source_patterns": ["Medusa-"]
     },
     {
@@ -84,13 +284,25 @@
       "version": "8.0",
       "source_url": "https://data.nist.gov/pdr/lps/ark:/88434/mds2-2154",
       "persistent_id": "https://doi.org/10.18434/M32154",
-      "license_label": "SRD review required",
-      "license_url": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
-      "commercial_use": null,
-      "redistribution": "review_required",
-      "attribution": "Cite Donald R. Burgess (2004), NIST SRD 46, version 8.0, DOI 10.18434/M32154, and identify logK25 modifications.",
-      "reuse_summary": "Substantial republication of the protected SRD compilation requires institutional review.",
-      "legal_status": "review_required",
+      "authors": ["R. M. Smith (data collection and selection)", "A. E. Martell (data collection and selection)", "R. J. Motekaitis (program)", "Donald R. Burgess (NIST dataset contact/citation)"],
+      "reference_publications": [
+        {
+          "citation": "Burgess, D. R. (2004). NIST SRD 46. Critically Selected Stability Constants of Metal Complexes: Version 8.0 for Windows. National Institute of Standards and Technology.",
+          "url": "https://doi.org/10.18434/M32154"
+        },
+        {
+          "citation": "Martell, A. E. & Smith, R. M. (1974–1989). Critical Stability Constants, vols. 1–6. Plenum Press, New York; principal printed compilation underlying SRD 46.",
+          "url": "https://www.nist.gov/system/files/documents/srd/46_8.htm"
+        }
+      ],
+      "license_label": "NIST Fair Use terms attached to the SRD 46 SQL distribution",
+      "license_url": "https://data.nist.gov/od/ds/mds2-2154/SRD%2046%20README.txt",
+      "commercial_use": true,
+      "redistribution": "permitted_with_attribution_and_change_notice",
+      "attribution": "Cite Donald R. Burgess (2004), NIST SRD 46, version 8.0, DOI 10.18434/M32154; acknowledge NIST and state the date and nature of logK25 modifications.",
+      "reuse_summary": "The README distributed with SRD 46 SQL expressly permits modification, derivative works, copying and distribution worldwide on a royalty-free basis, subject to acknowledgement and a change notice.",
+      "legal_status": "documented",
+      "scope_note": "The SQL archive was extracted from the legacy Windows database by an outside group. NIST disclaims its reliability and reports known structural errors; logK25 must not imply NIST endorsement.",
       "source_patterns": ["NIST-SRD46-"]
     },
     {
@@ -99,6 +311,17 @@
       "version": "psinagra2020 v2-1",
       "source_url": "https://www.psi.ch/en/les/thermodynamic-databases",
       "persistent_id": null,
+      "authors": ["Wolfgang Hummel", "Tres Thoenen", "George-Dan Miron (temperature/pressure extensions where applicable)", "PSI/Nagra database team"],
+      "reference_publications": [
+        {
+          "citation": "Hummel, W. & Thoenen, T. (2023). The PSI Chemical Thermodynamic Database 2020. Nagra Technical Report NTB 21-03.",
+          "url": "https://www.psi.ch/en/les/database"
+        },
+        {
+          "citation": "Miron, G. D. (2025). PSI/Nagra TDB, effect of temperature and pressure: II. Updated selection of temperature dependent parameters of solids and aqueous complexes in the system Fe, Al, Si, Ca, Mg, SO₄²⁻, CO₃²⁻, PO₄²⁻. PSI TM 44-25-04.",
+          "url": "https://www.psi.ch/en/les/database"
+        }
+      ],
       "license_label": "Non-commercial / review required",
       "license_url": "https://www.psi.ch/en/terms-and-conditions",
       "commercial_use": false,
@@ -114,6 +337,17 @@
       "version": "v1.10 (2020-12-15)",
       "source_url": "https://thermoddem.brgm.fr/databases",
       "persistent_id": null,
+      "authors": ["Philippe Blanc", "Arnault Lassin", "Patrice Piantone", "Mohamed Azaroual", "Nicolas Jacquemet", "Antonin Fabbri", "Éric C. Gaucher", "BRGM Thermoddem team"],
+      "reference_publications": [
+        {
+          "citation": "Blanc, P., Lassin, A., Piantone, P., Azaroual, M., Jacquemet, N., Fabbri, A. & Gaucher, E. C. (2012). Thermoddem: A geochemical database focused on low temperature water/rock interactions and waste materials. Applied Geochemistry, 27, 2107–2116.",
+          "url": "https://doi.org/10.1016/j.apgeochem.2012.06.002"
+        },
+        {
+          "citation": "Piantone, P., Nowak, C., Blanc, P., Lassin, A. & Burnol, A. (2006). Thermoddem : THERmodynamique et MOdélisation de la Dégradation DEchets Minéraux. BRGM/RP-54547-FR.",
+          "url": "https://infoterre.brgm.fr/rapports/RP-54547-FR.pdf"
+        }
+      ],
       "license_label": "Licence applicability to confirm",
       "license_url": "https://infoterre.brgm.fr/page/conditions-dutilisation-donnees",
       "commercial_use": null,
@@ -121,7 +355,8 @@
       "attribution": "Source: BRGM, Thermoddem v1.10, updated 15 December 2020. Identify transformations and do not distort the source meaning.",
       "reuse_summary": "Application of the Licence Ouverte Etalab 2.0 to these specific files must be confirmed.",
       "legal_status": "review_required",
-      "source_patterns": ["Thermoddem-"]
+      "scope_note": "Also applies to the PHREEQC Thermoddem v1.10 file distributed through the Medusa/Spana folder; Medusa is only the container in that case.",
+      "source_patterns": ["Thermoddem-", "Medusa-PHREEQC_ThermoddemV1.10_15Dec2020"]
     }
   ]
 }

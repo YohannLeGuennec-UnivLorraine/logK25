@@ -1,7 +1,8 @@
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
-$root = Get-Location
+$scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$root = Resolve-Path (Join-Path $scriptDir '..')
 $inPath = Join-Path $root 'outputs\thermo_equilibrium_merged.tsv'
 $outPath = Join-Path $root 'outputs\thermo_equilibrium_merged_prettified.tsv'
 

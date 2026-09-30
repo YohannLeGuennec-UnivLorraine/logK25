@@ -1,12 +1,12 @@
-const SW_VERSION = "2026-08-21-source-rights-v1";
+const SW_VERSION = "2026-09-30-clean-filters-v1";
 const APP_CACHE = `logk25-app-${SW_VERSION}`;
 const DATA_CACHE = `logk25-data-${SW_VERSION}`;
 
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./style.css?v=20260821-source-rights-v1",
-  "./app.js?v=20260821-source-rights-v1",
+  "./style.css?v=20260930-clean-filters-v1",
+  "./app.js?v=20260930-clean-filters-v1",
   "./sources-and-licenses.html",
   "./sources.js?v=20260821-source-rights-v1",
   "./data/sources.json",

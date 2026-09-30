@@ -1,7 +1,8 @@
 ﻿Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
-$root = Get-Location
+$scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$root = Resolve-Path (Join-Path $scriptDir '..')
 $outDir = Join-Path $root 'outputs'
 New-Item -ItemType Directory -Force -Path $outDir | Out-Null
 
@@ -813,6 +814,7 @@ function Parse-AqSolDB($csvPath, $sourceFamily) {
         $dbCommentParts = @('AqSolDB logS value used as solubility-proxy; not a direct thermodynamic equilibrium constant')
         if (-not [string]::IsNullOrWhiteSpace([string]$r.ID)) { $dbCommentParts += ('ID=' + [string]$r.ID) }
         if (-not [string]::IsNullOrWhiteSpace([string]$r.InChIKey)) { $dbCommentParts += ('InChIKey=' + [string]$r.InChIKey) }
+        if (-not [string]::IsNullOrWhiteSpace([string]$r.InChI)) { $dbCommentParts += ('InChI=' + [string]$r.InChI) }
         if (-not [string]::IsNullOrWhiteSpace([string]$r.SMILES)) { $dbCommentParts += ('SMILES=' + [string]$r.SMILES) }
         if (-not [string]::IsNullOrWhiteSpace([string]$r.SD)) { $dbCommentParts += ('SD=' + [string]$r.SD) }
         if (-not [string]::IsNullOrWhiteSpace([string]$r.Occurrences)) { $dbCommentParts += ('Occurrences=' + [string]$r.Occurrences) }

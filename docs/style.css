@@ -458,27 +458,26 @@ button:hover {
   color: #991b1b;
 }
 
-.source-rights-notice {
-  margin-top: 10px;
-  padding: 9px 10px;
-  border: 1px solid #d8dde3;
-  border-radius: 8px;
-  background: #f8fafc;
-  color: #4b5563;
-  font-size: 11px;
-  line-height: 1.45;
+.legal-scope {
+  margin-top: 8px;
+  padding: 7px 9px;
+  border-left: 3px solid #0f766e;
+  background: #f0fdfa;
+  color: #334155;
 }
 
-.source-rights-summary {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
-  margin: 6px 0;
+.legal-references-title {
+  margin: 1rem 0 0.35rem;
+  font-size: 0.98rem;
 }
 
-.source-rights-summary:empty::before {
-  content: "No database selected.";
-  color: #6b7280;
+.legal-references {
+  margin: 0 0 1rem;
+  padding-left: 1.25rem;
+}
+
+.legal-references li + li {
+  margin-top: 0.55rem;
 }
 
 .db-panel.collapsed {
