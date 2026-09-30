@@ -1,11 +1,11 @@
-const SW_VERSION = "2026-09-30-source-map-v4";
+const SW_VERSION = "2026-09-30-logk-help-v5";
 const APP_CACHE = `logk25-app-${SW_VERSION}`;
 const DATA_CACHE = `logk25-data-${SW_VERSION}`;
 
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./style.css?v=20260930-no-rights-badges-v3",
+  "./style.css?v=20260930-logk-help-v5",
   "./app.js?v=20260930-source-map-v4",
   "./sources-and-licenses.html",
   "./sources.js?v=20260821-source-rights-v1",
