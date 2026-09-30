@@ -458,6 +458,12 @@ button:hover {
   color: #991b1b;
 }
 
+/* Reuse information belongs in the documentation, not in database filters. */
+.db-panel .source-rights-badge,
+.db-panel .source-rights-notice {
+  display: none;
+}
+
 .legal-scope {
   margin-top: 8px;
   padding: 7px 9px;

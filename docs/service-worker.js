@@ -1,15 +1,16 @@
-const SW_VERSION = "2026-09-30-clean-filters-v1";
+const SW_VERSION = "2026-09-30-source-map-v4";
 const APP_CACHE = `logk25-app-${SW_VERSION}`;
 const DATA_CACHE = `logk25-data-${SW_VERSION}`;
 
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./style.css?v=20260930-clean-filters-v1",
-  "./app.js?v=20260930-clean-filters-v1",
+  "./style.css?v=20260930-no-rights-badges-v3",
+  "./app.js?v=20260930-source-map-v4",
   "./sources-and-licenses.html",
   "./sources.js?v=20260821-source-rights-v1",
   "./data/sources.json",
+  "./data/database_families.json",
   "./manifest.webmanifest",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
@@ -54,6 +55,20 @@ self.addEventListener("fetch", (event) => {
 
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
+
+  // Prefer the current page so a cached HTML shell cannot pin old scripts.
+  if (request.mode === "navigate") {
+    event.respondWith(
+      fetch(request).then((response) => {
+        if (response.ok) {
+          const copy = response.clone();
+          event.waitUntil(caches.open(APP_CACHE).then((cache) => cache.put(request, copy)));
+        }
+        return response;
+      }).catch(() => caches.match(request).then((cached) => cached || caches.match("./index.html")))
+    );
+    return;
+  }
 
   const isData =
     url.pathname.includes("/data/") ||

@@ -54,6 +54,8 @@ const countLoaded = document.getElementById("countLoaded");
 const countTotal = document.getElementById("countTotal");
 
 let manifest = null;
+let databaseRegistry = null;
+const databaseBySource = new Map();
 const selectedAtoms = new Set();
 const loadedChunkKeys = new Set();
 const loadedRows = [];
@@ -882,6 +884,18 @@ async function refreshDataFromSelection() {
   }
 }
 
+function sourcesForDatabaseCheckbox(checkbox) {
+  return JSON.parse(checkbox.dataset.sources || "[]");
+}
+
+function setDatabaseCheckboxSelection(checkbox, checked) {
+  checkbox.checked = checked;
+  for (const source of sourcesForDatabaseCheckbox(checkbox)) {
+    if (checked) selectedSources.add(source);
+    else selectedSources.delete(source);
+  }
+}
+
 function buildDatabaseFilters() {
   if (!dbFilters || !manifest) return;
   dbFilters.innerHTML = "";
@@ -916,8 +930,7 @@ function buildDatabaseFilters() {
     cb.dataset.sources = JSON.stringify(group.sources);
     group.sources.forEach(source => selectedSources.add(source));
     cb.addEventListener("change", async () => {
-      if (cb.checked) selectedSources.add(src);
-      else selectedSources.delete(src);
+      setDatabaseCheckboxSelection(cb, cb.checked);
       page = 1;
       writeUrlState();
       await refreshDataFromSelection();
@@ -1267,6 +1280,17 @@ async function init() {
     manifestLoaded = true;
     dataVersion = manifest.generated_at || "";
     countTotal.textContent = String(manifest.total_rows || 0);
+    try {
+      databaseRegistry = await fetchJson("./data/database_families.json");
+    } catch (_) {
+      databaseRegistry = null;
+    }
+    databaseBySource.clear();
+    for (const database of databaseRegistry?.databases || []) {
+      for (const origin of database.origins || []) {
+        databaseBySource.set(String(origin.source), { database, origin });
+      }
+    }
     buildDatabaseFilters();
     buildGroupFilters();
     if (dbPanel) setDbPanelCollapsed(dbPanel.classList.contains("collapsed"));
